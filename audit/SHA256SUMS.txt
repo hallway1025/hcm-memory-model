@@ -1,5 +1,5 @@
 # HCM deliverables SHA256 manifest
-# generated: 2026-11-21T22:37:44+00:00
+# generated: 2026-11-21T23:45:35+00:00
 # files: 677
 # scope: project deliverables only (src/bench/results/tools/refs/tests/docs/repro/paper/audit/notes + README.md);
 #        third-party virtualenvs and OS caches are excluded by construction
@@ -205,7 +205,7 @@ c0387caddaebaf1a2eea5b1e7d3ebc9a17653e3f277c27e873116006a101ef2f  notes/lit/SURV
 8331dc238286b82c45db9963108960d4edf0f8c3f91e1cc75101e07343a45bff  notes/section417-draft.md
 ebefbca4f97ad795ead2938dd4c44799c50a7bbc05140cf77f5bff6572eeb220  notes/section418-draft.md
 8d0af35eaec56142553e8f7b4e7dd64b116d182d580bed9e12cd74e4664da895  paper/PAPER.md
-d28eeb05fa1ab4391b02a921ea5376e5ca6985aef9be52f070cf3348c1890bee  paper/PAPER_EN.md
+e7ced59fd8480a51e1030a789080057a73bf338fc977809cf2d445dcd53128f1  paper/PAPER_EN.md
 eec6f7fe400dddaced5da059ae6ac6756a0f6993618a32b2681adaab99c82d80  paper/figures/fig1_architecture.png
 9f3df480af33eb9ea752014e1f0a3a18e32d555574ee064b3f210b3d3622fccc  paper/figures/fig1_architecture.tif
 ce4a44617d0ec91fc7f8329e665b64c53309328197e233f0c449ee918962dfc0  paper/figures/fig2_separation.png
