@@ -1,5 +1,5 @@
 # HCM deliverables SHA256 manifest
-# generated: 2026-11-21T22:34:27+00:00
+# generated: 2026-11-21T22:36:34+00:00
 # files: 677
 # scope: project deliverables only (src/bench/results/tools/refs/tests/docs/repro/paper/audit/notes + README.md);
 #        third-party virtualenvs and OS caches are excluded by construction
