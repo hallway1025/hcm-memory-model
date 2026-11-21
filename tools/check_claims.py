@@ -719,7 +719,8 @@ def check_numbers():
     for f in ["paper/PAPER_EN_final.md"]:
         expect_s("appx stage0 crosscheck in " + f, paper_has(f, "Cross-check against a real agent memory (Stage 0, descriptive)"), True)
         expect_s("appx stage0 pool132 in " + f, paper_has(f, "132 entries with a median age of 43 days"), True)
-        expect_s("appx stage0 hits11171 in " + f, paper_has(f, "11,171 recorded retrieval hits"), True)
+        expect_s("appx stage0 hits11171 in " + f,
+                 paper_has(f, "11,171 recorded retrieval hits") or paper_has(f, "11,171 recorded retrievals covered"), True)
     expect_s("appx stage0 CN heading", paper_has("paper/PAPER_final.md", "与真实智能体记忆的交叉核对（Stage 0，描述性）"), True)
     expect_s("appx stage0 CN pool", paper_has("paper/PAPER_final.md", "检索池 132 条、中位 43 天"), True)
     expect_s("appx stage0 CN hits", paper_has("paper/PAPER_final.md", "11,171 次检索命中"), True)

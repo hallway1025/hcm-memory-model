@@ -39,7 +39,15 @@ def fmt_ref(num: int, r: dict) -> str:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--src", default=None, help="override source md (default paper/PAPER.md)")
+    ap.add_argument("--out", default=None, help="override output md (default paper/PAPER_final.md)")
     args = ap.parse_args()
+
+    global SRC, OUT
+    if args.src:
+        SRC = os.path.join(ROOT, args.src)
+    if args.out:
+        OUT = os.path.join(ROOT, args.out)
 
     refs = load_refs()
     by_key = {}
@@ -87,15 +95,28 @@ def main() -> int:
     out = TOKEN.sub(lambda m: "[%d]" % numbering[(m.group(1), m.group(2))], text)
     out = out.replace("{{NCITE}}", str(len(refs)))
 
-    parts = [out, "\n---\n", "## 参考文献\n"]
+    # EN 源输出英文标题（update_cited_ids.py 按 "## References" 定位文献区）
+    is_en = "PAPER_EN" in os.path.basename(SRC)
+    refs_heading = "## References" if is_en else "## 参考文献"
+    appx_heading = ("## Appendix D: module evidence base (auto-generated)\n"
+                    "Per model module, the highest-authority sources in the citation bank (up to 8 each, T1 first)."
+                    ) if is_en else "## 附录 D：模块证据基座（自动生成）\n"
+    appx_note = ("This table does NOT claim each reference directly supports a specific claim of this paper; "
+                 "it only reports evidence-source coverage per module. Full fields (DOI, PMID, verification "
+                 "status, tier) live in refs/refs.jsonl and audit/citations-report.md.\n"
+                 ) if is_en else (
+                 "下表按模型模块列出文献库中权威度最高的证据来源（每模块至多 8 条，T1 优先）。"
+                 "此表**不声称**每篇文献直接支持本文的具体论断，只说明每个模块的证据来源覆盖情况；"
+                 "完整字段（DOI、PMID、核验状态、证据等级）见 refs/refs.jsonl 与 audit/citations-report.md。\n")
+
+    parts = [out, "\n---\n", refs_heading + "\n"]
     for t in order:
         parts.append(fmt_ref(numbering[t], chosen[t]))
         parts.append("")
     parts.append("\n---\n")
-    parts.append("## 附录 D：模块证据基座（自动生成）\n")
-    parts.append("下表按模型模块列出文献库中权威度最高的证据来源（每模块至多 8 条，T1 优先）。")
-    parts.append("此表**不声称**每篇文献直接支持本文的具体论断，只说明每个模块的证据来源覆盖情况；"
-                 "完整字段（DOI、PMID、核验状态、证据等级）见 refs/refs.jsonl 与 audit/citations-report.md。\n")
+    parts.append(appx_heading + "\n")
+    if not is_en:
+        parts.append(appx_note)
 
     mods = {}
     for r in refs:

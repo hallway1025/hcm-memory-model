@@ -1,5 +1,5 @@
 # HCM deliverables SHA256 manifest
-# generated: 2026-11-21T21:21:23+00:00
+# generated: 2026-11-21T21:35:43+00:00
 # files: 677
 # scope: project deliverables only (src/bench/results/tools/refs/tests/docs/repro/paper/audit/notes + README.md);
 #        third-party virtualenvs and OS caches are excluded by construction
@@ -204,7 +204,7 @@ c0387caddaebaf1a2eea5b1e7d3ebc9a17653e3f277c27e873116006a101ef2f  notes/lit/SURV
 9962b16874b22037679e57dcc4377d944f07ad013b971a66288e6a3b0522657b  notes/lit/llm-memory-systems-routes.md
 0b3534ae78a86285a7e0d9ccd3a01c1ead336ae93c01ae74d81ba78b7f5af4e1  notes/section417-draft.md
 ebefbca4f97ad795ead2938dd4c44799c50a7bbc05140cf77f5bff6572eeb220  notes/section418-draft.md
-a5d3a19c280f243c0804fd945325f1c13e032135870787078de3d404190463ee  paper/PAPER.md
+dcf2ab6f779865d4678c3af3052d6831d8196426d63edd1a6a402b5bcd07fcdf  paper/PAPER.md
 5ce9dbdab5e4c5179d7548761e7379d628ac3598f8748ac95c6e0e40476b0f07  paper/PAPER_EN.md
 eec6f7fe400dddaced5da059ae6ac6756a0f6993618a32b2681adaab99c82d80  paper/figures/fig1_architecture.png
 9f3df480af33eb9ea752014e1f0a3a18e32d555574ee064b3f210b3d3622fccc  paper/figures/fig1_architecture.tif
@@ -220,7 +220,7 @@ c134ae7e5f6340c87982b59719d83cc9564b7ff9d6ef3e5c3511554f908db7b6  paper/figures/
 ff1545bd42e4682b81a07485f1d8642476c242a7bb67a8e97fa2ddbc69b3437a  refs/SCHEMA.json
 2f4d6a1f78d42c0c5523e50ac2e67b07bef5488b7f7a7457c05dd320c1a0eecc  refs/collect-log.md
 fa016b9c1e5bc04614e9da34aea78d9771f0468e6af779a7a4373d3e8bc29c32  refs/journal_tiers.json
-a60550af1ad2bf119018b84f612a12c0f1ae1b1ab022ba81faf123f8c8ec32a4  refs/paper-cited-ids.json
+f02515c599861d2259892be8432a02df30e7a349fddf4275af7802090ae34e8d  refs/paper-cited-ids.json
 58fd14608e405e8670c392bb7a5cb911542d47a7c10a76a3fb6bc504343bbba5  refs/pin-log.md
 1d24d6588ffef6e9f8d1b527551100c004cd87d9b00b529044a4003f309e69fb  refs/pins.jsonl
 b9626fd28f13339f1073037269d7696ef3a25f1d4593f3ab4168b5c1135e89b7  refs/pins2.jsonl
@@ -621,8 +621,8 @@ f6bda0e01215b906448ddc9c285c772bc475ca53841d65c018834bb341a4e642  tools/autodl_b
 b7f393964d1a02bf367cb2eaef1a5684dd1123a65bb9dadba7f80b7d48cb91ba  tools/autodl_probe.py
 6aaea8f50fe59dd10b7e7f056f328d687f497bf84a83fbfa1dcd9f1a59c7afd6  tools/autodl_probe37.sh
 14bb00ab3fcff05ee636361c3562608e6a330ac1a11a967043f6f21b2987ebef  tools/backfill_verified.py
-866c6b8ac8af308cdb9310c236b18085d22b5954b6314053ce257fcb06562ff7  tools/build_paper.py
-0ba30302888c8e9de648acf60b1a30d59aad73d416991cbe2b3345640e643efa  tools/check_claims.py
+5e53c5d051886cc8246fbf6c862ce392d0de61ae4117103ab9155cb24cb8676a  tools/build_paper.py
+45117a55e6be5ca7e0849e63b0f72abe3ce054edb9fbe0d705f344b6fb0ff4e2  tools/check_claims.py
 53d9230d051641ebc8656b84788ce856f6cd80e0c77b446affbd28b29b1542d0  tools/check_exp26.ps1
 4d62cc014ce76ca942e865592ba88875f868e089cbb49f88b32c958c0ad10a43  tools/check_p10_clipping.py
 71e3c76fe697a572ae648b0563ffae4c4aa5ca98654618f658d35c5a84ca6e27  tools/collect.py
