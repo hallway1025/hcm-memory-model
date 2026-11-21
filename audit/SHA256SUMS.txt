@@ -1,5 +1,5 @@
 # HCM deliverables SHA256 manifest
-# generated: 2026-11-21T20:08:01+00:00
+# generated: 2026-11-21T20:30:39+00:00
 # files: 797
 # scope: project deliverables only (src/bench/results/tools/refs/tests/docs/repro/paper/audit/notes + README.md);
 #        third-party virtualenvs and OS caches are excluded by construction
@@ -213,8 +213,8 @@ c0387caddaebaf1a2eea5b1e7d3ebc9a17653e3f277c27e873116006a101ef2f  notes/lit/SURV
 9962b16874b22037679e57dcc4377d944f07ad013b971a66288e6a3b0522657b  notes/lit/llm-memory-systems-routes.md
 0b3534ae78a86285a7e0d9ccd3a01c1ead336ae93c01ae74d81ba78b7f5af4e1  notes/section417-draft.md
 ebefbca4f97ad795ead2938dd4c44799c50a7bbc05140cf77f5bff6572eeb220  notes/section418-draft.md
-dd199cf841878d393905237e44a508990d8f93c0212fa77fa326568c001ced84  paper/PAPER.md
-587dcf2d9b28845c4083bc8d37333994c15d644c8d15d2f516ce767fede88237  paper/PAPER_EN.md
+6678bd5f2dd12971762125ecade14722df2a885ce2a39ca1a2f5545eea947f3f  paper/PAPER.md
+5ce9dbdab5e4c5179d7548761e7379d628ac3598f8748ac95c6e0e40476b0f07  paper/PAPER_EN.md
 eec6f7fe400dddaced5da059ae6ac6756a0f6993618a32b2681adaab99c82d80  paper/figures/fig1_architecture.png
 9f3df480af33eb9ea752014e1f0a3a18e32d555574ee064b3f210b3d3622fccc  paper/figures/fig1_architecture.tif
 ce4a44617d0ec91fc7f8329e665b64c53309328197e233f0c449ee918962dfc0  paper/figures/fig2_separation.png
