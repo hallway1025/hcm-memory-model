@@ -22,9 +22,9 @@
   "test__group-05.csv": "cfafe3b8a001920aaffedc94b4e67e9ca1aef92efc7dbad3547a5047c9c3b885",
   "train__group-02.csv": "08d475980fa900e9914e7c2e7a277df41a72bd5581409984f9101fe6431efc7c",
   "train__group-03.csv": "0607182eb22e6d47c75b71e4cce15c6e4a1c5d4c8142370709873a8dfc9cf5ca",
-  "train__group-01.csv": "aa30688f064ecf231231af090b77b7abdcd4f56d225b5bca002426c0b50f64a6",
+  "train__group-01.csv": "d7f093e263aeb2a4669aba0a3c95ea8ca0f3fcdb991b0fd1ad070546cf3c41bb",
   "train__group-04.csv": "68fdcd917c184c6d1d93117a8e1df82d5f4f3c58997fe0b5707e157cfa01ea87",
-  "train__peer-02.csv": "d9e6c80906a9616f19983e3b1033c218e029b74bcbfdbe63a4d9aa2e39aae288",
+  "train__peer-02.csv": "70e1bc049f19703dd52bbca23b598bc53b0285c3e956dbf65bd481486c783214",
   "train__group-05.csv": "749559fb72f83d0c6b0849d277e351835afacbeec72f3a3cd98013c11fd37d3a"
  },
  "stats": {
@@ -914,15 +914,15 @@
    "pid": 62,
    "session": "peer-02",
    "row": 7072,
-   "query": "豪威怎么也在线了",
-   "query_clean": "豪威怎么也在线了",
+   "query": "同学怎么也在线了",
+   "query_clean": "同学怎么也在线了",
    "len_query_clean": 8,
    "len_target_clean": 8,
    "shared_chars_count": 6,
    "char_overlap_ratio": 0.75,
    "topic": "question",
    "query_clean_sha": "868665ef7e040962",
-   "target_clean_sha": "c460b603a47ea7db"
+   "target_clean_sha": "e7dfc87ebe6f3fc2"
   },
   {
    "pid": 63,
@@ -1444,7 +1444,7 @@
   }
  ],
  "rejected_candidates": [],
- "sha256": "440b274fd1c80b2b32129e86b4e4fb5c604a7de5889e9b8f48e68c9d19b9f431",
+ "sha256": "a0ef53bfada82fa8c77d7441282053bce66241282b26d41b584cd48ca7c6b400",
  "provenance": {
   "v1_version": 1,
   "v1_frozen_at": "2026-11-07T10:34:17+00:00",

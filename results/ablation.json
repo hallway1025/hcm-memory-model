@@ -8,7 +8,7 @@
   "cls_new": 23,
   "cls_n": 24,
   "wm_kept": 3.75,
-  "sec": 1.6
+  "sec": 1.5
  },
  {
   "arm": "M1_SEP no-residual",
@@ -30,7 +30,7 @@
   "cls_new": 19,
   "cls_n": 24,
   "wm_kept": 3.75,
-  "sec": 1.4
+  "sec": 1.6
  },
  {
   "arm": "M2_EPI no-attractor",
@@ -41,7 +41,7 @@
   "cls_new": 23,
   "cls_n": 24,
   "wm_kept": 3.75,
-  "sec": 1.3
+  "sec": 1.7
  },
  {
   "arm": "M2_EPI no-store",
@@ -52,7 +52,7 @@
   "cls_new": 23,
   "cls_n": 24,
   "wm_kept": 3.75,
-  "sec": 1.3
+  "sec": 1.6
  },
  {
   "arm": "M3_CTX no-context",
@@ -63,7 +63,7 @@
   "cls_new": 23,
   "cls_n": 24,
   "wm_kept": 3.75,
-  "sec": 1.3
+  "sec": 1.8
  },
  {
   "arm": "M4/M5 no-cortex",
@@ -74,7 +74,7 @@
   "cls_new": 8,
   "cls_n": 24,
   "wm_kept": 3.75,
-  "sec": 1.3
+  "sec": 1.7
  },
  {
   "arm": "M4 no-replay",
@@ -85,7 +85,7 @@
   "cls_new": 22,
   "cls_n": 24,
   "wm_kept": 3.75,
-  "sec": 0.8
+  "sec": 0.9
  },
  {
   "arm": "M6_WM C=1",
@@ -96,7 +96,7 @@
   "cls_new": 23,
   "cls_n": 24,
   "wm_kept": 1.0,
-  "sec": 1.1
+  "sec": 1.5
  },
  {
   "arm": "M7_NEU const-gate",
@@ -107,7 +107,7 @@
   "cls_new": 23,
   "cls_n": 24,
   "wm_kept": 3.75,
-  "sec": 1.4
+  "sec": 1.5
  },
  {
   "arm": "M8_FOR no-rif",
@@ -118,7 +118,7 @@
   "cls_new": 23,
   "cls_n": 24,
   "wm_kept": 3.75,
-  "sec": 1.2
+  "sec": 1.3
  },
  {
   "arm": "M0_META always-retrieve",
@@ -129,6 +129,6 @@
   "cls_new": null,
   "cls_n": null,
   "wm_kept": null,
-  "sec": 0.9
+  "sec": 1.4
  }
 ]

@@ -15,38 +15,38 @@
   },
   "para": {
    "n": 100,
-   "hit_rate": 0.35
+   "hit_rate": 0.36
   }
  },
  "feature_sets": {
   "A_raw": {
    "auc_eval": 0.8713,
-   "ece_eval": 0.0633,
+   "ece_eval": 0.0684,
    "brier_eval": 0.1252,
-   "auc_all": 0.8576,
+   "auc_all": 0.8565,
    "n_dev": 275,
    "n_eval": 275
   },
   "B_pert": {
-   "auc_eval": 0.8754,
-   "ece_eval": 0.1149,
-   "brier_eval": 0.1187,
-   "auc_all": 0.8681,
+   "auc_eval": 0.8755,
+   "ece_eval": 0.1185,
+   "brier_eval": 0.1188,
+   "auc_all": 0.8671,
    "n_dev": 275,
    "n_eval": 275
   },
   "C_cons": {
-   "auc_eval": 0.9142,
-   "ece_eval": 0.042,
-   "brier_eval": 0.1167,
-   "auc_all": 0.9208,
+   "auc_eval": 0.914,
+   "ece_eval": 0.0509,
+   "brier_eval": 0.117,
+   "auc_all": 0.9199,
    "n_dev": 275,
    "n_eval": 275
   }
  },
- "g3_hard_auc": 0.8841,
+ "g3_hard_auc": 0.8831,
  "g3_hard_n": 400,
- "elapsed_s": 1710.4,
+ "elapsed_s": 194.5,
  "config": {
   "d_x": 256,
   "library_rows": 9033,

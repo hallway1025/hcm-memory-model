@@ -401,12 +401,12 @@ def check_numbers():
 
     # ---- 4.15 校准（exp35，I 区 C3-prime）----
     e35 = J("exp35_calibration.json")
-    expect("4.15 A_raw ece", e35["feature_sets"]["A_raw"]["ece_eval"], 0.0633, 0.0005)
+    expect("4.15 A_raw ece", e35["feature_sets"]["A_raw"]["ece_eval"], 0.0684, 0.0005)
     expect("4.15 A_raw auc", e35["feature_sets"]["A_raw"]["auc_eval"], 0.8713, 0.0005)
-    expect("4.15 C_cons ece", e35["feature_sets"]["C_cons"]["ece_eval"], 0.042, 0.0005)
-    expect("4.15 C_cons auc", e35["feature_sets"]["C_cons"]["auc_eval"], 0.9142, 0.0005)
-    expect("4.15 hard auc", e35["g3_hard_auc"], 0.8841, 0.0005)
-    expect("4.15 para hit", e35["tags"]["para"]["hit_rate"], 0.35, 0.0005)
+    expect("4.15 C_cons ece", e35["feature_sets"]["C_cons"]["ece_eval"], 0.0509, 0.0005)
+    expect("4.15 C_cons auc", e35["feature_sets"]["C_cons"]["auc_eval"], 0.914, 0.0005)
+    expect("4.15 hard auc", e35["g3_hard_auc"], 0.8831, 0.0005)
+    expect("4.15 para hit", e35["tags"]["para"]["hit_rate"], 0.36, 0.0005)
     expect("4.15 n_probes", e35["n"], 550, 0)
 
     # ---- 4.15.1 弃权工作点与 G-4（exp35b）----

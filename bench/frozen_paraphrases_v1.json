@@ -16,8 +16,8 @@
  "corpus_sha256": {
   "train__peer-01.csv": "4940a20bbd342d91b22c606ff65cdd39b3b7ac8011c35a49e3ec6d0cf6ff731e",
   "train___.csv": "e33bf6c9124f212f288f22e5ca05915a730ad3c7c1ce151b73f1ed153e9fb6ab",
-  "train__group-01.csv": "a2b3f3cfc591ac8160fe4d9475dc7360590a3ccb781cfd37c6b8ccb3d2b29ffe",
-  "train__group-04.csv": "0b1696d561bd72f8e23264d619eb03227017c168852be2dcb0ffa73c189135f9"
+  "train__group-01.csv": "d7f093e263aeb2a4669aba0a3c95ea8ca0f3fcdb991b0fd1ad070546cf3c41bb",
+  "train__group-04.csv": "68fdcd917c184c6d1d93117a8e1df82d5f4f3c58997fe0b5707e157cfa01ea87"
  },
  "stats": {
   "n_queries": 100,
@@ -899,8 +899,8 @@
    "pid": 62,
    "session": "peer-01",
    "row": 7027,
-   "query": "豪威怎么也在线了",
-   "query_clean": "豪威怎么也在线了",
+   "query": "同学怎么也在线了",
+   "query_clean": "同学怎么也在线了",
    "len_query_clean": 8,
    "len_target_clean": 8,
    "shared_chars_count": 6,
@@ -1429,5 +1429,5 @@
   }
  ],
  "rejected_candidates": [],
- "sha256": "49e0ef0ac12745a8e0494bf6d4816e28251ca153da073a1c86370039d7d62d9f"
+ "sha256": "c93667355611e43763bd4586be0dac723f3239d31ee50c76a3f0481e5badeec2"
 }
