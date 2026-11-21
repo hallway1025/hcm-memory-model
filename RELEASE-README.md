@@ -12,7 +12,7 @@
 | `HCM_PAPER_EN.pdf` | 英文主稿（对应译本，56+ 页） |
 | `SUPPLEMENTAL-S2.pdf` | 规模试验实测全叙事（L1 更正 + L2 @N=10⁵ 的 exp37）与五个待超算回答的问题 |
 | `SUPPLEMENTAL-S4.pdf` | 引文核验完整台账（447 条，逐条含 DOI/PMID、核验通道与检索时间戳） |
-| `SHA256SUMS.txt` | 本版本全部交付文件的 SHA256 校验和（882 条） |
+| `SHA256SUMS.txt` | 本版本全部交付文件的 SHA256 校验和（677 条） |
 
 ---
 
