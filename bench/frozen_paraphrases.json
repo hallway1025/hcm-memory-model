@@ -1448,7 +1448,7 @@
  "provenance": {
   "v1_version": 1,
   "v1_frozen_at": "2026-11-07T10:34:17+00:00",
-  "v1_corpus_sha256_train_david": "4940a20bbd342d91b22c606ff65cdd39b3b7ac8011c35a49e3ec6d0cf6ff731e",
+  "v1_corpus_sha256_train_peer01": "4940a20bbd342d91b22c606ff65cdd39b3b7ac8011c35a49e3ec6d0cf6ff731e",
   "rekey_rule": "sha256(_clean(content))[:16] first-occurrence; _clean = strip [..] tags + collapse whitespace (identical to exp35_calibration._clean)"
  }
 }

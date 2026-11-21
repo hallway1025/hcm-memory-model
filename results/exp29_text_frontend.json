@@ -42915,7 +42915,7 @@
   "arms": {}
  },
  "f3": {
-  "store_note": "paraphrase store = train__peer-01.csv only (n_david messages, capacity=n+10); encoder fit = full 4-session train (N-2); target obs = first occurrence in peer-01 == first occurrence in concatenated order (peer-01 is first session)",
+  "store_note": "paraphrase store = train__peer-01.csv only (n_peer02 messages, capacity=n+10); encoder fit = full 4-session train (N-2); target obs = first occurrence in peer-01 == first occurrence in concatenated order (peer-01 is first session)",
   "assets": {
    "synpairs": "<user-home>\\Desktop\\Deepseek Harmness测试区\\brain-memory-model\\bench\\frozen_synpairs.json",
    "paraphrases": "<user-home>\\Desktop\\Deepseek Harmness测试区\\brain-memory-model\\bench\\frozen_paraphrases.json"
@@ -42935,7 +42935,7 @@
      "new_vocab": 4916
     },
     "fit_time_s": 40.592,
-    "n_david": 9033,
+    "n_peer02": 9033,
     "n_written_max_seed": 6477,
     "pair_input_detail": [
      {
@@ -46927,7 +46927,7 @@
      "proj_seed": 7
     },
     "fit_time_s": 0.0,
-    "n_david": 9033,
+    "n_peer02": 9033,
     "n_written_max_seed": 6389,
     "pair_input_detail": [
      {

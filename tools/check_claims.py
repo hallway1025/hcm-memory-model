@@ -427,7 +427,7 @@ def check_numbers():
 
     # ---- 4.16 RIF 因果检验（exp34，预登记否定结果）----
     a34 = J("exp34_analyze.json")
-    d34 = a34["cells"]["david"]
+    d34 = a34["cells"]["peer-02"]
     expect("4.16 deficit_sup_on", d34["deficit_sup_on"]["mean"], -0.1567, 0.0005)
     expect("4.16 deficit ci lo", d34["deficit_sup_on"]["ci"][0], -0.1917, 0.0005)
     expect("4.16 deficit ci hi", d34["deficit_sup_on"]["ci"][1], -0.1233, 0.0005)
@@ -439,8 +439,8 @@ def check_numbers():
     expect("4.16 hit_nrp_on", d34["hit_nrp_on"]["mean"], 0.8433, 0.0005)
     expect("4.16 hit_nrp_off", d34["hit_nrp_off"]["mean"], 0.85, 0.0005)
     expect("4.16 recovered", d34["recovered"]["mean"], 1.0, 0)
-    expect("4.16 G-A verdict", 1 if a34["gates"]["david"]["G-A"] == "FAIL" else 0, 1, 0)
-    expect("4.16 G-B verdict", 1 if a34["gates"]["david"]["G-B"] == "PASS" else 0, 1, 0)
+    expect("4.16 G-A verdict", 1 if a34["gates"]["peer-02"]["G-A"] == "FAIL" else 0, 1, 0)
+    expect("4.16 G-B verdict", 1 if a34["gates"]["peer-02"]["G-B"] == "PASS" else 0, 1, 0)
     expect("4.16 G-C verdict", 1 if a34["G-C"] == "NEGATIVE-HONEST" else 0, 1, 0)
     expect("4.16 syn_o0.9 floor recovered", a34["cells"]["syn_o0.9"]["recovered"]["mean"], 0.3317, 0.0005)
     # ---- 4.17 存储级抑制三难（exp34b，预登记共主判据）----

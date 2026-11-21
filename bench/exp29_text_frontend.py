@@ -946,7 +946,7 @@ F3_STRATA = [("zero", 0.0, 1e-9), ("low", 1e-9, 0.5), ("high", 0.5, 1.01)]
 # 冻结设计决定（在任何 F3 结果产生之前）：改写检索使用 peer-01-only store。
 # peer-01 是四会话拼接顺序的第一个会话，故"目标在拼接语料中的首现观察序号"
 # 与 peer-01-only store 内的观察序号完全一致；编码器仍按 N-2 在全 train fit。
-F3_STORE_NOTE = ("paraphrase store = train__peer-01.csv only (n_david messages, "
+F3_STORE_NOTE = ("paraphrase store = train__peer-01.csv only (n_peer02 messages, "
                  "capacity=n+10); encoder fit = full 4-session train (N-2); "
                  "target obs = first occurrence in peer-01 == first occurrence in "
                  "concatenated order (peer-01 is first session)")
@@ -997,24 +997,24 @@ def run_f3():
     para = load_json(F3_PARA_PATH)
     if not _f3_verify_assets(para, syn):
         raise SystemExit("frozen asset sha mismatch - abort")
-    david_raw = read_texts(TRAIN_FILES[0])  # v2: peer-02（peer-01 别名，首会话不变）
-    david_clean = [clean_text(t) for t in david_raw]
+    peer02_raw = read_texts(TRAIN_FILES[0])  # 首会话
+    peer02_clean = [clean_text(t) for t in peer02_raw]
     train_raw = []
     for fn in TRAIN_FILES:
         train_raw.extend(read_texts(fn))
     train_clean = [clean_text(t) for t in train_raw]
-    n_david = len(david_raw)
+    n_peer02 = len(peer02_raw)
 
     # 目标定位 + 冻结 sha 校验（sha 对不上即中止：语料或冻结文件被改动）
     targets = {}
     for q in para["queries"]:
         r = int(q["row"])
-        tclean = david_clean[r]
+        tclean = peer02_clean[r]
         h = hashlib.sha256(tclean.encode("utf-8")).hexdigest()[:16]
         if h != q["target_clean_sha"]:
             raise SystemExit("target sha mismatch at row %d (pid %s)"
                              % (r, q["pid"]))
-        fo = david_clean.index(tclean)   # 首现观察序号
+        fo = peer02_clean.index(tclean)   # 首现观察序号
         targets[q["pid"]] = {"row": r, "first_obs": fo}
     fo_mismatch = sum(1 for q in para["queries"]
                       if targets[q["pid"]]["first_obs"] != int(q["row"]))
@@ -1035,7 +1035,7 @@ def run_f3():
             arm.fit(train_raw)
             fit_dt = time.perf_counter() - tf
             info["new_vocab"] = len(arm.enc.vocab)
-        X = arm.encode_inputs(david_raw, david_clean)
+        X = arm.encode_inputs(peer02_raw, peer02_clean)
 
         # 同义/无关对：输入余弦（编码器固定，与 HCM seed 无关）
         pair_in = []
@@ -1049,10 +1049,10 @@ def run_f3():
         seeds_out = {}
         for hc_seed in F3_HC_SEEDS:
             m = HCM(Config(d_x=arm.dim, d_c=arm.dim, a=0.02,
-                           capacity=n_david + 10, beta=BETA, L=L,
+                           capacity=n_peer02 + 10, beta=BETA, L=L,
                            use_resid=False, lam=LAM, seed=hc_seed))
             wrote = 0
-            for i in range(n_david):
+            for i in range(n_peer02):
                 rec = m.observe(X[i])
                 if rec["wrote"]:
                     wrote += 1
@@ -1117,7 +1117,7 @@ def run_f3():
         qdetail[name] = {h: sd["query_detail"] for h, sd in seeds_out.items()}
         pdetail[name] = {h: sd["pair_code_detail"] for h, sd in seeds_out.items()}
         arms_out[name] = {"dim": arm.dim, "info": info, "fit_time_s": round(fit_dt, 3),
-                          "n_david": n_david, "n_written_max_seed":
+                          "n_peer02": n_peer02, "n_written_max_seed":
                               max(sd["n_written"] for sd in seeds_out.values()),
                           "pair_input_detail": pair_in,
                           "syn_input_mean": syn_in, "unrel_input_mean": unr_in,
@@ -1261,11 +1261,11 @@ def run_f3():
             return 0.0
         return len(a & b) / math.sqrt(len(a) * len(b))
 
-    n_docs = len(david_clean)
-    doc_sets2 = [_ngset(t, 2) for t in david_clean]
-    doc_sets3 = [_ngset(t, 3) for t in david_clean]
-    doc_tf = [Counter(_bigrams(t)) for t in david_clean]
-    doc_len = [max(1, len(t) - 1) for t in david_clean]   # bigram token 数（含重复）
+    n_docs = len(peer02_clean)
+    doc_sets2 = [_ngset(t, 2) for t in peer02_clean]
+    doc_sets3 = [_ngset(t, 3) for t in peer02_clean]
+    doc_tf = [Counter(_bigrams(t)) for t in peer02_clean]
+    doc_len = [max(1, len(t) - 1) for t in peer02_clean]   # bigram token 数（含重复）
     avgdl = sum(doc_len) / float(n_docs)
     df2 = Counter()
     for ds in doc_sets2:

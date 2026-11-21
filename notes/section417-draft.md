@@ -11,8 +11,8 @@
    - G-S2（枢纽形成）：hub_share(son030) ≥ max(0.15, 2×hub_share(soff))；
    - G-B'（精确逆恢复）：M[:,s]/=att[s] 后 |hit_recovered − hit_p| ≤ 0.05；
    - G-B''（塌缩逆恢复）：全部衰减列恢复后 hit_p 回到同种子 soff 的 0.05 以内。
-2. **设计**。david 单 cell（预登记：exp34 显示 syn cell 无动态范围）× 4 臂 {soff, son015, son030, son050} × 12 seeds，
-   配对 rng（crc32(david)，同库同练习集同候选池）。存储级操作化 = 列幅值衰减 M[:,j] ← (1−ρ)·M[:,j]，
+2. **设计**。peer-02 单 cell（预登记：exp34 显示 syn cell 无动态范围）× 4 臂 {soff, son015, son030, son050} × 12 seeds，
+   配对 rng（crc32(b"david")（内部种子常量，与旧标签同名），同库同练习集同候选池）。存储级操作化 = 列幅值衰减 M[:,j] ← (1−ρ)·M[:,j]，
    竞争者选择镜像 E.suppress（top-5 吸引子、赢家豁免、use[winner]+=1）；att[s] 记累计衰减供逆恢复。
    测试 do_rif=False、判据 obs_of（L-035）。smoke（N=60）与全量（N=2000，深度 ~0.63 事件/槽）分开报告。
 3. **结果：[按分析器数字填写三段——(i) G-A' 判决；(ii) G-S1/G-S2 判决与 hub_share 表；(iii) G-B'/G-B'' 数字]**

@@ -19,7 +19,7 @@ Pre-registered gates (written before any data, mirroring exp34_analyze.py discip
   original column exactly -> suppression invisible; direction change = deletion.
   Trilemma: readout-gain (local) vs amplitude (global) vs deletion.
 
-Design: david cell only (exp34 showed syn cells at ceiling/floor, no dynamic range;
+Design: peer-02 cell only (exp34 showed syn cells at ceiling/floor, no dynamic range;
 pre-registered choice). Library N=2000 peer-01 S256 per-seed row sample. Practice 100
 probes x k=3 retrievals, do_rif=False in ALL arms; storage arms apply column
 attenuation M[:,i] *= (1-rho) to top-5 competitors of the settled attractor
@@ -199,7 +199,7 @@ for arm in ARMS:
         recovered=[r_["hit_rp_sup_recovered"] for r_ in rs if "hit_rp_sup_recovered" in r_])
 out = dict(config=dict(N_LIB=N_LIB, N_P=N_P, K=K_PRACTICE, seeds=len(SEEDS), smoke=SMOKE,
                        judge="obs_of_L-035", test_do_rif=False, rho={k: v for k, v in RHOS.items()},
-                       cell="david", selection="mirror E.suppress top5"),
+                       cell="peer-02", selection="mirror E.suppress top5"),
            arms=agg, rows=res_rows, elapsed_s=round(time.time() - _t0, 1))
 _outf = os.environ.get("EXP34B_OUT", "exp34b_storage_rif.json")
 json.dump(out, open(os.path.join(ROOT, "results", _outf), "w", encoding="utf-8"), indent=1)

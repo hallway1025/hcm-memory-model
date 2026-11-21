@@ -1,7 +1,7 @@
 {
  "n_rows": 96,
  "cells": {
-  "david": {
+  "peer-02": {
    "seeds": [
     0,
     1,
@@ -467,7 +467,7 @@
   }
  },
  "gates": {
-  "david": {
+  "peer-02": {
    "gA_on": {
     "passed": false,
     "mean": -0.1567,

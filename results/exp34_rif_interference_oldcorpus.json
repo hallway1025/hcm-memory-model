@@ -9,7 +9,7 @@
   "test_do_rif": false
  },
  "cells": {
-  "david_on": {
+  "peer02_on": {
    "hit_rp_sup": {
     "mean": 1.0,
     "sd": null,
@@ -185,7 +185,7 @@
     1.0
    ]
   },
-  "david_off": {
+  "peer02_off": {
    "hit_rp_sup": {
     "mean": null,
     "sd": null,
@@ -356,7 +356,7 @@
  },
  "rows": [
   {
-   "cell": "david",
+   "cell": "peer-02",
    "arm": "on",
    "seed": 0,
    "hit_rp_sup": 1.0,
@@ -424,7 +424,7 @@
    "hit_rp_sup_recovered": 1.0
   },
   {
-   "cell": "david",
+   "cell": "peer-02",
    "arm": "off",
    "seed": 0,
    "hit_rp_sup": NaN,

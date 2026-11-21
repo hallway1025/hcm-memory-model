@@ -18,7 +18,7 @@ for n in names:
     if not os.path.exists(p):
         print("missing shard:", n); continue
     rows += json.load(open(p, encoding="utf-8")).get("rows", [])
-cells = ["david", "syn_o0.3", "syn_o0.6", "syn_o0.9"]
+cells = ["peer-02", "syn_o0.3", "syn_o0.6", "syn_o0.9"]
 per = {}
 for r in rows:
     per.setdefault((r["cell"], r["arm"]), {})[r["seed"]] = r
@@ -77,7 +77,7 @@ for c in cells:
     cellout["delta_cos_on_minus_off"] = pack(both)
     out["cells"][c] = cellout
 
-# gate verdicts on the primary hard cell (david) + synthetic sweep
+# gate verdicts on the primary hard cell (peer-02) + synthetic sweep
 ga = {}
 for c in cells:
     cc = out["cells"].get(c)

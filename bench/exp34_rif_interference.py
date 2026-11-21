@@ -68,7 +68,7 @@ def run_once(cell, arm, seed):
     rng = np.random.default_rng([seed, zlib.crc32(cell.encode())])
     cfg = Config(d_x=D_x, d_c=D_x, a=0.02, capacity=N_LIB + 10, beta=100.0, L=3, use_resid=False, seed=seed)
     m = HCM(cfg)
-    if cell == "david":
+    if cell == "peer-02":
         pick = rng.choice(len(msgs_all), size=N_LIB, replace=False)
         texts = [msgs_all[int(i)] for i in pick]
     else:
@@ -76,7 +76,7 @@ def run_once(cell, arm, seed):
         items, meas_cos = synth_lib(share, N_LIB, rng)
         texts = ["syn%d" % i for i in range(N_LIB)]
         vecs = items
-    if cell != "david":
+    if cell != "peer-02":
         for i, v in enumerate(vecs):
             m.observe(v)
         obs_of = {int(m.E.t[j]): j for j in range(m.E.n)}
@@ -94,7 +94,7 @@ def run_once(cell, arm, seed):
     P_slots = [obs_of[i] for i in P_rows]
     RIF = (arm == "on")
     for i in P_rows:
-        x = x_of(texts[i]) if cell == "david" else vecs[i]
+        x = x_of(texts[i]) if cell == "peer-02" else vecs[i]
         for _ in range(K_PRACTICE):
             m.query(x, do_rif=RIF)
     # Rp- mechanism-exact: suppressed competitors (sup < 1), exclude P slots
@@ -121,7 +121,7 @@ def run_once(cell, arm, seed):
     def hit(slots):
         h = 0
         for s in slots:
-            x = x_of(slot_texts[s]) if cell == "david" else vecs[s]
+            x = x_of(slot_texts[s]) if cell == "peer-02" else vecs[s]
             qq = m.query(x, do_rif=False)
             h += int(qq.get("action") in ("recall", "separate") and qq.get("idx", -1) == s)
         return h / len(slots) if slots else float("nan")
@@ -142,7 +142,7 @@ def run_once(cell, arm, seed):
 
 CELLS = []
 for arm in ("on", "off"):
-    CELLS.append(("david", arm))
+    CELLS.append(("peer-02", arm))
     for sh in ("0.3", "0.6", "0.9"):
         CELLS.append(("syn_o" + sh, arm))
 jobs = []
