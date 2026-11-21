@@ -1,5 +1,0 @@
-exp52 eq N=200000 cell=T_b100 seed=0 rss0=32.2MB
-EQ s0 write 100000/200000 30142s rss=15661.4MB s/w=0.3014
-EQ s0 write 200000/200000 122903s rss=28412.8MB s/w=0.6144
-EQ s0 written=200000 write=122903s rss=28412.8MB (enc 2386.0s sc 120061.6s append 387.0s)
-EQ probes: 60 rows regenerated rss=29226.6MB

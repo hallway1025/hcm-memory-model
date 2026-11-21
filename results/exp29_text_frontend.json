@@ -42917,8 +42917,8 @@
  "f3": {
   "store_note": "paraphrase store = train__peer-01.csv only (n_david messages, capacity=n+10); encoder fit = full 4-session train (N-2); target obs = first occurrence in peer-01 == first occurrence in concatenated order (peer-01 is first session)",
   "assets": {
-   "synpairs": "C:\\Users\\huawei\\Desktop\\Deepseek Harmness测试区\\brain-memory-model\\bench\\frozen_synpairs.json",
-   "paraphrases": "C:\\Users\\huawei\\Desktop\\Deepseek Harmness测试区\\brain-memory-model\\bench\\frozen_paraphrases.json"
+   "synpairs": "<user-home>\\Desktop\\Deepseek Harmness测试区\\brain-memory-model\\bench\\frozen_synpairs.json",
+   "paraphrases": "<user-home>\\Desktop\\Deepseek Harmness测试区\\brain-memory-model\\bench\\frozen_paraphrases.json"
   },
   "hc_seeds": [
    0,

@@ -58,3 +58,9 @@ _smoke*.py
 # 备份文件
 *.bak
 *.bak_*
+
+# ===== 运行日志与临时件（不入库）=====
+*.log
+refs/_tmp_*
+results/*_tmp.json
+results/*_incident.log

@@ -1,9 +1,0 @@
-part2 write 25000/100000 idx_gate_total=60.1s rss=-1.0MB
-part2 write 50000/100000 idx_gate_total=204.3s rss=-1.0MB
-part2 write 75000/100000 idx_gate_total=443.7s rss=-1.0MB
-part2 write 100000/100000 idx_gate_total=811.7s rss=-1.0MB
-part2 write: idx 8.1ms/w vs dense 0.410s/w -> 50x; agree 1000/1000; rej idx=900 block_dense=100
-part2 preflight f32-chain |da|=1.94e-09 -> OK
-part2 retrieve: postings L3=5.33s vs dense mtv=0.94s (8x=7.50s) -> 1x; csr=372.0MB rss=-1.0MB
-WROTE /root/autodl-tmp/hcm/results/exp43_inverted_index_scale.json
-on
