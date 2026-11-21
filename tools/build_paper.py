@@ -23,10 +23,10 @@ def load_refs() -> list:
     return [json.loads(l) for l in open(REFS, encoding="utf-8") if l.strip()]
 
 
-def fmt_ref(num: int, r: dict) -> str:
+def fmt_ref(num: int, r: dict, et_al: str = "等") -> str:
     fa = r.get("first_author") or ""
     n = r.get("n_authors") or 0
-    who = f"{fa} 等" if n and n > 2 else fa
+    who = f"{fa} {et_al}" if n and n > 2 else fa
     title = (r.get("title") or "").strip().rstrip(".")
     line = f"[{num}] {who} ({r.get('year')}). {title}. *{r.get('journal')}*."
     if r.get("doi"):
@@ -110,8 +110,9 @@ def main() -> int:
                  "完整字段（DOI、PMID、核验状态、证据等级）见 refs/refs.jsonl 与 audit/citations-report.md。\n")
 
     parts = [out, "\n---\n", refs_heading + "\n"]
+    _et = "et al." if is_en else "等"
     for t in order:
-        parts.append(fmt_ref(numbering[t], chosen[t]))
+        parts.append(fmt_ref(numbering[t], chosen[t], et_al=_et))
         parts.append("")
     parts.append("\n---\n")
     parts.append(appx_heading + "\n")
@@ -123,7 +124,10 @@ def main() -> int:
         mods.setdefault(r.get("module") or "UNSORTED", []).append(r)
     for m in sorted(mods):
         rows = sorted(mods[m], key=lambda r: (RANK.get(r.get("tier"), 3), -(r.get("year") or 0)))
-        parts.append("**%s**（%d 条，此处列 %d 条）\n" % (m, len(mods[m]), min(8, len(rows))))
+        if is_en:
+            parts.append("**%s** (%d entries, %d shown)\n" % (m, len(mods[m]), min(8, len(rows))))
+        else:
+            parts.append("**%s**（%d 条，此处列 %d 条）\n" % (m, len(mods[m]), min(8, len(rows))))
         for r in rows[:8]:
             parts.append("- %s (%s). %s. *%s*. 〔%s〕" % (
                 r.get("first_author"), r.get("year"), (r.get("title") or "")[:110],
