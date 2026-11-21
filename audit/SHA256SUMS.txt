@@ -1,5 +1,5 @@
 # HCM deliverables SHA256 manifest
-# generated: 2026-11-21T21:00:31+00:00
+# generated: 2026-11-21T21:21:23+00:00
 # files: 677
 # scope: project deliverables only (src/bench/results/tools/refs/tests/docs/repro/paper/audit/notes + README.md);
 #        third-party virtualenvs and OS caches are excluded by construction
@@ -204,7 +204,7 @@ c0387caddaebaf1a2eea5b1e7d3ebc9a17653e3f277c27e873116006a101ef2f  notes/lit/SURV
 9962b16874b22037679e57dcc4377d944f07ad013b971a66288e6a3b0522657b  notes/lit/llm-memory-systems-routes.md
 0b3534ae78a86285a7e0d9ccd3a01c1ead336ae93c01ae74d81ba78b7f5af4e1  notes/section417-draft.md
 ebefbca4f97ad795ead2938dd4c44799c50a7bbc05140cf77f5bff6572eeb220  notes/section418-draft.md
-6678bd5f2dd12971762125ecade14722df2a885ce2a39ca1a2f5545eea947f3f  paper/PAPER.md
+a5d3a19c280f243c0804fd945325f1c13e032135870787078de3d404190463ee  paper/PAPER.md
 5ce9dbdab5e4c5179d7548761e7379d628ac3598f8748ac95c6e0e40476b0f07  paper/PAPER_EN.md
 eec6f7fe400dddaced5da059ae6ac6756a0f6993618a32b2681adaab99c82d80  paper/figures/fig1_architecture.png
 9f3df480af33eb9ea752014e1f0a3a18e32d555574ee064b3f210b3d3622fccc  paper/figures/fig1_architecture.tif
@@ -227,7 +227,7 @@ b9626fd28f13339f1073037269d7696ef3a25f1d4593f3ab4168b5c1135e89b7  refs/pins2.jso
 b59a38f0b817938aea6550793421792b59594706055ffe435d8ecea737a8eccb  refs/queries.jsonl
 62d288617c549362605617741577e0ece6a519032fdbf9e2b8e2f83a9d808f15  refs/queries_extra.jsonl
 d1e68678d24864f529d19e56abd00632eaf88e1d1aeb103d91668f38a26bdd21  refs/queries_paper.jsonl
-c067768d6b4627b08368d874c8804b250f1355e675198def5fad6ccab9d50861  refs/refs.jsonl
+659b5e7ca626040886a711ab21becc6d879c93c8c3e22cb2a96568b2d0ff8c66  refs/refs.jsonl
 6be5be802616c404cac9e198d5511577cfa9e94519fd5563120de055ef16c906  refs/survey2/_fetch_ids2.py
 a71e11878a2756392430ad036f5c670143061e7468048ab75214189a5de6dda4  refs/survey2/_postprocess.py
 ff437a436063a2c602e0210c73c9bda2d1ad9c8466466715f5b7685bcc70ddb8  refs/survey2/queries2.jsonl
@@ -637,7 +637,7 @@ c69504b8f3cc24e1ec890480b647f09f90cc347bbfc480354d59600ff10bedd7  tools/exp37_wa
 fb902c27bdb877e9e559d1a80c00c40bb65a2a406bb6dc6770b9f86f0d7561fd  tools/exp37_watch2.sh
 d4ba12b50904e93d5f24a2febbad393c5d351e8b4f3ed6c2a47c5475131fee14  tools/exp37_watch3.ps1
 5bd7c0ddf01dae7cb2b42f1e8111cd7dbb8419f34355ffc45ed13301e1464f5a  tools/export_docx.py
-983ae10f5ffbd8193cc136c5c73dcad1f69a9379724501012c029e241c340b21  tools/export_html.py
+1971395bb3d3bc53710061c4bca6921d746ddcc18fc32285c02c0e27fb882630  tools/export_html.py
 b9345a15c94e333e1decd4f513fc0f4c3478241654bce6fb51aaefa7d44b1fdb  tools/export_html_arxiv.py
 ffff23c522d798ad18990827087d87eb41424fd9a93e204d71bc7de6277adf62  tools/export_refs_ris.py
 e17cd0f9be6690fb7fe6192088a24333985092315837547cf676183972333d9d  tools/fix_refs_entities.py

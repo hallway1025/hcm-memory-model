@@ -26,14 +26,8 @@ ul,ol{margin:8px 0 8px 22px}
 <p>四项主要贡献：</p>
 <ol>
 <li><strong>机制层面的重新定位</strong>。我们证明：在标准的高重叠输入基准上，扩张 + k-WTA 稀疏化并不能改善条目可分性（overlap 0.90 时码余弦 0.872）；真正起作用的是对慢变期望的减法（降到 0.308）。同时，同一个投射必须有两种读出：稀疏码用于写入（决定容量与干扰），稠密证据用于检索（决定噪声鲁棒性）。把两者混为一谈（早期版本的「稀疏/稠密双通路竞争」）会导致稀疏通路在高重叠下<strong>从未赢过</strong>。</li>
-</ol>
-<ol>
 <li><strong>可证伪的定量检验，包括失败</strong>。CLS 的「回放防止灾难性遗忘」在我们最初的四种设计里<strong>都不成立</strong>（随机正交输入、近正交目标、小容量网络）——直到我们把任务目标改为共享类别码并加入容量压力，教科书式遗忘曲线才出现（0.0/24 → 16.0/24，3 个种子均值）。这一路「先失败后定位边界」的过程说明：<strong>遗忘是「共享坐标 + 容量压力」的产物，不是任何顺序学习的自动结果</strong>；把 CLS 论证为「顺序学习必然遗忘」是过强的。</li>
-</ol>
-<ol>
 <li><strong>工程可扩展性</strong>。模型所有算子都是稀疏或低秩的：写入 O(k)、检索 O(LNk)、皮层一步 O(d_z(d_x+d_h))。我们给出 L0–L3 四级规模协议（笔记本 → 超算），并指出 L3 档（2×10^7 条、d_h=65,536、k=1,311）必须使用稀疏列存（约 210 GB），而稠密存储需要约 5.2 TB。</li>
-</ol>
-<ol>
 <li><strong>增益的规模律与负结果的仪器学</strong>。检索 softmax 的逆温度必须随库规模按 log N 增长（附录 E 给出解析依据与实测验证）。我们如实报告两个曾被当作「发现」的负结果——残差随规模有害、L1 去噪不迁移——最终证明它们是同一增益误设的伪影；由此提炼出可复用的判负流程：<strong>负结果先查仪器（评测对齐、增益标定），再谈机制</strong>——评审响应史的 9 项处置中，5 项把负结果重新归因为仪器、仅 1 项是真正的机制否证（4.12、4.13 节为活体案例）。</li>
 </ol>
 <hr>
@@ -556,8 +550,6 @@ x_i    = unit( share * shared + (1-share) * priv_i )   # priv_i ~ N(0, I_d)
 <li><strong>回放优先级的负结果</strong>限于本架构与本数据分布，不排除在其他架构上有效。</li>
 <li><strong>引文只验证存在性与发表刊物</strong>，<strong>不验证&quot;该文献支持此论断&quot;</strong>——后者只能由作者负责。我们对每处引用都尽量贴近原文结论，仍可能有过度概括。</li>
 <li><strong>缺少独立复现者</strong>。全部实验、代码、写作由同一自动化流程完成；对抗评审与洁净复现已由两个独立 agent 执行，但都不是完整重跑全部实验。附录 C 给出完整复现命令，建议第三方报告差异时以 audit/SHA256SUMS.txt 记录的校验和为准。</li>
-</ol>
-<ol>
 <li><strong>数字的可信度边界</strong>。论文中每一个定量主张都可由 `results/` 下的结果文件与附录 B 的文件索引机检复算，但<strong>只有被闸门显式列进的数字才受自动校验</strong>：自动化一致性检查覆盖的条目全绿，不等于全文每个数字都经过独立复算。因此，对未被独立复现过的数字，读者应先按附录 B/C 自行复算再采信。构建期的完整修订与质量保证记录随仓库归档于 `docs/REVISIONS.md`，供审计追溯（非本文内容）。</li>
 </ol>
 <hr>
@@ -760,8 +752,8 @@ py -3 tools\build_paper.py
 <li>Grande (2019). Holistic Recollection via Pattern Completion Involves Hippocampal Subfield CA3. <em>The Journal of Neuroscience</em>. 〔T1〕</li>
 <li>GoodSmith (2019). Dentate Gyrus Mossy Cells Share a Role in Pattern Separation with Dentate Granule Cells and Proximal CA3 Pyram. <em>The Journal of Neuroscience</em>. 〔T1〕</li>
 <li>Guzman (2016). Synaptic mechanisms of pattern completion in the hippocampal CA3 network. <em>Science</em>. 〔T1〕</li>
-<li>(2014). Memory and attractor dynamics. <em>Neuronal Dynamics</em>. 〔T1〕</li>
-<li>Deuker (2014). Human neuroimaging studies on the hippocampal CA3 region â€“ integrating evidence for pattern separation and c. <em>Frontiers in Cellular Neuroscience</em>. 〔T1〕</li>
+<li>Gerstner (2014). Memory and attractor dynamics. <em>Neuronal Dynamics</em>. 〔T1〕</li>
+<li>Deuker (2014). Human neuroimaging studies on the hippocampal CA3 region – integrating evidence for pattern separation and com. <em>Frontiers in Cellular Neuroscience</em>. 〔T1〕</li>
 <li>Rosay (2013). Cross-talk and transitions between multiple environments in an attractor neural network model of the hippocamp. <em>BMC Neuroscience</em>. 〔T1〕</li>
 </ul>
 <p><strong>M3_CTX</strong>（39 条，此处列 8 条）</p>

@@ -89,7 +89,12 @@ def main() -> int:
             i += 1
             continue
         if not ln.strip():
-            close_lists()
+            # 空行不立即关闭列表：markdown 有序列表项之间允许空行（松散列表），
+            # 若立刻 close_lists，每个列表项都会变成从 1 重编号的独立 <ol>。
+            # 只有当下一行不是列表项延续时才关闭。
+            nxt = lines[i + 1].strip() if i + 1 < len(lines) else ""
+            if not (in_ul and re.match(r"^[-*]\s+", nxt)) and not (in_ol and re.match(r"^\d+\.\s+", nxt)):
+                close_lists()
             i += 1
             continue
         m = IMG.fullmatch(ln.strip())

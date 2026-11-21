@@ -1,6 +1,6 @@
 # 引文机检报告
 
-- 生成时间：2026-11-21T21:00:33Z
+- 生成时间：2026-11-21T21:21:24Z
 - 条目数：447
 - 期刊分级分布：{'T3': 91, 'T1': 258, 'T2': 98}
 - T1+T2 占比：79.6%（门禁 ≥70%）
@@ -68,7 +68,7 @@
 | R055 | verified | T3 | 1.00 | IEEE Transactions on Neural Networks | A modified Hopfield auto-associative memory with improved capacity |
 | R056 | verified | T3 | 1.00 | [Proceedings 1992] IJCNN International Joint Confe | On the capacity of the Hopfield associative memory |
 | R057 | verified | T1 | 1.00 | Lecture Notes in Computer Science | Memory Modification Induced by Pattern Completion and STDP in Hippocam |
-| R058 | verified | T1 | 1.00 | Frontiers in Cellular Neuroscience | Human neuroimaging studies on the hippocampal CA3 region â€“ integrati |
+| R058 | verified | T1 | 1.00 | Frontiers in Cellular Neuroscience | Human neuroimaging studies on the hippocampal CA3 region – integrating |
 | R059 | verified | T1 | 1.00 | Computational Neuroscience | Single Cell and Population Activity in a Statistical Model of the Hipp |
 | R060 | verified | T1 | 1.00 | Behavioral Neuroscience | Fimbria-Fornix lesions impair spatial working memory but not cognitive |
 | R061 | verified | T1 | 1.00 | Neuroscience | Orexin-saporin lesions of the medial septum impair spatial memory |
