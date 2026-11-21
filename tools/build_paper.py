@@ -1,0 +1,118 @@
+#!/usr/bin/env python3
+"""build_paper.py —— 把 {{AuthorYear}} 记号编译为编号引用 + 参考文献表 + 模块证据基座。
+
+铁律：未匹配的 token 一律硬失败（exit 1），因此论文里不可能出现 refs.jsonl 之外的引文。
+"""
+import json, os, re, sys, unicodedata, argparse
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REFS = os.path.join(ROOT, "refs", "refs.jsonl")
+SRC = os.path.join(ROOT, "paper", "PAPER.md")
+OUT = os.path.join(ROOT, "paper", "PAPER_final.md")
+TOKEN = re.compile(r"\{\{([A-Za-z\u00C0-\u024F]+?)(\d{4})\}\}")
+RANK = {"T1": 0, "T2": 1, "T3": 2}
+
+
+def fold(s: str) -> str:
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return "".join(c for c in s.lower() if c.isalnum())
+
+
+def load_refs() -> list:
+    return [json.loads(l) for l in open(REFS, encoding="utf-8") if l.strip()]
+
+
+def fmt_ref(num: int, r: dict) -> str:
+    fa = r.get("first_author") or ""
+    n = r.get("n_authors") or 0
+    who = f"{fa} 等" if n and n > 2 else fa
+    title = (r.get("title") or "").strip().rstrip(".")
+    line = f"[{num}] {who} ({r.get('year')}). {title}. *{r.get('journal')}*."
+    if r.get("doi"):
+        line += f" doi:{r['doi']}"
+    if r.get("pmid"):
+        line += f" PMID:{r['pmid']}"
+    return line + f" 〔{r.get('tier')}〕"
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--check", action="store_true")
+    args = ap.parse_args()
+
+    refs = load_refs()
+    by_key = {}
+    for r in refs:
+        fa, yr = fold(r.get("first_author") or ""), str(r.get("year") or "")
+        if fa:
+            by_key.setdefault((fa, yr), []).append(r)
+
+    text = open(SRC, encoding="utf-8").read()
+    tokens = TOKEN.findall(text)
+    uniq = []
+    for t in tokens:
+        if t not in uniq:
+            uniq.append(t)
+
+    unresolved, chosen = [], {}
+    for surname, year in uniq:
+        k = fold(surname)
+        cands = []
+        for (fa, yr), lst in by_key.items():
+            if yr == year and (fa in k or k in fa):
+                cands.extend(lst)
+        if not cands:
+            unresolved.append(surname + year)
+            continue
+        cands.sort(key=lambda r: (0 if fold(r.get("first_author") or "") == k else 1, RANK.get(r.get("tier"), 3), len(r.get("title") or "")))
+        chosen[(surname, year)] = cands[0]
+        if len(cands) > 1:
+            print("  [warn] %s%s matched %d refs, chose %s (%s)" %
+                  (surname, year, len(cands), cands[0]["ref_id"], cands[0].get("tier")))
+
+    if unresolved:
+        print("[FAIL] %d unresolved citation token(s): %s" % (len(unresolved), ", ".join(unresolved)))
+        return 1
+    print("tokens ok: %d unique keys resolved" % len(uniq))
+    if args.check:
+        return 0
+
+    order, numbering = [], {}
+    for t in tokens:
+        if t not in numbering:
+            order.append(t)
+            numbering[t] = len(order)
+
+    out = TOKEN.sub(lambda m: "[%d]" % numbering[(m.group(1), m.group(2))], text)
+    out = out.replace("{{NCITE}}", str(len(refs)))
+
+    parts = [out, "\n---\n", "## 参考文献\n"]
+    for t in order:
+        parts.append(fmt_ref(numbering[t], chosen[t]))
+        parts.append("")
+    parts.append("\n---\n")
+    parts.append("## 附录 D：模块证据基座（自动生成）\n")
+    parts.append("下表按模型模块列出文献库中权威度最高的证据来源（每模块至多 8 条，T1 优先）。")
+    parts.append("此表**不声称**每篇文献直接支持本文的具体论断，只说明每个模块的证据来源覆盖情况；"
+                 "完整字段（DOI、PMID、核验状态、证据等级）见 refs/refs.jsonl 与 audit/citations-report.md。\n")
+
+    mods = {}
+    for r in refs:
+        mods.setdefault(r.get("module") or "UNSORTED", []).append(r)
+    for m in sorted(mods):
+        rows = sorted(mods[m], key=lambda r: (RANK.get(r.get("tier"), 3), -(r.get("year") or 0)))
+        parts.append("**%s**（%d 条，此处列 %d 条）\n" % (m, len(mods[m]), min(8, len(rows))))
+        for r in rows[:8]:
+            parts.append("- %s (%s). %s. *%s*. 〔%s〕" % (
+                r.get("first_author"), r.get("year"), (r.get("title") or "")[:110],
+                r.get("journal"), r.get("tier")))
+        parts.append("")
+
+    open(OUT, "w", encoding="utf-8").write("\n".join(parts))
+    print("wrote %s: %d refs, %d chars" % (OUT, len(order), sum(len(p) for p in parts)))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -1,0 +1,260 @@
+==== ARXIV MAIN start ====  
+[OK] temporal context model: raw 15 kept 1
+[OK] hippocampal time cell sequence memory: raw 2 kept 0
+[OK] principled forgetting neural networks: raw 20 kept 5
+[OK] experience replay prioritization: raw 20 kept 7
+[OK] working memory neural network capacity: raw 15 kept 5
+[OK] associative memory capacity theory: raw 20 kept 10
+[OK] structured episodic memory graph: raw 15 kept 3
+[OK] approximate nearest neighbor search survey: raw 17 kept 6
+[OK] sublinear retrieval associative memory: raw 1 kept 0
+[OK] memory augmented neural network scaling: raw 15 kept 10
+[OK] uncertainty aware retrieval: raw 15 kept 9
+[OK] large language model agent memory survey: raw 20 kept 7
+[OK] memory augmented LLM agent: raw 20 kept 9
+[OK] episodic memory large language model: raw 15 kept 8
+[OK] retrieval augmented agent long-term memory: raw 15 kept 9
+[OK] +89 arxiv refs -> <user-home>\Desktop\Deepseek Harmness测试区\brain-memory-model\refs\survey\refs_survey.jsonl
+- [A_timescale] [temporal context model] -> raw 15, kept 1
+- [A_timescale] [hippocampal time cell sequence memory] -> raw 2, kept 0
+- [B_forget] [principled forgetting neural networks] -> raw 20, kept 5
+- [D_consolidation] [experience replay prioritization] -> raw 20, kept 7
+- [E_wm] [working memory neural network capacity] -> raw 15, kept 5
+- [F_capacity] [associative memory capacity theory] -> raw 20, kept 10
+- [G_structure] [structured episodic memory graph] -> raw 15, kept 3
+- [H_scale] [approximate nearest neighbor search survey] -> raw 17, kept 6
+- [H_scale] [sublinear retrieval associative memory] -> raw 1, kept 0
+- [H_scale] [memory augmented neural network scaling] -> raw 15, kept 10
+- [I_confidence] [uncertainty aware retrieval] -> raw 15, kept 9
+- [J_llm_memory] [large language model agent memory survey] -> raw 20, kept 7
+- [J_llm_memory] [memory augmented LLM agent] -> raw 20, kept 9
+- [J_llm_memory] [episodic memory large language model] -> raw 15, kept 8
+- [J_llm_memory] [retrieval augmented agent long-term memory] -> raw 15, kept 9
+==== ARXIV MAIN done ====  
+==== SUPP CROSSREF start ====  
+[OK] +129 refs, skipped 75 -> refs\survey\refs_survey.jsonl
+  S909 T1       2025 International Research Journal of  MACHINE UNLEARNING FOR BIAS REMOVAL
+  S910 T1       2025 International Journal for Research Vershachi Unlearning: A Framework for Machine Unlearning
+  S911 unknown  2021 IEEE Access                        Coded Machine Unlearning
+  S912 unknown  2023 New Scientist                      Machine unlearning
+  S913 unknown  2025 2025 Seventeenth International Con Efficient Machine Unlearning using Mislabel Unlearning
+  S914 unknown  2025 Proceedings of the Thirty-Fourth I Contrastive Unlearning: A Contrastive Approach to Machine Un
+  S915 unknown  2025 Intelligent Systems with Applicati AGU: Adaptive gradient unlearning for efficient machine unle
+  S916 unknown  2026 Digital Privacy and Security       Exact Machine Unlearning
+  S917 unknown  2026 Digital Privacy and Security       Auditing Machine Unlearning
+  S918 unknown  2026 Digital Privacy and Security       Approximate Machine Unlearning
+  S919 unknown  2026 Wireless Networks                  Background of Machine Unlearning
+  S920 unknown  2026 Machine Unlearning                 Introduction to Machine Unlearning
+  S921 unknown  2026 Digital Privacy and Security       Introduction of Machine Unlearning
+  S922 unknown  2026 Studies in Computational Intellige Applications of Machine Unlearning
+  S923 unknown  2026 Studies in Computational Intellige Exact Machine Unlearning Techniques
+  S924 T2       2019 Journal of Experimental Psychology Supplemental Material for Applying Fuzzy-Trace Theory to Att
+  S925 T2       2020 Journal of Experimental Psychology Applying fuzzy-trace theory to attribute-framing bias: Gist 
+  S926 T2       2021 Journal of Applied Research in Mem Fuzzy-trace theory and the battle for the gist in the public
+  S927 unknown  1990 Developmental Review               Gist is the grist: Fuzzy-trace theory and the new intuitioni
+  S928 unknown  1991 Journal of Behavioral Decision Mak Fuzzy‐trace theory and framing effects in choice: Gist extra
+  S929 unknown  1998 Journal of Experimental Child Psyc Contemplating Fuzzy-Trace Theory: The Gist of It
+  S930 unknown  2013 Memory Distortions and Their Preve Fuzzy-Trace Theory and False Memory
+  S931 unknown  None Proceedings of IEEE 5th Internatio Text relations and recall based on fuzzy trace theory
+  S932 T2       1991 Progress in Brain Research         Responses of locus coeruleus neurons to neuropeptides
+  S933 T2       1991 Progress in Brain Research         The projections of locus coeruleus neurons to the spinal cor
+  S934 T3       1986 Learning and Memory                Locus Coeruleus in Learning and Memory Retrieval
+  S935 unknown  1976 Physiology &amp; Behavior          The locus coeruleus: Its possible role in memory consolidati
+  S936 unknown  1985 Advances in Behavioral Biology     Selective Attention, Memory, and the Locus Coeruleus
+  S937 unknown  2017 Neural Plasticity                  Locus Coeruleus and Dopamine-Dependent Memory Consolidation
+  S938 T1       1989 Neuroscience Research Supplements  Acetylcholine release from rat hippocampus
+  S939 T2       1996 Hippocampus                        TraceLink: A model of amnesia and consolidation of memory
+  S940 T2       2004 Progress in Brain Research         Muscarinic acetylcholine receptor subtypes in cerebral corte
+  S941 T2       2017 Hippocampus                        The dynamics of memory consolidation of landmarks
+  S942 T2       2023 Hippocampus                        Acetylcholine‐sensitive control of long‐term synaptic potent
+  S943 T1       2004 Journal of Computational Neuroscie Separation of Spatio-Temporal Receptive Fields into Sums of 
+  S944 T1       2013 Encyclopedia of Computational Neur Spectro-Temporal Receptive Fields
+  S945 T1       2013 Frontiers in Systems Neuroscience  The Complex Structure of Receptive Fields in the Middle Temp
+  S946 T1       2014 Frontiers in Systems Neuroscience  Erratum: The complex structure of receptive fields in the mi
+  S947 T1       2014 Frontiers in Computational Neurosc Temporal variability of spectro-temporal receptive fields in
+  S948 T1       2017 Frontiers in Systems Neuroscience  Matching Pursuit Analysis of Auditory Receptive Fields' Spec
+  S949 T1       2024 Computational Neuroscience         Functional Models of Receptive Fields
+  S950 T1       2025 Nature Communications              Covariant spatio-temporal receptive fields for spiking neura
+  S951 T2       2003 Neural Computation                 Simple-Cell-Like Receptive Fields Maximize Temporal Coherenc
+  S952 T2       2014 Visual Cognition                   Attentional attraction of receptive fields can explain spati
+  S953 T1       2003 Lecture Notes in Computer Science  Learning to Control at Multiple Time Scales
+  S954 T1       2010 Neuroscience Research              Multiscale analysis of long-term recordings from unanestheti
+  S955 T1       2011 Frontiers in Computational Neurosc Multiple Time Scales Recurrent Neural Network for Complex Ac
+  S956 T1       2016 Frontiers in Computational Neurosc Neural Computations in a Dynamical System with Multiple Time
+  S957 unknown  1982 Ecological Modelling               Aggregation and fishery dynamics: Multiple time scales, time
+  S958 unknown  1985 Multiple Time Scales               Multiple Time-Scale Methods in Tokamak Magnetohydrodynamics
+  S959 unknown  1991 The Journal of Chemical Physics    Stochastic molecular dynamics in systems with multiple time 
+  S960 unknown  1999 Journal of Computational Physics   Multiple Time Scales in Classical and Quantum–Classical Mole
+  S961 unknown  2003 AIP Conference Proceedings         Cardiovascular Dynamics — Multiple Time Scales, Oscillations
+  S962 unknown  2004 Motor Control                      Multiple Time Scales and Multiform Dynamics in Learning to J
+  S963 T1       2004 Trends in Neurosciences            Reversal and consolidation of activity-induced synaptic modi
+  S964 T2       2023 2023 IEEE/CVF Conference on Comput Batch Model Consolidation: A Multi-Task Model Consolidation 
+  S965 unknown  2011 Cognitive Neurodynamics            Synaptic consolidation: an approach to long-term learning
+  S966 unknown  2012 The Taxation of Corporate Groups u A model consolidation regime?
+  S967 T1       2007 Debates in Neuroscience            Systems consolidation and hippocampus: two views
+  S968 T1       2019 Nature Reviews Neuroscience        Active and effective replay: systems consolidation reconside
+  S969 T1       2019 Nature Reviews Neuroscience        Reply to ‘Active and effective replay: systems consolidation
+  S970 T1       2020 The Cognitive Neurosciences        Replay-Based Consolidation Governs Enduring Memory Storage
+  S971 T2       2001 Hippocampus                        Consolidation of memory
+  S972 T2       2019 Hippocampus                        A computational model of systems memory consolidation and re
+  S973 unknown  2017 Sleep Medicine Reviews             Memory consolidation in sleep disorders
+  S974 unknown  2026 Experimental &amp; Molecular Medic Role of the hippocampus in systems consolidation of remote f
+  S975 unknown  2026 Médecine du Sommeil                Impact of aversive stimuli on spatial memory consolidation d
+  S976 T3       2010 NeuroImage                         Theta–gamma phase synchronization during memory matching in 
+  S977 T3       2018 Scientific Reports                 Theta-gamma coupling binds visual perceptual features in an 
+  S978 T3       2019 NeuroImage                         Memory entrainment by visually evoked theta-gamma coupling
+  S979 T3       2020 NeuroImage                         Frontoparietal theta-gamma interactions track working memory
+  S980 T3       2025 NeuroImage: Clinical               Theta-gamma phase-amplitude coupling in psychosis and health
+  S981 unknown  2016 Neuropsychiatric Electrophysiology Disturbed theta and gamma coupling as a potential mechanism 
+  S982 unknown  2017 Schizophrenia Research             Impaired theta-gamma coupling during working memory performa
+  S983 unknown  2017 Physiology &amp; Behavior          Theta-gamma coupling in hippocampus during working memory de
+  S984 unknown  2022 Journal of Vision                  Is Theta-Gamma Coupling Memory Specific?
+  S985 unknown  2023 Medical &amp; Biological Engineeri Effects of high-frequency transcranial magnetic stimulation 
+  S986 T1       2014 Lecture Notes in Computer Science  An Analysis of the Local Optima Storage Capacity of Hopfield
+  S987 T1       2022 Encyclopedia of Computational Neur Stochastic Hopfield Network
+  S988 T1       2022 Passer Journal of Basic and Applie Continuous Proteretic Hopfield Neural Network in Walsh-based
+  S989 unknown  2016 International Journal of Computer  Implementation of Hopfield Neural Network for its Capacity w
+  S990 unknown  2026 Optics Letters                     Optical Hopfield neural networks with enhanced storage capac
+  S991 unknown  2026 Cognitive Neurodynamics            Origin of non-zero overlap in Hopfield neural networks beyon
+  S992 unknown  None Proceedings of the 9th Internation Effect of Hamming distance of patterns on storage capacity o
+  S993 T1       2000 Trends in Cognitive Sciences       Beyond the Cognitive Map: From Place Cells to Episodic Memor
+  S994 T1       2005 The Journal of Neuroscience        The Human Hippocampus: Cognitive Maps or Relational Memory?
+  S995 T1       2005 Trends in Cognitive Sciences       Drug-induced amnesia impairs implicit relational memory
+  S996 T1       2006 Journal of Cognitive Neuroscience  Event-related Potential Signatures of Relational Memory
+  S997 T1       2016 Developmental Cognitive Neuroscien Development of relational memory processes in monkeys
+  S998 T1       2023 2023 Conference on Cognitive Compu Representational learning in forming relational memory
+  S999 unknown  1980 Behavioral and Neural Biology      Hippocampus: cognitive map or working memory?
+  S1000 unknown  1999 Beyond the Cognitive Map           Goal Memory
+  S1001 unknown  2008 Hippocampal Place Fields           The Place Cells—Cognitive Map or Memory System?
+  S1002 unknown  2009 Learning &amp; Memory              A cognitive map for object memory in the hippocampus
+  S1003 unknown  1991 1991 IEEE International Symposium  VLSI architectures of sparse distributed memory
+  S1004 unknown  1995 Parallel Computing                 Alternatives for solving sparse triangular systems on distri
+  S1005 unknown  1995 Journal of Parallel and Distribute Parallel Implementation of a Sparse Simplex Algorithm on MIM
+  S1006 unknown  1996 Proceedings of the 1996 ACM/IEEE c Sparse LU factorization with partial pivoting on distributed
+  S1007 unknown  1997 Neurocomputing                     Assigning meaning to data: Using sparse distributed memory f
+  S1008 unknown  1997 Parallel Computing                 Parallel solution of sparse linear least squares problems on
+  S1009 unknown  2000 Parallel Computing                 Investigating the sparse simplex algorithm on a distributed 
+  S1010 unknown  2003 Cognitive Systems Research         Sparse distributed memory for ‘conscious’ software agents
+  S1011 unknown  2007 2007 IEEE International Conference AI and memory: Studies towards equipping a robot with a spar
+  S1012 unknown  2008 2008 IEEE International Conference Robot navigation using a sparse distributed memory
+  S1013 T1       2013 Lecture Notes in Computer Science  Locality Sensitive Hashing for Similarity Search Using MapRe
+  S1014 T1       2014 Lecture Notes in Computer Science  Large-Scale Distributed Locality-Sensitive Hashing for Gener
+  S1015 T1       2015 Lecture Notes in Computer Science  Fast Graph Similarity Search via Locality Sensitive Hashing
+  S1016 T1       2015 Computational Intelligence and Neu MapReduce Based Personalized Locality Sensitive Hashing for 
+  S1017 T1       2016 Lecture Notes in Computer Science  Improving Locality Sensitive Hashing Based Similarity Search
+  S1018 T1       2017 Science of Computer Programming    Parallel set similarity join on big data based on Locality-S
+  S1019 T1       2019 Lecture Notes in Computer Science  Fast Locality-Sensitive Hashing Frameworks for Approximate N
+  S1020 T1       2020 Journal of Archaeological Science  Quantifying object similarity: Applying locality sensitive h
+  S1021 T1       2020 Lecture Notes in Computer Science  On the Problem of $$p_1^{-1}$$ in Locality-Sensitive Hashing
+  S1022 T1       2020 Lecture Notes in Computer Science  Improving Locality Sensitive Hashing by Efficiently Finding 
+  S1023 T1       2025 Neuron                             Perceptual metacognition beyond confidence
+  S1024 T2       2002 Metacognition                      Familiarity and the Retrieval of Memory Traces
+  S1025 T2       2014 Implicit Memory and Metacognition  Explicit and Implicit Memory Retrieval: Intentions and Strat
+  S1026 T2       2014 Social Cognition and Metacognition Memory-Related Metacognition in Patients with Schizophrenia
+  S1027 T2       2014 Implicit Memory and Metacognition  Implicit Memory and Metacognition: Why Is the Glass Half Ful
+  S1028 T2       2014 Implicit Memory and Metacognition  Retrieval Fluency as a Metacognitive Index
+  S1029 T2       2018 Neuropsychopharmacology            Dopamine is a double-edged sword: dopaminergic modulation en
+  S1030 T2       2022 Metacognition and Learning         The underconfidence-with-practice effect in action memory: T
+  S1031 T2       2024 Metacognition and Learning         On the confidence-accuracy relationship in memory: inferenti
+  S1032 T2       2025 Encyclopedia of the Human Brain    Confidence and metacognition
+  S1033 T3       2019 Frontiers in Psychology            Predicting Accuracy in Eyewitness Testimonies With Memory Re
+  S1034 unknown  2001 Tip-of-the-tongue States           Theories of Metacognition
+  S1035 unknown  2015 Neurosurgery                       Single Neuron Markers of Memory Retrieval Confidence
+  S1036 unknown  2018 Memory                             Confidence in accuracy moderates the benefits of retrieval p
+  S1037 unknown  2018 Learning &amp; Memory              The posterior parietal cortex and subjectively perceived con
+  skip: A silent eligibility trace enables dopamine‐dependent synaptic :: dup
+  skip: Synaptic Plasticity :: dup
+  skip: Pathological Synaptic Plasticity in Neurological Disorders :: dup
+  skip: Gangliosides and Synaptic Plasticity in the Hippocampus :: dup
+  skip: Quantal Analysis of Synaptic Plasticity in the Hippocampus :: dup
+  skip: Eligibility traces as a synaptic substrate for learning :: dup
+  skip: Synaptic Plasticity: From Molecules to Behavior :: dup
+  skip: Role of the Spine Apparatus in Synaptic Plasticity :: dup
+  skip: Inhibitory Synaptic Plasticity and Neurotrophins :: dup
+  skip: Eligibility traces through colored noises :: dup
+  skip: Electrophysiological Methods for Investigating Inhibitory Syna :: dup
+  skip: Introductory Chapter: Mechanisms and Function of Synaptic Plas :: dup
+  skip: Mitochondrial Regulators of Synaptic Plasticity in the Ischemi :: dup
+  skip: Cortical plasticity induced by conversion of synaptic eligibil :: dup
+  skip: Synaptic Plasticity and Its Uses :: dup
+  skip: Synaptic Plasticity and Neuroinflammation :: dup
+  skip: The Histaminergic System in Brain: Memory and Synaptic Plastic :: dup
+  skip: Locus coeruleus activity during sleep for off-line memory cons :: dup
+  skip: Locus coeruleus-amygdala network for memory consolidation and  :: dup
+  skip: The locus coeruleus as a regulator of memory linking :: dup
+  skip: Angiotensin II and the locus coeruleus :: dup
+  skip: Afferent effects on locus coeruleus in opiate withdrawal :: dup
+  skip: mRNA at Synapses, Synaptic Plasticity, and Memory Consolidatio :: dup
+  skip: Synaptic Consolidation :: dup
+  skip: Synaptic consolidation across multiple timescales :: dup
+==== SUPP CROSSREF done ====  
+==== SUPP ARXIV start ====  
+[OK] machine unlearning LLM agents: raw 12 kept 3
+[OK] catastrophic forgetting replay continual learning: raw 10 kept 7
+[OK] eligibility traces learning synapse: raw 8 kept 0
+[OK] neuromodulation gating consolidation: raw 1 kept 0
+[OK] state space models time cells: raw 10 kept 0
+[OK] multi-timescale memory hierarchy: raw 2 kept 0
+[OK] Benna Fusi consolidation: raw 2 kept 0
+[OK] sleep replay consolidation model: raw 10 kept 0
+[OK] theta gamma nested oscillation memory: raw 0 kept 0
+[OK] modern Hopfield network capacity: raw 10 kept 6
+[OK] successor representation generalization: raw 10 kept 6
+[OK] graph structured memory agent: raw 10 kept 2
+[OK] HNSW vector search: raw 10 kept 2
+[OK] sparse associative memory retrieval: raw 10 kept 5
+[OK] confidence calibrated retrieval: raw 10 kept 4
+[OK] agent memory survey: raw 15 kept 1
+[OK] generative agents memory reflection: raw 10 kept 2
+[OK] MemGPT LLM operating system: raw 5 kept 1
+[OK] generative agents interactive simulacra: raw 5 kept 3
+[OK] Mem0 scalable long-term memory: raw 1 kept 1
+[OK] Zep temporal knowledge graph: raw 2 kept 1
+[OK] HippoRAG neurobiologically inspired long-term: raw 1 kept 1
+[OK] A-MEM agentic memory Zettelkasten: raw 1 kept 1
+[OK] LongMemEval long-term interactive memory: raw 5 kept 4
+[OK] Larimar episodic memory control: raw 2 kept 0
+[OK] MemOS memory operating system: raw 5 kept 3
+[OK] MemAgent long-context reinforcement: raw 2 kept 2
+[OK] +55 arxiv refs -> <user-home>\Desktop\Deepseek Harmness测试区\brain-memory-model\refs\survey\refs_survey.jsonl
+- [B_forget] [machine unlearning LLM agents] -> raw 12, kept 3
+- [B_forget] [catastrophic forgetting replay continual learning] -> raw 10, kept 7
+- [C_neuro] [eligibility traces learning synapse] -> raw 8, kept 0
+- [C_neuro] [neuromodulation gating consolidation] -> raw 1, kept 0
+- [A_timescale] [state space models time cells] -> raw 10, kept 0
+- [A_timescale] [multi-timescale memory hierarchy] -> raw 2, kept 0
+- [D_consolidation] [Benna Fusi consolidation] -> raw 2, kept 0
+- [D_consolidation] [sleep replay consolidation model] -> raw 10, kept 0
+- [E_wm] [theta gamma nested oscillation memory] -> raw 0, kept 0
+- [F_capacity] [modern Hopfield network capacity] -> raw 10, kept 6
+- [G_structure] [successor representation generalization] -> raw 10, kept 6
+- [G_structure] [graph structured memory agent] -> raw 10, kept 2
+- [H_scale] [HNSW vector search] -> raw 10, kept 2
+- [H_scale] [sparse associative memory retrieval] -> raw 10, kept 5
+- [I_confidence] [confidence calibrated retrieval] -> raw 10, kept 4
+- [J_llm_memory] [agent memory survey] -> raw 15, kept 1
+- [J_llm_memory] [generative agents memory reflection] -> raw 10, kept 2
+- [J_llm_memory] [MemGPT LLM operating system] -> raw 5, kept 1
+- [J_llm_memory] [generative agents interactive simulacra] -> raw 5, kept 3
+- [J_llm_memory] [Mem0 scalable long-term memory] -> raw 1, kept 1
+- [J_llm_memory] [Zep temporal knowledge graph] -> raw 2, kept 1
+- [J_llm_memory] [HippoRAG neurobiologically inspired long-term] -> raw 1, kept 1
+- [J_llm_memory] [A-MEM agentic memory Zettelkasten] -> raw 1, kept 1
+- [J_llm_memory] [LongMemEval long-term interactive memory] -> raw 5, kept 4
+- [J_llm_memory] [Larimar episodic memory control] -> raw 2, kept 0
+- [J_llm_memory] [MemOS memory operating system] -> raw 5, kept 3
+- [J_llm_memory] [MemAgent long-context reinforcement] -> raw 2, kept 2
+==== SUPP ARXIV done ==== 
+[OK] Rethinking Memory LLM based Agents: raw 3 kept 2
+[OK] Memory in the Age of AI Agents: raw 0 kept 0
+[OK] LongMemEval Benchmarking Chat Assistants: raw 1 kept 0
+[OK] MemOS Memory-Augmented Generation: raw 3 kept 0
+[OK] MemAgent Reshaping Long-Context LLM: raw 1 kept 1
+[OK] MemoryBank long-term memory companion: raw 1 kept 1
+[OK] +4 arxiv refs -> <user-home>\Desktop\Deepseek Harmness测试区\brain-memory-model\refs\survey\refs_survey.jsonl
+- [J_llm_memory] [Rethinking Memory LLM based Agents] -> raw 3, kept 2
+- [J_llm_memory] [Memory in the Age of AI Agents] -> raw 0, kept 0
+- [J_llm_memory] [LongMemEval Benchmarking Chat Assistants] -> raw 1, kept 0
+- [J_llm_memory] [MemOS Memory-Augmented Generation] -> raw 3, kept 0
+- [J_llm_memory] [MemAgent Reshaping Long-Context LLM] -> raw 1, kept 1
+- [J_llm_memory] [MemoryBank long-term memory companion] -> raw 1, kept 1

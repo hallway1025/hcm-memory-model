@@ -1,0 +1,1 @@
+{"version":"6.9","hitCount":0,"request":{"queryString":"DOI:\"10.17559/tv-20210427063132\"","resultType":"core","cursorMark":"*","pageSize":5,"sort":"","synonym":false},"resultList":{"result":[]}}

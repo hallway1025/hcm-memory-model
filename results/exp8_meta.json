@@ -1,0 +1,73 @@
+{
+ "n_each": 40,
+ "dropout": 0.35,
+ "curve": [
+  {
+   "theta": 0.0,
+   "coverage": 1.0,
+   "risk": 0.5
+  },
+  {
+   "theta": 0.3,
+   "coverage": 1.0,
+   "risk": 0.5
+  },
+  {
+   "theta": 0.4,
+   "coverage": 0.738,
+   "risk": 0.322
+  },
+  {
+   "theta": 0.5,
+   "coverage": 0.512,
+   "risk": 0.024
+  },
+  {
+   "theta": 0.55,
+   "coverage": 0.5,
+   "risk": 0.0
+  },
+  {
+   "theta": 0.6,
+   "coverage": 0.5,
+   "risk": 0.0
+  },
+  {
+   "theta": 0.65,
+   "coverage": 0.5,
+   "risk": 0.0
+  },
+  {
+   "theta": 0.7,
+   "coverage": 0.463,
+   "risk": 0.0
+  },
+  {
+   "theta": 0.75,
+   "coverage": 0.375,
+   "risk": 0.0
+  },
+  {
+   "theta": 0.8,
+   "coverage": 0.312,
+   "risk": 0.0
+  },
+  {
+   "theta": 0.85,
+   "coverage": 0.087,
+   "risk": 0.0
+  }
+ ],
+ "raw_in": {
+  "mean": 0.802,
+  "std": 0.067
+ },
+ "raw_out": {
+  "mean": 0.393,
+  "std": 0.046
+ },
+ "d_prime": 7.12,
+ "score_meta": 27.3,
+ "score_always": 0.0,
+ "n_abstain_meta": 39
+}

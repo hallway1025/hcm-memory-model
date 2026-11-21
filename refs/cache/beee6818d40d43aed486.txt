@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"0","retmax":"0","retstart":"0","idlist":[],"translationset":[],"querytranslation":"10.1016/0031-9384(69)90119-x[DOI]","errorlist":{"phrasesnotfound":["90119-x"],"fieldsnotfound":[]},"warninglist":{"phrasesignored":[],"quotedphrasesnotfound":[],"outputmessages":["No items found."]}}}

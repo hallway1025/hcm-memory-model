@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zLCssgQ90A46RnC4xFsh5UJZS9Q</id>
+  <title>arXiv Query: search_query=all:dense AND all:associative AND all:memory&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-11-07T14:08:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:dense+AND+(all:associative+AND+all:memory)&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>210</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.12811v1</id>
+    <title>Algorithmic Analysis of Dense Associative Memory: Finite-Size Guarantees and Adversarial Robustness</title>
+    <updated>2026-04-14T14:38:46Z</updated>
+    <link href="https://arxiv.org/abs/2604.12811v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.12811v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dense Associative Memory (DAM) generalizes Hopfield networks through higher-order interactions and achieves storage capacity that scales as $O(N^{n-1})$ under suitable pattern separation conditions. Existing dynamical analyses primarily study the thermodynamic limit $N\to\infty$ with randomly sampled patterns and therefore do not provide finite-size guarantees or explicit convergence rates.
+  We develop an algorithmic analysis of DAM retrieval dynamics that yields finite-$N$ guarantees under explicit, verifiable pattern conditions. Under a separation assumption and a bounded-interference condition at high loading, we prove geometric convergence of asynchronous retrieval dynamics, which implies $O(\log N)$ convergence time once the trajectory enters the basin of attraction. We further establish adversarial robustness bounds expressed through an explicit margin condition that quantifies the number of corrupted bits tolerable per sweep, and derive capacity guarantees that scale as $Θ(N^{n-1})$ up to polylogarithmic factors in the worst case, while recovering the classical $Θ(N^{n-1})$ scaling for random pattern ensembles. Finally, we show that DAM retrieval dynamics admit a potential-game interpretation that ensures convergence to pure Nash equilibria under asynchronous updates.
+  Complete proofs are provided in the appendices, together with preliminary experiments that illustrate the predicted convergence, robustness, and capacity scaling behavior.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-14T14:38:46Z</published>
+    <arxiv:comment>21 pages, 9 figures, Accepted in New Frontiers in Associative Memory workshop at ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Madhava Gaikwad</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.01395v1</id>
+    <title>Effects of Feature Correlations on Associative Memory Capacity</title>
+    <updated>2025-08-02T15:03:01Z</updated>
+    <link href="https://arxiv.org/abs/2508.01395v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.01395v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate how feature correlations influence the capacity of Dense Associative Memory (DAM), a Transformer attention-like model. Practical machine learning scenarios involve feature-correlated data and learn representations in the input space, but current capacity analyses do not account for this. We develop an empirical framework to analyze the effects of data structure on capacity dynamics. Specifically, we systematically construct datasets that vary in feature correlation and pattern separation using Hamming distance from information theory, and compute the model's corresponding storage capacity using a simple binary search algorithm. Our experiments confirm that memory capacity scales exponentially with increasing separation in the input space. Feature correlations do not alter this relationship fundamentally, but reduce capacity slightly at constant separation. This effect is amplified at higher polynomial degrees in the energy function, suggesting that Associative Memory is more limited in depicting higher-order interactions between features than patterns. Our findings bridge theoretical work and practical settings for DAM, and might inspire more data-centric methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-02T15:03:01Z</published>
+    <arxiv:comment>Accepted at ICLR 2025 "New Frontiers in Associative Memories" Workshop. Code: https://github.com/stefanbielmeier/feature-correlations-am</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Stefan Bielmeier</name>
+    </author>
+    <author>
+      <name>Gerald Friedland</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.19195v3</id>
+    <title>Free energy landscape of Dense Associative Memory</title>
+    <updated>2026-10-30T04:49:58Z</updated>
+    <link href="https://arxiv.org/abs/2607.19195v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.19195v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using large deviations theory, we solve and obtain a general expression for the free energy functional for a broad class of associative memories, including dense associative memories. We illustrate the method by reproducing classical results for the Hopfield model. For a finite number of patterns, we derive the temperature-dependent free energy functional for dense associative memories featuring polynomial interactions and Log-Sum-Exponential (LSE) activation. We also obtain the disorder-averaged ground-state energy landscape of these systems in the extensive limit. Our analytical framework reveals how memory retrieval depends on the initial state in higher-order dense networks, and gives the exact error-free threshold for the LSE model. This method provides a systematic procedure for analyzing diverse, complex architectures in associative memory.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-21T15:30:53Z</published>
+    <arxiv:comment>6 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name> Sumedha</name>
+    </author>
+    <author>
+      <name>Abhishek Singh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.00851v2</id>
+    <title>Dynamical Properties of Dense Associative Memory</title>
+    <updated>2025-10-28T13:28:17Z</updated>
+    <link href="https://arxiv.org/abs/2506.00851v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.00851v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dense associative memory, a fundamental instance of modern Hopfield networks, can store a large number of memory patterns as equilibrium states of recurrent networks. While the stationary-state storage capacity has been investigated, its dynamical properties have not yet been discussed. In this paper, we analyze the dynamics using an exact approach based on generating functional analysis. We show results on convergence properties of memory retrieval, such as the convergence time and the size of the attraction basins. Our analysis enables a quantitative evaluation of the convergence time and the storage capacity of dense associative memory, which is useful for model design. Unlike the traditional Hopfield model, the retrieval of a pattern does not act as additional noise to itself, suggesting that the structure of modern networks makes recall more robust. Furthermore, the methodology addressed here can be applied to other energy-based models, and thus has the potential to contribute to the design of future architectures.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-01T06:20:40Z</published>
+    <arxiv:comment>15 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Kazushi Mimura</name>
+    </author>
+    <author>
+      <name>Jun'ichi Takeuchi</name>
+    </author>
+    <author>
+      <name>Yuto Sumikawa</name>
+    </author>
+    <author>
+      <name>Yoshiyuki Kabashima</name>
+    </author>
+    <author>
+      <name>Anthony C. C. Coolen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.01164v2</id>
+    <title>Dense Associative Memory for Pattern Recognition</title>
+    <updated>2016-09-27T16:05:36Z</updated>
+    <link href="https://arxiv.org/abs/1606.01164v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.01164v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A model of associative memory is studied, which stores and reliably retrieves many more patterns than the number of neurons in the network. We propose a simple duality between this dense associative memory and neural networks commonly used in deep learning. On the associative memory side of this duality, a family of models that smoothly interpolates between two limiting cases can be constructed. One limit is referred to as the feature-matching mode of pattern recognition, and the other one as the prototype regime. On the deep learning side of the duality, this family corresponds to feedforward neural networks with one hidden layer and various activation functions, which transmit the activities of the visible neurons to the hidden layer. This family of activation functions includes logistics, rectified linear units, and rectified polynomials of higher degrees. The proposed duality makes it possible to apply energy-based intuition from associative memory to analyze computational properties of neural networks with unusual activation functions - the higher rectified polynomials which until now have not been used in deep learning. The utility of the dense memories is illustrated for two test cases: the logical gate XOR and the recognition of handwritten digits from the MNIST data set.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-03T16:17:01Z</published>
+    <arxiv:comment>Accepted for publication at NIPS 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <arxiv:journal_ref>Advances in Neural Information Processing Systems 29 (2016), 1172-1180</arxiv:journal_ref>
+    <author>
+      <name>Dmitry Krotov</name>
+    </author>
+    <author>
+      <name>John J Hopfield</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.21493v1</id>
+    <title>Phase Kernel Lifts Capacity of Dense Associative Memory</title>
+    <updated>2026-10-15T08:31:39Z</updated>
+    <link href="https://arxiv.org/abs/2610.21493v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.21493v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dense associative memory underlies modern attention mechanisms; however, Modern Hopfield Networks (MHNs) with linear kernels yield overlapping attractor basins and spurious states under high memory load, limiting their theoretically exponential storage capacity in practice. We construct a class of nonlinear phase kernels that modify the energy landscape and retrieval dynamics, and prove that these kernels preserve exponential storage capacity and local fixed-point convergence under given conditions on kernel smoothness, memory separation, and memory distributions. The framework is instantiated by the Sigmoidal Phase Hopfield Network (S-Hop), which guarantees monotone energy descent and mitigates practical capacity loss. S-Hop has $8.3\times$ and $4\times$ gains in one-step noisy retrieval load over Uniform Hopfield Networks (U-Hop) on CIFAR-10 and TinyImageNet respectively, and reaches a $50\times$ gain in first-failure load for ImageNet. The results demonstrate that phase kernels provide a principled route to robust dense associative memory.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-15T08:31:39Z</published>
+    <arxiv:comment>Accepted as NeurlPS spotlight</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yifei Zhao</name>
+    </author>
+    <author>
+      <name>Ying Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.08742v4</id>
+    <title>Improved Robustness and Hyperparameter Selection in the Dense Associative Memory</title>
+    <updated>2024-09-21T12:25:24Z</updated>
+    <link href="https://arxiv.org/abs/2407.08742v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.08742v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Dense Associative Memory generalizes the Hopfield network by allowing for sharper interaction functions. This increases the capacity of the network as an autoassociative memory as nearby learned attractors will not interfere with one another. However, the implementation of the network relies on applying large exponents to the dot product of memory vectors and probe vectors. If the dimension of the data is large the calculation can be very large and result in imprecisions and overflow when using floating point numbers in a practical implementation. We describe the computational issues in detail, modify the original network description to mitigate the problem, and show the modification will not alter the networks' dynamics during update or training. We also show our modification greatly improves hyperparameter selection for the Dense Associative Memory, removing dependence on the interaction vertex and resulting in an optimal region of hyperparameters that does not significantly change with the interaction vertex as it does in the original network.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-29T01:23:19Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Hayden McAlister</name>
+    </author>
+    <author>
+      <name>Anthony Robins</name>
+    </author>
+    <author>
+      <name>Lech Szymanski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.07123v3</id>
+    <title>Semantically-correlated memories in a dense associative model</title>
+    <updated>2024-06-02T08:29:45Z</updated>
+    <link href="https://arxiv.org/abs/2404.07123v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.07123v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I introduce a novel associative memory model named Correlated Dense Associative Memory (CDAM), which integrates both auto- and hetero-association in a unified framework for continuous-valued memory patterns. Employing an arbitrary graph structure to semantically link memory patterns, CDAM is theoretically and numerically analysed, revealing four distinct dynamical modes: auto-association, narrow hetero-association, wide hetero-association, and neutral quiescence. Drawing inspiration from inhibitory modulation studies, I employ anti-Hebbian learning rules to control the range of hetero-association, extract multi-scale representations of community structures in graphs, and stabilise the recall of temporal sequences. Experimental demonstrations showcase CDAM's efficacy in handling real-world data, replicating a classical neuroscience experiment, performing image retrieval, and simulating arbitrary finite automata.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-10T16:04:07Z</published>
+    <arxiv:comment>35 pages, 32 figures; published in ICML2024</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Thomas F Burns</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.24153v1</id>
+    <title>Dense Associative Memory Through the Lens of Random Features</title>
+    <updated>2024-10-31T17:10:57Z</updated>
+    <link href="https://arxiv.org/abs/2410.24153v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.24153v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dense Associative Memories are high storage capacity variants of the Hopfield networks that are capable of storing a large number of memory patterns in the weights of the network of a given size. Their common formulations typically require storing each pattern in a separate set of synaptic weights, which leads to the increase of the number of synaptic weights when new patterns are introduced. In this work we propose an alternative formulation of this class of models using random features, commonly used in kernel methods. In this formulation the number of network's parameters remains fixed. At the same time, new memories can be added to the network by modifying existing weights. We show that this novel network closely approximates the energy function and dynamics of conventional Dense Associative Memories and shares their desirable computational properties.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-31T17:10:57Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Benjamin Hoover</name>
+    </author>
+    <author>
+      <name>Duen Horng Chau</name>
+    </author>
+    <author>
+      <name>Hendrik Strobelt</name>
+    </author>
+    <author>
+      <name>Parikshit Ram</name>
+    </author>
+    <author>
+      <name>Dmitry Krotov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.15729v2</id>
+    <title>Sequential Learning in the Dense Associative Memory</title>
+    <updated>2025-03-04T21:41:17Z</updated>
+    <link href="https://arxiv.org/abs/2409.15729v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.15729v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sequential learning involves learning tasks in a sequence, and proves challenging for most neural networks. Biological neural networks regularly conquer the sequential learning challenge and are even capable of transferring knowledge both forward and backwards between tasks. Artificial neural networks often totally fail to transfer performance between tasks, and regularly suffer from degraded performance or catastrophic forgetting on previous tasks. Models of associative memory have been used to investigate the discrepancy between biological and artificial neural networks due to their biological ties and inspirations, of which the Hopfield network is the most studied model. The Dense Associative Memory (DAM), or modern Hopfield network, generalizes the Hopfield network, allowing for greater capacities and prototype learning behaviors, while still retaining the associative memory structure. We give a substantial review of the sequential learning space with particular respect to the Hopfield network and associative memories. We perform foundational benchmarks of sequential learning in the DAM using various sequential learning techniques, and analyze the results of the sequential learning to demonstrate previously unseen transitions in the behavior of the DAM. This paper also discusses the departure from biological plausibility that may affect the utility of the DAM as a tool for studying biological neural networks. We present our findings, including the effectiveness of a range of state-of-the-art sequential learning methods when applied to the DAM, and use these methods to further the understanding of DAM properties and behaviors.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-24T04:23:00Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Hayden McAlister</name>
+    </author>
+    <author>
+      <name>Anthony Robins</name>
+    </author>
+    <author>
+      <name>Lech Szymanski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.19151v2</id>
+    <title>Saddle Hierarchy in Dense Associative Memory</title>
+    <updated>2026-01-24T16:58:21Z</updated>
+    <link href="https://arxiv.org/abs/2508.19151v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.19151v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dense Associative Memory (DAM) models have been attracting renewed attention since they were shown to be robust to adversarial examples and closely related to cutting edge machine learning paradigms, such as the attention mechanism and generative diffusion. We study a DAM built upon a three-layer Boltzmann machine with Potts hidden units, which represent data clusters and classes. Through a statistical mechanics analysis, we derive saddle-point equations that characterize both the stationary points of DAMs trained on real data and the fixed points of DAMs trained on synthetic data within a teacher-student framework. Based on these results, we propose a novel regularization scheme that makes training significantly more stable. Moreover, we show empirically that our DAM learns interpretable solutions to both supervised and unsupervised classification problems. Pushing our theoretical analysis further, we find that the weights learned by relatively small DAMs correspond to unstable saddle points in larger DAMs. We implement a network-growing algorithm that leverages this saddle-point hierarchy to drastically reduce the computational cost of training dense associative memory.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-26T16:03:19Z</published>
+    <arxiv:comment>55 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Machine Learning: Science and Technology, volume 7, 2026, 015001</arxiv:journal_ref>
+    <author>
+      <name>Robin Thériault</name>
+    </author>
+    <author>
+      <name>Daniele Tantari</name>
+    </author>
+    <arxiv:doi>10.1088/2632-2153/ae3051</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/2632-2153/ae3051" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.10801v2</id>
+    <title>Dense Associative Memory with Epanechnikov Energy</title>
+    <updated>2026-02-02T14:35:02Z</updated>
+    <link href="https://arxiv.org/abs/2506.10801v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.10801v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a novel energy function for Dense Associative Memory (DenseAM) networks, the log-sum-ReLU (LSR), inspired by optimal kernel density estimation. Unlike the common log-sum-exponential (LSE) function, LSR is based on the Epanechnikov kernel and enables exact memory retrieval with exponential capacity without requiring exponential separation functions. Moreover, it introduces abundant additional \emph{emergent} local minima while preserving perfect pattern recovery -- a characteristic previously unseen in DenseAM literature. Empirical results show that LSR energy has significantly more local minima (memories) that have comparable log-likelihood to LSE-based models. Analysis of LSR's emergent memories on image datasets reveals a degree of creativity and novelty, hinting at this method's potential for both large-scale memory storage and generative tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-12T15:16:31Z</published>
+    <arxiv:comment>Accepted as Spotlight Poster to NeurIPS 2025 main conference</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Benjamin Hoover</name>
+    </author>
+    <author>
+      <name>Zhaoyang Shi</name>
+    </author>
+    <author>
+      <name>Krishnakumar Balasubramanian</name>
+    </author>
+    <author>
+      <name>Dmitry Krotov</name>
+    </author>
+    <author>
+      <name>Parikshit Ram</name>
+    </author>
+  </entry>
+</feed>

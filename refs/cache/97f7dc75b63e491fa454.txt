@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7UtlcXLV4rgzwKlxqm7188QVDrQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2401.07516&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:31:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2401.07516" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.07516v1</id>
+    <title>Temporal Link Prediction Using Graph Embedding Dynamics</title>
+    <updated>2024-01-15T07:35:29Z</updated>
+    <link href="https://arxiv.org/abs/2401.07516v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.07516v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graphs are a powerful representation tool in machine learning applications, with link prediction being a key task in graph learning. Temporal link prediction in dynamic networks is of particular interest due to its potential for solving complex scientific and real-world problems. Traditional approaches to temporal link prediction have focused on finding the aggregation of dynamics of the network as a unified output. In this study, we propose a novel perspective on temporal link prediction by defining nodes as Newtonian objects and incorporating the concept of velocity to predict network dynamics. By computing more specific dynamics of each node, rather than overall dynamics, we improve both accuracy and explainability in predicting future connections. We demonstrate the effectiveness of our approach using two datasets, including 17 years of co-authorship data from PubMed. Experimental results show that our temporal graph embedding dynamics approach improves downstream classification models' ability to predict future collaboration efficacy in co-authorship networks by 17.34% (AUROC improvement relative to the baseline model). Furthermore, our approach offers an interpretable layer over traditional approaches to address the temporal link prediction problem.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-15T07:35:29Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sanaz Hasanzadeh Fard</name>
+    </author>
+    <author>
+      <name>Mohammad Ghassemi</name>
+    </author>
+  </entry>
+</feed>

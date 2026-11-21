@@ -1,0 +1,1 @@
+{"version":"6.9","hitCount":0,"request":{"queryString":"DOI:\"10.51202/9783186879103-38\"","resultType":"core","cursorMark":"*","pageSize":5,"sort":"","synonym":false},"resultList":{"result":[]}}

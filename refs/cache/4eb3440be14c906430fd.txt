@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/y9rYvYxIthvgBs3BhDg/zE7SPWU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2412.09764&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:32:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2412.09764" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.09764v2</id>
+    <title>Memory Layers at Scale</title>
+    <updated>2024-12-20T17:36:52Z</updated>
+    <link href="https://arxiv.org/abs/2412.09764v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.09764v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory layers use a trainable key-value lookup mechanism to add extra parameters to a model without increasing FLOPs. Conceptually, sparsely activated memory layers complement compute-heavy dense feed-forward layers, providing dedicated capacity to store and retrieve information cheaply. This work takes memory layers beyond proof-of-concept, proving their utility at contemporary scale. On downstream tasks, language models augmented with our improved memory layer outperform dense models with more than twice the computation budget, as well as mixture-of-expert models when matched for both compute and parameters. We find gains are especially pronounced for factual tasks. We provide a fully parallelizable memory layer implementation, demonstrating scaling laws with up to 128B memory parameters, pretrained to 1 trillion tokens, comparing to base models with up to 8B parameters.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-12T23:56:57Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Vincent-Pierre Berges</name>
+    </author>
+    <author>
+      <name>Barlas Oğuz</name>
+    </author>
+    <author>
+      <name>Daniel Haziza</name>
+    </author>
+    <author>
+      <name>Wen-tau Yih</name>
+    </author>
+    <author>
+      <name>Luke Zettlemoyer</name>
+    </author>
+    <author>
+      <name>Gargi Ghosh</name>
+    </author>
+  </entry>
+</feed>

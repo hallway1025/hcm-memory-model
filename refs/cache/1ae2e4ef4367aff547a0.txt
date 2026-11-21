@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PL5DEe3OSEQjrE41cqDED+51pto</id>
+  <title>arXiv Query: search_query=&amp;id_list=2610.17659&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T11:56:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2610.17659" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.17659v1</id>
+    <title>Can Agents Truly Forget? Explore Machine Unlearning for LLM Agents</title>
+    <updated>2026-10-13T03:37:30Z</updated>
+    <link href="https://arxiv.org/abs/2610.17659v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.17659v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents have shown strong capabilities in interactive problem solving, tool use, and long-horizon task execution. However, they may also acquire sensitive or private knowledge during training and expose it during deployment. Retraining a model from scratch to remove such knowledge is prohibitively costly, making machine unlearning a more practical approach. Machine unlearning aims to remove targeted undesirable knowledge from trained models without retraining from scratch while preserving general utility. When language models are deployed as agents, parameter-level unlearning becomes insufficient: forgotten information may still persist in memory artifacts or be reacquired via tool calls. In this paper, we formulate the problem of agent unlearning as removing private information from an LLM-based agent across three information channels: parametric knowledge, persistent memory, and tool-call acquisition. To study this problem, we introduce we introduce Agent Unlearning Benchmark (AUBench), a controlled benchmark that extends the fictitious-author setting of TOFU into an agent environment with persistent memory, an offline web snapshot, tool-accessible documents, and provenance-tracked interaction trajectories. By evaluating existing parameter-level and memory-level unlearning methods in this setting, AUBench reveals the gap between model-level forgetting and system-level agent unlearning, and provides a foundation for developing unlearning methods that operate across the full lifecycle of LLM agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-13T03:37:30Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Junkai Lin</name>
+    </author>
+    <author>
+      <name>Ge Xu</name>
+    </author>
+    <author>
+      <name>Zheng Xu</name>
+    </author>
+    <author>
+      <name>Junkai Chen</name>
+    </author>
+    <author>
+      <name>Xiangyuan Lan</name>
+    </author>
+  </entry>
+</feed>

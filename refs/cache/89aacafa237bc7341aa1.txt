@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//aZE/VP+HAVd8KChvy8k5voXfHg</id>
+  <title>arXiv Query: search_query=all:Kanerva AND all:sparse AND all:distributed AND all:memory&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T13:50:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Kanerva+AND+(all:sparse+AND+(all:distributed+AND+all:memory))&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1207.5774v3</id>
+    <title>A New Training Algorithm for Kanerva's Sparse Distributed Memory</title>
+    <updated>2012-07-27T08:24:51Z</updated>
+    <link href="https://arxiv.org/abs/1207.5774v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.5774v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Sparse Distributed Memory proposed by Pentii Kanerva (SDM in short) was thought to be a model of human long term memory. The architecture of the SDM permits to store binary patterns and to retrieve them using partially matching patterns. However Kanerva's model is especially efficient only in handling random data. The purpose of this article is to introduce a new approach of training Kanerva's SDM that can handle efficiently non-random data, and to provide it the capability to recognize inverted patterns. This approach uses a signal model which is different from the one proposed for different purposes by Hely, Willshaw and Hayes in [4]. This article additionally suggests a different way of creating hard locations in the memory despite the Kanerva's static model.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-22T16:30:07Z</published>
+    <arxiv:comment>5 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Lou Marvin Caraig</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.01756v3</id>
+    <title>The Kanerva Machine: A Generative Distributed Memory</title>
+    <updated>2018-06-18T09:52:40Z</updated>
+    <link href="https://arxiv.org/abs/1804.01756v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.01756v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an end-to-end trained memory system that quickly adapts to new data and generates samples like them. Inspired by Kanerva's sparse distributed memory, it has a robust distributed reading and writing mechanism. The memory is analytically tractable, which enables optimal on-line compression via a Bayesian update-rule. We formulate it as a hierarchical conditional generative model, where memory provides a rich data-dependent prior distribution. Consequently, the top-down memory and bottom-up perception are combined to produce the code representing an observation. Empirically, we demonstrate that the adaptive memory significantly improves generative models trained on both the Omniglot and CIFAR datasets. Compared with the Differentiable Neural Computer (DNC) and its variants, our memory model has greater capacity and is significantly easier to train.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-05T10:07:05Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2018 (corrected typos in revision)</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Yan Wu</name>
+    </author>
+    <author>
+      <name>Greg Wayne</name>
+    </author>
+    <author>
+      <name>Alex Graves</name>
+    </author>
+    <author>
+      <name>Timothy Lillicrap</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.05498v2</id>
+    <title>Attention Approximates Sparse Distributed Memory</title>
+    <updated>2022-01-17T18:00:00Z</updated>
+    <link href="https://arxiv.org/abs/2111.05498v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.05498v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Attention has come to be an important mechanism in deep learning, there remains limited intuition for why it works so well. Here, we show that Transformer Attention can be closely related under certain data conditions to Kanerva's Sparse Distributed Memory (SDM), a biologically plausible associative memory model. We confirm that these conditions are satisfied in pre-trained GPT2 Transformer models. We discuss the implications of the Attention-SDM map and provide new computational and biological interpretations of Attention.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-10T02:36:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>35th Conference on Neural Information Processing Systems (NeurIPS 2021)</arxiv:journal_ref>
+    <author>
+      <name>Trenton Bricken</name>
+    </author>
+    <author>
+      <name>Cengiz Pehlevan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.06342v1</id>
+    <title>Prevalence and recoverability of syntactic parameters in sparse distributed memories</title>
+    <updated>2015-10-21T17:11:13Z</updated>
+    <link href="https://arxiv.org/abs/1510.06342v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.06342v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new method, based on Sparse Distributed Memory (Kanerva Networks), for studying dependency relations between different syntactic parameters in the Principles and Parameters model of Syntax. We store data of syntactic parameters of world languages in a Kanerva Network and we check the recoverability of corrupted parameter data from the network. We find that different syntactic parameters have different degrees of recoverability. We identify two different effects: an overall underlying relation between the prevalence of parameters across languages and their degree of recoverability, and a finer effect that makes some parameters more easily recoverable beyond what their prevalence would indicate. We interpret a higher recoverability for a syntactic parameter as an indication of the existence of a dependency relation, through which the given parameter can be determined using the remaining uncorrupted data.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-21T17:11:13Z</published>
+    <arxiv:comment>13 pages, LaTeX, 4 jpeg figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jeong Joon Park</name>
+    </author>
+    <author>
+      <name>Ronnel Boettcher</name>
+    </author>
+    <author>
+      <name>Andrew Zhao</name>
+    </author>
+    <author>
+      <name>Alex Mun</name>
+    </author>
+    <author>
+      <name>Kevin Yuh</name>
+    </author>
+    <author>
+      <name>Vibhor Kumar</name>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.09416v3</id>
+    <title>Kernel Memory Networks: A Unifying Framework for Memory Modeling</title>
+    <updated>2024-07-23T16:09:17Z</updated>
+    <link href="https://arxiv.org/abs/2208.09416v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.09416v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of training a neural network to store a set of patterns with maximal noise robustness. A solution, in terms of optimal weights and state update rules, is derived by training each individual neuron to perform either kernel classification or interpolation with a minimum weight norm. By applying this method to feed-forward and recurrent networks, we derive optimal models, termed kernel memory networks, that include, as special cases, many of the hetero- and auto-associative memory models that have been proposed over the past years, such as modern Hopfield networks and Kanerva's sparse distributed memory. We modify Kanerva's model and demonstrate a simple way to design a kernel memory network that can store an exponential number of continuous-valued patterns with a finite basin of attraction. The framework of kernel memory networks offers a simple and intuitive way to understand the storage capacity of previous memory models, and allows for new biological interpretations in terms of dendritic non-linearities and synaptic cross-talk.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-19T16:01:09Z</published>
+    <arxiv:comment>24 pages, 5 figures. This is the version published in the NeurIPS 2022 proceedings</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Georgios Iatropoulos</name>
+    </author>
+    <author>
+      <name>Johanni Brea</name>
+    </author>
+    <author>
+      <name>Wulfram Gerstner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.11665v7</id>
+    <title>Beyond LLMs, Sparse Distributed Memory, and Neuromorphics &lt;A Hyper-Dimensional SRAM-CAM "VaCoAl" for Ultra-High Speed, Ultra-Low Power, and Low Cost&gt;</title>
+    <updated>2026-08-08T14:07:48Z</updated>
+    <link href="https://arxiv.org/abs/2604.11665v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.11665v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>VaCoAl (Python: PyVaCoAl) attacks the Binding Problem algebraically rather than statistically: an SRAM/DRAM-CAM organised end-to-end around one primitive, XOR-and-shift over GF(2) via primitive-polynomial LFSRs. Rooted in Kanerva's Sparse Distributed Memory, it retrieves in a million-dimensional binary space by Galois-field diffusion; Binding and Unbinding are exactly reversible at O(L), giving compositional generalisation with post-hoc auditability. Unexpectedly, a path-dependent semantic selection mechanism emerges undesigned, functionally equivalent to Spike-Timing-Dependent Plasticity (STDP) and predictable a priori from a closed form matching measurement on tens of millions of records. It is the Don't Care (collision-tolerance) rule: not a defect to engineer away, but the source of its ability to rank paths by quality. Capability: reversible binding plus tolerated collisions yields a path-integral confidence measure (CR2) ranking candidates by accumulated reliability, absent from hash-based search. Necessity: repair the collisions fully and the ranking vanishes; a memory that never fails has no record of which paths were difficult. Position: we do not surpass large language models; the substrate is orthogonal, supplying the auditable path-ranking layer they lack. A mentor-student ontology of ~470,000 WIKIDATA scholars, traversed backwards from all 64 Fields Medalists to depth 57 and &gt;25.5M paths, stress-tests multi-hop reasoning over a large DAG. Ablation shows Don't Care imposing a depth-dependent exponential penalty that prunes circuitous routes and preserves direct ones: an Occam's razor. Per-generation CR1 stays within 0.995-0.999, yet cumulative CR2 decays monotonically to ~0.905 by generation 56, matching the closed form 0.997^56 = 0.846 within observed variation. All measurements are from PyVaCoAl, a software DRAM-CAM; speed and power figures are projections.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-13T16:13:17Z</published>
+    <arxiv:comment>58 pages, 4 figure, 19 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Hiroyuki Chuma</name>
+    </author>
+    <author>
+      <name>Kanji Otsuka</name>
+    </author>
+    <author>
+      <name>Yoichi Sato</name>
+    </author>
+  </entry>
+</feed>

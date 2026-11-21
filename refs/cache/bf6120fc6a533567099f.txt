@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4JmfiGgt1sRRrweN4LCZkOuolFw</id>
+  <title>arXiv Query: search_query=all:task AND all:arithmetic AND all:continual&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T14:09:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:task+AND+(all:arithmetic+AND+all:continual)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>103</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.02428v1</id>
+    <title>Task Arithmetic with LoRA for Continual Learning</title>
+    <updated>2023-11-04T15:12:24Z</updated>
+    <link href="https://arxiv.org/abs/2311.02428v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.02428v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continual learning refers to the problem where the training data is available in sequential chunks, termed "tasks". The majority of progress in continual learning has been stunted by the problem of catastrophic forgetting, which is caused by sequential training of the model on streams of data. Moreover, it becomes computationally expensive to sequentially train large models multiple times. To mitigate both of these problems at once, we propose a novel method to continually train transformer-based vision models using low-rank adaptation and task arithmetic. Our method completely bypasses the problem of catastrophic forgetting, as well as reducing the computational requirement for training models on each task. When aided with a small memory of 10 samples per class, our method achieves performance close to full-set finetuning. We present rigorous ablations to support the prowess of our method.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-04T15:12:24Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Rajas Chitale</name>
+    </author>
+    <author>
+      <name>Ankit Vaidya</name>
+    </author>
+    <author>
+      <name>Aditya Kane</name>
+    </author>
+    <author>
+      <name>Archana Ghotkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.18610v1</id>
+    <title>CATA: Continual Machine Unlearning via Conflict-Averse Task Arithmetic</title>
+    <updated>2026-05-18T16:21:41Z</updated>
+    <link href="https://arxiv.org/abs/2605.18610v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.18610v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models (VLMs) have shown remarkable ability in aligning visual and textual representations, enabling a wide range of multimodal applications. However, their large-scale training data inevitably raises concerns about privacy, copyright, and undesirable content, creating a strong need for machine unlearning. While existing studies mainly focus on single-shot unlearning, practical VLM deployment often involves sequential removal requests over time, giving rise to continual machine unlearning. In this work, we make the first attempt to study continual unlearning for VLMs and identify three key challenges in this setting: effectiveness in removing target knowledge, fidelity in preserving retained model utility, and persistence in preventing knowledge re-emergence under sequential updates. To address these challenges, we propose CATA, a conflict-averse task arithmetic method that represents each forget request as an unlearning task vector. By maintaining historical task vectors and performing sign-aware conflict-averse aggregation, CATA suppresses conflicting update components that may weaken previous forgetting effects. Extensive experiments under both single-shot and continual settings show that CATA outperforms baselines in terms of forgetting effectiveness, model fidelity, and forgetting persistence.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-18T16:21:41Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shen Lin</name>
+    </author>
+    <author>
+      <name>Junhao Dong</name>
+    </author>
+    <author>
+      <name>Rongjie Chen</name>
+    </author>
+    <author>
+      <name>Xiaoyu Zhang</name>
+    </author>
+    <author>
+      <name>Li Xu</name>
+    </author>
+    <author>
+      <name>Xiaofeng Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.17987v1</id>
+    <title>Escaping Optimization Stagnation: Taking Steps Beyond Task Arithmetic via Difference Vectors</title>
+    <updated>2025-11-22T09:01:05Z</updated>
+    <link href="https://arxiv.org/abs/2511.17987v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.17987v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current methods for editing pre-trained models face significant challenges, primarily high computational costs and limited scalability. Task arithmetic has recently emerged as a promising solution, using simple arithmetic operations-addition and negation-based on task vectors which are the differences between fine-tuned and pre-trained model weights, to efficiently modify model behavior. However, the full potential of task arithmetic remains underexplored, primarily due to limited mechanisms for overcoming optimization stagnation. To address this challenge, we introduce the notion of difference vector, a generalized form of task vectors derived from the historical movements during optimization. Using difference vectors as directed perturbations, we propose the Difference Vector-based Anisotropic Scaling Iterative algorithm (DV-BASI) to enable a continuous optimization process for task arithmetic methods without relying on any additional modules or components. Notably, by leveraging escapability and directional advantages of difference vectors, the average performance on different tasks of the multi-task model merged by DV-BASI may even outperform models individually fine-tuned. Based on this observation, we extend the application of difference vectors to a feasible fine-tuning method for single-task models. On the practical side, DV-BASI allows expressive searching directions with few learnable parameters and forms a scalable framework. We also integrate DV-BASI with task arithmetic methods and advanced optimization techniques to achieve state-of-the-art performance on both supervised and unsupervised evaluation protocols.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-22T09:01:05Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jinping Wang</name>
+    </author>
+    <author>
+      <name>Zhiqiang Gao</name>
+    </author>
+    <author>
+      <name>Dinggen Zhang</name>
+    </author>
+    <author>
+      <name>Zhiwu Xie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.17166v1</id>
+    <title>Explaining and Tuning Transformer-based LLMs in Arithmetic Tasks with Human Strategies</title>
+    <updated>2026-07-19T09:57:41Z</updated>
+    <link href="https://arxiv.org/abs/2607.17166v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.17166v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformer-based large language models (LLMs) continue to achieve state-of-the-art performance across various natural language processing tasks. However, their subpar performance on seemingly elementary problems, such as basic arithmetic, raises concerns about model reliability, safety, and ethical deployment. In this study, we demonstrate that the performance of a vanilla Transformer model trained on integer arithmetic tasks can be improved using methods effective for human learners. We begin by decomposing the arithmetic task into well-defined subtasks and conducting loss convergence order analysis together with ablation studies for each subtask. Our findings reveal that LLMs exhibit learning patterns similar to those of human learners, with a faster learning speed for simpler subtasks compared to more complex ones. In addition, we successfully improved the accuracy of LLMs by applying problem-solving strategies and cognitive empowerment methods shown to enhance the performance of human learners. This suggests that transformer-based LLMs may share cognitive processes with human learners in arithmetic. Lastly, we provide a comprehensive demonstration of our method's effectiveness, including significant accuracy improvement experiments, visualization verification, and explanation-based analysis to illuminate the intricacies of LLMs in arithmetic learning. In general, this work explores the potential similarities between transformer-based LLMs and human learners, supported by explainable AI (XAI) verifications, ultimately fostering trust in LLMs for critical and high-stakes applications.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-19T09:57:41Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Luyu Qiu</name>
+    </author>
+    <author>
+      <name>Jianing Li</name>
+    </author>
+    <author>
+      <name>Hwanhee Kim</name>
+    </author>
+    <author>
+      <name>Xiaoyong Wei</name>
+    </author>
+    <author>
+      <name>Yueyuan Zheng</name>
+    </author>
+    <author>
+      <name>Janet Hsiao</name>
+    </author>
+    <author>
+      <name>Lei Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.11679v1</id>
+    <title>Bias Vector: Mitigating Biases in Language Models with Task Arithmetic Approach</title>
+    <updated>2024-12-16T11:38:23Z</updated>
+    <link href="https://arxiv.org/abs/2412.11679v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.11679v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The use of language models (LMs) has increased considerably in recent years, and the biases and stereotypes in training data that are reflected in the LM outputs are causing social problems. In this paper, inspired by the task arithmetic, we propose the ``Bias Vector'' method for the mitigation of these LM biases. The Bias Vector method does not require manually created debiasing data. The three main steps of our approach involve: (1) continual training the pre-trained LMs on biased data using masked language modeling; (2) constructing the Bias Vector as the difference between the weights of the biased LMs and those of pre-trained LMs; and (3) subtracting the Bias Vector from the weights of the pre-trained LMs for debiasing. We evaluated the Bias Vector method on the SEAT across three LMs and confirmed an average improvement of 0.177 points. We demonstrated that the Bias Vector method does not degrade the LM performance on downstream tasks in the GLUE benchmark. In addition, we examined the impact of scaling factors, which control the magnitudes of Bias Vectors, with effect sizes on the SEAT and conducted a comprehensive evaluation of our debiased LMs across both the SEAT and GLUE benchmarks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-16T11:38:23Z</published>
+    <arxiv:comment>Accepted to COLING2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Daiki Shirafuji</name>
+    </author>
+    <author>
+      <name>Makoto Takenaka</name>
+    </author>
+    <author>
+      <name>Shinya Taguchi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.13656v2</id>
+    <title>Localize-and-Stitch: Efficient Model Merging via Sparse Task Arithmetic</title>
+    <updated>2025-01-07T03:37:12Z</updated>
+    <link href="https://arxiv.org/abs/2408.13656v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.13656v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Model merging offers an effective strategy to combine the strengths of multiple finetuned models into a unified model that preserves the specialized capabilities of each. Existing methods merge models in a global manner, performing arithmetic operations across all model parameters. However, such global merging often leads to task interference, degrading the performance of the merged model. In this work, we introduce Localize-and-Stitch, a novel approach that merges models in a localized way. Our algorithm works in two steps: i) Localization: identify tiny ($1\%$ of the total parameters) localized regions in the finetuned models containing essential skills for the downstream tasks, and ii) Stitching: reintegrate only these essential regions back into the pretrained model for task synergy. We demonstrate that our approach effectively locates sparse regions responsible for finetuned performance, and the localized regions could be treated as compact and interpretable representations of the finetuned models (tasks). Empirically, we evaluate our method on various vision and language benchmarks, showing that it outperforms existing model merging methods under different data availability scenarios. Beyond strong empirical performance, our algorithm also facilitates model compression and preserves pretrained knowledge, enabling flexible and continual skill composition from multiple finetuned models with minimal storage and computational overhead. Our code is available at https://github.com/uiuctml/Localize-and-Stitch.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-24T19:14:02Z</published>
+    <arxiv:comment>TMLR camera-ready version</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yifei He</name>
+    </author>
+    <author>
+      <name>Yuzheng Hu</name>
+    </author>
+    <author>
+      <name>Yong Lin</name>
+    </author>
+    <author>
+      <name>Tong Zhang</name>
+    </author>
+    <author>
+      <name>Han Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.01707v3</id>
+    <title>Learning Multi-Step Reasoning by Solving Arithmetic Tasks</title>
+    <updated>2023-06-07T03:45:15Z</updated>
+    <link href="https://arxiv.org/abs/2306.01707v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.01707v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mathematical reasoning is regarded as a necessary ability for Language Models (LMs). Recent works demonstrate large LMs' impressive performance in solving math problems. The success is attributed to their Chain-of-Thought (CoT) reasoning abilities, i.e., the ability to decompose complex questions into step-by-step reasoning chains, but such ability seems only to emerge from models with abundant parameters. This work investigates how to incorporate relatively small LMs with the capabilities of multi-step reasoning. We propose to inject such abilities by continually pre-training LMs on a synthetic dataset MsAT which is composed of Multi-step Arithmetic Tasks. Our experiments on four math word problem datasets show the effectiveness of the proposed method in enhancing LMs' math reasoning abilities.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-02T17:29:22Z</published>
+    <arxiv:comment>ACL 2023. Code and data are available at https://github.com/TianduoWang/MsAT</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tianduo Wang</name>
+    </author>
+    <author>
+      <name>Wei Lu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.05367v2</id>
+    <title>Task-Vector Arithmetic for Emotional Expressivity Control in Language-Model-Based Text-to-Speech</title>
+    <updated>2026-06-23T22:31:38Z</updated>
+    <link href="https://arxiv.org/abs/2606.05367v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.05367v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate whether task-vector arithmetic, successful for cross-speaker emotional intensity control in modular text-to-speech (TTS), transfers to large-scale TTS systems built on language-model backbones with in-context learning (LM-TTS). Through a systematic elimination study over four progressively narrower operands on Qwen3-TTS-12Hz-1.7B - model weights via LoRA fine-tuning, continuous codec embeddings, discrete codec tokens, and the speaker embedding (x-vector) produced by an ECAPA-TDNN encoder jointly trained with the synthesis backbone - we localize the dominant carrier of emotional prosody to the x-vector. Building on this finding, we propose a training-free method based on centroid arithmetic in x-vector space: an emotion direction $τ= \mathbb{E}_i[x(s_i,\text{emo})] -\mathbb{E}_i[x(s_i,\text{neutral})]$ applied to an unseen target speaker as $x_{\text{new}} = x(\text{target},\text{neutral}) + α\cdotτ$. Using ESD (English) as the $τ$ source and emoUERJ (Brazilian Portuguese) as a cross-lingual ground-truth target, we observe average gains of $+0.29$ in emotion2vec cosine over the ICL baseline on English held-out speakers and $+0.09$ on Brazilian Portuguese held-out speakers, while largely preserving identity (WavLM SECS $\gtrsim 0.88$ for the multi-speaker $τ$ variant) and intelligibility (WER $\approx 0$ in PT-BR). These results offer initial evidence that the dominant carrier of emotional prosody in this class of models is localizable, by elimination, to the co-trained speaker embedding, where training-free centroid arithmetic remains effective even under cross-lingual transfer.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-03T19:15:28Z</published>
+    <arxiv:comment>v2: expanded related work</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Daniel Oliveira de Brito</name>
+    </author>
+    <author>
+      <name>Arnaldo Candido Junior</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.21260v2</id>
+    <title>DuET: Dual Incremental Object Detection via Exemplar-Free Task Arithmetic</title>
+    <updated>2025-08-02T08:17:35Z</updated>
+    <link href="https://arxiv.org/abs/2506.21260v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.21260v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Real-world object detection systems, such as those in autonomous driving and surveillance, must continuously learn new object categories and simultaneously adapt to changing environmental conditions. Existing approaches, Class Incremental Object Detection (CIOD) and Domain Incremental Object Detection (DIOD) only address one aspect of this challenge. CIOD struggles in unseen domains, while DIOD suffers from catastrophic forgetting when learning new classes, limiting their real-world applicability. To overcome these limitations, we introduce Dual Incremental Object Detection (DuIOD), a more practical setting that simultaneously handles class and domain shifts in an exemplar-free manner. We propose DuET, a Task Arithmetic-based model merging framework that enables stable incremental learning while mitigating sign conflicts through a novel Directional Consistency Loss. Unlike prior methods, DuET is detector-agnostic, allowing models like YOLO11 and RT-DETR to function as real-time incremental object detectors. To comprehensively evaluate both retention and adaptation, we introduce the Retention-Adaptability Index (RAI), which combines the Average Retention Index (Avg RI) for catastrophic forgetting and the Average Generalization Index for domain adaptability into a common ground. Extensive experiments on the Pascal Series and Diverse Weather Series demonstrate DuET's effectiveness, achieving a +13.12% RAI improvement while preserving 89.3% Avg RI on the Pascal Series (4 tasks), as well as a +11.39% RAI improvement with 88.57% Avg RI on the Diverse Weather Series (3 tasks), outperforming existing methods.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-26T13:41:47Z</published>
+    <arxiv:comment>Accepted at ICCV 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Munish Monga</name>
+    </author>
+    <author>
+      <name>Vishal Chudasama</name>
+    </author>
+    <author>
+      <name>Pankaj Wasnik</name>
+    </author>
+    <author>
+      <name>Biplab Banerjee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.12512v1</id>
+    <title>Scalable Strategies for Continual Learning with Replay</title>
+    <updated>2025-05-18T18:23:50Z</updated>
+    <link href="https://arxiv.org/abs/2505.12512v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.12512v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Future deep learning models will be distinguished by systems that perpetually learn through interaction, imagination, and cooperation, blurring the line between training and inference. This makes continual learning a critical challenge, as methods that efficiently maximize bidirectional transfer across learning trajectories will be essential. Replay is on track to play a foundational role in continual learning, allowing models to directly reconcile new information with past knowledge. In practice, however, replay is quite unscalable, doubling the cost of continual learning when applied naively. Moreover, the continual learning literature has not fully synchronized with the multi-task fine-tuning literature, having not fully integrated highly scalable techniques like model merging and low rank adaptation into a replay-enabled toolset that can produce a unified model in the face of many sequential tasks. In this paper, we begin by applying and analyzing low rank adaptation in a continual learning setting. Next, we introduce consolidation, a phasic approach to replay which leads to up to 55\% less replay samples being needed for a given performance target. Then, we propose sequential merging, an offshoot of task arithmetic which is tailored to the continual learning setting and is shown to work well in combination with replay. Finally, we demonstrate that the developed strategies can operate synergistically, resulting in a highly scalable toolset that outperforms standalone variants.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-18T18:23:50Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Truman Hickok</name>
+    </author>
+  </entry>
+</feed>

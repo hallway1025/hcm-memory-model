@@ -1,0 +1,105 @@
+{
+ "config": {
+  "n_lib": 400,
+  "probes": 30,
+  "pairs": 25,
+  "D_x": 256,
+  "embed": "S256",
+  "session": "peer-02",
+  "smoke": true,
+  "beta": 100.0,
+  "L": 3,
+  "use_resid": false,
+  "judge": "argmax score; hcm via obs_of (L-035)"
+ },
+ "rows": {
+  "hopf": {
+   "written": 400,
+   "deg0.3": 3,
+   "deg0.5": 2,
+   "chain_used": 25,
+   "self_hit1": 4,
+   "next5": 2,
+   "ctrl5": 0,
+   "next_rank_med": 113.0,
+   "ctrl_rank_med": 227.0
+  },
+  "sdm": {
+   "written": 400,
+   "deg0.3": 0,
+   "deg0.5": 0,
+   "chain_used": 25,
+   "self_hit1": 0,
+   "next5": 1,
+   "ctrl5": 0,
+   "next_rank_med": 133.0,
+   "ctrl_rank_med": 232.0
+  },
+  "hcm": {
+   "written": 329,
+   "deg0.3": 13,
+   "deg0.5": 13,
+   "chain_used": 20,
+   "self_hit1": 20,
+   "next5": 2,
+   "ctrl5": 0,
+   "next_rank_med": 184.5,
+   "ctrl_rank_med": 131.5
+  }
+ },
+ "gates": {
+  "G_B1": {
+   "hcm": 0.43333333333333335,
+   "best_base": 0.1,
+   "delta": 0.33333333333333337,
+   "pass_": true
+  },
+  "G_B2": {
+   "vs_hopf": 0.33333333333333337,
+   "vs_sdm": 0.43333333333333335,
+   "pass_": true
+  },
+  "G_B3": {
+   "next5_rates": {
+    "hopf": 0.08,
+    "sdm": 0.04,
+    "hcm": 0.1
+   },
+   "max_rate": 0.1,
+   "pass_": false
+  }
+ },
+ "probes": [
+  4,
+  13,
+  21,
+  24,
+  43,
+  65,
+  80,
+  81,
+  87,
+  102,
+  105,
+  116,
+  119,
+  121,
+  124,
+  145,
+  154,
+  159,
+  163,
+  168,
+  174,
+  191,
+  200,
+  202,
+  205,
+  207,
+  220,
+  228,
+  237,
+  247
+ ],
+ "elapsed_s": 4.4
+}

@@ -1,0 +1,474 @@
+[
+ {
+  "seed": 0,
+  "resid": false,
+  "beta": 20.0,
+  "level": 0.0,
+  "top1": 40,
+  "n_probes": 40,
+  "write_s": 285.2
+ },
+ {
+  "seed": 0,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.0,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7807,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7788,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7734,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7874,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "resid": false,
+  "beta": 20.0,
+  "level": 0.25,
+  "top1": 8,
+  "abstain": 0,
+  "m1_mean": 0.4606,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "resid": true,
+  "beta": 20.0,
+  "level": 0.0,
+  "top1": 40,
+  "n_probes": 40,
+  "write_s": 283.3
+ },
+ {
+  "seed": 0,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.0,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7778,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7741,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7699,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7798,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "resid": true,
+  "beta": 20.0,
+  "level": 0.25,
+  "top1": 2,
+  "abstain": 0,
+  "m1_mean": 0.413,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "resid": false,
+  "beta": 20.0,
+  "level": 0.0,
+  "top1": 40,
+  "n_probes": 40,
+  "write_s": 283.7
+ },
+ {
+  "seed": 1,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.0,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7946,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7951,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7837,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.797,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "resid": false,
+  "beta": 20.0,
+  "level": 0.25,
+  "top1": 12,
+  "abstain": 0,
+  "m1_mean": 0.5132,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "resid": true,
+  "beta": 20.0,
+  "level": 0.0,
+  "top1": 40,
+  "n_probes": 40,
+  "write_s": 281.2
+ },
+ {
+  "seed": 1,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.0,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7987,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7989,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7864,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.8023,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "resid": true,
+  "beta": 20.0,
+  "level": 0.25,
+  "top1": 1,
+  "abstain": 0,
+  "m1_mean": 0.3997,
+  "n_probes": 40
+ },
+ {
+  "seed": 2,
+  "resid": false,
+  "beta": 20.0,
+  "level": 0.0,
+  "top1": 40,
+  "n_probes": 40,
+  "write_s": 282.2
+ },
+ {
+  "seed": 2,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.0,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7742,
+  "n_probes": 40
+ },
+ {
+  "seed": 2,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7803,
+  "n_probes": 40
+ },
+ {
+  "seed": 2,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7797,
+  "n_probes": 40
+ },
+ {
+  "seed": 2,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7927,
+  "n_probes": 40
+ },
+ {
+  "seed": 2,
+  "resid": false,
+  "beta": 20.0,
+  "level": 0.25,
+  "top1": 10,
+  "abstain": 0,
+  "m1_mean": 0.4904,
+  "n_probes": 40
+ },
+ {
+  "seed": 2,
+  "resid": true,
+  "beta": 20.0,
+  "level": 0.0,
+  "top1": 39,
+  "n_probes": 40,
+  "write_s": 280.9
+ },
+ {
+  "seed": 2,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.0,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7776,
+  "n_probes": 40
+ },
+ {
+  "seed": 2,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7819,
+  "n_probes": 40
+ },
+ {
+  "seed": 2,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7852,
+  "n_probes": 40
+ },
+ {
+  "seed": 2,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7963,
+  "n_probes": 40
+ },
+ {
+  "seed": 2,
+  "resid": true,
+  "beta": 20.0,
+  "level": 0.25,
+  "top1": 1,
+  "abstain": 0,
+  "m1_mean": 0.4035,
+  "n_probes": 40
+ },
+ {
+  "seed": 3,
+  "resid": false,
+  "beta": 20.0,
+  "level": 0.0,
+  "top1": 40,
+  "n_probes": 40,
+  "write_s": 281.9
+ },
+ {
+  "seed": 3,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.0,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.8088,
+  "n_probes": 40
+ },
+ {
+  "seed": 3,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.8174,
+  "n_probes": 40
+ },
+ {
+  "seed": 3,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.8083,
+  "n_probes": 40
+ },
+ {
+  "seed": 3,
+  "resid": false,
+  "beta": 100.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7992,
+  "n_probes": 40
+ },
+ {
+  "seed": 3,
+  "resid": false,
+  "beta": 20.0,
+  "level": 0.25,
+  "top1": 10,
+  "abstain": 0,
+  "m1_mean": 0.4987,
+  "n_probes": 40
+ },
+ {
+  "seed": 3,
+  "resid": true,
+  "beta": 20.0,
+  "level": 0.0,
+  "top1": 40,
+  "n_probes": 40,
+  "write_s": 282.9
+ },
+ {
+  "seed": 3,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.0,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.8183,
+  "n_probes": 40
+ },
+ {
+  "seed": 3,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.8279,
+  "n_probes": 40
+ },
+ {
+  "seed": 3,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.8168,
+  "n_probes": 40
+ },
+ {
+  "seed": 3,
+  "resid": true,
+  "beta": 100.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.8014,
+  "n_probes": 40
+ },
+ {
+  "seed": 3,
+  "resid": true,
+  "beta": 20.0,
+  "level": 0.25,
+  "top1": 1,
+  "abstain": 0,
+  "m1_mean": 0.4049,
+  "n_probes": 40
+ }
+]

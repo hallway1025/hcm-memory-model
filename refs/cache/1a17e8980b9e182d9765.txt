@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EkWSYiK7gFcMfL3BV6mqk1X12wE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2406.07596&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:32:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2406.07596" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.07596v1</id>
+    <title>Transforming Object-Centric Event Logs to Temporal Event Knowledge Graphs (Extended Version)</title>
+    <updated>2024-06-11T14:27:39Z</updated>
+    <link href="https://arxiv.org/abs/2406.07596v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.07596v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Event logs play a fundamental role in enabling data-driven business process analysis. Traditionally, these logs track events related to a single object, known as the case, limiting the scope of analysis. Recent advancements, such as Object-Centric Event Logs (OCEL) and Event Knowledge Graphs (EKG), capture better how events relate to multiple objects. However, attributes of objects can change over time, which was not initially considered in OCEL or EKG. While OCEL 2.0 has addressed some of these limitations, there remains a research gap concerning how attribute changes should be accommodated in EKG and how OCEL 2.0 logs can be transformed into EKG. This paper fills this gap by introducing Temporal Event Knowledge Graphs (tEKG) and defining an algorithm to convert an OCEL 2.0 log to a tEKG.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-11T14:27:39Z</published>
+    <arxiv:comment>14 pages (incl. appendix)</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Shahrzad Khayatbashi</name>
+    </author>
+    <author>
+      <name>Olaf Hartig</name>
+    </author>
+    <author>
+      <name>Amin Jalali</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,441 @@
+id	area	score	title
+T670	K4_consolidation_sched	14.0	Experience Replay for Continual Learning
+T311	K5_semantic_slow	13.5	Hydra: Multi-head low-rank adaptation for parameter efficient fine-tuning
+T633	K2_episodic_store	13.0	Capacity Analysis of Vector Symbolic Architectures
+T727	K8_event_layer	13.0	Transforming Object-Centric Event Logs to Temporal Event Knowledge Graphs (Extended Version)
+T679	K4_consolidation_sched	12.5	Elastic Weight Consolidation Done Right for Continual Learning
+T664	K4_consolidation_sched	12.0	SYNERgy between SYNaptic consolidation and Experience Replay for general continual learning
+T681	K4_consolidation_sched	12.0	Elastic Weight Consolidation for Knowledge Graph Continual Learning: An Empirical Evaluation
+T314	K5_semantic_slow	11.5	La-LoRA: Parameter-efficient fine-tuning with layer-wise adaptive low-rank adaptation
+T315	K5_semantic_slow	11.5	Matrix-Transformation based Low-Rank Adaptation (MTLoRA): A brain-inspired method for parameter-efficient fine-tuning
+T660	K3_temporal_links	11.5	Temporal Link Prediction Using Graph Embedding Dynamics
+T674	K4_consolidation_sched	11.5	Three scenarios for continual learning
+T693	K5_semantic_slow	11.0	SDS-LoRA: Overcoming Anisotropic Gradient Scaling in Low-Rank Adaptation
+T654	K3_temporal_links	10.5	A Temporal Knowledge Graph for Music Festival Lineup Forecasting
+T661	K3_temporal_links	10.5	Transfer Learning for Temporal Link Prediction
+T690	K5_semantic_slow	10.5	DT-LoRA: Reaching Beyond the Tangent Space of Low-Rank Adaptation
+T692	K5_semantic_slow	10.5	Null-LoRA: Low-Rank Adaptation on Null Space
+T717	K7_meta_control	10.5	Selective "Selective Prediction": Reducing Unnecessary Abstention in Vision-Language Reasoning
+T271	K4_consolidation_sched	10.0	The hippocampal formation as a hierarchical generative model supporting generative replay and continual learning
+T631	K2_episodic_store	10.0	Self-Attention Based Semantic Decomposition in Vector Symbolic Architectures
+T666	K4_consolidation_sched	10.0	Batch-level Experience Replay with Review for Continual Learning
+T667	K4_consolidation_sched	10.0	Experience Replay Addresses Loss of Plasticity in Continual Learning
+T691	K5_semantic_slow	10.0	LoRA+: Efficient Low Rank Adaptation of Large Models
+T741	K9_text_frontend	10.0	Hash2Vec, Feature Hashing for Word Embeddings
+T243	K4_consolidation_sched	9.5	Brain-inspired replay for continual learning with artificial neural networks
+T676	K4_consolidation_sched	9.5	EVCL: Elastic Variational Continual Learning with Weight Consolidation
+T266	K4_consolidation_sched	9.0	Generative negative replay for continual learning
+T658	K3_temporal_links	9.0	Meta-Learning Based Knowledge Extrapolation for Temporal Knowledge Graph
+T672	K4_consolidation_sched	9.0	Continual Learning with Self-Organizing Maps
+T677	K4_consolidation_sched	9.0	Elastic Weight Consolidation (EWC): Nuts and Bolts
+T908	K2_episodic_store	9.0	Phase Kernel Lifts Capacity of Dense Associative Memory
+T316	K5_semantic_slow	8.5	Triangular Adaptive Low-Rank Adaptation for Parameter-Efficient Fine-Tuning
+T683	K4_consolidation_sched	8.5	Gradient Episodic Memory with a Soft Constraint for Continual Learning
+T687	K4_consolidation_sched	8.5	Continual Learning in Machine Speech Chain Using Gradient Episodic Memory
+T272	K4_consolidation_sched	8.0	Unified Probabilistic Deep Continual Learning through Generative Replay and Open Set Recognition
+T612	K1_sparse_encoder	8.0	Data Whitening Improves Sparse Autoencoder Learning
+T659	K3_temporal_links	8.0	Temporal link prediction methods based on behavioral synchrony
+T669	K4_consolidation_sched	8.0	On the Limitation and Experience Replay for GNNs in Continual Learning
+T909	K2_episodic_store	8.0	Improved Robustness and Hyperparameter Selection in the Dense Associative Memory
+T208	K3_temporal_links	7.5	Neurobiological successor features for spatial navigation
+T232	K4_consolidation_sched	7.5	IncDet: In Defense of Elastic Weight Consolidation for Incremental Object Detection
+T331	K5_semantic_slow	7.5	RaLo: Rank-aware low-rank adaptation for pre-trained foundation models
+T597	K1_sparse_encoder	7.5	Fast Locality Sensitive Hashing for Beam Search on GPU
+T618	K2_episodic_store	7.5	A Bifurcation Theory for the Equilibria of Modern Hopfield Networks
+T627	K2_episodic_store	7.5	The Kanerva Machine: A Generative Distributed Memory
+T694	K5_semantic_slow	7.5	LoRA-Pro: Are Low-Rank Adapters Properly Optimized?
+T710	K6_working_memory	7.5	Hebbian fast plasticity and working memory
+T822	K6_working_memory	7.5	Auditory and visual spatial working memory
+T906	K2_episodic_store	7.5	Dynamical Properties of Dense Associative Memory
+T029	K1_sparse_encoder	7.0	K-winners-take-all circuit with O(N) complexity
+T200	K3_temporal_links	7.0	PLEASING: Exploring the historical and potential events for temporal knowledge graph reasoning
+T308	K5_semantic_slow	7.0	GraLoRA: Granular Low-Rank Adaptation for Parameter-Efficient Fine-Tuning
+T310	K5_semantic_slow	7.0	RefLoRA: Refactored Low-Rank Adaptation for Efficient Fine-Tuning of Large Models
+T312	K5_semantic_slow	7.0	Corrigendum to “Hydra: Multi-head Low-rank Adaptation for Parameter Efficient Fine-tuning” [Neural Networks Volume 178, October (2024), 1-11/106414]]
+T313	K5_semantic_slow	7.0	SLoRA: Shared Low-Rank Adaptation for Parameter-Efficient Fine-Tuning of Large Language Models
+T330	K5_semantic_slow	7.0	Low-rank adaptation for edge AI
+T340	K5_semantic_slow	7.0	RB-LoRA: Rank-Balanced Aggregation for Low-Rank Adaptation with Federated Fine-Tuning
+T402	K6_working_memory	7.0	Short-Term Plasticity Explains Irregular Persistent Activity in Working Memory Tasks
+T516	K8_event_layer	7.0	Event segmentation ability uniquely predicts event memory
+T521	K8_event_layer	7.0	Acoustic features drive event segmentation in speech.
+T610	K1_sparse_encoder	7.0	SoftSAE: Dynamic Top-K Selection for Adaptive Sparse Autoencoders
+T617	K2_episodic_store	7.0	Analysis of discrete modern Hopfield networks in open quantum system
+T621	K2_episodic_store	7.0	Attention in a family of Boltzmann machines emerging from modern Hopfield networks
+T634	K2_episodic_store	7.0	Vector Symbolic Architectures as a Computing Framework for Emerging Hardware
+T638	K2_episodic_store	7.0	Towards Vector Optimization on Low-Dimensional Vector Symbolic Architecture
+T650	K3_temporal_links	7.0	Robust Successor Features
+T651	K3_temporal_links	7.0	A Simple But Powerful Graph Encoder for Temporal Knowledge Graph Completion
+T652	K3_temporal_links	7.0	Graph Hawkes Neural Network for Forecasting on Temporal Knowledge Graphs
+T671	K4_consolidation_sched	7.0	Bridging Streaming Continual Learning via In-Context Large Tabular Models
+T673	K4_consolidation_sched	7.0	Metalearning Continual Learning Algorithms
+T675	K4_consolidation_sched	7.0	Elastic weight consolidation for better bias inoculation
+T678	K4_consolidation_sched	7.0	Towards continuous learning for glioma segmentation with elastic weight consolidation
+T686	K4_consolidation_sched	7.0	Improved Schemes for Episodic Memory-based Lifelong Learning
+T695	K5_semantic_slow	7.0	SAD-LoRA: Spectral Alignment for Low-Rank Knowledge Distillation
+T740	K9_text_frontend	7.0	Additive Feature Hashing
+T905	K2_episodic_store	7.0	Free energy landscape of Dense Associative Memory
+T960	K8_event_layer	7.0	Predicting Visual Context for Unsupervised Event Segmentation in Continuous Photo-streams
+T972	K9_text_frontend	7.0	byteSteady: Fast Classification Using Byte-Level n-Gram Embeddings
+T202	K3_temporal_links	6.5	Bridging graph structure and knowledge-guided editing for interpretable temporal knowledge graph reasoning
+T510	K8_event_layer	6.5	Structuring Memory Through Inference‐Based Event Segmentation
+T511	K8_event_layer	6.5	Event segmentation reveals working memory forgetting rate
+T512	K8_event_layer	6.5	Prediction error and event segmentation in episodic memory
+T515	K8_event_layer	6.5	Hierarchical event segmentation of episodic memory in virtual reality
+T518	K8_event_layer	6.5	Event segmentation improves event memory up to one month later.
+T519	K8_event_layer	6.5	Semantic knowledge attenuates age-related differences in event segmentation and episodic memory
+T520	K8_event_layer	6.5	Relation between event segmentation and memory dysfunction in Parkinson’s disease
+T526	K8_event_layer	6.5	Directional asymmetry in event schema activation
+T599	K1_sparse_encoder	6.5	Improving Bilayer Product Quantization for Billion-Scale Approximate Nearest Neighbors in High Dimensions
+T601	K1_sparse_encoder	6.5	Routing-Guided Learned Product Quantization for Graph-Based Approximate Nearest Neighbor Search
+T653	K3_temporal_links	6.5	Question Answering Over Spatio-Temporal Knowledge Graph
+T655	K3_temporal_links	6.5	Temporal Knowledge Graph Completion: A Survey
+T656	K3_temporal_links	6.5	A Survey on Temporal Knowledge Graph: Representation Learning and Applications
+T657	K3_temporal_links	6.5	Integrate Temporal Graph Learning into LLM-based Temporal Knowledge Graph Model
+T662	K3_temporal_links	6.5	TAMI: Taming Heterogeneity in Temporal Interactions for Temporal Graph Link Prediction
+T663	K3_temporal_links	6.5	Link-aware link prediction over temporal graph by pattern recognition
+T684	K4_consolidation_sched	6.5	Gradient Episodic Memory for Continual Learning
+T704	K5_semantic_slow	6.5	Parameter Efficient Continual Learning for Sparse Event-Based Transformers
+T724	K8_event_layer	6.5	OEKG: The Open Event Knowledge Graph
+T730	K8_event_layer	6.5	Modality and Negation in Event Extraction
+T732	K8_event_layer	6.5	Biomedical Event Extraction with Hierarchical Knowledge Graphs
+T746	K9_text_frontend	6.5	DistilCSE: Effective Knowledge Distillation For Contrastive Sentence Embeddings
+T747	K9_text_frontend	6.5	Sentence Embeddings by Ensemble Distillation
+T841	K6_working_memory	6.5	Dynamics of Population Code for Working Memory in the Prefrontal Cortex
+T964	K8_event_layer	6.5	CoSeg: Cognitively Inspired Unsupervised Generic Event Segmentation
+T001	K1_sparse_encoder	6.0	Group sparse coding with a collection of winner-take-all networks
+T112	K2_episodic_store	6.0	KANERVA’S SPARSE DISTRIBUTED MEMORY: AN ASSOCIATIVE MEMORY ALGORITHM WELL-SUITED TO THE CONNECTION MACHINE
+T229	K4_consolidation_sched	6.0	Video Piracy Websites Detection Using Continual Learning with Elastic Weight Consolidation
+T230	K4_consolidation_sched	6.0	Dynamic Elastic Weight Consolidation for Continual Learning in Spiking Neural Networks
+T245	K4_consolidation_sched	6.0	Attention-based experience replay for knowledge distillation: an efficient model-agnostic continual learning strategy for multivariate time series for
+T247	K4_consolidation_sched	6.0	Rethinking Experience Replay: a Bag of Tricks for Continual Learning
+T248	K4_consolidation_sched	6.0	Class-Incremental Experience Replay for Continual Learning under Concept Drift
+T250	K4_consolidation_sched	6.0	Learning Bayesian Sparse Networks with Full Experience Replay for Continual Learning
+T253	K4_consolidation_sched	6.0	Saliency-driven Experience Replay for Continual Learning
+T256	K4_consolidation_sched	6.0	Continual learning with high-order experience replay for dynamic network embedding
+T257	K4_consolidation_sched	6.0	Learning to Replay: A meta-reinforcement learning approach to experience replay in continual learning
+T259	K4_consolidation_sched	6.0	BinPlay: A Binary Latent Autoencoder for Generative Replay Continual Learning
+T262	K4_consolidation_sched	6.0	Brain Generative Replay for Continual Learning
+T263	K4_consolidation_sched	6.0	Latent Generative Replay for Resource-Efficient Continual Learning of Facial Expressions
+T268	K4_consolidation_sched	6.0	Continual Learning of New Sound Classes Using Generative Replay
+T292	K4_consolidation_sched	6.0	Mitigating Catastrophic Forgetting in Robot Continual Learning: A Guided Policy Search Approach Enhanced With Memory-Aware Synapses
+T334	K5_semantic_slow	6.0	PRILoRA: Pruned and Rank-Increasing Low-Rank Adaptation
+T339	K5_semantic_slow	6.0	LoRA-RC: Reservoir Computing with Low-Rank Adaptation
+T397	K6_working_memory	6.0	Working memory and short-term memory storage
+T611	K1_sparse_encoder	6.0	Rational Sparse Autoencoder
+T613	K1_sparse_encoder	6.0	BatchTopK Sparse Autoencoders
+T635	K2_episodic_store	6.0	A comparison of Vector Symbolic Architectures
+T639	K2_episodic_store	6.0	Fast-weight Product Key Memory
+T748	K9_text_frontend	6.0	Syntax-guided Neural Module Distillation to Probe Compositionality in Sentence Embeddings
+T820	K6_working_memory	6.0	Visuo-Spatial Short-Term Memory: Visual Working Memory or Visual Buffer?
+T879	K8_event_layer	6.0	Narrative Graph: Telling Evolving Stories Based on Event-centric Temporal Knowledge Graph
+T211	K3_temporal_links	5.5	Temporally extended successor feature neural episodic control
+T393	K6_working_memory	5.5	Aβ1-42-induced dysfunction in synchronized gamma oscillation during working memory
+T435	K7_meta_control	5.5	Spacing One's Study: Evidence for a Metacognitive Control Strategy.
+T444	K7_meta_control	5.5	Limited cue integration in metacognitive control decisions
+T501	K8_event_layer	5.5	The episodic buffer: a new component of working memory?
+T588	K1_sparse_encoder	5.5	A Survey on Locality Sensitive Hashing Algorithms and their Applications
+T590	K1_sparse_encoder	5.5	Locality Sensitive Hashing in Hyperbolic Space
+T592	K1_sparse_encoder	5.5	Fast Cross-Polytope Locality-Sensitive Hashing
+T593	K1_sparse_encoder	5.5	Efficient Distributed Locality Sensitive Hashing
+T596	K1_sparse_encoder	5.5	Neural Locality Sensitive Hashing for Entity Blocking
+T598	K1_sparse_encoder	5.5	Similarity Search and Locality Sensitive Hashing using TCAMs
+T614	K2_episodic_store	5.5	Exploring the Temperature-Dependent Phase Transition in Modern Hopfield Networks
+T636	K2_episodic_store	5.5	GPT-2 Through the Lens of Vector Symbolic Architectures
+T637	K2_episodic_store	5.5	LARS-VSA: A Vector Symbolic Architecture For Learning with Abstract Rules
+T640	K2_episodic_store	5.5	Large Memory Layers with Product Keys
+T644	K3_temporal_links	5.5	Temporally Extended Successor Representations
+T647	K3_temporal_links	5.5	Neural Network based Successor Representations of Space and Language
+T648	K3_temporal_links	5.5	Equivalence of Personalized PageRank and Successor Representations
+T699	K5_semantic_slow	5.5	GLAM: Efficient Continual Learning at Scale via Grouped LoRA Adapter Merging
+T745	K9_text_frontend	5.5	Scalable Attentive Sentence-Pair Modeling via Distilled Sentence Embedding
+T752	K2_episodic_store	5.5	Attention as Binding: A Vector-Symbolic Perspective on Transformer Reasoning
+T821	K6_working_memory	5.5	Nicotine Impairs Spatial Working Memory while Leaving Spatial Attention Intact
+T915	K2_episodic_store	5.5	Differentiable Neural Computers with Memory Demon
+T919	K2_episodic_store	5.5	Mixed state on a sparsely encoded associative memory model
+T925	K3_temporal_links	5.5	Successor Features for Transfer in Reinforcement Learning
+T927	K5_semantic_slow	5.5	Task Arithmetic with LoRA for Continual Learning
+T004	K1_sparse_encoder	5.0	The Temporal Winner-Take-All Readout
+T005	K1_sparse_encoder	5.0	A Multifactor Winner-Take-All Dynamics
+T030	K1_sparse_encoder	5.0	k-winners-take-all neural net with /spl Theta/(1) time complexity
+T075	K1_sparse_encoder	5.0	Transformer fault diagnosis using continuous sparse autoencoder
+T174	K2_episodic_store	5.0	Entropic associative memory for manuscript symbols
+T233	K4_consolidation_sched	5.0	Trigger-based conditional selective unlearning with elastic weight consolidation
+T274	K4_consolidation_sched	5.0	Complementary Learning Systems
+T275	K4_consolidation_sched	5.0	What Learning Systems do Intelligent Agents Need? Complementary Learning Systems Theory Updated
+T281	K4_consolidation_sched	5.0	A complementary learning systems approach to temporal difference learning
+T390	K6_working_memory	5.0	Theta-Rhythmic Oscillation of Working Memory Performance
+T403	K6_working_memory	5.0	Simulations of working memory spiking networks driven by short-term plasticity
+T404	K6_working_memory	5.0	Synergistic Short-Term Synaptic Plasticity Mechanisms for Working Memory
+T433	K7_meta_control	5.0	Optimal metacognitive control of memory recall.
+T437	K7_meta_control	5.0	Metacognitive control and the spacing effect.
+T441	K7_meta_control	5.0	The spacing effect and metacognitive control.
+T497	K8_event_layer	5.0	The lower part of event ontology
+T500	K8_event_layer	5.0	6 The Triune Event: Event Ontology, Reason and Love
+T503	K8_event_layer	5.0	Fractionating the episodic buffer
+T550	K9_text_frontend	5.0	Protein sequence classification using feature hashing
+T587	K1_sparse_encoder	5.0	Inexact Simplification of Symbolic Regression Expressions with Locality-sensitive Hashing
+T591	K1_sparse_encoder	5.0	Ranking Based Locality Sensitive Hashing Enabled Cancelable Biometrics: Index-of-Max Hashing
+T595	K1_sparse_encoder	5.0	Locality sensitive hashing via mechanical behavior
+T616	K2_episodic_store	5.0	Hopfield Networks is All You Need
+T622	K2_episodic_store	5.0	Hopular: Modern Hopfield Networks for Tabular Data
+T623	K2_episodic_store	5.0	CLOOB: Modern Hopfield Networks with InfoLOOB Outperform CLIP
+T625	K2_episodic_store	5.0	Continual Learning in Modern Hopfield Networks with an Application to Diffusion Models
+T626	K2_episodic_store	5.0	A New Training Algorithm for Kanerva's Sparse Distributed Memory
+T641	K3_temporal_links	5.0	Constrained Reinforcement Learning Using Successor Representations
+T649	K3_temporal_links	5.0	Full-Gradient Successor Feature Representations
+T680	K4_consolidation_sched	5.0	Unsupervised Pretraining for Neural Machine Translation Using Elastic Weight Consolidation
+T714	K6_working_memory	5.0	Discontinuous Constituent Parsing with Pointer Networks
+T716	K6_working_memory	5.0	Stack-Pointer Networks for Dependency Parsing
+T718	K7_meta_control	5.0	Reliable Multi-label Classification: Prediction with Partial Abstention
+T743	K9_text_frontend	5.0	Feature Hashing for Large Scale Multitask Learning
+T744	K9_text_frontend	5.0	Dual-View Distilled BERT for Sentence Embedding
+T749	K9_text_frontend	5.0	TransAug: Translate as Augmentation for Sentence Embeddings
+T823	K6_working_memory	5.0	Circuit mechanisms of GluA1-dependent spatial working memory
+T824	K6_working_memory	5.0	The development of visuo-spatial working memory
+T827	K6_working_memory	5.0	Complexity factors in visuo‐spatial working memory
+T843	K6_working_memory	5.0	A Code for Cross-Modal Working Memory
+T850	K6_working_memory	5.0	Working memory updating and the development of rule-guided behavior
+T851	K6_working_memory	5.0	Working memory gating mechanisms explain developmental change in rule-guided behavior
+T854	K6_working_memory	5.0	Individual differences in working memory capacity and cue-guided behavior in humans
+T907	K2_episodic_store	5.0	Dense Associative Memory for Pattern Recognition
+T918	K2_episodic_store	5.0	Competitive learning to generate sparse representations for associative memory
+T920	K3_temporal_links	5.0	A New Representation of Successor Features for Transfer across Dissimilar Environments
+T921	K3_temporal_links	5.0	Successor Features for Transfer in Alternating Markov Games
+T922	K3_temporal_links	5.0	Advantages and Limitations of using Successor Features for Transfer in Reinforcement Learning
+T923	K3_temporal_links	5.0	Universal Successor Features for Transfer Reinforcement Learning
+T924	K3_temporal_links	5.0	Risk-Aware Transfer in Reinforcement Learning using Successor Features
+T513	K8_event_layer	4.5	Event Segmentation Promotes the Reorganization of Emotional Memory
+T010	K1_sparse_encoder	4.0	Sparse representation from a winner-take-all neural network
+T071	K1_sparse_encoder	4.0	Quarter-Point Product Quantization for approximate nearest neighbor search
+T192	K3_temporal_links	4.0	CRmod: Context-Aware Rule-Guided reasoning over temporal knowledge graph
+T193	K3_temporal_links	4.0	Modeling dual temporal dependencies for temporal knowledge graph reasoning on Chinese cultural heritage
+T194	K3_temporal_links	4.0	Temporal knowledge graph reasoning via multi-granularity knowledge refinement
+T195	K3_temporal_links	4.0	WTNet: temporal knowledge graph reasoning network with windowing strategy and transformer-based fusion
+T196	K3_temporal_links	4.0	MetaTKG++: Learning evolving factor enhanced meta-knowledge for temporal knowledge graph reasoning
+T197	K3_temporal_links	4.0	Global–local evolution modeling with cyclic patterns for temporal knowledge graph reasoning
+T198	K3_temporal_links	4.0	Temporal knowledge graph reasoning with local-global evolutionary patterns
+T199	K3_temporal_links	4.0	Leveraging the Power of Echo State Network for Enhanced Temporal Knowledge Graph Reasoning
+T201	K3_temporal_links	4.0	A temporal knowledge graph reasoning model based on global knowledge graph and historical matrix
+T203	K3_temporal_links	4.0	Reasoning over temporal knowledge graph with temporal consistency constraints
+T204	K3_temporal_links	4.0	Temporal knowledge graph question answering via subgraph reasoning
+T205	K3_temporal_links	4.0	Temporal Knowledge Graph Reasoning based on Graph Convolution Network
+T206	K3_temporal_links	4.0	TiRGN: Time-Guided Recurrent Graph Network with Local-Global Historical Patterns for Temporal Knowledge Graph Reasoning
+T226	K3_temporal_links	4.0	Mechanisms of hippocampal sequence replay
+T291	K4_consolidation_sched	4.0	Continual learning of neural networks for quality prediction in production using memory aware synapses and weight transfer
+T303	K5_semantic_slow	4.0	A Comprehensive Review of Low-Rank Decomposition Techniques for Parameter Efficient Fine-Tuning
+T304	K5_semantic_slow	4.0	Multi-head Low-Rank Adaptation for Parameter-Efficient Fine-Tuning
+T306	K5_semantic_slow	4.0	Low-Rank Adaptation for Parameter-Efficient Fine-Tuning of Large Language Models
+T307	K5_semantic_slow	4.0	Rank-wise Temporally Gated LoRA for Time-Conditioned Parameter-Efficient Fine-Tuning
+T338	K5_semantic_slow	4.0	Can Spectral-Clipping Enable Better Learning While Forgetting Less for Low-Rank Adaptation?
+T370	K6_working_memory	4.0	Population Distribution of Working Memory Capacities Indicates Working Memory Does Not Consist of Slots
+T421	K7_meta_control	4.0	Decision making, uncertainty and the value of information
+T482	K8_event_layer	4.0	Event Relation Reasoning Based on Event Knowledge Graph
+T483	K8_event_layer	4.0	Sudden Event Prediction Based on Event Knowledge Graph
+T484	K8_event_layer	4.0	Event Knowledge Graph: A Review Based on Scientometric Analysis
+T488	K8_event_layer	4.0	Knowledge Graph Enhanced Event Extraction in Financial Documents
+T490	K8_event_layer	4.0	Construction of Event Knowledge Graph based on Semantic Analysis
+T491	K8_event_layer	4.0	Entity Event Knowledge Graph for Powerful Health Informatics
+T495	K8_event_layer	4.0	Tourism Event Knowledge Graph for Attractions Recommendation
+T496	K8_event_layer	4.0	Mechanical Fault Prediction Based on Event Knowledge Graph
+T514	K8_event_layer	4.0	Event Segmentation Interventions Improve Memory for Naturalistic Events
+T517	K8_event_layer	4.0	Event segmentation as a working memory process.
+T562	K9_text_frontend	4.0	Constraining Weighted Word Co-occurrence Frequencies in Word Embeddings
+T566	K9_text_frontend	4.0	277Lexical co-occurrence: from Saussure’s syntagmatic relations to word embeddings in NLP
+T571	K9_text_frontend	4.0	Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation
+T600	K1_sparse_encoder	4.0	Transformed Residual Quantization for Approximate Nearest Neighbor Search
+T406	K6_working_memory	3.5	Cannabinoids Ameliorate Impairments Induced by Chronic Stress to Synaptic Plasticity and Short-Term Memory
+T682	K4_consolidation_sched	3.5	A Fixed Version of Quadratic Program in Gradient Episodic Memory
+T688	K4_consolidation_sched	3.5	Data Augmentation for Continual RL via Adversarial Gradient Episodic Memory
+T759	K2_episodic_store	3.5	Holographic reduced representations
+T837	K6_working_memory	3.5	The dependence of span and delayed-response performance on prefrontal cortex
+T840	K6_working_memory	3.5	Delayed-matching and delayed-response deficit from cooling dorsolateral prefrontal cortex in monkeys.
+T944	K7_meta_control	3.5	Uncertainty Calibration and its Application to Object Detection
+T946	K7_meta_control	3.5	Post-hoc Uncertainty Calibration for Domain Drift Scenarios
+T950	K8_event_layer	3.5	NEST: Narrative Event Structures in Time for Long Video Understanding
+T000	K1_sparse_encoder	3.0	Self-organizing Winner-Take-All networks
+T002	K1_sparse_encoder	3.0	Modeling Winner-Take-All Competition in Sparse Binary Projections
+T003	K1_sparse_encoder	3.0	Sparse Coding in Sparse Winner Networks
+T006	K1_sparse_encoder	3.0	Logarithmic search in a winner-take-all network
+T007	K1_sparse_encoder	3.0	Self-organization of two interacting winner-take-all systems
+T008	K1_sparse_encoder	3.0	Margined Winner-Take-All: New learning rule for pattern recognition
+T009	K1_sparse_encoder	3.0	A high resolution CMOS winner-take-all circuit
+T011	K1_sparse_encoder	3.0	Improving the resolution of Lazzaro winner-take-all circuit
+T012	K1_sparse_encoder	3.0	CHAPTER TWENTY Winner Take All
+T013	K1_sparse_encoder	3.0	Interference proceedings—winner take all
+T014	K1_sparse_encoder	3.0	Winner-take-all VLSI/liquid crystal spatial light modulators
+T015	K1_sparse_encoder	3.0	Competitive Optical Learning with Winner-Take-All Modulators
+T016	K1_sparse_encoder	3.0	Winner-Take-All Groups or Linear Machines
+T017	K1_sparse_encoder	3.0	VLSI/Liquid Crystal Winner-Take-All Modulators for Optical Competitive Learning
+T018	K1_sparse_encoder	3.0	The winner take all
+T019	K1_sparse_encoder	3.0	Winner-take-all price competition
+T022	K1_sparse_encoder	3.0	A Continuous-Time Model of Analogue K-Winners-Take-All Neural Circuit
+T024	K1_sparse_encoder	3.0	A Parallel Search Algorithm and Its Implementation for Digital k-Winners-Take-All Circuit
+T025	K1_sparse_encoder	3.0	Single-state distributed k-winners-take-all neural network model
+T027	K1_sparse_encoder	3.0	Solving the k-Winners-Take-All Problem and the Oligopoly Cournot-Nash Equilibrium Problem Using the General Projection Neural Networks
+T031	K1_sparse_encoder	3.0	A new k-winners-take-all neural network and its array architecture
+T047	K1_sparse_encoder	3.0	Locality Sensitive Hashing Based Service Classification
+T048	K1_sparse_encoder	3.0	Compressing Locality Sensitive Hashing Tables
+T049	K1_sparse_encoder	3.0	An improved algorithm for locality-sensitive hashing
+T050	K1_sparse_encoder	3.0	Locality Sensitive Hashing
+T051	K1_sparse_encoder	3.0	Locality-Sensitive Hashing for Information Retrieval System on Multiple GPGPU Devices
+T052	K1_sparse_encoder	3.0	Maintaining Academic Integrity in Programming: Locality-Sensitive Hashing and Recommendations
+T053	K1_sparse_encoder	3.0	Faster and space efficient indexing for locality sensitive hashing
+T054	K1_sparse_encoder	3.0	MACHINE LEARNING-ENHANCED LOCALITY-SENSITIVE HASHING FOR ZERO-KNOWLEDGE BIOMETRIC VERIFICATION
+T055	K1_sparse_encoder	3.0	Improving kernel locality-sensitive hashing using pre-images and bounds
+T057	K1_sparse_encoder	3.0	Lower bounds on locality sensitive hashing
+T058	K1_sparse_encoder	3.0	A posteriori multi-probe locality sensitive hashing
+T059	K1_sparse_encoder	3.0	Locality sensitive hashing based searching scheme for a massive database
+T060	K1_sparse_encoder	3.0	Kernelized locality-sensitive hashing for scalable image search
+T061	K1_sparse_encoder	3.0	A method using locality-sensitive hashing for large-scale content-based image retrieval
+T074	K1_sparse_encoder	3.0	Revising and Falsifying Sparse Autoencoder Feature Explanations
+T076	K1_sparse_encoder	3.0	Supervised Learning via Unsupervised Sparse Autoencoder
+T077	K1_sparse_encoder	3.0	Pseudoinverse Learning Algorithom for Fast Sparse Autoencoder Training
+T078	K1_sparse_encoder	3.0	Sparse autoencoder for social image understanding
+T079	K1_sparse_encoder	3.0	Sparse Autoencoder for Sparse Code Multiple Access
+T080	K1_sparse_encoder	3.0	Sparse Autoencoder Insights on Voice Embeddings
+T081	K1_sparse_encoder	3.0	Deep Sparse Autoencoder
+T083	K1_sparse_encoder	3.0	Multilinear Hyperplane Hashing
+T093	K2_episodic_store	3.0	Mean Field Theory in Doing Logic Programming Using Hopfield Network
+T095	K2_episodic_store	3.0	Hybrid Hopfield Neural Network
+T101	K2_episodic_store	3.0	An application of neurohydrodynamics to a Hopfield neural network
+T106	K2_episodic_store	3.0	Learning Rule for Pattern Recognition in Hopfield Neuronal Network
+T109	K2_episodic_store	3.0	Projective invariant object recognition by a Hopfield network
+T110	K2_episodic_store	3.0	Analysis of cortical connectivity using Hopfield neural network
+T111	K2_episodic_store	3.0	Sequential Learning and Retrieval in a Sparse Distributed Memory: The K-winner Modern Hopfield Network
+T126	K2_episodic_store	3.0	Employing Differentiable Neural Computers for Image Captioning and Neural Machine Translation
+T127	K2_episodic_store	3.0	Augmenting Differentiable Neural Computer with Read Network and Key-Value Memory
+T128	K2_episodic_store	3.0	Chaotic neural networks and associative memory
+T162	K2_episodic_store	3.0	Large Product Key Memory for Pretrained Language Models
+T168	K2_episodic_store	3.0	One Shot Associative Memory Method for Distorted Pattern Recognition
+T170	K2_episodic_store	3.0	Pattern storage and associative memory in quasi-neural networks
+T173	K2_episodic_store	3.0	VLSI Design of an Associative Memory Based on Distributed Storage of Information
+T177	K2_episodic_store	3.0	Modular neural associative memory capable of storage of large amounts of data
+T183	K3_temporal_links	3.0	Improving Generalization for Temporal Difference Learning: The Successor Representation
+T207	K3_temporal_links	3.0	Continual Reinforcement Learning with Multi-Timescale Successor Features
+T209	K3_temporal_links	3.0	Learning Successor Features the Simple Way
+T210	K3_temporal_links	3.0	Distributional Successor Features Enable Zero-Shot Policy Optimization
+T215	K3_temporal_links	3.0	Option Transfer and SMDP Abstraction with Successor Features
+T216	K3_temporal_links	3.0	Task Relabelling for Multi-task Transfer using Successor Features
+T217	K3_temporal_links	3.0	Investigating Successor Features in the Domain of Autonomous Vehicle Control
+T218	K3_temporal_links	3.0	Safety-Constrained Policy Transfer with Successor Features
+T227	K4_consolidation_sched	3.0	Note on the quadratic penalties in elastic weight consolidation
+T228	K4_consolidation_sched	3.0	A Simple Machine Unlearning Approach Using Elastic Weight Consolidation
+T231	K4_consolidation_sched	3.0	Sequential Domain Adaptation through Elastic Weight Consolidation for Sentiment Analysis
+T242	K4_consolidation_sched	3.0	Marginal Replay vs Conditional Replay for Continual Learning
+T244	K4_consolidation_sched	3.0	A Benchmark and Empirical Analysis for Replay Strategies in Continual Learning
+T246	K4_consolidation_sched	3.0	Subset Replay Based Continual Learning for Scalable Improvement of Autonomous Systems
+T251	K4_consolidation_sched	3.0	Retrospective Adversarial Replay for Continual Learning
+T252	K4_consolidation_sched	3.0	Augmented Memory Replay-based Continual Learning Approaches for Network Intrusion Detection
+T254	K4_consolidation_sched	3.0	Generative Replay-Based Continual Zero-Shot Learning
+T255	K4_consolidation_sched	3.0	Architect, Regularize and Replay: A Flexible Hybrid Approach for Continual Learning
+T258	K4_consolidation_sched	3.0	An Investigation of Replay-based Approaches for Continual Learning
+T260	K4_consolidation_sched	3.0	Generative Feature Replay with Orthogonal Weight Modification for Continual Learning
+T261	K4_consolidation_sched	3.0	Ego-graph Replay based Continual Learning for Misinformation Engagement Prediction
+T264	K4_consolidation_sched	3.0	Actor-critic driven continual learning with memory replay for generative crowd counting
+T265	K4_consolidation_sched	3.0	S-TRIGGER: Continual State Representation Learning via Self-Triggered Generative Replay
+T267	K4_consolidation_sched	3.0	Adiabatic replay for continual learning
+T270	K4_consolidation_sched	3.0	Beneficial Effect of Combined Replay for Continual Learning
+T273	K4_consolidation_sched	3.0	Memory Enhanced Replay for Continual Learning
+T276	K4_consolidation_sched	3.0	Considerations arising from a complementary learning systems perspective on hippocampus and neocortex
+T277	K4_consolidation_sched	3.0	Cross-modal Active Complementary Learning with Self-refining Correspondence
+T279	K4_consolidation_sched	3.0	Hippocampus, cortex, and basal ganglia: Insights from computational models of complementary learning systems
+T280	K4_consolidation_sched	3.0	The role of complementary learning systems in learning and consolidation in a quasi-regular domain
+T289	K4_consolidation_sched	3.0	Model Sensitivity Aware Continual Learning
+T293	K4_consolidation_sched	3.0	Adversary Aware Continual Learning
+T294	K4_consolidation_sched	3.0	Adaptive memory replay for plasticity-aware edge continual learning
+T295	K4_consolidation_sched	3.0	FedMem: Memory-Aware Federated Continual Learning via Dual-Channel Memory Control
+T321	K5_semantic_slow	3.0	Conv-Adapter: Exploring Parameter Efficient Transfer Learning for ConvNets
+T322	K5_semantic_slow	3.0	Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Transfer Learning for Point Cloud Analysis
+T323	K5_semantic_slow	3.0	GLAD: A Gating LoRA-Adapter Approach for Efficient Transfer Learning in Recommender Systems
+T329	K5_semantic_slow	3.0	Removing watermark from diffusion models via Low-Rank Adaptation
+T333	K5_semantic_slow	3.0	A concise analysis of low-rank adaptation
+T335	K5_semantic_slow	3.0	CoLA: Collaborative Low-Rank Adaptation
+T336	K5_semantic_slow	3.0	ReptiLoRA: Accelerating Meta?Initialization with Low?Rank Adaptation
+T395	K6_working_memory	3.0	Multitask Pointer Network for multi-representational parsing
+T411	K7_meta_control	3.0	Value of information in spatial decision situations
+T412	K7_meta_control	3.0	The Development Decision: Value of Information
+T414	K7_meta_control	3.0	RISK AND THE VALUE OF INFORMATION IN IRREVERSIBLE DECISIONS
+T415	K7_meta_control	3.0	The Sure Thing Principle and the Value of Information: Corrigenda
+T418	K7_meta_control	3.0	Value of Information in Portfolio Decision Analysis
+T419	K7_meta_control	3.0	Chapter 5 The Value of Information in Decision Models
+T420	K7_meta_control	3.0	Value of Information
+T422	K7_meta_control	3.0	The Value of Information and Intensity of Preference
+T434	K7_meta_control	3.0	Metacognitive and control strategies in study-time allocation.
+T438	K7_meta_control	3.0	"Metacognitive control and the spacing effect": Correction to Son (2010).
+T439	K7_meta_control	3.0	Metacognitive control and spaced practice: Clarifying what people do and why.
+T442	K7_meta_control	3.0	Updating metacognitive control in response to expected retention intervals
+T443	K7_meta_control	3.0	Metacognitive Monitoring and Control in Children’s Prospective Memory
+T445	K7_meta_control	3.0	Metacognitive Monitoring and Control in Monkeys
+T446	K7_meta_control	3.0	Metacognitive Control Processes and Memory Deficits in Poor Comprehenders
+T447	K7_meta_control	3.0	Metacognitive Processes
+T448	K7_meta_control	3.0	A Cost-Sensitive Method for Credit Card Default Prediction
+T449	K7_meta_control	3.0	Cost-sensitive call classification
+T451	K7_meta_control	3.0	Cost-Sensitive Classification
+T452	K7_meta_control	3.0	Abstention
+T453	K7_meta_control	3.0	Deference and Abstention
+T455	K7_meta_control	3.0	Hot Contention, Cool Abstention
+T456	K7_meta_control	3.0	abstention, n.
+T458	K7_meta_control	3.0	Self-Abstention
+T459	K7_meta_control	3.0	Non-Voting and Abstention
+T461	K7_meta_control	3.0	Deep Active Inference for Partially Observable MDPs
+T462	K7_meta_control	3.0	Active Inference or Control as Inference? A Unifying View
+T463	K7_meta_control	3.0	Visual Search as Active Inference
+T464	K7_meta_control	3.0	Active Inference Successor Representations
+T465	K7_meta_control	3.0	Object-Based Active Inference
+T466	K7_meta_control	3.0	Active Inference and Psychology of Expectations: A Study of Formalizing ViolEx
+T467	K7_meta_control	3.0	Learning in Hybrid Active Inference Models
+T468	K7_meta_control	3.0	Exploring and Learning Structure: Active Inference Approach in Navigational Agents
+T469	K7_meta_control	3.0	Deep Active Inference with Neural Stochastic Differential Equations
+T470	K7_meta_control	3.0	A Diffusion Prior for Active Inference Planning
+T471	K7_meta_control	3.0	Balanced Active Inference
+T480	K7_meta_control	3.0	An Optimal Foraging Approach to Information Seeking and Use
+T481	K7_meta_control	3.0	Information and information seeking
+T504	K8_event_layer	3.0	The episodic buffer
+T505	K8_event_layer	3.0	Exploring the episodic buffer
+T506	K8_event_layer	3.0	Investigating the episodic buffer
+T507	K8_event_layer	3.0	The Role of Episodic Buffer in Episodic Future Thinking
+T533	K9_text_frontend	3.0	Deriving TF-IDF as a Fisher Kernel
+T534	K9_text_frontend	3.0	Using TF-IDF to Enhance Information Retrieval in Hadith Corpus
+T535	K9_text_frontend	3.0	KNN with TF-IDF based Framework for Text Categorization
+T536	K9_text_frontend	3.0	Analysis of TF-IDF Model and its Variant for Document Retrieval
+T537	K9_text_frontend	3.0	A Hybrid Automatic Text Summarization System Using TF-IDF and SBART: Integrating Information Retrieval and Deep Learning Techniques
+T538	K9_text_frontend	3.0	A Novel Feature Hashing for Text Mining
+T539	K9_text_frontend	3.0	Character-Based N-gram Model for Uyghur Text Retrieval
+T541	K9_text_frontend	3.0	Character N-Gram Tokenization for European Language Text Retrieval
+T542	K9_text_frontend	3.0	Character contiguity in N-gram-based word matching: the case for Arabic text searching
+T543	K9_text_frontend	3.0	Multilingual text categorization using Character N-gram
+T544	K9_text_frontend	3.0	Parallel Hashing-N-Gram-Hirschberg algorithm
+T545	K9_text_frontend	3.0	Recursive n-gram hashing is pairwise independent, at best
+T547	K9_text_frontend	3.0	Word-like character n-gram embedding
+T548	K9_text_frontend	3.0	An Evaluation of Character Level N-gram Termsets in Text Categorization
+T552	K9_text_frontend	3.0	Multi-feature Hashing Tracking
+T553	K9_text_frontend	3.0	Multi-feature hashing based on SNR maximization
+T555	K9_text_frontend	3.0	Feature Hashing for Network Representation Learning
+T558	K9_text_frontend	3.0	Effect of Feature Hashing on Fair Classification
+T567	K9_text_frontend	3.0	Enhance Large Language Models for Multilingual Sentence Embedding with Knowledge Graph
+T575	K9_text_frontend	3.0	CLSEP: Contrastive learning of sentence embedding with prompt
+T712	K6_working_memory	3.0	Code Completion with Neural Attention and Pointer Networks
+T825	K6_working_memory	3.0	Visuo-spatial working memory in ageing
+T826	K6_working_memory	3.0	Imagery, blindness, and visuo-spatial working memory
+T828	K6_working_memory	3.0	A continuity approach to visuo-spatial working memory
+T829	K6_working_memory	3.0	Individual diﬀerences in children’s visuo-spatial working memory
+T830	K6_working_memory	3.0	Models and components of visuo-spatial representation and working memory
+T844	K6_working_memory	3.0	The Neural Code of Working Memory Maintenance
+T845	K6_working_memory	3.0	Working memory in Williams syndrome
+T943	K7_meta_control	3.0	Monte Carlo uncertainty estimation for wavelength calibration
+T945	K7_meta_control	3.0	ConformaDecompose: Explaining Uncertainty via Calibration Localization
+T947	K7_meta_control	3.0	Evaluating Uncertainty Calibration for Open-Set Recognition
+T930	K5_semantic_slow	2.5	Continual Learning with Dependency Preserving Hypernetworks
+T933	K5_semantic_slow	2.5	Prototype Augmented Hypernetworks for Continual Learning
+T949	K8_event_layer	2.5	CHATTER: A Character Attribution Dataset for Narrative Understanding
+T794	K5_semantic_slow	2.0	Structural plasticity and memory: Catastrophic forgetting, amnesia, and the spacing effect
+T796	K5_semantic_slow	2.0	Mitigating catastrophic forgetting in medical imaging via incremental learning
+T803	K5_semantic_slow	2.0	Incremental Learning of Object Detectors without Catastrophic Forgetting
+T877	K8_event_layer	2.0	Clustering Object-Centric Event Logs
+T928	K5_semantic_slow	2.0	Partial Hypernetworks for Continual Learning
+T929	K5_semantic_slow	2.0	Continual learning with hypernetworks
+T932	K5_semantic_slow	2.0	HINT: Hypernetwork Approach to Training Weight Interval Regions in Continual Learning
+T934	K5_semantic_slow	2.0	HyperMask: Adaptive Hypernetwork-based Masks for Continual Learning
+T935	K5_semantic_slow	2.0	Dynamic Allocation Hypernetwork with Adaptive Model Recalibration for Federated Continual Learning
+T936	K6_working_memory	2.0	Encoding certainty in bump attractors
+T959	K8_event_layer	2.0	Un-EVIMO: Unsupervised Event-Based Independent Motion Segmentation

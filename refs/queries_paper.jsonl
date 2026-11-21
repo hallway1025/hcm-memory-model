@@ -1,0 +1,27 @@
+{"query":"Memory and the hippocampus: a synthesis from findings with rats, monkeys, and humans","module":"M5_SEM","role":"theory","n":3}
+{"query":"What learning systems do intelligent agents need? Complementary learning systems theory updated","module":"M5_SEM","role":"theory","n":3}
+{"query":"Pattern separation in the hippocampus Yassa Stark","module":"M1_SEP","role":"review","n":3}
+{"query":"Two-stage model of memory trace formation: a role for noisy brain states","module":"M4_CON","role":"theory","n":3}
+{"query":"Selective suppression of hippocampal ripples impairs spatial memory","module":"M4_CON","role":"evidence","n":3}
+{"query":"Mechanisms of systems memory consolidation during sleep","module":"M4_CON","role":"review","n":3}
+{"query":"The organization of recent and remote memories","module":"M4_CON","role":"review","n":3}
+{"query":"Memory transformation and systems consolidation","module":"M4_CON","role":"theory","n":3}
+{"query":"Computational principles of synaptic memory consolidation","module":"M5_SEM","role":"theory","n":3}
+{"query":"The magical number seven plus or minus two: some limits on our capacity for processing information","module":"M6_WM","role":"theory","n":3}
+{"query":"The magical number 4 in short-term memory: a reconsideration of mental storage capacity","module":"M6_WM","role":"review","n":3}
+{"query":"Overcoming catastrophic forgetting in neural networks","module":"M0_META","role":"method","n":3}
+{"query":"Catastrophic forgetting in connectionist networks","module":"M0_META","role":"review","n":3}
+{"query":"Remembering can cause forgetting: retrieval dynamics in long-term memory","module":"M8_FOR","role":"evidence","n":3}
+{"query":"Episodic memory: from mind to brain","module":"M3_CTX","role":"review","n":3}
+{"query":"Two cortical systems for memory-guided behaviour","module":"M5_SEM","role":"review","n":3}
+{"query":"The hippocampus and related neocortical structures in memory transformation","module":"M4_CON","role":"review","n":3}
+{"query":"Memory consolidation, retrograde amnesia and the hippocampal complex","module":"M4_CON","role":"theory","n":3}
+{"query":"Requirement for hippocampal CA3 NMDA receptors in associative memory recall","module":"M2_EPI","role":"evidence","n":3}
+{"query":"The neural basis of metacognitive ability","module":"M0_META","role":"review","n":3}
+{"query":"The expected value of control: an integrative theory of anterior cingulate cortex function","module":"M0_META","role":"theory","n":3}
+{"query":"A theory of cerebellar cortex Marr","module":"M5_SEM","role":"theory","n":3}
+{"query":"On the integration of space, time, and memory","module":"M3_CTX","role":"review","n":3}
+{"query":"Deconstructing episodic memory with construction","module":"M3_CTX","role":"review","n":3}
+{"query":"Reward prediction error","module":"M7_NEU","role":"review","n":3}
+{"query":"Noradrenergic modulation of memory","module":"M7_NEU","role":"review","n":3}
+{"query":"Emotional arousal and memory consolidation amygdala","module":"M7_NEU","role":"evidence","n":3}

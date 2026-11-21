@@ -1,0 +1,87 @@
+{
+ "n_rows": 48,
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11
+ ],
+ "G-A": {
+  "deficit_mean": 0.1583,
+  "deficit_sd": 0.0959,
+  "ci95": [
+   0.1067,
+   0.21
+  ],
+  "pass_ge_0p10": true,
+  "ci_excludes_0": true,
+  "placebo_deficit_mean": -0.15,
+  "placebo_lt_0p05": true,
+  "verdict": "PASS"
+ },
+ "G-S1": {
+  "collapse_mean": 0.1567,
+  "collapse_sd": 0.0389,
+  "ci95": [
+   0.1367,
+   0.1783
+  ],
+  "pass_ge_0p10": true,
+  "ci_excludes_0": true,
+  "verdict": "PASS"
+ },
+ "G-S2": {
+  "hub_share": {
+   "soff": 0.09,
+   "son015": 0.0846,
+   "son030": 0.0862,
+   "son050": 0.1021
+  },
+  "threshold": 0.18,
+  "verdict": "FAIL"
+ },
+ "G-B": {
+  "recovered_mean": 1.0,
+  "gap_rec_hp_mean": 0.2,
+  "pass_le_0p05": false,
+  "hp_all_rec_mean": 0.88,
+  "gap_to_soff_hp_mean": 0.0,
+  "pass_fullrestore": true
+ },
+ "dose_response": {
+  "son015": {
+   "deficit_mean": 0.1583,
+   "hit_p_mean": 0.8,
+   "hub_share": 0.0846,
+   "att_rp_sup_mean": 0.7612
+  },
+  "son030": {
+   "deficit_mean": 0.29,
+   "hit_p_mean": 0.7233,
+   "hub_share": 0.0862,
+   "att_rp_sup_mean": 0.6428
+  },
+  "son050": {
+   "deficit_mean": 0.705,
+   "hit_p_mean": 0.45,
+   "hub_share": 0.1021,
+   "att_rp_sup_mean": 0.4773
+  }
+ },
+ "dose_monotone_deficit": true,
+ "dose_monotone_hitp_collapse": true,
+ "headline": {
+  "G-A": "PASS",
+  "G-S1": "PASS",
+  "G-S2": "FAIL",
+  "G-B_fullrestore": true
+ }
+}

@@ -1,0 +1,569 @@
+{
+ "exp": "exp55_realstaircase",
+ "kind": "analysis-only",
+ "label": "PRELIMINARY (log-derived; canonical = exp45 rerun JSONs pending)",
+ "sources": [
+  {
+   "id": "S1",
+   "file": "<user-home>/exp45_logs/logderived_gate.json",
+   "sha256_16": "3b237f395ab8fd20"
+  }
+ ],
+ "channels": {
+  "char_beta_curve": {
+   "seeds": [
+    {
+     "seed": 0,
+     "n_ck": 11,
+     "N_strictly_increasing": true,
+     "curve": [
+      {
+       "N": 8657,
+       "beta": 500
+      },
+      {
+       "N": 18273,
+       "beta": 500
+      },
+      {
+       "N": 27755,
+       "beta": 100
+      },
+      {
+       "N": 37006,
+       "beta": 500
+      },
+      {
+       "N": 46020,
+       "beta": 500
+      },
+      {
+       "N": 54788,
+       "beta": 100
+      },
+      {
+       "N": 63531,
+       "beta": 500
+      },
+      {
+       "N": 72532,
+       "beta": 100
+      },
+      {
+       "N": 81513,
+       "beta": 500
+      },
+      {
+       "N": 90539,
+       "beta": 500
+      },
+      {
+       "N": 92756,
+       "beta": 500
+      }
+     ],
+     "monotone_nondecreasing": false,
+     "tau": {
+      "conc": 13,
+      "disc": 11,
+      "ties": 31,
+      "tau": 0.0833,
+      "frac_concordant_of_resolved": 0.5417
+     }
+    },
+    {
+     "seed": 1,
+     "n_ck": 11,
+     "N_strictly_increasing": true,
+     "curve": [
+      {
+       "N": 8657,
+       "beta": 500
+      },
+      {
+       "N": 18274,
+       "beta": 100
+      },
+      {
+       "N": 27757,
+       "beta": 500
+      },
+      {
+       "N": 37012,
+       "beta": 500
+      },
+      {
+       "N": 46029,
+       "beta": 500
+      },
+      {
+       "N": 54801,
+       "beta": 500
+      },
+      {
+       "N": 63555,
+       "beta": 100
+      },
+      {
+       "N": 72557,
+       "beta": 500
+      },
+      {
+       "N": 81546,
+       "beta": 2500
+      },
+      {
+       "N": 90595,
+       "beta": 100
+      },
+      {
+       "N": 92815,
+       "beta": 500
+      }
+     ],
+     "monotone_nondecreasing": false,
+     "tau": {
+      "conc": 17,
+      "disc": 14,
+      "ties": 24,
+      "tau": 0.0968,
+      "frac_concordant_of_resolved": 0.5484
+     }
+    },
+    {
+     "seed": 2,
+     "n_ck": 11,
+     "N_strictly_increasing": true,
+     "curve": [
+      {
+       "N": 8654,
+       "beta": 100
+      },
+      {
+       "N": 18274,
+       "beta": 500
+      },
+      {
+       "N": 27761,
+       "beta": 100
+      },
+      {
+       "N": 37019,
+       "beta": 500
+      },
+      {
+       "N": 46034,
+       "beta": 100
+      },
+      {
+       "N": 54808,
+       "beta": 100
+      },
+      {
+       "N": 63562,
+       "beta": 500
+      },
+      {
+       "N": 72554,
+       "beta": 500
+      },
+      {
+       "N": 81531,
+       "beta": 500
+      },
+      {
+       "N": 90560,
+       "beta": 2500
+      },
+      {
+       "N": 92779,
+       "beta": 500
+      }
+     ],
+     "monotone_nondecreasing": false,
+     "tau": {
+      "conc": 28,
+      "disc": 6,
+      "ties": 21,
+      "tau": 0.6471,
+      "frac_concordant_of_resolved": 0.8235
+     }
+    }
+   ],
+   "modal_by_N_bucket": {
+    "N~1e4": {
+     "mode": 500,
+     "dist": {
+      "100": 1,
+      "500": 2
+     },
+     "n": 3
+    },
+    "N~2e4": {
+     "mode": 500,
+     "dist": {
+      "100": 1,
+      "500": 2
+     },
+     "n": 3
+    },
+    "N~3e4": {
+     "mode": 100,
+     "dist": {
+      "100": 2,
+      "500": 1
+     },
+     "n": 3
+    },
+    "N~4e4": {
+     "mode": 500,
+     "dist": {
+      "500": 3
+     },
+     "n": 3
+    },
+    "N~5e4": {
+     "mode": 100,
+     "dist": {
+      "100": 3,
+      "500": 3
+     },
+     "n": 6
+    },
+    "N~6e4": {
+     "mode": 500,
+     "dist": {
+      "100": 1,
+      "500": 2
+     },
+     "n": 3
+    },
+    "N~7e4": {
+     "mode": 500,
+     "dist": {
+      "100": 1,
+      "500": 2
+     },
+     "n": 3
+    },
+    "N~8e4": {
+     "mode": 500,
+     "dist": {
+      "2500": 1,
+      "500": 2
+     },
+     "n": 3
+    },
+    "N~9e4": {
+     "mode": 500,
+     "dist": {
+      "100": 1,
+      "2500": 1,
+      "500": 4
+     },
+     "n": 6
+    }
+   },
+   "N_range": [
+    8654,
+    92815
+   ],
+   "beta_grid_observed": [
+    100,
+    500,
+    2500
+   ]
+  },
+  "sem_beta_curve": {
+   "seeds": [
+    {
+     "seed": 0,
+     "n_ck": 11,
+     "N_strictly_increasing": true,
+     "curve": [
+      {
+       "N": 9914,
+       "beta": 100
+      },
+      {
+       "N": 19810,
+       "beta": 500
+      },
+      {
+       "N": 29413,
+       "beta": 500
+      },
+      {
+       "N": 38823,
+       "beta": 100
+      },
+      {
+       "N": 47915,
+       "beta": 500
+      },
+      {
+       "N": 56736,
+       "beta": 100
+      },
+      {
+       "N": 65513,
+       "beta": 100
+      },
+      {
+       "N": 74525,
+       "beta": 100
+      },
+      {
+       "N": 83549,
+       "beta": 500
+      },
+      {
+       "N": 92901,
+       "beta": 100
+      },
+      {
+       "N": 95353,
+       "beta": 100
+      }
+     ],
+     "monotone_nondecreasing": false,
+     "tau": {
+      "conc": 9,
+      "disc": 19,
+      "ties": 27,
+      "tau": -0.3571,
+      "frac_concordant_of_resolved": 0.3214
+     }
+    },
+    {
+     "seed": 1,
+     "n_ck": 11,
+     "N_strictly_increasing": true,
+     "curve": [
+      {
+       "N": 9919,
+       "beta": 100
+      },
+      {
+       "N": 19817,
+       "beta": 100
+      },
+      {
+       "N": 29420,
+       "beta": 100
+      },
+      {
+       "N": 38830,
+       "beta": 100
+      },
+      {
+       "N": 47920,
+       "beta": 500
+      },
+      {
+       "N": 56740,
+       "beta": 500
+      },
+      {
+       "N": 65520,
+       "beta": 500
+      },
+      {
+       "N": 74532,
+       "beta": 500
+      },
+      {
+       "N": 83554,
+       "beta": 500
+      },
+      {
+       "N": 92918,
+       "beta": 500
+      },
+      {
+       "N": 95370,
+       "beta": 2500
+      }
+     ],
+     "monotone_nondecreasing": true,
+     "tau": {
+      "conc": 34,
+      "disc": 0,
+      "ties": 21,
+      "tau": 1.0,
+      "frac_concordant_of_resolved": 1.0
+     }
+    },
+    {
+     "seed": 2,
+     "n_ck": 11,
+     "N_strictly_increasing": true,
+     "curve": [
+      {
+       "N": 9914,
+       "beta": 100
+      },
+      {
+       "N": 19812,
+       "beta": 100
+      },
+      {
+       "N": 29418,
+       "beta": 500
+      },
+      {
+       "N": 38823,
+       "beta": 100
+      },
+      {
+       "N": 47912,
+       "beta": 100
+      },
+      {
+       "N": 56731,
+       "beta": 100
+      },
+      {
+       "N": 65511,
+       "beta": 100
+      },
+      {
+       "N": 74522,
+       "beta": 100
+      },
+      {
+       "N": 83528,
+       "beta": 500
+      },
+      {
+       "N": 92881,
+       "beta": 100
+      },
+      {
+       "N": 95335,
+       "beta": 500
+      }
+     ],
+     "monotone_nondecreasing": false,
+     "tau": {
+      "conc": 17,
+      "disc": 7,
+      "ties": 31,
+      "tau": 0.4167,
+      "frac_concordant_of_resolved": 0.7083
+     }
+    }
+   ],
+   "modal_by_N_bucket": {
+    "N~1e4": {
+     "mode": 100,
+     "dist": {
+      "100": 3
+     },
+     "n": 3
+    },
+    "N~2e4": {
+     "mode": 100,
+     "dist": {
+      "100": 2,
+      "500": 1
+     },
+     "n": 3
+    },
+    "N~3e4": {
+     "mode": 500,
+     "dist": {
+      "100": 1,
+      "500": 2
+     },
+     "n": 3
+    },
+    "N~4e4": {
+     "mode": 100,
+     "dist": {
+      "100": 3
+     },
+     "n": 3
+    },
+    "N~5e4": {
+     "mode": 500,
+     "dist": {
+      "100": 1,
+      "500": 2
+     },
+     "n": 3
+    },
+    "N~6e4": {
+     "mode": 100,
+     "dist": {
+      "100": 2,
+      "500": 1
+     },
+     "n": 3
+    },
+    "N~7e4": {
+     "mode": 100,
+     "dist": {
+      "100": 4,
+      "500": 2
+     },
+     "n": 6
+    },
+    "N~8e4": {
+     "mode": 500,
+     "dist": {
+      "500": 3
+     },
+     "n": 3
+    },
+    "N~9e4": {
+     "mode": 100,
+     "dist": {
+      "100": 2,
+      "500": 1
+     },
+     "n": 3
+    },
+    "N~10e4": {
+     "mode": 2500,
+     "dist": {
+      "2500": 1,
+      "100": 1,
+      "500": 1
+     },
+     "n": 3
+    }
+   },
+   "N_range": [
+    9914,
+    95370
+   ],
+   "beta_grid_observed": [
+    100,
+    500,
+    2500
+   ]
+  }
+ },
+ "gates": {
+  "G1_traceability": {
+   "pass": true
+  },
+  "G2_preliminary_label": {
+   "pass": true
+  },
+  "G3_exploratory_effect_sizes": {
+   "taus": [
+    0.0833,
+    0.0968,
+    0.6471,
+    -0.3571,
+    1.0,
+    0.4167
+   ],
+   "any_seed_monotone": true,
+   "verdict_predeclared": "platform_noise",
+   "note": "predeclared split: tau>0.3 in >=4/6 seed-curves => trend branch; else platform-noise branch"
+  }
+ }
+}

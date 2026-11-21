@@ -1,0 +1,1055 @@
+[
+ {
+  "area": "K1_sparse_encoder",
+  "query": "winner-take-all sparse coding",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 768132,
+  "cached": true
+ },
+ {
+  "area": "K1_sparse_encoder",
+  "query": "k-winners take all",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 552445,
+  "cached": true
+ },
+ {
+  "area": "K1_sparse_encoder",
+  "query": "sparse distributed memory",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 991996,
+  "cached": true
+ },
+ {
+  "area": "K1_sparse_encoder",
+  "query": "locality sensitive hashing",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 267601,
+  "cached": true
+ },
+ {
+  "area": "K1_sparse_encoder",
+  "query": "product quantization nearest neighbor",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 439387,
+  "cached": true
+ },
+ {
+  "area": "K1_sparse_encoder",
+  "query": "top-k sparse autoencoder",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 266102,
+  "cached": true
+ },
+ {
+  "area": "K1_sparse_encoder",
+  "query": "hyperplane hashing",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 9380,
+  "cached": true
+ },
+ {
+  "area": "K1_sparse_encoder",
+  "query": "winner take all sparse coding",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 9,
+  "cached": true
+ },
+ {
+  "area": "K1_sparse_encoder",
+  "query": "locality sensitive hashing",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 480,
+  "cached": true
+ },
+ {
+  "area": "K1_sparse_encoder",
+  "query": "product quantization approximate nearest neighbor",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 46,
+  "cached": true
+ },
+ {
+  "area": "K1_sparse_encoder",
+  "query": "top-k sparse autoencoder",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 42,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "modern Hopfield network",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 2569174,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "Kanerva sparse distributed memory capacity",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 1304093,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "differentiable neural computer memory",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 3717710,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "vector symbolic architecture binding",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 1237663,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "product key memory",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1360249,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "associative memory one-shot storage",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 2121906,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "modern Hopfield networks",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 113,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "Kanerva sparse distributed memory",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 6,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "vector symbolic architecture",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 220,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "product key memory",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 453,
+  "cached": true
+ },
+ {
+  "area": "K3_temporal_links",
+  "query": "successor representation",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 251813,
+  "cached": true
+ },
+ {
+  "area": "K3_temporal_links",
+  "query": "temporal knowledge graph reasoning",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 1537846,
+  "cached": true
+ },
+ {
+  "area": "K3_temporal_links",
+  "query": "episodic control successor features",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 3370859,
+  "cached": true
+ },
+ {
+  "area": "K3_temporal_links",
+  "query": "temporal association sequence retrieval hippocampus",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 2623131,
+  "cached": true
+ },
+ {
+  "area": "K3_temporal_links",
+  "query": "time cell sequence replay link",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 5058852,
+  "cached": true
+ },
+ {
+  "area": "K3_temporal_links",
+  "query": "successor representation",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 198,
+  "cached": true
+ },
+ {
+  "area": "K3_temporal_links",
+  "query": "temporal knowledge graph",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 1121,
+  "cached": true
+ },
+ {
+  "area": "K3_temporal_links",
+  "query": "temporal link prediction",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 936,
+  "cached": true
+ },
+ {
+  "area": "K4_consolidation_sched",
+  "query": "elastic weight consolidation",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 524092,
+  "cached": true
+ },
+ {
+  "area": "K4_consolidation_sched",
+  "query": "experience replay continual learning",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 3460732,
+  "cached": true
+ },
+ {
+  "area": "K4_consolidation_sched",
+  "query": "generative replay continual learning",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 2843064,
+  "cached": true
+ },
+ {
+  "area": "K4_consolidation_sched",
+  "query": "complementary learning systems",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 7193492,
+  "cached": true
+ },
+ {
+  "area": "K4_consolidation_sched",
+  "query": "memory aware synapses continual",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 707386,
+  "cached": true
+ },
+ {
+  "area": "K4_consolidation_sched",
+  "query": "continual learning experience replay",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 759,
+  "cached": true
+ },
+ {
+  "area": "K4_consolidation_sched",
+  "query": "elastic weight consolidation",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 173,
+  "cached": true
+ },
+ {
+  "area": "K4_consolidation_sched",
+  "query": "gradient episodic memory",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 60,
+  "cached": true
+ },
+ {
+  "area": "K5_semantic_slow",
+  "query": "fast weights",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 364290,
+  "cached": true
+ },
+ {
+  "area": "K5_semantic_slow",
+  "query": "parameter efficient fine-tuning low rank",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 2838514,
+  "cached": true
+ },
+ {
+  "area": "K5_semantic_slow",
+  "query": "adapter modules transfer learning",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 3599004,
+  "cached": true
+ },
+ {
+  "area": "K5_semantic_slow",
+  "query": "low rank adaptation forgetting",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 1882433,
+  "cached": true
+ },
+ {
+  "area": "K5_semantic_slow",
+  "query": "catastrophic forgetting low rank",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 1641749,
+  "cached": true
+ },
+ {
+  "area": "K5_semantic_slow",
+  "query": "LoRA low rank adaptation",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 2160,
+  "cached": true
+ },
+ {
+  "area": "K5_semantic_slow",
+  "query": "fast weights",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 4088,
+  "cached": true
+ },
+ {
+  "area": "K5_semantic_slow",
+  "query": "parameter efficient continual learning",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 2255,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "activity silent working memory",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 2279585,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "working memory capacity slots",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 1147841,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "theta gamma nested oscillation working memory",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 1080543,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "pointer network",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1363596,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "short term synaptic plasticity working memory",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 2125120,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "working memory neural network capacity",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 216,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "activity silent memory",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 34,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "pointer networks",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 367,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "value of information decision",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 4272522,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "learned retrieval policy",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1519526,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "metacognitive control memory",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 3411280,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "cost sensitive abstention",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 696052,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "active inference information gain",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 3555329,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "Bayes optimal information seeking",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 3288553,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "selective prediction abstention",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 120,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "value of information",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 2,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "learned memory controller agent",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 520,
+  "cached": true
+ },
+ {
+  "area": "K8_event_layer",
+  "query": "event knowledge graph",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 1329561,
+  "cached": true
+ },
+ {
+  "area": "K8_event_layer",
+  "query": "temporal event ontology",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 613879,
+  "cached": true
+ },
+ {
+  "area": "K8_event_layer",
+  "query": "episodic buffer cognitive architecture",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1179307,
+  "cached": true
+ },
+ {
+  "area": "K8_event_layer",
+  "query": "event segmentation memory",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 931922,
+  "cached": true
+ },
+ {
+  "area": "K8_event_layer",
+  "query": "event schema memory",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 751212,
+  "cached": true
+ },
+ {
+  "area": "K8_event_layer",
+  "query": "temporal knowledge graph event",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 229,
+  "cached": true
+ },
+ {
+  "area": "K8_event_layer",
+  "query": "event extraction knowledge base",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 368,
+  "cached": true
+ },
+ {
+  "area": "K8_event_layer",
+  "query": "episodic memory agent events",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 81,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "TF-IDF text retrieval",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 463511,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "character n-gram hashing text",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 476807,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "feature hashing",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 248181,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "PPMI co-occurrence embeddings",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 1042459,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "knowledge distillation sentence embedding",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1030811,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "co-occurrence embedding dimensionality reduction",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1640244,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "efficient text embedding",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 2136,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "feature hashing",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 771,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "PPMI word embeddings",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 4,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "distilled sentence embeddings",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 89,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "dense associative memory",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 608238,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "holographic reduced representation",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 520610,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "dense associative memory",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 210,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "episodic control",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1566,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "differentiable memory network",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 905,
+  "cached": true
+ },
+ {
+  "area": "K2_episodic_store",
+  "query": "sparse associative memory",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 253,
+  "cached": true
+ },
+ {
+  "area": "K3_temporal_links",
+  "query": "theta sequence hippocampus",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 327036,
+  "cached": true
+ },
+ {
+  "area": "K3_temporal_links",
+  "query": "chunking sequence learning",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 3007014,
+  "cached": true
+ },
+ {
+  "area": "K3_temporal_links",
+  "query": "forward replay prospective memory",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1002555,
+  "cached": true
+ },
+ {
+  "area": "K3_temporal_links",
+  "query": "theta sequences replay",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1,
+  "cached": true
+ },
+ {
+  "area": "K3_temporal_links",
+  "query": "successor features transfer",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 39,
+  "cached": true
+ },
+ {
+  "area": "K5_semantic_slow",
+  "query": "catastrophic forgetting analysis",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 6617951,
+  "cached": true
+ },
+ {
+  "area": "K5_semantic_slow",
+  "query": "gradient projection continual learning",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 2961089,
+  "cached": true
+ },
+ {
+  "area": "K5_semantic_slow",
+  "query": "weight interpolation forgetting",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 25,
+  "cached": true
+ },
+ {
+  "area": "K5_semantic_slow",
+  "query": "task arithmetic continual",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 103,
+  "cached": true
+ },
+ {
+  "area": "K5_semantic_slow",
+  "query": "hypernetwork continual learning",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 90,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "spatial working memory",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 1377668,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "delayed response prefrontal",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1616454,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "population code working memory",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 1799149,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "bump attractor",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 43,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "working memory maintenance",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 84,
+  "cached": true
+ },
+ {
+  "area": "K6_working_memory",
+  "query": "memory guided behavior",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 2064917,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "conformal prediction",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 5701,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "uncertainty calibration",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 7782,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "information foraging",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 2798244,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "explore exploit memory",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 561594,
+  "cached": true
+ },
+ {
+  "area": "K7_meta_control",
+  "query": "retrieval decision reinforcement",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 412,
+  "cached": true
+ },
+ {
+  "area": "K8_event_layer",
+  "query": "event-centric knowledge",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1180341,
+  "cached": true
+ },
+ {
+  "area": "K8_event_layer",
+  "query": "script induction",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 283042,
+  "cached": true
+ },
+ {
+  "area": "K8_event_layer",
+  "query": "narrative understanding events",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 232,
+  "cached": true
+ },
+ {
+  "area": "K8_event_layer",
+  "query": "temporal reasoning question answering",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 761,
+  "cached": true
+ },
+ {
+  "area": "K8_event_layer",
+  "query": "unsupervised event segmentation",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 63,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "BM25 lexical retrieval",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 154,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "hybrid lexical dense retrieval",
+  "channel": "arxiv",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 72,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "count-based word vectors comparison",
+  "channel": "crossref",
+  "n": 12,
+  "year_from": null,
+  "raw_hits": 8025683,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "GloVe global vectors",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1539321,
+  "cached": true
+ },
+ {
+  "area": "K9_text_frontend",
+  "query": "byte-level embedding",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 72,
+  "cached": true
+ }
+]

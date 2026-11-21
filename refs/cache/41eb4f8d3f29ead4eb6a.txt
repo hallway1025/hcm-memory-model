@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/V5xs3w6d36Gz8Fr6LWmuExZ/gVw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2407.04153&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:32:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2407.04153" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.04153v1</id>
+    <title>Mixture of A Million Experts</title>
+    <updated>2024-07-04T20:59:20Z</updated>
+    <link href="https://arxiv.org/abs/2407.04153v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.04153v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The feedforward (FFW) layers in standard transformer architectures incur a linear increase in computational costs and activation memory as the hidden layer width grows. Sparse mixture-of-experts (MoE) architectures have emerged as a viable approach to address this issue by decoupling model size from computational cost. The recent discovery of the fine-grained MoE scaling law shows that higher granularity leads to better performance. However, existing MoE models are limited to a small number of experts due to computational and optimization challenges. This paper introduces PEER (parameter efficient expert retrieval), a novel layer design that utilizes the product key technique for sparse retrieval from a vast pool of tiny experts (over a million). Experiments on language modeling tasks demonstrate that PEER layers outperform dense FFWs and coarse-grained MoEs in terms of performance-compute trade-off. By enabling efficient utilization of a massive number of experts, PEER unlocks the potential for further scaling of transformer models while maintaining computational efficiency.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-04T20:59:20Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xu Owen He</name>
+    </author>
+  </entry>
+</feed>

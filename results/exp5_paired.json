@@ -1,0 +1,26 @@
+[
+ {
+  "arm": "blocked",
+  "A_before": 20,
+  "A_after": 20,
+  "B_after": 20
+ },
+ {
+  "arm": "replay50",
+  "A_before": 20,
+  "A_after": 20,
+  "B_after": 20
+ },
+ {
+  "arm": "replay25",
+  "A_before": 20,
+  "A_after": 20,
+  "B_after": 20
+ },
+ {
+  "arm": "replay_uniform",
+  "A_before": 20,
+  "A_after": 20,
+  "B_after": 20
+ }
+]

@@ -1,0 +1,1 @@
+{"version":"6.9","hitCount":0,"request":{"queryString":"DOI:\"10.2514/6.1990-3992\"","resultType":"core","cursorMark":"*","pageSize":5,"sort":"","synonym":false},"resultList":{"result":[]}}

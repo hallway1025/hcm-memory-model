@@ -1,0 +1,5 @@
+  chunk 0 end=500 wrote=388 6s
+  chunk 1 end=1000 wrote=775 15s
+  chunk 2 end=1500 wrote=1133 26s
+  chunk 3 end=2000 wrote=1495 40s
+seed 0 done in 250s wrote=1495 primary(semantic deg0.3 lam0): {'A_fixed': 5, 'B_online': 3, 'C_uniform': 3}

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/S7eWC5xRq1QESyR5nl2juqlCMak</id>
+  <title>arXiv Query: search_query=all:generative AND all:agents AND all:interactive AND all:simulacra&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-07T11:45:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:generative+AND+(all:agents+AND+(all:interactive+AND+all:simulacra))&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.15815v1</id>
+    <title>LLM Economist: Large Population Models and Mechanism Design in Multi-Agent Generative Simulacra</title>
+    <updated>2025-07-21T17:21:14Z</updated>
+    <link href="https://arxiv.org/abs/2507.15815v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.15815v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the LLM Economist, a novel framework that uses agent-based modeling to design and assess economic policies in strategic environments with hierarchical decision-making. At the lower level, bounded rational worker agents -- instantiated as persona-conditioned prompts sampled from U.S. Census-calibrated income and demographic statistics -- choose labor supply to maximize text-based utility functions learned in-context. At the upper level, a planner agent employs in-context reinforcement learning to propose piecewise-linear marginal tax schedules anchored to the current U.S. federal brackets. This construction endows economic simulacra with three capabilities requisite for credible fiscal experimentation: (i) optimization of heterogeneous utilities, (ii) principled generation of large, demographically realistic agent populations, and (iii) mechanism design -- the ultimate nudging problem -- expressed entirely in natural language. Experiments with populations of up to one hundred interacting agents show that the planner converges near Stackelberg equilibria that improve aggregate social welfare relative to Saez solutions, while a periodic, persona-level voting procedure furthers these gains under decentralized governance. These results demonstrate that large language model-based agents can jointly model, simulate, and govern complex economic systems, providing a tractable test bed for policy evaluation at the societal scale to help build better civilizations.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-21T17:21:14Z</published>
+    <arxiv:comment>27 pages, 6 figures, Code: https://github.com/sethkarten/LLM-Economist</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Seth Karten</name>
+    </author>
+    <author>
+      <name>Wenzhe Li</name>
+    </author>
+    <author>
+      <name>Zihan Ding</name>
+    </author>
+    <author>
+      <name>Samuel Kleiner</name>
+    </author>
+    <author>
+      <name>Yu Bai</name>
+    </author>
+    <author>
+      <name>Chi Jin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.03442v2</id>
+    <title>Generative Agents: Interactive Simulacra of Human Behavior</title>
+    <updated>2023-08-06T00:21:19Z</updated>
+    <link href="https://arxiv.org/abs/2304.03442v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.03442v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Believable proxies of human behavior can empower interactive applications ranging from immersive environments to rehearsal spaces for interpersonal communication to prototyping tools. In this paper, we introduce generative agents--computational software agents that simulate believable human behavior. Generative agents wake up, cook breakfast, and head to work; artists paint, while authors write; they form opinions, notice each other, and initiate conversations; they remember and reflect on days past as they plan the next day. To enable generative agents, we describe an architecture that extends a large language model to store a complete record of the agent's experiences using natural language, synthesize those memories over time into higher-level reflections, and retrieve them dynamically to plan behavior. We instantiate generative agents to populate an interactive sandbox environment inspired by The Sims, where end users can interact with a small town of twenty five agents using natural language. In an evaluation, these generative agents produce believable individual and emergent social behaviors: for example, starting with only a single user-specified notion that one agent wants to throw a Valentine's Day party, the agents autonomously spread invitations to the party over the next two days, make new acquaintances, ask each other out on dates to the party, and coordinate to show up for the party together at the right time. We demonstrate through ablation that the components of our agent architecture--observation, planning, and reflection--each contribute critically to the believability of agent behavior. By fusing large language models with computational, interactive agents, this work introduces architectural and interaction patterns for enabling believable simulations of human behavior.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-07T01:55:19Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Joon Sung Park</name>
+    </author>
+    <author>
+      <name>Joseph C. O'Brien</name>
+    </author>
+    <author>
+      <name>Carrie J. Cai</name>
+    </author>
+    <author>
+      <name>Meredith Ringel Morris</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+    <author>
+      <name>Michael S. Bernstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.08691v2</id>
+    <title>AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society</title>
+    <updated>2026-04-10T15:11:22Z</updated>
+    <link href="https://arxiv.org/abs/2502.08691v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.08691v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding human behavior and society is a central focus in social sciences, with the rise of generative social science marking a significant paradigmatic shift. By leveraging bottom-up simulations, it replaces costly and logistically challenging traditional experiments with scalable, replicable, and systematic computational approaches for studying complex social dynamics. Recent advances in large language models (LLMs) have further transformed this research paradigm, enabling the creation of human-like generative social agents and realistic simulacra of society. In this paper, we propose AgentSociety, a large-scale social simulator that integrates LLM-driven agents, a realistic societal environment, and a powerful large-scale simulation engine. Based on the proposed simulator, we generate social lives for over 10k agents, simulating their 5 million interactions both among agents and between agents and their environment. Furthermore, we explore the potential of AgentSociety as a testbed for computational social experiments, focusing on five key social issues: polarization, the spread of inflammatory messages, the effects of universal basic income policies, the impact of external shocks such as hurricanes, and urban sustainability. These five issues serve as valuable cases for assessing AgentSociety's support for typical research methods -- such as surveys, interviews, and interventions -- as well as for investigating the patterns, causes, and underlying mechanisms of social issues. The alignment between AgentSociety's outcomes and real-world experimental results not only demonstrates its ability to capture human behaviors and their underlying mechanisms, but also underscores its potential as an important platform for social scientists and policymakers.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-12T15:27:07Z</published>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Jinghua Piao</name>
+    </author>
+    <author>
+      <name>Yuwei Yan</name>
+    </author>
+    <author>
+      <name>Jun Zhang</name>
+    </author>
+    <author>
+      <name>Nian Li</name>
+    </author>
+    <author>
+      <name>Junbo Yan</name>
+    </author>
+    <author>
+      <name>Xiaochong Lan</name>
+    </author>
+    <author>
+      <name>Zhihong Lu</name>
+    </author>
+    <author>
+      <name>Zhiheng Zheng</name>
+    </author>
+    <author>
+      <name>Jing Yi Wang</name>
+    </author>
+    <author>
+      <name>Di Zhou</name>
+    </author>
+    <author>
+      <name>Chen Gao</name>
+    </author>
+    <author>
+      <name>Fengli Xu</name>
+    </author>
+    <author>
+      <name>Fang Zhang</name>
+    </author>
+    <author>
+      <name>Ke Rong</name>
+    </author>
+    <author>
+      <name>Jun Su</name>
+    </author>
+    <author>
+      <name>Yong Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.14620v1</id>
+    <title>Retrieval-Augmented Simulacra: Generative Agents for Up-to-date and Knowledge-Adaptive Simulations</title>
+    <updated>2025-03-18T18:17:10Z</updated>
+    <link href="https://arxiv.org/abs/2503.14620v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.14620v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the 2023 edition of the White Paper on Information and Communications, it is estimated that the population of social networking services in Japan will exceed 100 million by 2022, and the influence of social networking services in Japan is growing significantly. In addition, marketing using SNS and research on the propagation of emotions and information on SNS are being actively conducted, creating the need for a system for predicting trends in SNS interactions. We have already created a system that simulates the behavior of various communities on SNS by building a virtual SNS environment in which agents post and reply to each other in a chat community created by agents using a LLMs. In this paper, we evaluate the impact of the search extension generation mechanism used to create posts and replies in a virtual SNS environment using a simulation system on the ability to generate posts and replies. As a result of the evaluation, we confirmed that the proposed search extension generation mechanism, which mimics human search behavior, generates the most natural exchange.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-18T18:17:10Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hikaru Shimadzu</name>
+    </author>
+    <author>
+      <name>Takehito Utsuro</name>
+    </author>
+    <author>
+      <name>Daisuke Kitayama</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.11444v1</id>
+    <title>EducaSim: Interactive Simulacra for CS1 Instructional Practice</title>
+    <updated>2026-03-12T02:08:13Z</updated>
+    <link href="https://arxiv.org/abs/2603.11444v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.11444v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Role play is a high-impact mode of training that has demonstrated its effectiveness in improving learning outcomes. However, it is difficult to scale to teacher instruction due to its inherent dependency on providing personnel who are both trained and available to facilitate this learning environment. This poses a challenge, especially to massive online courses which may employ and aid hundreds to thousands of novice teachers. In this work, we present EducaSim: a novel framework that uses generative agents to simulate a small-group section for teachers-in-training to practice instruction. EducaSim works by implementing diverse pedagogical-based personas, actual course material, and agent-based architectures constructed for instructional practice to provide a pedagogically rich environment for teachers-in-training to engage in role play learning -- without the costly overhead that comes with it. We share our experiences with constructing and making the tool available for experimental training and preparation in a six-week CS1 course supporting 20,000 students. We found that teachers who engaged generally saw it as a positive experience. We believe that EducaSim is an important step to providing experiential teaching practice at scale for closely-defined settings and has great potential for future applications.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-12T02:08:13Z</published>
+    <arxiv:comment>7 pages, 3 figures, 2 tables. Presents a multi-agent generative architecture for educational simulations intended for instructor training</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Cameron Mohne</name>
+    </author>
+    <author>
+      <name>Nicholas Vo</name>
+    </author>
+    <author>
+      <name>Dora Demszky</name>
+    </author>
+    <author>
+      <name>Chris Piech</name>
+    </author>
+  </entry>
+</feed>

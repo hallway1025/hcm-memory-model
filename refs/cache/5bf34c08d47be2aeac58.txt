@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+oYhYX/weYw6FJE1hiBvr3vEiTY</id>
+  <title>arXiv Query: search_query=all:distilled AND all:sentence AND all:embeddings&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T13:53:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:distilled+AND+(all:sentence+AND+all:embeddings)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>89</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2104.08675v1</id>
+    <title>Dual-View Distilled BERT for Sentence Embedding</title>
+    <updated>2021-04-18T01:20:11Z</updated>
+    <link href="https://arxiv.org/abs/2104.08675v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.08675v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, BERT realized significant progress for sentence matching via word-level cross sentence attention. However, the performance significantly drops when using siamese BERT-networks to derive two sentence embeddings, which fall short in capturing the global semantic since the word-level attention between two sentences is absent. In this paper, we propose a Dual-view distilled BERT~(DvBERT) for sentence matching with sentence embeddings. Our method deals with a sentence pair from two distinct views, i.e., Siamese View and Interaction View. Siamese View is the backbone where we generate sentence embeddings. Interaction View integrates the cross sentence interaction as multiple teachers to boost the representation ability of sentence embeddings. Experiments on six STS tasks show that our method outperforms the state-of-the-art sentence embedding methods significantly.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-18T01:20:11Z</published>
+    <arxiv:comment>Accepted at SIGIR 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xingyi Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.05161v3</id>
+    <title>Scalable Attentive Sentence-Pair Modeling via Distilled Sentence Embedding</title>
+    <updated>2019-11-21T06:38:18Z</updated>
+    <link href="https://arxiv.org/abs/1908.05161v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.05161v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent state-of-the-art natural language understanding models, such as BERT and XLNet, score a pair of sentences (A and B) using multiple cross-attention operations - a process in which each word in sentence A attends to all words in sentence B and vice versa. As a result, computing the similarity between a query sentence and a set of candidate sentences, requires the propagation of all query-candidate sentence-pairs throughout a stack of cross-attention layers. This exhaustive process becomes computationally prohibitive when the number of candidate sentences is large. In contrast, sentence embedding techniques learn a sentence-to-vector mapping and compute the similarity between the sentence vectors via simple elementary operations. In this paper, we introduce Distilled Sentence Embedding (DSE) - a model that is based on knowledge distillation from cross-attentive models, focusing on sentence-pair tasks. The outline of DSE is as follows: Given a cross-attentive teacher model (e.g. a fine-tuned BERT), we train a sentence embedding based student model to reconstruct the sentence-pair scores obtained by the teacher model. We empirically demonstrate the effectiveness of DSE on five GLUE sentence-pair tasks. DSE significantly outperforms several ELMO variants and other sentence embedding methods, while accelerating computation of the query-candidate sentence-pairs similarities by several orders of magnitude, with an average relative degradation of 4.6% compared to BERT. Furthermore, we show that DSE produces sentence embeddings that reach state-of-the-art performance on universal sentence representation benchmarks. Our code is made publicly available at https://github.com/microsoft/Distilled-Sentence-Embedding.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-14T15:06:48Z</published>
+    <arxiv:comment>In Proceedings of AAAI 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Oren Barkan</name>
+    </author>
+    <author>
+      <name>Noam Razin</name>
+    </author>
+    <author>
+      <name>Itzik Malkiel</name>
+    </author>
+    <author>
+      <name>Ori Katz</name>
+    </author>
+    <author>
+      <name>Avi Caciularu</name>
+    </author>
+    <author>
+      <name>Noam Koenigstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.05638v2</id>
+    <title>DistilCSE: Effective Knowledge Distillation For Contrastive Sentence Embeddings</title>
+    <updated>2023-01-30T16:31:21Z</updated>
+    <link href="https://arxiv.org/abs/2112.05638v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.05638v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale contrastive learning models can learn very informative sentence embeddings, but are hard to serve online due to the huge model size. Therefore, they often play the role of "teacher", transferring abilities to small "student" models through knowledge distillation. However, knowledge distillation inevitably brings some drop in embedding effect. To tackle that, we propose an effective knowledge distillation framework for contrastive sentence embeddings, termed DistilCSE. It first applies knowledge distillation on a large amount of unlabeled data, and then fine-tunes student models through contrastive learning on limited labeled data. To achieve better distillation results, we further propose Contrastive Knowledge Distillation (CKD). CKD uses InfoNCE as the loss function in knowledge distillation, enhancing the objective consistency among teacher model training, knowledge distillation, and student model fine-tuning. Extensive experiments show that student models trained with the proposed DistilCSE and CKD suffer from little or even no performance decrease and consistently outperform the corresponding counterparts of the same parameter size. Impressively, our 110M student model outperforms the latest state-of-the-art model, i.e., Sentence-T5 (11B), with only 1% parameters and 0.25% unlabeled data.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-10T16:11:23Z</published>
+    <arxiv:comment>Work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chaochen Gao</name>
+    </author>
+    <author>
+      <name>Xing Wu</name>
+    </author>
+    <author>
+      <name>Peng Wang</name>
+    </author>
+    <author>
+      <name>Jue Wang</name>
+    </author>
+    <author>
+      <name>Liangjun Zang</name>
+    </author>
+    <author>
+      <name>Zhongyuan Wang</name>
+    </author>
+    <author>
+      <name>Songlin Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.06719v1</id>
+    <title>Sentence Embeddings by Ensemble Distillation</title>
+    <updated>2021-04-14T09:23:27Z</updated>
+    <link href="https://arxiv.org/abs/2104.06719v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.06719v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper contributes a new State Of The Art (SOTA) for Semantic Textual Similarity (STS). We compare and combine a number of recently proposed sentence embedding methods for STS, and propose a novel and simple ensemble knowledge distillation scheme that improves on previous approaches. Our experiments demonstrate that a model trained to learn the average embedding space from multiple ensemble students outperforms all the other individual models with high robustness. Utilizing our distillation method in combination with previous methods, we significantly improve on the SOTA unsupervised STS, and by proper hyperparameter tuning of previous methods we improve the supervised SOTA scores.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-14T09:23:27Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Fredrik Carlsson Magnus Sahlgren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.08998v2</id>
+    <title>Syntax-guided Neural Module Distillation to Probe Compositionality in Sentence Embeddings</title>
+    <updated>2023-02-08T09:10:27Z</updated>
+    <link href="https://arxiv.org/abs/2301.08998v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.08998v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Past work probing compositionality in sentence embedding models faces issues determining the causal impact of implicit syntax representations. Given a sentence, we construct a neural module net based on its syntax parse and train it end-to-end to approximate the sentence's embedding generated by a transformer model. The distillability of a transformer to a Syntactic NeurAl Module Net (SynNaMoN) then captures whether syntax is a strong causal model of its compositional ability. Furthermore, we address questions about the geometry of semantic composition by specifying individual SynNaMoN modules' internal architecture &amp; linearity. We find differences in the distillability of various sentence embedding models that broadly correlate with their performance, but observe that distillability doesn't considerably vary by model size. We also present preliminary evidence that much syntax-guided composition in sentence embedding models is linear, and that non-linearities may serve primarily to handle non-compositional phrases.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-21T19:42:02Z</published>
+    <arxiv:comment>EACL 2023 (camera-ready)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rohan Pandey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.08387v2</id>
+    <title>LEALLA: Learning Lightweight Language-agnostic Sentence Embeddings with Knowledge Distillation</title>
+    <updated>2023-12-26T08:11:37Z</updated>
+    <link href="https://arxiv.org/abs/2302.08387v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.08387v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale language-agnostic sentence embedding models such as LaBSE (Feng et al., 2022) obtain state-of-the-art performance for parallel sentence alignment. However, these large-scale models can suffer from inference speed and computation overhead. This study systematically explores learning language-agnostic sentence embeddings with lightweight models. We demonstrate that a thin-deep encoder can construct robust low-dimensional sentence embeddings for 109 languages. With our proposed distillation methods, we achieve further improvements by incorporating knowledge from a teacher model. Empirical results on Tatoeba, United Nations, and BUCC show the effectiveness of our lightweight models. We release our lightweight language-agnostic sentence embedding models LEALLA on TensorFlow Hub.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-16T16:05:34Z</published>
+    <arxiv:comment>EACL 2023 main conference; LEALLA models: https://www.kaggle.com/models/google/lealla (modified url in v2 of this paper)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhuoyuan Mao</name>
+    </author>
+    <author>
+      <name>Tetsuji Nakagawa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.13116v1</id>
+    <title>Sentence Embedding Models for Ancient Greek Using Multilingual Knowledge Distillation</title>
+    <updated>2023-08-24T23:38:44Z</updated>
+    <link href="https://arxiv.org/abs/2308.13116v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.13116v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contextual language models have been trained on Classical languages, including Ancient Greek and Latin, for tasks such as lemmatization, morphological tagging, part of speech tagging, authorship attribution, and detection of scribal errors. However, high-quality sentence embedding models for these historical languages are significantly more difficult to achieve due to the lack of training data. In this work, we use a multilingual knowledge distillation approach to train BERT models to produce sentence embeddings for Ancient Greek text. The state-of-the-art sentence embedding approaches for high-resource languages use massive datasets, but our distillation approach allows our Ancient Greek models to inherit the properties of these models while using a relatively small amount of translated sentence data. We build a parallel sentence dataset using a sentence-embedding alignment method to align Ancient Greek documents with English translations, and use this dataset to train our models. We evaluate our models on translation search, semantic similarity, and semantic retrieval tasks and investigate translation bias. We make our training and evaluation datasets freely available at https://github.com/kevinkrahn/ancient-greek-datasets .</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-24T23:38:44Z</published>
+    <arxiv:comment>Paper accepted for publication at the First Workshop on Ancient Language Processing (ALP) 2023; 10 pages, 3 figures, 9 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kevin Krahn</name>
+    </author>
+    <author>
+      <name>Derrick Tate</name>
+    </author>
+    <author>
+      <name>Andrew C. Lamicela</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.00157v3</id>
+    <title>TransAug: Translate as Augmentation for Sentence Embeddings</title>
+    <updated>2025-06-01T13:17:47Z</updated>
+    <link href="https://arxiv.org/abs/2111.00157v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.00157v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While contrastive learning greatly advances the representation of sentence embeddings, it is still limited by the size of the existing sentence datasets. In this paper, we present TransAug (Translate as Augmentation), which provide the first exploration of utilizing translated sentence pairs as data augmentation for text, and introduce a two-stage paradigm to advances the state-of-the-art sentence embeddings. Instead of adopting an encoder trained in other languages setting, we first distill a Chinese encoder from a SimCSE encoder (pretrained in English), so that their embeddings are close in semantic space, which can be regraded as implicit data augmentation. Then, we only update the English encoder via cross-lingual contrastive learning and frozen the distilled Chinese encoder. Our approach achieves a new state-of-art on standard semantic textual similarity (STS), outperforming both SimCSE and Sentence-T5, and the best performance in corresponding tracks on transfer tasks evaluated by SentEval.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-30T03:13:28Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jue Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.15270v1</id>
+    <title>BanglaEmbed: Efficient Sentence Embedding Models for a Low-Resource Language Using Cross-Lingual Distillation Techniques</title>
+    <updated>2024-11-22T13:03:25Z</updated>
+    <link href="https://arxiv.org/abs/2411.15270v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.15270v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sentence-level embedding is essential for various tasks that require understanding natural language. Many studies have explored such embeddings for high-resource languages like English. However, low-resource languages like Bengali (a language spoken by almost two hundred and thirty million people) are still under-explored. This work introduces two lightweight sentence transformers for the Bangla language, leveraging a novel cross-lingual knowledge distillation approach. This method distills knowledge from a pre-trained, high-performing English sentence transformer. Proposed models are evaluated across multiple downstream tasks, including paraphrase detection, semantic textual similarity (STS), and Bangla hate speech detection. The new method consistently outperformed existing Bangla sentence transformers. Moreover, the lightweight architecture and shorter inference time make the models highly suitable for deployment in resource-constrained environments, making them valuable for practical NLP applications in low-resource languages.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-22T13:03:25Z</published>
+    <arxiv:comment>Accepted in ACAI 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Muhammad Rafsan Kabir</name>
+    </author>
+    <author>
+      <name>Md. Mohibur Rahman Nabil</name>
+    </author>
+    <author>
+      <name>Mohammad Ashrafuzzaman Khan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.04624v2</id>
+    <title>Static Word Embeddings for Sentence Semantic Representation</title>
+    <updated>2025-09-30T10:22:41Z</updated>
+    <link href="https://arxiv.org/abs/2506.04624v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.04624v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose new static word embeddings optimised for sentence semantic representation. We first extract word embeddings from a pre-trained Sentence Transformer, and improve them with sentence-level principal component analysis, followed by either knowledge distillation or contrastive learning. During inference, we represent sentences by simply averaging word embeddings, which requires little computational cost. We evaluate models on both monolingual and cross-lingual tasks and show that our model substantially outperforms existing static models on sentence semantic tasks, and even surpasses a basic Sentence Transformer model (SimCSE) on a text embedding benchmark. Lastly, we perform a variety of analyses and show that our method successfully removes word embedding components that are not highly relevant to sentence semantics, and adjusts the vector norms based on the influence of words on sentence semantics.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-05T04:33:10Z</published>
+    <arxiv:comment>17 pages; accepted to the Main Conference of EMNLP 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Takashi Wada</name>
+    </author>
+    <author>
+      <name>Yuki Hirakawa</name>
+    </author>
+    <author>
+      <name>Ryotaro Shimizu</name>
+    </author>
+    <author>
+      <name>Takahiro Kawashima</name>
+    </author>
+    <author>
+      <name>Yuki Saito</name>
+    </author>
+  </entry>
+</feed>

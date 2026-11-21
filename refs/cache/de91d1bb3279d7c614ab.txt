@@ -1,0 +1,1 @@
+{"version":"6.9","hitCount":0,"request":{"queryString":"DOI:\"10.3389/conf.fnhum.2015.217.00245\"","resultType":"core","cursorMark":"*","pageSize":5,"sort":"","synonym":false},"resultList":{"result":[]}}

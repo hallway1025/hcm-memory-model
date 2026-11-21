@@ -1,0 +1,13 @@
+V = 1042
+iso done 2.6s
+co texts: 123281
+PPMI nnz=0.021, r=256
+PPMI nnz=0.169, r=256
+S256_2k deg0.3 hit 123/200
+S256_2k deg0.5 hit 117/200
+S256_2k {"n_written": 1693, "syn_mean_cos": 0.3598, "dis_mean_cos": 0.0607, "dis_input_cos": 0.1104, "retrieval": [{"level": 0.3, "n": 200, "hit": 123}, {"level": 0.5, "n": 200, "hit": 117}]}
+S256_full deg0.3 hit 199/200
+S256_full deg0.5 hit 181/200
+S256_full {"n_written": 1457, "syn_mean_cos": 0.4656, "dis_mean_cos": 0.0952, "dis_input_cos": 0.1991, "retrieval": [{"level": 0.3, "n": 200, "hit": 199}, {"level": 0.5, "n": 200, "hit": 181}]}
+VERDICT {"dis_mean_2k": 0.0607, "dis_mean_full": 0.0952, "paired_mean": 0.0345, "paired_t": 2.754, "n": 14, "gate_2k": [{"level": 0.3, "n": 200, "hit": 123}, {"level": 0.5, "n": 200, "hit": 117}], "gate_full": [{"level": 0.3, "n": 200, "hit": 199}, {"level": 0.5, "n": 200, "hit": 181}]}
+saved results/exp23c_data_scale.json

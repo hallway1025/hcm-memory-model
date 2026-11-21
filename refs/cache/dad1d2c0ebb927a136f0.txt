@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["12559833"],"translationset":[],"querytranslation":"\"10 1006 nlme 2002 4082\"[Publisher ID]"}}

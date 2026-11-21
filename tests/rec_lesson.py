@@ -1,0 +1,20 @@
+import os
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+p = os.path.join(ROOT, 'memory', '30-LESSONS.md')
+s = open(p, encoding='utf-8').read()
+add = (chr(10) + '## L-023 洁净复现必须由「不读源码的人」按文档重实现，而不是重跑脚本' + chr(10)
+ + '事实：让独立 agent 只读 README/MODEL/PAPER 并**禁止读源码、禁止跑脚本**，自己按方程重实现 L0 三件套，' + chr(10)
+ + '      得到「有残差 26.33/30」但「无残差 27.17/30」——后者与项目的 1.08/30 相差 26 个点，CI 不重叠。' + chr(10)
+ + '      而如果只让它跑 reproduce_all.py，会得到 18/18 PASS、退出码 0 —— 完全看不出问题。' + chr(10)
+ + '根因是四个文档缺陷：overlap 是混合权重而非输入余弦（share=0.90 实测输入余弦 0.986）、EMA 公式写反、' + chr(10)
+ + '      θ 发育集未说明、残差度量语义不统一。' + chr(10)
+ + '判据/前置动作：**「能跑通」≠「能重建」**。凡是结论依赖未写下来的实现自由度（数据生成器、归一化时机、' + chr(10)
+ + '      迭代参数），就必须把那个自由度写进文档，否则等于没有发布这个结果。检查清单：' + chr(10)
+ + '      (a) 数据生成器的完整代码或公式；(b) 每一个标量超参的取值与来源；(c) 阈值/EMA 的方向不能靠文字猜；' + chr(10)
+ + '      (d) 关键指标的度量定义（余弦 vs Jaccard vs 支撑集重叠）。' + chr(10)
+ + '      (e) 让第三方在**不读源码**的条件下复现一次，才是真正的验收。' + chr(10))
+if 'L-023' not in s:
+    open(p, 'w', encoding='utf-8').write(s.rstrip() + chr(10) + add)
+    print('L-023 recorded')
+else:
+    print('already present')

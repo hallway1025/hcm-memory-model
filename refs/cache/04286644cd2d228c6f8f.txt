@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jA+BT9KP+VFtHbxWJCFH2vTHCnQ</id>
+  <title>arXiv Query: search_query=all:successor AND all:representation AND all:generalization&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:44:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:successor+AND+(all:representation+AND+all:generalization)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>83</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2103.02650v2</id>
+    <title>Successor Feature Sets: Generalizing Successor Representations Across Policies</title>
+    <updated>2021-03-15T22:09:04Z</updated>
+    <link href="https://arxiv.org/abs/2103.02650v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.02650v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Successor-style representations have many advantages for reinforcement learning: for example, they can help an agent generalize from past experience to new goals, and they have been proposed as explanations of behavioral and neural data from human and animal learners. They also form a natural bridge between model-based and model-free RL methods: like the former they make predictions about future experiences, and like the latter they allow efficient prediction of total discounted rewards. However, successor-style representations are not optimized to generalize across policies: typically, we maintain a limited-length list of policies, and share information among them by representation learning or GPI. Successor-style representations also typically make no provision for gathering information or reasoning about latent variables. To address these limitations, we bring together ideas from predictive state representations, belief space value iteration, successor features, and convex analysis: we develop a new, general successor-style representation, together with a Bellman equation that connects multiple sources of information within this representation, including different latent states, policies, and reward functions. The new representation is highly expressive: for example, it lets us efficiently read off an optimal policy for a new reward function, or a policy that imitates a new demonstration. For this paper, we focus on exact computation of the new representation in small, known environments, since even this restricted setting offers plenty of interesting questions. Our implementation does not scale to large, unknown environments -- nor would we expect it to, since it generalizes POMDP value iteration, which is difficult to scale. However, we believe that future work will allow us to extend our ideas to approximate reasoning in large, unknown environments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-03T19:36:44Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kianté Brantley</name>
+    </author>
+    <author>
+      <name>Soroush Mehri</name>
+    </author>
+    <author>
+      <name>Geoffrey J. Gordon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.09897v1</id>
+    <title>Successor Representation Active Inference</title>
+    <updated>2022-07-20T13:50:27Z</updated>
+    <link href="https://arxiv.org/abs/2207.09897v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.09897v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work has uncovered close links between between classical reinforcement learning algorithms, Bayesian filtering, and Active Inference which lets us understand value functions in terms of Bayesian posteriors. An alternative, but less explored, model-free RL algorithm is the successor representation, which expresses the value function in terms of a successor matrix of expected future state occupancies. In this paper, we derive the probabilistic interpretation of the successor representation in terms of Bayesian filtering and thus design a novel active inference agent architecture utilizing successor representations instead of model-based planning. We demonstrate that active inference successor representations have significant advantages over current active inference agents in terms of planning horizon and computational cost. Moreover, we demonstrate how the successor representation agent can generalize to changing reward functions such as variants of the expected free energy.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-20T13:50:27Z</published>
+    <arxiv:comment>20/07/22 initial upload</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Beren Millidge</name>
+    </author>
+    <author>
+      <name>Christopher L Buckley</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.15701v4</id>
+    <title>Successor Feature Representations</title>
+    <updated>2023-08-02T09:14:54Z</updated>
+    <link href="https://arxiv.org/abs/2110.15701v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.15701v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transfer in Reinforcement Learning aims to improve learning performance on target tasks using knowledge from experienced source tasks. Successor Representations (SR) and their extension Successor Features (SF) are prominent transfer mechanisms in domains where reward functions change between tasks. They reevaluate the expected return of previously learned policies in a new target task to transfer their knowledge. The SF framework extended SR by linearly decomposing rewards into successor features and a reward weight vector allowing their application in high-dimensional tasks. But this came with the cost of having a linear relationship between reward functions and successor features, limiting its application to tasks where such a linear relationship exists. We propose a novel formulation of SR based on learning the cumulative discounted probability of successor features, called Successor Feature Representations (SFR). Crucially, SFR allows to reevaluate the expected return of policies for general reward functions. We introduce different SFR variations, prove its convergence, and provide a guarantee on its transfer performance. Experimental evaluations based on SFR with function approximation demonstrate its advantage over SF not only for general reward functions, but also in the case of linearly decomposable reward functions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-29T12:01:48Z</published>
+    <arxiv:comment>published in Transactions on Machine Learning Research (05/2023), source code: https://gitlab.inria.fr/robotlearn/sfr_learning, [v2] added experiments with learned features, [v3] renamed paper and changed scope, [v4] published version</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chris Reinke</name>
+    </author>
+    <author>
+      <name>Xavier Alameda-Pineda</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.11622v4</id>
+    <title>Count-Based Exploration with the Successor Representation</title>
+    <updated>2019-11-26T16:48:02Z</updated>
+    <link href="https://arxiv.org/abs/1807.11622v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.11622v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we introduce a simple approach for exploration in reinforcement learning (RL) that allows us to develop theoretically justified algorithms in the tabular case but that is also extendable to settings where function approximation is required. Our approach is based on the successor representation (SR), which was originally introduced as a representation defining state generalization by the similarity of successor states. Here we show that the norm of the SR, while it is being learned, can be used as a reward bonus to incentivize exploration. In order to better understand this transient behavior of the norm of the SR we introduce the substochastic successor representation (SSR) and we show that it implicitly counts the number of times each state (or feature) has been observed. We use this result to introduce an algorithm that performs as well as some theoretically sample-efficient approaches. Finally, we extend these ideas to a deep RL algorithm and show that it achieves state-of-the-art performance in Atari 2600 games when in a low sample-complexity regime.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-31T01:25:44Z</published>
+    <arxiv:comment>This paper appears in the Proceedings of the 34th AAAI Conference on Artificial Intelligence (AAAI 2020)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Marlos C. Machado</name>
+    </author>
+    <author>
+      <name>Marc G. Bellemare</name>
+    </author>
+    <author>
+      <name>Michael Bowling</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.07223v1</id>
+    <title>Ensemble Successor Representations for Task Generalization in Offline-to-Online Reinforcement Learning</title>
+    <updated>2024-05-12T08:52:52Z</updated>
+    <link href="https://arxiv.org/abs/2405.07223v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.07223v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In Reinforcement Learning (RL), training a policy from scratch with online experiences can be inefficient because of the difficulties in exploration. Recently, offline RL provides a promising solution by giving an initialized offline policy, which can be refined through online interactions. However, existing approaches primarily perform offline and online learning in the same task, without considering the task generalization problem in offline-to-online adaptation. In real-world applications, it is common that we only have an offline dataset from a specific task while aiming for fast online-adaptation for several tasks. To address this problem, our work builds upon the investigation of successor representations for task generalization in online RL and extends the framework to incorporate offline-to-online learning. We demonstrate that the conventional paradigm using successor features cannot effectively utilize offline data and improve the performance for the new task by online fine-tuning. To mitigate this, we introduce a novel methodology that leverages offline data to acquire an ensemble of successor representations and subsequently constructs ensemble Q functions. This approach enables robust representation learning from datasets with different coverage and facilitates fast adaption of Q functions towards new tasks during the online fine-tuning phase. Extensive empirical evaluations provide compelling evidence showcasing the superior performance of our method in generalizing to diverse or even unseen tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-12T08:52:52Z</published>
+    <arxiv:comment>Accepted by Science China Information Sciences</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Changhong Wang</name>
+    </author>
+    <author>
+      <name>Xudong Yu</name>
+    </author>
+    <author>
+      <name>Chenjia Bai</name>
+    </author>
+    <author>
+      <name>Qiaosheng Zhang</name>
+    </author>
+    <author>
+      <name>Zhen Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.08530v2</id>
+    <title>A Distributional Analogue to the Successor Representation</title>
+    <updated>2024-05-24T16:29:32Z</updated>
+    <link href="https://arxiv.org/abs/2402.08530v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.08530v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper contributes a new approach for distributional reinforcement learning which elucidates a clean separation of transition structure and reward in the learning process. Analogous to how the successor representation (SR) describes the expected consequences of behaving according to a given policy, our distributional successor measure (SM) describes the distributional consequences of this behaviour. We formulate the distributional SM as a distribution over distributions and provide theory connecting it with distributional and model-based reinforcement learning. Moreover, we propose an algorithm that learns the distributional SM from data by minimizing a two-level maximum mean discrepancy. Key to our method are a number of algorithmic techniques that are independently valuable for learning generative models of state. As an illustration of the usefulness of the distributional SM, we show that it enables zero-shot risk-sensitive policy evaluation in a way that was not previously possible.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-13T15:35:24Z</published>
+    <arxiv:comment>Accepted to ICML 2024. First two authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Harley Wiltzer</name>
+    </author>
+    <author>
+      <name>Jesse Farebrother</name>
+    </author>
+    <author>
+      <name>Arthur Gretton</name>
+    </author>
+    <author>
+      <name>Yunhao Tang</name>
+    </author>
+    <author>
+      <name>André Barreto</name>
+    </author>
+    <author>
+      <name>Will Dabney</name>
+    </author>
+    <author>
+      <name>Marc G. Bellemare</name>
+    </author>
+    <author>
+      <name>Mark Rowland</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.11190v1</id>
+    <title>Neural Network based Successor Representations of Space and Language</title>
+    <updated>2022-02-22T21:52:46Z</updated>
+    <link href="https://arxiv.org/abs/2202.11190v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.11190v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How does the mind organize thoughts? The hippocampal-entorhinal complex is thought to support domain-general representation and processing of structural knowledge of arbitrary state, feature and concept spaces. In particular, it enables the formation of cognitive maps, and navigation on these maps, thereby broadly contributing to cognition. It has been proposed that the concept of multi-scale successor representations provides an explanation of the underlying computations performed by place and grid cells. Here, we present a neural network based approach to learn such representations, and its application to different scenarios: a spatial exploration task based on supervised learning, a spatial navigation task based on reinforcement learning, and a non-spatial task where linguistic constructions have to be inferred by observing sample sentences. In all scenarios, the neural network correctly learns and approximates the underlying structure by building successor representations. Furthermore, the resulting neural firing patterns are strikingly similar to experimentally observed place and grid cell firing patterns. We conclude that cognitive maps and neural network-based successor representations of structured knowledge provide a promising way to overcome some of the short comings of deep learning towards artificial general intelligence.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-22T21:52:46Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Paul Stoewer</name>
+    </author>
+    <author>
+      <name>Christian Schlieker</name>
+    </author>
+    <author>
+      <name>Achim Schilling</name>
+    </author>
+    <author>
+      <name>Claus Metzner</name>
+    </author>
+    <author>
+      <name>Andreas Maier</name>
+    </author>
+    <author>
+      <name>Patrick Krauss</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12753v2</id>
+    <title>Hierarchical Successor Representation for Robust Transfer</title>
+    <updated>2026-06-11T11:35:13Z</updated>
+    <link href="https://arxiv.org/abs/2602.12753v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12753v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The successor representation (SR) provides a powerful framework for decoupling predictive dynamics from rewards, enabling rapid generalisation across reward configurations. However, the classical SR is limited by its inherent policy dependence: policies change due to ongoing learning, environmental non-stationarities, and changes in task demands, making established predictive representations obsolete. Furthermore, in topologically complex environments, SRs suffer from spectral diffusion, leading to dense and overlapping features that scale poorly. Here we propose the Hierarchical Successor Representation (HSR) for overcoming these limitations. By incorporating temporal abstractions into the construction of predictive representations, HSR learns stable state features which are robust to task-induced policy changes. Applying non-negative matrix factorisation (NMF) to the HSR yields a sparse, low-rank state representation that facilitates highly sample-efficient transfer to novel tasks in multi-compartmental environments. Further analysis reveals that HSR-NMF discovers interpretable topological structures, providing a policy-agnostic hierarchical map that effectively bridges model-free optimality and model-based flexibility. Beyond providing a useful basis for task-transfer, we show that HSR's temporally extended predictive structure can also be leveraged to drive efficient exploration, effectively scaling to large, procedurally generated environments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T09:32:26Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Changmin Yu</name>
+    </author>
+    <author>
+      <name>Máté Lengyel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.00673v1</id>
+    <title>Lifted Successor Generation in Numeric Planning</title>
+    <updated>2025-11-01T19:33:16Z</updated>
+    <link href="https://arxiv.org/abs/2511.00673v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.00673v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most planners ground numeric planning tasks, given in a first-order-like language, into a ground task representation. However, this can lead to an exponential blowup in task representation size, which occurs in practice for hard-to-ground tasks. We extend a state-of-the-art lifted successor generator for classical planning to support numeric precondition applicability. The method enumerates maximum cliques in a substitution consistency graph. Each maximum clique represents a substitution for the variables of the action schema, yielding a ground action. We augment this graph with numeric action preconditions and prove the successor generator is exact under formally specified conditions. When the conditions fail, our generator may list inapplicable ground actions; a final applicability check filters these without affecting completeness. However, this cannot happen in 23 of 25 benchmark domains, and it occurs only in 1 domain. To the authors' knowledge, no other lifted successor generator supports numeric action preconditions. This enables future research on lifted planning for a very rich planning fragment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-01T19:33:16Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dominik Drexler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.31016v2</id>
+    <title>Robust Successor Features</title>
+    <updated>2026-11-04T11:36:11Z</updated>
+    <link href="https://arxiv.org/abs/2609.31016v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.31016v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generalization in Reinforcement Learning (RL) refers to the ability to execute close-to-optimal policies in unseen tasks after the agent has been trained on a different set of tasks. Building on the seminal work of the successor representation and further adaptations with function approximation, Transfer in RL has traditionally focused on generalizing to tasks that only differ in the reward function. A decade after the introduction of the successor representation, Robust RL emerged simultaneously from several articles in the field of operations research. In Robust RL, the transition kernel is unknown, and the goal is to maximize the expected reward under this uncertainty. Our work unifies these two paradigms through robust successor features, which generalize across both the reward function and the transition kernel, under the assumption that tasks are linear Markov Decision Processes. We derive a bound on Generalized Policy Improvement (GPI) that explicitly quantifies how performance degrades with the mismatch between transition kernels, recovering existing successor-feature guarantees when dynamics are shared. Finally, the generalization capabilities of robust successor features are validated on several grid-based benchmarks and compared to previous alternatives that focus solely on either the reward or the transition kernel.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-25T09:12:53Z</published>
+    <arxiv:comment>10 pages, 3 figures, to be published in EWRL 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Erik Nikulski</name>
+    </author>
+    <author>
+      <name>Yamen Habib</name>
+    </author>
+    <author>
+      <name>Vicenç Gomez</name>
+    </author>
+    <author>
+      <name>Anders Jonsson</name>
+    </author>
+    <author>
+      <name>Rubén Moreno-Bote</name>
+    </author>
+    <author>
+      <name>Javier Segovia-Aguas</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,282 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM"><PMID Version="1">36685084</PMID><DateRevised><Year>2023</Year><Month>07</Month><Day>10</Day></DateRevised><Article PubModel="Electronic-eCollection"><Journal><ISSN IssnType="Print">1663-3563</ISSN><JournalIssue CitedMedium="Print"><Volume>14</Volume><PubDate><Year>2022</Year></PubDate></JournalIssue><Title>Frontiers in synaptic neuroscience</Title><ISOAbbreviation>Front Synaptic Neurosci</ISOAbbreviation></Journal><ArticleTitle>Metaplasticity framework for cross-modal synaptic plasticity in adults.</ArticleTitle><Pagination><StartPage>1087042</StartPage><MedlinePgn>1087042</MedlinePgn></Pagination><ELocationID EIdType="pii" ValidYN="Y">1087042</ELocationID><ELocationID EIdType="doi" ValidYN="Y">10.3389/fnsyn.2022.1087042</ELocationID><Abstract><AbstractText>Sensory loss leads to widespread adaptation of neural circuits to mediate cross-modal plasticity, which allows the organism to better utilize the remaining senses to guide behavior. While cross-modal interactions are often thought to engage multisensory areas, cross-modal plasticity is often prominently observed at the level of the primary sensory cortices. One dramatic example is from functional imaging studies in humans where cross-modal recruitment of the deprived primary sensory cortex has been observed during the processing of the spared senses. In addition, loss of a sensory modality can lead to enhancement and refinement of the spared senses, some of which have been attributed to compensatory plasticity of the spared sensory cortices. Cross-modal plasticity is not restricted to early sensory loss but is also observed in adults, which suggests that it engages or enables plasticity mechanisms available in the adult cortical circuit. Because adult cross-modal plasticity is observed without gross anatomical connectivity changes, it is thought to occur mainly through functional plasticity of pre-existing circuits. The underlying cellular and molecular mechanisms involve activity-dependent homeostatic and Hebbian mechanisms. A particularly attractive mechanism is the sliding threshold metaplasticity model because it innately allows neurons to dynamically optimize their feature selectivity. In this mini review, I will summarize the cellular and molecular mechanisms that mediate cross-modal plasticity in the adult primary sensory cortices and evaluate the metaplasticity model as an effective framework to understand the underlying mechanisms.</AbstractText><CopyrightInformation>Copyright &#xa9; 2023 Lee.</CopyrightInformation></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Lee</LastName><ForeName>Hey-Kyoung</ForeName><Initials>HK</Initials><AffiliationInfo><Affiliation>The Solomon H. Snyder Department of Neuroscience, Zanvyl Krieger Mind/Brain Institute, Kavli Neuroscience Discovery Institute, Johns Hopkins University, Baltimore, MD, United States.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><GrantList CompleteYN="Y"><Grant><GrantID>R01 EY014882</GrantID><Acronym>EY</Acronym><Agency>NEI NIH HHS</Agency><Country>United States</Country></Grant></GrantList><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType><PublicationType UI="D016454">Review</PublicationType></PublicationTypeList><ArticleDate DateType="Electronic"><Year>2023</Year><Month>01</Month><Day>06</Day></ArticleDate></Article><MedlineJournalInfo><Country>Switzerland</Country><MedlineTA>Front Synaptic Neurosci</MedlineTA><NlmUniqueID>101548972</NlmUniqueID><ISSNLinking>1663-3563</ISSNLinking></MedlineJournalInfo><KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">LTD</Keyword><Keyword MajorTopicYN="N">LTP</Keyword><Keyword MajorTopicYN="N">adult plasticity</Keyword><Keyword MajorTopicYN="N">cortical plasticity</Keyword><Keyword MajorTopicYN="N">cross-modal plasticity</Keyword><Keyword MajorTopicYN="N">homeostatic synaptic plasticity</Keyword><Keyword MajorTopicYN="N">sensory experience</Keyword><Keyword MajorTopicYN="N">sliding threshold</Keyword></KeywordList><CoiStatement>The author declares that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="received"><Year>2022</Year><Month>11</Month><Day>1</Day></PubMedPubDate><PubMedPubDate PubStatus="accepted"><Year>2022</Year><Month>12</Month><Day>19</Day></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2023</Year><Month>1</Month><Day>23</Day><Hour>4</Hour><Minute>31</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2023</Year><Month>1</Month><Day>24</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="medline"><Year>2023</Year><Month>1</Month><Day>24</Day><Hour>6</Hour><Minute>1</Minute></PubMedPubDate><PubMedPubDate PubStatus="pmc-release"><Year>2022</Year><Month>1</Month><Day>1</Day></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">36685084</ArticleId><ArticleId IdType="pmc">PMC9853192</ArticleId><ArticleId IdType="doi">10.3389/fnsyn.2022.1087042</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Abraham W. C., Bear M. F. (1996). Metaplasticity: The plasticity of synaptic plasticity.
+<i>Trends Neurosci.</i>
+19
+126&#x2013;130. 10.1016/S0166-2236(96)80018-X</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0166-2236(96)80018-X</ArticleId><ArticleId IdType="pubmed">8658594</ArticleId></ArticleIdList></Reference><Reference><Citation>Barkat T. R., Polley D. B., Hensch T. K. (2011). A critical period for auditory thalamocortical connectivity.
+<i>Nat. Neurosci.</i>
+14
+1189&#x2013;1194. 10.1038/nn.2882
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn.2882</ArticleId><ArticleId IdType="pmc">PMC3419581</ArticleId><ArticleId IdType="pubmed">21804538</ArticleId></ArticleIdList></Reference><Reference><Citation>Bear M. F., Cooper L. N., Ebner F. F. (1987). A physiological basis for a theory of synapse modification.
+<i>Science</i>
+237
+42&#x2013;48. 10.1126/science.3037696
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.3037696</ArticleId><ArticleId IdType="pubmed">3037696</ArticleId></ArticleIdList></Reference><Reference><Citation>Bienenstock E. L., Cooper L. N., Munro P. W. (1982). Theory for the development of neuron selectivity: Orientation specificity and binocular interaction in visual cortex.
+<i>J. Neurosci.</i>
+2
+32&#x2013;48. 10.1523/JNEUROSCI.02-01-00032.1982
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.02-01-00032.1982</ArticleId><ArticleId IdType="pmc">PMC6564292</ArticleId><ArticleId IdType="pubmed">7054394</ArticleId></ArticleIdList></Reference><Reference><Citation>Bridi M. C. D., De Pasquale R., Lantz C. L., Gu Y., Borrell A., Choi S. Y., et al.  (2018). Two distinct mechanisms for experience-dependent homeostasis.
+<i>Nat. Neurosci.</i>
+21
+843&#x2013;850. 10.1038/s41593-018-0150-0
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/s41593-018-0150-0</ArticleId><ArticleId IdType="pmc">PMC6019646</ArticleId><ArticleId IdType="pubmed">29760525</ArticleId></ArticleIdList></Reference><Reference><Citation>Buchel C., Price C., Frackowiak R. S., Friston K. (1998). Different activation patterns in the visual cortex of late and congenitally blind subjects.
+<i>Brain</i>
+121(Pt 3)
+409&#x2013;419. 10.1093/brain/121.3.409
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/brain/121.3.409</ArticleId><ArticleId IdType="pubmed">9549517</ArticleId></ArticleIdList></Reference><Reference><Citation>Burton H., Snyder A. Z., Diamond J. B., Raichle M. E. (2002b). Adaptive changes in early and late blind: A FMRI study of verb generation to heard nouns.
+<i>J. Neurophysiol.</i>
+88
+3359&#x2013;3371. 10.1152/jn.00129.2002
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1152/jn.00129.2002</ArticleId><ArticleId IdType="pmc">PMC3704164</ArticleId><ArticleId IdType="pubmed">12466452</ArticleId></ArticleIdList></Reference><Reference><Citation>Burton H., Snyder A. Z., Conturo T. E., Akbudak E., Ollinger J. M., Raichle M. E. (2002a). Adaptive changes in early and late blind: A fMRI study of Braille reading.
+<i>J. Neurophysiol.</i>
+87
+589&#x2013;607. 10.1152/jn.00285.2001
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1152/jn.00285.2001</ArticleId><ArticleId IdType="pmc">PMC3684969</ArticleId><ArticleId IdType="pubmed">11784773</ArticleId></ArticleIdList></Reference><Reference><Citation>Chen N., Luo T., Raymond L. A. (1999). Subtype-dependence of NMDA receptor channel open probability.
+<i>J. Neurosci.</i>
+19
+6844&#x2013;6854. 10.1523/JNEUROSCI.19-16-06844.1999
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.19-16-06844.1999</ArticleId><ArticleId IdType="pmc">PMC6782868</ArticleId><ArticleId IdType="pubmed">10436042</ArticleId></ArticleIdList></Reference><Reference><Citation>Chokshi V., Gao M., Grier B. D., Owens A., Wang H., Worley P. F., et al.  (2019). Input-specific metaplasticity in the visual cortex requires Homer1a-mediated mGluR5 signaling.
+<i>Neuron</i>
+104
+736&#x2013;748.e6. 10.1016/j.neuron.2019.08.017
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2019.08.017</ArticleId><ArticleId IdType="pmc">PMC6872932</ArticleId><ArticleId IdType="pubmed">31563294</ArticleId></ArticleIdList></Reference><Reference><Citation>Cooper L. N., Bear M. F. (2012). The BCM theory of synapse modification at 30: Interaction of theory with experiment.
+<i>Nat. Rev. Neurosci.</i>
+13
+798&#x2013;810. 10.1038/nrn3353
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn3353</ArticleId><ArticleId IdType="pubmed">23080416</ArticleId></ArticleIdList></Reference><Reference><Citation>Crair M. C., Malenka R. C. (1995). A critical period for long-term potentiation at thalamocortical synapses.
+<i>Nature</i>
+375
+325&#x2013;328. 10.1038/375325a0
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/375325a0</ArticleId><ArticleId IdType="pubmed">7753197</ArticleId></ArticleIdList></Reference><Reference><Citation>Crowley J. C., Katz L. C. (1999). Development of ocular dominance columns in the absence of retinal input.
+<i>Nat. Neurosci.</i>
+2
+1125&#x2013;1130. 10.1038/16051
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/16051</ArticleId><ArticleId IdType="pubmed">10570491</ArticleId></ArticleIdList></Reference><Reference><Citation>Crowley J. C., Katz L. C. (2000). Early development of ocular dominance columns.
+<i>Science</i>
+290
+1321&#x2013;1324. 10.1126/science.290.5495.1321
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.290.5495.1321</ArticleId><ArticleId IdType="pubmed">11082053</ArticleId></ArticleIdList></Reference><Reference><Citation>Deneux T., Harrell E. R., Kempf A., Ceballo S., Filipchuk A., Bathellier B. (2019). Context-dependent signaling of coincident auditory and visual events in primary visual cortex.
+<i>Elife</i>
+8:e44006. 10.7554/eLife.44006
+</Citation><ArticleIdList><ArticleId IdType="doi">10.7554/eLife.44006</ArticleId><ArticleId IdType="pmc">PMC6544434</ArticleId><ArticleId IdType="pubmed">31115334</ArticleId></ArticleIdList></Reference><Reference><Citation>Desai N. S., Cudmore R. H., Nelson S. B., Turrigiano G. G. (2002). Critical periods for experience-dependent synaptic scaling in visual cortex.
+<i>Nat. Neurosci.</i>
+5
+783&#x2013;789. 10.1038/nn878
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn878</ArticleId><ArticleId IdType="pubmed">12080341</ArticleId></ArticleIdList></Reference><Reference><Citation>Diering G. H., Huganir R. L. (2018). The AMPA receptor code of synaptic plasticity.
+<i>Neuron</i>
+100
+314&#x2013;329. 10.1016/j.neuron.2018.10.018
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2018.10.018</ArticleId><ArticleId IdType="pmc">PMC6214363</ArticleId><ArticleId IdType="pubmed">30359599</ArticleId></ArticleIdList></Reference><Reference><Citation>Dooley J. C., Krubitzer L. A. (2019). Alterations in cortical and thalamic connections of somatosensory cortex following early loss of vision.
+<i>J. Comp. Neurol.</i>
+527
+1675&#x2013;1688. 10.1002/cne.24582
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/cne.24582</ArticleId><ArticleId IdType="pmc">PMC6465163</ArticleId><ArticleId IdType="pubmed">30444542</ArticleId></ArticleIdList></Reference><Reference><Citation>Elbert T., Sterr A., Rockstroh B., Pantev C., Muller M. M., Taub E. (2002). Expansion of the tonotopic area in the auditory cortex of the blind.
+<i>J. Neurosci.</i>
+22
+9941&#x2013;9944. 10.1523/JNEUROSCI.22-22-09941.2002
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.22-22-09941.2002</ArticleId><ArticleId IdType="pmc">PMC6757838</ArticleId><ArticleId IdType="pubmed">12427851</ArticleId></ArticleIdList></Reference><Reference><Citation>Ewall G., Parkins S., Lin A., Jaoui Y., Lee H.-K. (2021). Cortical and subcortical circuits for cross-modal plasticity induced by loss of vision.
+<i>Front. Neural Circuits</i>
+15:665009. 10.3389/fncir.2021.665009
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fncir.2021.665009</ArticleId><ArticleId IdType="pmc">PMC8185208</ArticleId><ArticleId IdType="pubmed">34113240</ArticleId></ArticleIdList></Reference><Reference><Citation>Feldman D. E., Nicoll R. A., Malenka R. C., Isaac J. T. (1998). Long-term depression at thalamocortical synapses in developing rat somatosensory cortex.
+<i>Neuron</i>
+21
+347&#x2013;357. 10.1016/S0896-6273(00)80544-9</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0896-6273(00)80544-9</ArticleId><ArticleId IdType="pubmed">9728916</ArticleId></ArticleIdList></Reference><Reference><Citation>Frasnelli J., Collignon O., Voss P., Lepore F. (2011). Crossmodal plasticity in sensory loss.
+<i>Prog. Brain Res.</i>
+191
+233&#x2013;249. 10.1016/B978-0-444-53752-2.00002-3
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/B978-0-444-53752-2.00002-3</ArticleId><ArticleId IdType="pubmed">21741555</ArticleId></ArticleIdList></Reference><Reference><Citation>Goel A., Lee H. K. (2007). Persistence of experience-induced homeostatic synaptic plasticity through adulthood in superficial layers of mouse visual cortex.
+<i>J. Neurosci.</i>
+27
+6692&#x2013;6700. 10.1523/JNEUROSCI.5038-06.2007
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.5038-06.2007</ArticleId><ArticleId IdType="pmc">PMC2601561</ArticleId><ArticleId IdType="pubmed">17581956</ArticleId></ArticleIdList></Reference><Reference><Citation>He K., Goel A., Ciarkowski C. E., Song L., Lee H. K. (2011). Brain area specific regulation of synaptic AMPA receptors by phosphorylation.
+<i>Commun. Integr. Biol.</i>
+4
+569&#x2013;572. 10.4161/cib.15890</Citation><ArticleIdList><ArticleId IdType="doi">10.4161/cib.15890</ArticleId><ArticleId IdType="pmc">PMC3204131</ArticleId><ArticleId IdType="pubmed">22046465</ArticleId></ArticleIdList></Reference><Reference><Citation>Henschke J. U., Oelschlegel A. M., Angenstein F., Ohl F. W., Goldschmidt J., Kanold P. O., et al.  (2018). Early sensory experience influences the development of multisensory thalamocortical and intracortical connections of primary sensory cortices.
+<i>Brain Struct. Funct.</i>
+223
+1165&#x2013;1190. 10.1007/s00429-017-1549-1
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s00429-017-1549-1</ArticleId><ArticleId IdType="pmc">PMC5871574</ArticleId><ArticleId IdType="pubmed">29094306</ArticleId></ArticleIdList></Reference><Reference><Citation>Hong S. Z., Huang S., Severin D., Kirkwood A. (2020). Pull-push neuromodulation of cortical plasticity enables rapid bi-directional shifts in ocular dominance.
+<i>Elife</i>
+9:e54455. 10.7554/eLife.54455
+</Citation><ArticleIdList><ArticleId IdType="doi">10.7554/eLife.54455</ArticleId><ArticleId IdType="pmc">PMC7239653</ArticleId><ArticleId IdType="pubmed">32432545</ArticleId></ArticleIdList></Reference><Reference><Citation>Hooks B. M., Chen C. (2020). Circuitry underlying experience-dependent plasticity in the mouse visual system.
+<i>Neuron</i>
+106
+21&#x2013;36. 10.1016/j.neuron.2020.01.031
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2020.01.031</ArticleId><ArticleId IdType="pmc">PMC7251959</ArticleId><ArticleId IdType="pubmed">32272065</ArticleId></ArticleIdList></Reference><Reference><Citation>Huang S., Trevino M., He K., Ardiles A., Pasquale R., Guo Y., et al.  (2012). Pull-push neuromodulation of LTP and LTD enables bidirectional experience-induced synaptic scaling in visual cortex.
+<i>Neuron</i>
+73
+497&#x2013;510. 10.1016/j.neuron.2011.11.023
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2011.11.023</ArticleId><ArticleId IdType="pmc">PMC3373163</ArticleId><ArticleId IdType="pubmed">22325202</ArticleId></ArticleIdList></Reference><Reference><Citation>Hulme S. R., Jones O. D., Abraham W. C. (2013). Emerging roles of metaplasticity in behaviour and disease.
+<i>Trends Neurosci.</i>
+36
+353&#x2013;362. 10.1016/j.tins.2013.03.007
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tins.2013.03.007</ArticleId><ArticleId IdType="pubmed">23602195</ArticleId></ArticleIdList></Reference><Reference><Citation>Hulme S. R., Jones O. D., Ireland D. R., Abraham W. C. (2012). Calcium-dependent but action potential-independent BCM-like metaplasticity in the hippocampus.
+<i>J. Neurosci.</i>
+32
+6785&#x2013;6794. 10.1523/JNEUROSCI.0634-12.2012
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.0634-12.2012</ArticleId><ArticleId IdType="pmc">PMC6622209</ArticleId><ArticleId IdType="pubmed">22593048</ArticleId></ArticleIdList></Reference><Reference><Citation>Ibrahim L. A., Mesik L., Ji X. Y., Fang Q., Li H. F., Li Y. T., et al.  (2016). Cross-modality sharpening of visual cortical processing through layer-1-mediated inhibition and disinhibition.
+<i>Neuron</i>
+89
+1031&#x2013;1045. 10.1016/j.neuron.2016.01.027
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2016.01.027</ArticleId><ArticleId IdType="pmc">PMC4874809</ArticleId><ArticleId IdType="pubmed">26898778</ArticleId></ArticleIdList></Reference><Reference><Citation>Iurilli G., Ghezzi D., Olcese U., Lassi G., Nazzaro C., Tonini R., et al.  (2012). Sound-driven synaptic inhibition in primary visual cortex.
+<i>Neuron</i>
+73
+814&#x2013;828. 10.1016/j.neuron.2011.12.026
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2011.12.026</ArticleId><ArticleId IdType="pmc">PMC3315003</ArticleId><ArticleId IdType="pubmed">22365553</ArticleId></ArticleIdList></Reference><Reference><Citation>Jang S. S., Chung H. J. (2016). Emerging link between Alzheimer&#x2019;s disease and homeostatic synaptic plasticity.
+<i>Neural Plast.</i>
+2016:7969272. 10.1155/2016/7969272
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1155/2016/7969272</ArticleId><ArticleId IdType="pmc">PMC4785275</ArticleId><ArticleId IdType="pubmed">27019755</ArticleId></ArticleIdList></Reference><Reference><Citation>Jiang B., Trevino M., Kirkwood A. (2007). Sequential development of long-term potentiation and depression in different layers of the mouse visual cortex.
+<i>J. Neurosci.</i>
+27
+9648&#x2013;9652. 10.1523/JNEUROSCI.2655-07.2007
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.2655-07.2007</ArticleId><ArticleId IdType="pmc">PMC6672979</ArticleId><ArticleId IdType="pubmed">17804625</ArticleId></ArticleIdList></Reference><Reference><Citation>Jitsuki S., Takemoto K., Kawasaki T., Tada H., Takahashi A., Becamel C., et al.  (2011). Serotonin mediates cross-modal reorganization of cortical circuits.
+<i>Neuron</i>
+69
+780&#x2013;792. 10.1016/j.neuron.2011.01.016
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2011.01.016</ArticleId><ArticleId IdType="pmc">PMC3503249</ArticleId><ArticleId IdType="pubmed">21338886</ArticleId></ArticleIdList></Reference><Reference><Citation>Kirkwood A., Rioult M. C., Bear M. F. (1996). Experience-dependent modification of synaptic plasticity in visual cortex.
+<i>Nature</i>
+381
+526&#x2013;528. 10.1038/381526a0
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/381526a0</ArticleId><ArticleId IdType="pubmed">8632826</ArticleId></ArticleIdList></Reference><Reference><Citation>Krucker T., Siggins G. R., Mcnamara R. K., Lindsley K. A., Dao A., Allison D. W., et al.  (2002). Targeted disruption of RC3 reveals a calmodulin-based mechanism for regulating metaplasticity in the hippocampus.
+<i>J. Neurosci.</i>
+22
+5525&#x2013;5535. 10.1523/JNEUROSCI.22-13-05525.2002
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.22-13-05525.2002</ArticleId><ArticleId IdType="pmc">PMC6758189</ArticleId><ArticleId IdType="pubmed">12097504</ArticleId></ArticleIdList></Reference><Reference><Citation>Lazzouni L., Lepore F. (2014). Compensatory plasticity: Time matters.
+<i>Front. Hum. Neurosci.</i>
+8:340. 10.3389/fnhum.2014.00340
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fnhum.2014.00340</ArticleId><ArticleId IdType="pmc">PMC4054015</ArticleId><ArticleId IdType="pubmed">24971056</ArticleId></ArticleIdList></Reference><Reference><Citation>Lebel D., Grossman Y., Barkai E. (2001). Olfactory learning modifies predisposition for long-term potentiation and long-term depression induction in the rat piriform (olfactory) cortex.
+<i>Cereb. Cortex</i>
+11
+485&#x2013;489. 10.1093/cercor/11.6.485
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/11.6.485</ArticleId><ArticleId IdType="pubmed">11375909</ArticleId></ArticleIdList></Reference><Reference><Citation>Lee H. K., Kirkwood A. (2011). AMPA receptor regulation during synaptic plasticity in hippocampus and neocortex.
+<i>Semin Cell Dev. Biol.</i>
+22
+514&#x2013;520. 10.1016/j.semcdb.2011.06.007
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.semcdb.2011.06.007</ArticleId><ArticleId IdType="pmc">PMC3190053</ArticleId><ArticleId IdType="pubmed">21856433</ArticleId></ArticleIdList></Reference><Reference><Citation>Lee H. K., Kirkwood A. (2019). Mechanisms of homeostatic synaptic plasticity in vivo.
+<i>Front. Cell. Neurosci.</i>
+13:520. 10.3389/fncel.2019.00520
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fncel.2019.00520</ArticleId><ArticleId IdType="pmc">PMC6901705</ArticleId><ArticleId IdType="pubmed">31849610</ArticleId></ArticleIdList></Reference><Reference><Citation>Lee H. K., Whitt J. L. (2015). Cross-modal synaptic plasticity in adult primary sensory cortices.
+<i>Curr. Opin. Neurobiol.</i>
+35
+119&#x2013;126. 10.1016/j.conb.2015.08.002
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.conb.2015.08.002</ArticleId><ArticleId IdType="pmc">PMC4641772</ArticleId><ArticleId IdType="pubmed">26310109</ArticleId></ArticleIdList></Reference><Reference><Citation>Megill A., Tran T., Eldred K., Lee N. J., Wong P. C., Hoe H. S., et al.  (2015). Defective age-dependent metaplasticity in a mouse model of Alzheimer&#x2019;s disease.
+<i>J. Neurosci.</i>
+35
+11346&#x2013;11357. 10.1523/JNEUROSCI.5289-14.2015
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.5289-14.2015</ArticleId><ArticleId IdType="pmc">PMC4532762</ArticleId><ArticleId IdType="pubmed">26269641</ArticleId></ArticleIdList></Reference><Reference><Citation>Mihalas S., Ardiles A., He K., Palacios A., Kirkwood A. (2021). A multisubcellular compartment model of AMPA receptor trafficking for neuromodulation of Hebbian synaptic plasticity.
+<i>Front. Synaptic Neurosci.</i>
+13:703621. 10.3389/fnsyn.2021.703621
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fnsyn.2021.703621</ArticleId><ArticleId IdType="pmc">PMC8385783</ArticleId><ArticleId IdType="pubmed">34456706</ArticleId></ArticleIdList></Reference><Reference><Citation>Muller J. F., Orekhov Y., Liu Y., Ziemann U. (2007). Homeostatic plasticity in human motor cortex demonstrated by two consecutive sessions of paired associative stimulation.
+<i>Eur. J. Neurosci.</i>
+25
+3461&#x2013;3468. 10.1111/j.1460-9568.2007.05603.x
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1460-9568.2007.05603.x</ArticleId><ArticleId IdType="pubmed">17553015</ArticleId></ArticleIdList></Reference><Reference><Citation>Narayanan R., Johnston D. (2010). The h current is a candidate mechanism for regulating the sliding modification threshold in a BCM-like synaptic learning rule.
+<i>J. Neurophysiol.</i>
+104
+1020&#x2013;1033. 10.1152/jn.01129.2009
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1152/jn.01129.2009</ArticleId><ArticleId IdType="pmc">PMC2934916</ArticleId><ArticleId IdType="pubmed">20554832</ArticleId></ArticleIdList></Reference><Reference><Citation>O&#x2019;Brien R. J., Kamboj S., Ehlers M. D., Rosen K. R., Fischbach G. D., Huganir R. L. (1998). Activity-dependent modulation of synaptic AMPA receptor accumulation.
+<i>Neuron</i>
+21
+1067&#x2013;1078. 10.1016/S0896-6273(00)80624-8</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0896-6273(00)80624-8</ArticleId><ArticleId IdType="pubmed">9856462</ArticleId></ArticleIdList></Reference><Reference><Citation>Oh M. C., Derkach V. A., Guire E. S., Soderling T. R. (2006). Extrasynaptic membrane trafficking regulated by GluR1 serine 845 phosphorylation primes AMPA receptors for long-term potentiation.
+<i>J. Biol. Chem.</i>
+281
+752&#x2013;758. 10.1074/jbc.M509677200
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1074/jbc.M509677200</ArticleId><ArticleId IdType="pubmed">16272153</ArticleId></ArticleIdList></Reference><Reference><Citation>Pascual-Leone A., Torres F. (1993). Plasticity of the sensorimotor cortex representation of the reading finger in Braille readers.
+<i>Brain</i>
+116(Pt 1)
+39&#x2013;52. 10.1093/brain/116.1.39
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/brain/116.1.39</ArticleId><ArticleId IdType="pubmed">8453464</ArticleId></ArticleIdList></Reference><Reference><Citation>Petrus E., Isaiah A., Jones A. P., Li D., Wang H., Lee H. K., et al.  (2014). Crossmodal induction of thalamocortical potentiation leads to enhanced information processing in the auditory cortex.
+<i>Neuron</i>
+81
+664&#x2013;673. 10.1016/j.neuron.2013.11.023
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2013.11.023</ArticleId><ArticleId IdType="pmc">PMC4023256</ArticleId><ArticleId IdType="pubmed">24507197</ArticleId></ArticleIdList></Reference><Reference><Citation>Petrus E., Rodriguez G., Patterson R., Connor B., Kanold P. O., Lee H. K. (2015). Vision loss shifts the balance of feedforward and intracortical circuits in opposite directions in mouse primary auditory and visual cortices.
+<i>J. Neurosci.</i>
+35
+8790&#x2013;8801. 10.1523/JNEUROSCI.4975-14.2015
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.4975-14.2015</ArticleId><ArticleId IdType="pmc">PMC4461685</ArticleId><ArticleId IdType="pubmed">26063913</ArticleId></ArticleIdList></Reference><Reference><Citation>Philpot B. D., Espinosa J. S., Bear M. F. (2003). Evidence for altered NMDA receptor function as a basis for metaplasticity in visual cortex.
+<i>J. Neurosci.</i>
+23
+5583&#x2013;5588. 10.1523/JNEUROSCI.23-13-05583.2003
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.23-13-05583.2003</ArticleId><ArticleId IdType="pmc">PMC6741231</ArticleId><ArticleId IdType="pubmed">12843259</ArticleId></ArticleIdList></Reference><Reference><Citation>Philpot B. D., Sekhar A. K., Shouval H. Z., Bear M. F. (2001). Visual experience and deprivation bidirectionally modify the composition and function of NMDA receptors in visual cortex.
+<i>Neuron</i>
+29
+157&#x2013;169. 10.1016/S0896-6273(01)00187-8</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0896-6273(01)00187-8</ArticleId><ArticleId IdType="pubmed">11182088</ArticleId></ArticleIdList></Reference><Reference><Citation>Qian H., Matt L., Zhang M., Nguyen M., Patriarchi T., Koval O. M., et al.  (2012). beta2-Adrenergic receptor supports prolonged theta tetanus-induced LTP.
+<i>J. Neurophysiol.</i>
+107
+2703&#x2013;2712. 10.1152/jn.00374.2011
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1152/jn.00374.2011</ArticleId><ArticleId IdType="pmc">PMC3362273</ArticleId><ArticleId IdType="pubmed">22338020</ArticleId></ArticleIdList></Reference><Reference><Citation>Quinlan E. M., Olstein D. H., Bear M. F. (1999). Bidirectional, experience-dependent regulation of N-methyl-D-aspartate receptor subunit composition in the rat visual cortex during postnatal development.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+96
+12876&#x2013;12880. 10.1073/pnas.96.22.12876
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.96.22.12876</ArticleId><ArticleId IdType="pmc">PMC23143</ArticleId><ArticleId IdType="pubmed">10536016</ArticleId></ArticleIdList></Reference><Reference><Citation>Ribic A. (2020). Stability in the face of change: Lifelong experience-dependent plasticity in the sensory cortex.
+<i>Front. Cell. Neurosci.</i>
+14:76. 10.3389/fncel.2020.00076
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fncel.2020.00076</ArticleId><ArticleId IdType="pmc">PMC7186337</ArticleId><ArticleId IdType="pubmed">32372915</ArticleId></ArticleIdList></Reference><Reference><Citation>Roder B., Teder-Salejarvi W., Sterr A., Rosler F., Hillyard S. A., Neville H. J. (1999). Improved auditory spatial tuning in blind humans.
+<i>Nature</i>
+400
+162&#x2013;166. 10.1038/22106
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/22106</ArticleId><ArticleId IdType="pubmed">10408442</ArticleId></ArticleIdList></Reference><Reference><Citation>Rodriguez G., Chakraborty D., Schrode K. M., Saha R., Uribe I., Lauer A. M., et al.  (2018). Cross-modal reinstatement of thalamocortical plasticity accelerates ocular dominance plasticity in adult mice.
+<i>Cell Rep.</i>
+24
+3433&#x2013;3440.e4. 10.1016/j.celrep.2018.08.072
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.celrep.2018.08.072</ArticleId><ArticleId IdType="pmc">PMC6233297</ArticleId><ArticleId IdType="pubmed">30257205</ArticleId></ArticleIdList></Reference><Reference><Citation>Rodriguez G., Mesik L., Gao M., Parkins S., Saha R., Lee H. K. (2019). Disruption of NMDA receptor function prevents normal experience-dependent homeostatic synaptic plasticity in mouse primary visual cortex.
+<i>J. Neurosci.</i>
+39
+7664&#x2013;7673. 10.1523/JNEUROSCI.2117-18.2019
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.2117-18.2019</ArticleId><ArticleId IdType="pmc">PMC6764196</ArticleId><ArticleId IdType="pubmed">31413075</ArticleId></ArticleIdList></Reference><Reference><Citation>Rumbaugh G., Vicini S. (1999). Distinct synaptic and extrasynaptic NMDA receptors in developing cerebellar granule neurons.
+<i>J. Neurosci.</i>
+19
+10603&#x2013;10610. 10.1523/JNEUROSCI.19-24-10603.1999
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.19-24-10603.1999</ArticleId><ArticleId IdType="pmc">PMC6784938</ArticleId><ArticleId IdType="pubmed">10594044</ArticleId></ArticleIdList></Reference><Reference><Citation>Sadato N., Pascual-Leone A., Grafman J., Ibanez V., Deiber M. P., Dold G., et al.  (1996). Activation of the primary visual cortex by Braille reading in blind subjects.
+<i>Nature</i>
+380
+526&#x2013;528. 10.1038/380526a0
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/380526a0</ArticleId><ArticleId IdType="pubmed">8606771</ArticleId></ArticleIdList></Reference><Reference><Citation>Sandmann P., Dillier N., Eichele T., Meyer M., Kegel A., Pascual-Marqui R. D., et al.  (2012). Visual activation of auditory cortex reflects maladaptive plasticity in cochlear implant users.
+<i>Brain</i>
+135
+555&#x2013;568. 10.1093/brain/awr329
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/brain/awr329</ArticleId><ArticleId IdType="pubmed">22232592</ArticleId></ArticleIdList></Reference><Reference><Citation>Sengpiel F., Kind P. C. (2002). The role of activity in development of the visual system.
+<i>Curr. Biol.</i>
+12
+R818&#x2013;R826. 10.1016/S0960-9822(02)01318-0</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0960-9822(02)01318-0</ArticleId><ArticleId IdType="pubmed">12477410</ArticleId></ArticleIdList></Reference><Reference><Citation>Seol G. H., Ziburkus J., Huang S., Song L., Kim I. T., Takamiya K., et al.  (2007). Neuromodulators control the polarity of spike-timing-dependent synaptic plasticity.
+<i>Neuron</i>
+55
+919&#x2013;929. 10.1016/j.neuron.2007.08.013
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2007.08.013</ArticleId><ArticleId IdType="pmc">PMC2756178</ArticleId><ArticleId IdType="pubmed">17880895</ArticleId></ArticleIdList></Reference><Reference><Citation>Solger J., Wozny C., Manahan-Vaughan D., Behr J. (2004). Distinct mechanisms of bidirectional activity-dependent synaptic plasticity in superficial and deep layers of rat entorhinal cortex.
+<i>Eur. J. Neurosci.</i>
+19
+2003&#x2013;2007. 10.1111/j.1460-9568.2004.03292.x
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1460-9568.2004.03292.x</ArticleId><ArticleId IdType="pubmed">15078576</ArticleId></ArticleIdList></Reference><Reference><Citation>Sterr A., Muller M. M., Elbert T., Rockstroh B., Pantev C., Taub E. (1998a). Changed perceptions in Braille readers.
+<i>Nature</i>
+391
+134&#x2013;135. 10.1038/34322
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/34322</ArticleId><ArticleId IdType="pubmed">9428760</ArticleId></ArticleIdList></Reference><Reference><Citation>Sterr A., Muller M. M., Elbert T., Rockstroh B., Pantev C., Taub E. (1998b). Perceptual correlates of changes in cortical representation of fingers in blind multifinger Braille readers.
+<i>J. Neurosci.</i>
+18
+4417&#x2013;4423. 10.1523/JNEUROSCI.18-11-04417.1998
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.18-11-04417.1998</ArticleId><ArticleId IdType="pmc">PMC6792812</ArticleId><ArticleId IdType="pubmed">9592118</ArticleId></ArticleIdList></Reference><Reference><Citation>Sutton M. A., Ito H. T., Cressy P., Kempf C., Woo J. C., Schuman E. M. (2006). Miniature neurotransmission stabilizes synaptic function via tonic suppression of local dendritic protein synthesis.
+<i>Cell</i>
+125
+785&#x2013;799. 10.1016/j.cell.2006.03.040
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cell.2006.03.040</ArticleId><ArticleId IdType="pubmed">16713568</ArticleId></ArticleIdList></Reference><Reference><Citation>Turrigiano G. G. (2008). The self-tuning neuron: Synaptic scaling of excitatory synapses.
+<i>Cell</i>
+135
+422&#x2013;435. 10.1016/j.cell.2008.10.008
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cell.2008.10.008</ArticleId><ArticleId IdType="pmc">PMC2834419</ArticleId><ArticleId IdType="pubmed">18984155</ArticleId></ArticleIdList></Reference><Reference><Citation>Turrigiano G. G., Nelson S. B. (2004). Homeostatic plasticity in the developing nervous system.
+<i>Nat. Rev. Neurosci.</i>
+5
+97&#x2013;107. 10.1038/nrn1327
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn1327</ArticleId><ArticleId IdType="pubmed">14735113</ArticleId></ArticleIdList></Reference><Reference><Citation>Turrigiano G. G., Leslie K. R., Desai N. S., Rutherford L. C., Nelson S. B. (1998). Activity-dependent scaling of quantal amplitude in neocortical neurons.
+<i>Nature</i>
+391
+892&#x2013;896. 10.1038/36103
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/36103</ArticleId><ArticleId IdType="pubmed">9495341</ArticleId></ArticleIdList></Reference><Reference><Citation>von Melchner L., Pallas S. L., Sur M. (2000). Visual behaviour mediated by retinal projections directed to the auditory pathway.
+<i>Nature</i>
+404
+871&#x2013;876. 10.1038/35009102
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/35009102</ArticleId><ArticleId IdType="pubmed">10786793</ArticleId></ArticleIdList></Reference><Reference><Citation>Whitt J. L., Ewall G., Chakraborty D., Adegbesan A., Lee R., Kanold P. O., et al.  (2022). Visual deprivation selectively reduces thalamic reticular nucleus-mediated inhibition of the auditory thalamus in adults.
+<i>J. Neurosci.</i>
+42
+7921&#x2013;7930. 10.1523/JNEUROSCI.2032-21.2022
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.2032-21.2022</ArticleId><ArticleId IdType="pmc">PMC9617613</ArticleId><ArticleId IdType="pubmed">36261269</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>

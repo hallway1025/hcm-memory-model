@@ -1,0 +1,821 @@
+[
+ {
+  "area": "A_timescale",
+  "query": "time cells hippocampus",
+  "channel": "crossref",
+  "n": 30,
+  "year_from": 2005,
+  "raw_hits": 3737123,
+  "cached": true
+ },
+ {
+  "area": "A_timescale",
+  "query": "temporal context model memory",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": 1995,
+  "raw_hits": 4476762,
+  "cached": true
+ },
+ {
+  "area": "A_timescale",
+  "query": "multiple timescales synaptic plasticity",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 1003256,
+  "cached": true
+ },
+ {
+  "area": "A_timescale",
+  "query": "scale-free temporal context drift",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 2490549,
+  "cached": true
+ },
+ {
+  "area": "A_timescale",
+  "query": "temporal context model",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 5894,
+  "cached": true
+ },
+ {
+  "area": "A_timescale",
+  "query": "hippocampal time cell sequence memory",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 2,
+  "cached": true
+ },
+ {
+  "area": "B_forget",
+  "query": "retrieval-induced forgetting adaptive function",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 3345419,
+  "cached": true
+ },
+ {
+  "area": "B_forget",
+  "query": "forgetting benefits generalization flexibility",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 290781,
+  "cached": true
+ },
+ {
+  "area": "B_forget",
+  "query": "adaptive forgetting reinforcement learning",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 3314336,
+  "cached": true
+ },
+ {
+  "area": "B_forget",
+  "query": "directed forgetting motivated neuroscience",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 687993,
+  "cached": true
+ },
+ {
+  "area": "B_forget",
+  "query": "principled forgetting neural networks",
+  "channel": "arxiv",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 73,
+  "cached": true
+ },
+ {
+  "area": "C_neuro",
+  "query": "acetylcholine hippocampal encoding retrieval dynamics",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 1539355,
+  "cached": true
+ },
+ {
+  "area": "C_neuro",
+  "query": "norepinephrine locus coeruleus memory encoding",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 677471,
+  "cached": true
+ },
+ {
+  "area": "C_neuro",
+  "query": "dopamine prediction error hippocampal plasticity",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 1183223,
+  "cached": true
+ },
+ {
+  "area": "C_neuro",
+  "query": "eligibility traces synaptic plasticity",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 187776,
+  "cached": true
+ },
+ {
+  "area": "C_neuro",
+  "query": "novelty modulated encoding hippocampus",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 212655,
+  "cached": true
+ },
+ {
+  "area": "D_consolidation",
+  "query": "Benna Fusi cascade synaptic consolidation",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 184262,
+  "cached": true
+ },
+ {
+  "area": "D_consolidation",
+  "query": "sharp-wave ripple sleep spindle coordination",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 1104470,
+  "cached": true
+ },
+ {
+  "area": "D_consolidation",
+  "query": "systems consolidation hippocampal neocortical dynamics",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 5810107,
+  "cached": true
+ },
+ {
+  "area": "D_consolidation",
+  "query": "prioritized replay hippocampus",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 49568,
+  "cached": true
+ },
+ {
+  "area": "D_consolidation",
+  "query": "targeted memory reactivation sleep",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 1008638,
+  "cached": true
+ },
+ {
+  "area": "D_consolidation",
+  "query": "experience replay prioritization",
+  "channel": "arxiv",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 233,
+  "cached": true
+ },
+ {
+  "area": "E_wm",
+  "query": "theta gamma coupling working memory",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 1345388,
+  "cached": true
+ },
+ {
+  "area": "E_wm",
+  "query": "working memory capacity slots resource model",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 4690747,
+  "cached": true
+ },
+ {
+  "area": "E_wm",
+  "query": "activity-silent working memory",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 2279562,
+  "cached": true
+ },
+ {
+  "area": "E_wm",
+  "query": "n-back computational model capacity",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 4759840,
+  "cached": true
+ },
+ {
+  "area": "E_wm",
+  "query": "working memory neural network capacity",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 216,
+  "cached": true
+ },
+ {
+  "area": "F_capacity",
+  "query": "modern Hopfield network capacity",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 2877791,
+  "cached": true
+ },
+ {
+  "area": "F_capacity",
+  "query": "dense associative memory capacity",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 919832,
+  "cached": true
+ },
+ {
+  "area": "F_capacity",
+  "query": "associative memory capacity sparse coding",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 1069264,
+  "cached": true
+ },
+ {
+  "area": "F_capacity",
+  "query": "Hopfield storage capacity scaling",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 869245,
+  "cached": true
+ },
+ {
+  "area": "F_capacity",
+  "query": "associative memory capacity theory",
+  "channel": "arxiv",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 81,
+  "cached": true
+ },
+ {
+  "area": "G_structure",
+  "query": "successor representation hippocampus",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 293150,
+  "cached": true
+ },
+ {
+  "area": "G_structure",
+  "query": "structural learning hippocampus graph",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 4029302,
+  "cached": true
+ },
+ {
+  "area": "G_structure",
+  "query": "vector symbolic architecture binding",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 1237657,
+  "cached": true
+ },
+ {
+  "area": "G_structure",
+  "query": "relational binding episodic memory",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 1040288,
+  "cached": true
+ },
+ {
+  "area": "G_structure",
+  "query": "structured episodic memory graph",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 60,
+  "cached": true
+ },
+ {
+  "area": "H_scale",
+  "query": "approximate nearest neighbor search survey",
+  "channel": "arxiv",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 17,
+  "cached": true
+ },
+ {
+  "area": "H_scale",
+  "query": "sublinear retrieval associative memory",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 1,
+  "cached": true
+ },
+ {
+  "area": "H_scale",
+  "query": "sparse distributed memory",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 991996,
+  "cached": true
+ },
+ {
+  "area": "H_scale",
+  "query": "memory augmented neural network scaling",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 101,
+  "cached": true
+ },
+ {
+  "area": "I_confidence",
+  "query": "confidence recognition memory signal detection",
+  "channel": "crossref",
+  "n": 25,
+  "year_from": null,
+  "raw_hits": 3333805,
+  "cached": true
+ },
+ {
+  "area": "I_confidence",
+  "query": "metamemory confidence calibration",
+  "channel": "crossref",
+  "n": 20,
+  "year_from": null,
+  "raw_hits": 186776,
+  "cached": true
+ },
+ {
+  "area": "I_confidence",
+  "query": "uncertainty aware retrieval",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 312,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "large language model agent memory survey",
+  "channel": "arxiv",
+  "n": 20,
+  "year_from": 2023,
+  "raw_hits": 105,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "memory augmented LLM agent",
+  "channel": "arxiv",
+  "n": 20,
+  "year_from": 2023,
+  "raw_hits": 472,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "episodic memory large language model",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": 2023,
+  "raw_hits": 241,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "retrieval augmented agent long-term memory",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": 2023,
+  "raw_hits": 110,
+  "cached": true
+ },
+ {
+  "area": "B_forget",
+  "query": "machine unlearning",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 909951,
+  "cached": true
+ },
+ {
+  "area": "B_forget",
+  "query": "fuzzy trace theory gist verbatim",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 2454514,
+  "cached": true
+ },
+ {
+  "area": "B_forget",
+  "query": "machine unlearning LLM agents",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": 2024,
+  "raw_hits": 12,
+  "cached": true
+ },
+ {
+  "area": "B_forget",
+  "query": "catastrophic forgetting replay continual learning",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": 2024,
+  "raw_hits": 382,
+  "cached": true
+ },
+ {
+  "area": "C_neuro",
+  "query": "eligibility traces synaptic plasticity",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 187776,
+  "cached": true
+ },
+ {
+  "area": "C_neuro",
+  "query": "locus coeruleus novelty memory",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 600254,
+  "cached": true
+ },
+ {
+  "area": "C_neuro",
+  "query": "acetylcholine forgetting consolidation hippocampus",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 126154,
+  "cached": true
+ },
+ {
+  "area": "C_neuro",
+  "query": "eligibility traces learning synapse",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 8,
+  "cached": true
+ },
+ {
+  "area": "C_neuro",
+  "query": "neuromodulation gating consolidation",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1,
+  "cached": true
+ },
+ {
+  "area": "A_timescale",
+  "query": "temporal receptive fields hippocampus sequence",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 950338,
+  "cached": true
+ },
+ {
+  "area": "A_timescale",
+  "query": "multiple time scales neural dynamics memory",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 5177633,
+  "cached": true
+ },
+ {
+  "area": "A_timescale",
+  "query": "state space models time cells",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": 2024,
+  "raw_hits": 130,
+  "cached": true
+ },
+ {
+  "area": "A_timescale",
+  "query": "multi-timescale memory hierarchy",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 2,
+  "cached": true
+ },
+ {
+  "area": "D_consolidation",
+  "query": "synaptic consolidation cascade model",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 3333431,
+  "cached": true
+ },
+ {
+  "area": "D_consolidation",
+  "query": "systems consolidation sleep replay hippocampus",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 4917098,
+  "cached": true
+ },
+ {
+  "area": "D_consolidation",
+  "query": "Benna Fusi consolidation",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 2,
+  "cached": true
+ },
+ {
+  "area": "D_consolidation",
+  "query": "sleep replay consolidation model",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": 2024,
+  "raw_hits": 12,
+  "cached": true
+ },
+ {
+  "area": "E_wm",
+  "query": "theta gamma coupling working memory",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1345392,
+  "cached": true
+ },
+ {
+  "area": "E_wm",
+  "query": "theta gamma nested oscillation memory",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 0,
+  "cached": true
+ },
+ {
+  "area": "F_capacity",
+  "query": "Hopfield network storage capacity",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 2115817,
+  "cached": true
+ },
+ {
+  "area": "F_capacity",
+  "query": "modern Hopfield network capacity",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 32,
+  "cached": true
+ },
+ {
+  "area": "G_structure",
+  "query": "successor representation hippocampus",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 293151,
+  "cached": true
+ },
+ {
+  "area": "G_structure",
+  "query": "cognitive map relational memory",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 1376991,
+  "cached": true
+ },
+ {
+  "area": "G_structure",
+  "query": "successor representation generalization",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 83,
+  "cached": true
+ },
+ {
+  "area": "G_structure",
+  "query": "graph structured memory agent",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 375,
+  "cached": true
+ },
+ {
+  "area": "H_scale",
+  "query": "sparse distributed memory",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 992001,
+  "cached": true
+ },
+ {
+  "area": "H_scale",
+  "query": "locality sensitive hashing similarity search",
+  "channel": "crossref",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 656982,
+  "cached": true
+ },
+ {
+  "area": "H_scale",
+  "query": "HNSW vector search",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 92,
+  "cached": true
+ },
+ {
+  "area": "H_scale",
+  "query": "sparse associative memory retrieval",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 66,
+  "cached": true
+ },
+ {
+  "area": "I_confidence",
+  "query": "confidence memory retrieval metacognition",
+  "channel": "crossref",
+  "n": 15,
+  "year_from": null,
+  "raw_hits": 736292,
+  "cached": true
+ },
+ {
+  "area": "I_confidence",
+  "query": "confidence calibrated retrieval",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": null,
+  "raw_hits": 199,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "agent memory survey",
+  "channel": "arxiv",
+  "n": 15,
+  "year_from": 2024,
+  "raw_hits": 156,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "generative agents memory reflection",
+  "channel": "arxiv",
+  "n": 10,
+  "year_from": 2023,
+  "raw_hits": 211,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "MemGPT LLM operating system",
+  "channel": "arxiv",
+  "n": 5,
+  "year_from": null,
+  "raw_hits": 5,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "generative agents interactive simulacra",
+  "channel": "arxiv",
+  "n": 5,
+  "year_from": null,
+  "raw_hits": 8,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "Mem0 scalable long-term memory",
+  "channel": "arxiv",
+  "n": 5,
+  "year_from": null,
+  "raw_hits": 1,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "Zep temporal knowledge graph",
+  "channel": "arxiv",
+  "n": 5,
+  "year_from": null,
+  "raw_hits": 2,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "HippoRAG neurobiologically inspired long-term",
+  "channel": "arxiv",
+  "n": 5,
+  "year_from": null,
+  "raw_hits": 1,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "A-MEM agentic memory Zettelkasten",
+  "channel": "arxiv",
+  "n": 5,
+  "year_from": null,
+  "raw_hits": 1,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "LongMemEval long-term interactive memory",
+  "channel": "arxiv",
+  "n": 5,
+  "year_from": null,
+  "raw_hits": 37,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "Larimar episodic memory control",
+  "channel": "arxiv",
+  "n": 5,
+  "year_from": null,
+  "raw_hits": 2,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "MemOS memory operating system",
+  "channel": "arxiv",
+  "n": 5,
+  "year_from": null,
+  "raw_hits": 8,
+  "cached": true
+ },
+ {
+  "area": "J_llm_memory",
+  "query": "MemAgent long-context reinforcement",
+  "channel": "arxiv",
+  "n": 5,
+  "year_from": null,
+  "raw_hits": 2,
+  "cached": true
+ }
+]

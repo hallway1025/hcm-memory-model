@@ -1,0 +1,54 @@
+{
+ "source": "回音交付-Stage0检索质量对照-20261120.json + 回音交付-Stage0数据表-schema对齐-20261120.json（2026-11-20 接收，工程侧独立核验自洽）",
+ "received_at": "2026-11-20T18:38:52+08:00",
+ "purpose": "G-R3b 附录 I/K/H 交叉引用：真实智能体记忆小 N 端对照（量级参考，不做跨年外推）",
+ "retrieval_pool": {
+  "n_entries": 132,
+  "age_median_days": 43,
+  "age_buckets": {
+   "0-7d": 1,
+   "8-30d": 0,
+   "31-60d": 118,
+   "61-90d": 13,
+   ">90d": 0
+  },
+  "note": "89% 落在 31-60d 档，8-30d 为零"
+ },
+ "retrieval_hits": {
+  "cache_files": 136,
+  "hit_instances": 11171,
+  "unique_entries_hit": 44,
+  "pool_coverage": 0.3333333333333333,
+  "hit_age_median_days": 48,
+  "hit_age_oldest_days": 76,
+  "hit_age_buckets": {
+   "0-7d": 31,
+   "8-30d": 0,
+   "31-60d": 9595,
+   "61-90d": 1545,
+   ">90d": 0
+  }
+ },
+ "libraries": [
+  {
+   "name": "machine1-memory",
+   "n_dated": 371,
+   "median_age_days": 25,
+   "oldest_age_days": 67,
+   "oldest_item_date": "2026-09-14"
+  },
+  {
+   "name": "coze-export-part04",
+   "n_dated": 546,
+   "median_age_days": 25,
+   "oldest_age_days": 67,
+   "oldest_item_date": "2026-09-14"
+  }
+ ],
+ "key_signal": "检索压力集中于 31-90 天旧记忆，8-30 天档零命中，与 G-R3b β* 饱和叙事的定性方向一致",
+ "caveats": [
+  "单日快照（2026-11-20）、仅 Coze 侧；跨年外推留待 Stage 1",
+  "两库均为冻结期后重建体（内容日期自 2026-09-14 起）",
+  "件龄用内容时间戳；mtime 被复制/同步刷新，不作件龄依据"
+ ]
+}

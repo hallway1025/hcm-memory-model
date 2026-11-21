@@ -1,0 +1,62 @@
+[
+ {
+  "N": 4000,
+  "resid": false,
+  "exact_mean": 1.0,
+  "exact_ci": 0.0,
+  "degraded_mean": 0.997,
+  "degraded_ci": 0.006,
+  "written": 4000.0,
+  "seeds": 8
+ },
+ {
+  "N": 4000,
+  "resid": true,
+  "exact_mean": 1.0,
+  "exact_ci": 0.0,
+  "degraded_mean": 0.975,
+  "degraded_ci": 0.021,
+  "written": 4000.0,
+  "seeds": 8
+ },
+ {
+  "N": 8000,
+  "resid": false,
+  "exact_mean": 1.0,
+  "exact_ci": 0.0,
+  "degraded_mean": 0.938,
+  "degraded_ci": 0.024,
+  "written": 8000.0,
+  "seeds": 8
+ },
+ {
+  "N": 8000,
+  "resid": true,
+  "exact_mean": 1.0,
+  "exact_ci": 0.0,
+  "degraded_mean": 0.822,
+  "degraded_ci": 0.038,
+  "written": 8000.0,
+  "seeds": 8
+ },
+ {
+  "N": 16000,
+  "resid": false,
+  "exact_mean": 1.0,
+  "exact_ci": 0.0,
+  "degraded_mean": 0.569,
+  "degraded_ci": 0.066,
+  "written": 16000.0,
+  "seeds": 8
+ },
+ {
+  "N": 16000,
+  "resid": true,
+  "exact_mean": 0.972,
+  "exact_ci": 0.011,
+  "degraded_mean": 0.291,
+  "degraded_ci": 0.04,
+  "written": 16000.0,
+  "seeds": 8
+ }
+]

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qoaNBTc6J4mMdx8pXRWR59tIrV0</id>
+  <title>arXiv Query: search_query=all:theta AND all:sequences AND all:replay&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T14:09:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:theta+AND+(all:sequences+AND+all:replay)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.40932v1</id>
+    <title>HippocamFLEX: FPGA Prototyping of Hippocampus-Inspired Architecture for Context-Aware Sequence Prediction</title>
+    <updated>2026-10-29T20:04:19Z</updated>
+    <link href="https://arxiv.org/abs/2610.40932v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.40932v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unlike conventional architectures that treat memory as static pattern storage, the hippocampus organizes experience as ordered sequences and retrieves them through temporally compressed replay spanning prior, current, and anticipated states. This capacity of context-appropriate sequence prediction remains absent from conventional deep learning accelerators and existing neuromorphic fabrics. We present HippocamFLEX, a fully synthesizable digital implementation of these hippocampal computational principles, realized with SystemVerilog RTL on the AMD Zynq UltraScale+,XCZU9EG. The design maps the hippocampal trisynaptic pathway onto three pipeline stages: a Dentate Gyrus / Entorhinal Cortex (DG/EC) stage for hypervector proximity matching, a CA3 stage for context-gated recurrent sequence prediction with multi-phase temporal tagging, and a CA1 stage that integrates past, present, and predicted future events into a theta-sequence inspired output. While much brain-inspired hardware relies on analog mixed-signal design for energy efficiency, this work targets FPGA prototyping as a deliberate architectural choice: FPGAs offer rapid design-space exploration without tape-out cost, bit-exact determinism that simplifies verification. The design supports 64 events across 16 contexts and is verified on physical silicon across context-isolation, temporal-ordering, and mid-sequence sliding-window test cases and is inherently scalable to larger event and context sets.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-29T20:04:19Z</published>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Bhuvanesh S. Kayarabettu</name>
+    </author>
+    <author>
+      <name>Hamed Poursiami</name>
+    </author>
+    <author>
+      <name>Keiland Cooper</name>
+    </author>
+    <author>
+      <name>Babak Shahbaba</name>
+    </author>
+    <author>
+      <name>Norbert Fortin</name>
+    </author>
+    <author>
+      <name>Maryam Parsa</name>
+    </author>
+    <author>
+      <name>Akhilesh Jaiswal</name>
+    </author>
+  </entry>
+</feed>

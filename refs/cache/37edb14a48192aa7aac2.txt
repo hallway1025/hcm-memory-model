@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["26584323"],"translationset":[],"querytranslation":"\"10 1227 01 neu 0000473811 60855 e8\"[Publisher ID]"}}

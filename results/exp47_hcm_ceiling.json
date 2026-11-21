@@ -1,0 +1,9 @@
+{
+ "n_lib": 9033,
+ "probes": 200,
+ "written": 7340,
+ "probes_written": 194,
+ "probes_written_rate": 0.97,
+ "hit_deg03_repro": 48,
+ "note": "hcm ceiling for baseline fairness note"
+}

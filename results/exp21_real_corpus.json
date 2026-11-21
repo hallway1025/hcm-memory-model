@@ -1,0 +1,123 @@
+{
+ "meta": {
+  "sess": "peer-02",
+  "n_train": 9033,
+  "d": 512,
+  "beta": 100.0,
+  "dup_probes": 14,
+  "top_dup": [
+   "OK",
+   459
+  ]
+ },
+ "rows": [
+  {
+   "task": "completion",
+   "N": 1000,
+   "level": 0.3,
+   "top1": 0,
+   "n": 200,
+   "abstain": 0,
+   "write_s": 13.2
+  },
+  {
+   "task": "completion",
+   "N": 1000,
+   "level": 0.5,
+   "top1": 0,
+   "n": 200,
+   "abstain": 0,
+   "write_s": 13.2
+  },
+  {
+   "task": "completion",
+   "N": 1000,
+   "level": 0.7,
+   "top1": 0,
+   "n": 200,
+   "abstain": 0,
+   "write_s": 13.2
+  },
+  {
+   "task": "completion",
+   "N": 2000,
+   "level": 0.3,
+   "top1": 0,
+   "n": 200,
+   "abstain": 0,
+   "write_s": 25.3
+  },
+  {
+   "task": "completion",
+   "N": 2000,
+   "level": 0.5,
+   "top1": 0,
+   "n": 200,
+   "abstain": 0,
+   "write_s": 25.3
+  },
+  {
+   "task": "completion",
+   "N": 2000,
+   "level": 0.7,
+   "top1": 0,
+   "n": 200,
+   "abstain": 0,
+   "write_s": 25.3
+  },
+  {
+   "task": "completion",
+   "N": 4000,
+   "level": 0.3,
+   "top1": 0,
+   "n": 200,
+   "abstain": 0,
+   "write_s": 63.0
+  },
+  {
+   "task": "completion",
+   "N": 4000,
+   "level": 0.5,
+   "top1": 0,
+   "n": 200,
+   "abstain": 0,
+   "write_s": 63.0
+  },
+  {
+   "task": "completion",
+   "N": 4000,
+   "level": 0.7,
+   "top1": 0,
+   "n": 200,
+   "abstain": 0,
+   "write_s": 63.0
+  },
+  {
+   "task": "completion",
+   "N": 9033,
+   "level": 0.3,
+   "top1": 0,
+   "n": 200,
+   "abstain": 0,
+   "write_s": 133.1
+  },
+  {
+   "task": "completion",
+   "N": 9033,
+   "level": 0.5,
+   "top1": 0,
+   "n": 200,
+   "abstain": 0,
+   "write_s": 133.1
+  },
+  {
+   "task": "completion",
+   "N": 9033,
+   "level": 0.7,
+   "top1": 0,
+   "n": 200,
+   "abstain": 0,
+   "write_s": 133.1
+  }
+ ]
+}

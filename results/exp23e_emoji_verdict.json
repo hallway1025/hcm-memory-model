@@ -1,0 +1,20 @@
+{
+ "S256_2k_asis": {
+  "n_written": 1693,
+  "n_cand": 200,
+  "n_cand_content": 200,
+  "hit@0.3": "124/200",
+  "hit@0.5": "122/200",
+  "content_hit@0.3": "199/200",
+  "content_hit@0.5": "196/200"
+ },
+ "S256_2k_randfallback": {
+  "n_written": 1455,
+  "n_cand": 200,
+  "n_cand_content": 200,
+  "hit@0.3": "200/200",
+  "hit@0.5": "200/200",
+  "content_hit@0.3": "200/200",
+  "content_hit@0.5": "200/200"
+ }
+}

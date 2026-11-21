@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Supplemental Material S1: External Review and Replication Record</title><style>
+body{max-width:860px;margin:32px auto;padding:0 20px;font-family:"Microsoft YaHei",system-ui,sans-serif;
+line-height:1.75;color:#1a1a1a;font-size:15px}
+h1{font-size:26px;text-align:center;margin:8px 0 20px}
+h2{font-size:20px;margin:30px 0 10px;border-bottom:1px solid #ddd;padding-bottom:4px}
+h3{font-size:16px;margin:22px 0 8px}
+p{text-align:justify;margin:8px 0}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:12.5px}
+th,td{border:1px solid #bbb;padding:4px 6px;text-align:left;vertical-align:top}
+th{background:#f2f2f2}
+img{max-width:100%;display:block;margin:14px auto}
+figure{text-align:center;font-size:12.5px;color:#444}
+pre{background:#f6f8fa;border:1px solid #e1e4e8;border-radius:4px;padding:10px;overflow-x:auto}
+code{font-family:Consolas,monospace;font-size:12.5px}
+hr{border:0;border-top:1px solid #ddd;margin:26px 0}
+blockquote{color:#555;border-left:3px solid #ccc;margin:10px 0;padding-left:12px}
+ul,ol{margin:8px 0 8px 22px}
+</style><body><p>﻿# Supplemental Material S1: External Review and Replication Record</p>
+<p>&gt; This material was moved from the main manuscript appendix sequence to reduce length.</p>
+<p>&gt; All experimental evidence remains in the corresponding sections of the main text and in results/.</p>
+<h2>Appendix H: External review and replication record</h2>
+<h3>9.1 Independent adversarial reviews</h3>
+<p><strong>Review 1</strong> (independent agent; read-only access to all code and results) found the priority/uniform comparison running character-identical code — the headline &quot;priority is no better than uniform&quot; was one experiment run twice, with the blocked arm trained on half the samples — plus further unfair-denominator, untrained-arm, wrong-constant, and suppressed-control defects, all fixed. Its deepest finding was directional: four independent inconsistencies all made the mechanism look cleaner than the measurements, and no listed-number gate catches that pattern (the numeric gates were green throughout). Rule adopted: <strong>no number that has not been independently recomputed is quoted.</strong></p>
+<p><strong>Review 2</strong> (fourth agent, against the frozen deliverable; rating B−) found &quot;residual harm&quot; resting on single seeds — retested as exp14 (8 seeds × N∈{4,000, 8,000, 16,000}; at N=16,000 the gap widens to 27.8pp, bit-identical across two machines; the finding was later re-attributed to the β=20 artefact, §4.12) — and the priority test underpowered at 3 seeds — retested as exp15 (20-seed paired: uniform 13.85±2.66 vs priority 14.80±3.96, sign-flip p=0.32, dz=−0.24; restated as &quot;no detectable difference&quot; with the ~140-seed resolution limit published). The same review confirmed one-command reproduction 18/18 PASS, matching checksums, genuine sampled citations, and tables matching result files digit-for-digit. An unsourced r=0.222 was replaced by exp13&#x27;s measurement (corr(m1, correct)=−0.070, AUC=0.458).</p>
+<p><strong>Review 3</strong> (code-level probe; read-only against the frozen deliverable) closed all four issues by pre-registered retest rather than re-reading: exp41 (M7 gating redundant with θ_dup — either gate or dedup suffices; reward selectivity unmeasurable), exp42 (forgetting benefit never demonstrated — importance pruning is bit-identical to FIFO under uniform reward), the θ protocol pinned as the MODEL.md §3.2a triplet, and the ablation matrix&#x27;s M0 mirror row confirmed.</p>
+<h3>9.2 Independent clean replications</h3>
+<p><strong>Replicator 1</strong> (third agent; documents + manifest only, <strong>no source code</strong>): verdict <strong>partially reproducible; the headline contrast did not reproduce</strong> — the most valuable criticism this project received. Matched: checksums, capacity (20/20 at N=16,000), dual readout (41/50 vs 50/50), no-attractor gain, L3 storage arithmetic, residual-arm magnitude. Not matched: the no-residual arm (27.17±0.47 vs paper 1.08±0.16). Root cause: four documentation defects, all fixed — &quot;overlap 0.90&quot; is a mixing weight, not input cosine (actual 0.986±0.004); the EMA formula was written backwards (code is 0.9μ+0.1x); the θ development set was unspecified (this choice alone swings code cosine 0.054→0.632); residual-measure semantics were inconsistent between sections. §4.11 is the answer. Adversarial review finds paper-vs-results inconsistencies; clean replication finds the gap between documentation and rebuildability.</p>
+<p><strong>Replicator 2</strong> (frozen deliverable, 2026-11): re-implemented the three L0 groups from the documents. Groups A (capacity) and C (dual readout) match throughout (60/60 at 1.000; 38.7/50 vs 39/50); group B (residual) is systematically high, and a differential diagnosis (bench/diag_theta_protocol.py, N=8,000, 3 seeds) localised the discrepancy to the <strong>θ development protocol</strong>: θ≡0 gives deg25 0.950/0.842, duty-cycle development gives 1.000/0.950, the default code-value development gives <strong>0.000/0.000</strong> — one knob spans the whole [0.000, 1.000] range. Lessons formalised as MODEL.md §3.2a: qualitative directions are invariant across converging protocols; absolute values are not comparable across protocols.</p>
+<h3>9.3 Revision record</h3>
+<p>Rounds 3–7 responded to internal diagnoses, code-level reviews, the journal-readiness assessment and external literature memos. Their dispositions are not repeated row-by-row: the evidence for each lives in the experiment section it points to.</p>
+<table>
+<tr><th>Round</th><th>Scope</th><th>Outcome</th></tr>
+<tr><td>3</td><td>β scale law, real corpus, evaluation forensics</td><td>9 dispositions; 5 re-attributed anomalies to instruments (β calibration, evaluation alignment, development protocol), 1 genuine mechanistic refutation (threshold-homeostatic develop()); evidence in §4.12–4.13</td></tr>
+<tr><td>4</td><td>temporal chains, abstention operating point, RIF causal test</td><td>exp27 vacuum → exp28 link mechanism; exp35b calibration (ECE 0.283→0.047, cost −55%; the G-4 FAIL recorded); exp34/34b placebo-controlled negatives and the suppression trilemma; evidence in §4.14–4.17</td></tr>
+<tr><td>5</td><td>code-level review response, external baselines, v2-corpus rerun, comprehensive audit</td><td>exp38 Hopfield/SDM baselines, exp40 public corpus, exp39 cross-encoder residual boundary; the §4.15 verdict flip recorded; v1-artefact numbers purged (§4.13); evidence in §4.19–4.21</td></tr>
+<tr><td>6</td><td>neighbouring-literature citations</td><td>refs bank +6 machine-verified entries; claim-scope narrowing only — no result changes</td></tr>
+<tr><td>7</td><td>external-review response</td><td>title finalised (residual claim demoted from the headline; &quot;Reproducible&quot; added); core citations completed — no result changes</td></tr>
+</table>
+<h3>9.4 Methodological summary</h3>
+<p>Across the revision record (§9.3), most dispositions re-attributed anomalies to instruments rather than mechanisms; the negative results gained verdict power from pre-registered criteria and control arms — without the off-arm placebo, exp34&#x27;s data would have been read as &quot;RIF makes memory stronger&quot;; without exp27&#x27;s 3/200-vs-0/200 signal, the link mechanism would never have been motivated. The code-level probe method (read-only import, bit-for-bit reproduction of the deliverable&#x27;s numbers, hunting mechanisms rather than numeric contradictions) yields one more decidable evidence chain than document review: &quot;INCONCLUSIVE&quot; does not survive a functional-coverage analysis — the honest tightening is a pre-registered retest. <strong>Instrument-first stepwise attribution precedes mechanistic explanation.</strong></p></body></html>

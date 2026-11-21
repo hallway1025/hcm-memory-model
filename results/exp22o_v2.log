@@ -1,0 +1,2 @@
+{"n_probes": 200, "hit": 0, "bad_sample": [{"i": 8, "true": 7, "idx": 7, "act": "recall", "m1": 1.0}, {"i": 19, "true": 15, "idx": 15, "act": "recall", "m1": 1.0}, {"i": 21, "true": 17, "idx": 17, "act": "recall", "m1": 1.0}, {"i": 30, "true": 24, "idx": 24, "act": "recall", "m1": 1.0}, {"i": 35, "true": 28, "idx": 28, "act": "recall", "m1": 1.0}]}
+saved

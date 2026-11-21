@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nLBAun30EXi7Db8/+zR7VSZS+8M</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.04127,2412.09764,2407.04153,2512.14709,2607.13591,2511.20665&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T13:54:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2510.04127,2412.09764,2407.04153,2512.14709,2607.13591,2511.20665" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.20665v1</id>
+    <title>Harmonic Token Projection (HTP): A Vocabulary-Free, Training-Free, Deterministic, and Reversible Embedding Methodology</title>
+    <updated>2025-11-10T20:51:18Z</updated>
+    <link href="https://arxiv.org/abs/2511.20665v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.20665v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces the Harmonic Token Projection (HTP), a reversible and deterministic framework for generating text embeddings without training, vocabularies, or stochastic parameters. Unlike neural embeddings that rely on statistical co-occurrence or optimization, HTP encodes each token analytically as a harmonic trajectory derived from its Unicode integer representation, establishing a bijective and interpretable mapping between discrete symbols and continuous vector space. The harmonic formulation provides phase-coherent projections that preserve both structure and reversibility, enabling semantic similarity estimation from purely geometric alignment. Experimental evaluation on the Semantic Textual Similarity Benchmark (STS-B) and its multilingual extension shows that HTP achieves a Spearman correlation of \r{ho} = 0.68 in English, maintaining stable performance across ten languages with negligible computational cost and sub-millisecond latency per sentence pair. This demonstrates that meaningful semantic relations can emerge from deterministic geometry, offering a transparent and efficient alternative to data-driven embeddings. Keywords: Harmonic Token Projection, reversible embedding, deterministic encoding, semantic similarity, multilingual representation.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-10T20:51:18Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tcharlies Schmitz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.04153v1</id>
+    <title>Mixture of A Million Experts</title>
+    <updated>2024-07-04T20:59:20Z</updated>
+    <link href="https://arxiv.org/abs/2407.04153v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.04153v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The feedforward (FFW) layers in standard transformer architectures incur a linear increase in computational costs and activation memory as the hidden layer width grows. Sparse mixture-of-experts (MoE) architectures have emerged as a viable approach to address this issue by decoupling model size from computational cost. The recent discovery of the fine-grained MoE scaling law shows that higher granularity leads to better performance. However, existing MoE models are limited to a small number of experts due to computational and optimization challenges. This paper introduces PEER (parameter efficient expert retrieval), a novel layer design that utilizes the product key technique for sparse retrieval from a vast pool of tiny experts (over a million). Experiments on language modeling tasks demonstrate that PEER layers outperform dense FFWs and coarse-grained MoEs in terms of performance-compute trade-off. By enabling efficient utilization of a massive number of experts, PEER unlocks the potential for further scaling of transformer models while maintaining computational efficiency.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-04T20:59:20Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xu Owen He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.14709v1</id>
+    <title>Attention as Binding: A Vector-Symbolic Perspective on Transformer Reasoning</title>
+    <updated>2025-12-08T05:38:24Z</updated>
+    <link href="https://arxiv.org/abs/2512.14709v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.14709v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformer-based language models display impressive reasoning-like behavior, yet remain brittle on tasks that require stable symbolic manipulation. This paper develops a unified perspective on these phenomena by interpreting self-attention and residual streams as implementing an approximate Vector Symbolic Architecture (VSA). In this view, queries and keys define role spaces, values encode fillers, attention weights perform soft unbinding, and residual connections realize superposition of many bound structures. We use this algebraic lens to relate transformer internals to chain-of-thought traces, program-based reasoning, and memory-augmented tool use, and to explain characteristic failure modes such as variable confusion and inconsistency across logically related prompts. Building on this perspective, we propose VSA-inspired architectural biases, including explicit binding/unbinding heads and hyperdimensional memory layers, and training objectives that promote role-filler separation and robust superposition. Finally, we outline metrics for measuring "VSA-likeness" and logical compositionality, and pose theoretical and architectural open problems. Overall, the paper argues that viewing attention as soft vector-symbolic computation offers a principled route toward more interpretable and logically reliable reasoning systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-08T05:38:24Z</published>
+    <arxiv:comment>12 pages with references. Submitted to 'Logical and Symbolic Reasoning in Language Models @ AAAI 2026' conference and is under review</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sahil Rajesh Dhayalkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.04127v3</id>
+    <title>Projection and Quantisation: A Unifying View of Learning to Hash, from Random Projections to the RAG Era</title>
+    <updated>2026-06-13T02:23:06Z</updated>
+    <link href="https://arxiv.org/abs/2510.04127v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.04127v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Approximate nearest-neighbour search underpins large-scale retrieval and retrieval-augmented generation, yet its methods are studied in communities that seldom read one another. We argue that they form one field with three design choices. We develop the projection-quantisation-organisation lens: every method places its projections, places its quantisation thresholds, and organises the resulting codes for search. We test the lens with a reproducible measurement, released as the open BitBudget benchmark, and report three findings. First, the quantisation axis delivers the largest memory savings: a one-bit code with full-precision re-ranking matches uncompressed quality for six of seven embedders, the scanned code one thirty-second of the float's size. Second, the orderings the lens anticipates, including a learned-embedding regime where binary codes overtake an inverted-file product quantiser at a matched byte budget, recur as the embedding is enlarged. Third, given class labels, an eight-byte supervised code more than doubles the retrieval quality of the two-kilobyte task-agnostic float it replaces. We also recast the semantic identifiers of generative retrieval as quantisation codes. The main contribution is a single, tested account of compact-code search, from random projections to the retrieval-augmented era.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-05T09:59:56Z</published>
+    <arxiv:comment>80 pages, 19 figures, 22 tables. Survey. Accompanying open benchmark (BitBudget): https://github.com/sjmoran/bitbudget ; live leaderboard: https://sjmoran.github.io/bitbudget/</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Sean Moran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.09764v2</id>
+    <title>Memory Layers at Scale</title>
+    <updated>2024-12-20T17:36:52Z</updated>
+    <link href="https://arxiv.org/abs/2412.09764v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.09764v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory layers use a trainable key-value lookup mechanism to add extra parameters to a model without increasing FLOPs. Conceptually, sparsely activated memory layers complement compute-heavy dense feed-forward layers, providing dedicated capacity to store and retrieve information cheaply. This work takes memory layers beyond proof-of-concept, proving their utility at contemporary scale. On downstream tasks, language models augmented with our improved memory layer outperform dense models with more than twice the computation budget, as well as mixture-of-expert models when matched for both compute and parameters. We find gains are especially pronounced for factual tasks. We provide a fully parallelizable memory layer implementation, demonstrating scaling laws with up to 128B memory parameters, pretrained to 1 trillion tokens, comparing to base models with up to 8B parameters.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-12T23:56:57Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Vincent-Pierre Berges</name>
+    </author>
+    <author>
+      <name>Barlas Oğuz</name>
+    </author>
+    <author>
+      <name>Daniel Haziza</name>
+    </author>
+    <author>
+      <name>Wen-tau Yih</name>
+    </author>
+    <author>
+      <name>Luke Zettlemoyer</name>
+    </author>
+    <author>
+      <name>Gargi Ghosh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.13591v3</id>
+    <title>Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents</title>
+    <updated>2026-10-12T18:07:30Z</updated>
+    <link href="https://arxiv.org/abs/2607.13591v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.13591v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents increasingly rely on external memory systems to accumulate experience across tasks. Yet nearly all existing approaches, from graph-structured memories to reflective insight stores, access memory through fixed, hand-designed heuristics. We argue that this static view of memory is a core bottleneck for agentic learning because optimal memory behavior is fundamentally context-dependent. The early stages of the tasks, benefit from minimal retrieval because memory is sparse; recurring goal types benefit from plan reuse rather than generic nearest-neighbor lookup; stuck agents benefit from re-retrieval with alternative queries; and across long task streams, the memory store itself must be consolidated and pruned to remain useful. We present Memory as a Controlled Process (MemCon), a framework that models memory operations as a Markov Decision Process and learns an online policy that adaptively decides when, what, and how much to retrieve, when to inject a distilled plan, and when to consolidate or forget. MemCon is backend-agnostic: it wraps any existing memory implementation, learns from task-by-task binary feedback with no pretraining and no additional LLM calls, and uses a lightweight tabular contextual bandit with UCB exploration that converges within tens of tasks. Across 6 benchmarks, 3 agent frameworks, and 3 LLM backbones, MemCon consistently outperforms multiple memory baselines by up to 15.2 points in task success while reducing token consumption by 5--20%.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-15T08:32:40Z</published>
+    <arxiv:comment>none</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Eric Hanchen Jiang</name>
+    </author>
+    <author>
+      <name>Zhi Zhang</name>
+    </author>
+    <author>
+      <name>Yuchen Wu</name>
+    </author>
+    <author>
+      <name>Levina Li</name>
+    </author>
+    <author>
+      <name>Dong Liu</name>
+    </author>
+    <author>
+      <name>Xiao Liang</name>
+    </author>
+    <author>
+      <name>Rui Sun</name>
+    </author>
+    <author>
+      <name>Yubei Li</name>
+    </author>
+    <author>
+      <name>Edward Sun</name>
+    </author>
+    <author>
+      <name>Haozheng Luo</name>
+    </author>
+    <author>
+      <name>Zhaolu Kang</name>
+    </author>
+    <author>
+      <name>Aylin Caliskan</name>
+    </author>
+    <author>
+      <name>Kai-Wei Chang</name>
+    </author>
+    <author>
+      <name>Ying Nian Wu</name>
+    </author>
+  </entry>
+</feed>

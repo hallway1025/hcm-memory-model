@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ayTXYLuRsZnDBu+Jz1xQhXzHiXE</id>
+  <title>arXiv Query: search_query=all:approximate AND all:nearest AND all:neighbor AND all:search AND all:survey&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-11-07T11:34:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:approximate+AND+(all:nearest+AND+(all:neighbor+AND+(all:search+AND+all:survey)))&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>17</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.06501v1</id>
+    <title>Survey of Filtered Approximate Nearest Neighbor Search over the Vector-Scalar Hybrid Data</title>
+    <updated>2025-05-10T04:02:14Z</updated>
+    <link href="https://arxiv.org/abs/2505.06501v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.06501v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Filtered approximate nearest neighbor search (FANNS), an extension of approximate nearest neighbor search (ANNS) that incorporates scalar filters, has been widely applied to constrained retrieval of vector data. Despite its growing importance, no dedicated survey on FANNS over the vector-scalar hybrid data currently exists, and the field has several problems, including inconsistent definitions of the search problem, insufficient framework for algorithm classification, and incomplete analysis of query difficulty. This survey paper formally defines the concepts of hybrid dataset and hybrid query, as well as the corresponding evaluation metrics. Based on these, a pruning-focused framework is proposed to classify and summarize existing algorithms, providing a broader and finer-grained classification framework compared to the existing ones. In addition, a review is conducted on representative hybrid datasets, followed by an analysis on the difficulty of hybrid queries from the perspective of distribution relationships between data and queries. This paper aims to establish a structured foundation for FANNS over the vector-scalar hybrid data, facilitate more meaningful comparisons between FANNS algorithms, and offer practical recommendations for practitioners. The code used for downloading hybrid datasets and analyzing query difficulty is available at https://github.com/lyj-fdu/FANNS</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-10T04:02:14Z</published>
+    <arxiv:comment>This manuscript was submitted to The VLDB Journal for review</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Yanjun Lin</name>
+    </author>
+    <author>
+      <name>Kai Zhang</name>
+    </author>
+    <author>
+      <name>Zhenying He</name>
+    </author>
+    <author>
+      <name>Yinan Jing</name>
+    </author>
+    <author>
+      <name>X. Sean Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.12631v2</id>
+    <title>A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search</title>
+    <updated>2021-05-10T08:54:16Z</updated>
+    <link href="https://arxiv.org/abs/2101.12631v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.12631v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Approximate nearest neighbor search (ANNS) constitutes an important operation in a multitude of applications, including recommendation systems, information retrieval, and pattern recognition. In the past decade, graph-based ANNS algorithms have been the leading paradigm in this domain, with dozens of graph-based ANNS algorithms proposed. Such algorithms aim to provide effective, efficient solutions for retrieving the nearest neighbors for a given query. Nevertheless, these efforts focus on developing and optimizing algorithms with different approaches, so there is a real need for a comprehensive survey about the approaches' relative performance, strengths, and pitfalls. Thus here we provide a thorough comparative analysis and experimental evaluation of 13 representative graph-based ANNS algorithms via a new taxonomy and fine-grained pipeline. We compared each algorithm in a uniform test environment on eight real-world datasets and 12 synthetic datasets with varying sizes and characteristics. Our study yields novel discoveries, offerings several useful principles to improve algorithms, thus designing an optimized method that outperforms the state-of-the-art algorithms. This effort also helped us pinpoint algorithms' working portions, along with rule-of-thumb recommendations about promising research directions and suitable algorithms for practitioners in different fields.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-29T15:12:35Z</published>
+    <arxiv:comment>28 pages, 21 figures, 24 tables, conference</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Mengzhao Wang</name>
+    </author>
+    <author>
+      <name>Xiaoliang Xu</name>
+    </author>
+    <author>
+      <name>Qiang Yue</name>
+    </author>
+    <author>
+      <name>Yuxiang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.13491v2</id>
+    <title>Dimensionality-Reduction Techniques for Approximate Nearest Neighbor Search: A Survey and Evaluation</title>
+    <updated>2025-02-20T18:09:53Z</updated>
+    <link href="https://arxiv.org/abs/2403.13491v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.13491v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Approximate Nearest Neighbor Search (ANNS) on high-dimensional vectors has become a fundamental and essential component in various machine learning tasks. Recently, with the rapid development of deep learning models and the applications of Large Language Models (LLMs), the dimensionality of the vectors keeps growing in order to accommodate a richer semantic representation. This poses a major challenge to the ANNS solutions since distance calculation cost in ANNS grows linearly with the dimensionality of vectors. To overcome this challenge, dimensionality-reduction techniques can be leveraged to accelerate the distance calculation in the search process. In this paper, we investigate six dimensionality-reduction techniques that have the potential to improve ANNS solutions, including classical algorithms such as PCA and vector quantization, as well as algorithms based on deep learning approaches. We further describe two frameworks to apply these techniques in the ANNS workflow, and theoretically analyze the time and space costs, as well as the beneficial threshold for the pruning ratio of these techniques. The surveyed techniques are evaluated on six public datasets. The analysis of the results reveals the characteristics of the different families of techniques and provides insights into the promising future research directions.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-20T10:48:00Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Zeyu Wang</name>
+    </author>
+    <author>
+      <name>Haoran Xiong</name>
+    </author>
+    <author>
+      <name>Qitong Wang</name>
+    </author>
+    <author>
+      <name>Zhenying He</name>
+    </author>
+    <author>
+      <name>Peng Wang</name>
+    </author>
+    <author>
+      <name>Themis Palpanas</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.09823v1</id>
+    <title>Approximate Nearest Neighbor Search in High Dimensions</title>
+    <updated>2018-06-26T07:35:45Z</updated>
+    <link href="https://arxiv.org/abs/1806.09823v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.09823v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The nearest neighbor problem is defined as follows: Given a set $P$ of $n$ points in some metric space $(X,D)$, build a data structure that, given any point $q$, returns a point in $P$ that is closest to $q$ (its "nearest neighbor" in $P$). The data structure stores additional information about the set $P$, which is then used to find the nearest neighbor without computing all distances between $q$ and $P$. The problem has a wide range of applications in machine learning, computer vision, databases and other fields.
+  To reduce the time needed to find nearest neighbors and the amount of memory used by the data structure, one can formulate the {\em approximate} nearest neighbor problem, where the the goal is to return any point $p' \in P$ such that the distance from $q$ to $p'$ is at most $c \cdot \min_{p \in P} D(q,p)$, for some $c \geq 1$. Over the last two decades, many efficient solutions to this problem were developed. In this article we survey these developments, as well as their connections to questions in geometric functional analysis and combinatorial geometry.</summary>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-26T07:35:45Z</published>
+    <arxiv:comment>27 pages, no figures; to appear in the proceedings of ICM 2018 (accompanying the talk by P. Indyk)</arxiv:comment>
+    <arxiv:primary_category term="cs.DS"/>
+    <author>
+      <name>Alexandr Andoni</name>
+    </author>
+    <author>
+      <name>Piotr Indyk</name>
+    </author>
+    <author>
+      <name>Ilya Razenshteyn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.11285v1</id>
+    <title>Experimental Analysis of Locality Sensitive Hashing Techniques for High-Dimensional Approximate Nearest Neighbor Searches</title>
+    <updated>2020-06-19T17:57:41Z</updated>
+    <link href="https://arxiv.org/abs/2006.11285v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.11285v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Finding nearest neighbors in high-dimensional spaces is a fundamental operation in many multimedia retrieval applications. Exact tree-based indexing approaches are known to suffer from the notorious curse of dimensionality for high-dimensional data. Approximate searching techniques sacrifice some accuracy while returning good enough results for faster performance. Locality Sensitive Hashing (LSH) is a very popular technique for finding approximate nearest neighbors in high-dimensional spaces. Apart from providing theoretical guarantees on the query results, one of the main benefits of LSH techniques is their good scalability to large datasets because they are external memory based. The most dominant costs for existing LSH techniques are the algorithm time and the index I/Os required to find candidate points. Existing works do not compare both of these dominant costs in their evaluation. In this experimental survey paper, we show the impact of both these costs on the overall performance of the LSH technique. We compare three state-of-the-art techniques on four real-world datasets, and show that, in contrast to recent works, C2LSH is still the state-of-the-art algorithm in terms of performance while achieving similar accuracy as its recent competitors.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-19T17:57:41Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:2003.06415</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <arxiv:journal_ref>ADC 2021. Lecture Notes in Computer Science, vol. 12610. Springer, Cham, pp. 62-73</arxiv:journal_ref>
+    <author>
+      <name>Omid Jafari</name>
+    </author>
+    <author>
+      <name>Parth Nagarkar</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-69377-0_6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-69377-0_6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.07789v1</id>
+    <title>Filtered Approximate Nearest Neighbor Search: A Unified Benchmark and Systematic Experimental Study [Experiment, Analysis &amp; Benchmark]</title>
+    <updated>2025-09-09T14:23:30Z</updated>
+    <link href="https://arxiv.org/abs/2509.07789v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.07789v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a given dataset $\mathcal{D}$ and structured label $f$, the goal of Filtered Approximate Nearest Neighbor Search (FANNS) algorithms is to find top-$k$ points closest to a query that satisfy label constraints, while ensuring both recall and QPS (Queries Per Second). In recent years, many FANNS algorithms have been proposed. However, the lack of a systematic investigation makes it difficult to understand their relative strengths and weaknesses. Additionally, we found that: (1) FANNS algorithms have coupled, dataset-dependent parameters, leading to biased comparisons. (2) Key impact factors are rarely analyzed systematically, leaving unclear when each algorithm performs well. (3) Disparate datasets, workloads, and biased experiment designs make cross-algorithm comparisons unreliable. Thus, a comprehensive survey and benchmark for FANNS is crucial to achieve the following goals: designing a fair evaluation and clarifying the classification of algorithms, conducting in-depth analysis of their performance, and establishing a unified benchmark. First, we propose a taxonomy (dividing methods into \textit{filter-then-search}, \textit{search-then-filter}, \textit{hybrid-search}) and a systematic evaluation framework, integrating unified parameter tuning and standardized filtering across algorithms to reduce implementation-induced performance variations and reflect core trade-offs. Then, we conduct a comprehensive empirical study to analyze how query difficulty and dataset properties impact performance, evaluating robustness under pressures like filter selectivity, Recall@k, and scalability to clarify each method's strengths. Finally, we establish a standardized benchmark with real-world datasets and open-source related resources to ensure reproducible future research.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-09T14:23:30Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Jiayang Shi</name>
+    </author>
+    <author>
+      <name>Yuzheng Cai</name>
+    </author>
+    <author>
+      <name>Weiguo Zheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1408.2927v1</id>
+    <title>Hashing for Similarity Search: A Survey</title>
+    <updated>2014-08-13T07:29:12Z</updated>
+    <link href="https://arxiv.org/abs/1408.2927v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1408.2927v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Similarity search (nearest neighbor search) is a problem of pursuing the data items whose distances to a query item are the smallest from a large database. Various methods have been developed to address this problem, and recently a lot of efforts have been devoted to approximate search. In this paper, we present a survey on one of the main solutions, hashing, which has been widely studied since the pioneering work locality sensitive hashing. We divide the hashing algorithms two main categories: locality sensitive hashing, which designs hash functions without exploring the data distribution and learning to hash, which learns hash functions according the data distribution, and review them from various aspects, including hash function design and distance measure and search scheme in the hash coding space.</summary>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-08-13T07:29:12Z</published>
+    <arxiv:primary_category term="cs.DS"/>
+    <author>
+      <name>Jingdong Wang</name>
+    </author>
+    <author>
+      <name>Heng Tao Shen</name>
+    </author>
+    <author>
+      <name>Jingkuan Song</name>
+    </author>
+    <author>
+      <name>Jianqiu Ji</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.06525v1</id>
+    <title>Leveraging Reinforcement Learning for evaluating Robustness of KNN Search Algorithms</title>
+    <updated>2021-02-10T16:10:58Z</updated>
+    <link href="https://arxiv.org/abs/2102.06525v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.06525v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The problem of finding K-nearest neighbors in the given dataset for a given query point has been worked upon since several years. In very high dimensional spaces the K-nearest neighbor search (KNNS) suffers in terms of complexity in computation of high dimensional distances. With the issue of curse of dimensionality, it gets quite tedious to reliably bank on the results of variety approximate nearest neighbor search approaches. In this paper, we survey some novel K-Nearest Neighbor Search approaches that tackles the problem of Search from the perspectives of computations, the accuracy of approximated results and leveraging parallelism to speed-up computations. We attempt to derive a relationship between the true positive and false points for a given KNNS approach. Finally, in order to evaluate the robustness of a KNNS approach against adversarial points, we propose a generic Reinforcement Learning based framework for the same.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-10T16:10:58Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Pramod Vadiraja</name>
+    </author>
+    <author>
+      <name>Christoph Peter Balada</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.08942v1</id>
+    <title>A Survey on Locality Sensitive Hashing Algorithms and their Applications</title>
+    <updated>2021-02-17T18:56:03Z</updated>
+    <link href="https://arxiv.org/abs/2102.08942v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.08942v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Finding nearest neighbors in high-dimensional spaces is a fundamental operation in many diverse application domains. Locality Sensitive Hashing (LSH) is one of the most popular techniques for finding approximate nearest neighbor searches in high-dimensional spaces. The main benefits of LSH are its sub-linear query performance and theoretical guarantees on the query accuracy. In this survey paper, we provide a review of state-of-the-art LSH and Distributed LSH techniques. Most importantly, unlike any other prior survey, we present how Locality Sensitive Hashing is utilized in different application domains.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-17T18:56:03Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Omid Jafari</name>
+    </author>
+    <author>
+      <name>Preeti Maurya</name>
+    </author>
+    <author>
+      <name>Parth Nagarkar</name>
+    </author>
+    <author>
+      <name>Khandker Mushfiqul Islam</name>
+    </author>
+    <author>
+      <name>Chidambaram Crushev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16719v1</id>
+    <title>GPU-Accelerated Algorithms for Graph Vector Search: Taxonomy, Empirical Study, and Research Directions</title>
+    <updated>2026-02-10T16:18:04Z</updated>
+    <link href="https://arxiv.org/abs/2602.16719v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16719v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Approximate Nearest Neighbor Search (ANNS) underpins many large-scale data mining and machine learning applications, with efficient retrieval increasingly hinging on GPU acceleration as dataset sizes grow. Although graph-based approaches represent the state of the art in approximate nearest neighbor search, there is a lack of systematic understanding regarding their optimization for modern GPU architectures and their end-to-end effectiveness in practical scenarios. In this work, we present a comprehensive survey and experimental study of GPU-accelerated graph-based vector search algorithms. We establish a detailed taxonomy of GPU optimization strategies and clarify the mapping between algorithmic tasks and hardware execution units within GPUs. Through a thorough evaluation of six leading algorithms on eight large-scale benchmark datasets, we assess both graph index construction and query search performance. Our analysis reveals that distance computation remains the primary computational bottleneck, while data transfer between the host CPU and GPU emerges as the dominant factor influencing real-world latency at large scale. We also highlight key trade-offs in scalability and memory usage across different system designs. Our findings offer clear guidelines for designing scalable and robust GPU-powered approximate nearest neighbor search systems, and provide a comprehensive benchmark for the knowledge discovery and data mining community.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T16:18:04Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Yaowen Liu</name>
+    </author>
+    <author>
+      <name>Xuejia Chen</name>
+    </author>
+    <author>
+      <name>Anxin Tian</name>
+    </author>
+    <author>
+      <name>Haoyang Li</name>
+    </author>
+    <author>
+      <name>Qinbin Li</name>
+    </author>
+    <author>
+      <name>Xin Zhang</name>
+    </author>
+    <author>
+      <name>Alexander Zhou</name>
+    </author>
+    <author>
+      <name>Chen Jason Zhang</name>
+    </author>
+    <author>
+      <name>Qing Li</name>
+    </author>
+    <author>
+      <name>Lei Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.03163v4</id>
+    <title>Permutation Search Methods are Efficient, Yet Faster Search is Possible</title>
+    <updated>2016-10-31T18:50:48Z</updated>
+    <link href="https://arxiv.org/abs/1506.03163v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.03163v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We survey permutation-based methods for approximate k-nearest neighbor search. In these methods, every data point is represented by a ranked list of pivots sorted by the distance to this point. Such ranked lists are called permutations. The underpinning assumption is that, for both metric and non-metric spaces, the distance between permutations is a good proxy for the distance between original points. Thus, it should be possible to efficiently retrieve most true nearest neighbors by examining only a tiny subset of data points whose permutations are similar to the permutation of a query. We further test this assumption by carrying out an extensive experimental evaluation where permutation methods are pitted against state-of-the art benchmarks (the multi-probe LSH, the VP-tree, and proximity-graph based retrieval) on a variety of realistically large data set from the image and textual domain. The focus is on the high-accuracy retrieval methods for generic spaces. Additionally, we assume that both data and indices are stored in main memory. We find permutation methods to be reasonably efficient and describe a setup where these methods are most useful. To ease reproducibility, we make our software and data sets publicly available.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-10T04:50:29Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bilegsaikhan Naidan</name>
+    </author>
+    <author>
+      <name>Leonid Boytsov</name>
+    </author>
+    <author>
+      <name>Eric Nyberg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.00848v1</id>
+    <title>Neural Distributed Autoassociative Memories: A Survey</title>
+    <updated>2017-09-04T07:54:53Z</updated>
+    <link href="https://arxiv.org/abs/1709.00848v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.00848v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Introduction. Neural network models of autoassociative, distributed memory allow storage and retrieval of many items (vectors) where the number of stored items can exceed the vector dimension (the number of neurons in the network). This opens the possibility of a sublinear time search (in the number of stored items) for approximate nearest neighbors among vectors of high dimension. The purpose of this paper is to review models of autoassociative, distributed memory that can be naturally implemented by neural networks (mainly with local learning rules and iterative dynamics based on information locally available to neurons). Scope. The survey is focused mainly on the networks of Hopfield, Willshaw and Potts, that have connections between pairs of neurons and operate on sparse binary vectors. We discuss not only autoassociative memory, but also the generalization properties of these networks. We also consider neural networks with higher-order connections and networks with a bipartite graph structure for non-binary data with linear constraints. Conclusions. In conclusion we discuss the relations to similarity search, advantages and drawbacks of these techniques, and topics for further research. An interesting and still not completely resolved question is whether neural autoassociative memories can search for approximate nearest neighbors faster than other index structures for similarity search, in particular for the case of very high dimensional vectors.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-04T07:54:53Z</published>
+    <arxiv:comment>31 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <arxiv:journal_ref>Cybernetics and Computer Engineering, 2017. 2(188), 5-35</arxiv:journal_ref>
+    <author>
+      <name>V. I. Gritsenko</name>
+    </author>
+    <author>
+      <name>D. A. Rachkovskij</name>
+    </author>
+    <author>
+      <name>A. A. Frolov</name>
+    </author>
+    <author>
+      <name>R. Gayler</name>
+    </author>
+    <author>
+      <name>D. Kleyko</name>
+    </author>
+    <author>
+      <name>E. Osipov</name>
+    </author>
+    <arxiv:doi>10.15407/kvt188.02.005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.15407/kvt188.02.005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.05472v1</id>
+    <title>Learning to Hash for Indexing Big Data - A Survey</title>
+    <updated>2015-09-17T23:19:07Z</updated>
+    <link href="https://arxiv.org/abs/1509.05472v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.05472v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The explosive growth in big data has attracted much attention in designing efficient indexing and search methods recently. In many critical applications such as large-scale search and pattern matching, finding the nearest neighbors to a query is a fundamental research problem. However, the straightforward solution using exhaustive comparison is infeasible due to the prohibitive computational complexity and memory requirement. In response, Approximate Nearest Neighbor (ANN) search based on hashing techniques has become popular due to its promising performance in both efficiency and accuracy. Prior randomized hashing methods, e.g., Locality-Sensitive Hashing (LSH), explore data-independent hash functions with random projections or permutations. Although having elegant theoretic guarantees on the search quality in certain metric spaces, performance of randomized hashing has been shown insufficient in many real-world applications. As a remedy, new approaches incorporating data-driven learning methods in development of advanced hash functions have emerged. Such learning to hash methods exploit information such as data distributions or class labels when optimizing the hash codes or functions. Importantly, the learned hash codes are able to preserve the proximity of neighboring data in the original feature spaces in the hash code spaces. The goal of this paper is to provide readers with systematic understanding of insights, pros and cons of the emerging techniques. We provide a comprehensive survey of the learning to hash framework and representative techniques of various types, including unsupervised, semi-supervised, and supervised. In addition, we also summarize recent hashing approaches utilizing the deep learning models. Finally, we discuss the future direction and trends of research in this area.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-17T23:19:07Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Sanjiv Kumar</name>
+    </author>
+    <author>
+      <name>Shih-Fu Chang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.04172v1</id>
+    <title>Johnson-Lindenstrauss Lemma, Linear and Nonlinear Random Projections, Random Fourier Features, and Random Kitchen Sinks: Tutorial and Survey</title>
+    <updated>2021-08-09T16:58:42Z</updated>
+    <link href="https://arxiv.org/abs/2108.04172v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.04172v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is a tutorial and survey paper on the Johnson-Lindenstrauss (JL) lemma and linear and nonlinear random projections. We start with linear random projection and then justify its correctness by JL lemma and its proof. Then, sparse random projections with $\ell_1$ norm and interpolation norm are introduced. Two main applications of random projection, which are low-rank matrix approximation and approximate nearest neighbor search by random projection onto hypercube, are explained. Random Fourier Features (RFF) and Random Kitchen Sinks (RKS) are explained as methods for nonlinear random projection. Some other methods for nonlinear random projection, including extreme learning machine, randomly weighted neural networks, and ensemble of random projections, are also introduced.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-09T16:58:42Z</published>
+    <arxiv:comment>To appear as a part of an upcoming textbook on dimensionality reduction and manifold learning</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Benyamin Ghojogh</name>
+    </author>
+    <author>
+      <name>Ali Ghodsi</name>
+    </author>
+    <author>
+      <name>Fakhri Karray</name>
+    </author>
+    <author>
+      <name>Mark Crowley</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.08551v2</id>
+    <title>Clustered Hierarchical Entropy-Scaling Search of Astronomical and Biological Data</title>
+    <updated>2019-11-10T15:07:06Z</updated>
+    <link href="https://arxiv.org/abs/1908.08551v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.08551v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Both astronomy and biology are experiencing explosive growth of data, resulting in a "big data" problem that stands in the way of a "big data" opportunity for discovery. One common question asked of such data is that of approximate search ($ρ-$nearest neighbors search). We present a hierarchical search algorithm for such data sets that takes advantage of particular geometric properties apparent in both astronomical and biological data sets, namely the metric entropy and fractal dimensionality of the data. We present CHESS (Clustered Hierarchical Entropy-Scaling Search), a search tool with virtually no loss in specificity or sensitivity, demonstrating a $13.6\times$ speedup over linear search on the Sloan Digital Sky Survey's APOGEE data set and a $68\times$ speedup on the GreenGenes 16S metagenomic data set, as well as asymptotically fewer distance comparisons on APOGEE when compared to the FALCONN locality-sensitive hashing library. CHESS demonstrates an asymptotic complexity not directly dependent on data set size, and is in practice at least an order of magnitude faster than linear search by performing fewer distance comparisons. Unlike locality-sensitive hashing approaches, CHESS can work with any user-defined distance function. CHESS also allows for implicit data compression, which we demonstrate on the APOGEE data set. We also discuss an extension allowing for efficient k-nearest neighbors search.</summary>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-22T18:05:51Z</published>
+    <arxiv:comment>Accepted to IEEE Big Data 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.DS"/>
+    <author>
+      <name>Najib Ishaq</name>
+    </author>
+    <author>
+      <name>George Student</name>
+    </author>
+    <author>
+      <name>Noah M. Daniels</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.11703v4</id>
+    <title>A Comprehensive Survey on Vector Database: Storage and Retrieval Technique, Challenge</title>
+    <updated>2026-03-24T02:24:30Z</updated>
+    <link href="https://arxiv.org/abs/2310.11703v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.11703v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As high-dimensional vector data increasingly surpasses the processing capabilities of traditional database management systems, Vector Databases (VDBs) have emerged and become tightly integrated with large language models, being widely applied in modern artificial intelligence systems. However, existing research has primarily focused on underlying technologies such as approximate nearest neighbor search, with relatively few studies providing a systematic architectural-level review of VDBs or analyzing how these core technologies collectively support the overall capacity of VDBs. This survey aims to offer a comprehensive overview of the core designs and algorithms of VDBs, establishing a holistic understanding of this rapidly evolving field. First, we systematically review the key technologies and design principles of VDBs from the two core dimensions of storage and retrieval, tracing their technological evolution. Next, we conduct an in-depth comparison of several mainstream VDB architectures, summarizing their strengths, limitations, and typical application scenarios. Finally, we explore emerging directions for integrating VDBs with large language models, including open research challenges and trends such as novel indexing strategies. This survey serves as a systematic reference guide for researchers and practitioners, helping readers quickly grasp the technological landscape and development trends in the field of vector databases, and promoting further innovation in both theoretical and applied aspects.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-18T04:31:06Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Le Ma</name>
+    </author>
+    <author>
+      <name>Ran Zhang</name>
+    </author>
+    <author>
+      <name>Yikun Han</name>
+    </author>
+    <author>
+      <name>Shirui Yu</name>
+    </author>
+    <author>
+      <name>Zaitian Wang</name>
+    </author>
+    <author>
+      <name>Zhiyuan Ning</name>
+    </author>
+    <author>
+      <name>Jinghan Zhang</name>
+    </author>
+    <author>
+      <name>Ping Xu</name>
+    </author>
+    <author>
+      <name>Pengjiang Li</name>
+    </author>
+    <author>
+      <name>Ziyue Qiao</name>
+    </author>
+    <author>
+      <name>Wei Ju</name>
+    </author>
+    <author>
+      <name>Chong Chen</name>
+    </author>
+    <author>
+      <name>Dongjie Wang</name>
+    </author>
+    <author>
+      <name>Kunpeng Liu</name>
+    </author>
+    <author>
+      <name>Pengyang Wang</name>
+    </author>
+    <author>
+      <name>Pengfei Wang</name>
+    </author>
+    <author>
+      <name>Yanjie Fu</name>
+    </author>
+    <author>
+      <name>Chunjiang Liu</name>
+    </author>
+    <author>
+      <name>Yuanchun Zhou</name>
+    </author>
+    <author>
+      <name>Chang-Tien Lu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.06903v2</id>
+    <title>Estimating the Turn-Around Radii of Six Isolated Galaxy Groups in the Local Universe</title>
+    <updated>2018-02-27T23:58:09Z</updated>
+    <link href="https://arxiv.org/abs/1709.06903v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.06903v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The estimates of the turn-around radii of six isolated galaxy groups in the nearby universe are presented. From the Tenth Data Release of the Sloan Digital Sky Survey, we first select those isolated galaxy groups at redshifts $z\le 0.05$ in the mass range of [0.3-1]$\times10^{14}\,h^{-1}M_{\odot}$ whose nearest neighbor groups are located at distances larger than fiften times their virial radii. Then, we search for a gravitationally interacting web-like structure around each isolated group, which appears as an inclined streak pattern in the anisotropic spatial distribution of the neighbor field galaxies . Out of 59 isolated groups, only seven are found to possess such web-like structures in their neighbor zones, but one of them turns out to be NGC 5353/4, whose turn-around radius was already measured in the previous work and thus excluded from our analysis. Applying the Turn-around Radius Estimator algorithm devised by Lee et al. to the identified web-like structures of the remaining six target groups, we determine their turn-around radii and show that three out of the six targets have larger turn-around radii than the spherical bound limit predicted by the Planck cosmology. We discuss possible sources of the apparent violations of the three groups, including the underestimated spherical bound-limit due to the approximation of the turn-around mass by the virial mass.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-20T14:34:08Z</published>
+    <arxiv:comment>accepted for publication in ApJ, 9 figures, 3 tables, the TRE algorithm refined, significantly improved estimates of the turn-around radii and their errors</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>Astrophys.J. 856 (2018) 57</arxiv:journal_ref>
+    <author>
+      <name>Jounghun Lee</name>
+      <arxiv:affiliation>Seoul National University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.3847/1538-4357/aab358</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-4357/aab358" title="doi"/>
+  </entry>
+</feed>

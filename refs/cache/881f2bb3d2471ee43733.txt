@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IGlOSmz3cNeoRN08KUyLgCHyfII</id>
+  <title>arXiv Query: search_query=all:event AND all:extraction AND all:knowledge AND all:base&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T13:52:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:event+AND+(all:extraction+AND+(all:knowledge+AND+all:base))&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>368</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1904.12324v1</id>
+    <title>OPIEC: An Open Information Extraction Corpus</title>
+    <updated>2019-04-28T13:57:54Z</updated>
+    <link href="https://arxiv.org/abs/1904.12324v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.12324v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Open information extraction (OIE) systems extract relations and their arguments from natural language text in an unsupervised manner. The resulting extractions are a valuable resource for downstream tasks such as knowledge base construction, open question answering, or event schema induction. In this paper, we release, describe, and analyze an OIE corpus called OPIEC, which was extracted from the text of English Wikipedia. OPIEC complements the available OIE resources: It is the largest OIE corpus publicly available to date (over 340M triples) and contains valuable metadata such as provenance information, confidence scores, linguistic annotations, and semantic annotations including spatial and temporal information. We analyze the OPIEC corpus by comparing its content with knowledge bases such as DBpedia or YAGO, which are also based on Wikipedia. We found that most of the facts between entities present in OPIEC cannot be found in DBpedia and/or YAGO, that OIE facts often differ in the level of specificity compared to knowledge base facts, and that OIE open relations are generally highly polysemous. We believe that the OPIEC corpus is a valuable resource for future research on automated knowledge base construction.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-28T13:57:54Z</published>
+    <arxiv:comment>In Proceedings of the Conference of Automatic Knowledge Base Construction (AKBC) 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>In Proceedings of the Conference of Automatic Knowledge Base Construction (AKBC) 2019</arxiv:journal_ref>
+    <author>
+      <name>Kiril Gashteovski</name>
+    </author>
+    <author>
+      <name>Sebastian Wanner</name>
+    </author>
+    <author>
+      <name>Sven Hertling</name>
+    </author>
+    <author>
+      <name>Samuel Broscheit</name>
+    </author>
+    <author>
+      <name>Rainer Gemulla</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.09393v1</id>
+    <title>Modality and Negation in Event Extraction</title>
+    <updated>2021-09-20T09:39:23Z</updated>
+    <link href="https://arxiv.org/abs/2109.09393v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.09393v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language provides speakers with a rich system of modality for expressing thoughts about events, without being committed to their actual occurrence. Modality is commonly used in the political news domain, where both actual and possible courses of events are discussed. NLP systems struggle with these semantic phenomena, often incorrectly extracting events which did not happen, which can lead to issues in downstream applications. We present an open-domain, lexicon-based event extraction system that captures various types of modality. This information is valuable for Question Answering, Knowledge Graph construction and Fact-checking tasks, and our evaluation shows that the system is sufficiently strong to be used in downstream applications.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-20T09:39:23Z</published>
+    <arxiv:comment>S. Bijl de Vroe, L. Guillou, M. Stanojević, N. McKenna, and M. Steedman. 2021. Modality and Negation in Event Extraction. In Proceedings of the 4th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2021), pages 31-42, online. Association for Computational Linguistics</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>In Proceedings of CASE 2021, pages 31-42, online. Association for Computational Linguistics</arxiv:journal_ref>
+    <author>
+      <name>Sander Bijl de Vroe</name>
+    </author>
+    <author>
+      <name>Liane Guillou</name>
+    </author>
+    <author>
+      <name>Miloš Stanojević</name>
+    </author>
+    <author>
+      <name>Nick McKenna</name>
+    </author>
+    <author>
+      <name>Mark Steedman</name>
+    </author>
+    <arxiv:doi>10.18653/v1/2021.case-1.6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.18653/v1/2021.case-1.6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.00351v1</id>
+    <title>Cross-context News Corpus for Protest Events related Knowledge Base Construction</title>
+    <updated>2020-08-01T22:20:48Z</updated>
+    <link href="https://arxiv.org/abs/2008.00351v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.00351v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe a gold standard corpus of protest events that comprise of various local and international sources from various countries in English. The corpus contains document, sentence, and token level annotations. This corpus facilitates creating machine learning models that automatically classify news articles and extract protest event-related information, constructing knowledge bases which enable comparative social and political science studies. For each news source, the annotation starts on random samples of news articles and continues with samples that are drawn using active learning. Each batch of samples was annotated by two social and political scientists, adjudicated by an annotation supervisor, and was improved by identifying annotation errors semi-automatically. We found that the corpus has the variety and quality to develop and benchmark text classification and event extraction systems in a cross-context setting, which contributes to the generalizability and robustness of automated text processing systems. This corpus and the reported results will set the currently lacking common ground in automated protest event collection studies.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-01T22:20:48Z</published>
+    <arxiv:comment>Presented at Automated Knowledge Base Construction (AKBC 2020) conference. See: https://www.akbc.ws/2020/papers/7NZkNhLCjp</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ali Hürriyetoğlu</name>
+    </author>
+    <author>
+      <name>Erdem Yörük</name>
+    </author>
+    <author>
+      <name>Deniz Yüret</name>
+    </author>
+    <author>
+      <name>Osman Mutlu</name>
+    </author>
+    <author>
+      <name>Çağrı Yoltar</name>
+    </author>
+    <author>
+      <name>Fırat Duruşan</name>
+    </author>
+    <author>
+      <name>Burak Gürel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.05190v3</id>
+    <title>PoKE: A Prompt-based Knowledge Eliciting Approach for Event Argument Extraction</title>
+    <updated>2022-05-13T15:01:08Z</updated>
+    <link href="https://arxiv.org/abs/2109.05190v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.05190v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Eliciting knowledge from pre-trained language models via prompt-based learning has shown great potential in many natural language processing tasks. Whereas, the applications for more complex tasks such as event extraction are less studied since the design of prompt is not straightforward for the structured event containing various triggers and arguments. % Meanwhile, current conditional generation methods employ large encoder-decoder models, which are costly to train and serve. In this paper, we present a novel prompt-based approach, which elicits both the independent and joint knowledge about different events for event argument extraction. The experimental results on the benchmark ACE2005 dataset show the great advantages of our proposed approach. In particular, our approach is superior to the recent advanced methods in both fully-supervised and low-resource scenarios.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-11T05:16:33Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jiaju Lin</name>
+    </author>
+    <author>
+      <name>Qin Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.02567v4</id>
+    <title>Extracting a Knowledge Base of COVID-19 Events from Social Media</title>
+    <updated>2022-09-09T07:21:03Z</updated>
+    <link href="https://arxiv.org/abs/2006.02567v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.02567v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we present a manually annotated corpus of 10,000 tweets containing public reports of five COVID-19 events, including positive and negative tests, deaths, denied access to testing, claimed cures and preventions. We designed slot-filling questions for each event type and annotated a total of 31 fine-grained slots, such as the location of events, recent travel, and close contacts. We show that our corpus can support fine-tuning BERT-based classifiers to automatically extract publicly reported events and help track the spread of a new disease. We also demonstrate that, by aggregating events extracted from millions of tweets, we achieve surprisingly high precision when answering complex queries, such as "Which organizations have employees that tested positive in Philadelphia?" We will release our corpus (with user-information removed), automatic extraction models, and the corresponding knowledge base to the research community.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-03T22:39:24Z</published>
+    <arxiv:comment>Accepted at COLING 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shi Zong</name>
+    </author>
+    <author>
+      <name>Ashutosh Baheti</name>
+    </author>
+    <author>
+      <name>Wei Xu</name>
+    </author>
+    <author>
+      <name>Alan Ritter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.09335v3</id>
+    <title>Biomedical Event Extraction with Hierarchical Knowledge Graphs</title>
+    <updated>2020-10-12T16:38:31Z</updated>
+    <link href="https://arxiv.org/abs/2009.09335v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.09335v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Biomedical event extraction is critical in understanding biomolecular interactions described in scientific corpus. One of the main challenges is to identify nested structured events that are associated with non-indicative trigger words. We propose to incorporate domain knowledge from Unified Medical Language System (UMLS) to a pre-trained language model via Graph Edge-conditioned Attention Networks (GEANet) and hierarchical graph representation. To better recognize the trigger words, each sentence is first grounded to a sentence graph based on a jointly modeled hierarchical knowledge graph from UMLS. The grounded graphs are then propagated by GEANet, a novel graph neural networks for enhanced capabilities in inferring complex events. On BioNLP 2011 GENIA Event Extraction task, our approach achieved 1.41% F1 and 3.19% F1 improvements on all events and complex events, respectively. Ablation studies confirm the importance of GEANet and hierarchical KG.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-20T02:25:05Z</published>
+    <arxiv:comment>8 pages, 3 figures, Findings of EMNLP 2020 (short)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kung-Hsiang Huang</name>
+    </author>
+    <author>
+      <name>Mu Yang</name>
+    </author>
+    <author>
+      <name>Nanyun Peng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1008.0823v1</id>
+    <title>A Homogeneous Reaction Rule Language for Complex Event Processing</title>
+    <updated>2010-08-04T17:05:33Z</updated>
+    <link href="https://arxiv.org/abs/1008.0823v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1008.0823v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Event-driven automation of reactive functionalities for complex event processing is an urgent need in today's distributed service-oriented architectures and Web-based event-driven environments. An important problem to be addressed is how to correctly and efficiently capture and process the event-based behavioral, reactive logic embodied in reaction rules, and combining this with other conditional decision logic embodied, e.g., in derivation rules. This paper elaborates a homogeneous integration approach that combines derivation rules, reaction rules and other rule types such as integrity constraints into the general framework of logic programming, the industrial-strength version of declarative programming. We describe syntax and semantics of the language, implement a distributed web-based middleware using enterprise service technologies and illustrate its adequacy in terms of expressiveness, efficiency and scalability through examples extracted from industrial use cases. The developed reaction rule language provides expressive features such as modular ID-based updates with support for external imports and self-updates of the intensional and extensional knowledge bases, transactions including integrity testing and roll-backs of update transition paths. It also supports distributed complex event processing, event messaging and event querying via efficient and scalable enterprise middleware technologies and event/action reasoning based on an event/action algebra implemented by an interval-based event calculus variant as a logic inference formalism.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-08-04T17:05:33Z</published>
+    <arxiv:comment>In Proc. 2nd International Workshop on Event Drive Architecture and Event Processing Systems (EDA-PS 2007) at VLDB 2007</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Adrian Paschke</name>
+    </author>
+    <author>
+      <name>Alexander Kozlenkov</name>
+    </author>
+    <author>
+      <name>Harold Boley</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.12526v1</id>
+    <title>Prompt-based Graph Model for Joint Liberal Event Extraction and Event Schema Induction</title>
+    <updated>2024-03-19T07:56:42Z</updated>
+    <link href="https://arxiv.org/abs/2403.12526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.12526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Events are essential components of speech and texts, describing the changes in the state of entities. The event extraction task aims to identify and classify events and find their participants according to event schemas. Manually predefined event schemas have limited coverage and are hard to migrate across domains. Therefore, the researchers propose Liberal Event Extraction (LEE), which aims to extract events and discover event schemas simultaneously. However, existing LEE models rely heavily on external language knowledge bases and require the manual development of numerous rules for noise removal and knowledge alignment, which is complex and laborious. To this end, we propose a Prompt-based Graph Model for Liberal Event Extraction (PGLEE). Specifically, we use a prompt-based model to obtain candidate triggers and arguments, and then build heterogeneous event graphs to encode the structures within and between events. Experimental results prove that our approach achieves excellent performance with or without predefined event schemas, while the automatically detected event schemas are proven high quality.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-19T07:56:42Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Haochen Li</name>
+    </author>
+    <author>
+      <name>Di Geng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.07373v2</id>
+    <title>Domain Knowledge Empowered Structured Neural Net for End-to-End Event Temporal Relation Extraction</title>
+    <updated>2020-10-06T16:58:49Z</updated>
+    <link href="https://arxiv.org/abs/2009.07373v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.07373v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Extracting event temporal relations is a critical task for information extraction and plays an important role in natural language understanding. Prior systems leverage deep learning and pre-trained language models to improve the performance of the task. However, these systems often suffer from two short-comings: 1) when performing maximum a posteriori (MAP) inference based on neural models, previous systems only used structured knowledge that are assumed to be absolutely correct, i.e., hard constraints; 2) biased predictions on dominant temporal relations when training with a limited amount of data. To address these issues, we propose a framework that enhances deep neural network with distributional constraints constructed by probabilistic domain knowledge. We solve the constrained inference problem via Lagrangian Relaxation and apply it on end-to-end event temporal relation extraction tasks. Experimental results show our framework is able to improve the baseline neural network models with strong statistical significance on two widely used datasets in news and clinical domains.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-15T22:20:27Z</published>
+    <arxiv:comment>Appear in EMNLP'20</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rujun Han</name>
+    </author>
+    <author>
+      <name>Yichao Zhou</name>
+    </author>
+    <author>
+      <name>Nanyun Peng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.04794v1</id>
+    <title>Comprehensive Event Representations using Event Knowledge Graphs and Natural Language Processing</title>
+    <updated>2023-03-08T18:43:39Z</updated>
+    <link href="https://arxiv.org/abs/2303.04794v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.04794v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work has utilised knowledge-aware approaches to natural language understanding, question answering, recommendation systems, and other tasks. These approaches rely on well-constructed and large-scale knowledge graphs that can be useful for many downstream applications and empower knowledge-aware models with commonsense reasoning. Such knowledge graphs are constructed through knowledge acquisition tasks such as relation extraction and knowledge graph completion. This work seeks to utilise and build on the growing body of work that uses findings from the field of natural language processing (NLP) to extract knowledge from text and build knowledge graphs. The focus of this research project is on how we can use transformer-based approaches to extract and contextualise event information, matching it to existing ontologies, to build a comprehensive knowledge of graph-based event representations. Specifically, sub-event extraction is used as a way of creating sub-event-aware event representations. These event representations are then further enriched through fine-grained location extraction and contextualised through the alignment of historically relevant quotes.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-08T18:43:39Z</published>
+    <arxiv:comment>This is the author's version of the work. It is posted here for your personal use. Not for redistribution. The definitive Version of Record was published in Companion Proceedings of the Web Conference 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tin Kuculo</name>
+    </author>
+    <arxiv:doi>10.1145/3487553.3524199</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3487553.3524199" title="doi"/>
+  </entry>
+</feed>

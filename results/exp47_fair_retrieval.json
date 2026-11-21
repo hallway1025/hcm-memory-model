@@ -1,0 +1,92 @@
+{
+ "config": {
+  "n_lib": 9033,
+  "probes": 200,
+  "embed": "S256",
+  "session": "peer-02",
+  "smoke": false,
+  "judge": "argmax==i full-store",
+  "bm25": "k1=1.5 b=0.75 char-gram",
+  "ref38": {
+   "hcm_deg03": 48,
+   "hopf_deg03": 2,
+   "sdm_deg03": 0,
+   "note": "exp38 same probes/corpus"
+  }
+ },
+ "rows": {
+  "bm25_char1": {
+   "arm": "bm25_char1",
+   "deg0.0": {
+    "hit": 50,
+    "used": 200,
+    "rate": 0.25
+   },
+   "deg0.3": {
+    "hit": 50,
+    "used": 200,
+    "rate": 0.25
+   },
+   "deg0.5": {
+    "hit": 50,
+    "used": 200,
+    "rate": 0.25
+   }
+  },
+  "bm25_char2": {
+   "arm": "bm25_char2",
+   "deg0.0": {
+    "hit": 47,
+    "used": 200,
+    "rate": 0.235
+   },
+   "deg0.3": {
+    "hit": 47,
+    "used": 200,
+    "rate": 0.235
+   },
+   "deg0.5": {
+    "hit": 33,
+    "used": 200,
+    "rate": 0.165
+   }
+  },
+  "knn_tfidf": {
+   "arm": "knn_tfidf",
+   "deg0.0": {
+    "hit": 49,
+    "used": 200,
+    "rate": 0.245
+   },
+   "deg0.3": {
+    "hit": 49,
+    "used": 200,
+    "rate": 0.245
+   },
+   "deg0.5": {
+    "hit": 46,
+    "used": 200,
+    "rate": 0.23
+   }
+  },
+  "knn_s256": {
+   "arm": "knn_s256",
+   "deg0.0": {
+    "hit": 48,
+    "used": 200,
+    "rate": 0.24
+   },
+   "deg0.3": {
+    "hit": 48,
+    "used": 200,
+    "rate": 0.24
+   },
+   "deg0.5": {
+    "hit": 43,
+    "used": 200,
+    "rate": 0.215
+   }
+  }
+ },
+ "elapsed_s": 0.8
+}

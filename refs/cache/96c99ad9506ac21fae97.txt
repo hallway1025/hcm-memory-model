@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2+3UIWRoguTYkfozO1Sk1285Mvs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2112.05638&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:32:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2112.05638" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.05638v2</id>
+    <title>DistilCSE: Effective Knowledge Distillation For Contrastive Sentence Embeddings</title>
+    <updated>2023-01-30T16:31:21Z</updated>
+    <link href="https://arxiv.org/abs/2112.05638v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.05638v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale contrastive learning models can learn very informative sentence embeddings, but are hard to serve online due to the huge model size. Therefore, they often play the role of "teacher", transferring abilities to small "student" models through knowledge distillation. However, knowledge distillation inevitably brings some drop in embedding effect. To tackle that, we propose an effective knowledge distillation framework for contrastive sentence embeddings, termed DistilCSE. It first applies knowledge distillation on a large amount of unlabeled data, and then fine-tunes student models through contrastive learning on limited labeled data. To achieve better distillation results, we further propose Contrastive Knowledge Distillation (CKD). CKD uses InfoNCE as the loss function in knowledge distillation, enhancing the objective consistency among teacher model training, knowledge distillation, and student model fine-tuning. Extensive experiments show that student models trained with the proposed DistilCSE and CKD suffer from little or even no performance decrease and consistently outperform the corresponding counterparts of the same parameter size. Impressively, our 110M student model outperforms the latest state-of-the-art model, i.e., Sentence-T5 (11B), with only 1% parameters and 0.25% unlabeled data.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-10T16:11:23Z</published>
+    <arxiv:comment>Work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chaochen Gao</name>
+    </author>
+    <author>
+      <name>Xing Wu</name>
+    </author>
+    <author>
+      <name>Peng Wang</name>
+    </author>
+    <author>
+      <name>Jue Wang</name>
+    </author>
+    <author>
+      <name>Liangjun Zang</name>
+    </author>
+    <author>
+      <name>Zhongyuan Wang</name>
+    </author>
+    <author>
+      <name>Songlin Hu</name>
+    </author>
+  </entry>
+</feed>

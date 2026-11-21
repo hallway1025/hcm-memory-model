@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["33746720"],"translationset":[],"querytranslation":"\"10 3389 fnbeh 2021 645110\"[Publisher ID]"}}

@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Sjk+lPpva7S/c0YR07FnoZpltgM</id>
+  <title>arXiv Query: search_query=all:confidence AND all:calibrated AND all:retrieval&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:45:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:confidence+AND+(all:calibrated+AND+all:retrieval)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>199</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11955v1</id>
+    <title>R2VC: Modular Fact-Checking with Retrieval, Verification, and Confidence Calibration</title>
+    <updated>2026-08-06T03:35:05Z</updated>
+    <link href="https://arxiv.org/abs/2609.11955v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11955v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are increasingly used for automated fact checking, but end-to-end prompting often entangles evidence retrieval, reasoning, and uncertainty estimation, making failures difficult to diagnose and confidence difficult to trust. We present R2VC, a modular retrieve, reason, verify, calibrate architecture for evidence-grounded fact checking with citations and abstention. R2VC combines hybrid sparse+dense retrieval over Wikipedia, a supervised fine-tuned and DPO-aligned generator that produces diverse structured verdict candidates, an external NLI cross-encoder for evidence-based candidate selection, and a lightweight sequence-level calibrator for confidence estimation and selective abstention. On FEVER, an 8B backbone with R2VC achieves 13.74% higher accuracy than baseline. Ablation studies show that verifier-based candidate selection and confidence calibration are the largest contributors to performance. Removing candidate selection drops FEVER accuracy to 76.24%, while removing calibration nearly doubles the Brier score to 0.161. A manual analysis of 250 errors further shows that retrieval failures, especially wrong-entity evidence, remain the dominant bottleneck. Together, these results show that modular fact-checking pipelines can substantially improve both predictive accuracy and confidence reliability in open-domain verification.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-06T03:35:05Z</published>
+    <arxiv:comment>21 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dhruv Dixit</name>
+    </author>
+    <author>
+      <name>Paritosh Pandey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.15917v1</id>
+    <title>Confidence-Calibrated Ensemble Dense Phrase Retrieval</title>
+    <updated>2023-06-28T04:40:21Z</updated>
+    <link href="https://arxiv.org/abs/2306.15917v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.15917v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider the extent to which the transformer-based Dense Passage Retrieval (DPR) algorithm, developed by (Karpukhin et. al. 2020), can be optimized without further pre-training. Our method involves two particular insights: we apply the DPR context encoder at various phrase lengths (e.g. one-sentence versus five-sentence segments), and we take a confidence-calibrated ensemble prediction over all of these different segmentations. This somewhat exhaustive approach achieves start-of-the-art results on benchmark datasets such as Google NQ and SQuAD. We also apply our method to domain-specific datasets, and the results suggest how different granularities are optimal for different domains</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-28T04:40:21Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>William Yang</name>
+    </author>
+    <author>
+      <name>Noah Bergam</name>
+    </author>
+    <author>
+      <name>Arnav Jain</name>
+    </author>
+    <author>
+      <name>Nima Sheikhoslami</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.29959v1</id>
+    <title>Know Before You Fetch: Calibrated Retrieval-Budget Allocation for Retrieval-Augmented Generation</title>
+    <updated>2026-06-29T08:36:33Z</updated>
+    <link href="https://arxiv.org/abs/2606.29959v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.29959v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-augmented generation (RAG) typically retrieves a fixed number of passages for every query. This is wasteful when the reader already knows the answer, and it can be harmful when irrelevant or partially relevant passages distract the reader. We formulate adaptive RAG as calibrated retrieval-budget allocation: given a query, decide whether to answer closed-book, retrieve a compact context (k=1), retrieve a full context (k=5), or abstain. The contribution is a probability interface rather than a new raw uncertainty signal. We calibrate sequence log-probability and prefix-logit uncertainty signals into probabilities of correctness, then use these probabilities for graded context selection, selective abstention, and explicit latency/token trade-offs. Across core QA experiments on TriviaQA, Natural Questions, and MS MARCO, with auxiliary PopQA motivation and Qwen/Llama family checks, diagnostic out-of-fold calibration improves probability quality dramatically: for sequence log-probability, ECE drops from 0.275 to 0.062 on TriviaQA, 0.643 to 0.009 on NQ, and 0.711 to 0.031 on MS MARCO. Graded retrieval improves full-context and passage-budget frontiers for both our signal and TARG-style prefix entropy/margin, while retrieval-call AUC remains essentially tied with binary gating because k=1 is still a retrieval call. Held-out train/validation/test threshold experiments report deployable operating points. At matched-accuracy frontier operating points, a measured cost model reveals that gating is not universally faster: it increases latency by about 27% on Qwen3-8B but saves about 8% on Qwen3-32B. These results support a nuanced view of adaptive RAG: calibrated confidence is best understood as a reusable interface for allocating retrieval budget under task and system constraints.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-29T08:36:33Z</published>
+    <arxiv:comment>17 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Zhe Dong</name>
+      <arxiv:affiliation>University of Maine at Presque Isle</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fang Qin</name>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Manish Shah</name>
+      <arxiv:affiliation>Independent Researcher</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yicheng Wang</name>
+      <arxiv:affiliation>Independent Researcher</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.22056v2</id>
+    <title>Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention</title>
+    <updated>2026-10-18T23:28:05Z</updated>
+    <link href="https://arxiv.org/abs/2609.22056v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.22056v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-hop retrieval failures are not uniformly distributed across queries: they cluster in structurally predictable subpopulations. We prove two results formalizing this structure. First (CWAR Reducibility): confident-failure reduction is achievable if and only if retrieval features carry mutual information about success, a condition satisfied by LLM-judge pipelines but substantially weaker in dense-only settings, explaining the AUC-AC gap between regimes. Second (Feature Regime Complementarity): no single ANN score feature achieves best predictive performance across all failure regimes; the dominant feature differs between datasets (query length on MuSiQue, hop-1 concentration on HoVer), and a constructive witness pair shows each is necessary in one regime and non-contributory in the other. We instantiate these principles in RegimeAbstain, which computes a Retrieval Confidence Score (RCS), a logistic function of up to nine query-ANN structural features, all available without any additional LLM call, and uses it to implement a calibrated abstention policy. We define the Confident-Wrong-Answer Rate (CWAR) metric and evaluate across three multi-hop benchmarks (MuSiQue, 2WikiMultiHopQA, HoVer) and two retrieval architectures (LLM-judge and dense-only), covering five failure regimes with CWAR from 14.5% to 62.1%. RCS achieves best or co-best AUC-AC in all five conditions against eight confidence baselines. On MuSiQue (LLM-judge), RCS reduces CWAR from 39.5% to 20.6% at 50% coverage (47.8% relative reduction), with ECE=0.035. A model trained on MuSiQue transfers to 2WikiMultiHopQA with only -0.5pp AUC loss, confirming the domain-agnostic structure of regime features.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-18T17:48:15Z</published>
+    <arxiv:comment>9 pages, 2 figures, 5 tables. v2: corrected threshold selection (Sec. 5.3); new threshold reliability analysis (Sec. 7.3)</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Andre Bacellar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.08891v4</id>
+    <title>Reliable Decision Making via Calibration Oriented Retrieval Augmented Generation</title>
+    <updated>2025-10-15T13:04:09Z</updated>
+    <link href="https://arxiv.org/abs/2411.08891v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.08891v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, Large Language Models (LLMs) have been increasingly used to support various decision-making tasks, assisting humans in making informed decisions. However, when LLMs confidently provide incorrect information, it can lead humans to make suboptimal decisions. To prevent LLMs from generating incorrect information on topics they are unsure of and to improve the accuracy of generated content, prior works have proposed Retrieval Augmented Generation (RAG), where external documents are referenced to generate responses. However, previous RAG methods focus only on retrieving documents most relevant to the input query, without specifically aiming to ensure that the human user's decisions are well-calibrated. To address this limitation, we propose a novel retrieval method called Calibrated Retrieval-Augmented Generation (CalibRAG), which ensures that decisions informed by RAG are well-calibrated. Then we empirically validate that CalibRAG improves calibration performance as well as accuracy, compared to other baselines across various datasets.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-28T06:41:05Z</published>
+    <arxiv:comment>Accepted by NeurIPS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Chaeyun Jang</name>
+    </author>
+    <author>
+      <name>Deukhwan Cho</name>
+    </author>
+    <author>
+      <name>Seanie Lee</name>
+    </author>
+    <author>
+      <name>Hyungi Lee</name>
+    </author>
+    <author>
+      <name>Juho Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.26846v1</id>
+    <title>Evaluating Confidence-Gated Retrieval with Matched Trajectory Replay</title>
+    <updated>2026-08-27T09:15:33Z</updated>
+    <link href="https://arxiv.org/abs/2608.26846v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.26846v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Interactive language-model agents use confidence signals to decide whether to answer immediately, retrieve additional evidence (from memory or external knowledge), or defer. Yet confidence is usually evaluated in isolation, without measuring the trajectory-level consequences of the actions it triggers. We propose matched trajectory replay, a controlled protocol for comparing confidence-to-action mappings. The protocol holds candidate answer states, evidence points, budgets, and action costs fixed. We use it to compare raw verbalized confidence with post-hoc isotonic calibration in a multi-hop question-answering system using Mistral, GPT, and Qwen models on HotpotQA and MuSiQue datasets. At the same numerical commitment threshold, calibration changes which questions agents ultimately commit to answering. Across all six model-dataset pairs, it increases accuracy among committed answers by up to 41 percentage points. However, it can reduce coverage and increase retrieval use. Overall accuracy improves by up to 15 percentage points on HotpotQA but falls by up to 17 percentage points on MuSiQue. These effects reflect a shift to a more selective, lower-risk operating point, not improved answers or confidence ranking. A calibration map fitted before retrieval improves held-out calibration through retrieval depths one and two, but is worse than raw confidence at depth three for all three models. Additional evidence helps on average, but this aggregate effect does not establish whether confidence identifies which individual episodes will benefit from another retrieval. Taken together, these results show that calibration can make commitment risk interpretable, but it does not estimate the expected benefit of another retrieval. Retrieval therefore requires a separate value-of-information or utility estimate. Evaluations should report held-out calibration, risk-coverage, and retrieval cost.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-27T09:15:33Z</published>
+    <arxiv:comment>5 Tables, 5 Figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Prateek Chhikara</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.11956v2</id>
+    <title>Double-Calibration: Towards Reliable LLMs via Calibrating Knowledge and Reasoning Confidence</title>
+    <updated>2026-05-16T04:32:24Z</updated>
+    <link href="https://arxiv.org/abs/2601.11956v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.11956v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reliable reasoning in Large Language Models (LLMs) is challenged by their propensity for hallucination. While augmenting LLMs with Knowledge Graphs (KGs) improves factual accuracy, existing KG-augmented methods fail to quantify epistemic uncertainty in both the retrieved evidence and LLMs' reasoning. To bridge this gap, we introduce DoublyCal, a framework built on a novel double-calibration principle. DoublyCal employs a lightweight proxy model to first generate KG evidence alongside a calibrated evidence confidence. This calibrated supporting evidence then guides a black-box LLM, yielding final predictions that are not only more accurate but also well-calibrated, with confidence scores traceable to the uncertainty of the supporting evidence. Experiments on knowledge-intensive benchmarks show that DoublyCal significantly improves both the accuracy and confidence calibration of black-box LLMs while maintaining low token cost.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-17T08:18:38Z</published>
+    <arxiv:comment>This work is to appear in the Proceedings of the 35th International Joint Conference on Artificial Intelligence (IJCAI 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuyin Lu</name>
+    </author>
+    <author>
+      <name>Ziran Liang</name>
+    </author>
+    <author>
+      <name>Yanghui Rao</name>
+    </author>
+    <author>
+      <name>Wenqi Fan</name>
+    </author>
+    <author>
+      <name>Fu Lee Wang</name>
+    </author>
+    <author>
+      <name>Qing Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.04651v1</id>
+    <title>Not All Relevance Scores are Equal: Efficient Uncertainty and Calibration Modeling for Deep Retrieval Models</title>
+    <updated>2021-05-10T20:15:53Z</updated>
+    <link href="https://arxiv.org/abs/2105.04651v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.04651v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In any ranking system, the retrieval model outputs a single score for a document based on its belief on how relevant it is to a given search query. While retrieval models have continued to improve with the introduction of increasingly complex architectures, few works have investigated a retrieval model's belief in the score beyond the scope of a single value. We argue that capturing the model's uncertainty with respect to its own scoring of a document is a critical aspect of retrieval that allows for greater use of current models across new document distributions, collections, or even improving effectiveness for down-stream tasks. In this paper, we address this problem via an efficient Bayesian framework for retrieval models which captures the model's belief in the relevance score through a stochastic process while adding only negligible computational overhead. We evaluate this belief via a ranking based calibration metric showing that our approximate Bayesian framework significantly improves a retrieval model's ranking effectiveness through a risk aware reranking as well as its confidence calibration. Lastly, we demonstrate that this additional uncertainty information is actionable and reliable on down-stream tasks represented via cutoff prediction.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-10T20:15:53Z</published>
+    <arxiv:comment>ACM SIGIR preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Daniel Cohen</name>
+    </author>
+    <author>
+      <name>Bhaskar Mitra</name>
+    </author>
+    <author>
+      <name>Oleg Lesota</name>
+    </author>
+    <author>
+      <name>Navid Rekabsaz</name>
+    </author>
+    <author>
+      <name>Carsten Eickhoff</name>
+    </author>
+    <arxiv:doi>10.1145/3404835.3462951</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3404835.3462951" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.10192v1</id>
+    <title>Towards Confidence-aware Calibrated Recommendation</title>
+    <updated>2022-08-22T10:29:51Z</updated>
+    <link href="https://arxiv.org/abs/2208.10192v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.10192v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recommender systems utilize users' historical data to learn and predict their future interests, providing them with suggestions tailored to their tastes. Calibration ensures that the distribution of recommended item categories is consistent with the user's historical data. Mitigating miscalibration brings various benefits to a recommender system. For example, it becomes less likely that a system overlooks categories with less interaction on a user's profile by only recommending popular categories. Despite the notable success, calibration methods have several drawbacks, such as limiting the diversity of the recommended items and not considering the calibration confidence. This work, presents a set of properties that address various aspects of a desired calibrated recommender system. Considering these properties, we propose a confidence-aware optimization-based re-ranking algorithm to find the balance between calibration, relevance, and item diversity, while simultaneously accounting for calibration confidence based on user profile size. Our model outperforms state-of-the-art methods in terms of various accuracy and beyond-accuracy metrics for different user groups.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-22T10:29:51Z</published>
+    <arxiv:comment>CIKM 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Mohammadmehdi Naghiaei</name>
+    </author>
+    <author>
+      <name>Hossein A. Rahmani</name>
+    </author>
+    <author>
+      <name>Mohammad Aliannejadi</name>
+    </author>
+    <author>
+      <name>Nasim Sonboli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.13343v1</id>
+    <title>Fact-Level Confidence Calibration and Self-Correction</title>
+    <updated>2024-11-20T14:15:18Z</updated>
+    <link href="https://arxiv.org/abs/2411.13343v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.13343v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Confidence calibration in LLMs, i.e., aligning their self-assessed confidence with the actual accuracy of their responses, enabling them to self-evaluate the correctness of their outputs. However, current calibration methods for LLMs typically estimate two scalars to represent overall response confidence and correctness, which is inadequate for long-form generation where the response includes multiple atomic facts and may be partially confident and correct. These methods also overlook the relevance of each fact to the query. To address these challenges, we propose a Fact-Level Calibration framework that operates at a finer granularity, calibrating confidence to relevance-weighted correctness at the fact level. Furthermore, comprehensive analysis under the framework inspired the development of Confidence-Guided Fact-level Self-Correction ($\textbf{ConFix}$), which uses high-confidence facts within a response as additional knowledge to improve low-confidence ones. Extensive experiments across four datasets and six models demonstrate that ConFix effectively mitigates hallucinations without requiring external knowledge sources such as retrieval systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-20T14:15:18Z</published>
+    <arxiv:comment>Code is available at https://github.com/yuanyige/fact-calibration</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yige Yuan</name>
+    </author>
+    <author>
+      <name>Bingbing Xu</name>
+    </author>
+    <author>
+      <name>Hexiang Tan</name>
+    </author>
+    <author>
+      <name>Fei Sun</name>
+    </author>
+    <author>
+      <name>Teng Xiao</name>
+    </author>
+    <author>
+      <name>Wei Li</name>
+    </author>
+    <author>
+      <name>Huawei Shen</name>
+    </author>
+    <author>
+      <name>Xueqi Cheng</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM"><PMID Version="1">30984087</PMID><DateRevised><Year>2020</Year><Month>09</Month><Day>29</Day></DateRevised><Article PubModel="Electronic-eCollection"><Journal><ISSN IssnType="Print">1664-1078</ISSN><JournalIssue CitedMedium="Print"><Volume>10</Volume><PubDate><Year>2019</Year></PubDate></JournalIssue><Title>Frontiers in psychology</Title><ISOAbbreviation>Front Psychol</ISOAbbreviation></Journal><ArticleTitle>Predicting Accuracy in Eyewitness Testimonies With Memory Retrieval Effort and Confidence.</ArticleTitle><Pagination><StartPage>703</StartPage><MedlinePgn>703</MedlinePgn></Pagination><ELocationID EIdType="pii" ValidYN="Y">703</ELocationID><ELocationID EIdType="doi" ValidYN="Y">10.3389/fpsyg.2019.00703</ELocationID><Abstract><AbstractText>Evaluating eyewitness testimonies has proven a difficult task. Recent research, however, suggests that incorrect memories are more effortful to retrieve than correct memories, and confidence in a memory is based on retrieval effort. We aimed to replicate and extend these findings, adding retrieval latency as a predictor of memory accuracy. Participants watched a film sequence with a staged crime and were interviewed about its content. We then analyzed retrieval effort cues in witness responses. Results showed that incorrect memories included more "effort cues" than correct memories. While correct responses were produced faster than incorrect responses, delays in responses proved a better predictor of accuracy than response latency. Furthermore, participants were more confident in correct than incorrect responses, and the effort cues partially mediated this confidence-accuracy relation. In sum, the results support previous findings of a relationship between memory accuracy and objectively verifiable cues to retrieval effort.</AbstractText></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Gustafsson</LastName><ForeName>Philip U</ForeName><Initials>PU</Initials><AffiliationInfo><Affiliation>Department of Psychology, Stockholm University, Stockholm, Sweden.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Lindholm</LastName><ForeName>Torun</ForeName><Initials>T</Initials><AffiliationInfo><Affiliation>Department of Psychology, Stockholm University, Stockholm, Sweden.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>J&#xf6;nsson</LastName><ForeName>Fredrik U</ForeName><Initials>FU</Initials><AffiliationInfo><Affiliation>Department of Psychology, Stockholm University, Stockholm, Sweden.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType="Electronic"><Year>2019</Year><Month>03</Month><Day>29</Day></ArticleDate></Article><MedlineJournalInfo><Country>Switzerland</Country><MedlineTA>Front Psychol</MedlineTA><NlmUniqueID>101550902</NlmUniqueID><ISSNLinking>1664-1078</ISSNLinking></MedlineJournalInfo><KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">confidence-accuracy relation</Keyword><Keyword MajorTopicYN="N">eyewitness accuracy</Keyword><Keyword MajorTopicYN="N">eyewitness testimony</Keyword><Keyword MajorTopicYN="N">response latency</Keyword><Keyword MajorTopicYN="N">retrieval effort cues</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="received"><Year>2018</Year><Month>11</Month><Day>13</Day></PubMedPubDate><PubMedPubDate PubStatus="accepted"><Year>2019</Year><Month>3</Month><Day>13</Day></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2019</Year><Month>4</Month><Day>16</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2019</Year><Month>4</Month><Day>16</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="medline"><Year>2019</Year><Month>4</Month><Day>16</Day><Hour>6</Hour><Minute>1</Minute></PubMedPubDate><PubMedPubDate PubStatus="pmc-release"><Year>2019</Year><Month>3</Month><Day>29</Day></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">30984087</ArticleId><ArticleId IdType="pmc">PMC6450142</ArticleId><ArticleId IdType="doi">10.3389/fpsyg.2019.00703</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Ackerman R., Koriat A. (2011). Response latency as a predictor of the accuracy of children&#x2019;s reports.
+<i>J. Exp. Psychol.</i>
+17
+406&#x2013;417. 10.1037/a0025129
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0025129</ArticleId><ArticleId IdType="pubmed">21843018</ArticleId></ArticleIdList></Reference><Reference><Citation>Apple Inc. (2018). iMovie (Version 10.1.10) [Computer software].</Citation></Reference><Reference><Citation>Ball C. T., O&#x2019;Callaghan J. (2001). Judging the accuracy of children&#x2019;s recall: a statement-level analysis.
+<i>J. Exp. Psychol.</i>
+7
+331&#x2013;345. 10.1037/1076-898X.7.4.331</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/1076-898X.7.4.331</ArticleId><ArticleId IdType="pubmed">11838895</ArticleId></ArticleIdList></Reference><Reference><Citation>Bates D., Maechler M., Bolker B., Walker S. (2015). Fitting linear mixed-effects models using lme4.
+<i>J. Stat. Softw.</i>
+67
+1&#x2013;48. 10.18637/jss.v067.i01</Citation><ArticleIdList><ArticleId IdType="doi">10.18637/jss.v067.i01</ArticleId></ArticleIdList></Reference><Reference><Citation>Brewer N., Caon A., Todd C., Weber N. (2006). Eyewitness identification accuracy and response latency.
+<i>Law Hum. Behav.</i>
+30
+31&#x2013;50. 10.1007/s10979-006-9002-7
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s10979-006-9002-7</ArticleId><ArticleId IdType="pubmed">16729207</ArticleId></ArticleIdList></Reference><Reference><Citation>Brewer N., Weber N. (2008). Eyewitness confidence and latency: indices of memory processes not just markers of accuracy.
+<i>Appl. Cogn. Psychol.</i>
+22
+827&#x2013;840. 10.1002/acp.1486</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/acp.1486</ArticleId></ArticleIdList></Reference><Reference><Citation>Burnham K. P., Anderson D. R. (2004). Multimodel inference: understanding AIC and BIC in model selection.
+<i>Sociol. Methods Res.</i>
+33
+261&#x2013;304. 10.1177/0049124104268644</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0049124104268644</ArticleId></ArticleIdList></Reference><Reference><Citation>Clark H. H., Tree J. E. F. (2002). Using uh and um in spontaneous speaking.
+<i>Cognition</i>
+84
+73&#x2013;111. 10.1016/S0010-0277(02)00017-3</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0010-0277(02)00017-3</ArticleId><ArticleId IdType="pubmed">12062148</ArticleId></ArticleIdList></Reference><Reference><Citation>DePaulo B. M., Lindsay J. L., Malone B. E., Muhlenbruck L., Charlton K., Cooper H. (2003). Cues to deception.
+<i>Psychol. Bull.</i>
+129
+74&#x2013;118. 10.1037/0033-2909.129.1.74</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-2909.129.1.74</ArticleId><ArticleId IdType="pubmed">12555795</ArticleId></ArticleIdList></Reference><Reference><Citation>Field A. (2009). <i>Discovering Statistics Using SPSS.</i>
+London: Sage publications Ltd.</Citation></Reference><Reference><Citation>Garrett B. (2011). <i>Convicting the Innocent.</i>
+Cambridge: Harvard University Press; 
+10.4159/harvard.9780674060982</Citation><ArticleIdList><ArticleId IdType="doi">10.4159/harvard.9780674060982</ArticleId></ArticleIdList></Reference><Reference><Citation>Hart J. T. (1965). Memory and the feeling-of-knowing experience.
+<i>J. Educ. Psychol.</i>
+56
+208&#x2013;216. 10.1037/h0022263</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/h0022263</ArticleId><ArticleId IdType="pubmed">5825050</ArticleId></ArticleIdList></Reference><Reference><Citation>Ibabe I., Sporer S. L. (2004). How you ask is what you get: on the influence of question form on accuracy and confidence.
+<i>Appl. Cogn. Psychol.</i>
+18
+711&#x2013;726. 10.1002/acp.1025</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/acp.1025</ArticleId></ArticleIdList></Reference><Reference><Citation>Innocence project (2018). <i>Innocence Project.</i> Available at: https://www.innocenceproject.org/</Citation></Reference><Reference><Citation>Johnson M. K., Hashtroudi S., Lindsay D. S. (1993). Source monitoring.
+<i>Psychol. Bull.</i>
+114
+3&#x2013;28. 10.1037/0033-2909.114.1.3</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-2909.114.1.3</ArticleId><ArticleId IdType="pubmed">8346328</ArticleId></ArticleIdList></Reference><Reference><Citation>Johnson M. K., Raye C. L. (1981). Reality monitoring.
+<i>Psychol. Rev.</i>
+88
+67&#x2013;85. 10.1037/0033-295X.88.1.67</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-295X.88.1.67</ArticleId></ArticleIdList></Reference><Reference><Citation>Juslin P., Olsson N., Winman A. (1996). Calibration and diagnosticity of confidence in eyewitness identification: comments on what can be inferred from the low confidence-accuracy correlation.
+<i>J. Exp. Psychol.</i>
+22
+1304&#x2013;1316. 10.1037/0278-7393.22.5.1304</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0278-7393.22.5.1304</ArticleId></ArticleIdList></Reference><Reference><Citation>Kelley C. M., Lindsay D. S. (1993). Remembering mistaken for knowing: ease of retrieval as a basis for confidence in answers to general knowledge questions.
+<i>J. Mem. Lang.</i>
+32
+1&#x2013;24. 10.1006/jmla.1993.1001</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/jmla.1993.1001</ArticleId></ArticleIdList></Reference><Reference><Citation>Koriat A. (1997). Monitoring one&#x2019;s own knowledge during study: a cue-utilization approach to judgments of learning.
+<i>J. Exp. Psychol.</i>
+126
+349&#x2013;370. 10.1037/0096-3445.126.4.349
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0096-3445.126.4.349</ArticleId></ArticleIdList></Reference><Reference><Citation>Koriat A. (2006). &#x201c;Metacognition and consciousness,&#x201d; in <i>Cambridge Handbook of Consciousness</i>, eds
+Zelazo P. D., Moscovitch M., Thompson E. (New York, NY: Cambridge University Press; ), 289&#x2013;395.</Citation></Reference><Reference><Citation>Koriat A., Ackerman R. (2010). Choice latency as a cue for children&#x2019;s subjective confidence in the correctness of their answers.
+<i>Dev. Sci.</i>
+13
+441&#x2013;453. 10.1111/j.1467-7687.2009.00907.x
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1467-7687.2009.00907.x</ArticleId><ArticleId IdType="pubmed">20443965</ArticleId></ArticleIdList></Reference><Reference><Citation>Krahmer E., Swerts M. (2005). How children and adults produce and perceive uncertainty in audiovisual speech.
+<i>Lang. Speech</i>
+48
+29&#x2013;53. 10.1177/00238309050480010201
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/00238309050480010201</ArticleId><ArticleId IdType="pubmed">16161471</ArticleId></ArticleIdList></Reference><Reference><Citation>Lindholm T. (2005). Group-based biases and validity in eyewitness credibility judgments: examining effects of witness ethnicity and presentation modality.
+<i>J. Appl. Soc. Psychol.</i>
+35
+1474&#x2013;1501. 10.1111/j.1559-1816.2005.tb02180.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1559-1816.2005.tb02180.x</ArticleId></ArticleIdList></Reference><Reference><Citation>Lindholm T. (2008a). Validity in judgments of high- and low-accurate witnesses of own and other ethnic groups.
+<i>Legal Criminol. Psychol.</i>
+13
+107&#x2013;121. 10.1348/135532506X152949</Citation><ArticleIdList><ArticleId IdType="doi">10.1348/135532506X152949</ArticleId></ArticleIdList></Reference><Reference><Citation>Lindholm T. (2008b). Who can judge the accuracy of eyewitness statements? A comparison of professionals and lay-persons.
+<i>Appl. Cogn. Psychol.</i>
+22
+1301&#x2013;1314. 10.1002/acp.1439</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/acp.1439</ArticleId></ArticleIdList></Reference><Reference><Citation>Lindholm T., J&#xf6;nsson F. U., Tullio-Liuzza M. (2018). Retrieval effort cues predict eyewitness accuracy.
+<i>J. Exp. Psychol.</i>
+24
+534&#x2013;542. 10.1037/xap0000175
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/xap0000175</ArticleId><ArticleId IdType="pubmed">30024208</ArticleId></ArticleIdList></Reference><Reference><Citation>Lindsay D. S., Read J. D., Sharma K. (1998). Accuracy and confidence in person identification: the relationship is strong when witnessing conditions vary widely.
+<i>Psychol. Sci.</i>
+9
+215&#x2013;218. 10.1111/1467-9280.00041</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/1467-9280.00041</ArticleId></ArticleIdList></Reference><Reference><Citation>Mansour J. K., Beaudry J. L., Lindsay R. C. L. (2017). Are multiple-trial experiments appropriate for eyewitness identification studies? accuracy, choosing, and confidence across trials.
+<i>Behav. Res. Methods</i>
+49
+2235&#x2013;2254. 10.3758/s13428-017-0855-0
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/s13428-017-0855-0</ArticleId><ArticleId IdType="pubmed">28432569</ArticleId></ArticleIdList></Reference><Reference><Citation>Matvey G., Dunlosky J., Guttentag R. (2001). Fluency of retrieval at study affects judgments of learning (JOLs): an analytic or nonanalytic basis for JOLs?
+<i>Mem. Cogn.</i>
+29
+222&#x2013;233. 10.3758/BF03194916
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03194916</ArticleId><ArticleId IdType="pubmed">11352205</ArticleId></ArticleIdList></Reference><Reference><Citation>Nussinson R., Koriat A. (2008). Correcting experience-based judgments: the perseverance of subjective experience in the face of the correction of judgment.
+<i>Metacogn. Learn.</i>
+3
+159&#x2013;174. 10.1007/s11409-008-9024-2</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11409-008-9024-2</ArticleId></ArticleIdList></Reference><Reference><Citation>Odinot G., Wolters G. (2006). Repeated recall, retention interval and the accuracy&#x2013;confidence relation in eyewitness memory.
+<i>Appl. Cogn. Psychol.</i>
+20
+973&#x2013;985. 10.1002/acp.1263</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/acp.1263</ArticleId></ArticleIdList></Reference><Reference><Citation>Odinot G., Wolters G., van Koppen P. J. (2009). Eyewitness memory of a supermarket robbery: a case study of accuracy and confidence after 3 months.
+<i>Law Hum. Behav.</i>
+33
+506&#x2013;514. 10.1007/s10979-008-9152-x
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s10979-008-9152-x</ArticleId><ArticleId IdType="pubmed">18719983</ArticleId></ArticleIdList></Reference><Reference><Citation>R Core Team. (2018). <i>R: A language and environment for statistical computing.</i> Available at: https://www.R-project.org/</Citation></Reference><Reference><Citation>Robinson M. D., Johnson J. T. (1996). Recall memory, recognition memory, and the eyewitness confidence&#x2013;accuracy correlation.
+<i>J. Appl. Psychol.</i>
+81587&#x2013;594. 10.1037/0021-9010.81.5.587</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0021-9010.81.5.587</ArticleId></ArticleIdList></Reference><Reference><Citation>Robinson M. D., Johnson J. T., Herndon F. (1997). Reaction time and assessments of cognitive effort as predictors of eyewitness memory accuracy and confidence.
+<i>J. Appl. Psychol.</i>
+82
+416&#x2013;425. 10.1037/0021-9010.82.3.416
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0021-9010.82.3.416</ArticleId><ArticleId IdType="pubmed">9190148</ArticleId></ArticleIdList></Reference><Reference><Citation>Roediger III, DeSoto K. A. (2014). &#x201c;Understanding the relation between confidence and accuracy in reports from memory,&#x201d; in <i>Psychology Press Festschrift Series. Remembering: Attributions, processes, and control in Human Memory: Essays in Honor of Larry Jacoby</i>, eds
+Lindsay D. S., Kelley C. M., Yonelinas A. P., Roediger H. L., II (New York, NY: Psychology Press; ), 347&#x2013;367. </Citation></Reference><Reference><Citation>Roediger H. L., Wixted J. T., DeSoto K. A. (2012). &#x201c;The curious complexity between confidence and accuracy in reports from memory,&#x201d; in <i>Memory and Law</i>, eds
+Nadel L., Sinnott-Armstrong W. (New York, NY: Oxford University Press; ), 84&#x2013;117.</Citation></Reference><Reference><Citation>Schooler J. W., Gerhard D., Loftus E. F. (1986). Qualities of the unreal.
+<i>J. Exp. Psychol.</i>
+12
+171&#x2013;181. 10.1037/0278-7393.12.2.171</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0278-7393.12.2.171</ArticleId><ArticleId IdType="pubmed">2939174</ArticleId></ArticleIdList></Reference><Reference><Citation>Smith V. L., Clark H. H. (1993). On the course of answering questions.
+<i>J. Mem. Lang.</i>
+32
+25&#x2013;38. 10.1006/jmla.1993.1002</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/jmla.1993.1002</ArticleId></ArticleIdList></Reference><Reference><Citation>Sporer S., Schwandt B. (2006). Paraverbal indicators of deception: a meta-analytic synthesis.
+<i>Appl. Cogn. Psychol.</i>
+20
+421&#x2013;446. 10.1002/acp.1190</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/acp.1190</ArticleId></ArticleIdList></Reference><Reference><Citation>Sporer S. L. (1997). The less travelled road to truth: Verbal cues in deception detection in accounts of fabricated and self-experienced events.
+<i>Appl. Cogn. Psychol.</i>
+11
+373&#x2013;397. 10.1002/(SICI)1099-0720(199710)11:5&lt;373::AID-ACP461&gt;3.0.CO;2-0</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/(SICI)1099-0720(199710)11:5&lt;373::AID-ACP461&gt;3.0.CO;2-0</ArticleId></ArticleIdList></Reference><Reference><Citation>Sporer S. L., Penrod S., Read D., Cutler B. (1995). Choosing, confidence, and accuracy: a meta-analysis of the confidence-accuracy relation in eyewitness identification studies.
+<i>Psychol. Bull.</i>
+118
+315&#x2013;327. 10.1037/0033-2909.118.3.315</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-2909.118.3.315</ArticleId></ArticleIdList></Reference><Reference><Citation>Tingley D., Yamamoto T., Hirose K., Keele L., Imai K. (2014). mediation: r package for causal mediation analysis.
+<i>J. Stat. Softw.</i>
+59
+1&#x2013;38. 10.18637/jss.v059.i05</Citation><ArticleIdList><ArticleId IdType="doi">10.18637/jss.v059.i05</ArticleId></ArticleIdList></Reference><Reference><Citation>Vrij A. (2018). Deception and truth detection when analyzing nonverbal and verbal cues.
+<i>Appl. Cogn. Psychol.</i>
+33
+160&#x2013;167. 10.1002/acp.3457</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/acp.3457</ArticleId></ArticleIdList></Reference><Reference><Citation>Vrij A., Fisher R. P., Blank H. (2017). A cognitive approach to lie detection: a meta-analysis.
+<i>Legal Criminol. Psychol.</i>
+22
+1&#x2013;21. 10.1111/lcrp.12088</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/lcrp.12088</ArticleId></ArticleIdList></Reference><Reference><Citation>Wagenmakers E. J., Farrell S. (2004). AIC model selection using akaike weights.
+<i>Psychon. Bull. Rev.</i>
+11
+192&#x2013;196. 10.3758/BF03206482</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03206482</ArticleId><ArticleId IdType="pubmed">15117008</ArticleId></ArticleIdList></Reference><Reference><Citation>Warren P. (2012). <i>Introducing Psycholinguistics.</i>
+Cambridge: Cambridge University Press; 
+10.1017/CBO9780511978531</Citation><ArticleIdList><ArticleId IdType="doi">10.1017/CBO9780511978531</ArticleId></ArticleIdList></Reference><Reference><Citation>Weidemann C. T., Kahana M. J. (2016). Assessing recognition memory using confidence ratings and response times.
+<i>R. Soc. Open Sci.</i>
+3:150670. 10.1098/rsos.150670
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1098/rsos.150670</ArticleId><ArticleId IdType="pmc">PMC4852632</ArticleId><ArticleId IdType="pubmed">27152209</ArticleId></ArticleIdList></Reference><Reference><Citation>Wells G. L., Memon A., Penrod S. D. (2006). Eyewitness evidence: improving its probative value.
+<i>Psychol. Sci. Public Inter.</i>
+7
+45&#x2013;75. 10.1111/j.1529-1006.2006.00027.x
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1529-1006.2006.00027.x</ArticleId><ArticleId IdType="pubmed">26158855</ArticleId></ArticleIdList></Reference><Reference><Citation>Wixted J. T., Mickes L., Clark S. E., Gronlund S. D., Roediger H. L. III. (2015). Initial eyewitness confidence reliably predicts eyewitness identification accuracy.
+<i>Am. Psychol.</i>
+70
+515&#x2013;526. 10.1037/a0039510
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0039510</ArticleId><ArticleId IdType="pubmed">26348334</ArticleId></ArticleIdList></Reference><Reference><Citation>Wixted J. T., Wells G. L. (2017). The relationship between eyewitness confidence and identification accuracy: a new synthesis.
+<i>Psychol. Sci. Public Inter.</i>
+18
+10&#x2013;65. 10.1177/1529100616686966
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/1529100616686966</ArticleId><ArticleId IdType="pubmed">28395650</ArticleId></ArticleIdList></Reference><Reference><Citation>Wright D. B., London K. (2009). <i>Modern Regression Techniques Using R: A Practical Guide for Students and Researchers.</i>
+London: Sage Publication Ltd.
+10.4135/9780857024497</Citation><ArticleIdList><ArticleId IdType="doi">10.4135/9780857024497</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>

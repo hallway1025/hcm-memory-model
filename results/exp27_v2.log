@@ -1,0 +1,15 @@
+﻿corpus 王骏启0414: 9033 msgs
+embed: S256 rows (256, 1043)
+  write 2000/9033 15s
+  write 4000/9033 32s
+  write 6000/9033 51s
+  write 8000/9033 73s
+written 7340/9033
+candidate pairs: 826
+b100_deg0 self=200/200 next@5=1 (0.005) ctrl@5=0 (0.000) med_rank=2665.5 ctrl_med=3169.5
+b100_deg30 self=200/200 next@5=1 (0.005) ctrl@5=0 (0.000) med_rank=2665.5 ctrl_med=4006
+b500_deg0 self=200/200 next@5=1 (0.005) ctrl@5=0 (0.000) med_rank=2665.5 ctrl_med=3570
+b500_deg30 self=200/200 next@5=1 (0.005) ctrl@5=0 (0.000) med_rank=2665.5 ctrl_med=3358
+saved results/exp27_temporal_chain.json
+
+EXIT=0

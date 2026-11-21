@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bfiCJxRcK6gc7GcN/lL6gPUi0Q4</id>
+  <title>arXiv Query: search_query=all:catastrophic AND all:forgetting AND all:replay AND all:continual AND all:learning AND submittedDate:"202401010000 TO 202612312359"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:43:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:catastrophic+AND+(all:forgetting+AND+(all:replay+AND+(all:continual+AND+(all:learning+AND+submittedDate:%22202401010000+TO+202612312359%22))))&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>382</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.28663v1</id>
+    <title>NeuroSynth: A Biologically Inspired Continual Reinforcement Learning Architecture for Mitigating Catastrophic Forgetting</title>
+    <updated>2026-07-24T05:56:07Z</updated>
+    <link href="https://arxiv.org/abs/2607.28663v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.28663v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial Intelligence (AI) systems often perform well on isolated tasks but struggle under continual learning conditions, where training on new tasks can overwrite previously acquired knowledge, a failure mode known as catastrophic forgetting. Biological learning systems reduce this interference through complementary memory processes involving rapid hippocampal encoding and slower cortical consolidation. This study introduces NeuroSynth, a brain-inspired continual reinforcement learning architecture designed to mitigate catastrophic forgetting through a dual-pathway consolidation mechanism. NeuroSynth separates rapid task acquisition from long-term retention using distinct "plan" and "habit" pathways combined with replay and knowledge distillation. NeuroSynth was evaluated against Proximal Policy Optimization (PPO) and Elastic Weight Consolidation (EWC) across three sequential navigation tasks with changing goal locations in a non-revisitation continual learning setting. Across six independent seeds, NeuroSynth preserved substantially more early-task knowledge than PPO after sequential training, achieving 18.00% Task A success rate compared to 0.33% for PPO (p = 0.014929, Cohen's d = 1.49) and 35.33% Task B success rate compared to 0.00% for PPO (p = 0.002376, Cohen's d = 2.31). NeuroSynth also demonstrated higher final Task C performance than EWC, achieving 9.00% compared to 2.00% (p = 0.226643, Cohen's d = 0.56), indicating a moderate but not statistically significant advantage. These findings suggest that biologically inspired consolidation mechanisms may improve the stability-plasticity balance in continual reinforcement learning systems.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-24T05:56:07Z</published>
+    <arxiv:comment>Disclaimer. This manuscript is provided as an arXiv preprint to establish a public record of the NeuroSynth continual reinforcement learning architecture and its evaluation on the NeuroMaze-CL benchmark. This full manuscript has been submitted to the Journal of High School Science for peer review</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Yash Kini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.01348v2</id>
+    <title>CORE: Mitigating Catastrophic Forgetting in Continual Learning through Cognitive Replay</title>
+    <updated>2024-04-09T08:33:22Z</updated>
+    <link href="https://arxiv.org/abs/2402.01348v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.01348v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces a novel perspective to significantly mitigate catastrophic forgetting in continuous learning (CL), which emphasizes models' capacity to preserve existing knowledge and assimilate new information. Current replay-based methods treat every task and data sample equally and thus can not fully exploit the potential of the replay buffer. In response, we propose COgnitive REplay (CORE), which draws inspiration from human cognitive review processes. CORE includes two key strategies: Adaptive Quantity Allocation and Quality-Focused Data Selection. The former adaptively modulates the replay buffer allocation for each task based on its forgetting rate, while the latter guarantees the inclusion of representative data that best encapsulates the characteristics of each task within the buffer. Our approach achieves an average accuracy of 37.95% on split-CIFAR10, surpassing the best baseline method by 6.52%. Additionally, it significantly enhances the accuracy of the poorest-performing task by 6.30% compared to the top baseline. Code is available at https://github.com/sterzhang/CORE.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-02T12:04:44Z</published>
+    <arxiv:comment>Accepted by CogSci24 as oral presentation</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jianshu Zhang</name>
+    </author>
+    <author>
+      <name>Yankai Fu</name>
+    </author>
+    <author>
+      <name>Ziheng Peng</name>
+    </author>
+    <author>
+      <name>Dongyu Yao</name>
+    </author>
+    <author>
+      <name>Kun He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.17998v1</id>
+    <title>Saliency-Guided Replay for Continual Learning in Deep Spiking Neural Networks</title>
+    <updated>2026-10-13T08:58:28Z</updated>
+    <link href="https://arxiv.org/abs/2610.17998v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.17998v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spiking Neural Networks (SNNs) are promising for energy-efficient neuromorphic computing, but they still suffer from catastrophic forgetting when learning tasks sequentially. This work investigates the integration of Experience Packing and Replay (EPR) as a memory-efficient continual learning strategy for deep SNNs under low-latency constraints. The proposed framework combines Batch Normalization Through Time stabilized VGG9 SNNs with Spike Activation Maps (SAM), which provide forward-only explanations based on spike activity. These explanations are temporally aggregated into spatial attention maps and used to select the most informative image patches for replay, instead of storing full images. Experiments on Split CIFAR10 and Split CIFAR100 show that SAM-guided EPR improves the accuracy-memory trade-off under tight memory budgets, and remains competitive while requiring substantially less storage.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-13T08:58:28Z</published>
+    <arxiv:comment>Streaming Continual Learning Workshop. In post-proceeding of International Workshops of ECML PKDD 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Francesco Panetta</name>
+    </author>
+    <author>
+      <name>Federico Di Valerio</name>
+    </author>
+    <author>
+      <name>Michela Proietti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.17936v1</id>
+    <title>Mitigating Catastrophic Forgetting in Streaming Generative and Predictive Learning via Stateful Replay</title>
+    <updated>2025-11-22T06:25:54Z</updated>
+    <link href="https://arxiv.org/abs/2511.17936v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.17936v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many deployed learning systems must update models on streaming data under memory constraints. The default strategy, sequential fine-tuning on each new phase, is architecture-agnostic but often suffers catastrophic forgetting when later phases correspond to different sub-populations or tasks. Replay with a finite buffer is a simple alternative, yet its behaviour across generative and predictive objectives is not well understood. We present a unified study of stateful replay for streaming autoencoding, time series forecasting, and classification. We view both sequential fine-tuning and replay as stochastic gradient methods for an ideal joint objective, and use a gradient alignment analysis to show when mixing current and historical samples should reduce forgetting. We then evaluate a single replay mechanism on six streaming scenarios built from Rotated MNIST, ElectricityLoadDiagrams 2011-2014, and Airlines delay data, using matched training budgets and three seeds. On heterogeneous multi task streams, replay reduces average forgetting by a factor of two to three, while on benign time based streams both methods perform similarly. These results position stateful replay as a strong and simple baseline for continual learning in streaming environments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-22T06:25:54Z</published>
+    <arxiv:comment>11 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Wenzhang Du</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.03818v2</id>
+    <title>Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning</title>
+    <updated>2026-03-17T18:41:08Z</updated>
+    <link href="https://arxiv.org/abs/2603.03818v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.03818v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continual learning is a long-standing challenge in robot policy learning, where a policy must acquire new skills over time without catastrophically forgetting previously learned ones. While prior work has extensively studied continual learning in relatively small behavior cloning (BC) policy models trained from scratch, its behavior in modern large-scale pretrained Vision-Language-Action (VLA) models remains underexplored. In this work, we found that pretrained VLAs are remarkably resistant to forgetting compared with smaller policy models trained from scratch. Simple Experience Replay (ER) works surprisingly well on VLAs, sometimes achieving zero forgetting even with a small replay data size. Our analysis reveals that pretraining plays a critical role in downstream continual learning performance: large pretrained models mitigate forgetting with a small replay buffer size while maintaining strong forward learning capabilities. Furthermore, we found that VLAs can retain relevant knowledge from prior tasks despite performance degradation during learning new tasks. This knowledge retention enables rapid recovery of seemingly forgotten skills through finetuning. Together, these insights imply that large-scale pretraining fundamentally changes the dynamics of continual learning, enabling models to continually acquire new skills over time with simple replay. Code and more information can be found at https://continual-vlas.github.io/forget-me-not/</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-04T08:03:13Z</published>
+    <arxiv:comment>Project website: https://continual-vlas.github.io/forget-me-not/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Huihan Liu</name>
+    </author>
+    <author>
+      <name>Changyeon Kim</name>
+    </author>
+    <author>
+      <name>Bo Liu</name>
+    </author>
+    <author>
+      <name>Minghuan Liu</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.03938v2</id>
+    <title>FOREVER: Forgetting Curve-Inspired Memory Replay for Language Model Continual Learning</title>
+    <updated>2026-04-20T08:59:59Z</updated>
+    <link href="https://arxiv.org/abs/2601.03938v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.03938v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continual learning (CL) for large language models (LLMs) aims to enable sequential knowledge acquisition without catastrophic forgetting. Memory replay methods are widely used for their practicality and effectiveness, but most rely on fixed, step-based heuristics that often misalign with the model's actual learning progress, since identical training steps can result in varying degrees of parameter change. Motivated by recent findings that LLM forgetting mirrors the Ebbinghaus human forgetting curve, we propose FOREVER (FORgEtting curVe-inspired mEmory Replay), a novel CL framework that aligns replay schedules with a model-centric notion of time. FOREVER defines model time using the magnitude of optimizer updates, allowing forgetting curve-inspired replay intervals to align with the model's internal evolution rather than raw training steps. Building on this approach, FOREVER incorporates a forgetting curve-based replay scheduler to determine when to replay and an intensity-aware regularization mechanism to adaptively control how to replay. Extensive experiments on three CL benchmarks and models ranging from 0.6B to 13B parameters demonstrate that FOREVER consistently mitigates catastrophic forgetting.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-07T13:55:14Z</published>
+    <arxiv:comment>ACL 2026 Camera-ready</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yujie Feng</name>
+    </author>
+    <author>
+      <name>Hao Wang</name>
+    </author>
+    <author>
+      <name>Jian Li</name>
+    </author>
+    <author>
+      <name>Xu Chu</name>
+    </author>
+    <author>
+      <name>Zhaolu Kang</name>
+    </author>
+    <author>
+      <name>Yiran Liu</name>
+    </author>
+    <author>
+      <name>Yasha Wang</name>
+    </author>
+    <author>
+      <name>Philip S. Yu</name>
+    </author>
+    <author>
+      <name>Xiao-Ming Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.18024v1</id>
+    <title>Catastrophic Forgetting is Low-Rank: A Function-Space Theory for Continual Adaptation</title>
+    <updated>2026-06-16T15:03:37Z</updated>
+    <link href="https://arxiv.org/abs/2606.18024v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.18024v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Catastrophic forgetting in continual adaptation is usually studied through parameter drift, replay, or distillation, but these views do not identify which output-space directions are vulnerable. We give a function-space account in the NTK regime: new-task training induces old-task prediction drift through the cross-task kernel, yielding a closed-form predictor for the forgetting vector before any new-task gradient step. In frozen-backbone linear-head PEFT-CL, where the model is linear in the trainable parameters, the predictor is exact up to numerical precision; for nonlinear adapters/full fine-tuning, it is a local NTK approximation. The same expression reveals that forgetting concentrates in a small number of old-task NTK eigenmodes and under frozen linear heads gives a Kronecker scaling rule for the vulnerable rank. These results clarify the relation to prior NTK-overlap theory, explain why parameter-space regularizers can miss output-space interference, and motivate a targeted spectral regularizer.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-16T15:03:37Z</published>
+    <arxiv:comment>Accepted to the ICML 2026 Workshop on Continual Adaptation at Scale: Towards Sustainable AI</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ido Nitzan Hidekel</name>
+    </author>
+    <author>
+      <name>Dan Raviv</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.11668v1</id>
+    <title>Bridging Streaming Continual Learning via In-Context Large Tabular Models</title>
+    <updated>2025-12-12T15:47:26Z</updated>
+    <link href="https://arxiv.org/abs/2512.11668v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.11668v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In streaming scenarios, models must learn continuously, adapting to concept drifts without erasing previously acquired knowledge. However, existing research communities address these challenges in isolation. Continual Learning (CL) focuses on long-term retention and mitigating catastrophic forgetting, often without strict real-time constraints. Stream Learning (SL) emphasizes rapid, efficient adaptation to high-frequency data streams, but typically neglects forgetting. Recent efforts have tried to combine these paradigms, yet no clear algorithmic overlap exists. We argue that large in-context tabular models (LTMs) provide a natural bridge for Streaming Continual Learning (SCL). In our view, unbounded streams should be summarized on-the-fly into compact sketches that can be consumed by LTMs. This recovers the classical SL motivation of compressing massive streams with fixed-size guarantees, while simultaneously aligning with the experience-replay desiderata of CL. To clarify this bridge, we show how the SL and CL communities implicitly adopt a divide-to-conquer strategy to manage the tension between plasticity (performing well on the current distribution) and stability (retaining past knowledge), while also imposing a minimal complexity constraint that motivates diversification (avoiding redundancy in what is stored) and retrieval (re-prioritizing past information when needed). Within this perspective, we propose structuring SCL with LTMs around two core principles of data selection for in-context learning: (1) distribution matching, which balances plasticity and stability, and (2) distribution compression, which controls memory size through diversification and retrieval mechanisms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-12T15:47:26Z</published>
+    <arxiv:comment>Streaming Continual Learning AAAI Bridge 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Afonso Lourenço</name>
+    </author>
+    <author>
+      <name>João Gama</name>
+    </author>
+    <author>
+      <name>Eric P. Xing</name>
+    </author>
+    <author>
+      <name>Goreti Marreiros</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.02576v2</id>
+    <title>t-DGR: A Trajectory-Based Deep Generative Replay Method for Continual Learning in Decision Making</title>
+    <updated>2024-06-17T16:04:27Z</updated>
+    <link href="https://arxiv.org/abs/2401.02576v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.02576v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep generative replay has emerged as a promising approach for continual learning in decision-making tasks. This approach addresses the problem of catastrophic forgetting by leveraging the generation of trajectories from previously encountered tasks to augment the current dataset. However, existing deep generative replay methods for continual learning rely on autoregressive models, which suffer from compounding errors in the generated trajectories. In this paper, we propose a simple, scalable, and non-autoregressive method for continual learning in decision-making tasks using a generative model that generates task samples conditioned on the trajectory timestep. We evaluate our method on Continual World benchmarks and find that our approach achieves state-of-the-art performance on the average success rate metric among continual learning methods. Code is available at https://github.com/WilliamYue37/t-DGR.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-04T23:44:35Z</published>
+    <arxiv:comment>Published at 3rd Conference on Lifelong Learning Agents (CoLLAs), 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>William Yue</name>
+    </author>
+    <author>
+      <name>Bo Liu</name>
+    </author>
+    <author>
+      <name>Peter Stone</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.16871v1</id>
+    <title>Sequencing to Mitigate Catastrophic Forgetting in Continual Learning</title>
+    <updated>2025-12-18T18:40:58Z</updated>
+    <link href="https://arxiv.org/abs/2512.16871v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.16871v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To cope with real-world dynamics, an intelligent system needs to incrementally acquire, update, and exploit knowledge throughout its lifetime. This ability, known as Continual learning, provides a foundation for AI systems to develop themselves adaptively. Catastrophic forgetting is a major challenge to the progress of Continual Learning approaches, where learning a new task usually results in a dramatic performance drop on previously learned ones. Many approaches have emerged to counteract the impact of CF. Most of the proposed approaches can be categorized into five classes: replay-based, regularization-based, optimization-based, representation-based, and architecture-based. In this work, we approach the problem from a different angle, specifically by considering the optimal sequencing of tasks as they are presented to the model. We investigate the role of task sequencing in mitigating CF and propose a method for determining the optimal task order. The proposed method leverages zero-shot scoring algorithms inspired by neural architecture search (NAS). Results demonstrate that intelligent task sequencing can substantially reduce CF. Moreover, when combined with traditional continual learning strategies, sequencing offers enhanced performance and robustness against forgetting. Additionally, the presented approaches can find applications in other fields, such as curriculum learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-18T18:40:58Z</published>
+    <arxiv:comment>The Manuscript is submitted for review under IEEE Transactions on Artificial intelligence</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hesham G. Moussa</name>
+    </author>
+    <author>
+      <name>Aroosa Hameed</name>
+    </author>
+    <author>
+      <name>Arashmid Akhavain</name>
+    </author>
+  </entry>
+</feed>

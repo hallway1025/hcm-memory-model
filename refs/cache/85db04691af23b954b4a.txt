@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Vd4a1DPyEV7g8UG9s56f6V/SwpQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.13564,2502.14802&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:48:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2512.13564,2502.14802" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13564v2</id>
+    <title>Memory in the Age of AI Agents</title>
+    <updated>2026-01-13T09:33:57Z</updated>
+    <link href="https://arxiv.org/abs/2512.13564v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13564v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory has emerged, and will continue to remain, a core capability of foundation model-based agents. As research on agent memory rapidly expands and attracts unprecedented attention, the field has also become increasingly fragmented. Existing works that fall under the umbrella of agent memory often differ substantially in their motivations, implementations, and evaluation protocols, while the proliferation of loosely defined memory terminologies has further obscured conceptual clarity. Traditional taxonomies such as long/short-term memory have proven insufficient to capture the diversity of contemporary agent memory systems. This work aims to provide an up-to-date landscape of current agent memory research. We begin by clearly delineating the scope of agent memory and distinguishing it from related concepts such as LLM memory, retrieval augmented generation (RAG), and context engineering. We then examine agent memory through the unified lenses of forms, functions, and dynamics. From the perspective of forms, we identify three dominant realizations of agent memory, namely token-level, parametric, and latent memory. From the perspective of functions, we propose a finer-grained taxonomy that distinguishes factual, experiential, and working memory. From the perspective of dynamics, we analyze how memory is formed, evolved, and retrieved over time. To support practical development, we compile a comprehensive summary of memory benchmarks and open-source frameworks. Beyond consolidation, we articulate a forward-looking perspective on emerging research frontiers, including memory automation, reinforcement learning integration, multimodal memory, multi-agent memory, and trustworthiness issues. We hope this survey serves not only as a reference for existing work, but also as a conceptual foundation for rethinking memory as a first-class primitive in the design of future agentic intelligence.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T17:22:34Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuyang Hu</name>
+    </author>
+    <author>
+      <name>Shichun Liu</name>
+    </author>
+    <author>
+      <name>Yanwei Yue</name>
+    </author>
+    <author>
+      <name>Guibin Zhang</name>
+    </author>
+    <author>
+      <name>Boyang Liu</name>
+    </author>
+    <author>
+      <name>Fangyi Zhu</name>
+    </author>
+    <author>
+      <name>Jiahang Lin</name>
+    </author>
+    <author>
+      <name>Honglin Guo</name>
+    </author>
+    <author>
+      <name>Shihan Dou</name>
+    </author>
+    <author>
+      <name>Zhiheng Xi</name>
+    </author>
+    <author>
+      <name>Senjie Jin</name>
+    </author>
+    <author>
+      <name>Jiejun Tan</name>
+    </author>
+    <author>
+      <name>Yanbin Yin</name>
+    </author>
+    <author>
+      <name>Jiongnan Liu</name>
+    </author>
+    <author>
+      <name>Zeyu Zhang</name>
+    </author>
+    <author>
+      <name>Zhongxiang Sun</name>
+    </author>
+    <author>
+      <name>Yutao Zhu</name>
+    </author>
+    <author>
+      <name>Hao Sun</name>
+    </author>
+    <author>
+      <name>Boci Peng</name>
+    </author>
+    <author>
+      <name>Zhenrong Cheng</name>
+    </author>
+    <author>
+      <name>Xuanbo Fan</name>
+    </author>
+    <author>
+      <name>Jiaxin Guo</name>
+    </author>
+    <author>
+      <name>Xinlei Yu</name>
+    </author>
+    <author>
+      <name>Zhenhong Zhou</name>
+    </author>
+    <author>
+      <name>Zewen Hu</name>
+    </author>
+    <author>
+      <name>Jiahao Huo</name>
+    </author>
+    <author>
+      <name>Junhao Wang</name>
+    </author>
+    <author>
+      <name>Yuwei Niu</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Zhenfei Yin</name>
+    </author>
+    <author>
+      <name>Xiaobin Hu</name>
+    </author>
+    <author>
+      <name>Yue Liao</name>
+    </author>
+    <author>
+      <name>Qiankun Li</name>
+    </author>
+    <author>
+      <name>Kun Wang</name>
+    </author>
+    <author>
+      <name>Wangchunshu Zhou</name>
+    </author>
+    <author>
+      <name>Yixin Liu</name>
+    </author>
+    <author>
+      <name>Dawei Cheng</name>
+    </author>
+    <author>
+      <name>Qi Zhang</name>
+    </author>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Shirui Pan</name>
+    </author>
+    <author>
+      <name>Yan Zhang</name>
+    </author>
+    <author>
+      <name>Philip Torr</name>
+    </author>
+    <author>
+      <name>Zhicheng Dou</name>
+    </author>
+    <author>
+      <name>Ji-Rong Wen</name>
+    </author>
+    <author>
+      <name>Xuanjing Huang</name>
+    </author>
+    <author>
+      <name>Yu-Gang Jiang</name>
+    </author>
+    <author>
+      <name>Shuicheng Yan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.14802v2</id>
+    <title>From RAG to Memory: Non-Parametric Continual Learning for Large Language Models</title>
+    <updated>2025-06-19T21:34:45Z</updated>
+    <link href="https://arxiv.org/abs/2502.14802v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.14802v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our ability to continuously acquire, organize, and leverage knowledge is a key feature of human intelligence that AI systems must approximate to unlock their full potential. Given the challenges in continual learning with large language models (LLMs), retrieval-augmented generation (RAG) has become the dominant way to introduce new information. However, its reliance on vector retrieval hinders its ability to mimic the dynamic and interconnected nature of human long-term memory. Recent RAG approaches augment vector embeddings with various structures like knowledge graphs to address some of these gaps, namely sense-making and associativity. However, their performance on more basic factual memory tasks drops considerably below standard RAG. We address this unintended deterioration and propose HippoRAG 2, a framework that outperforms standard RAG comprehensively on factual, sense-making, and associative memory tasks. HippoRAG 2 builds upon the Personalized PageRank algorithm used in HippoRAG and enhances it with deeper passage integration and more effective online use of an LLM. This combination pushes this RAG system closer to the effectiveness of human long-term memory, achieving a 7% improvement in associative memory tasks over the state-of-the-art embedding model while also exhibiting superior factual knowledge and sense-making memory capabilities. This work paves the way for non-parametric continual learning for LLMs. Code and data are available at https://github.com/OSU-NLP-Group/HippoRAG.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-20T18:26:02Z</published>
+    <arxiv:comment>ICML 2025. Code and data are available at: https://github.com/OSU-NLP-Group/HippoRAG</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Bernal Jiménez Gutiérrez</name>
+    </author>
+    <author>
+      <name>Yiheng Shu</name>
+    </author>
+    <author>
+      <name>Weijian Qi</name>
+    </author>
+    <author>
+      <name>Sizhe Zhou</name>
+    </author>
+    <author>
+      <name>Yu Su</name>
+    </author>
+  </entry>
+</feed>

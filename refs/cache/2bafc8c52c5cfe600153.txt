@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NKSFZf56JtWa0V6S7gOSaxPQzRk</id>
+  <title>arXiv Query: search_query=all:efficient AND all:text AND all:embedding&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-11-07T13:53:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:efficient+AND+(all:text+AND+all:embedding)&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>2136</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1911.01196v1</id>
+    <title>Spherical Text Embedding</title>
+    <updated>2019-11-04T18:36:12Z</updated>
+    <link href="https://arxiv.org/abs/1911.01196v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.01196v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unsupervised text embedding has shown great power in a wide range of NLP tasks. While text embeddings are typically learned in the Euclidean space, directional similarity is often more effective in tasks such as word similarity and document clustering, which creates a gap between the training stage and usage stage of text embedding. To close this gap, we propose a spherical generative model based on which unsupervised word and paragraph embeddings are jointly learned. To learn text embeddings in the spherical space, we develop an efficient optimization algorithm with convergence guarantee based on Riemannian optimization. Our model enjoys high efficiency and achieves state-of-the-art performances on various text embedding tasks including word similarity and document clustering.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-04T18:36:12Z</published>
+    <arxiv:comment>NeurIPS 2019. (Code: https://github.com/yumeng5/Spherical-Text-Embedding)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yu Meng</name>
+    </author>
+    <author>
+      <name>Jiaxin Huang</name>
+    </author>
+    <author>
+      <name>Guangyuan Wang</name>
+    </author>
+    <author>
+      <name>Chao Zhang</name>
+    </author>
+    <author>
+      <name>Honglei Zhuang</name>
+    </author>
+    <author>
+      <name>Lance Kaplan</name>
+    </author>
+    <author>
+      <name>Jiawei Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.00532v2</id>
+    <title>ChemTEB: Chemical Text Embedding Benchmark, an Overview of Embedding Models Performance &amp; Efficiency on a Specific Domain</title>
+    <updated>2025-01-23T20:59:08Z</updated>
+    <link href="https://arxiv.org/abs/2412.00532v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.00532v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advancements in language models have started a new era of superior information retrieval and content generation, with embedding models playing an important role in optimizing data representation efficiency and performance. While benchmarks like the Massive Text Embedding Benchmark (MTEB) have standardized the evaluation of general domain embedding models, a gap remains in specialized fields such as chemistry, which require tailored approaches due to domain-specific challenges. This paper introduces a novel benchmark, the Chemical Text Embedding Benchmark (ChemTEB), designed specifically for the chemical sciences. ChemTEB addresses the unique linguistic and semantic complexities of chemical literature and data, offering a comprehensive suite of tasks on chemical domain data. Through the evaluation of 34 open-source and proprietary models using this benchmark, we illuminate the strengths and weaknesses of current methodologies in processing and understanding chemical information. Our work aims to equip the research community with a standardized, domain-specific evaluation framework, promoting the development of more precise and efficient NLP models for chemistry-related applications. Furthermore, it provides insights into the performance of generic models in a domain-specific context. ChemTEB comes with open-source code and data, contributing further to its accessibility and utility.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-30T16:45:31Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Proceedings of The 4th NeurIPS Efficient Natural Language and Speech Processing Workshop, PMLR 262:512-531 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Ali Shiraee Kasmaee</name>
+    </author>
+    <author>
+      <name>Mohammad Khodadad</name>
+    </author>
+    <author>
+      <name>Mohammad Arshi Saloot</name>
+    </author>
+    <author>
+      <name>Nicholas Sherck</name>
+    </author>
+    <author>
+      <name>Stephen Dokas</name>
+    </author>
+    <author>
+      <name>Hamidreza Mahyar</name>
+    </author>
+    <author>
+      <name>Soheila Samiee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.11592v1</id>
+    <title>Learning Text-Image Joint Embedding for Efficient Cross-Modal Retrieval with Deep Feature Engineering</title>
+    <updated>2021-10-22T05:18:28Z</updated>
+    <link href="https://arxiv.org/abs/2110.11592v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.11592v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces a two-phase deep feature engineering framework for efficient learning of semantics enhanced joint embedding, which clearly separates the deep feature engineering in data preprocessing from training the text-image joint embedding model. We use the Recipe1M dataset for the technical description and empirical validation. In preprocessing, we perform deep feature engineering by combining deep feature engineering with semantic context features derived from raw text-image input data. We leverage LSTM to identify key terms, deep NLP models from the BERT family, TextRank, or TF-IDF to produce ranking scores for key terms before generating the vector representation for each key term by using word2vec. We leverage wideResNet50 and word2vec to extract and encode the image category semantics of food images to help semantic alignment of the learned recipe and image embeddings in the joint latent space. In joint embedding learning, we perform deep feature engineering by optimizing the batch-hard triplet loss function with soft-margin and double negative sampling, taking into account also the category-based alignment loss and discriminator-based alignment loss. Extensive experiments demonstrate that our SEJE approach with deep feature engineering significantly outperforms the state-of-the-art approaches.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-22T05:18:28Z</published>
+    <arxiv:comment>accepted by ACM Transactions on Information Systems(TOIS). arXiv admin note: text overlap with arXiv:2108.00705, arXiv:2108.03788</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zhongwei Xie</name>
+    </author>
+    <author>
+      <name>Ling Liu</name>
+    </author>
+    <author>
+      <name>Yanzhao Wu</name>
+    </author>
+    <author>
+      <name>Luo Zhong</name>
+    </author>
+    <author>
+      <name>Lin Li</name>
+    </author>
+    <arxiv:doi>10.1145/3490519</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3490519" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.10772v4</id>
+    <title>Applying Text Embedding Models for Efficient Analysis in Labeled Property Graphs</title>
+    <updated>2026-02-05T19:04:06Z</updated>
+    <link href="https://arxiv.org/abs/2507.10772v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.10772v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Labeled property graphs often contain rich textual attributes that can enhance analytical tasks when properly leveraged. This work explores the use of pretrained text embedding models to enable efficient semantic analysis in such graphs. By embedding textual node and edge properties, we support downstream tasks including node classification and relation prediction with improved contextual understanding. Our approach integrates language model embeddings into the graph pipeline without altering its structure, demonstrating that textual semantics can significantly enhance the accuracy and interpretability of property graph analysis.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-14T19:53:56Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Michal Podstawski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.22733v3</id>
+    <title>E2Rank: Unifying Text Embedding and Listwise Reranking for Effective and Efficient Search</title>
+    <updated>2026-08-26T06:13:32Z</updated>
+    <link href="https://arxiv.org/abs/2510.22733v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.22733v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text embedding models deliver competitive retrieval performance with high efficiency, but their ranking fidelity remains limited compared to LLM-based listwise rerankers, which capture fine-grained query-document and document-document interactions at high computational cost. We propose E2Rank (Efficient Embedding-based Ranking), a unified framework that extends a single text embedding model to perform both retrieval and listwise reranking via continued training under a listwise ranking objective. The key insight is to treat the listwise prompt---constructed from the query and its top-K candidates---as a pseudo-relevance feedback (PRF) query, enabling reranking via cosine similarity against precomputed document embeddings without autoregressive decoding. Empirically, E2Rank achieves state-of-the-art results on BEIR, competitive performance on the reasoning-intensive BRIGHT benchmark, significantly lower latency than existing LLM-based rerankers, and improved embedding performance on MTEB---all within a single model.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-26T16:04:48Z</published>
+    <arxiv:comment>Accepted by EMNLP 2026 main conference. Code and models are avaliable at https://alibaba-nlp.github.io/E2Rank</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Qi Liu</name>
+    </author>
+    <author>
+      <name>Yanzhao Zhang</name>
+    </author>
+    <author>
+      <name>Mingxin Li</name>
+    </author>
+    <author>
+      <name>Dingkun Long</name>
+    </author>
+    <author>
+      <name>Pengjun Xie</name>
+    </author>
+    <author>
+      <name>Jiaxin Mao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.00200v1</id>
+    <title>PTE: Predictive Text Embedding through Large-scale Heterogeneous Text Networks</title>
+    <updated>2015-08-02T06:18:10Z</updated>
+    <link href="https://arxiv.org/abs/1508.00200v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.00200v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unsupervised text embedding methods, such as Skip-gram and Paragraph Vector, have been attracting increasing attention due to their simplicity, scalability, and effectiveness. However, comparing to sophisticated deep learning architectures such as convolutional neural networks, these methods usually yield inferior results when applied to particular machine learning tasks. One possible reason is that these text embedding methods learn the representation of text in a fully unsupervised way, without leveraging the labeled information available for the task. Although the low dimensional representations learned are applicable to many different tasks, they are not particularly tuned for any task. In this paper, we fill this gap by proposing a semi-supervised representation learning method for text data, which we call the \textit{predictive text embedding} (PTE). Predictive text embedding utilizes both labeled and unlabeled data to learn the embedding of text. The labeled information and different levels of word co-occurrence information are first represented as a large-scale heterogeneous text network, which is then embedded into a low dimensional space through a principled and efficient algorithm. This low dimensional embedding not only preserves the semantic closeness of words and documents, but also has a strong predictive power for the particular task. Compared to recent supervised approaches based on convolutional neural networks, predictive text embedding is comparable or more effective, much more efficient, and has fewer parameters to tune.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-02T06:18:10Z</published>
+    <arxiv:comment>KDD 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+    <author>
+      <name>Meng Qu</name>
+    </author>
+    <author>
+      <name>Qiaozhu Mei</name>
+    </author>
+    <arxiv:doi>10.1145/2783258.2783307</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/2783258.2783307" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.26182v1</id>
+    <title>Modality-Gated Deep Adapters: Adding a Modality to a Frozen Embedding Model with Exact Preservation</title>
+    <updated>2026-08-10T01:48:14Z</updated>
+    <link href="https://arxiv.org/abs/2609.26182v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.26182v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal embedding models are deployed at scale: retrieval indices, benchmark results, and behavioral audits all depend on the base model's exact outputs. Extending such a model to a new modality with existing parameter-efficient methods silently changes those outputs; LoRA-style adaptation rewrites the text path whether or not the weights are merged, invalidating every stored embedding. We propose modality-gated deep adapters: bottleneck adapters attached to every decoder layer of a frozen multimodal embedding LLM, grouped into per-modality packs that execute only while their own modality is being encoded. The result is a modality added with zero change to existing outputs: inputs no pack claims traverse the base model's own computation graph, bit-for-bit unchanged, and co-loaded packs compose with an exact-zero isolation matrix. Both properties are stated as propositions, hold after arbitrary training rather than only at initialization, require no task labels or routing metadata at inference, and are verified by exact-equality tests on the released checkpoints. On one frozen 2B base, the audio pack (injected as connector tokens) improves audio-to-text R@10 by +3.4 to +5.4 points over an identically trained control, positive at every seed and reproduced at eleven times the data; the thermal pack, reusing the base's own frozen vision path, clears its pre-registered acceptance gate roughly sevenfold at every seed and lifts thermal-to-text R@10 from 0.224 to 0.785. An encoder swap locates the missing capacity: an external audio encoder that outranks Whisper-family encoders in CLAP-style comparisons loses by 16 R@10 points inside the frozen LLM, so the capacity belongs in the layers, exactly where the gated adapters place it. We release the audio model, the thermal pack, and the training, evaluation and invariance suites: models at huggingface.co/EximiusLabs, code on GitHub.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-10T01:48:14Z</published>
+    <arxiv:comment>14 pages, 3 figures, 6 tables. Models: https://huggingface.co/EximiusLabs/fusion-embedding-2-2b-preview and https://huggingface.co/EximiusLabs/fusion-embedding-2-ember. Code: https://github.com/Eximius-Labs/fusion-embedding</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Abdul Basit Tonmoy</name>
+    </author>
+    <author>
+      <name>Kazi Fardinul Hoque</name>
+    </author>
+    <author>
+      <name>Md. Shahrier Islam Arham</name>
+    </author>
+    <author>
+      <name>Arman Luthra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.08632v2</id>
+    <title>Unsupervised deep learning for text line segmentation</title>
+    <updated>2020-10-24T21:11:57Z</updated>
+    <link href="https://arxiv.org/abs/2003.08632v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.08632v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an unsupervised deep learning method for text line segmentation that is inspired by the relative variance between text lines and spaces among text lines. Handwritten text line segmentation is important for the efficiency of further processing. A common method is to train a deep learning network for embedding the document image into an image of blob lines that are tracing the text lines. Previous methods learned such embedding in a supervised manner, requiring the annotation of many document images. This paper presents an unsupervised embedding of document image patches without a need for annotations. The number of foreground pixels over the text lines is relatively different from the number of foreground pixels over the spaces among text lines. Generating similar and different pairs relying on this principle definitely leads to outliers. However, as the results show, the outliers do not harm the convergence and the network learns to discriminate the text lines from the spaces between text lines. Remarkably, with a challenging Arabic handwritten text line segmentation dataset, VML-AHTE, we achieved superior performance over the supervised methods. Additionally, the proposed method was evaluated on the ICDAR 2017 and ICFHR 2010 handwritten text line segmentation datasets.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-19T08:57:53Z</published>
+    <arxiv:comment>An unsupervised CNN for text line segmentation</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Berat Kurar Barakat</name>
+    </author>
+    <author>
+      <name>Ahmad Droby</name>
+    </author>
+    <author>
+      <name>Rym Alasam</name>
+    </author>
+    <author>
+      <name>Boraq Madi</name>
+    </author>
+    <author>
+      <name>Irina Rabaev</name>
+    </author>
+    <author>
+      <name>Raed Shammes</name>
+    </author>
+    <author>
+      <name>Jihad El-Sana</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.17364v1</id>
+    <title>Efficient fine-tuning methodology of text embedding models for information retrieval: contrastive learning penalty (clp)</title>
+    <updated>2024-12-23T07:55:22Z</updated>
+    <link href="https://arxiv.org/abs/2412.17364v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.17364v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text embedding models play a crucial role in natural language processing, particularly in information retrieval, and their importance is further highlighted with the recent utilization of RAG (Retrieval- Augmented Generation). This study presents an efficient fine-tuning methodology encompassing data selection, loss function, and model architecture to enhance the information retrieval performance of pre-trained text embedding models. In particular, this study proposes a novel Contrastive Learning Penalty function that overcomes the limitations of existing Contrastive Learning. The proposed methodology achieves significant performance improvements over existing methods in document retrieval tasks. This study is expected to contribute to improving the performance of information retrieval systems through fine-tuning of text embedding models. The code for this study can be found at https://github.com/CreaLabs/Enhanced-BGE-M3-with-CLP-and-MoE, and the best-performing model can be found at https://huggingface.co/CreaLabs.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-23T07:55:22Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Jeongsu Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.09169v1</id>
+    <title>DECOR:Decomposition and Projection of Text Embeddings for Text-to-Image Customization</title>
+    <updated>2024-12-12T10:59:44Z</updated>
+    <link href="https://arxiv.org/abs/2412.09169v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.09169v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text-to-image (T2I) models can effectively capture the content or style of reference images to perform high-quality customization. A representative technique for this is fine-tuning using low-rank adaptations (LoRA), which enables efficient model customization with reference images. However, fine-tuning with a limited number of reference images often leads to overfitting, resulting in issues such as prompt misalignment or content leakage. These issues prevent the model from accurately following the input prompt or generating undesired objects during inference. To address this problem, we examine the text embeddings that guide the diffusion model during inference. This study decomposes the text embedding matrix and conducts a component analysis to understand the embedding space geometry and identify the cause of overfitting. Based on this, we propose DECOR, which projects text embeddings onto a vector space orthogonal to undesired token vectors, thereby reducing the influence of unwanted semantics in the text embeddings. Experimental results demonstrate that DECOR outperforms state-of-the-art customization models and achieves Pareto frontier performance across text and visual alignment evaluation metrics. Furthermore, it generates images more faithful to the input prompts, showcasing its effectiveness in addressing overfitting and enhancing text-to-image customization.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-12T10:59:44Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Geonhui Jang</name>
+    </author>
+    <author>
+      <name>Jin-Hwa Kim</name>
+    </author>
+    <author>
+      <name>Yong-Hyun Park</name>
+    </author>
+    <author>
+      <name>Junho Kim</name>
+    </author>
+    <author>
+      <name>Gayoung Lee</name>
+    </author>
+    <author>
+      <name>Yonghyun Jeong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.22697v1</id>
+    <title>Learning Hyperspectral Images with Curated Text Prompts for Efficient Multimodal Alignment</title>
+    <updated>2025-09-20T23:23:04Z</updated>
+    <link href="https://arxiv.org/abs/2509.22697v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.22697v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As data requirements continue to grow, efficient learning increasingly depends on the curation and distillation of high-value data rather than brute-force scaling of model sizes. In the case of a hyperspectral image (HSI), the challenge is amplified by the high-dimensional 3D voxel structure, where each spatial location is associated with hundreds of contiguous spectral channels. While vision and language models have been optimized effectively for natural image or text tasks, their cross-modal alignment in the hyperspectral domain remains an open and underexplored problem. In this article, we make an attempt to optimize a Vision-Language Model (VLM) for hyperspectral scene understanding by exploiting a CLIP-style contrastive training framework. Our framework maps voxel-level embeddings from a vision backbone onto the latent space of a frozen large embedding model (LEM), where a trainable probe aligns vision features with the model's textual token representations. The two modalities are aligned via a contrastive loss restricted to a curated set of hard (closest wrong classes) and semi-hard (random distractors) negatives, along with positive pairs. To further enhance alignment, descriptive prompts that encode class semantics are introduced and act as structured anchors for the HSI embeddings. It is seen that the proposed method updates only 0.07 percent of the total parameters, yet yields state-of-the-art performance. For example, on Indian Pines (IP) the model produces better results over unimodal and multimodal baselines by +0.92 Overall Accuracy (OA) and +1.60 Kappa ($κ$), while on Pavia University (PU) data it provides gains of +0.69 OA and +0.90 $κ$. Moreover, this is achieved with the set of parameters, nearly 50$\times$ smaller than DCTN and 90$\times$ smaller than SS-TMNet.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-20T23:23:04Z</published>
+    <arxiv:comment>Accepted at the IEEE/CVF International Conference on Computer Vision (ICCV 2025), Workshop on Curated Data for Efficient Learning</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Abhiroop Chatterjee</name>
+    </author>
+    <author>
+      <name>Susmita Ghosh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.28066v2</id>
+    <title>PromptEmbedder: Efficient and Transferable Text Embedding via Dual-LLM Soft Prompting</title>
+    <updated>2026-06-09T06:33:45Z</updated>
+    <link href="https://arxiv.org/abs/2605.28066v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.28066v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have demonstrated remarkable efficacy in text embedding, yet current adaptation methods like LoRA face significant bottlenecks in computational efficiency and cross-architecture transferability. Whenever a new backbone emerges, existing approaches require costly retraining from scratch. To address this, we propose PromptEmbedder, a novel dual-LLM framework that decouples embedding knowledge from specific backbone weights. PromptEmbedder utilizes a Prompting LLM to generate instruction-aware soft prompts for a frozen Embedding LLM via a differentiable generation process with continuous relaxation, ensuring full gradient flow during contrastive training. By localizing task-specific knowledge within the Prompting LLM, adapting to new architectures requires only retraining a lightweight linear alignment matrix. Evaluations on the MTEB benchmark show that PromptEmbedder achieves comparable performance with LoRA finetuning while reducing GPU memory by 40% and accelerating training by 3.7x. Our approach establishes a scalable, architecture-agnostic paradigm for efficient LLM-based representation learning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-27T07:23:55Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yu-Che Tsai</name>
+    </author>
+    <author>
+      <name>Kuan-Yu Chen</name>
+    </author>
+    <author>
+      <name>Yuan-Hao Chen</name>
+    </author>
+    <author>
+      <name>Yu-Han Chang</name>
+    </author>
+    <author>
+      <name>Ching-Yu Tsai</name>
+    </author>
+    <author>
+      <name>Yu-Hsiang Chuang</name>
+    </author>
+    <author>
+      <name>Shou-De Lin</name>
+    </author>
+  </entry>
+</feed>

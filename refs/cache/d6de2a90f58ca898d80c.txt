@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4Jks0jUk+ydDq7srjoYnXx/ONUc</id>
+  <title>arXiv Query: search_query=&amp;id_list=1804.01756&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:30:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=1804.01756" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1804.01756v3</id>
+    <title>The Kanerva Machine: A Generative Distributed Memory</title>
+    <updated>2018-06-18T09:52:40Z</updated>
+    <link href="https://arxiv.org/abs/1804.01756v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.01756v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an end-to-end trained memory system that quickly adapts to new data and generates samples like them. Inspired by Kanerva's sparse distributed memory, it has a robust distributed reading and writing mechanism. The memory is analytically tractable, which enables optimal on-line compression via a Bayesian update-rule. We formulate it as a hierarchical conditional generative model, where memory provides a rich data-dependent prior distribution. Consequently, the top-down memory and bottom-up perception are combined to produce the code representing an observation. Empirically, we demonstrate that the adaptive memory significantly improves generative models trained on both the Omniglot and CIFAR datasets. Compared with the Differentiable Neural Computer (DNC) and its variants, our memory model has greater capacity and is significantly easier to train.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-05T10:07:05Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2018 (corrected typos in revision)</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Yan Wu</name>
+    </author>
+    <author>
+      <name>Greg Wayne</name>
+    </author>
+    <author>
+      <name>Alex Graves</name>
+    </author>
+    <author>
+      <name>Timothy Lillicrap</name>
+    </author>
+  </entry>
+</feed>

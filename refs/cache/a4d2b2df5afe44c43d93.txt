@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["42419296"],"translationset":[],"querytranslation":"\"10 1016 j cub 2026 06 039\"[Publisher ID]"}}

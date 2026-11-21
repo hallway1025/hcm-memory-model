@@ -1,0 +1,53 @@
+[
+ {
+  "module": "M3_CTX",
+  "metric": "occasion_setting_hits",
+  "on": 12,
+  "off": 12,
+  "max": 12,
+  "sec": 0.1
+ },
+ {
+  "module": "M7_NEU",
+  "metric": "write_selectivity",
+  "on": {
+   "written": 28,
+   "recall": 12,
+   "distinct_items": 1,
+   "event_items": 27
+  },
+  "off": {
+   "written": 28,
+   "recall": 12,
+   "distinct_items": 1,
+   "event_items": 27
+  },
+  "sec": 0.1
+ },
+ {
+  "module": "M8_FOR",
+  "metric": "suppression_differential",
+  "on": {
+   "sup_practiced": 0.0334,
+   "sup_unpracticed": 0.0273,
+   "recall_before": 20,
+   "recall_after": 20,
+   "n": 20
+  },
+  "off": {
+   "sup_practiced": 1.0,
+   "sup_unpracticed": 1.0,
+   "recall_before": 20,
+   "recall_after": 20,
+   "n": 20
+  },
+  "sec": 0.2
+ },
+ {
+  "module": "M0_META",
+  "metric": "risk_adjusted_score",
+  "on": 27.300000000000058,
+  "off": 0.0,
+  "sec": 0.2
+ }
+]

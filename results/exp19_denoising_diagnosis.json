@@ -1,0 +1,110 @@
+[
+ {
+  "seed": 0,
+  "arm": "base",
+  "level": 0.0,
+  "top1": 40,
+  "n_probes": 40,
+  "write_s": 291.6
+ },
+ {
+  "seed": 0,
+  "arm": "base",
+  "level": 0.1,
+  "top1": 39,
+  "n_probes": 40,
+  "o_sparse": 40,
+  "o_denseD": 40,
+  "o_payload": 40,
+  "mr_sparse": 0.0,
+  "mr_denseD": 0.0,
+  "mr_payload": 0.0
+ },
+ {
+  "seed": 0,
+  "arm": "base",
+  "level": 0.25,
+  "top1": 8,
+  "n_probes": 40,
+  "o_sparse": 40,
+  "o_denseD": 40,
+  "o_payload": 40,
+  "mr_sparse": 0.0,
+  "mr_denseD": 0.0,
+  "mr_payload": 0.0
+ },
+ {
+  "seed": 0,
+  "arm": "base",
+  "level": 0.35,
+  "top1": 0,
+  "n_probes": 40,
+  "o_sparse": 40,
+  "o_denseD": 40,
+  "o_payload": 40,
+  "mr_sparse": 0.0,
+  "mr_denseD": 0.0,
+  "mr_payload": 0.0
+ },
+ {
+  "seed": 0,
+  "arm": "noctx",
+  "level": 0.25,
+  "top1": 8,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "base",
+  "level": 0.0,
+  "top1": 40,
+  "n_probes": 40,
+  "write_s": 290.3
+ },
+ {
+  "seed": 1,
+  "arm": "base",
+  "level": 0.1,
+  "top1": 39,
+  "n_probes": 40,
+  "o_sparse": 40,
+  "o_denseD": 40,
+  "o_payload": 40,
+  "mr_sparse": 0.0,
+  "mr_denseD": 0.0,
+  "mr_payload": 0.0
+ },
+ {
+  "seed": 1,
+  "arm": "base",
+  "level": 0.25,
+  "top1": 12,
+  "n_probes": 40,
+  "o_sparse": 40,
+  "o_denseD": 40,
+  "o_payload": 40,
+  "mr_sparse": 0.0,
+  "mr_denseD": 0.0,
+  "mr_payload": 0.0
+ },
+ {
+  "seed": 1,
+  "arm": "base",
+  "level": 0.35,
+  "top1": 0,
+  "n_probes": 40,
+  "o_sparse": 40,
+  "o_denseD": 40,
+  "o_payload": 40,
+  "mr_sparse": 0.0,
+  "mr_denseD": 0.0,
+  "mr_payload": 0.0
+ },
+ {
+  "seed": 1,
+  "arm": "noctx",
+  "level": 0.25,
+  "top1": 12,
+  "n_probes": 40
+ }
+]

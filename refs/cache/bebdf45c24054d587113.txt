@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["16242397"],"translationset":[],"querytranslation":"\"10 1016 j neuron 2005 10 006\"[Publisher ID]"}}

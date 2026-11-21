@@ -1,0 +1,6 @@
+exp52 eq N=200000 cell=T_b100 seed=0 rss0=32.4MB
+EQ s0 write 100000/200000 30069s rss=15659.8MB s/w=0.3006
+EQ s0 write 200000/200000 119759s rss=28411.1MB s/w=0.5987
+EQ s0 written=200000 write=119759s rss=28411.1MB (enc 2362.6s sc 116981.1s append 346.6s)
+EQ probes: 60 rows regenerated rss=29225.6MB
+EQ GATE hard=0 max_d_a=2.56e-45 max_d_raw=2.11e-07 -> G_EQ=True

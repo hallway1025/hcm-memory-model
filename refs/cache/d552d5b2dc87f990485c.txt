@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["16099088"],"translationset":[],"querytranslation":"\"10 1016 j pneurobio 2005 06 003\"[Publisher ID]"}}

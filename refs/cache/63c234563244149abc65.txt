@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AG/P0uDWkwFmFK/JXetyaenNYf0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2012.10988&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:33:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2012.10988" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2012.10988v2</id>
+    <title>Post-hoc Uncertainty Calibration for Domain Drift Scenarios</title>
+    <updated>2021-06-23T15:01:51Z</updated>
+    <link href="https://arxiv.org/abs/2012.10988v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.10988v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We address the problem of uncertainty calibration. While standard deep neural networks typically yield uncalibrated predictions, calibrated confidence scores that are representative of the true likelihood of a prediction can be achieved using post-hoc calibration methods. However, to date the focus of these approaches has been on in-domain calibration. Our contribution is two-fold. First, we show that existing post-hoc calibration methods yield highly over-confident predictions under domain shift. Second, we introduce a simple strategy where perturbations are applied to samples in the validation set before performing the post-hoc calibration step. In extensive experiments, we demonstrate that this perturbation step results in substantially better calibration under domain shift on a wide range of architectures and modelling tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-20T18:21:13Z</published>
+    <arxiv:comment>In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021. Code available at https://github.com/tochris/calibration-domain-drift</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Christian Tomani</name>
+    </author>
+    <author>
+      <name>Sebastian Gruber</name>
+    </author>
+    <author>
+      <name>Muhammed Ebrar Erdem</name>
+    </author>
+    <author>
+      <name>Daniel Cremers</name>
+    </author>
+    <author>
+      <name>Florian Buettner</name>
+    </author>
+  </entry>
+</feed>

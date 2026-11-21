@@ -1,0 +1,7 @@
+F_b100 s2 write 25000/100000 8698s rss=5980.6MB
+F_b100 s2 write 50000/100000 25511s rss=9313.2MB
+F_b100 s2 write 75000/100000 51492s rss=12646.2MB
+F_b100 s2 write 100000/100000 82204s rss=15844.7MB
+F_b100 s2 deg0: 60/60 abst=0 159.352s/q
+F_b100 s2 deg25: 60/60 abst=0 151.314s/q
+DONE {"N": 100000, "cell": "F_b100", "seed": 2, "write_s": 82203.9, "peak_rss_mb": 28223.2}

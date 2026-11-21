@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RNFzVYkKcxyJP8gGNDWDJCoKTCI</id>
+  <title>arXiv Query: search_query=all:uncertainty AND all:aware AND all:retrieval&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-11-07T11:35:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:uncertainty+AND+(all:aware+AND+all:retrieval)&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>312</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.26649v1</id>
+    <title>When to Retrieve During Reasoning: Adaptive Retrieval for Large Reasoning Models</title>
+    <updated>2026-04-29T13:15:44Z</updated>
+    <link href="https://arxiv.org/abs/2604.26649v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.26649v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large reasoning models such as DeepSeek-R1 and OpenAI o1 generate extended chains of thought spanning thousands of tokens, yet their integration with retrieval-augmented generation (RAG) remains fundamentally misaligned. Current RAG systems optimize for providing context before reasoning begins, while reasoning models require evidence injection during multi-step inference chains. We introduce ReaLM-Retrieve, a reasoning-aware retrieval framework that addresses this mismatch through three key innovations: (1) a step-level uncertainty detector that identifies knowledge gaps at reasoning-step granularity rather than token or sentence level; (2) a retrieval intervention policy that learns when external evidence maximally benefits ongoing reasoning; and (3) an efficiency-optimized integration mechanism that reduces per-retrieval overhead by 3.2x compared to naive integration. Experiments on MuSiQue, HotpotQA, and 2WikiMultiHopQA demonstrate that ReaLM-Retrieve achieves on average 10.1% absolute improvement in answer F1 over standard RAG (range: 9.0-11.8% across the three benchmarks) while reducing retrieval calls by 47% compared to fixed-interval approaches like IRCoT (all improvements significant at p&lt;0.01, paired bootstrap). On the challenging MuSiQue benchmark requiring 2-4 hop reasoning, our method achieves 71.2% F1 with an average of only 1.8 retrieval calls per question. Analysis shows that ReaLM-Retrieve also improves retrieval quality itself, achieving 81.3% Recall@5 with consistently higher precision and MRR than fixed-interval baselines on supporting evidence, establishing new state-of-the-art efficiency-accuracy trade-offs for reasoning-intensive retrieval tasks.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-29T13:15:44Z</published>
+    <arxiv:comment>12 pages, 3 figures, 9 tables. Accepted at SIGIR 2026 (49th International ACM SIGIR Conference on Research and Development in Information Retrieval), Melbourne, Australia</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Dongxin Guo</name>
+    </author>
+    <author>
+      <name>Jikun Wu</name>
+    </author>
+    <author>
+      <name>Siu Ming Yiu</name>
+    </author>
+    <arxiv:doi>10.1145/3805712.3809722</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3805712.3809722" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.04038v1</id>
+    <title>An Uncertainty-Aware Approach for Exploratory Microblog Retrieval</title>
+    <updated>2015-12-13T11:56:09Z</updated>
+    <link href="https://arxiv.org/abs/1512.04038v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.04038v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although there has been a great deal of interest in analyzing customer opinions and breaking news in microblogs, progress has been hampered by the lack of an effective mechanism to discover and retrieve data of interest from microblogs. To address this problem, we have developed an uncertainty-aware visual analytics approach to retrieve salient posts, users, and hashtags. We extend an existing ranking technique to compute a multifaceted retrieval result: the mutual reinforcement rank of a graph node, the uncertainty of each rank, and the propagation of uncertainty among different graph nodes. To illustrate the three facets, we have also designed a composite visualization with three visual components: a graph visualization, an uncertainty glyph, and a flow map. The graph visualization with glyphs, the flow map, and the uncertainty analysis together enable analysts to effectively find the most uncertain results and interactively refine them. We have applied our approach to several Twitter datasets. Qualitative evaluation and two real-world case studies demonstrate the promise of our approach for retrieving high-quality microblog data.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-13T11:56:09Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Mengchen Liu</name>
+    </author>
+    <author>
+      <name>Shixia Liu</name>
+    </author>
+    <author>
+      <name>Xizhou Zhu</name>
+    </author>
+    <author>
+      <name>Qinying Liao</name>
+    </author>
+    <author>
+      <name>Furu Wei</name>
+    </author>
+    <author>
+      <name>Shimei Pan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.17990v1</id>
+    <title>SUNAR: Semantic Uncertainty based Neighborhood Aware Retrieval for Complex QA</title>
+    <updated>2025-03-23T08:50:44Z</updated>
+    <link href="https://arxiv.org/abs/2503.17990v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.17990v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Complex question-answering (QA) systems face significant challenges in retrieving and reasoning over information that addresses multi-faceted queries. While large language models (LLMs) have advanced the reasoning capabilities of these systems, the bounded-recall problem persists, where procuring all relevant documents in first-stage retrieval remains a challenge. Missing pertinent documents at this stage leads to performance degradation that cannot be remedied in later stages, especially given the limited context windows of LLMs which necessitate high recall at smaller retrieval depths. In this paper, we introduce SUNAR, a novel approach that leverages LLMs to guide a Neighborhood Aware Retrieval process. SUNAR iteratively explores a neighborhood graph of documents, dynamically promoting or penalizing documents based on uncertainty estimates from interim LLM-generated answer candidates. We validate our approach through extensive experiments on two complex QA datasets. Our results show that SUNAR significantly outperforms existing retrieve-and-reason baselines, achieving up to a 31.84% improvement in performance over existing state-of-the-art methods for complex QA.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-23T08:50:44Z</published>
+    <arxiv:comment>Accepted at NAACL 2025 Main Conference</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>V Venktesh</name>
+    </author>
+    <author>
+      <name>Mandeep Rathee</name>
+    </author>
+    <author>
+      <name>Avishek Anand</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.06032v1</id>
+    <title>Uncertainty-Aware Cross-Modal Remote Sensing Image-Text Retrieval via Evidential Learning</title>
+    <updated>2026-07-07T09:10:47Z</updated>
+    <link href="https://arxiv.org/abs/2607.06032v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.06032v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In cross-modal remote sensing image-text retrieval (CMRSITR), test-time remote sensing (RS) images and textual descriptions may deviate from well-curated benchmark conditions due to sensor- and atmosphere-related image degradations and text-side RS-vocabulary heterogeneity. Under such non-ideal conditions, existing CMRSITR methods may produce unreliable retrieval results because they perform retrieval with full certainty for each query and do not distinguish the varying uncertainty across queries. To address this issue, we propose an evidential learning-based CMRSITR (ELC) method for uncertainty-aware retrieval. During the training phase of ELC, evidential learning (EDL) is employed to model the inter-modal correspondences between RS images and textual descriptions as Dirichlet distributions, from which the uncertainty of each query can be obtained. Based on the EDL outputs, uncertainty-correctness alignment learning (UCL) is introduced to align the estimated uncertainty with retrieval correctness, encouraging high uncertainty for incorrect retrieval and low uncertainty for correct retrieval. Furthermore, intra-modal relationship learning (RL) distills the intra-modal similarity structure from pretrained mentor encoders for the trainable encoders, thereby making the Dirichlet distributions modeled by EDL more discriminative. In the test phase of ELC, the estimated uncertainty is compared with a threshold determined by a fixed deferral ratio, where low-uncertainty queries are directly returned and high-uncertainty queries are refined by RS-aware test-time augmentation (RS-TTA). Experimental results demonstrate that ELC achieves competitive retrieval performance compared with state-of-the-art CMRSITR methods and provides stronger robustness under the evaluated RS-specific degradations, including sensor- and atmosphere-related image perturbations and RS-vocabulary heterogeneity.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-07T09:10:47Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Zhuoyue Wang</name>
+    </author>
+    <author>
+      <name>Xueqian Wang</name>
+    </author>
+    <author>
+      <name>Gang Li</name>
+    </author>
+    <author>
+      <name>Chengxi Li</name>
+    </author>
+    <author>
+      <name>Yongpan Liu</name>
+    </author>
+    <author>
+      <name>Yifang Ban</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.00381v1</id>
+    <title>UCMNet: Uncertainty-Aware Context Memory Network for Under-Display Camera Image Restoration</title>
+    <updated>2026-04-01T02:05:31Z</updated>
+    <link href="https://arxiv.org/abs/2604.00381v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.00381v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Under-display cameras (UDCs) allow for full-screen designs by positioning the imaging sensor underneath the display. Nonetheless, light diffraction and scattering through the various display layers result in spatially varying and complex degradations, which significantly reduce high-frequency details. Current PSF-based physical modeling techniques and frequency-separation networks are effective at reconstructing low-frequency structures and maintaining overall color consistency. However, they still face challenges in recovering fine details when dealing with complex, spatially varying degradation. To solve this problem, we propose a lightweight \textbf{U}ncertainty-aware \textbf{C}ontext-\textbf{M}emory \textbf{Network} (\textbf{UCMNet}), for UDC image restoration. Unlike previous methods that apply uniform restoration, UCMNet performs uncertainty-aware adaptive processing to restore high-frequency details in regions with varying degradations. The estimated uncertainty maps, learned through an uncertainty-driven loss, quantify spatial uncertainty induced by diffraction and scattering, and guide the Memory Bank to retrieve region-adaptive context from the Context Bank. This process enables effective modeling of the non-uniform degradation characteristics inherent to UDC imaging. Leveraging this uncertainty as a prior, UCMNet achieves state-of-the-art performance on multiple benchmarks with 30\% fewer parameters than previous models. Project page: \href{https://kdhrick2222.github.io/projects/UCMNet/}{https://kdhrick2222.github.io/projects/UCMNet}.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-01T02:05:31Z</published>
+    <arxiv:comment>We propose UCMNet, an uncertainty-aware adaptive framework that restores high-frequency details in regions with varying levels of degradation in under-display camera images</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Daehyun Kim</name>
+    </author>
+    <author>
+      <name>Youngmin Kim</name>
+    </author>
+    <author>
+      <name>Yoon Ju Oh</name>
+    </author>
+    <author>
+      <name>Tae Hyun Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.04603v1</id>
+    <title>Distributional Approximate Nearest Neighbour Search for Uncertainty-Aware Retrieval</title>
+    <updated>2026-06-03T08:41:27Z</updated>
+    <link href="https://arxiv.org/abs/2606.04603v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.04603v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Approximate Nearest Neighbour search indices form the backbone of real-world recommender systems, enabling real-time candidate retrieval over million-item catalogues. Typically, a single point estimate embedding is learnt for every user and every item. At serving time, the user embedding queries the index for relevant items. Since these representations are learnt from sparse interaction data, they are noisy and might fail to capture all the nuances that contribute to ``relevance'' -- ignoring the fundamental uncertainty that is inherent to them. The result is a retrieval pipeline that is systematically biased toward the small minority of popular head items with well-estimated embeddings, at the expense of the long-tail majority of niche, diverse, and serendipitous content.
+  We propose DINOSAUR (Distributional Approximate Nearest Neighbour Search for Uncertainty-Aware Retrieval): a simple and infrastructure-compatible framework to incorporate embedding uncertainty into candidate generation. Rather than indexing point estimates, DINOSAUR samples $S_i$ embeddings per item and constructs an index on this augmented set. Analogously, at query time, a user embedding is sampled. This two-sided stochastic retrieval process implicitly marginalises over embedding uncertainty, without requiring changes to model architecture or ANN index infrastructure.
+  On the analytical side, we show that DINOSAUR recovers standard point-estimate retrieval as uncertainty vanishes, and we characterise how increased embedding variance expands the regions of latent space in which uncertain items are retrievable. Reproducible empirical observations align with these expectations, showing large coverage gains with small losses in offline recall.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-03T08:41:27Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Olivier Jeunen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.19689v1</id>
+    <title>Uncertainty-aware sign language video retrieval with probability distribution modeling</title>
+    <updated>2024-05-30T05:04:01Z</updated>
+    <link href="https://arxiv.org/abs/2405.19689v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.19689v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sign language video retrieval plays a key role in facilitating information access for the deaf community. Despite significant advances in video-text retrieval, the complexity and inherent uncertainty of sign language preclude the direct application of these techniques. Previous methods achieve the mapping between sign language video and text through fine-grained modal alignment. However, due to the scarcity of fine-grained annotation, the uncertainty inherent in sign language video is underestimated, limiting the further development of sign language retrieval tasks. To address this challenge, we propose a novel Uncertainty-aware Probability Distribution Retrieval (UPRet), that conceptualizes the mapping process of sign language video and text in terms of probability distributions, explores their potential interrelationships, and enables flexible mappings. Experiments on three benchmarks demonstrate the effectiveness of our method, which achieves state-of-the-art results on How2Sign (59.1%), PHOENIX-2014T (72.0%), and CSL-Daily (78.4%).</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-30T05:04:01Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xuan Wu</name>
+    </author>
+    <author>
+      <name>Hongxiang Li</name>
+    </author>
+    <author>
+      <name>Yuanjiang Luo</name>
+    </author>
+    <author>
+      <name>Xuxin Cheng</name>
+    </author>
+    <author>
+      <name>Xianwei Zhuang</name>
+    </author>
+    <author>
+      <name>Meng Cao</name>
+    </author>
+    <author>
+      <name>Keren Fu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.18020v3</id>
+    <title>AWARE: Action-Entropy-Weighted and Attention-Guided Retrieval of Observation Evidence for Vision-Language-Action Models</title>
+    <updated>2026-10-27T02:02:48Z</updated>
+    <link href="https://arxiv.org/abs/2602.18020v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.18020v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action (VLA) models combine multimodal perception with robotic control, demonstrating remarkable potential for generalizable manipulation. Yet, enhancing their execution typically relies on auxiliary sensory inputs (e.g., depth, 3D point clouds) or costly fine-tuning. Inspired by the insight that Feed-Forward Networks (FFNs) act as key-value memory, we propose Action-Entropy-Weighted and Attention-Guided Retrieval of Observation Evidence (AWARE), an effective, training-free, and plug-and-play module for VLAs. Specifically, AWARE tracks layer-wise uncertainty via an element-wise Action Entropy metric, and retrieves observation evidence into the element's FFN through associative memory lookup. Crucially, the retrieved features are weighted by instruction-guided cross-modal attention to isolate task-relevant observation cues, while injection strength is adaptively scaled by the element's entropy and relative network depth. This selectively channels observation evidence to high-entropy action dimensions and deep layers where grounding decays, while leaving converged representations intact. Across LIBERO, SIMPLER, CALVIN, and real-world robot manipulation, AWARE consistently improves diverse VLA architectures with minimal computational overhead, achieving the largest gains on long-horizon tasks without architectural changes or additional training. Project page: https://jiabingyang01.github.io/AWARE/.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-20T06:22:21Z</published>
+    <arxiv:comment>Major revision: expanded continuous element-wise formulation (AWARE, evolved from v1 UAOR) and additional benchmarks (LIBERO, SIMPLER, CALVIN, and real-world manipulation)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jiabing Yang</name>
+    </author>
+    <author>
+      <name>Yixiang Chen</name>
+    </author>
+    <author>
+      <name>Yuan Xu</name>
+    </author>
+    <author>
+      <name>Peiyan Li</name>
+    </author>
+    <author>
+      <name>Zichen Wen</name>
+    </author>
+    <author>
+      <name>Bowen Fang</name>
+    </author>
+    <author>
+      <name>Chenhang Cui</name>
+    </author>
+    <author>
+      <name>Tao Yu</name>
+    </author>
+    <author>
+      <name>Qisen Ma</name>
+    </author>
+    <author>
+      <name>Kai Wang</name>
+    </author>
+    <author>
+      <name>Ziheng He</name>
+    </author>
+    <author>
+      <name>Wen Ye</name>
+    </author>
+    <author>
+      <name>Xiangnan Wu</name>
+    </author>
+    <author>
+      <name>Yingda Li</name>
+    </author>
+    <author>
+      <name>Yan Huang</name>
+    </author>
+    <author>
+      <name>Liang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.29956v1</id>
+    <title>Uncertainty Quantification for Multimodal Retrieval Augmented Generation</title>
+    <updated>2026-05-28T14:00:32Z</updated>
+    <link href="https://arxiv.org/abs/2605.29956v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.29956v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval Augmented Generation (RAG) improves the question answering capabilities of Large Language Models (LLMs) by incorporating external knowledge and has recently been extended to multimodal settings through Vision-Language Models (VLMs) that integrate visual and textual information. Despite these advances, generated answers can still be incorrect or misleading. Uncertainty Quantification (UQ) methods aim to estimate the reliability of model outputs, but most existing approaches are designed for text-only models and perform poorly in multimodal RAG scenarios. A key challenge is capturing uncertainty arising from multiple stages of the pipeline, including retrieval, visual understanding, and generation. In this work, we show that modeling uncertainty using multimodal and retrieval-aware probability signals improves estimation in multimodal RAG systems. We introduce LeMUQ, a Learnable Multimodal UQ method that analyzes token probabilities under input modifications, such as removing modalities or retrieved context. By encoding these signals as probability tokens and processing them with a finetuned model, our approach captures interactions between modalities and retrieval. Experiments across datasets, retrievers, and VLMs show consistent improvements over baseline and finetuned UQ methods. Our proposed LeMUQ increases the AUROC metric by 3.8% on average. Additionally, our method shows strong generalization performance across different retrieval setups and datasets with mixed results when transferring across different VLMs. Our findings highlight the importance of modeling multimodal uncertainty and provide a step toward more reliable and safer multimodal RAG systems. Code is available on GitHub.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T14:00:32Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Simon Binz</name>
+    </author>
+    <author>
+      <name>Heydar Soudani</name>
+    </author>
+    <author>
+      <name>Faegheh Hasibi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.04651v1</id>
+    <title>Not All Relevance Scores are Equal: Efficient Uncertainty and Calibration Modeling for Deep Retrieval Models</title>
+    <updated>2021-05-10T20:15:53Z</updated>
+    <link href="https://arxiv.org/abs/2105.04651v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.04651v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In any ranking system, the retrieval model outputs a single score for a document based on its belief on how relevant it is to a given search query. While retrieval models have continued to improve with the introduction of increasingly complex architectures, few works have investigated a retrieval model's belief in the score beyond the scope of a single value. We argue that capturing the model's uncertainty with respect to its own scoring of a document is a critical aspect of retrieval that allows for greater use of current models across new document distributions, collections, or even improving effectiveness for down-stream tasks. In this paper, we address this problem via an efficient Bayesian framework for retrieval models which captures the model's belief in the relevance score through a stochastic process while adding only negligible computational overhead. We evaluate this belief via a ranking based calibration metric showing that our approximate Bayesian framework significantly improves a retrieval model's ranking effectiveness through a risk aware reranking as well as its confidence calibration. Lastly, we demonstrate that this additional uncertainty information is actionable and reliable on down-stream tasks represented via cutoff prediction.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-10T20:15:53Z</published>
+    <arxiv:comment>ACM SIGIR preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Daniel Cohen</name>
+    </author>
+    <author>
+      <name>Bhaskar Mitra</name>
+    </author>
+    <author>
+      <name>Oleg Lesota</name>
+    </author>
+    <author>
+      <name>Navid Rekabsaz</name>
+    </author>
+    <author>
+      <name>Carsten Eickhoff</name>
+    </author>
+    <arxiv:doi>10.1145/3404835.3462951</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3404835.3462951" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.08390v2</id>
+    <title>Hyp-UML: Hyperbolic Image Retrieval with Uncertainty-aware Metric Learning</title>
+    <updated>2023-10-22T03:42:14Z</updated>
+    <link href="https://arxiv.org/abs/2310.08390v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.08390v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Metric learning plays a critical role in training image retrieval and classification. It is also a key algorithm in representation learning, e.g., for feature learning and its alignment in metric space. Hyperbolic embedding has been recently developed. Compared to the conventional Euclidean embedding in most of the previously developed models, Hyperbolic embedding can be more effective in representing the hierarchical data structure. Second, uncertainty estimation/measurement is a long-lasting challenge in artificial intelligence. Successful uncertainty estimation can improve a machine learning model's performance, robustness, and security. In Hyperbolic space, uncertainty measurement is at least with equivalent, if not more, critical importance. In this paper, we develop a Hyperbolic image embedding with uncertainty-aware metric learning for image retrieval. We call our method Hyp-UML: Hyperbolic Uncertainty-aware Metric Learning. Our contribution are threefold: we propose an image embedding algorithm based on Hyperbolic space, with their corresponding uncertainty value; we propose two types of uncertainty-aware metric learning, for the popular Contrastive learning and conventional margin-based metric learning, respectively. We perform extensive experimental validations to prove that the proposed algorithm can achieve state-of-the-art results among related methods. The comprehensive ablation study validates the effectiveness of each component of the proposed algorithm.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-12T15:00:06Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shiyang Yan</name>
+    </author>
+    <author>
+      <name>Zongxuan Liu</name>
+    </author>
+    <author>
+      <name>Lin Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.07380v1</id>
+    <title>Interpretable Uncertainty for Adaptive Retrieval and Reasoning in Question Answering</title>
+    <updated>2026-07-08T13:12:39Z</updated>
+    <link href="https://arxiv.org/abs/2607.07380v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.07380v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) achieve a strong performance in question answering (QA), but remain prone to hallucinations and suffer from limited transparency. Retrieval-augmented generation (RAG) can improve factuality, yet decisions about when and how to retrieve from external resources are typically based on opaque policies or computationally inefficient multi-step prompting procedures. We propose an uncertainty-aware framework for adaptive QA based on explicit signals derived from LLM internal representations. We distinguish between knowledge insufficiency and knowledge ambiguity or conflict, and efficiently estimate these from hidden states in a single forward pass. These signals guide system behaviour: RAG is triggered when knowledge is insufficient, while additional reasoning is applied when ambiguity or conflict is high. By grounding adaptive decisions in decomposed and efficiently estimable uncertainty signals, this approach provides a transparent and practical alternative to existing retrieval and reasoning strategies supporting the design of interpretable user-facing tools.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-08T13:12:39Z</published>
+    <arxiv:comment>2 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Ritajit Dey</name>
+    </author>
+    <author>
+      <name>Iadh Ounis</name>
+    </author>
+    <author>
+      <name>Graham McDonald</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.08131v1</id>
+    <title>Ranking-aware Uncertainty for Text-guided Image Retrieval</title>
+    <updated>2023-08-16T03:48:19Z</updated>
+    <link href="https://arxiv.org/abs/2308.08131v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.08131v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text-guided image retrieval is to incorporate conditional text to better capture users' intent. Traditionally, the existing methods focus on minimizing the embedding distances between the source inputs and the targeted image, using the provided triplets $\langle$source image, source text, target image$\rangle$. However, such triplet optimization may limit the learned retrieval model to capture more detailed ranking information, e.g., the triplets are one-to-one correspondences and they fail to account for many-to-many correspondences arising from semantic diversity in feedback languages and images. To capture more ranking information, we propose a novel ranking-aware uncertainty approach to model many-to-many correspondences by only using the provided triplets. We introduce uncertainty learning to learn the stochastic ranking list of features. Specifically, our approach mainly comprises three components: (1) In-sample uncertainty, which aims to capture semantic diversity using a Gaussian distribution derived from both combined and target features; (2) Cross-sample uncertainty, which further mines the ranking information from other samples' distributions; and (3) Distribution regularization, which aligns the distributional representations of source inputs and targeted image. Compared to the existing state-of-the-art methods, our proposed method achieves significant results on two public datasets for composed image retrieval.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-16T03:48:19Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Junyang Chen</name>
+    </author>
+    <author>
+      <name>Hanjiang Lai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.13550v1</id>
+    <title>Uncertainty-Aware Hybrid Retrieval for Long-Document RAG</title>
+    <updated>2026-06-11T16:30:45Z</updated>
+    <link href="https://arxiv.org/abs/2606.13550v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.13550v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval augmented generation (RAG) depends critically on the quality and granularity of retrieved evidence. Large retrieval units preserve context but often introduce irrelevant content, which can dilute answer bearing evidence and worsen long context utilization. Fine-grained units are more compact, but they may be difficult to retrieve reliably because short chunks can lack semantic, lexical, or bridging cues needed to match the query. We propose Uncertainty-aware Multi-Granularity RAG (UMG-RAG), a training-free hybrid retrieval framework that treats chunk granularity as query-specific reliability estimation. Instead of training a new retriever or modifying the generator, UMG-RAG uses existing dense and sparse retrievers as complementary experts across multiple chunk granularities. For each query, it converts each expert-granularity score list into an evidence distribution, estimates reliability from distribution entropy, and fuses candidates according to query-specific semantic, lexical, and granularity confidence. We further introduce UMGP-RAG, a parent promotion variant that uses fine-grained hits to locate relevant evidence while returning broader non-redundant parent chunks for local coherence. Experiments on question answering benchmarks show that uncertainty-aware fusion and parent promotion improve generation quality while maintaining a lightweight, plug-and-play retrieval pipeline.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-11T16:30:45Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hoin Jung</name>
+    </author>
+    <author>
+      <name>Xiaoqian Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.13824v1</id>
+    <title>GMMFormer v2: An Uncertainty-aware Framework for Partially Relevant Video Retrieval</title>
+    <updated>2024-05-22T16:55:31Z</updated>
+    <link href="https://arxiv.org/abs/2405.13824v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.13824v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a text query, partially relevant video retrieval (PRVR) aims to retrieve untrimmed videos containing relevant moments. Due to the lack of moment annotations, the uncertainty lying in clip modeling and text-clip correspondence leads to major challenges. Despite the great progress, existing solutions either sacrifice efficiency or efficacy to capture varying and uncertain video moments. What's worse, few methods have paid attention to the text-clip matching pattern under such uncertainty, exposing the risk of semantic collapse. To address these issues, we present GMMFormer v2, an uncertainty-aware framework for PRVR. For clip modeling, we improve a strong baseline GMMFormer with a novel temporal consolidation module upon multi-scale contextual features, which maintains efficiency and improves the perception for varying moments. To achieve uncertainty-aware text-clip matching, we upgrade the query diverse loss in GMMFormer to facilitate fine-grained uniformity and propose a novel optimal matching loss for fine-grained text-clip alignment. Their collaboration alleviates the semantic collapse phenomenon and neatly promotes accurate correspondence between texts and moments. We conduct extensive experiments and ablation studies on three PRVR benchmarks, demonstrating remarkable improvement of GMMFormer v2 compared to the past SOTA competitor and the versatility of uncertainty-aware text-clip matching for PRVR. Code is available at \url{https://github.com/huangmozhi9527/GMMFormer_v2}.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-22T16:55:31Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yuting Wang</name>
+    </author>
+    <author>
+      <name>Jinpeng Wang</name>
+    </author>
+    <author>
+      <name>Bin Chen</name>
+    </author>
+    <author>
+      <name>Tao Dai</name>
+    </author>
+    <author>
+      <name>Ruisheng Luo</name>
+    </author>
+    <author>
+      <name>Shu-Tao Xia</name>
+    </author>
+  </entry>
+</feed>

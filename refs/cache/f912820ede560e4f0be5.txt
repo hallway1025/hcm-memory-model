@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nekXaNyJQ1sXu/rsYUgI6hR6iLM</id>
+  <title>arXiv Query: search_query=all:neuromodulation AND all:gating AND all:consolidation&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:44:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:neuromodulation+AND+(all:gating+AND+all:consolidation)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.19896v1</id>
+    <title>NM-Hebb: Coupling Local Hebbian Plasticity with Metric Learning for More Accurate and Interpretable CNNs</title>
+    <updated>2025-08-27T13:53:04Z</updated>
+    <link href="https://arxiv.org/abs/2508.19896v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.19896v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep Convolutional Neural Networks (CNNs) achieve high accuracy but often rely on purely global, gradient-based optimisation, which can lead to overfitting, redundant filters, and reduced interpretability. To address these limitations, we propose NM-Hebb, a two-phase training framework that integrates neuro-inspired local plasticity with distance-aware supervision. Phase 1 extends standard supervised training by jointly optimising a cross-entropy objective with two biologically inspired mechanisms: (i) a Hebbian regulariser that aligns the spatial mean of activations with the mean of the corresponding convolutional filter weights, encouraging structured, reusable primitives; and (ii) a learnable neuromodulator that gates an elastic-weight-style consolidation loss, preserving beneficial parameters without freezing the network. Phase 2 fine-tunes the backbone with a pairwise metric-learning loss, explicitly compressing intra-class distances and enlarging inter-class margins in the embedding space. Evaluated on CIFAR-10, CIFAR-100, and TinyImageNet across five backbones (ResNet-18, VGG-11, MobileNet-v2, EfficientNet-V2, DenseNet-121), NM-Hebb achieves consistent gains over baseline and other methods: Top-1 accuracy improves by +2.0-10.0 pp (CIFAR-10), +2.0-9.0 pp (CIFAR-100), and up to +4.3-8.9 pp (TinyImageNet), with Normalised Mutual Information (NMI) increased by up to +0.15. Qualitative visualisations and filter-level analyses further confirm that NM-Hebb produces more structured and selective features, yielding tighter and more interpretable class clusters. Overall, coupling local Hebbian plasticity with metric-based fine-tuning yields CNNs that are not only more accurate but also more interpretable, offering practical benefits for resource-constrained and safety-critical AI deployments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-27T13:53:04Z</published>
+    <arxiv:comment>13 pages, 4 figures. Submitted to Elsevier Neurocomputing, under review</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Davorin Miličević</name>
+    </author>
+    <author>
+      <name>Ratko Grbić</name>
+    </author>
+  </entry>
+</feed>

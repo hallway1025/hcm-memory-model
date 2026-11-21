@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OJM4gNKhqqnfBRBUNQbA57oKumY</id>
+  <title>arXiv Query: search_query=all:Larimar AND all:episodic AND all:memory AND all:control&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-07T11:46:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Larimar+AND+(all:episodic+AND+(all:memory+AND+all:control))&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.11901v4</id>
+    <title>Larimar: Large Language Models with Episodic Memory Control</title>
+    <updated>2024-08-21T22:54:47Z</updated>
+    <link href="https://arxiv.org/abs/2403.11901v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.11901v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient and accurate updating of knowledge stored in Large Language Models (LLMs) is one of the most pressing research challenges today. This paper presents Larimar - a novel, brain-inspired architecture for enhancing LLMs with a distributed episodic memory. Larimar's memory allows for dynamic, one-shot updates of knowledge without the need for computationally expensive re-training or fine-tuning. Experimental results on multiple fact editing benchmarks demonstrate that Larimar attains accuracy comparable to most competitive baselines, even in the challenging sequential editing setup, but also excels in speed - yielding speed-ups of 8-10x depending on the base LLM - as well as flexibility due to the proposed architecture being simple, LLM-agnostic, and hence general. We further provide mechanisms for selective fact forgetting, information leakage prevention, and input context length generalization with Larimar and show their effectiveness. Our code is available at https://github.com/IBM/larimar</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-18T16:01:42Z</published>
+    <arxiv:comment>ICML 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Payel Das</name>
+    </author>
+    <author>
+      <name>Subhajit Chaudhury</name>
+    </author>
+    <author>
+      <name>Elliot Nelson</name>
+    </author>
+    <author>
+      <name>Igor Melnyk</name>
+    </author>
+    <author>
+      <name>Sarath Swaminathan</name>
+    </author>
+    <author>
+      <name>Sihui Dai</name>
+    </author>
+    <author>
+      <name>Aurélie Lozano</name>
+    </author>
+    <author>
+      <name>Georgios Kollias</name>
+    </author>
+    <author>
+      <name>Vijil Chenthamarakshan</name>
+    </author>
+    <author>
+      <name> Jiří</name>
+    </author>
+    <author>
+      <name> Navrátil</name>
+    </author>
+    <author>
+      <name>Soham Dan</name>
+    </author>
+    <author>
+      <name>Pin-Yu Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.01437v2</id>
+    <title>Needle in the Haystack for Memory Based Large Language Models</title>
+    <updated>2024-07-12T17:20:34Z</updated>
+    <link href="https://arxiv.org/abs/2407.01437v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.01437v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current large language models (LLMs) often perform poorly on simple fact retrieval tasks. Here we investigate if coupling a dynamically adaptable external memory to a LLM can alleviate this problem. For this purpose, we test Larimar, a recently proposed language model architecture which uses an external associative memory, on long-context recall tasks including passkey and needle-in-the-haystack tests. We demonstrate that the external memory of Larimar, which allows fast write and read of an episode of text samples, can be used at test time to handle contexts much longer than those seen during training. We further show that the latent readouts from the memory (to which long contexts are written) control the decoder towards generating correct outputs, with the memory stored off of the GPU. Compared to existing transformer-based LLM architectures for long-context recall tasks that use larger parameter counts or modified attention mechanisms, a relatively smaller size Larimar is able to maintain strong performance without any task-specific training or training on longer contexts.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-01T16:32:16Z</published>
+    <arxiv:comment>5 pages; slightly revised abstract</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Elliot Nelson</name>
+    </author>
+    <author>
+      <name>Georgios Kollias</name>
+    </author>
+    <author>
+      <name>Payel Das</name>
+    </author>
+    <author>
+      <name>Subhajit Chaudhury</name>
+    </author>
+    <author>
+      <name>Soham Dan</name>
+    </author>
+  </entry>
+</feed>

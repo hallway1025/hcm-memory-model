@@ -1,0 +1,17 @@
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"dense associative memory","channel":"crossref","n":12}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"holographic reduced representation","channel":"crossref","n":10}
+{"area":"K3_temporal_links","module":"K3_temporal_links","role":"survey","query":"theta sequence hippocampus","channel":"crossref","n":12}
+{"area":"K3_temporal_links","module":"K3_temporal_links","role":"survey","query":"chunking sequence learning","channel":"crossref","n":12}
+{"area":"K3_temporal_links","module":"K3_temporal_links","role":"survey","query":"forward replay prospective memory","channel":"crossref","n":10}
+{"area":"K5_semantic_slow","module":"K5_semantic_slow","role":"survey","query":"catastrophic forgetting analysis","channel":"crossref","n":15}
+{"area":"K5_semantic_slow","module":"K5_semantic_slow","role":"survey","query":"gradient projection continual learning","channel":"crossref","n":12}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"spatial working memory","channel":"crossref","n":12}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"delayed response prefrontal","channel":"crossref","n":10}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"population code working memory","channel":"crossref","n":12}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"memory guided behavior","channel":"crossref","n":10}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"information foraging","channel":"crossref","n":10}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"explore exploit memory","channel":"crossref","n":10}
+{"area":"K8_event_layer","module":"K8_event_layer","role":"survey","query":"event-centric knowledge","channel":"crossref","n":10}
+{"area":"K8_event_layer","module":"K8_event_layer","role":"survey","query":"script induction","channel":"crossref","n":10}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"count-based word vectors comparison","channel":"crossref","n":12}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"GloVe global vectors","channel":"crossref","n":10}

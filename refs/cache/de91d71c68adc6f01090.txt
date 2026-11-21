@@ -1,0 +1,228 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM"><PMID Version="1">24624058</PMID><DateCompleted><Year>2014</Year><Month>03</Month><Day>25</Day></DateCompleted><DateRevised><Year>2025</Year><Month>05</Month><Day>29</Day></DateRevised><Article PubModel="Electronic-eCollection"><Journal><ISSN IssnType="Print">1662-5102</ISSN><JournalIssue CitedMedium="Print"><Volume>8</Volume><PubDate><Year>2014</Year></PubDate></JournalIssue><Title>Frontiers in cellular neuroscience</Title><ISOAbbreviation>Front Cell Neurosci</ISOAbbreviation></Journal><ArticleTitle>Human neuroimaging studies on the hippocampal CA3 region - integrating evidence for pattern separation and completion.</ArticleTitle><Pagination><StartPage>64</StartPage><MedlinePgn>64</MedlinePgn></Pagination><ELocationID EIdType="pii" ValidYN="Y">64</ELocationID><ELocationID EIdType="doi" ValidYN="Y">10.3389/fncel.2014.00064</ELocationID><Abstract><AbstractText>Human functional magnetic resonance imaging (fMRI) studies have long investigated the hippocampus without differentiating between its subfields, even though theoretical models and rodent studies suggest that subfields support different and potentially even opposite functions. The CA3 region of the hippocampus has been ascribed a pivotal role both in initially forming associations during encoding and in reconstructing a memory representation based on partial cues during retrieval. These functions have been related to pattern separation and pattern completion, respectively. In recent years, studies using high-resolution fMRI in humans have begun to separate different hippocampal subregions and identify the role of the CA3 subregion relative to the other subregions. However, some of these findings have been inconsistent with theoretical models and findings from electrophysiology. In this review, we describe selected recent studies and highlight how their results might help to define different processes and functions that are presumably carried out by the CA3 region, in particular regarding the seemingly opposing functions of pattern separation and pattern completion. We also describe how these subfield-specific processes are related to behavioral, functional and structural alterations in patients with mild cognitive impairment and Alzheimer's disease. We conclude with discussing limitations of functional imaging and briefly outline possible future developments of the field.</AbstractText></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Deuker</LastName><ForeName>Lorena</ForeName><Initials>L</Initials><AffiliationInfo><Affiliation>Department of Epileptology, University of Bonn Bonn, Germany ; Donders Institute for Brain, Cognition and Behaviour, Radboud University Nijmegen Nijmegen, Netherlands.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Doeller</LastName><ForeName>Christian F</ForeName><Initials>CF</Initials><AffiliationInfo><Affiliation>Donders Institute for Brain, Cognition and Behaviour, Radboud University Nijmegen Nijmegen, Netherlands.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Fell</LastName><ForeName>Juergen</ForeName><Initials>J</Initials><AffiliationInfo><Affiliation>Department of Epileptology, University of Bonn Bonn, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Axmacher</LastName><ForeName>Nikolai</ForeName><Initials>N</Initials><AffiliationInfo><Affiliation>Department of Epileptology, University of Bonn Bonn, Germany ; German Center for Neurodegenerative Diseases Bonn, Germany.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><GrantList CompleteYN="Y"><Grant><GrantID>261177</GrantID><Acronym>ERC_</Acronym><Agency>European Research Council</Agency><Country>International</Country></Grant></GrantList><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType><PublicationType UI="D016454">Review</PublicationType></PublicationTypeList><ArticleDate DateType="Electronic"><Year>2014</Year><Month>03</Month><Day>04</Day></ArticleDate></Article><MedlineJournalInfo><Country>Switzerland</Country><MedlineTA>Front Cell Neurosci</MedlineTA><NlmUniqueID>101477935</NlmUniqueID><ISSNLinking>1662-5102</ISSNLinking></MedlineJournalInfo><KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">CA3</Keyword><Keyword MajorTopicYN="N">high-resolution fMRI</Keyword><Keyword MajorTopicYN="N">hippocampus</Keyword><Keyword MajorTopicYN="N">pattern completion</Keyword><Keyword MajorTopicYN="N">pattern separation</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="received"><Year>2013</Year><Month>10</Month><Day>17</Day></PubMedPubDate><PubMedPubDate PubStatus="accepted"><Year>2014</Year><Month>2</Month><Day>13</Day></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2014</Year><Month>3</Month><Day>14</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2014</Year><Month>3</Month><Day>14</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="medline"><Year>2014</Year><Month>3</Month><Day>14</Day><Hour>6</Hour><Minute>1</Minute></PubMedPubDate><PubMedPubDate PubStatus="pmc-release"><Year>2014</Year><Month>1</Month><Day>1</Day></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">24624058</ArticleId><ArticleId IdType="pmc">PMC3941178</ArticleId><ArticleId IdType="doi">10.3389/fncel.2014.00064</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Andersen P., Morris R., Amaral D., Bliss T, O&#x2019;Keefe J. (2006). <i>The Hippocampus Book</i>.
+New York: Oxford University Press;  10.1093/acprof:oso/9780195100273.001.0001</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/acprof:oso/9780195100273.001.0001</ArticleId></ArticleIdList></Reference><Reference><Citation>Axmacher N., Mormann F. Fern&#xe1;ndez G., Elger C. E., Fell J. (2006). Memory formation by neuronal synchronization.
+<i>Brain Res. Rev.</i>
+52
+170&#x2013;182 10.1016/j.brainresrev.2006.01.007</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.brainresrev.2006.01.007</ArticleId><ArticleId IdType="pubmed">16545463</ArticleId></ArticleIdList></Reference><Reference><Citation>Bakker A., Kirwan C. B., Miller M, Stark C. E. L. (2008). Pattern separation in the human hippocampal CA3 and dentate gyrus.
+<i>Science</i>
+319
+1640&#x2013;1642 10.1126/science.1152882</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1152882</ArticleId><ArticleId IdType="pmc">PMC2829853</ArticleId><ArticleId IdType="pubmed">18356518</ArticleId></ArticleIdList></Reference><Reference><Citation>Bonnici H. M., Chadwick M. J., Kumaran D., Hassabis D., Weiskopf N., Maguire E. A. (2012). Multi-voxel pattern analysis in human hippocampal subfields.
+<i>Front. Hum. Neurosci. </i>
+6:290
+10.3389/fnhum.2012.00290</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fnhum.2012.00290</ArticleId><ArticleId IdType="pmc">PMC3474998</ArticleId><ArticleId IdType="pubmed">23087638</ArticleId></ArticleIdList></Reference><Reference><Citation>Boyacio&#x1e7;lu R., Barth M. (2012). Generalized iNverse imaging (GIN): ultrafast fMRI with physiological noise correction.
+<i>Magn. Reson. Med</i>.
+70
+962&#x2013;971 10.1002/mrm.24528</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/mrm.24528</ArticleId><ArticleId IdType="pubmed">23097342</ArticleId></ArticleIdList></Reference><Reference><Citation>Buzs&#xe1;ki G., Kaila K., Raichle M. (2007). Inhibition and brain work.
+<i>Neuron</i>
+56
+771&#x2013;783 10.1016/j.neuron.2007.11.008</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2007.11.008</ArticleId><ArticleId IdType="pmc">PMC2266612</ArticleId><ArticleId IdType="pubmed">18054855</ArticleId></ArticleIdList></Reference><Reference><Citation>Carr V. A., Engel S. A., Knowlton B. J. (2013). Top-down modulation of hippocampal encoding activity as measured by high-resolution functional MRI.
+<i>Neuropsychologia</i>
+51
+1829&#x2013;1837 10.1016/j.neuropsychologia.2013.06.026</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuropsychologia.2013.06.026</ArticleId><ArticleId IdType="pmc">PMC3829781</ArticleId><ArticleId IdType="pubmed">23838003</ArticleId></ArticleIdList></Reference><Reference><Citation>Carr V. A., Rissman J., Wagner A. D. (2010a). Imaging the human medial temporal lobe with high-resolution fMRI.
+<i>Neuron</i>
+65
+298&#x2013;308 10.1016/j.neuron.2009.12.022</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2009.12.022</ArticleId><ArticleId IdType="pmc">PMC2844113</ArticleId><ArticleId IdType="pubmed">20159444</ArticleId></ArticleIdList></Reference><Reference><Citation>Carr V. A., Viskontas I. V., Engel S. A., Knowlton B. J. (2010b). Neural activity in the hippocampus and perirhinal cortex during encoding is associated with the durability of episodic memory.
+<i>J. Cogn. Neurosci.</i>
+22
+2652&#x2013;2662 10.1162/jocn.2009.21381</Citation><ArticleIdList><ArticleId IdType="doi">10.1162/jocn.2009.21381</ArticleId><ArticleId IdType="pubmed">19925190</ArticleId></ArticleIdList></Reference><Reference><Citation>Chen J., Olsen R. K., Preston A. R., Glover G. H., Wagner A. D. (2011). Associative retrieval processes in the human medial temporal lobe: hippocampal retrieval success and CA1 mismatch detection.
+<i>Learn. Mem.</i>
+18
+523&#x2013;528 10.1101/lm.2135211</Citation><ArticleIdList><ArticleId IdType="doi">10.1101/lm.2135211</ArticleId><ArticleId IdType="pmc">PMC3256570</ArticleId><ArticleId IdType="pubmed">21775513</ArticleId></ArticleIdList></Reference><Reference><Citation>Chen K. H., Chuah L. Y., Sim S. K., Chee M. W. (2010). Hippocampal region-specific contributions to memory performance in normal elderly.
+<i>Brain Cogn.</i>
+72
+400&#x2013;407 10.1016/j.bandc.2009.11.007</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.bandc.2009.11.007</ArticleId><ArticleId IdType="pubmed">20044193</ArticleId></ArticleIdList></Reference><Reference><Citation>Colgin L. L., Denninger T., Fyhn M., Hafting T., Bonnevie T., Jensen O., et al.  (2009). Frequency of gamma oscillations routes flow of information in the hippocampus.
+<i>Nature</i>
+462
+353&#x2013;357 10.1038/nature08573</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nature08573</ArticleId><ArticleId IdType="pubmed">19924214</ArticleId></ArticleIdList></Reference><Reference><Citation>Colgin L. L., Moser E. I., Moser M.-B. (2008). Understanding memory through hippocampal remapping.
+<i>Trends Neurosci.</i>
+31
+469&#x2013;477 10.1016/j.tins.2008.06.008</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tins.2008.06.008</ArticleId><ArticleId IdType="pubmed">18687478</ArticleId></ArticleIdList></Reference><Reference><Citation>Corder E. H., Saunders A. M., Strittmatter W. J., Schmechel D. E., Gaskell P. C., Small G. W., et al.  (1993). Gene dose of apolipoprotein E type 4 allele and the risk of Alzheimer&#x2019;s disease in late onset families.
+<i>Science</i>
+261
+921&#x2013;923 10.1126/science.8346443</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.8346443</ArticleId><ArticleId IdType="pubmed">8346443</ArticleId></ArticleIdList></Reference><Reference><Citation>De Martino F., Zimmermann J., Muckli L., Ugurbil K., Yacoub E., Goebel R. (2013). Cortical depth dependent functional responses in humans at 7T: improved specificity with 3D GRASE.
+<i>PLoS ONE </i>
+8:e60514
+10.1371/journal.pone.0060514</Citation><ArticleIdList><ArticleId IdType="doi">10.1371/journal.pone.0060514</ArticleId><ArticleId IdType="pmc">PMC3606277</ArticleId><ArticleId IdType="pubmed">23533682</ArticleId></ArticleIdList></Reference><Reference><Citation>Doeller C. F., Barry C., Burgess N. (2010). Evidence for grid cells in a human memory network.
+<i>Nature</i>
+463
+657&#x2013;661 10.1038/nature08704</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nature08704</ArticleId><ArticleId IdType="pmc">PMC3173857</ArticleId><ArticleId IdType="pubmed">20090680</ArticleId></ArticleIdList></Reference><Reference><Citation>Doeller C. F., King J. A., Burgess N. (2008). Parallel striatal and hippocampal systems for landmarks and boundaries in spatial memory.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+105
+5915&#x2013;5920 10.1073/pnas.0801489105</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.0801489105</ArticleId><ArticleId IdType="pmc">PMC2311337</ArticleId><ArticleId IdType="pubmed">18408152</ArticleId></ArticleIdList></Reference><Reference><Citation>Dudukovic N. M., Preston A. R., Archie J. J., Glover G. H., Wagner A. D. (2011). High-resolution fMRI reveals match enhancement and attentional modulation in the human medial temporal lobe.
+<i>J. Cogn. Neurosci.</i>
+23
+670&#x2013;682 10.1162/jocn.2010.21509</Citation><ArticleIdList><ArticleId IdType="doi">10.1162/jocn.2010.21509</ArticleId><ArticleId IdType="pmc">PMC5746189</ArticleId><ArticleId IdType="pubmed">20433244</ArticleId></ArticleIdList></Reference><Reference><Citation>Duncan K., Ketz N., Inati S. J., Davachi L. (2012). Evidence for area CA1 as a match/mismatch detector: a high-resolution fMRI study of the human hippocampus.
+<i>Hippocampus</i>
+22
+389&#x2013;398 10.1002/hipo.20933</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.20933</ArticleId><ArticleId IdType="pmc">PMC3529001</ArticleId><ArticleId IdType="pubmed">21484934</ArticleId></ArticleIdList></Reference><Reference><Citation>Duvernoy H. M. (2005). <i>The Human Hippocampus</i>, 3rd Edn.
+Berlin, Heidelberg: Springer-Verlag</Citation></Reference><Reference><Citation>Ekstrom A. D., Bazih A. J., Suthana N. A., Al-Hakim R., Ogura K., Zeineh M., et al.  (2009). Advances in high-resolution imaging and computational unfolding of the human hippocampus.
+<i>Neuroimage</i>
+47
+42&#x2013;49 10.1016/j.neuroimage.2009.03.017</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2009.03.017</ArticleId><ArticleId IdType="pmc">PMC2689320</ArticleId><ArticleId IdType="pubmed">19303448</ArticleId></ArticleIdList></Reference><Reference><Citation>Eldridge L. L., Engel S. A., Zeineh M. M., Bookheimer S. Y., Knowlton B. J. (2005). A dissociation of encoding and retrieval processes in the human hippocampus.
+<i>J. Neurosci.</i>
+25
+3280&#x2013;3286 10.1523/JNEUROSCI.3420-04.2005</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.3420-04.2005</ArticleId><ArticleId IdType="pmc">PMC6724896</ArticleId><ArticleId IdType="pubmed">15800182</ArticleId></ArticleIdList></Reference><Reference><Citation>Fanselow M. S., Dong H.-W. (2010). Are the dorsal and ventral hippocampus functionally distinct structures?
+<i>Neuron</i>
+65
+7&#x2013;19 10.1016/j.neuron.2009.11.031</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2009.11.031</ArticleId><ArticleId IdType="pmc">PMC2822727</ArticleId><ArticleId IdType="pubmed">20152109</ArticleId></ArticleIdList></Reference><Reference><Citation>Fries P. (2009). The model- and the data-gamma.
+<i>Neuron</i>
+64
+601&#x2013;602 10.1016/j.neuron.2009.11.024</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2009.11.024</ArticleId><ArticleId IdType="pubmed">20005817</ArticleId></ArticleIdList></Reference><Reference><Citation>Grill-Spector K., Henson R., Martin A. (2006). Repetition and the brain: neural models of stimulus-specific effects.
+<i>Trends Cogn. Sci.</i>
+10
+14&#x2013;23 10.1016/j.tics.2005.11.006</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tics.2005.11.006</ArticleId><ArticleId IdType="pubmed">16321563</ArticleId></ArticleIdList></Reference><Reference><Citation>Grossberg S. (1971). Pavlovian pattern learning by nonlinear neural networks.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+68
+828&#x2013;831 10.1073/pnas.68.4.828</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.68.4.828</ArticleId><ArticleId IdType="pmc">PMC389053</ArticleId><ArticleId IdType="pubmed">4323791</ArticleId></ArticleIdList></Reference><Reference><Citation>Guzowski J. F., Knierim J. J., Moser E. I. (2004). Ensemble dynamics of hippocampal regions CA3 and CA1.
+<i>Neuron</i>
+44
+581&#x2013;584 10.1016/j.neuron.2004.11.003</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2004.11.003</ArticleId><ArticleId IdType="pubmed">15541306</ArticleId></ArticleIdList></Reference><Reference><Citation>Hunsaker M. R., Kesner R. P. (2013). The operation of pattern separation and pattern completion processes associated with different attributes or domains of memory.
+<i>Neurosci. Biobehav. Rev.</i>
+37
+36&#x2013;58 10.1016/j.neubiorev.2012.09.014</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neubiorev.2012.09.014</ArticleId><ArticleId IdType="pubmed">23043857</ArticleId></ArticleIdList></Reference><Reference><Citation>Jensen O., Lisman J. E. (1996). Hippocampal CA3 region predicts memory sequences: accounting for the phase precession of place cells.
+<i>Learn. Mem</i>.<i/>
+3
+279&#x2013;287 10.1101/lm.3.2-3.279</Citation><ArticleIdList><ArticleId IdType="doi">10.1101/lm.3.2-3.279</ArticleId><ArticleId IdType="pubmed">10456097</ArticleId></ArticleIdList></Reference><Reference><Citation>Kesner R. P., Hopkins R. O. (2006). Mnemonic functions of the hippocampus: a comparison between animals and humans.
+<i>Biol. Psychol.</i>
+73
+3&#x2013;18 10.1016/j.biopsycho.2006.01.004</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.biopsycho.2006.01.004</ArticleId><ArticleId IdType="pubmed">16473455</ArticleId></ArticleIdList></Reference><Reference><Citation>Kesner R. P., Hunsaker M. R., Warthen M. W. (2008). The CA3 subregion of the hippocampus is critical for episodic memory processing by means of relational encoding in rats.
+<i>Behav. Neurosci.</i>
+122
+1217&#x2013;1225 10.1037/a0013592</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0013592</ArticleId><ArticleId IdType="pubmed">19045941</ArticleId></ArticleIdList></Reference><Reference><Citation>Lacy J. W., Yassa M. A., Stark S. M., Muftuler L. T, Stark C. E. L. (2011). Distinct pattern separation related transfer functions in human CA3/dentate and CA1 revealed using high-resolution fMRI and variable mnemonic similarity.
+<i>Learn. Mem</i>.<i/>
+18
+15&#x2013;18 10.1101/lm.1971111</Citation><ArticleIdList><ArticleId IdType="doi">10.1101/lm.1971111</ArticleId><ArticleId IdType="pmc">PMC3023966</ArticleId><ArticleId IdType="pubmed">21164173</ArticleId></ArticleIdList></Reference><Reference><Citation>Lee I., Hunsaker M. R., Kesner R. P. (2005). The role of hippocampal subregions in detecting spatial novelty.
+<i>Behav. Neurosci.</i>
+119
+145&#x2013;153 10.1037/0735-7044.119.1.145</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0735-7044.119.1.145</ArticleId><ArticleId IdType="pubmed">15727520</ArticleId></ArticleIdList></Reference><Reference><Citation>Lee I., Kesner R. P. (2004a). Encoding versus retrieval of spatial memory: double dissociation between the dentate gyrus and the perforant path inputs into CA3 in the dorsal hippocampus.
+<i>Hippocampus</i>
+14
+66&#x2013;76 10.1002/hipo.10167</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.10167</ArticleId><ArticleId IdType="pubmed">15058484</ArticleId></ArticleIdList></Reference><Reference><Citation>Lee I., Rao G., Knierim J. J. (2004b). A double dissociation between hippocampal subfields: differential time course of CA3 and CA1 place cells for processing changed environments.
+<i>Neuron</i>
+42
+803&#x2013;815 10.1016/j.neuron.2004.05.010</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2004.05.010</ArticleId><ArticleId IdType="pubmed">15182719</ArticleId></ArticleIdList></Reference><Reference><Citation>Libby L. A., Ekstrom A. D., Ragland J. D., Ranganath C. (2012). Differential connectivity of perirhinal and parahippocampal cortices within human hippocampal subregions revealed by high-resolution functional imaging.
+<i>J. Neurosci.</i>
+32
+6550&#x2013;6560 10.1523/JNEUROSCI.3711-11.2012</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.3711-11.2012</ArticleId><ArticleId IdType="pmc">PMC3374643</ArticleId><ArticleId IdType="pubmed">22573677</ArticleId></ArticleIdList></Reference><Reference><Citation>Lisman J. E., Grace A. A. (2005). The hippocampal-VTA loop: controlling the entry of information into long-term memory.
+<i>Neuron</i>
+46
+703&#x2013;713 10.1016/j.neuron.2005.05.002</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2005.05.002</ArticleId><ArticleId IdType="pubmed">15924857</ArticleId></ArticleIdList></Reference><Reference><Citation>Logothetis N. K. (2008). What we can do and what we cannot do with fMRI.
+<i>Nature</i>
+453
+869&#x2013;878 10.1038/nature06976</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nature06976</ArticleId><ArticleId IdType="pubmed">18548064</ArticleId></ArticleIdList></Reference><Reference><Citation>L&#xf6;rincz A, Buzs&#xe1;ki G. (2000). Two-phase computational model training long-term memories in the entorhinal-hippocampal region.
+<i>Ann. N. Y. Acad. Sci.</i>
+911
+83&#x2013;111 10.1111/j.1749-6632.2000.tb06721.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1749-6632.2000.tb06721.x</ArticleId><ArticleId IdType="pubmed">10911869</ArticleId></ArticleIdList></Reference><Reference><Citation>Ludowig E., Trautner P., Kurthen M., Schaller C., Bien C. G., Elger C. E., et al.  (2008). Intracranially recorded memory-related potentials reveal higher posterior than anterior hippocampal involvement in verbal encoding and retrieval.
+<i>J. Cogn. Neurosci.</i>
+20
+841&#x2013;851 10.1162/jocn.2008.20507</Citation><ArticleIdList><ArticleId IdType="doi">10.1162/jocn.2008.20507</ArticleId><ArticleId IdType="pubmed">18201126</ArticleId></ArticleIdList></Reference><Reference><Citation>Malykhin N. V., Lebel R. M., Coupland N. J., Wilman A. H., Carter R. (2010). In vivo quantification of hippocampal subfields using 4.7 T fast spin echo imaging.
+<i>Neuroimage</i>
+49
+1224&#x2013;1230 10.1016/j.neuroimage.2009.09.042</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2009.09.042</ArticleId><ArticleId IdType="pubmed">19786104</ArticleId></ArticleIdList></Reference><Reference><Citation>Marr D. (1971). Simple memory: a theory for archicortex.
+<i>Philos. Trans. R. Soc. Lond. B Biol. Sci</i>.<i/>
+262
+23&#x2013;81 10.1098/rstb.1971.0078</Citation><ArticleIdList><ArticleId IdType="doi">10.1098/rstb.1971.0078</ArticleId><ArticleId IdType="pubmed">4399412</ArticleId></ArticleIdList></Reference><Reference><Citation>McClelland J. L., Goddard N. H. (1996). Considerations arising from a complementary learning systems perspective on hippocampus and neocortex.
+<i>Hippocampus</i>
+6
+654&#x2013;665 10.1002/(SICI)1098-1063(1996)6:6&lt;654::AID-HIPO8&gt;3.0.CO;2-G</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/(SICI)1098-1063(1996)6:6&lt;654::AID-HIPO8&gt;3.0.CO;2-G</ArticleId><ArticleId IdType="pubmed">9034852</ArticleId></ArticleIdList></Reference><Reference><Citation>McClelland J. L., Rumelhart D. E. (1985). Distributed memory and the representation of general and specific information.
+<i>J. Exp. Psychol. Gen.</i>
+114
+159&#x2013;197 10.1037/0096-3445.114.2.159</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0096-3445.114.2.159</ArticleId><ArticleId IdType="pubmed">3159828</ArticleId></ArticleIdList></Reference><Reference><Citation>McNaughton B., Morris R. (1987). Hippocampal synaptic enhancement and information storage within a distributed memory system.
+<i>Trends Neurosci.</i>
+10
+408&#x2013;415 10.1016/0166-2236(87)90011-7</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/0166-2236(87)90011-7</ArticleId></ArticleIdList></Reference><Reference><Citation>Moser M. B., Moser E. I. (1998). Functional differentiation in the hippocampus.
+<i>Hippocampus</i>
+8
+608&#x2013;619 10.1002/(SICI)1098-1063(1998)8:6&lt;608::AID-HIPO3&gt;3.0.CO;2-7</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/(SICI)1098-1063(1998)8:6&lt;608::AID-HIPO3&gt;3.0.CO;2-7</ArticleId><ArticleId IdType="pubmed">9882018</ArticleId></ArticleIdList></Reference><Reference><Citation>Mueller S. G., Schuff N., Yaffe K., Madison C., Miller B., Weiner M. W. (2010). Hippocampal atrophy patterns in mild cognitive impairment and Alzheimer&#x2019;s disease.
+<i>Hum. Brain Mapp</i>.<i/>
+31
+1339&#x2013;1347 10.1002/hbm.20934</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hbm.20934</ArticleId><ArticleId IdType="pmc">PMC2943433</ArticleId><ArticleId IdType="pubmed">20839293</ArticleId></ArticleIdList></Reference><Reference><Citation>Mueller S., Stables L., Du A., Schuff N., Truran D., Cashdollar N., et al.  (2007). Measurement of hippocampal subfields and age-related changes with high resolution MRI at 4T.
+<i>Neurobiol. Aging</i>
+28
+719&#x2013;726 10.1016/j.neurobiolaging.2006.03.007</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neurobiolaging.2006.03.007</ArticleId><ArticleId IdType="pmc">PMC1820772</ArticleId><ArticleId IdType="pubmed">16713659</ArticleId></ArticleIdList></Reference><Reference><Citation>Newmark R. E., Schon K., Ross R. S., Stern C. E. (2013). Contributions of the hippocampal subfields and entorhinal cortex to disambiguation during working memory.
+<i>Hippocampus</i>
+23
+467&#x2013;475 10.1002/hipo.22106</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.22106</ArticleId><ArticleId IdType="pmc">PMC4419744</ArticleId><ArticleId IdType="pubmed">23504938</ArticleId></ArticleIdList></Reference><Reference><Citation>Norman K. A, O&#x2019;Reilly R. C. (2003). Modeling hippocampal and neocortical contributions to recognition memory: a complementary-learning-systems approach.
+<i>Psychol. Rev.</i>
+110
+611&#x2013;646 10.1037/0033-295X.110.4.611</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-295X.110.4.611</ArticleId><ArticleId IdType="pubmed">14599236</ArticleId></ArticleIdList></Reference><Reference><Citation>Ojemann J. G., Akbudak E., Snyder A. Z., McKinstry R. C., Raichle M. E., Conturo T. E. (1997). Anatomic localization and quantitative analysis of gradient refocused echo-planar fMRI susceptibility artifacts.
+<i>Neuroimage</i>
+6
+156&#x2013;167 10.1006/nimg.1997.0289</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/nimg.1997.0289</ArticleId><ArticleId IdType="pubmed">9344820</ArticleId></ArticleIdList></Reference><Reference><Citation>Olsen R. K., Nichols E. A., Chen J., Hunt J. F., Glover G. H., Gabrieli J. D. E., et al. (2009). Performance-related sustained and anticipatory activity in human medial temporal lobe during delayed match-to-sample.
+<i>J. Neurosci.</i>
+29
+11880&#x2013;11890 10.1523/JNEUROSCI.2245-09.2009</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.2245-09.2009</ArticleId><ArticleId IdType="pmc">PMC2775810</ArticleId><ArticleId IdType="pubmed">19776274</ArticleId></ArticleIdList></Reference><Reference><Citation>O&#x2019;Reilly R. C., McClelland J. L. (1994). Hippocampal conjunctive encoding, storage, and recall: avoiding a trade-off.
+<i>Hippocampus</i>
+4
+661&#x2013;682 10.1002/hipo.450040605</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.450040605</ArticleId><ArticleId IdType="pubmed">7704110</ArticleId></ArticleIdList></Reference><Reference><Citation>O&#x2019;Reilly R. C., Rudy J. W. (2001). Conjunctive representations in learning and memory: principles of cortical and hippocampal function.
+<i>Psychol. Rev.</i>
+108
+311&#x2013;345 10.1037/0033-295X.108.2.311</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-295X.108.2.311</ArticleId><ArticleId IdType="pubmed">11381832</ArticleId></ArticleIdList></Reference><Reference><Citation>Petersen R. C. (2004). Mild cognitive impairment as a diagnostic entity.
+<i>J. Intern. Med</i>.
+256
+183&#x2013;94 10.1111/j.1365-2796.2004.01388.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1365-2796.2004.01388.x</ArticleId><ArticleId IdType="pubmed">15324362</ArticleId></ArticleIdList></Reference><Reference><Citation>Petersen R. C., Smith G. E., Waring S. C., Ivnik R. J., Tangalos E. G., Kokmen E. (1999). Mild cognitive impairment: clinical characterization and outcome.
+<i>Arch. Neurol.</i>
+56
+303&#x2013;308 10.1001/archneur.56.3.303</Citation><ArticleIdList><ArticleId IdType="doi">10.1001/archneur.56.3.303</ArticleId><ArticleId IdType="pubmed">10190820</ArticleId></ArticleIdList></Reference><Reference><Citation>Poppenk J., Evensmoen H. R., Moscovitch M., Nadel L. (2013). Long-axis specialization of the human hippocampus.
+<i>Trends Cogn. Sci.</i>
+17
+230&#x2013;240 10.1016/j.tics.2013.03.005</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tics.2013.03.005</ArticleId><ArticleId IdType="pubmed">23597720</ArticleId></ArticleIdList></Reference><Reference><Citation>Schacter D. L., Wagner A. D. (1999). Medial temporal lobe activations in fMRI and PET studies of episodic encoding and retrieval.
+<i>Hippocampus</i>
+9
+7&#x2013;24 10.1002/(SICI)1098-1063(1999)9:1&lt;7::AID-HIPO2&gt;3.0.CO;2-K</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/(SICI)1098-1063(1999)9:1&lt;7::AID-HIPO2&gt;3.0.CO;2-K</ArticleId><ArticleId IdType="pubmed">10088896</ArticleId></ArticleIdList></Reference><Reference><Citation>Schapiro A. C., Kustner L. V., Turk-Browne N. B. (2012). Shaping of object representations in the human medial temporal lobe based on temporal regularities.
+<i>Curr. Biol.</i>
+22
+1622&#x2013;1627 10.1016/j.cub.2012.06.056</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cub.2012.06.056</ArticleId><ArticleId IdType="pmc">PMC3443305</ArticleId><ArticleId IdType="pubmed">22885059</ArticleId></ArticleIdList></Reference><Reference><Citation>Scoville W. B., Milner B. (1957). Loss of recent memory after bilateral hippocampal lesions.
+<i>J. Neuropsychiatry Clin.</i><i>Neurosci</i>.
+12
+103&#x2013;113 10.1136/jnnp.20.1.11</Citation><ArticleIdList><ArticleId IdType="doi">10.1136/jnnp.20.1.11</ArticleId><ArticleId IdType="pubmed">10678523</ArticleId></ArticleIdList></Reference><Reference><Citation>Small S. A., Schobel S. A., Buxton R. B., Witter M. P., Barnes C. A. (2011). A pathophysiological framework of hippocampal dysfunction in ageing and disease.
+<i>Nat. Rev. Neurosci.</i>
+12
+585&#x2013;601 10.1038/nrn3085</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn3085</ArticleId><ArticleId IdType="pmc">PMC3312472</ArticleId><ArticleId IdType="pubmed">21897434</ArticleId></ArticleIdList></Reference><Reference><Citation>Smith S. M., Beckmann C. F., Andersson J., Auerbach E. J., Bijsterbosch J., Douaud G., et al.  (2013). Resting-state fMRI in the human connectome project.
+<i>Neuroimage</i>
+15
+144&#x2013;168 10.1016/j.neuroimage.2013.05.039</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2013.05.039</ArticleId><ArticleId IdType="pmc">PMC3720828</ArticleId><ArticleId IdType="pubmed">23702415</ArticleId></ArticleIdList></Reference><Reference><Citation>Suthana N., Ekstrom A., Moshirvaziri S., Knowlton B., Bookheimer S. (2011). Dissociations within human hippocampal subregions during encoding and retrieval of spatial information.
+<i>Hippocampus</i>
+21
+694&#x2013;701 10.1002/hipo.20833</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.20833</ArticleId><ArticleId IdType="pmc">PMC3026858</ArticleId><ArticleId IdType="pubmed">20882543</ArticleId></ArticleIdList></Reference><Reference><Citation>Suthana N., Fried I. (2012). Percepts to recollections: insights from single neuron recordings in the human brain.
+<i>Trends Cogn. Sci.</i>
+16
+427&#x2013;436 10.1016/j.tics.2012.06.006</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tics.2012.06.006</ArticleId><ArticleId IdType="pmc">PMC5378553</ArticleId><ArticleId IdType="pubmed">22795560</ArticleId></ArticleIdList></Reference><Reference><Citation>Treves A., Rolls E. T. (1992). Computational constraints suggest the need for two distinct input systems to the hippocampal CA3 network.
+<i>Hippocampus</i>
+2
+189&#x2013;199 10.1002/hipo.450020209</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.450020209</ArticleId><ArticleId IdType="pubmed">1308182</ArticleId></ArticleIdList></Reference><Reference><Citation>van Strien N. M., Cappaert N. L. M., Witter M. P. (2009). The anatomy of memory: an interactive overview of the parahippocampal&#x2013;hippocampal network.
+<i>Nat. Rev. Neurosci.</i>
+10
+272&#x2013;282 10.1038/nrn2614</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn2614</ArticleId><ArticleId IdType="pubmed">19300446</ArticleId></ArticleIdList></Reference><Reference><Citation>Vazdarjanova A., Guzowski J. F. (2004). Differences in hippocampal neuronal population responses to modifications of an environmental context: evidence for distinct, yet complementary, functions of CA3 and CA1 ensembles.
+<i>J. Neurosci.</i>
+24
+6489&#x2013;6496 10.1523/JNEUROSCI.0350-04.2004</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.0350-04.2004</ArticleId><ArticleId IdType="pmc">PMC6729865</ArticleId><ArticleId IdType="pubmed">15269259</ArticleId></ArticleIdList></Reference><Reference><Citation>Weiskopf N., Hutton C., Josephs O., Deichmann R. (2006). Optimal EPI parameters for reduction of susceptibility-induced BOLD sensitivity losses: a whole-brain analysis at 3 T and 1.5 T.
+<i>Neuroimage </i>
+33
+493&#x2013;504 10.1016/j.neuroimage.2006.07.029</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2006.07.029</ArticleId><ArticleId IdType="pubmed">16959495</ArticleId></ArticleIdList></Reference><Reference><Citation>Wills T. J., Lever C., Cacucci F., Burgess N, O&#x2019;Keefe J. (2005). Attractor dynamics in the hippocampal representation of the local environment.
+<i>Science</i>
+308
+873&#x2013;876 10.1126/science.1108905</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1108905</ArticleId><ArticleId IdType="pmc">PMC2680068</ArticleId><ArticleId IdType="pubmed">15879220</ArticleId></ArticleIdList></Reference><Reference><Citation>Wilson I. A., Ikonen S., Gallagher M., Eichenbaum H., Tanila H. (2005). Age-associated alterations of hippocampal place cells are subregion specific.
+<i>J. Neurosci.</i>
+25
+6877&#x2013;6886 10.1523/JNEUROSCI.1744-05.2005</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.1744-05.2005</ArticleId><ArticleId IdType="pmc">PMC6725350</ArticleId><ArticleId IdType="pubmed">16033897</ArticleId></ArticleIdList></Reference><Reference><Citation>Wisse L. E. M., Gerritsen L., Zwanenburg J. J. M., Kuijf H. J., Luijten P. R., Biessels G. J., et al.  (2012). Subfields of the hippocampal formation at 7 T MRI: in vivo volumetric assessment.
+<i>Neuroimage</i>
+61
+1043&#x2013;1049 10.1016/j.neuroimage.2012.03.023</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2012.03.023</ArticleId><ArticleId IdType="pubmed">22440643</ArticleId></ArticleIdList></Reference><Reference><Citation>Yassa M. A., Mattfeld A. T., Stark S. M, Stark C. E. L. (2011). Age-related memory deficits linked to circuit-specific disruptions in the hippocampus.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+108
+8873&#x2013;8878 10.1073/pnas.1101567108</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.1101567108</ArticleId><ArticleId IdType="pmc">PMC3102362</ArticleId><ArticleId IdType="pubmed">21555581</ArticleId></ArticleIdList></Reference><Reference><Citation>Yassa M. A., Muftuler L. T, Stark C. E. L. (2010a). Ultrahigh-resolution microstructural diffusion tensor imaging reveals perforant path degradation in aged humans in vivo.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+107
+12687&#x2013;12691 10.1073/pnas.1002113107</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.1002113107</ArticleId><ArticleId IdType="pmc">PMC2906542</ArticleId><ArticleId IdType="pubmed">20616040</ArticleId></ArticleIdList></Reference><Reference><Citation>Yassa M. A., Stark S. M., Bakker A., Albert M. S., Gallagher M., Stark C. E. (2010b). High-resolution structural and functional MRI of hippocampal CA3 and dentate gyrus in patients with amnestic mild cognitive impairment.
+<i>Neuroimage</i>
+51
+1242&#x2013;1252 10.1016/j.neuroimage.2010.03.040</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2010.03.040</ArticleId><ArticleId IdType="pmc">PMC2909476</ArticleId><ArticleId IdType="pubmed">20338246</ArticleId></ArticleIdList></Reference><Reference><Citation>Yassa M. A, Stark C. E. L. (2009). A quantitative evaluation of cross-participant registration techniques for MRI studies of the medial temporal lobe.
+<i>Neuroimage</i>
+44
+319&#x2013;327 10.1016/j.neuroimage.2008.09.016</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2008.09.016</ArticleId><ArticleId IdType="pubmed">18929669</ArticleId></ArticleIdList></Reference><Reference><Citation>Zeineh M. M., Engel S. A., Thompson P. M., Bookheimer S. Y. (2003). Dynamics of the hippocampus during encoding and retrieval of face-name pairs.
+<i>Science</i>
+299
+577&#x2013;580 10.1126/science.1077775</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1077775</ArticleId><ArticleId IdType="pubmed">12543980</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>

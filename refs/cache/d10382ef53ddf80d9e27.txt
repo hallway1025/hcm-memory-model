@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nmf2eLXnDgXN8vKA3CV/r3zaY3Y</id>
+  <title>arXiv Query: search_query=all:working AND all:memory AND all:neural AND all:network AND all:capacity&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-11-07T13:51:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:working+AND+(all:memory+AND+(all:neural+AND+(all:network+AND+all:capacity)))&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>216</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0809.2010v1</id>
+    <title>Maximum memory capacity on neural networks with short-term depression and facilitation</title>
+    <updated>2008-09-11T14:31:54Z</updated>
+    <link href="https://arxiv.org/abs/0809.2010v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.2010v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this work we study, analytically and employing Monte Carlo simulations, the influence of the competition between several activity-dependent synaptic processes, such as short-term synaptic facilitation and depression, on the maximum memory storage capacity in a neural network. In contrast with the case of synaptic depression, which drastically reduces the capacity of the network to store and retrieve "static" activity patterns, synaptic facilitation enhances the storage capacity in different contexts. In particular, we found optimal values of the relevant synaptic parameters (such as the neurotransmitter release probability or the characteristic facilitation time constant) for which the storage capacity can be maximal and similar to the one obtained with static synapses, that is, without activity-dependent processes. We conclude that depressing synapses with a certain level of facilitation allow to recover the good retrieval properties of networks with static synapses while maintaining the nonlinear characteristics of dynamic synapses, convenient for information processing and coding.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-11T14:31:54Z</published>
+    <arxiv:comment>6 figures, accepted in Neural Computation</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Jorge F. Mejias</name>
+    </author>
+    <author>
+      <name>Joaquin J. Torres</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.00412v1</id>
+    <title>A theory of sequence indexing and working memory in recurrent neural networks</title>
+    <updated>2018-02-28T17:54:24Z</updated>
+    <link href="https://arxiv.org/abs/1803.00412v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.00412v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To accommodate structured approaches of neural computation, we propose a class of recurrent neural networks for indexing and storing sequences of symbols or analog data vectors. These networks with randomized input weights and orthogonal recurrent weights implement coding principles previously described in vector symbolic architectures (VSA), and leverage properties of reservoir computing. In general, the storage in reservoir computing is lossy and crosstalk noise limits the retrieval accuracy and information capacity. A novel theory to optimize memory performance in such networks is presented and compared with simulation experiments. The theory describes linear readout of analog data, and readout with winner-take-all error correction of symbolic data as proposed in VSA models. We find that diverse VSA models from the literature have universal performance properties, which are superior to what previous analyses predicted. Further, we propose novel VSA models with the statistically optimal Wiener filter in the readout that exhibit much higher information capacity, in particular for storing analog data.
+  The presented theory also applies to memory buffers, networks with gradual forgetting, which can operate on infinite data streams without memory overflow. Interestingly, we find that different forgetting mechanisms, such as attenuating recurrent weights or neural nonlinearities, produce very similar behavior if the forgetting time constants are aligned. Such models exhibit extensive capacity when their forgetting time constant is optimized for given noise conditions and network size. These results enable the design of new types of VSA models for the online processing of data streams.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-28T17:54:24Z</published>
+    <arxiv:comment>62 pages, 19 Figures, 85 equations, accepted in Neural Computation. arXiv admin note: text overlap with arXiv:1707.01429</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>E. Paxon Frady</name>
+    </author>
+    <author>
+      <name>Denis Kleyko</name>
+    </author>
+    <author>
+      <name>Friedrich T. Sommer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.07163v1</id>
+    <title>Cross-Frequency Coupling Increases Memory Capacity in Oscillatory Neural Networks</title>
+    <updated>2022-04-05T17:13:36Z</updated>
+    <link href="https://arxiv.org/abs/2204.07163v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.07163v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An open problem in neuroscience is to explain the functional role of oscillations in neural networks, contributing, for example, to perception, attention, and memory. Cross-frequency coupling (CFC) is associated with information integration across populations of neurons. Impaired CFC is linked to neurological disease. It is unclear what role CFC has in information processing and brain functional connectivity. We construct a model of CFC which predicts a computational role for observed $θ- γ$ oscillatory circuits in the hippocampus and cortex. Our model predicts that the complex dynamics in recurrent and feedforward networks of coupled oscillators performs robust information storage and pattern retrieval. Based on phasor associative memories (PAM), we present a novel oscillator neural network (ONN) model that includes subharmonic injection locking (SHIL) and which reproduces experimental observations of CFC. We show that the presence of CFC increases the memory capacity of a population of neurons connected by plastic synapses. CFC enables error-free pattern retrieval whereas pattern retrieval fails without CFC. In addition, the trade-offs between sparse connectivity, capacity, and information per connection are identified. The associative memory is based on a complex-valued neural network, or phasor neural network (PNN). We show that for values of $Q$ which are the same as the ratio of $γ$ to $θ$ oscillations observed in the hippocampus and the cortex, the associative memory achieves greater capacity and information storage than previous models. The novel contributions of this work are providing a computational framework based on oscillator dynamics which predicts the functional role of neural oscillations and connecting concepts in neural network theory and dynamical system theory.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-05T17:13:36Z</published>
+    <arxiv:comment>4 pages, one figure, Presented at Computation and Systems Neuroscience (COSYNE) 2022</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Connor Bybee</name>
+    </author>
+    <author>
+      <name>Alexander Belsten</name>
+    </author>
+    <author>
+      <name>Friedrich T. Sommer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.07244v2</id>
+    <title>The Influence of the Memory Capacity of Neural DDEs on the Universal Approximation Property</title>
+    <updated>2025-06-06T13:27:07Z</updated>
+    <link href="https://arxiv.org/abs/2505.07244v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.07244v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural Ordinary Differential Equations (Neural ODEs), which are the continuous-time analog of Residual Neural Networks (ResNets), have gained significant attention in recent years. Similarly, Neural Delay Differential Equations (Neural DDEs) can be interpreted as an infinite depth limit of Densely Connected Residual Neural Networks (DenseResNets). In contrast to traditional ResNet architectures, DenseResNets are feed-forward networks that allow for shortcut connections across all layers. These additional connections introduce memory in the network architecture, as typical in many modern architectures. In this work, we explore how the memory capacity in neural DDEs influences the universal approximation property. The key parameter for studying the memory capacity is the product $K τ$ of the Lipschitz constant and the delay of the DDE. In the case of non-augmented architectures, where the network width is not larger than the input and output dimensions, neural ODEs and classical feed-forward neural networks cannot have the universal approximation property. We show that if the memory capacity $Kτ$ is sufficiently small, the dynamics of the neural DDE can be approximated by a neural ODE. Consequently, non-augmented neural DDEs with a small memory capacity also lack the universal approximation property. In contrast, if the memory capacity $Kτ$ is sufficiently large, we can establish the universal approximation property of neural DDEs for continuous functions. If the neural DDE architecture is augmented, we can expand the parameter regions in which universal approximation is possible. Overall, our results show that by increasing the memory capacity $Kτ$, the infinite-dimensional phase space of DDEs with positive delay $τ&gt;0$ is not sufficient to guarantee a direct jump transition to universal approximation, but only after a certain memory threshold, universal approximation holds.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-12T05:36:39Z</published>
+    <arxiv:primary_category term="math.DS"/>
+    <author>
+      <name>Christian Kuehn</name>
+    </author>
+    <author>
+      <name>Sara-Viola Kuntz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.07531v1</id>
+    <title>On the capacity of neural networks</title>
+    <updated>2022-11-02T10:19:35Z</updated>
+    <link href="https://arxiv.org/abs/2211.07531v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.07531v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The aim of this thesis is to compare the capacity of different models of neural networks. We start by analysing the problem solving capacity of a single perceptron using a simple combinatorial argument. After some observations on the storage capacity of a basic network, known as an associative memory, we introduce a powerful statistical mechanical approach to calculate its capacity in the training rule-dependent Hopfield model. With the aim of finding a more general definition that can be applied even to quantum neural nets, we then follow Gardner's work, which let us get rid of the dependency on the training rule, and comment the results obtained by Lewenstein et al. by applying Gardner's methods on a recently proposed quantum perceptron model.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-02T10:19:35Z</published>
+    <arxiv:comment>Master's thesis: 75 pages, tens of figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Leonardo Cruciani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0608073v1</id>
+    <title>Parametrical Neural Networks and Some Other Similar Architectures</title>
+    <updated>2006-08-18T08:28:23Z</updated>
+    <link href="https://arxiv.org/abs/cs/0608073v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0608073v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A review of works on associative neural networks accomplished during last four years in the Institute of Optical Neural Technologies RAS is given. The presentation is based on description of parametrical neural networks (PNN). For today PNN have record recognizing characteristics (storage capacity, noise immunity and speed of operation). Presentation of basic ideas and principles is accentuated.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-08-18T08:28:23Z</published>
+    <arxiv:comment>15 pages, 2 figures, accepted for publication in "Optical Memory &amp; Neural Networks" (2006)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Leonid B. Litinskii</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.6513v1</id>
+    <title>Convolutional Neural Associative Memories: Massive Capacity with Noise Tolerance</title>
+    <updated>2014-07-24T10:06:24Z</updated>
+    <link href="https://arxiv.org/abs/1407.6513v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.6513v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The task of a neural associative memory is to retrieve a set of previously memorized patterns from their noisy versions using a network of neurons. An ideal network should have the ability to 1) learn a set of patterns as they arrive, 2) retrieve the correct patterns from noisy queries, and 3) maximize the pattern retrieval capacity while maintaining the reliability in responding to queries. The majority of work on neural associative memories has focused on designing networks capable of memorizing any set of randomly chosen patterns at the expense of limiting the retrieval capacity. In this paper, we show that if we target memorizing only those patterns that have inherent redundancy (i.e., belong to a subspace), we can obtain all the aforementioned properties. This is in sharp contrast with the previous work that could only improve one or two aspects at the expense of the third. More specifically, we propose framework based on a convolutional neural network along with an iterative algorithm that learns the redundancy among the patterns. The resulting network has a retrieval capacity that is exponential in the size of the network. Moreover, the asymptotic error correction performance of our network is linear in the size of the patterns. We then ex- tend our approach to deal with patterns lie approximately in a subspace. This extension allows us to memorize datasets containing natural patterns (e.g., images). Finally, we report experimental results on both synthetic and real datasets to support our claims.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-24T10:06:24Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Amin Karbasi</name>
+    </author>
+    <author>
+      <name>Amir Hesam Salavati</name>
+    </author>
+    <author>
+      <name>Amin Shokrollahi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.19657v3</id>
+    <title>Neuronal correlations shape the scaling behavior of memory capacity and nonlinear computational capability of reservoir recurrent neural networks</title>
+    <updated>2025-08-14T08:10:43Z</updated>
+    <link href="https://arxiv.org/abs/2504.19657v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.19657v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reservoir computing is a powerful framework for real-time information processing, characterized by its high computational ability and quick learning, with applications ranging from machine learning to biological systems. In this paper, we investigate how the computational ability of reservoir recurrent neural networks (RNNs) scales with an increasing number of readout neurons. First, we demonstrate that the memory capacity of a reservoir RNN scales sublinearly with the number of readout neurons. To elucidate this observation, we develop a theoretical framework for analytically deriving memory capacity that incorporates the effect of neuronal correlations, which have been ignored in prior theoretical work for analytical simplicity. Our theory successfully relates the sublinear scaling of memory capacity to the strength of neuronal correlations. Furthermore, we show this principle holds across diverse types of RNNs, even those beyond the direct applicability of our theory. Next, we numerically investigate the scaling behavior of nonlinear computational ability, which, alongside memory capacity, is crucial for overall computational performance. Our numerical simulations reveal that as memory capacity growth becomes sublinear, increasing the number of readout neurons successively enables nonlinear processing at progressively higher polynomial orders. Our theoretical framework suggests that neuronal correlations govern not only memory capacity but also the sequential growth of nonlinear computational capabilities. Our findings establish a foundation for designing scalable and cost-effective reservoir computing, providing novel insights into the interplay among neuronal correlations, linear memory, and nonlinear processing.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-28T10:17:31Z</published>
+    <arxiv:comment>26 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <arxiv:journal_ref>Phys. Rev. Research 7, 043083 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Shotaro Takasu</name>
+    </author>
+    <author>
+      <name>Toshio Aoyagi</name>
+    </author>
+    <arxiv:doi>10.1103/cwvm-s53p</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/cwvm-s53p" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.07071v1</id>
+    <title>Exact neural mass model for synaptic-based working memory</title>
+    <updated>2020-10-14T13:17:26Z</updated>
+    <link href="https://arxiv.org/abs/2010.07071v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.07071v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A synaptic theory of Working Memory (WM) has been developed in the last decade as a possible alternative to the persistent spiking paradigm. In this context, we have developed a neural mass model able to reproduce exactly the dynamics of heterogeneous spiking neural networks encompassing realistic cellular mechanisms for short-term synaptic plasticity. This population model reproduces the macroscopic dynamics of the network in terms of the firing rate and the mean membrane potential. The latter quantity allows us to get insight on Local Field Potential and electroencephalographic signals measured during WM tasks to characterize the brain activity. More specifically synaptic facilitation and depression integrate each other to efficiently mimic WM operations via either synaptic reactivation or persistent activity. Memory access and loading are associated to stimulus-locked transient oscillations followed by a steady-state activity in the $β-γ$ band, thus resembling what observed in the cortex during vibrotactile stimuli in humans and object recognition in monkeys. Memory juggling and competition emerge already by loading only two items. However more items can be stored in WM by considering neural architectures composed of multiple excitatory populations and a common inhibitory pool. Memory capacity depends strongly on the presentation rate of the items and it maximizes for an optimal frequency range. In particular we provide an analytic expression for the maximal memory capacity. Furthermore, the mean membrane potential turns out to be a suitable proxy to measure the memory load, analogously to event driven potentials in experiments on humans. Finally we show that the $γ$ power increases with the number of loaded items, as reported in many experiments, while $θ$ and $β$ power reveal non monotonic behaviours.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.AO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-14T13:17:26Z</published>
+    <arxiv:comment>47 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <arxiv:journal_ref>PLOS Computational Biology , 16(12): e1008533 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Halgurd Taher</name>
+    </author>
+    <author>
+      <name>Alessandro Torcini</name>
+    </author>
+    <author>
+      <name>Simona Olmi</name>
+    </author>
+    <arxiv:doi>10.1371/journal.pcbi.1008533</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1371/journal.pcbi.1008533" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.05868v1</id>
+    <title>Bio-inspired computational memory model of the Hippocampus: an approach to a neuromorphic spike-based Content-Addressable Memory</title>
+    <updated>2023-10-09T17:05:23Z</updated>
+    <link href="https://arxiv.org/abs/2310.05868v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.05868v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The brain has computational capabilities that surpass those of modern systems, being able to solve complex problems efficiently in a simple way. Neuromorphic engineering aims to mimic biology in order to develop new systems capable of incorporating such capabilities. Bio-inspired learning systems continue to be a challenge that must be solved, and much work needs to be done in this regard. Among all brain regions, the hippocampus stands out as an autoassociative short-term memory with the capacity to learn and recall memories from any fragment of them. These characteristics make the hippocampus an ideal candidate for developing bio-inspired learning systems that, in addition, resemble content-addressable memories. Therefore, in this work we propose a bio-inspired spiking content-addressable memory model based on the CA3 region of the hippocampus with the ability to learn, forget and recall memories, both orthogonal and non-orthogonal, from any fragment of them. The model was implemented on the SpiNNaker hardware platform using Spiking Neural Networks. A set of experiments based on functional, stress and applicability tests were performed to demonstrate its correct functioning. This work presents the first hardware implementation of a fully-functional bio-inspired spiking hippocampal content-addressable memory model, paving the way for the development of future more complex neuromorphic systems.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-09T17:05:23Z</published>
+    <arxiv:comment>15 pages, 5 figures, journal, Spiking Neural Network</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Daniel Casanueva-Morato</name>
+    </author>
+    <author>
+      <name>Alvaro Ayuso-Martinez</name>
+    </author>
+    <author>
+      <name>Juan P. Dominguez-Morales</name>
+    </author>
+    <author>
+      <name>Angel Jimenez-Fernandez</name>
+    </author>
+    <author>
+      <name>Gabriel Jimenez-Moreno</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.02001v3</id>
+    <title>Memory capacity of two layer neural networks with smooth activations</title>
+    <updated>2024-05-01T20:53:20Z</updated>
+    <link href="https://arxiv.org/abs/2308.02001v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.02001v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Determining the memory capacity of two layer neural networks with $m$ hidden neurons and input dimension $d$ (i.e., $md+2m$ total trainable parameters), which refers to the largest size of general data the network can memorize, is a fundamental machine learning question. For activations that are real analytic at a point and, if restricting to a polynomial there, have sufficiently high degree, we establish a lower bound of $\lfloor md/2\rfloor$ and optimality up to a factor of approximately $2$. All practical activations, such as sigmoids, Heaviside, and the rectified linear unit (ReLU), are real analytic at a point. Furthermore, the degree condition is mild, requiring, for example, that $\binom{k+d-1}{d-1}\ge n$ if the activation is $x^k$. Analogous prior results were limited to Heaviside and ReLU activations -- our result covers almost everything else. In order to analyze general activations, we derive the precise generic rank of the network's Jacobian, which can be written in terms of Hadamard powers and the Khatri-Rao product. Our analysis extends classical linear algebraic facts about the rank of Hadamard powers. Overall, our approach differs from prior works on memory capacity and holds promise for extending to deeper models and other architectures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-03T19:31:15Z</published>
+    <arxiv:comment>V3: the result was generalized to activations which are real analytic at a point by including a bias vector. The presentation and rigor were also improved</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>SIAM Journal on Mathematics of Data Science, 6(3):679-702, 2024</arxiv:journal_ref>
+    <author>
+      <name>Liam Madden</name>
+    </author>
+    <author>
+      <name>Christos Thrampoulidis</name>
+    </author>
+    <arxiv:doi>10.1137/23M1599355</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/23M1599355" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.07894v1</id>
+    <title>Optimal storage capacity of quantum Hopfield neural networks</title>
+    <updated>2022-10-14T15:21:21Z</updated>
+    <link href="https://arxiv.org/abs/2210.07894v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.07894v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum neural networks form one pillar of the emergent field of quantum machine learning. Here, quantum generalisations of classical networks realizing associative memories - capable of retrieving patterns, or memories, from corrupted initial states - have been proposed. It is a challenging open problem to analyze quantum associative memories with an extensive number of patterns, and to determine the maximal number of patterns the quantum networks can reliably store, i.e. their storage capacity. In this work, we propose and explore a general method for evaluating the maximal storage capacity of quantum neural network models. By generalizing what is known as Gardner's approach in the classical realm, we exploit the theory of classical spin glasses for deriving the optimal storage capacity of quantum networks with quenched pattern variables. As an example, we apply our method to an open-system quantum associative memory formed of interacting spin-1/2 particles realizing coupled artificial neurons. The system undergoes a Markovian time evolution resulting from a dissipative retrieval dynamics that competes with a coherent quantum dynamics. We map out the non-equilibrium phase diagram and study the effect of temperature and Hamiltonian dynamics on the storage capacity. Our method opens an avenue for a systematic characterization of the storage capacity of quantum associative memories.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-14T15:21:21Z</published>
+    <arxiv:comment>6 pages, 2 figures + appendix</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Lukas Bödeker</name>
+    </author>
+    <author>
+      <name>Eliana Fiorelli</name>
+    </author>
+    <author>
+      <name>Markus Müller</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.5.023074</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.5.023074" title="doi"/>
+  </entry>
+</feed>

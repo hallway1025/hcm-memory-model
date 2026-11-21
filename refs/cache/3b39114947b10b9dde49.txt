@@ -1,0 +1,177 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Automated"><PMID Version="1">38451878</PMID><DateCompleted><Year>2024</Year><Month>03</Month><Day>11</Day></DateCompleted><DateRevised><Year>2026</Year><Month>02</Month><Day>20</Day></DateRevised><Article PubModel="Print"><Journal><ISSN IssnType="Electronic">1749-5024</ISSN><JournalIssue CitedMedium="Internet"><Volume>19</Volume><Issue>1</Issue><PubDate><Year>2024</Year><Month>Mar</Month><Day>05</Day></PubDate></JournalIssue><Title>Social cognitive and affective neuroscience</Title><ISOAbbreviation>Soc Cogn Affect Neurosci</ISOAbbreviation></Journal><ArticleTitle>Working memory load impairs tacit coordination but not inter-brain EEG synchronization.</ArticleTitle><ELocationID EIdType="pii" ValidYN="Y">nsae017</ELocationID><ELocationID EIdType="doi" ValidYN="Y">10.1093/scan/nsae017</ELocationID><Abstract><AbstractText>Coordinating actions with others is thought to require Theory of Mind (ToM): the ability to take perspective by attributing underlying intentions and beliefs to observed behavior. However, researchers have yet to establish a causal role for specific cognitive processes in coordinated action. Since working memory load impairs ToM in single-participant paradigms, we tested whether load manipulation affects two-person coordination. We used EEG to measure P3, an assessment of working memory encoding, as well as inter-brain synchronization (IBS), which is thought to capture mutual adjustment of behavior and mental states during coordinated action. In a computerized coordination task, dyads were presented with novel abstract images and tried selecting the same image, with selections shown at the end of each trial. High working memory load was implemented by a concurrent n-back task. Compared with a low-load control condition, high load significantly diminished coordination performance and P3 amplitude. A significant relationship between P3 and performance was found. Load did not affect IBS, nor did IBS affect performance. These findings suggest a causal role for working memory in two-person coordination, adding to a growing body of evidence challenging earlier claims that social alignment is domain-specific and does not require executive control in adults.</AbstractText><CopyrightInformation>&#xa9; The Author(s) 2024. Published by Oxford University Press.</CopyrightInformation></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Newman</LastName><ForeName>Lionel A</ForeName><Initials>LA</Initials><Identifier Source="ORCID">0000-0002-7031-8001</Identifier><AffiliationInfo><Affiliation>Engineering and Technology Institute, University of Groningen, Groningen 9747 AG, The Netherlands.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Bernoulli Institute for Mathematics, Computer Science and Artificial Intelligence, University of Groningen, Groningen 9747 AG, The Netherlands.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Cao</LastName><ForeName>Ming</ForeName><Initials>M</Initials><Identifier Source="ORCID">0000-0001-5472-562X</Identifier><AffiliationInfo><Affiliation>Engineering and Technology Institute, University of Groningen, Groningen 9747 AG, The Netherlands.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>T&#xe4;uber</LastName><ForeName>Susanne</ForeName><Initials>S</Initials><AffiliationInfo><Affiliation>Department of Human Resource Management &amp; Organizational Behavior, University of Groningen, Groningen 9747 AG, The Netherlands.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>van Vugt</LastName><ForeName>Marieke</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>Bernoulli Institute for Mathematics, Computer Science and Artificial Intelligence, University of Groningen, Groningen 9747 AG, The Netherlands.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><GrantList CompleteYN="Y"><Grant><Agency>Rijksuniversiteit Groningen</Agency><Country/></Grant><Grant><Agency>Rijksuniversiteit Groningen</Agency><Country/></Grant></GrantList><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType><PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType></PublicationTypeList></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>Soc Cogn Affect Neurosci</MedlineTA><NlmUniqueID>101288795</NlmUniqueID><ISSNLinking>1749-5016</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D008570" MajorTopicYN="Y">Memory, Short-Term</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D004569" MajorTopicYN="N">Electroencephalography</DescriptorName><QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName></MeshHeading><MeshHeading><DescriptorName UI="D056345" MajorTopicYN="Y">Theory of Mind</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D001921" MajorTopicYN="N">Brain</DescriptorName></MeshHeading></MeshHeadingList><KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">hyperscanning</Keyword><Keyword MajorTopicYN="N">joint action</Keyword><Keyword MajorTopicYN="N">synchronization</Keyword><Keyword MajorTopicYN="N">theory of mind</Keyword><Keyword MajorTopicYN="N">working memory</Keyword></KeywordList><CoiStatement>The authors declared that they had no conflict of interest with respect to their authorship or the publication of this article.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="received"><Year>2022</Year><Month>9</Month><Day>20</Day></PubMedPubDate><PubMedPubDate PubStatus="revised"><Year>2023</Year><Month>12</Month><Day>13</Day></PubMedPubDate><PubMedPubDate PubStatus="accepted"><Year>2024</Year><Month>2</Month><Day>16</Day></PubMedPubDate><PubMedPubDate PubStatus="medline"><Year>2024</Year><Month>3</Month><Day>11</Day><Hour>6</Hour><Minute>43</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2024</Year><Month>3</Month><Day>7</Day><Hour>18</Hour><Minute>42</Minute></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2024</Year><Month>3</Month><Day>7</Day><Hour>13</Hour><Minute>13</Minute></PubMedPubDate><PubMedPubDate PubStatus="pmc-release"><Year>2024</Year><Month>2</Month><Day>28</Day></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">38451878</ArticleId><ArticleId IdType="pmc">PMC10919395</ArticleId><ArticleId IdType="doi">10.1093/scan/nsae017</ArticleId><ArticleId IdType="pii">7623405</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>
+
+Ahn &#xa0;S., Cho &#xa0;H., Kwon &#xa0;M., et al.  (2018). Interbrain phase synchronization during turn-taking verbal interaction - a hyperscanning study using simultaneous EEG/MEG. <i>Human Brain Mapping</i>, 39, 171&#x2013;88.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC6866597</ArticleId><ArticleId IdType="pubmed">29024193</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Alberti &#xa0;F., Sugden &#xa0;R., Tsutsui &#xa0;K. (2012). Salience as an emergent property. <i>Journal of Economic Behavior &amp; Organization</i>, 82, 379&#x2013;94.</Citation></Reference><Reference><Citation>
+
+Andraszewicz &#xa0;S., Scheibehenne &#xa0;B., Rieskamp &#xa0;J., et al.  (2015). An introduction to Bayesian hypothesis testing for management research. <i>Journal of Management</i>, 41, 521&#x2013;43.</Citation></Reference><Reference><Citation>Astolfi &#xa0;L., Cincotti &#xa0;F., Mattia &#xa0;D., et al. (2010a). Imaging the social brain: multi-subjects EEG recordings during the &#x201c;Chicken&#x2019;s game&#x201d;. In: 2010 Annual International Conference of the IEEE Engineering in Medicine and Biology &#xa0;Buenos Aires, Argentina, IEEE, 1734&#x2013;7.</Citation><ArticleIdList><ArticleId IdType="pubmed">21096409</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Astolfi &#xa0;L., Toppi &#xa0;J., De &#xa0;F., et al.  (2010b). Neuroelectrical hyperscanning measures simultaneous brain activity in humans. <i>Brain Topography</i>, 23, 243&#x2013;56.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">20480221</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Astolfi &#xa0;L., Toppi &#xa0;J., De Vico Fallani &#xa0;F., et al.  (2011). Imaging the social brain by simultaneous hyperscanning during subject interaction. <i>IEEE Intelligent Systems</i>, 26, 38&#x2013;45.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC3267574</ArticleId><ArticleId IdType="pubmed">22287939</ArticleId></ArticleIdList></Reference><Reference><Citation>Babiloni &#xa0;F., Astolfi &#xa0;L., Cincotti &#xa0;F., et al. (2007). Cortical activity and connectivity of human brain during the prisoner&#x2019;s dilemma: an EEG hyperscanning study. In: Annual International Conference of the IEEE Engineering in Medicine and Biology &#x2013; Proceedings &#xa0;Lyon, France. 4953&#x2013;6.</Citation><ArticleIdList><ArticleId IdType="pubmed">18003118</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Baker &#xa0;J.M., Liu &#xa0;N., Cui &#xa0;X., et al.  (2016). Sex differences in neural and behavioral signatures of cooperation revealed by fNIRS hyperscanning. <i>Scientific Reports</i>, 6, 26492.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC4897646</ArticleId><ArticleId IdType="pubmed">27270754</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Balconi &#xa0;M., Gatti &#xa0;L., Vanutelli &#xa0;M.E. (2018). EEG functional connectivity and brain-to-brain coupling in failing cognitive strategies. <i>Consciousness and Cognition</i>, 60, 86&#x2013;97.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">29544127</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Bardsley &#xa0;N., Mehta &#xa0;J., Starmer &#xa0;C., et al.  (2010). Explaining focal points: cognitive hierarchy theory versus team reasoning. <i>The Economic Journal</i>, 120, 40&#x2013;79.</Citation></Reference><Reference><Citation>
+
+Barraza &#xa0;P., Dumas &#xa0;G., Liu &#xa0;H., et al.  (2019). Implementing EEG hyperscanning setups. <i>MethodsX</i>, 6, 428&#x2013;36.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC6411510</ArticleId><ArticleId IdType="pubmed">30906698</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Bear &#xa0;A., Rand &#xa0;D.G. (2016). Intuition, deliberation, and the evolution of cooperation. <i>Proceedings of the National Academy of Sciences of the United States of America</i>, 113, 936&#x2013;41.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC4743833</ArticleId><ArticleId IdType="pubmed">26755603</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Becchio &#xa0;C., Sartori &#xa0;L., Castiello &#xa0;U. (2010). Toward you: the social side of actions. <i>Current Directions in Psychological Science</i>, 19, 183&#x2013;8.</Citation></Reference><Reference><Citation>
+
+Bull &#xa0;R., Phillips &#xa0;L.H., Conway &#xa0;C.A. (2008). The role of control functions in mentalizing: dual-task studies of theory of mind and executive function. <i>Cognition</i>, 107, 663&#x2013;72.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">17765214</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Burgess &#xa0;A.P. (2013). On the interpretation of synchronization in EEG hyperscanning studies: a cautionary note. <i>Frontiers in Human Neuroscience</i>, 7, 881.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC3870947</ArticleId><ArticleId IdType="pubmed">24399948</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Cheng &#xa0;X., Li &#xa0;X., Hu &#xa0;Y. (2015). Synchronous brain activity during cooperative exchange depends on gender of partner: a fNIRS-based hyperscanning study. <i>Human Brain Mapping</i>, 36, 2039&#x2013;48.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC6869051</ArticleId><ArticleId IdType="pubmed">25691124</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Ciaramidaro &#xa0;A., Toppi &#xa0;J., Casper &#xa0;C., et al.  (2018). Multiple-brain connectivity during third party punishment: an EEG hyperscanning study. <i>Scientific Reports</i>, 8, 1&#x2013;13.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC5931604</ArticleId><ArticleId IdType="pubmed">29717203</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Colley &#xa0;I.D., Keller &#xa0;P.E., Halpern &#xa0;A.R. (2018). Working memory and auditory imagery predict sensorimotor synchronisation with expressively timed music. <i>Quarterly Journal of Experimental Psychology</i>, 71, 1781&#x2013;96.</Citation><ArticleIdList><ArticleId IdType="pubmed">28797209</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Czeszumski &#xa0;A., Eustergerling &#xa0;S., Lang &#xa0;A., et al.  (2020). Hyperscanning: a valid method to study neural inter-brain underpinnings of social interaction. <i>Frontiers in Human Neuroscience</i>, 14, 39.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC7059252</ArticleId><ArticleId IdType="pubmed">32180710</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+De Vico Fallani &#xa0;F., Nicosia &#xa0;V., Sinatra &#xa0;R., et al.  (2010). Defecting or not defecting: how to &#x201c;read&#x201d; human behavior during cooperative games by EEG measurements O. Sporns (ed). <i>PLoS One</i>, 5, e14187.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC2995728</ArticleId><ArticleId IdType="pubmed">21152069</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+de Weerd &#xa0;H., Verbrugge &#xa0;R., Verheij &#xa0;B. (2015). Higher-order theory of mind in the tacit communication game. <i>Biologically Inspired Cognitive Architectures</i>, 11, 10&#x2013;21.</Citation></Reference><Reference><Citation>
+
+Duffy &#xa0;S., Smith &#xa0;J. (2014). Cognitive load in the multi-player prisoner&#x2019;s dilemma game: are there brains in games? &#xa0;<i>Journal of Behavioral and Experimental Economics</i>, 51, 47&#x2013;56.</Citation></Reference><Reference><Citation>
+
+Dumas &#xa0;G., Lachat &#xa0;F., Martinerie &#xa0;J., et al.  (2011). From social behaviour to brain synchronization: review and perspectives in hyperscanning. <i>Irbm</i>, 32, 48&#x2013;53.</Citation></Reference><Reference><Citation>
+
+Durka &#xa0;P.J., Zygierewicz &#xa0;J., Klekowicz &#xa0;H., et al.  (2004). On the statistical significance of event-related EEG desynchronization and synchronization in the time-frequency plane. <i>IEEE Transactions on Bio-medical Engineering</i>, 51, 1167&#x2013;75.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">15248533</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Fiddick &#xa0;L., Cosmides &#xa0;L., Tooby &#xa0;J. (2000). No interpretation without representation: the role of domain-specific representations and inferences in the Wason selection task. <i>Cognition</i>, 77, 1&#x2013;79.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">10980253</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Fodor &#xa0;J.A. (1992). A theory of the child&#x2019;s theory of mind. <i>Cognition</i>, 44, 283&#x2013;96.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">1424495</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Gallotti &#xa0;M., Fairhurst &#xa0;M.T., Frith &#xa0;C.D. (2017). Alignment in social interactions. <i>Consciousness and Cognition</i>, 48, 253&#x2013;61.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">28033550</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Goldstein &#xa0;P., Weissman-Fogel &#xa0;I., Dumas &#xa0;G., et al.  (2018). Brain-to-brain coupling during handholding is associated with pain reduction. <i>Proceedings of the National Academy of Sciences of the United States of America</i>, 115, E2528&#x2013;37.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC5856497</ArticleId><ArticleId IdType="pubmed">29483250</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Gvirts &#xa0;H.Z., Perlmutter &#xa0;R. (2020). What guides us to neurally and behaviorally align with anyone specific? A neurobiological model based on fNIRS hyperscanning studies. <i>The Neuroscientist</i>, 26, 108&#x2013;16.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">31296135</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Hasson &#xa0;U., Ghazanfar &#xa0;A.A., Galantucci &#xa0;B., et al.  (2012). Brain-to-brain coupling: a mechanism for creating and sharing a social world. <i>Trends in Cognitive Sciences</i>, 16, 114&#x2013;21.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC3269540</ArticleId><ArticleId IdType="pubmed">22221820</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Hu &#xa0;Y., Pan &#xa0;Y., Shi &#xa0;X., et al.  (2018). Inter-brain synchrony and cooperation context in interactive decision making. <i>Biological Psychology</i>, 133, 54&#x2013;62.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">29292232</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Jahng &#xa0;J., Kralik &#xa0;J.D., Hwang &#xa0;D.U., et al.  (2017). Neural dynamics of two players when using nonverbal cues to gauge intentions to cooperate during the Prisoner&#x2019;s Dilemma Game. <i>NeuroImage</i>, 157, 263&#x2013;74.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">28610901</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Kawasaki &#xa0;M., Yamada &#xa0;Y., Ushiku &#xa0;Y., et al.  (2013). Inter-brain synchronization during coordination of speech rhythm in human-to-human social interaction. <i>Scientific Reports</i>, 3, 1692.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC3631767</ArticleId><ArticleId IdType="pubmed">23603749</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Keller &#xa0;P.E., Novembre &#xa0;G., Hove &#xa0;M.J. (2014). Rhythm in joint action: psychological and neurophysiological mechanisms for real-time interpersonal coordination. <i>Philosophical Transactions of the Royal Society of London Series B, Biological Sciences</i>, 369, 20130394.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC4240961</ArticleId><ArticleId IdType="pubmed">25385772</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Kinreich &#xa0;S., Djalovski &#xa0;A., Kraus &#xa0;L., et al.  (2017). Brain-to-brain synchrony during naturalistic social interactions. <i>Scientific Reports</i>, 7, 17060.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC5719019</ArticleId><ArticleId IdType="pubmed">29213107</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Kirchner &#xa0;W.K. (1958). Age differences in short-term retention of rapidly changing information. <i>Journal of Experimental Psychology</i>, 55, 352&#x2013;8.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">13539317</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Konvalinka &#xa0;I., Roepstorff &#xa0;A. (2012). The two-brain approach: how can mutually interacting brains teach us something about social interaction? &#xa0;<i>Frontiers in Human Neuroscience</i>, 6, 215.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC3402900</ArticleId><ArticleId IdType="pubmed">22837744</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Kuo &#xa0;W.J., Sj&#xf6;str&#xf6;m &#xa0;T., Chen &#xa0;Y.P., et al.  (2009). Intuition and deliberation: two systems for strategizing in the brain. <i>Science</i>, 324, 519&#x2013;22.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">19390048</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Lachat &#xa0;F., Hugueville &#xa0;L., Lemar&#xe9;chal &#xa0;J.-D., et al.  (2012). Oscillatory brain correlates of live joint attention: a dual-EEG study. <i>Frontiers in Human Neuroscience</i>, 6, 156.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC3365444</ArticleId><ArticleId IdType="pubmed">22675297</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Leslie &#xa0;A.M. (1994). TOMM, ToBy, and agency: core architecture and domain specificity. In: Hirschfield, L.A., Gelman, S.A., editors. <i>Mapping the Mind: Domain Specificity in Cognition and Culture</i>. New York: Cambridge University Press, 119&#x2013;48.</Citation></Reference><Reference><Citation>
+
+Liu &#xa0;T., Pelowski &#xa0;M. (2014). Clarifying the interaction types in two-person neuroscience research. <i>Frontiers in Human Neuroscience</i>, 8, 276.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC4012218</ArticleId><ArticleId IdType="pubmed">24817848</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Luck &#xa0;S.J., Gaspelin &#xa0;N. (2017). How to get statistically significant effects in any ERP experiment and why you shouldn&#x2019;t. <i>Psychophysiology</i>, 54, 146&#x2013;57.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC5178877</ArticleId><ArticleId IdType="pubmed">28000253</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Maehara &#xa0;Y., Saito &#xa0;S. (2011). I see into your mind too well: working memory adjusts the probability judgment of others&#x2019; mental states. <i>Acta Psychologica</i>, 138, 367&#x2013;76.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">21982530</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+McKinnon &#xa0;M.C., Moscovitch &#xa0;M. (2007). Domain-general contributions to social reasoning: theory of mind and deontic reasoning re-explored. <i>Cognition</i>, 102, 179&#x2013;218.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">16480974</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+McMillan &#xa0;C.T., Rascovsky &#xa0;K., Khella &#xa0;M.C., et al.  (2012). The neural basis for establishing a focal point in pure coordination games. <i>Social Cognitive &amp; Affective Neuroscience</i>, 7, 881&#x2013;7.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC3501702</ArticleId><ArticleId IdType="pubmed">22009019</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Mehta &#xa0;J., Starmer &#xa0;C., Sugden &#xa0;R. (1994). The nature of salience: an experimental investigation of pure coordination games. <i>The American Economic Review</i>, 84, 658&#x2013;73.</Citation></Reference><Reference><Citation>
+
+Mizrahi &#xa0;D., 
+Laufer &#xa0;I., 
+Zuckerman &#xa0;I. (2020). The effect of individual coordination ability on cognitive-load in tacit coordination games. In: Davis, F.D., Riedl, R., vom Brocke, J., Leger, P., Randolph, A.B., Fischer, T. editors. <i>Lecture Notes in Information Systems and Organisation</i>. New York City, New York: Springer, 244&#x2013;52.</Citation></Reference><Reference><Citation>
+
+Montague &#xa0;P.R., Berns &#xa0;G.S., Cohen &#xa0;J.D., et al.  (2002). Hyperscanning: simultaneous fMRI during linked social interactions. <i>NeuroImage</i>, 16, 1159&#x2013;64.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">12202103</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Mu &#xa0;Y., Cerritos &#xa0;C., Khan &#xa0;F. (2018). Neural mechanisms underlying interpersonal coordination: a review of hyperscanning research. <i>Social and Personality Psychology Compass</i>, 12, e12421.</Citation></Reference><Reference><Citation>
+
+Osaka &#xa0;N., Minamoto &#xa0;T., Yaoi &#xa0;K., et al.  (2015). How two brains make one synchronized mind in the inferior frontal cortex: fNIRS-based hyperscanning during cooperative singing. <i>Frontiers in Psychology</i>, 6, 1811.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC4659897</ArticleId><ArticleId IdType="pubmed">26635703</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Perner &#xa0;J., Lang &#xa0;B. (1999). Development of theory of mind and executive control. <i>Trends in Cognitive Sciences</i>, 3, 337&#x2013;44.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">10461196</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Qureshi &#xa0;A.W., Apperly &#xa0;I.A., Samson &#xa0;D. (2010). Executive function is necessary for perspective selection, not level-1 visual perspective calculation: evidence from a dual-task study of adults. <i>Cognition</i>, 117, 230&#x2013;6.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">20817158</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Qureshi &#xa0;A.W., Monk &#xa0;R.L. (2018). Executive function underlies both perspective selection and calculation in level-1 visual perspective taking. <i>Psychonomic Bulletin and Review</i>, 25, 1526&#x2013;34.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC6096641</ArticleId><ArticleId IdType="pubmed">29949017</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Reindl &#xa0;V., Gerloff &#xa0;C., Scharke &#xa0;W., et al.  (2018). Brain-to-brain synchrony in parent-child dyads and the relationship with emotion regulation revealed by fNIRS-based hyperscanning. <i>NeuroImage</i>, 178, 493&#x2013;502.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">29807152</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Riley &#xa0;M.A., Richardson &#xa0;M.J., Shockley &#xa0;K., et al.  (2011). Interpersonal synergies. <i>Frontiers in Psychology</i>, 2, 1&#x2013;7.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC3110940</ArticleId><ArticleId IdType="pubmed">21716606</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Saito &#xa0;D.N., Tanabe &#xa0;H.C., Izuma &#xa0;K., et al.  (2010). &#x201c;Stay tuned&#x201d;: inter-individual neural synchronization during mutual gaze and joint attention. <i>Frontiers in Integrative Neuroscience</i>, 4, 127.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC2990457</ArticleId><ArticleId IdType="pubmed">21119770</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+S&#xe4;nger &#xa0;J., M&#xfc;ller &#xa0;V., Lindenberger &#xa0;U. (2012). Intra- and interbrain synchronization and network properties when playing guitar in duets. <i>Frontiers in Human Neuroscience</i>, 6, 312.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC3509332</ArticleId><ArticleId IdType="pubmed">23226120</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Schelling &#xa0;T.C. (1960). <i>The Strategy of Conflict</i>. Cambridge, MA: Harvard University Press.</Citation></Reference><Reference><Citation>
+
+Schilbach &#xa0;L. (2010). A second-person approach to other minds. <i>Nature Reviews, Neuroscience</i>, 11, 449.</Citation><ArticleIdList><ArticleId IdType="pubmed">20485366</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Schilbach &#xa0;L., Timmermans &#xa0;B., Reddy &#xa0;V., et al.  (2013). Toward a second-person neuroscience. <i>Behavioral and Brain Sciences</i>, 36, 393&#x2013;462.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">23883742</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Sebanz &#xa0;N., Bekkering &#xa0;H., Knoblich &#xa0;G. (2006). Joint action: bodies and minds moving together. <i>Trends in Cognitive Sciences</i>, 10, 70&#x2013;6.
+</Citation><ArticleIdList><ArticleId IdType="pubmed">16406326</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Shiraishi &#xa0;M., Shimada &#xa0;S. (2021). Inter-brain synchronization during a cooperative task reflects the sense of joint agency. <i>Neuropsychologia</i>, 154, 107770.</Citation><ArticleIdList><ArticleId IdType="pubmed">33548249</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Tang &#xa0;H., Mai &#xa0;X., Wang &#xa0;S., et al.  (2016). Interpersonal brain synchronization in the right temporo-parietal junction during face-to-face economic exchange. <i>Social Cognitive &amp; Affective Neuroscience</i>, 11, 23&#x2013;32.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC4692317</ArticleId><ArticleId IdType="pubmed">26211014</ArticleId></ArticleIdList></Reference><Reference><Citation>Toppi &#xa0;J., Ciaramidaro &#xa0;A., Vogel &#xa0;P., et al. (2015). Graph theory in brain-to-brain connectivity: a simulation study and an application to an EEG hyperscanning experiment. In: 2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) &#xa0;Milan, Italy. IEEE, 2211&#x2013;4.</Citation><ArticleIdList><ArticleId IdType="pubmed">26736730</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+van Rij &#xa0;J., Hendriks &#xa0;P., van Rijn &#xa0;H., et al.  (2019). Analyzing the time course of pupillometric data. <i>Trends in Hearing</i>, 23.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC6535748</ArticleId><ArticleId IdType="pubmed">31081486</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Wang &#xa0;M.-Y., Luan &#xa0;P., Zhang &#xa0;J., et al.  (2018). Concurrent mapping of brain activation from multiple subjects during social interaction by hyperscanning: a mini-review. <i>Quantitative Imaging in Medicine and Surgery</i>, 8, 819&#x2013;37.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC6177358</ArticleId><ArticleId IdType="pubmed">30306062</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Wood &#xa0;S.N. (2006). <i>Generalized Additive Models: An Introduction with R</i>. Boca Raton, Florida, U. S. A.: Chapman &amp; Hall.</Citation></Reference><Reference><Citation>
+
+Wood &#xa0;S.N. (2017). <i>Generalized Additive Models: An Introduction with R</i>, 2nd Edn, Boca Raton: Chapman and Hall/CRC.</Citation></Reference><Reference><Citation>
+
+Xie &#xa0;H., Karipidis &#xa0;I.I., Howell &#xa0;A., et al.  (2020). Finding the neural correlates of collaboration using a three-person fMRI hyperscanning paradigm. <i>Proceedings of the National Academy of Sciences of the United States of America</i>, 117, 23066&#x2013;72.
+</Citation><ArticleIdList><ArticleId IdType="pmc">PMC7502732</ArticleId><ArticleId IdType="pubmed">32843342</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Yoshida &#xa0;W., Dolan &#xa0;R.J., Friston &#xa0;K.J., Behrens &#xa0;T. (2008). Game theory of mind T. Behrens (ed). <i>PLoS Computational Biology</i>, 4, e1000254.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC2596313</ArticleId><ArticleId IdType="pubmed">19112488</ArticleId></ArticleIdList></Reference><Reference><Citation>
+
+Yun &#xa0;K., Watanabe &#xa0;K., Shimojo &#xa0;S. (2012). Interpersonal body and neural synchronization as a marker of implicit social interaction. <i>Scientific Reports</i>, 2, 959.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC3518815</ArticleId><ArticleId IdType="pubmed">23233878</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>

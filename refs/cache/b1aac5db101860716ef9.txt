@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0eQspsHpTx6UDcuvxhs0B1W5Gc0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2104.06719&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:32:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2104.06719" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2104.06719v1</id>
+    <title>Sentence Embeddings by Ensemble Distillation</title>
+    <updated>2021-04-14T09:23:27Z</updated>
+    <link href="https://arxiv.org/abs/2104.06719v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.06719v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper contributes a new State Of The Art (SOTA) for Semantic Textual Similarity (STS). We compare and combine a number of recently proposed sentence embedding methods for STS, and propose a novel and simple ensemble knowledge distillation scheme that improves on previous approaches. Our experiments demonstrate that a model trained to learn the average embedding space from multiple ensemble students outperforms all the other individual models with high robustness. Utilizing our distillation method in combination with previous methods, we significantly improve on the SOTA unsupervised STS, and by proper hyperparameter tuning of previous methods we improve the supervised SOTA scores.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-14T09:23:27Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Fredrik Carlsson Magnus Sahlgren</name>
+    </author>
+  </entry>
+</feed>

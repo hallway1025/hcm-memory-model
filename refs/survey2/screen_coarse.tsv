@@ -1,0 +1,844 @@
+id	area	coarse_keep	title_hits
+T000	K1_sparse_encoder	Y	winner-take-all
+T001	K1_sparse_encoder	Y	winner-take-all;sparse coding
+T002	K1_sparse_encoder	Y	winner-take-all
+T003	K1_sparse_encoder	Y	sparse coding
+T004	K1_sparse_encoder	Y	winner-take-all
+T005	K1_sparse_encoder	Y	winner-take-all
+T006	K1_sparse_encoder	Y	winner-take-all
+T007	K1_sparse_encoder	Y	winner-take-all
+T008	K1_sparse_encoder	Y	winner-take-all
+T009	K1_sparse_encoder	Y	winner-take-all
+T010	K1_sparse_encoder	Y	winner-take-all;sparse representation
+T011	K1_sparse_encoder	Y	winner-take-all
+T012	K1_sparse_encoder	Y	winner take all
+T013	K1_sparse_encoder	Y	winner take all
+T014	K1_sparse_encoder	Y	winner-take-all
+T015	K1_sparse_encoder	Y	winner-take-all
+T016	K1_sparse_encoder	Y	winner-take-all
+T017	K1_sparse_encoder	Y	winner-take-all
+T018	K1_sparse_encoder	Y	winner take all
+T019	K1_sparse_encoder	Y	winner-take-all
+T020	K1_sparse_encoder	N	
+T021	K1_sparse_encoder	N	
+T022	K1_sparse_encoder	Y	k-winners
+T023	K1_sparse_encoder	N	
+T024	K1_sparse_encoder	Y	k-winners
+T025	K1_sparse_encoder	Y	k-winners
+T026	K1_sparse_encoder	N	
+T027	K1_sparse_encoder	Y	k-winners
+T028	K1_sparse_encoder	N	
+T029	K1_sparse_encoder	Y	k-winners
+T030	K1_sparse_encoder	Y	k-winners
+T031	K1_sparse_encoder	Y	k-winners
+T047	K1_sparse_encoder	Y	locality sensitive hashing
+T048	K1_sparse_encoder	Y	locality sensitive hashing
+T049	K1_sparse_encoder	Y	locality-sensitive hashing
+T050	K1_sparse_encoder	Y	locality sensitive hashing
+T051	K1_sparse_encoder	Y	locality-sensitive hashing
+T052	K1_sparse_encoder	Y	locality-sensitive hashing
+T053	K1_sparse_encoder	Y	locality sensitive hashing
+T054	K1_sparse_encoder	Y	locality-sensitive hashing
+T055	K1_sparse_encoder	Y	locality-sensitive hashing
+T056	K1_sparse_encoder	N	
+T057	K1_sparse_encoder	Y	locality sensitive hashing
+T058	K1_sparse_encoder	Y	locality sensitive hashing
+T059	K1_sparse_encoder	Y	locality sensitive hashing
+T060	K1_sparse_encoder	Y	locality-sensitive hashing
+T061	K1_sparse_encoder	Y	locality-sensitive hashing
+T062	K1_sparse_encoder	N	
+T067	K1_sparse_encoder	Y	quantization
+T071	K1_sparse_encoder	Y	product quantization;quantization
+T072	K1_sparse_encoder	Y	quantization
+T073	K1_sparse_encoder	Y	quantization
+T074	K1_sparse_encoder	Y	sparse autoencoder
+T075	K1_sparse_encoder	Y	sparse autoencoder
+T076	K1_sparse_encoder	Y	sparse autoencoder
+T077	K1_sparse_encoder	Y	sparse autoencoder
+T078	K1_sparse_encoder	Y	sparse autoencoder
+T079	K1_sparse_encoder	Y	sparse autoencoder
+T080	K1_sparse_encoder	Y	sparse autoencoder
+T081	K1_sparse_encoder	Y	sparse autoencoder
+T082	K1_sparse_encoder	N	
+T083	K1_sparse_encoder	Y	hyperplane hashing
+T084	K1_sparse_encoder	N	
+T085	K1_sparse_encoder	N	
+T086	K1_sparse_encoder	N	
+T087	K1_sparse_encoder	N	
+T088	K1_sparse_encoder	N	
+T089	K1_sparse_encoder	N	
+T090	K1_sparse_encoder	N	
+T093	K2_episodic_store	Y	hopfield
+T095	K2_episodic_store	Y	hopfield
+T101	K2_episodic_store	Y	hopfield
+T106	K2_episodic_store	Y	hopfield
+T109	K2_episodic_store	Y	hopfield
+T110	K2_episodic_store	Y	hopfield
+T111	K2_episodic_store	Y	hopfield
+T112	K2_episodic_store	Y	kanerva;associative memory
+T115	K2_episodic_store	N	
+T116	K2_episodic_store	N	
+T119	K2_episodic_store	N	
+T122	K2_episodic_store	N	
+T123	K2_episodic_store	N	
+T126	K2_episodic_store	Y	differentiable neural computer
+T127	K2_episodic_store	Y	differentiable neural computer
+T128	K2_episodic_store	Y	associative memory
+T129	K2_episodic_store	N	
+T130	K2_episodic_store	N	
+T131	K2_episodic_store	N	
+T132	K2_episodic_store	N	
+T133	K2_episodic_store	N	
+T134	K2_episodic_store	N	
+T135	K2_episodic_store	Y	attractor
+T136	K2_episodic_store	N	
+T137	K2_episodic_store	N	
+T153	K2_episodic_store	N	
+T154	K2_episodic_store	N	
+T155	K2_episodic_store	N	
+T156	K2_episodic_store	N	
+T157	K2_episodic_store	N	
+T158	K2_episodic_store	N	
+T159	K2_episodic_store	N	
+T160	K2_episodic_store	N	
+T161	K2_episodic_store	N	
+T162	K2_episodic_store	Y	product key
+T168	K2_episodic_store	Y	associative memory
+T170	K2_episodic_store	Y	associative memory
+T171	K2_episodic_store	Y	one-shot
+T173	K2_episodic_store	Y	associative memory
+T174	K2_episodic_store	Y	associative memory
+T175	K2_episodic_store	Y	one-shot
+T176	K2_episodic_store	Y	one-shot
+T177	K2_episodic_store	Y	associative memory
+T183	K3_temporal_links	Y	successor representation
+T188	K3_temporal_links	N	
+T191	K3_temporal_links	N	
+T192	K3_temporal_links	Y	temporal knowledge graph;graph
+T193	K3_temporal_links	Y	temporal knowledge graph;graph
+T194	K3_temporal_links	Y	temporal knowledge graph;graph
+T195	K3_temporal_links	Y	temporal knowledge graph;graph
+T196	K3_temporal_links	Y	temporal knowledge graph;graph
+T197	K3_temporal_links	Y	temporal knowledge graph;graph
+T198	K3_temporal_links	Y	temporal knowledge graph;graph
+T199	K3_temporal_links	Y	temporal knowledge graph;graph
+T200	K3_temporal_links	Y	temporal knowledge graph;graph
+T201	K3_temporal_links	Y	temporal knowledge graph;graph
+T202	K3_temporal_links	Y	temporal knowledge graph;graph
+T203	K3_temporal_links	Y	temporal knowledge graph;graph
+T204	K3_temporal_links	Y	temporal knowledge graph;graph
+T205	K3_temporal_links	Y	temporal knowledge graph;graph
+T206	K3_temporal_links	Y	temporal knowledge graph;graph
+T207	K3_temporal_links	Y	successor feature
+T208	K3_temporal_links	Y	successor feature
+T209	K3_temporal_links	Y	successor feature
+T210	K3_temporal_links	Y	successor feature
+T211	K3_temporal_links	Y	successor feature
+T212	K3_temporal_links	N	
+T213	K3_temporal_links	N	
+T214	K3_temporal_links	N	
+T215	K3_temporal_links	Y	successor feature
+T216	K3_temporal_links	Y	successor feature
+T217	K3_temporal_links	Y	successor feature
+T218	K3_temporal_links	Y	successor feature
+T219	K3_temporal_links	N	
+T220	K3_temporal_links	N	
+T221	K3_temporal_links	Y	sequence
+T222	K3_temporal_links	N	
+T223	K3_temporal_links	Y	sequence
+T224	K3_temporal_links	Y	sequence
+T225	K3_temporal_links	Y	sequence
+T226	K3_temporal_links	Y	sequence replay;sequence
+T227	K4_consolidation_sched	Y	elastic weight consolidation
+T228	K4_consolidation_sched	Y	elastic weight consolidation
+T229	K4_consolidation_sched	Y	elastic weight consolidation;continual learning
+T230	K4_consolidation_sched	Y	elastic weight consolidation;continual learning
+T231	K4_consolidation_sched	Y	elastic weight consolidation
+T232	K4_consolidation_sched	Y	elastic weight consolidation
+T233	K4_consolidation_sched	Y	elastic weight consolidation
+T234	K4_consolidation_sched	N	
+T235	K4_consolidation_sched	N	
+T236	K4_consolidation_sched	N	
+T237	K4_consolidation_sched	N	
+T238	K4_consolidation_sched	N	
+T239	K4_consolidation_sched	N	
+T240	K4_consolidation_sched	N	
+T241	K4_consolidation_sched	N	
+T242	K4_consolidation_sched	Y	continual learning
+T243	K4_consolidation_sched	Y	continual learning
+T244	K4_consolidation_sched	Y	continual learning
+T245	K4_consolidation_sched	Y	experience replay;continual learning
+T246	K4_consolidation_sched	Y	continual learning
+T247	K4_consolidation_sched	Y	experience replay;continual learning
+T248	K4_consolidation_sched	Y	experience replay;continual learning
+T249	K4_consolidation_sched	N	
+T250	K4_consolidation_sched	Y	experience replay;continual learning
+T251	K4_consolidation_sched	Y	continual learning
+T252	K4_consolidation_sched	Y	continual learning
+T253	K4_consolidation_sched	Y	experience replay;continual learning
+T254	K4_consolidation_sched	Y	generative replay
+T255	K4_consolidation_sched	Y	continual learning
+T256	K4_consolidation_sched	Y	experience replay;continual learning
+T257	K4_consolidation_sched	Y	experience replay;continual learning
+T258	K4_consolidation_sched	Y	continual learning
+T259	K4_consolidation_sched	Y	continual learning;generative replay
+T260	K4_consolidation_sched	Y	continual learning
+T261	K4_consolidation_sched	Y	continual learning
+T262	K4_consolidation_sched	Y	continual learning;generative replay
+T263	K4_consolidation_sched	Y	continual learning;generative replay
+T264	K4_consolidation_sched	Y	continual learning
+T265	K4_consolidation_sched	Y	generative replay
+T266	K4_consolidation_sched	Y	continual learning
+T267	K4_consolidation_sched	Y	continual learning
+T268	K4_consolidation_sched	Y	continual learning;generative replay
+T270	K4_consolidation_sched	Y	continual learning
+T271	K4_consolidation_sched	Y	continual learning;generative replay
+T272	K4_consolidation_sched	Y	continual learning;generative replay
+T273	K4_consolidation_sched	Y	continual learning
+T274	K4_consolidation_sched	Y	complementary learning
+T275	K4_consolidation_sched	Y	complementary learning
+T276	K4_consolidation_sched	Y	complementary learning
+T277	K4_consolidation_sched	Y	complementary learning
+T278	K4_consolidation_sched	N	
+T279	K4_consolidation_sched	Y	complementary learning
+T280	K4_consolidation_sched	Y	complementary learning
+T281	K4_consolidation_sched	Y	complementary learning
+T282	K4_consolidation_sched	N	
+T283	K4_consolidation_sched	N	
+T284	K4_consolidation_sched	N	
+T285	K4_consolidation_sched	N	
+T286	K4_consolidation_sched	N	
+T287	K4_consolidation_sched	N	
+T288	K4_consolidation_sched	N	
+T289	K4_consolidation_sched	Y	continual learning
+T290	K4_consolidation_sched	Y	memory aware
+T291	K4_consolidation_sched	Y	continual learning;memory aware
+T292	K4_consolidation_sched	Y	continual learning;catastrophic forgetting
+T293	K4_consolidation_sched	Y	continual learning
+T294	K4_consolidation_sched	Y	continual learning
+T295	K4_consolidation_sched	Y	continual learning
+T296	K5_semantic_slow	N	
+T297	K5_semantic_slow	N	
+T298	K5_semantic_slow	N	
+T299	K5_semantic_slow	N	
+T300	K5_semantic_slow	N	
+T301	K5_semantic_slow	N	
+T302	K5_semantic_slow	Y	fine-tun
+T303	K5_semantic_slow	Y	parameter efficient;fine-tun
+T304	K5_semantic_slow	Y	low-rank adaptation;fine-tun
+T305	K5_semantic_slow	Y	fine-tun
+T306	K5_semantic_slow	Y	low-rank adaptation;fine-tun
+T307	K5_semantic_slow	Y	lora;fine-tun
+T308	K5_semantic_slow	Y	low-rank adaptation;lora;fine-tun
+T309	K5_semantic_slow	Y	fine-tun
+T310	K5_semantic_slow	Y	low-rank adaptation;lora;fine-tun
+T311	K5_semantic_slow	Y	parameter efficient;low-rank adaptation;fine-tun
+T312	K5_semantic_slow	Y	parameter efficient;low-rank adaptation;fine-tun
+T313	K5_semantic_slow	Y	low-rank adaptation;lora;fine-tun
+T314	K5_semantic_slow	Y	low-rank adaptation;lora;fine-tun
+T315	K5_semantic_slow	Y	low-rank adaptation;lora;fine-tun
+T316	K5_semantic_slow	Y	low-rank adaptation;fine-tun
+T317	K5_semantic_slow	N	
+T318	K5_semantic_slow	N	
+T319	K5_semantic_slow	N	
+T320	K5_semantic_slow	N	
+T321	K5_semantic_slow	Y	parameter efficient
+T322	K5_semantic_slow	Y	prompt tuning
+T323	K5_semantic_slow	Y	lora
+T324	K5_semantic_slow	N	
+T325	K5_semantic_slow	N	
+T326	K5_semantic_slow	N	
+T327	K5_semantic_slow	N	
+T328	K5_semantic_slow	N	
+T329	K5_semantic_slow	Y	low-rank adaptation
+T330	K5_semantic_slow	Y	low-rank adaptation
+T331	K5_semantic_slow	Y	low-rank adaptation
+T332	K5_semantic_slow	N	
+T333	K5_semantic_slow	Y	low-rank adaptation
+T334	K5_semantic_slow	Y	low-rank adaptation;lora
+T335	K5_semantic_slow	Y	low-rank adaptation
+T336	K5_semantic_slow	Y	lora
+T337	K5_semantic_slow	Y	forgetting
+T338	K5_semantic_slow	Y	low-rank adaptation;forgetting
+T339	K5_semantic_slow	Y	low-rank adaptation;lora
+T340	K5_semantic_slow	Y	low-rank adaptation;lora;fine-tun
+T341	K5_semantic_slow	Y	forgetting
+T342	K5_semantic_slow	Y	forgetting
+T343	K5_semantic_slow	Y	forgetting
+T344	K5_semantic_slow	Y	forgetting
+T345	K5_semantic_slow	Y	forgetting
+T346	K5_semantic_slow	Y	forgetting
+T348	K5_semantic_slow	Y	forgetting
+T349	K5_semantic_slow	Y	forgetting
+T350	K5_semantic_slow	Y	forgetting
+T351	K5_semantic_slow	Y	forgetting
+T352	K5_semantic_slow	Y	forgetting
+T370	K6_working_memory	Y	working memory;slot
+T376	K6_working_memory	N	
+T377	K6_working_memory	N	
+T378	K6_working_memory	N	
+T383	K6_working_memory	N	
+T385	K6_working_memory	N	
+T389	K6_working_memory	N	
+T390	K6_working_memory	Y	working memory
+T393	K6_working_memory	Y	working memory
+T394	K6_working_memory	N	
+T395	K6_working_memory	Y	pointer network
+T396	K6_working_memory	N	
+T397	K6_working_memory	Y	working memory;short-term memory
+T398	K6_working_memory	N	
+T399	K6_working_memory	N	
+T400	K6_working_memory	N	
+T401	K6_working_memory	N	
+T402	K6_working_memory	Y	working memory;persistent activity
+T403	K6_working_memory	Y	working memory
+T404	K6_working_memory	Y	working memory
+T405	K6_working_memory	N	
+T406	K6_working_memory	Y	short-term memory
+T407	K6_working_memory	N	
+T408	K7_meta_control	N	
+T409	K7_meta_control	N	
+T410	K7_meta_control	N	
+T411	K7_meta_control	Y	value of information
+T412	K7_meta_control	Y	value of information
+T413	K7_meta_control	N	
+T414	K7_meta_control	Y	value of information
+T415	K7_meta_control	Y	value of information
+T416	K7_meta_control	N	
+T417	K7_meta_control	N	
+T418	K7_meta_control	Y	value of information
+T419	K7_meta_control	Y	value of information
+T420	K7_meta_control	Y	value of information
+T421	K7_meta_control	Y	value of information;uncertainty
+T422	K7_meta_control	Y	value of information
+T423	K7_meta_control	N	
+T424	K7_meta_control	N	
+T425	K7_meta_control	N	
+T426	K7_meta_control	N	
+T427	K7_meta_control	N	
+T428	K7_meta_control	N	
+T429	K7_meta_control	N	
+T430	K7_meta_control	N	
+T431	K7_meta_control	N	
+T432	K7_meta_control	N	
+T433	K7_meta_control	Y	metacognitive
+T434	K7_meta_control	Y	metacognitive
+T435	K7_meta_control	Y	metacognitive
+T437	K7_meta_control	Y	metacognitive
+T438	K7_meta_control	Y	metacognitive
+T439	K7_meta_control	Y	metacognitive
+T441	K7_meta_control	Y	metacognitive
+T442	K7_meta_control	Y	metacognitive
+T443	K7_meta_control	Y	metacognitive
+T444	K7_meta_control	Y	metacognitive
+T445	K7_meta_control	Y	metacognitive
+T446	K7_meta_control	Y	metacognitive
+T447	K7_meta_control	Y	metacognitive
+T448	K7_meta_control	Y	cost-sensitive
+T449	K7_meta_control	Y	cost-sensitive
+T450	K7_meta_control	N	
+T451	K7_meta_control	Y	cost-sensitive
+T452	K7_meta_control	Y	abstention
+T453	K7_meta_control	Y	abstention
+T454	K7_meta_control	N	
+T455	K7_meta_control	Y	abstention
+T456	K7_meta_control	Y	abstention
+T457	K7_meta_control	N	
+T458	K7_meta_control	Y	abstention
+T459	K7_meta_control	Y	abstention
+T460	K7_meta_control	N	
+T461	K7_meta_control	Y	active inference
+T462	K7_meta_control	Y	active inference
+T463	K7_meta_control	Y	active inference
+T464	K7_meta_control	Y	active inference
+T465	K7_meta_control	Y	active inference
+T466	K7_meta_control	Y	active inference
+T467	K7_meta_control	Y	active inference
+T468	K7_meta_control	Y	active inference
+T469	K7_meta_control	Y	active inference
+T470	K7_meta_control	Y	active inference
+T471	K7_meta_control	Y	active inference
+T472	K7_meta_control	N	
+T473	K7_meta_control	N	
+T474	K7_meta_control	N	
+T475	K7_meta_control	N	
+T476	K7_meta_control	N	
+T477	K7_meta_control	N	
+T478	K7_meta_control	N	
+T479	K7_meta_control	N	
+T480	K7_meta_control	Y	information seeking
+T481	K7_meta_control	Y	information seeking
+T482	K8_event_layer	Y	event knowledge graph;event
+T483	K8_event_layer	Y	event knowledge graph;event
+T484	K8_event_layer	Y	event knowledge graph;event
+T485	K8_event_layer	N	
+T486	K8_event_layer	Y	event
+T487	K8_event_layer	Y	event
+T488	K8_event_layer	Y	event extraction;event
+T489	K8_event_layer	Y	event
+T490	K8_event_layer	Y	event knowledge graph;event
+T491	K8_event_layer	Y	event knowledge graph;event
+T492	K8_event_layer	Y	event
+T493	K8_event_layer	N	
+T494	K8_event_layer	Y	event
+T495	K8_event_layer	Y	event knowledge graph;event
+T496	K8_event_layer	Y	event knowledge graph;event
+T497	K8_event_layer	Y	event ontology;event;log
+T498	K8_event_layer	Y	log
+T499	K8_event_layer	Y	log
+T500	K8_event_layer	Y	event ontology;event;log
+T501	K8_event_layer	Y	episodic buffer
+T502	K8_event_layer	N	
+T503	K8_event_layer	Y	episodic buffer
+T504	K8_event_layer	Y	episodic buffer
+T505	K8_event_layer	Y	episodic buffer
+T506	K8_event_layer	Y	episodic buffer
+T507	K8_event_layer	Y	episodic buffer
+T508	K8_event_layer	N	
+T509	K8_event_layer	N	
+T510	K8_event_layer	Y	event segmentation;event
+T511	K8_event_layer	Y	event segmentation;event
+T512	K8_event_layer	Y	event segmentation;event
+T513	K8_event_layer	Y	event segmentation;event
+T514	K8_event_layer	Y	event segmentation;event
+T515	K8_event_layer	Y	event segmentation;event
+T516	K8_event_layer	Y	event segmentation;event
+T517	K8_event_layer	Y	event segmentation;event
+T518	K8_event_layer	Y	event segmentation;event
+T519	K8_event_layer	Y	event segmentation;event
+T520	K8_event_layer	Y	event segmentation;event
+T521	K8_event_layer	Y	event segmentation;event
+T522	K8_event_layer	N	
+T523	K8_event_layer	N	
+T524	K8_event_layer	N	
+T525	K8_event_layer	N	
+T526	K8_event_layer	Y	event schema;event
+T527	K8_event_layer	N	
+T528	K8_event_layer	N	
+T529	K8_event_layer	Y	event
+T530	K8_event_layer	N	
+T531	K8_event_layer	N	
+T532	K8_event_layer	N	
+T533	K9_text_frontend	Y	tf-idf
+T534	K9_text_frontend	Y	tf-idf
+T535	K9_text_frontend	Y	tf-idf
+T536	K9_text_frontend	Y	tf-idf
+T537	K9_text_frontend	Y	tf-idf
+T538	K9_text_frontend	Y	feature hashing
+T539	K9_text_frontend	Y	n-gram
+T540	K9_text_frontend	N	
+T541	K9_text_frontend	Y	n-gram
+T542	K9_text_frontend	Y	n-gram
+T543	K9_text_frontend	Y	n-gram
+T544	K9_text_frontend	Y	n-gram
+T545	K9_text_frontend	Y	n-gram
+T546	K9_text_frontend	N	
+T547	K9_text_frontend	Y	n-gram
+T548	K9_text_frontend	Y	n-gram
+T549	K9_text_frontend	N	
+T550	K9_text_frontend	Y	feature hashing
+T551	K9_text_frontend	N	
+T552	K9_text_frontend	Y	feature hashing
+T553	K9_text_frontend	Y	feature hashing
+T554	K9_text_frontend	N	
+T555	K9_text_frontend	Y	feature hashing
+T556	K9_text_frontend	N	
+T557	K9_text_frontend	N	
+T558	K9_text_frontend	Y	feature hashing
+T559	K9_text_frontend	N	
+T560	K9_text_frontend	Y	co-occurrence
+T561	K9_text_frontend	Y	co-occurrence
+T562	K9_text_frontend	Y	word embedding;co-occurrence
+T563	K9_text_frontend	Y	co-occurrence
+T564	K9_text_frontend	Y	co-occurrence
+T565	K9_text_frontend	Y	co-occurrence
+T566	K9_text_frontend	Y	word embedding;co-occurrence
+T567	K9_text_frontend	Y	sentence embedding
+T568	K9_text_frontend	Y	distillation
+T569	K9_text_frontend	Y	distillation
+T570	K9_text_frontend	Y	distillation
+T571	K9_text_frontend	Y	sentence embedding;distillation
+T572	K9_text_frontend	Y	distillation
+T573	K9_text_frontend	Y	distillation
+T574	K9_text_frontend	Y	distillation
+T575	K9_text_frontend	Y	sentence embedding
+T576	K9_text_frontend	Y	distillation
+T577	K9_text_frontend	N	
+T578	K9_text_frontend	N	
+T579	K9_text_frontend	N	
+T580	K9_text_frontend	N	
+T581	K9_text_frontend	Y	co-occurrence
+T582	K9_text_frontend	N	
+T583	K9_text_frontend	N	
+T584	K9_text_frontend	N	
+T585	K9_text_frontend	N	
+T586	K9_text_frontend	Y	co-occurrence
+T587	K1_sparse_encoder	Y	locality-sensitive hashing
+T588	K1_sparse_encoder	Y	locality sensitive hashing
+T590	K1_sparse_encoder	Y	locality sensitive hashing
+T591	K1_sparse_encoder	Y	locality sensitive hashing
+T592	K1_sparse_encoder	Y	locality-sensitive hashing
+T593	K1_sparse_encoder	Y	locality sensitive hashing
+T594	K1_sparse_encoder	N	
+T595	K1_sparse_encoder	Y	locality sensitive hashing
+T596	K1_sparse_encoder	Y	locality sensitive hashing
+T597	K1_sparse_encoder	Y	locality sensitive hashing
+T598	K1_sparse_encoder	Y	locality sensitive hashing
+T599	K1_sparse_encoder	Y	product quantization;quantization
+T600	K1_sparse_encoder	Y	quantization
+T601	K1_sparse_encoder	Y	product quantization;quantization
+T602	K1_sparse_encoder	Y	quantization
+T603	K1_sparse_encoder	N	
+T604	K1_sparse_encoder	N	
+T605	K1_sparse_encoder	N	
+T606	K1_sparse_encoder	Y	quantization
+T607	K1_sparse_encoder	N	
+T608	K1_sparse_encoder	N	
+T609	K1_sparse_encoder	N	
+T610	K1_sparse_encoder	Y	sparse autoencoder;top-k
+T611	K1_sparse_encoder	Y	sparse autoencoder
+T612	K1_sparse_encoder	Y	sparse autoencoder
+T613	K1_sparse_encoder	Y	sparse autoencoder
+T614	K2_episodic_store	Y	hopfield
+T616	K2_episodic_store	Y	hopfield
+T617	K2_episodic_store	Y	hopfield
+T618	K2_episodic_store	Y	hopfield
+T621	K2_episodic_store	Y	hopfield
+T622	K2_episodic_store	Y	hopfield
+T623	K2_episodic_store	Y	hopfield
+T625	K2_episodic_store	Y	hopfield
+T626	K2_episodic_store	Y	kanerva
+T627	K2_episodic_store	Y	kanerva
+T628	K2_episodic_store	N	
+T629	K2_episodic_store	N	
+T630	K2_episodic_store	N	
+T631	K2_episodic_store	Y	vector symbolic
+T632	K2_episodic_store	N	
+T633	K2_episodic_store	Y	vector symbolic;capacity
+T634	K2_episodic_store	Y	vector symbolic
+T635	K2_episodic_store	Y	vector symbolic
+T636	K2_episodic_store	Y	vector symbolic
+T637	K2_episodic_store	Y	vector symbolic
+T638	K2_episodic_store	Y	vector symbolic
+T639	K2_episodic_store	Y	product key
+T640	K2_episodic_store	Y	product key
+T641	K3_temporal_links	Y	successor representation
+T644	K3_temporal_links	Y	successor representation
+T647	K3_temporal_links	Y	successor representation
+T648	K3_temporal_links	Y	successor representation
+T649	K3_temporal_links	Y	successor feature
+T650	K3_temporal_links	Y	successor feature
+T651	K3_temporal_links	Y	temporal knowledge graph;graph
+T652	K3_temporal_links	Y	temporal knowledge graph;graph
+T653	K3_temporal_links	Y	temporal knowledge graph;graph
+T654	K3_temporal_links	Y	temporal knowledge graph;graph
+T655	K3_temporal_links	Y	temporal knowledge graph;graph
+T656	K3_temporal_links	Y	temporal knowledge graph;graph
+T657	K3_temporal_links	Y	temporal knowledge graph;graph
+T658	K3_temporal_links	Y	temporal knowledge graph;graph
+T659	K3_temporal_links	Y	link prediction;temporal link
+T660	K3_temporal_links	Y	link prediction;temporal link;graph
+T661	K3_temporal_links	Y	link prediction;temporal link
+T662	K3_temporal_links	Y	link prediction;graph
+T663	K3_temporal_links	Y	link prediction;graph
+T664	K4_consolidation_sched	Y	experience replay;continual learning
+T665	K4_consolidation_sched	N	
+T666	K4_consolidation_sched	Y	experience replay;continual learning
+T667	K4_consolidation_sched	Y	experience replay;continual learning
+T668	K4_consolidation_sched	N	
+T669	K4_consolidation_sched	Y	experience replay;continual learning
+T670	K4_consolidation_sched	Y	experience replay;continual learning
+T671	K4_consolidation_sched	Y	continual learning
+T672	K4_consolidation_sched	Y	continual learning
+T673	K4_consolidation_sched	Y	continual learning
+T674	K4_consolidation_sched	Y	continual learning
+T675	K4_consolidation_sched	Y	elastic weight consolidation
+T676	K4_consolidation_sched	Y	continual learning
+T677	K4_consolidation_sched	Y	elastic weight consolidation
+T678	K4_consolidation_sched	Y	elastic weight consolidation
+T679	K4_consolidation_sched	Y	elastic weight consolidation;continual learning
+T680	K4_consolidation_sched	Y	elastic weight consolidation
+T681	K4_consolidation_sched	Y	elastic weight consolidation;continual learning
+T682	K4_consolidation_sched	Y	gradient episodic
+T683	K4_consolidation_sched	Y	continual learning;gradient episodic
+T684	K4_consolidation_sched	Y	continual learning;gradient episodic
+T685	K4_consolidation_sched	N	
+T686	K4_consolidation_sched	Y	lifelong learning
+T687	K4_consolidation_sched	Y	continual learning;gradient episodic
+T688	K4_consolidation_sched	Y	gradient episodic
+T690	K5_semantic_slow	Y	low-rank adaptation;lora
+T691	K5_semantic_slow	Y	low rank adaptation;lora
+T692	K5_semantic_slow	Y	low-rank adaptation;lora
+T693	K5_semantic_slow	Y	low-rank adaptation;lora
+T694	K5_semantic_slow	Y	lora
+T695	K5_semantic_slow	Y	lora;distillation
+T696	K5_semantic_slow	N	
+T697	K5_semantic_slow	N	
+T698	K5_semantic_slow	N	
+T699	K5_semantic_slow	Y	lora
+T700	K5_semantic_slow	N	
+T701	K5_semantic_slow	N	
+T702	K5_semantic_slow	N	
+T703	K5_semantic_slow	N	
+T704	K5_semantic_slow	Y	parameter efficient
+T710	K6_working_memory	Y	working memory
+T711	K6_working_memory	N	
+T712	K6_working_memory	Y	pointer network
+T713	K6_working_memory	N	
+T714	K6_working_memory	Y	pointer network
+T715	K6_working_memory	N	
+T716	K6_working_memory	Y	pointer network
+T717	K7_meta_control	Y	abstention;selective prediction
+T718	K7_meta_control	Y	abstention
+T719	K7_meta_control	N	
+T720	K7_meta_control	N	
+T721	K7_meta_control	N	
+T722	K7_meta_control	N	
+T723	K8_event_layer	Y	event
+T724	K8_event_layer	Y	event knowledge graph;event
+T725	K8_event_layer	Y	event
+T726	K8_event_layer	Y	event
+T727	K8_event_layer	Y	event knowledge graph;temporal event;event;log
+T728	K8_event_layer	Y	event
+T729	K8_event_layer	Y	event
+T730	K8_event_layer	Y	event extraction;event
+T731	K8_event_layer	Y	event
+T732	K8_event_layer	Y	event extraction;event
+T733	K8_event_layer	N	
+T736	K8_event_layer	N	
+T737	K8_event_layer	N	
+T738	K9_text_frontend	N	
+T739	K9_text_frontend	N	
+T740	K9_text_frontend	Y	feature hashing
+T741	K9_text_frontend	Y	feature hashing;word embedding
+T742	K9_text_frontend	N	
+T743	K9_text_frontend	Y	feature hashing
+T744	K9_text_frontend	Y	sentence embedding
+T745	K9_text_frontend	Y	sentence embedding
+T746	K9_text_frontend	Y	sentence embedding;distillation
+T747	K9_text_frontend	Y	sentence embedding;distillation
+T748	K9_text_frontend	Y	sentence embedding;distillation
+T749	K9_text_frontend	Y	sentence embedding
+T750	K9_text_frontend	N	
+T751	K2_episodic_store	N	
+T752	K2_episodic_store	Y	binding
+T753	K1_sparse_encoder	N	
+T754	K2_episodic_store	N	
+T755	K7_meta_control	N	
+T756	K2_episodic_store	N	
+T757	K2_episodic_store	N	
+T758	K2_episodic_store	Y	holographic reduced
+T759	K2_episodic_store	Y	holographic reduced
+T760	K2_episodic_store	N	
+T761	K2_episodic_store	Y	holographic reduced
+T762	K2_episodic_store	N	
+T763	K2_episodic_store	N	
+T764	K2_episodic_store	Y	holographic reduced
+T765	K2_episodic_store	N	
+T766	K2_episodic_store	N	
+T767	K3_temporal_links	N	
+T768	K3_temporal_links	N	
+T769	K3_temporal_links	N	
+T770	K3_temporal_links	Y	sequence
+T771	K3_temporal_links	N	
+T772	K3_temporal_links	Y	sequence
+T773	K3_temporal_links	N	
+T774	K3_temporal_links	N	
+T775	K3_temporal_links	N	
+T776	K3_temporal_links	N	
+T777	K3_temporal_links	N	
+T778	K3_temporal_links	N	
+T779	K3_temporal_links	N	
+T780	K3_temporal_links	Y	sequence
+T781	K3_temporal_links	Y	sequence
+T782	K3_temporal_links	Y	sequence
+T783	K3_temporal_links	Y	sequence
+T784	K3_temporal_links	N	
+T785	K3_temporal_links	Y	chain
+T786	K3_temporal_links	N	
+T787	K3_temporal_links	Y	sequence
+T788	K3_temporal_links	N	
+T789	K3_temporal_links	N	
+T790	K3_temporal_links	N	
+T791	K3_temporal_links	N	
+T792	K3_temporal_links	N	
+T793	K3_temporal_links	N	
+T794	K5_semantic_slow	Y	plasticity;forgetting
+T795	K5_semantic_slow	Y	forgetting
+T796	K5_semantic_slow	Y	incremental learning;forgetting
+T797	K5_semantic_slow	Y	forgetting
+T798	K5_semantic_slow	Y	forgetting
+T799	K5_semantic_slow	Y	forgetting
+T800	K5_semantic_slow	Y	forgetting
+T801	K5_semantic_slow	Y	forgetting
+T802	K5_semantic_slow	Y	forgetting
+T803	K5_semantic_slow	Y	incremental learning;forgetting
+T804	K5_semantic_slow	Y	forgetting
+T805	K5_semantic_slow	Y	forgetting
+T806	K5_semantic_slow	Y	forgetting
+T807	K5_semantic_slow	Y	forgetting
+T808	K5_semantic_slow	N	
+T809	K5_semantic_slow	N	
+T810	K5_semantic_slow	N	
+T811	K5_semantic_slow	Y	plasticity
+T812	K5_semantic_slow	N	
+T813	K5_semantic_slow	Y	forgetting
+T814	K5_semantic_slow	N	
+T815	K5_semantic_slow	N	
+T816	K5_semantic_slow	N	
+T817	K5_semantic_slow	N	
+T818	K5_semantic_slow	N	
+T819	K5_semantic_slow	N	
+T820	K6_working_memory	Y	working memory;short-term memory
+T821	K6_working_memory	Y	working memory
+T822	K6_working_memory	Y	working memory
+T823	K6_working_memory	Y	working memory
+T824	K6_working_memory	Y	working memory
+T825	K6_working_memory	Y	working memory
+T826	K6_working_memory	Y	working memory
+T827	K6_working_memory	Y	working memory
+T828	K6_working_memory	Y	working memory
+T829	K6_working_memory	Y	working memory
+T830	K6_working_memory	Y	working memory
+T831	K6_working_memory	Y	prefrontal
+T832	K6_working_memory	Y	prefrontal
+T833	K6_working_memory	Y	prefrontal
+T834	K6_working_memory	Y	prefrontal
+T835	K6_working_memory	Y	prefrontal
+T836	K6_working_memory	Y	prefrontal
+T837	K6_working_memory	Y	prefrontal
+T838	K6_working_memory	Y	prefrontal
+T839	K6_working_memory	Y	prefrontal
+T840	K6_working_memory	Y	prefrontal
+T841	K6_working_memory	Y	working memory;prefrontal
+T842	K6_working_memory	N	
+T843	K6_working_memory	Y	working memory
+T844	K6_working_memory	Y	working memory
+T845	K6_working_memory	Y	working memory
+T846	K6_working_memory	N	
+T847	K6_working_memory	N	
+T848	K6_working_memory	N	
+T849	K6_working_memory	N	
+T850	K6_working_memory	Y	working memory
+T851	K6_working_memory	Y	working memory
+T852	K6_working_memory	N	
+T853	K6_working_memory	Y	prefrontal
+T854	K6_working_memory	Y	working memory
+T855	K6_working_memory	N	
+T856	K7_meta_control	N	
+T857	K7_meta_control	N	
+T858	K7_meta_control	N	
+T859	K7_meta_control	N	
+T860	K7_meta_control	N	
+T861	K7_meta_control	N	
+T862	K7_meta_control	N	
+T863	K7_meta_control	N	
+T864	K7_meta_control	N	
+T865	K7_meta_control	N	
+T866	K7_meta_control	N	
+T867	K7_meta_control	N	
+T868	K7_meta_control	N	
+T869	K7_meta_control	N	
+T870	K7_meta_control	N	
+T871	K7_meta_control	N	
+T872	K7_meta_control	N	
+T873	K7_meta_control	N	
+T874	K7_meta_control	N	
+T875	K7_meta_control	N	
+T876	K8_event_layer	Y	event
+T877	K8_event_layer	Y	event;log
+T878	K8_event_layer	Y	event
+T879	K8_event_layer	Y	narrative;event
+T880	K8_event_layer	N	
+T881	K8_event_layer	Y	event
+T882	K8_event_layer	N	
+T883	K8_event_layer	Y	event
+T884	K8_event_layer	Y	event
+T885	K8_event_layer	Y	event
+T886	K8_event_layer	Y	script
+T887	K8_event_layer	Y	script
+T888	K8_event_layer	Y	script
+T889	K8_event_layer	Y	script
+T890	K8_event_layer	Y	script
+T891	K8_event_layer	Y	script
+T892	K8_event_layer	Y	script
+T893	K9_text_frontend	N	
+T894	K9_text_frontend	N	
+T895	K9_text_frontend	N	
+T896	K9_text_frontend	N	
+T897	K9_text_frontend	N	
+T898	K9_text_frontend	N	
+T899	K9_text_frontend	N	
+T900	K9_text_frontend	N	
+T901	K9_text_frontend	N	
+T902	K9_text_frontend	N	
+T903	K9_text_frontend	N	
+T904	K9_text_frontend	N	
+T905	K2_episodic_store	Y	associative memory
+T906	K2_episodic_store	Y	associative memory
+T907	K2_episodic_store	Y	associative memory
+T908	K2_episodic_store	Y	associative memory;capacity
+T909	K2_episodic_store	Y	associative memory
+T910	K2_episodic_store	N	
+T911	K2_episodic_store	N	
+T912	K2_episodic_store	N	
+T913	K2_episodic_store	N	
+T914	K2_episodic_store	N	
+T915	K2_episodic_store	Y	differentiable neural computer
+T916	K2_episodic_store	N	
+T917	K2_episodic_store	N	
+T918	K2_episodic_store	Y	associative memory
+T919	K2_episodic_store	Y	associative memory
+T920	K3_temporal_links	Y	successor feature
+T921	K3_temporal_links	Y	successor feature
+T922	K3_temporal_links	Y	successor feature
+T923	K3_temporal_links	Y	successor feature
+T924	K3_temporal_links	Y	successor feature
+T925	K3_temporal_links	Y	successor feature
+T926	K5_semantic_slow	N	
+T927	K5_semantic_slow	Y	lora
+T928	K5_semantic_slow	Y	hypernetwork
+T929	K5_semantic_slow	Y	hypernetwork
+T930	K5_semantic_slow	Y	hypernetwork
+T931	K5_semantic_slow	Y	hypernetwork
+T932	K5_semantic_slow	Y	hypernetwork
+T933	K5_semantic_slow	Y	hypernetwork
+T934	K5_semantic_slow	Y	hypernetwork
+T935	K5_semantic_slow	Y	hypernetwork
+T936	K6_working_memory	Y	bump attractor
+T937	K6_working_memory	N	
+T938	K7_meta_control	N	
+T939	K7_meta_control	N	
+T940	K7_meta_control	N	
+T941	K7_meta_control	N	
+T942	K7_meta_control	N	
+T943	K7_meta_control	Y	calibration;uncertainty
+T944	K7_meta_control	Y	calibration;uncertainty
+T945	K7_meta_control	Y	calibration;uncertainty
+T946	K7_meta_control	Y	calibration;uncertainty
+T947	K7_meta_control	Y	calibration;uncertainty
+T948	K7_meta_control	N	
+T949	K8_event_layer	Y	narrative
+T950	K8_event_layer	Y	narrative;event
+T951	K8_event_layer	N	
+T952	K8_event_layer	N	
+T953	K8_event_layer	N	
+T954	K8_event_layer	N	
+T955	K8_event_layer	N	
+T956	K8_event_layer	N	
+T957	K8_event_layer	N	
+T958	K8_event_layer	Y	log
+T959	K8_event_layer	Y	event
+T960	K8_event_layer	Y	event segmentation;event
+T961	K8_event_layer	Y	event
+T962	K8_event_layer	Y	event
+T963	K8_event_layer	Y	event
+T964	K8_event_layer	Y	event segmentation;event
+T965	K8_event_layer	Y	event
+T966	K9_text_frontend	N	
+T967	K9_text_frontend	N	
+T968	K9_text_frontend	Y	bm25
+T969	K9_text_frontend	N	
+T970	K9_text_frontend	N	
+T971	K9_text_frontend	N	
+T972	K9_text_frontend	Y	n-gram

@@ -1,0 +1,31 @@
+{
+ "part1": {
+  "part": "part1",
+  "N": 2000,
+  "d_x": 2048,
+  "d_h": 16384,
+  "write_s": 17.91,
+  "query_s": 0.9166,
+  "dense_gemv_s": 0.0041,
+  "dense_gemv_f64_s": 0.2042,
+  "f64_penalty": 49.4,
+  "gemv_per_query_equiv": 221.6,
+  "profile_top": [
+   "       10    0.722    0.072    8.769    0.877 <user-home>\\Desktop\\Deepseek Harmness≤‚ ‘«¯\\brain-memory-model\\src\\hcm\\model.py:188(query)",
+   "       10    7.965    0.796    7.971    0.797 <user-home>\\Desktop\\Deepseek Harmness≤‚ ‘«¯\\brain-memory-model\\src\\hcm\\episodic.py:113(retrieve)",
+   "       10    0.031    0.003    0.031    0.003 <user-home>\\Desktop\\Deepseek Harmness≤‚ ‘«¯\\brain-memory-model\\src\\hcm\\encoder.py:112(raw)",
+   "       10    0.030    0.003    0.030    0.003 <user-home>\\Desktop\\Deepseek Harmness≤‚ ‘«¯\\brain-memory-model\\src\\hcm\\encoder.py:102(pre)",
+   "      120    0.002    0.000    0.007    0.000 <user-home>\\Desktop\\Deepseek Harmness≤‚ ‘«¯\\brain-memory-model\\src\\hcm\\ops.py:8(unit)",
+   "      170    0.003    0.000    0.005    0.000 C:\\python\\Lib\\site-packages\\numpy\\linalg\\_linalg.py:2598(norm)",
+   "       10    0.004    0.000    0.004    0.000 <user-home>\\Desktop\\Deepseek Harmness≤‚ ‘«¯\\brain-memory-model\\src\\hcm\\semantic.py:27(forward)",
+   "       50    0.002    0.000    0.003    0.000 <user-home>\\Desktop\\Deepseek Harmness≤‚ ‘«¯\\brain-memory-model\\src\\hcm\\ops.py:28(softmax_beta)",
+   "      320    0.003    0.000    0.003    0.000 {method 'reduce' of 'numpy.ufunc' objects}",
+   "       10    0.000    0.000    0.002    0.000 <user-home>\\Desktop\\Deepseek Harmness≤‚ ‘«¯\\brain-memory-model\\src\\hcm\\encoder.py:119(encode_from_pre)",
+   "       50    0.000    0.000    0.002    0.000 C:\\python\\Lib\\site-packages\\numpy\\_core\\fromnumeric.py:48(_wrapfunc)",
+   "       10    0.000    0.000    0.001    0.000 <user-home>\\Desktop\\Deepseek Harmness≤‚ ‘«¯\\brain-memory-model\\src\\hcm\\ops.py:24(relu_kwta)",
+   "       60    0.000    0.000    0.001    0.000 {method 'max' of 'numpy.ndarray' objects}",
+   "       10    0.000    0.000    0.001    0.000 <user-home>\\Desktop\\Deepseek Harmness≤‚ ‘«¯\\brain-memory-model\\src\\hcm\\ops.py:13(kwta)",
+   "       60    0.000    0.000    0.001    0.000 C:\\python\\Lib\\site-packages\\numpy\\_core\\_methods.py:39(_amax)"
+  ]
+ }
+}

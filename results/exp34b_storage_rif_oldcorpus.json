@@ -1,0 +1,322 @@
+{
+ "config": {
+  "N_LIB": 60,
+  "N_P": 20,
+  "K": 3,
+  "seeds": 1,
+  "smoke": true,
+  "judge": "obs_of_L-035",
+  "test_do_rif": false,
+  "rho": {
+   "soff": 0.0,
+   "son015": 0.15,
+   "son030": 0.3,
+   "son050": 0.5
+  },
+  "cell": "david",
+  "selection": "mirror E.suppress top5"
+ },
+ "arms": {
+  "soff": {
+   "hit_rp_sup": {
+    "mean": null,
+    "sd": null,
+    "n": 0
+   },
+   "hit_rp_cos": {
+    "mean": 1.0,
+    "sd": null,
+    "n": 1
+   },
+   "hit_nrp": {
+    "mean": 0.8,
+    "sd": null,
+    "n": 1
+   },
+   "hit_p": {
+    "mean": 0.7,
+    "sd": null,
+    "n": 1
+   },
+   "att_rp_sup": {
+    "mean": 1.0,
+    "sd": null,
+    "n": 1
+   },
+   "att_nrp": {
+    "mean": 1.0,
+    "sd": null,
+    "n": 1
+   },
+   "n_events": {
+    "mean": 0.0,
+    "sd": null,
+    "n": 1
+   },
+   "n_attenuated": {
+    "mean": 0.0,
+    "sd": null,
+    "n": 1
+   },
+   "deficit_nrp_sup": {
+    "mean": null,
+    "sd": null
+   },
+   "deficit_nrp_cos": {
+    "mean": -0.2,
+    "sd": NaN
+   },
+   "recovered": []
+  },
+  "son015": {
+   "hit_rp_sup": {
+    "mean": 0.5,
+    "sd": null,
+    "n": 1
+   },
+   "hit_rp_cos": {
+    "mean": 0.75,
+    "sd": null,
+    "n": 1
+   },
+   "hit_nrp": {
+    "mean": 0.25,
+    "sd": null,
+    "n": 1
+   },
+   "hit_p": {
+    "mean": 0.6,
+    "sd": null,
+    "n": 1
+   },
+   "att_rp_sup": {
+    "mean": 0.472,
+    "sd": null,
+    "n": 1
+   },
+   "att_nrp": {
+    "mean": 1.0,
+    "sd": null,
+    "n": 1
+   },
+   "n_events": {
+    "mean": 168.0,
+    "sd": null,
+    "n": 1
+   },
+   "n_attenuated": {
+    "mean": 40.0,
+    "sd": null,
+    "n": 1
+   },
+   "deficit_nrp_sup": {
+    "mean": -0.25,
+    "sd": NaN
+   },
+   "deficit_nrp_cos": {
+    "mean": -0.5,
+    "sd": NaN
+   },
+   "recovered": [
+    1.0
+   ]
+  },
+  "son030": {
+   "hit_rp_sup": {
+    "mean": 0.5,
+    "sd": null,
+    "n": 1
+   },
+   "hit_rp_cos": {
+    "mean": 0.25,
+    "sd": null,
+    "n": 1
+   },
+   "hit_nrp": {
+    "mean": 0.0,
+    "sd": null,
+    "n": 1
+   },
+   "hit_p": {
+    "mean": 0.4,
+    "sd": null,
+    "n": 1
+   },
+   "att_rp_sup": {
+    "mean": 0.353,
+    "sd": null,
+    "n": 1
+   },
+   "att_nrp": {
+    "mean": 1.0,
+    "sd": null,
+    "n": 1
+   },
+   "n_events": {
+    "mean": 156.0,
+    "sd": null,
+    "n": 1
+   },
+   "n_attenuated": {
+    "mean": 42.0,
+    "sd": null,
+    "n": 1
+   },
+   "deficit_nrp_sup": {
+    "mean": -0.5,
+    "sd": NaN
+   },
+   "deficit_nrp_cos": {
+    "mean": -0.25,
+    "sd": NaN
+   },
+   "recovered": [
+    1.0
+   ]
+  },
+  "son050": {
+   "hit_rp_sup": {
+    "mean": 0.2,
+    "sd": null,
+    "n": 1
+   },
+   "hit_rp_cos": {
+    "mean": 0.0,
+    "sd": null,
+    "n": 1
+   },
+   "hit_nrp": {
+    "mean": 0.0,
+    "sd": null,
+    "n": 1
+   },
+   "hit_p": {
+    "mean": 0.2,
+    "sd": null,
+    "n": 1
+   },
+   "att_rp_sup": {
+    "mean": 0.2313,
+    "sd": null,
+    "n": 1
+   },
+   "att_nrp": {
+    "mean": 1.0,
+    "sd": null,
+    "n": 1
+   },
+   "n_events": {
+    "mean": 108.0,
+    "sd": null,
+    "n": 1
+   },
+   "n_attenuated": {
+    "mean": 41.0,
+    "sd": null,
+    "n": 1
+   },
+   "deficit_nrp_sup": {
+    "mean": -0.2,
+    "sd": NaN
+   },
+   "deficit_nrp_cos": {
+    "mean": 0.0,
+    "sd": NaN
+   },
+   "recovered": [
+    1.0
+   ]
+  }
+ },
+ "rows": [
+  {
+   "arm": "soff",
+   "seed": 0,
+   "hit_rp_sup": NaN,
+   "hit_rp_cos": 1.0,
+   "hit_nrp": 0.8,
+   "hit_p": 0.7,
+   "att_rp_sup": 1.0,
+   "att_rp_cos": 1.0,
+   "att_nrp": 1.0,
+   "n_attenuated": 0,
+   "n_events": 0,
+   "n_rp_sup": 0,
+   "n_rp_cos": 8,
+   "n_nrp": 10,
+   "hub_share": 0.1786,
+   "modal_slot": -1,
+   "n_probes": 28
+  },
+  {
+   "arm": "son015",
+   "seed": 0,
+   "hit_rp_sup": 0.5,
+   "hit_rp_cos": 0.75,
+   "hit_nrp": 0.25,
+   "hit_p": 0.6,
+   "att_rp_sup": 0.4720073760156248,
+   "att_rp_cos": 0.44103818681640616,
+   "att_nrp": 1.0,
+   "n_attenuated": 40,
+   "n_events": 168,
+   "n_rp_sup": 10,
+   "n_rp_cos": 8,
+   "n_nrp": 4,
+   "hub_share": 0.25,
+   "modal_slot": 49,
+   "n_probes": 32,
+   "hit_rp_sup_recovered": 1.0,
+   "hit_p_all_recovered": 0.7,
+   "hit_p_before_fullrestore": 0.6,
+   "hub_share_after_restore": 0.3
+  },
+  {
+   "arm": "son030",
+   "seed": 0,
+   "hit_rp_sup": 0.5,
+   "hit_rp_cos": 0.25,
+   "hit_nrp": 0.0,
+   "hit_p": 0.4,
+   "att_rp_sup": 0.35295399999999993,
+   "att_rp_cos": 0.23881374999999994,
+   "att_nrp": 1.0,
+   "n_attenuated": 42,
+   "n_events": 156,
+   "n_rp_sup": 10,
+   "n_rp_cos": 8,
+   "n_nrp": 3,
+   "hub_share": 0.4839,
+   "modal_slot": -1,
+   "n_probes": 31,
+   "hit_rp_sup_recovered": 1.0,
+   "hit_p_all_recovered": 0.7,
+   "hit_p_before_fullrestore": 0.4,
+   "hub_share_after_restore": 0.3
+  },
+  {
+   "arm": "son050",
+   "seed": 0,
+   "hit_rp_sup": 0.2,
+   "hit_rp_cos": 0.0,
+   "hit_nrp": 0.0,
+   "hit_p": 0.2,
+   "att_rp_sup": 0.23125,
+   "att_rp_cos": 0.1328125,
+   "att_nrp": 1.0,
+   "n_attenuated": 41,
+   "n_events": 108,
+   "n_rp_sup": 10,
+   "n_rp_cos": 8,
+   "n_nrp": 3,
+   "hub_share": 0.7742,
+   "modal_slot": -1,
+   "n_probes": 31,
+   "hit_rp_sup_recovered": 1.0,
+   "hit_p_all_recovered": 0.7,
+   "hit_p_before_fullrestore": 0.2,
+   "hub_share_after_restore": 0.3
+  }
+ ],
+ "elapsed_s": 1.8
+}

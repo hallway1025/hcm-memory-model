@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jSKKqmL7F6IXaTCdwd++8k6Kmc8</id>
+  <title>arXiv Query: search_query=all:narrative AND all:understanding AND all:events&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T14:10:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:narrative+AND+(all:understanding+AND+all:events)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>232</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.05227v2</id>
+    <title>CHATTER: A Character Attribution Dataset for Narrative Understanding</title>
+    <updated>2025-04-20T05:40:15Z</updated>
+    <link href="https://arxiv.org/abs/2411.05227v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.05227v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computational narrative understanding studies the identification, description, and interaction of the elements of a narrative: characters, attributes, events, and relations. Narrative research has given considerable attention to defining and classifying character types. However, these character-type taxonomies do not generalize well because they are small, too simple, or specific to a domain. We require robust and reliable benchmarks to test whether narrative models truly understand the nuances of the character's development in the story. Our work addresses this by curating the CHATTER dataset that labels whether a character portrays some attribute for 88124 character-attribute pairs, encompassing 2998 characters, 12967 attributes and 660 movies. We validate a subset of CHATTER, called CHATTEREVAL, using human annotations to serve as a benchmark to evaluate the character attribution task in movie scripts. \evaldataset{} also assesses narrative understanding and the long-context modeling capacity of language models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-07T22:37:30Z</published>
+    <arxiv:comment>accepted to 7th Workshop on Narrative Understanding</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sabyasachee Baruah</name>
+    </author>
+    <author>
+      <name>Shrikanth Narayanan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.09453v1</id>
+    <title>Inference of Fine-Grained Event Causality from Blogs and Films</title>
+    <updated>2017-08-30T20:12:01Z</updated>
+    <link href="https://arxiv.org/abs/1708.09453v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.09453v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human understanding of narrative is mainly driven by reasoning about causal relations between events and thus recognizing them is a key capability for computational models of language understanding. Computational work in this area has approached this via two different routes: by focusing on acquiring a knowledge base of common causal relations between events, or by attempting to understand a particular story or macro-event, along with its storyline. In this position paper, we focus on knowledge acquisition approach and claim that newswire is a relatively poor source for learning fine-grained causal relations between everyday events. We describe experiments using an unsupervised method to learn causal relations between events in the narrative genres of first-person narratives and film scene descriptions. We show that our method learns fine-grained causal relations, judged by humans as likely to be causal over 80% of the time. We also demonstrate that the learned event pairs do not exist in publicly available event-pair datasets extracted from newswire.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-30T20:12:01Z</published>
+    <arxiv:comment>Events and Stories in the News Workshop, ACL 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Events and Stories in the News Workshop, ACL 2017</arxiv:journal_ref>
+    <author>
+      <name>Zhichao Hu</name>
+    </author>
+    <author>
+      <name>Elahe Rahimtoroghi</name>
+    </author>
+    <author>
+      <name>Marilyn A Walker</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.12762v2</id>
+    <title>Exploring aspects of similarity between spoken personal narratives by disentangling them into narrative clause types</title>
+    <updated>2020-05-27T13:32:15Z</updated>
+    <link href="https://arxiv.org/abs/2005.12762v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.12762v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sharing personal narratives is a fundamental aspect of human social behavior as it helps share our life experiences. We can tell stories and rely on our background to understand their context, similarities, and differences. A substantial effort has been made towards developing storytelling machines or inferring characters' features. However, we don't usually find models that compare narratives. This task is remarkably challenging for machines since they, as sometimes we do, lack an understanding of what similarity means. To address this challenge, we first introduce a corpus of real-world spoken personal narratives comprising 10,296 narrative clauses from 594 video transcripts. Second, we ask non-narrative experts to annotate those clauses under Labov's sociolinguistic model of personal narratives (i.e., action, orientation, and evaluation clause types) and train a classifier that reaches 84.7% F-score for the highest-agreed clauses. Finally, we match stories and explore whether people implicitly rely on Labov's framework to compare narratives. We show that actions followed by the narrator's evaluation of these are the aspects non-experts consider the most. Our approach is intended to help inform machine learning methods aimed at studying or representing personal narratives.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-26T14:34:07Z</published>
+    <arxiv:comment>9 pages, Proceedings of the 2020 ACL Workshop on Narrative Understanding, Storylines, and Events (NUSE). ACL</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Belen Saldias</name>
+    </author>
+    <author>
+      <name>Deb Roy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.03151v1</id>
+    <title>Media Framing through the Lens of Event-Centric Narratives</title>
+    <updated>2024-10-04T05:21:42Z</updated>
+    <link href="https://arxiv.org/abs/2410.03151v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.03151v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>From a communications perspective, a frame defines the packaging of the language used in such a way as to encourage certain interpretations and to discourage others. For example, a news article can frame immigration as either a boost or a drain on the economy, and thus communicate very different interpretations of the same phenomenon. In this work, we argue that to explain framing devices we have to look at the way narratives are constructed. As a first step in this direction, we propose a framework that extracts events and their relations to other events, and groups them into high-level narratives that help explain frames in news articles. We show that our framework can be used to analyze framing in U.S. news for two different domains: immigration and gun control.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-04T05:21:42Z</published>
+    <arxiv:comment>Accepted to the 6th Workshop on Narrative Understanding, co-located with EMNLP 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rohan Das</name>
+    </author>
+    <author>
+      <name>Aditya Chandra</name>
+    </author>
+    <author>
+      <name>I-Ta Lee</name>
+    </author>
+    <author>
+      <name>Maria Leonor Pacheco</name>
+    </author>
+    <arxiv:doi>10.18653/v1/2024.wnu-1.15</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.18653/v1/2024.wnu-1.15" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.08811v1</id>
+    <title>Temporal Embeddings and Transformer Models for Narrative Text Understanding</title>
+    <updated>2020-03-19T14:23:12Z</updated>
+    <link href="https://arxiv.org/abs/2003.08811v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.08811v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present two deep learning approaches to narrative text understanding for character relationship modelling. The temporal evolution of these relations is described by dynamic word embeddings, that are designed to learn semantic changes over time. An empirical analysis of the corresponding character trajectories shows that such approaches are effective in depicting dynamic evolution. A supervised learning approach based on the state-of-the-art transformer model BERT is used instead to detect static relations between characters. The empirical validation shows that such events (e.g., two characters belonging to the same family) might be spotted with good accuracy, even when using automatically annotated data. This provides a deeper understanding of narrative plots based on the identification of key facts. Standard clustering techniques are finally used for character de-aliasing, a necessary pre-processing step for both approaches. Overall, deep learning models appear to be suitable for narrative text understanding, while also providing a challenging and unexploited benchmark for general natural language understanding.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-19T14:23:12Z</published>
+    <arxiv:comment>Presented at the Third International Workshop on Narrative Extraction from Texts (Text2Story 2020) held in conjunction with the 42nd European Conference on Information Retrieval</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Vani K</name>
+    </author>
+    <author>
+      <name>Simone Mellace</name>
+    </author>
+    <author>
+      <name>Alessandro Antonucci</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.10008v2</id>
+    <title>Hierarchical Knowledge Graphs for Story Understanding in Visual Narratives</title>
+    <updated>2025-11-15T07:09:17Z</updated>
+    <link href="https://arxiv.org/abs/2506.10008v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.10008v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a hierarchical knowledge graph framework for the structured semantic understanding of visual narratives, using comics as a representative domain for multimodal storytelling. The framework organizes narrative content across three levels-panel, event, and macro-event, by integrating symbolic graphs that encode semantic, spatial, and temporal relationships. At the panel level, it models visual elements such as characters, objects, and actions alongside textual components including dialogue and narration. These are systematically connected to higher-level graphs that capture narrative sequences and abstract story structures.
+  Applied to a manually annotated subset of the Manga109 dataset, the framework supports interpretable symbolic reasoning across four representative tasks: action retrieval, dialogue tracing, character appearance mapping, and timeline reconstruction. Rather than prioritizing predictive performance, the system emphasizes transparency in narrative modeling and enables structured inference aligned with cognitive theories of event segmentation and visual storytelling. This work contributes to explainable narrative analysis and offers a foundation for authoring tools, narrative comprehension systems, and interactive media applications.</summary>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-14T14:42:19Z</published>
+    <arxiv:comment>Updated with the ICIDS 2025 camera-ready version. This revision includes the final title, updated abstract, improved explanations of the narrative coherence framework, and minor editorial changes. Figures and examples have been refined for clarity. No new experiments were added</arxiv:comment>
+    <arxiv:primary_category term="cs.MM"/>
+    <author>
+      <name>Yi-Chun Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.04874v2</id>
+    <title>CompRes: A Dataset for Narrative Structure in News</title>
+    <updated>2023-11-07T13:29:06Z</updated>
+    <link href="https://arxiv.org/abs/2007.04874v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.04874v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper addresses the task of automatically detecting narrative structures in raw texts. Previous works have utilized the oral narrative theory by Labov and Waletzky to identify various narrative elements in personal stories texts. Instead, we direct our focus to news articles, motivated by their growing social impact as well as their role in creating and shaping public opinion.
+  We introduce CompRes -- the first dataset for narrative structure in news media. We describe the process in which the dataset was constructed: first, we designed a new narrative annotation scheme, better suited for news media, by adapting elements from the narrative theory of Labov and Waletzky (Complication and Resolution) and adding a new narrative element of our own (Success); then, we used that scheme to annotate a set of 29 English news articles (containing 1,099 sentences) collected from news and partisan websites. We use the annotated dataset to train several supervised models to identify the different narrative elements, achieving an $F_1$ score of up to 0.7. We conclude by suggesting several promising directions for future work.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-09T15:21:59Z</published>
+    <arxiv:comment>Please refer to a more recent and updated paper (and a link to the dataset) at arXiv:2210.03028. Accpted to the First Joint Workshop on Narrative Understanding, Storylines, and Events, ACL 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Effi Levi</name>
+    </author>
+    <author>
+      <name>Guy Mor</name>
+    </author>
+    <author>
+      <name>Shaul Shenhav</name>
+    </author>
+    <author>
+      <name>Tamir Sheafer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.14941v1</id>
+    <title>Robust Symbolic Reasoning for Visual Narratives via Hierarchical and Semantically Normalized Knowledge Graphs</title>
+    <updated>2025-08-20T03:43:13Z</updated>
+    <link href="https://arxiv.org/abs/2508.14941v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.14941v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding visual narratives such as comics requires structured representations that capture events, characters, and their relations across multiple levels of story organization. However, symbolic narrative graphs often suffer from inconsistency and redundancy, where similar actions or events are labeled differently across annotations or contexts. Such variance limits the effectiveness of reasoning and generalization.
+  This paper introduces a semantic normalization framework for hierarchical narrative knowledge graphs. Building on cognitively grounded models of narrative comprehension, we propose methods that consolidate semantically related actions and events using lexical similarity and embedding-based clustering. The normalization process reduces annotation noise, aligns symbolic categories across narrative levels, and preserves interpretability.
+  We demonstrate the framework on annotated manga stories from the Manga109 dataset, applying normalization to panel-, event-, and story-level graphs. Preliminary evaluations across narrative reasoning tasks, such as action retrieval, character grounding, and event summarization, show that semantic normalization improves coherence and robustness, while maintaining symbolic transparency. These findings suggest that normalization is a key step toward scalable, cognitively inspired graph models for multimodal narrative understanding.</summary>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-20T03:43:13Z</published>
+    <arxiv:comment>12 pages, 4 figures, 2 tables. Extends our earlier framework on hierarchical narrative graphs with a semantic normalization module</arxiv:comment>
+    <arxiv:primary_category term="cs.MM"/>
+    <author>
+      <name>Yi-Chun Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.07459v2</id>
+    <title>Beyond LLMs: A Linguistic Approach to Causal Graph Generation from Narrative Texts</title>
+    <updated>2026-07-10T03:11:26Z</updated>
+    <link href="https://arxiv.org/abs/2504.07459v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.07459v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a novel framework for generating causal graphs from narrative texts, bridging high-level causality and detailed event-specific relationships. Our method first extracts concise, agent-centered vertices using large language model (LLM)-based summarization. We introduce an "Expert Index," comprising seven linguistically informed features, integrated into a Situation-Task-Action-Consequence (STAC) classification model. This hybrid system, combining RoBERTa embeddings with the Expert Index, achieves superior precision in causal link identification compared to pure LLM-based approaches. Finally, a structured five-iteration prompting process refines and constructs connected causal graphs. Experiments on 100 narrative chapters and short stories demonstrate that our approach consistently outperforms GPT-4o and Claude 3.5 in causal graph quality, while maintaining readability. The open-source tool provides an interpretable, efficient solution for capturing nuanced causal chains in narratives.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-10T05:09:07Z</published>
+    <arxiv:comment>published at the 7th Workshop on Narrative Understanding, NAACL 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zehan Li</name>
+    </author>
+    <author>
+      <name>Ruhua Pan</name>
+    </author>
+    <author>
+      <name>Xinyu Pi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.19706v2</id>
+    <title>NEST: Narrative Event Structures in Time for Long Video Understanding</title>
+    <updated>2026-09-05T11:02:59Z</updated>
+    <link href="https://arxiv.org/abs/2606.19706v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.19706v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent progress in vision-language models has enabled processing of increasingly long video sequences, but handling extended token streams does not translate to understanding complex narrative structure in long videos. Existing long-video benchmarks focus on needle-in-a-haystack retrieval rather than evaluating how low-level actions form events, interact across time, and drive narratives, for example whether a model can connect an early job loss to a later relationship breakup despite intervening scenes or flashbacks. We introduce NEST (Narrative Event Structures in Time for Long Video Understanding), a dataset of 1,005 full-length movies (avg. 98 minutes), each annotated with about 103 multimodal narrative events grounded in visual content, dialogue, and audio. NEST links these events through relations that reflect narrative structure, including explicit temporal ordering, hierarchical composition, and long-range dependencies. We introduce baselines for event trigger detection (ETD), event localization (EL), event argument extraction (EAE), and event relation extraction (ERE). The benchmark is highly challenging for grounded event discovery, with the best performance across evaluated zero-shot models on main evaluation subsets remaining below 8% for ETD, 6% for EL, and 11% for EAE. In contrast, ERE is more tractable once events are given, reaching 34.23% F1 zero-shot and 49.20% F1 after fine-tuning.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-18T02:05:14Z</published>
+    <arxiv:comment>EMNLP 2026 (Main)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ali Asgarov</name>
+    </author>
+    <author>
+      <name>Kaushik Narasimhan</name>
+    </author>
+    <author>
+      <name>Najibul Haque Sarker</name>
+    </author>
+    <author>
+      <name>Hani Alomari</name>
+    </author>
+    <author>
+      <name>Chia-Wei Tang</name>
+    </author>
+    <author>
+      <name>Anushka Sivakumar</name>
+    </author>
+    <author>
+      <name>Zaber Ibn Abdul Hakim</name>
+    </author>
+    <author>
+      <name>Shaurya Mallampati</name>
+    </author>
+    <author>
+      <name>Chris Thomas</name>
+    </author>
+  </entry>
+</feed>

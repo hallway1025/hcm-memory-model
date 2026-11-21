@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vOjH0Hq9yFwi7/Ym94hNoLCT+qE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2603.18596&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:31:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2603.18596" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2603.18596v3</id>
+    <title>Elastic Weight Consolidation Done Right for Continual Learning</title>
+    <updated>2026-03-26T02:41:53Z</updated>
+    <link href="https://arxiv.org/abs/2603.18596v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.18596v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Weight regularization methods in continual learning (CL) alleviate catastrophic forgetting by assessing and penalizing changes to important model weights. Elastic Weight Consolidation (EWC) is a foundational and widely used approach within this framework that estimates weight importance based on gradients. However, it has consistently shown suboptimal performance. In this paper, we conduct a systematic analysis of importance estimation in EWC from a gradient-based perspective. For the first time, we find that EWC's reliance on the Fisher Information Matrix (FIM) results in gradient vanishing and inaccurate importance estimation in certain scenarios. Our analysis also reveals that Memory Aware Synapses (MAS), a variant of EWC, imposes unnecessary constraints on parameters irrelevant to prior tasks, termed the redundant protection. Consequently, both EWC and its variants exhibit fundamental misalignments in estimating weight importance, leading to inferior performance. To tackle these issues, we propose the Logits Reversal (LR) operation, a simple yet effective modification that rectifies EWC's importance estimation. Specifically, reversing the logit values during the calculation of FIM can effectively prevent both gradient vanishing and redundant protection. Extensive experiments across various CL tasks and datasets show that the proposed method significantly outperforms existing EWC and its variants. Therefore, we refer to it as EWC Done Right (EWC-DR). Code is available at https://github.com/scarlet0703/EWC-DR.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-19T08:06:56Z</published>
+    <arxiv:comment>Accepted to CVPR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2026</arxiv:journal_ref>
+    <author>
+      <name>Xuan Liu</name>
+    </author>
+    <author>
+      <name>Xiaobin Chang</name>
+    </author>
+  </entry>
+</feed>

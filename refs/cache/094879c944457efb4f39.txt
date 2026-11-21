@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aMz8K+ZmJiJBBzhw/9G9Nn9Vvc8</id>
+  <title>arXiv Query: search_query=all:principled AND all:forgetting AND all:neural AND all:networks&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-11-07T11:34:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:principled+AND+(all:forgetting+AND+(all:neural+AND+all:networks))&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>73</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2102.07686v4</id>
+    <title>Does the Adam Optimizer Exacerbate Catastrophic Forgetting?</title>
+    <updated>2021-06-09T17:00:09Z</updated>
+    <link href="https://arxiv.org/abs/2102.07686v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.07686v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Catastrophic forgetting remains a severe hindrance to the broad application of artificial neural networks (ANNs), however, it continues to be a poorly understood phenomenon. Despite the extensive amount of work on catastrophic forgetting, we argue that it is still unclear how exactly the phenomenon should be quantified, and, moreover, to what degree all of the choices we make when designing learning systems affect the amount of catastrophic forgetting. We use various testbeds from the reinforcement learning and supervised learning literature to (1) provide evidence that the choice of which modern gradient-based optimization algorithm is used to train an ANN has a significant impact on the amount of catastrophic forgetting and show that-surprisingly-in many instances classical algorithms such as vanilla SGD experience less catastrophic forgetting than the more modern algorithms such as Adam. We empirically compare four different existing metrics for quantifying catastrophic forgetting and (2) show that the degree to which the learning systems experience catastrophic forgetting is sufficiently sensitive to the metric used that a change from one principled metric to another is enough to change the conclusions of a study dramatically. Our results suggest that a much more rigorous experimental methodology is required when looking at catastrophic forgetting. Based on our results, we recommend inter-task forgetting in supervised learning must be measured with both retention and relearning metrics concurrently, and intra-task forgetting in reinforcement learning must-at the very least-be measured with pairwise interference.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-15T17:32:39Z</published>
+    <arxiv:comment>9 pages in main text + 3 pages of references + 16 pages of appendices, 6 figures in main text + 21 figures in appendices, 6 tables in appendices; source code available at https://github.com/dylanashley/catastrophic-forgetting/tree/arxiv</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dylan R. Ashley</name>
+    </author>
+    <author>
+      <name>Sina Ghiassian</name>
+    </author>
+    <author>
+      <name>Richard S. Sutton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.00412v1</id>
+    <title>A theory of sequence indexing and working memory in recurrent neural networks</title>
+    <updated>2018-02-28T17:54:24Z</updated>
+    <link href="https://arxiv.org/abs/1803.00412v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.00412v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To accommodate structured approaches of neural computation, we propose a class of recurrent neural networks for indexing and storing sequences of symbols or analog data vectors. These networks with randomized input weights and orthogonal recurrent weights implement coding principles previously described in vector symbolic architectures (VSA), and leverage properties of reservoir computing. In general, the storage in reservoir computing is lossy and crosstalk noise limits the retrieval accuracy and information capacity. A novel theory to optimize memory performance in such networks is presented and compared with simulation experiments. The theory describes linear readout of analog data, and readout with winner-take-all error correction of symbolic data as proposed in VSA models. We find that diverse VSA models from the literature have universal performance properties, which are superior to what previous analyses predicted. Further, we propose novel VSA models with the statistically optimal Wiener filter in the readout that exhibit much higher information capacity, in particular for storing analog data.
+  The presented theory also applies to memory buffers, networks with gradual forgetting, which can operate on infinite data streams without memory overflow. Interestingly, we find that different forgetting mechanisms, such as attenuating recurrent weights or neural nonlinearities, produce very similar behavior if the forgetting time constants are aligned. Such models exhibit extensive capacity when their forgetting time constant is optimized for given noise conditions and network size. These results enable the design of new types of VSA models for the online processing of data streams.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-28T17:54:24Z</published>
+    <arxiv:comment>62 pages, 19 Figures, 85 equations, accepted in Neural Computation. arXiv admin note: text overlap with arXiv:1707.01429</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>E. Paxon Frady</name>
+    </author>
+    <author>
+      <name>Denis Kleyko</name>
+    </author>
+    <author>
+      <name>Friedrich T. Sommer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.12034v2</id>
+    <title>Human-like Forgetting Curves in Deep Neural Networks</title>
+    <updated>2025-06-19T17:04:13Z</updated>
+    <link href="https://arxiv.org/abs/2506.12034v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.12034v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study bridges cognitive science and neural network design by examining whether artificial models exhibit human-like forgetting curves. Drawing upon Ebbinghaus' seminal work on memory decay and principles of spaced repetition, we propose a quantitative framework to measure information retention in neural networks. Our approach computes the recall probability by evaluating the similarity between a network's current hidden state and previously stored prototype representations. This retention metric facilitates the scheduling of review sessions, thereby mitigating catastrophic forgetting during deployment and enhancing training efficiency by prompting targeted reviews. Our experiments with Multi-Layer Perceptrons reveal human-like forgetting curves, with knowledge becoming increasingly robust through scheduled reviews. This alignment between neural network forgetting curves and established human memory models identifies neural networks as an architecture that naturally emulates human memory decay and can inform state-of-the-art continual learning algorithms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-22T22:51:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dylan Kline</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.17394v2</id>
+    <title>Continual learning with the neural tangent ensemble</title>
+    <updated>2025-02-27T17:09:51Z</updated>
+    <link href="https://arxiv.org/abs/2408.17394v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.17394v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A natural strategy for continual learning is to weigh a Bayesian ensemble of fixed functions. This suggests that if a (single) neural network could be interpreted as an ensemble, one could design effective algorithms that learn without forgetting. To realize this possibility, we observe that a neural network classifier with N parameters can be interpreted as a weighted ensemble of N classifiers, and that in the lazy regime limit these classifiers are fixed throughout learning. We call these classifiers the neural tangent experts and show they output valid probability distributions over the labels. We then derive the likelihood and posterior probability of each expert given past data. Surprisingly, the posterior updates for these experts are equivalent to a scaled and projected form of stochastic gradient descent (SGD) over the network weights. Away from the lazy regime, networks can be seen as ensembles of adaptive experts which improve over time. These results offer a new interpretation of neural networks as Bayesian ensembles of experts, providing a principled framework for understanding and mitigating catastrophic forgetting in continual learning settings.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-30T16:29:09Z</published>
+    <arxiv:comment>Presented as a spotlight paper at NeurIPS, 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Neural Information Processing Systems 34 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Ari S. Benjamin</name>
+    </author>
+    <author>
+      <name>Christian Pehle</name>
+    </author>
+    <author>
+      <name>Kyle Daruwalla</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.13569v1</id>
+    <title>Bayesian continual learning and forgetting in neural networks</title>
+    <updated>2025-04-18T09:11:34Z</updated>
+    <link href="https://arxiv.org/abs/2504.13569v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.13569v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Biological synapses effortlessly balance memory retention and flexibility, yet artificial neural networks still struggle with the extremes of catastrophic forgetting and catastrophic remembering. Here, we introduce Metaplasticity from Synaptic Uncertainty (MESU), a Bayesian framework that updates network parameters according their uncertainty. This approach allows a principled combination of learning and forgetting that ensures that critical knowledge is preserved while unused or outdated information is gradually released. Unlike standard Bayesian approaches -- which risk becoming overly constrained, and popular continual-learning methods that rely on explicit task boundaries, MESU seamlessly adapts to streaming data. It further provides reliable epistemic uncertainty estimates, allowing out-of-distribution detection, the only computational cost being to sample the weights multiple times to provide proper output statistics. Experiments on image-classification benchmarks demonstrate that MESU mitigates catastrophic forgetting, while maintaining plasticity for new tasks. When training 200 sequential permuted MNIST tasks, MESU outperforms established continual learning techniques in terms of accuracy, capability to learn additional tasks, and out-of-distribution data detection. Additionally, due to its non-reliance on task boundaries, MESU outperforms conventional learning techniques on the incremental training of CIFAR-100 tasks consistently in a wide range of scenarios. Our results unify ideas from metaplasticity, Bayesian inference, and Hessian-based regularization, offering a biologically-inspired pathway to robust, perpetual learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-18T09:11:34Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Djohan Bonnet</name>
+    </author>
+    <author>
+      <name>Kellian Cottart</name>
+    </author>
+    <author>
+      <name>Tifenn Hirtzlin</name>
+    </author>
+    <author>
+      <name>Tarcisius Januel</name>
+    </author>
+    <author>
+      <name>Thomas Dalgaty</name>
+    </author>
+    <author>
+      <name>Elisa Vianello</name>
+    </author>
+    <author>
+      <name>Damien Querlioz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.04170v2</id>
+    <title>Meta-learnt priors slow down catastrophic forgetting in neural networks</title>
+    <updated>2020-02-09T16:39:32Z</updated>
+    <link href="https://arxiv.org/abs/1909.04170v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.04170v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current training regimes for deep learning usually involve exposure to a single task / dataset at a time. Here we start from the observation that in this context the trained model is not given any knowledge of anything outside its (single-task) training distribution, and has thus no way to learn parameters (i.e., feature detectors or policies) that could be helpful to solve other tasks, and to limit future interference with the acquired knowledge, and thus catastrophic forgetting. Here we show that catastrophic forgetting can be mitigated in a meta-learning context, by exposing a neural network to multiple tasks in a sequential manner during training. Finally, we present SeqFOMAML, a meta-learning algorithm that implements these principles, and we evaluate it on sequential learning problems composed by Omniglot and MiniImageNet classification tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-09T21:46:19Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Giacomo Spigler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00805v1</id>
+    <title>ChronoPlastic Spiking Neural Networks</title>
+    <updated>2025-12-17T06:58:04Z</updated>
+    <link href="https://arxiv.org/abs/2601.00805v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.00805v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spiking neural networks (SNNs) offer a biologically grounded and energy-efficient alternative to conventional neural architectures; however, they struggle with long-range temporal dependencies due to fixed synaptic and membrane time constants. This paper introduces ChronoPlastic Spiking Neural Networks (CPSNNs), a novel architectural principle that enables adaptive temporal credit assignment by dynamically modulating synaptic decay rates conditioned on the state of the network. CPSNNs maintain multiple internal temporal traces and learn a continuous time-warping function that selectively preserves task-relevant information while rapidly forgetting noise. Unlike prior approaches based on adaptive membrane constants, attention mechanisms, or external memory, CPSNNs embed temporal control directly within local synaptic dynamics, preserving linear-time complexity and neuromorphic compatibility. We provide a formal description of the model, analyze its computational properties, and demonstrate empirically that CPSNNs learn long-gap temporal dependencies significantly faster and more reliably than standard SNN baselines. Our results suggest that adaptive temporal modulation is a key missing ingredient for scalable temporal learning in spiking systems.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-17T06:58:04Z</published>
+    <arxiv:comment>21 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Sarim Chaudhry</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.11604v1</id>
+    <title>Learning in Deep Neural Networks Using a Biologically Inspired Optimizer</title>
+    <updated>2021-04-23T13:50:30Z</updated>
+    <link href="https://arxiv.org/abs/2104.11604v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.11604v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Plasticity circuits in the brain are known to be influenced by the distribution of the synaptic weights through the mechanisms of synaptic integration and local regulation of synaptic strength. However, the complex interplay of stimulation-dependent plasticity with local learning signals is disregarded by most of the artificial neural network training algorithms devised so far. Here, we propose a novel biologically inspired optimizer for artificial (ANNs) and spiking neural networks (SNNs) that incorporates key principles of synaptic integration observed in dendrites of cortical neurons: GRAPES (Group Responsibility for Adjusting the Propagation of Error Signals). GRAPES implements a weight-distribution dependent modulation of the error signal at each node of the neural network. We show that this biologically inspired mechanism leads to a systematic improvement of the convergence rate of the network, and substantially improves classification accuracy of ANNs and SNNs with both feedforward and recurrent architectures. Furthermore, we demonstrate that GRAPES supports performance scalability for models of increasing complexity and mitigates catastrophic forgetting by enabling networks to generalize to unseen tasks based on previously acquired knowledge. The local characteristics of GRAPES minimize the required memory resources, making it optimally suited for dedicated hardware implementations. Overall, our work indicates that reconciling neurophysiology insights with machine intelligence is key to boosting the performance of neural networks.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-23T13:50:30Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Giorgia Dellaferrera</name>
+    </author>
+    <author>
+      <name>Stanislaw Wozniak</name>
+    </author>
+    <author>
+      <name>Giacomo Indiveri</name>
+    </author>
+    <author>
+      <name>Angeliki Pantazi</name>
+    </author>
+    <author>
+      <name>Evangelos Eleftheriou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.01429v1</id>
+    <title>Theory of the superposition principle for randomized connectionist representations in neural networks</title>
+    <updated>2017-07-05T15:18:09Z</updated>
+    <link href="https://arxiv.org/abs/1707.01429v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.01429v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To understand cognitive reasoning in the brain, it has been proposed that symbols and compositions of symbols are represented by activity patterns (vectors) in a large population of neurons. Formal models implementing this idea [Plate 2003], [Kanerva 2009], [Gayler 2003], [Eliasmith 2012] include a reversible superposition operation for representing with a single vector an entire set of symbols or an ordered sequence of symbols. If the representation space is high-dimensional, large sets of symbols can be superposed and individually retrieved. However, crosstalk noise limits the accuracy of retrieval and information capacity. To understand information processing in the brain and to design artificial neural systems for cognitive reasoning, a theory of this superposition operation is essential. Here, such a theory is presented. The superposition operations in different existing models are mapped to linear neural networks with unitary recurrent matrices, in which retrieval accuracy can be analyzed by a single equation. We show that networks representing information in superposition can achieve a channel capacity of about half a bit per neuron, a significant fraction of the total available entropy. Going beyond existing models, superposition operations with recency effects are proposed that avoid catastrophic forgetting when representing the history of infinite data streams. These novel models correspond to recurrent networks with non-unitary matrices or with nonlinear neurons, and can be analyzed and optimized with an extension of our theory.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-05T15:18:09Z</published>
+    <arxiv:comment>42 pages, 13 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>E. Paxon Frady</name>
+    </author>
+    <author>
+      <name>Denis Kleyko</name>
+    </author>
+    <author>
+      <name>Friedrich T. Sommer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.01052v2</id>
+    <title>Weight Friction: A Simple Method to Overcome Catastrophic Forgetting and Enable Continual Learning</title>
+    <updated>2019-08-17T20:41:24Z</updated>
+    <link href="https://arxiv.org/abs/1908.01052v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.01052v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, deep neural networks have found success in replicating human-level cognitive skills, yet they suffer from several major obstacles. One significant limitation is the inability to learn new tasks without forgetting previously learned tasks, a shortcoming known as catastrophic forgetting. In this research, we propose a simple method to overcome catastrophic forgetting and enable continual learning in neural networks. We draw inspiration from principles in neurology and physics to develop the concept of weight friction. Weight friction operates by a modification to the update rule in the gradient descent optimization method. It converges at a rate comparable to that of the stochastic gradient descent algorithm and can operate over multiple task domains. It performs comparably to current methods while offering improvements in computation and memory efficiency.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-02T20:55:46Z</published>
+    <arxiv:comment>9 pages, 6 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Gabrielle K. Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.14785v1</id>
+    <title>Understanding Imbalanced Forgetting in Rehearsal-Based Class-Incremental Learning</title>
+    <updated>2026-05-14T12:55:07Z</updated>
+    <link href="https://arxiv.org/abs/2605.14785v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.14785v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural networks suffer from catastrophic forgetting in class-incremental learning (CIL) settings. Rehearsal$\unicode{x2013}$replaying a subset of past samples$\unicode{x2013}$is a well-established mitigation strategy. However, recent results suggest that, despite balanced rehearsal allocation, some classes are forgotten substantially more than others. Despite its relevance, this imbalanced forgetting phenomenon remains underexplored. This work shows that imbalanced forgetting arises systematically and severely in rehearsal-based CIL and investigates it extensively. Specifically, we construct, from a principled analysis, three last-layer coefficients that capture different gradient-level sources of interference affecting each past class during an incremental step. We then demonstrate that, together, they reliably predict how past classes will rank in terms of forgetting at the end of that step. While predictive performance alone does not establish causality, these results support the interpretation of the coefficients as a plausible mechanistic account linking last-layer gradient-level interactions during training to class-level forgetting outcomes. Notably, one coefficient$\unicode{x2013}$capturing self-induced interference$\unicode{x2013}$emerges as the strongest predictor, with controlled experiments providing evidence consistent with this coefficient being influenced by the new-class interference coefficient. Overall, our findings provide valuable insights and suggest promising directions for mitigating imbalanced forgetting by reducing class-wise disparities in the identified sources of interference.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-14T12:55:07Z</published>
+    <arxiv:comment>37 pages; 24 tables; 7 figures; submitted to a journal</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alberto Tamajo</name>
+    </author>
+    <author>
+      <name>Srinandan Dasmahapatra</name>
+    </author>
+    <author>
+      <name>Rahman Attar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.06738v1</id>
+    <title>A Study of Biologically Plausible Neural Network: The Role and Interactions of Brain-Inspired Mechanisms in Continual Learning</title>
+    <updated>2023-04-13T16:34:12Z</updated>
+    <link href="https://arxiv.org/abs/2304.06738v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.06738v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humans excel at continually acquiring, consolidating, and retaining information from an ever-changing environment, whereas artificial neural networks (ANNs) exhibit catastrophic forgetting. There are considerable differences in the complexity of synapses, the processing of information, and the learning mechanisms in biological neural networks and their artificial counterparts, which may explain the mismatch in performance. We consider a biologically plausible framework that constitutes separate populations of exclusively excitatory and inhibitory neurons that adhere to Dale's principle, and the excitatory pyramidal neurons are augmented with dendritic-like structures for context-dependent processing of stimuli. We then conduct a comprehensive study on the role and interactions of different mechanisms inspired by the brain, including sparse non-overlapping representations, Hebbian learning, synaptic consolidation, and replay of past activations that accompanied the learning event. Our study suggests that the employing of multiple complementary mechanisms in a biologically plausible architecture, similar to the brain, may be effective in enabling continual learning in ANNs.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-13T16:34:12Z</published>
+    <arxiv:comment>Published in Transactions on Machine Learning Research (TMLR)</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Fahad Sarfraz</name>
+    </author>
+    <author>
+      <name>Elahe Arani</name>
+    </author>
+    <author>
+      <name>Bahram Zonooz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.10778v4</id>
+    <title>Training Binary Neural Networks using the Bayesian Learning Rule</title>
+    <updated>2020-08-18T00:48:15Z</updated>
+    <link href="https://arxiv.org/abs/2002.10778v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.10778v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural networks with binary weights are computation-efficient and hardware-friendly, but their training is challenging because it involves a discrete optimization problem. Surprisingly, ignoring the discrete nature of the problem and using gradient-based methods, such as the Straight-Through Estimator, still works well in practice. This raises the question: are there principled approaches which justify such methods? In this paper, we propose such an approach using the Bayesian learning rule. The rule, when applied to estimate a Bernoulli distribution over the binary weights, results in an algorithm which justifies some of the algorithmic choices made by the previous approaches. The algorithm not only obtains state-of-the-art performance, but also enables uncertainty estimation for continual learning to avoid catastrophic forgetting. Our work provides a principled approach for training binary neural networks which justifies and extends existing approaches.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-25T10:20:10Z</published>
+    <arxiv:comment>accepted by ICML 2020, the camera-ready version</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xiangming Meng</name>
+    </author>
+    <author>
+      <name>Roman Bachmann</name>
+    </author>
+    <author>
+      <name>Mohammad Emtiyaz Khan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.14115v2</id>
+    <title>Principles of Forgetting in Domain-Incremental Semantic Segmentation in Adverse Weather Conditions</title>
+    <updated>2023-06-12T11:54:25Z</updated>
+    <link href="https://arxiv.org/abs/2303.14115v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.14115v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks for scene perception in automated vehicles achieve excellent results for the domains they were trained on. However, in real-world conditions, the domain of operation and its underlying data distribution are subject to change. Adverse weather conditions, in particular, can significantly decrease model performance when such data are not available during training.Additionally, when a model is incrementally adapted to a new domain, it suffers from catastrophic forgetting, causing a significant drop in performance on previously observed domains. Despite recent progress in reducing catastrophic forgetting, its causes and effects remain obscure. Therefore, we study how the representations of semantic segmentation models are affected during domain-incremental learning in adverse weather conditions. Our experiments and representational analyses indicate that catastrophic forgetting is primarily caused by changes to low-level features in domain-incremental learning and that learning more general features on the source domain using pre-training and image augmentations leads to efficient feature reuse in subsequent tasks, which drastically reduces catastrophic forgetting. These findings highlight the importance of methods that facilitate generalized features for effective continual learning algorithms.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-24T16:23:49Z</published>
+    <arxiv:comment>Accepted at IEEE/CVF Conference on Computer Vision and Pattern Recognition 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tobias Kalb</name>
+    </author>
+    <author>
+      <name>Jürgen Beyerer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.04924v1</id>
+    <title>A bio-inspired implementation of a sparse-learning spike-based hippocampus memory model</title>
+    <updated>2022-06-10T07:48:29Z</updated>
+    <link href="https://arxiv.org/abs/2206.04924v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.04924v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The nervous system, more specifically, the brain, is capable of solving complex problems simply and efficiently, far surpassing modern computers. In this regard, neuromorphic engineering is a research field that focuses on mimicking the basic principles that govern the brain in order to develop systems that achieve such computational capabilities. Within this field, bio-inspired learning and memory systems are still a challenge to be solved, and this is where the hippocampus is involved. It is the region of the brain that acts as a short-term memory, allowing the learning and unstructured and rapid storage of information from all the sensory nuclei of the cerebral cortex and its subsequent recall. In this work, we propose a novel bio-inspired memory model based on the hippocampus with the ability to learn memories, recall them from a cue (a part of the memory associated with the rest of the content) and even forget memories when trying to learn others with the same cue. This model has been implemented on the SpiNNaker hardware platform using Spiking Neural Networks, and a set of experiments and tests were performed to demonstrate its correct and expected operation. The proposed spike-based memory model generates spikes only when it receives an input, being energy efficient, and it needs 7 timesteps for the learning step and 6 timesteps for recalling a previously-stored memory. This work presents the first hardware implementation of a fully functional bio-inspired spike-based hippocampus memory model, paving the road for the development of future more complex neuromorphic systems.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-10T07:48:29Z</published>
+    <arxiv:comment>15 pages, 7 figures, 3 tables, journal, Neural Networks</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Daniel Casanueva-Morato</name>
+    </author>
+    <author>
+      <name>Alvaro Ayuso-Martinez</name>
+    </author>
+    <author>
+      <name>Juan P. Dominguez-Morales</name>
+    </author>
+    <author>
+      <name>Angel Jimenez-Fernandez</name>
+    </author>
+    <author>
+      <name>Gabriel Jimenez-Moreno</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.11129v1</id>
+    <title>Multi-lingual agents through multi-headed neural networks</title>
+    <updated>2021-11-22T11:39:42Z</updated>
+    <link href="https://arxiv.org/abs/2111.11129v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.11129v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper considers cooperative Multi-Agent Reinforcement Learning, focusing on emergent communication in settings where multiple pairs of independent learners interact at varying frequencies. In this context, multiple distinct and incompatible languages can emerge. When an agent encounters a speaker of an alternative language, there is a requirement for a period of adaptation before they can efficiently converse. This adaptation results in the emergence of a new language and the forgetting of the previous language. In principle, this is an example of the Catastrophic Forgetting problem which can be mitigated by enabling the agents to learn and maintain multiple languages. We take inspiration from the Continual Learning literature and equip our agents with multi-headed neural networks which enable our agents to be multi-lingual. Our method is empirically validated within a referential MNIST based communication game and is shown to be able to maintain multiple languages where existing approaches cannot.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-22T11:39:42Z</published>
+    <arxiv:comment>Cooperative AI workshop NeurIPS 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>J. D. Thomas</name>
+    </author>
+    <author>
+      <name>R. Santos-Rodríguez</name>
+    </author>
+    <author>
+      <name>R. Piechocki</name>
+    </author>
+    <author>
+      <name>M. Anca</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.00689v2</id>
+    <title>A Neural Dirichlet Process Mixture Model for Task-Free Continual Learning</title>
+    <updated>2020-01-14T23:32:01Z</updated>
+    <link href="https://arxiv.org/abs/2001.00689v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.00689v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite the growing interest in continual learning, most of its contemporary works have been studied in a rather restricted setting where tasks are clearly distinguishable, and task boundaries are known during training. However, if our goal is to develop an algorithm that learns as humans do, this setting is far from realistic, and it is essential to develop a methodology that works in a task-free manner. Meanwhile, among several branches of continual learning, expansion-based methods have the advantage of eliminating catastrophic forgetting by allocating new resources to learn new data. In this work, we propose an expansion-based approach for task-free continual learning. Our model, named Continual Neural Dirichlet Process Mixture (CN-DPM), consists of a set of neural network experts that are in charge of a subset of the data. CN-DPM expands the number of experts in a principled way under the Bayesian nonparametric framework. With extensive experiments, we show that our model successfully performs task-free continual learning for both discriminative and generative tasks such as image classification and image generation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-03T02:07:31Z</published>
+    <arxiv:comment>Accepted as a conference paper at ICLR 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Soochan Lee</name>
+    </author>
+    <author>
+      <name>Junsoo Ha</name>
+    </author>
+    <author>
+      <name>Dongsu Zhang</name>
+    </author>
+    <author>
+      <name>Gunhee Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.15015v2</id>
+    <title>Towards Open Temporal Graph Neural Networks</title>
+    <updated>2023-05-25T15:01:11Z</updated>
+    <link href="https://arxiv.org/abs/2303.15015v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.15015v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph neural networks (GNNs) for temporal graphs have recently attracted increasing attentions, where a common assumption is that the class set for nodes is closed. However, in real-world scenarios, it often faces the open set problem with the dynamically increased class set as the time passes by. This will bring two big challenges to the existing dynamic GNN methods: (i) How to dynamically propagate appropriate information in an open temporal graph, where new class nodes are often linked to old class nodes. This case will lead to a sharp contradiction. This is because typical GNNs are prone to make the embeddings of connected nodes become similar, while we expect the embeddings of these two interactive nodes to be distinguishable since they belong to different classes. (ii) How to avoid catastrophic knowledge forgetting over old classes when learning new classes occurred in temporal graphs. In this paper, we propose a general and principled learning approach for open temporal graphs, called OTGNet, with the goal of addressing the above two challenges. We assume the knowledge of a node can be disentangled into class-relevant and class-agnostic one, and thus explore a new message passing mechanism by extending the information bottleneck principle to only propagate class-agnostic knowledge between nodes of different classes, avoiding aggregating conflictive information. Moreover, we devise a strategy to select both important and diverse triad sub-graph structures for effective class-incremental learning. Extensive experiments on three real-world datasets of different domains demonstrate the superiority of our method, compared to the baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-27T08:58:22Z</published>
+    <arxiv:comment>ICLR 2023 Oral, code is available at: https://github.com/tulerfeng/OTGNet</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kaituo Feng</name>
+    </author>
+    <author>
+      <name>Changsheng Li</name>
+    </author>
+    <author>
+      <name>Xiaolu Zhang</name>
+    </author>
+    <author>
+      <name>Jun Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.08447v1</id>
+    <title>Not Just After One: Sleep-Inspired Replay Prevents Catastrophic Forgetting After Sequential Tasks</title>
+    <updated>2026-06-07T04:27:54Z</updated>
+    <link href="https://arxiv.org/abs/2606.08447v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.08447v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the critical limitations of artificial neural networks is their lack of ability to continually learn: training on new tasks often leads to interference and forgetting of the previous ones. While several algorithms have been proposed to protect old memories from interference, they are typically applied during or immediately after each new episode of training. In contrast, humans and animals can learn continuously, acquiring multiple new memories during active learning before consolidating all of them into long-term storage. Here we show that multiple new tasks can be trained sequentially before an unsupervised sleep-like replay phase is applied to partially restore performance across all previously learned tasks. Our study further suggests that task-specific information remains resilient to new training but decays gradually as network is trained on new tasks. These findings point to novel principles for developing a broad range of continual learning AI solutions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-07T04:27:54Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anthony Bazhenov</name>
+    </author>
+    <author>
+      <name>Jean Erik Delanois</name>
+    </author>
+    <author>
+      <name>Giri P. Krishnan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.08860v1</id>
+    <title>Brain in the Dark: Design Principles for Neuromimetic Inference under the Free Energy Principle</title>
+    <updated>2025-02-13T00:18:47Z</updated>
+    <link href="https://arxiv.org/abs/2502.08860v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.08860v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning has revolutionised artificial intelligence (AI) by enabling automatic feature extraction and function approximation from raw data. However, it faces challenges such as a lack of out-of-distribution generalisation, catastrophic forgetting and poor interpretability. In contrast, biological neural networks, such as those in the human brain, do not suffer from these issues, inspiring AI researchers to explore neuromimetic deep learning, which aims to replicate brain mechanisms within AI models. A foundational theory for this approach is the Free Energy Principle (FEP), which despite its potential, is often considered too complex to understand and implement in AI as it requires an interdisciplinary understanding across a variety of fields. This paper seeks to demystify the FEP and provide a comprehensive framework for designing neuromimetic models with human-like perception capabilities. We present a roadmap for implementing these models and a Pytorch code repository for applying FEP in a predictive coding network.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-13T00:18:47Z</published>
+    <arxiv:comment>14 pages, 4 figures, 1 GitHub repository</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Mehran H. Bazargani</name>
+    </author>
+    <author>
+      <name>Szymon Urbas</name>
+    </author>
+    <author>
+      <name>Karl Friston</name>
+    </author>
+  </entry>
+</feed>

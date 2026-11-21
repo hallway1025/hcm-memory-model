@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Mw/LyDeGeLjeYCb10ytzdzKl+zI</id>
+  <title>arXiv Query: search_query=all:feature AND all:hashing&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T13:53:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:feature+AND+all:hashing&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>771</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2102.03943v1</id>
+    <title>Additive Feature Hashing</title>
+    <updated>2021-02-07T23:15:04Z</updated>
+    <link href="https://arxiv.org/abs/2102.03943v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.03943v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The hashing trick is a machine learning technique used to encode categorical features into a numerical vector representation of pre-defined fixed length. It works by using the categorical hash values as vector indices, and updating the vector values at those indices. Here we discuss a different approach based on additive-hashing and the "almost orthogonal" property of high-dimensional random vectors. That is, we show that additive feature hashing can be performed directly by adding the hash values and converting them into high-dimensional numerical vectors. We show that the performance of additive feature hashing is similar to the hashing trick, and we illustrate the results numerically using synthetic, language recognition, and SMS spam detection data.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-07T23:15:04Z</published>
+    <arxiv:comment>11 pages 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>M. Andrecut</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.08940v1</id>
+    <title>Hash2Vec, Feature Hashing for Word Embeddings</title>
+    <updated>2016-08-31T17:01:09Z</updated>
+    <link href="https://arxiv.org/abs/1608.08940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.08940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we propose the application of feature hashing to create word embeddings for natural language processing. Feature hashing has been used successfully to create document vectors in related tasks like document classification. In this work we show that feature hashing can be applied to obtain word embeddings in linear time with the size of the data. The results show that this algorithm, that does not need training, is able to capture the semantic meaning of words. We compare the results against GloVe showing that they are similar. As far as we know this is the first application of feature hashing to the word embeddings problem and the results indicate this is a scalable technique with practical results for NLP applications.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-31T17:01:09Z</published>
+    <arxiv:comment>ASAI 2016, 45JAIIO</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>45 JAIIO - ASAI 2016 - ISSN: 2451-7585 - Pages 33-40</arxiv:journal_ref>
+    <author>
+      <name>Luis Argerich</name>
+    </author>
+    <author>
+      <name>Joaquín Torré Zaffaroni</name>
+    </author>
+    <author>
+      <name>Matías J Cano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.03855v2</id>
+    <title>Feature Learning based Deep Supervised Hashing with Pairwise Labels</title>
+    <updated>2016-04-21T09:27:38Z</updated>
+    <link href="https://arxiv.org/abs/1511.03855v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.03855v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent years have witnessed wide application of hashing for large-scale image retrieval. However, most existing hashing methods are based on hand-crafted features which might not be optimally compatible with the hashing procedure. Recently, deep hashing methods have been proposed to perform simultaneous feature learning and hash-code learning with deep neural networks, which have shown better performance than traditional hashing methods with hand-crafted features. Most of these deep hashing methods are supervised whose supervised information is given with triplet labels. For another common application scenario with pairwise labels, there have not existed methods for simultaneous feature learning and hash-code learning. In this paper, we propose a novel deep hashing method, called deep pairwise-supervised hashing(DPSH), to perform simultaneous feature learning and hash-code learning for applications with pairwise labels. Experiments on real datasets show that our DPSH method can outperform other methods to achieve the state-of-the-art performance in image retrieval applications.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-12T11:11:42Z</published>
+    <arxiv:comment>IJCAI 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Wu-Jun Li</name>
+    </author>
+    <author>
+      <name>Sheng Wang</name>
+    </author>
+    <author>
+      <name>Wang-Cheng Kang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.02325v1</id>
+    <title>Feature Pyramid Hashing</title>
+    <updated>2019-04-04T03:05:39Z</updated>
+    <link href="https://arxiv.org/abs/1904.02325v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.02325v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, deep-networks-based hashing has become a leading approach for large-scale image retrieval. Most deep hashing approaches use the high layer to extract the powerful semantic representations. However, these methods have limited ability for fine-grained image retrieval because the semantic features extracted from the high layer are difficult in capturing the subtle differences. To this end, we propose a novel two-pyramid hashing architecture to learn both the semantic information and the subtle appearance details for fine-grained image search. Inspired by the feature pyramids of convolutional neural network, a vertical pyramid is proposed to capture the high-layer features and a horizontal pyramid combines multiple low-layer features with structural information to capture the subtle differences. To fuse the low-level features, a novel combination strategy, called consensus fusion, is proposed to capture all subtle information from several low-layers for finer retrieval. Extensive evaluation on two fine-grained datasets CUB-200-2011 and Stanford Dogs demonstrate that the proposed method achieves significant performance compared with the state-of-art baselines.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-04T03:05:39Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yifan Yang</name>
+    </author>
+    <author>
+      <name>Libing Geng</name>
+    </author>
+    <author>
+      <name>Hanjiang Lai</name>
+    </author>
+    <author>
+      <name>Yan Pan</name>
+    </author>
+    <author>
+      <name>Jian Yin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.01754v2</id>
+    <title>Enhance Feature Discrimination for Unsupervised Hashing</title>
+    <updated>2017-07-04T03:30:42Z</updated>
+    <link href="https://arxiv.org/abs/1704.01754v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.01754v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a novel approach to improve unsupervised hashing. Specifically, we propose a very efficient embedding method: Gaussian Mixture Model embedding (Gemb). The proposed method, using Gaussian Mixture Model, embeds feature vector into a low-dimensional vector and, simultaneously, enhances the discriminative property of features before passing them into hashing. Our experiment shows that the proposed method boosts the hashing performance of many state-of-the-art, e.g. Binary Autoencoder (BA) [1], Iterative Quantization (ITQ) [2], in standard evaluation metrics for the three main benchmark datasets.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-06T08:58:39Z</published>
+    <arxiv:comment>Accepted to ICIP 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tuan Hoang</name>
+    </author>
+    <author>
+      <name>Thanh-Toan Do</name>
+    </author>
+    <author>
+      <name>Dang-Khoa Le Tan</name>
+    </author>
+    <author>
+      <name>Ngai-Man Cheung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.00860v1</id>
+    <title>Simultaneous Feature Aggregating and Hashing for Large-scale Image Search</title>
+    <updated>2017-04-04T03:04:30Z</updated>
+    <link href="https://arxiv.org/abs/1704.00860v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.00860v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In most state-of-the-art hashing-based visual search systems, local image descriptors of an image are first aggregated as a single feature vector. This feature vector is then subjected to a hashing function that produces a binary hash code. In previous work, the aggregating and the hashing processes are designed independently. In this paper, we propose a novel framework where feature aggregating and hashing are designed simultaneously and optimized jointly. Specifically, our joint optimization produces aggregated representations that can be better reconstructed by some binary codes. This leads to more discriminative binary hash codes and improved retrieval accuracy. In addition, we also propose a fast version of the recently-proposed Binary Autoencoder to be used in our proposed framework. We perform extensive retrieval experiments on several benchmark datasets with both SIFT and convolutional features. Our results suggest that the proposed framework achieves significant improvements over the state of the art.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-04T03:04:30Z</published>
+    <arxiv:comment>Accepted to CVPR 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Thanh-Toan Do</name>
+    </author>
+    <author>
+      <name>Dang-Khoa Le Tan</name>
+    </author>
+    <author>
+      <name>Trung T. Pham</name>
+    </author>
+    <author>
+      <name>Ngai-Man Cheung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.06825v1</id>
+    <title>Evaluation of Hashing Methods Performance on Binary Feature Descriptors</title>
+    <updated>2017-07-21T10:17:33Z</updated>
+    <link href="https://arxiv.org/abs/1707.06825v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.06825v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we evaluate performance of data-dependent hashing methods on binary data. The goal is to find a hashing method that can effectively produce lower dimensional binary representation of 512-bit FREAK descriptors. A representative sample of recent unsupervised, semi-supervised and supervised hashing methods was experimentally evaluated on large datasets of labelled binary FREAK feature descriptors.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-21T10:17:33Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jacek Komorowski</name>
+    </author>
+    <author>
+      <name>Tomasz Trzcinski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.03410v1</id>
+    <title>Simultaneous Feature Learning and Hash Coding with Deep Neural Networks</title>
+    <updated>2015-04-14T03:14:24Z</updated>
+    <link href="https://arxiv.org/abs/1504.03410v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.03410v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Similarity-preserving hashing is a widely-used method for nearest neighbour search in large-scale image retrieval tasks. For most existing hashing methods, an image is first encoded as a vector of hand-engineering visual features, followed by another separate projection or quantization step that generates binary codes. However, such visual feature vectors may not be optimally compatible with the coding process, thus producing sub-optimal hashing codes. In this paper, we propose a deep architecture for supervised hashing, in which images are mapped into binary codes via carefully designed deep neural networks. The pipeline of the proposed deep architecture consists of three building blocks: 1) a sub-network with a stack of convolution layers to produce the effective intermediate image features; 2) a divide-and-encode module to divide the intermediate image features into multiple branches, each encoded into one hash bit; and 3) a triplet ranking loss designed to characterize that one image is more similar to the second image than to the third one. Extensive evaluations on several benchmark image datasets show that the proposed simultaneous feature learning and hash coding pipeline brings substantial improvements over other state-of-the-art supervised or unsupervised hashing methods.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-14T03:14:24Z</published>
+    <arxiv:comment>This paper has been accepted to IEEE International Conference on Pattern Recognition and Computer Vision (CVPR), 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Hanjiang Lai</name>
+    </author>
+    <author>
+      <name>Yan Pan</name>
+    </author>
+    <author>
+      <name>Ye Liu</name>
+    </author>
+    <author>
+      <name>Shuicheng Yan</name>
+    </author>
+    <arxiv:doi>10.1109/CVPR.2015.7298947</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/CVPR.2015.7298947" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.2206v5</id>
+    <title>Feature Hashing for Large Scale Multitask Learning</title>
+    <updated>2010-02-27T15:32:35Z</updated>
+    <link href="https://arxiv.org/abs/0902.2206v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.2206v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Empirical evidence suggests that hashing is an effective strategy for dimensionality reduction and practical nonparametric estimation. In this paper we provide exponential tail bounds for feature hashing and show that the interaction between random subspaces is negligible with high probability. We demonstrate the feasibility of this approach with experimental results for a new use case -- multitask learning with hundreds of thousands of tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-12T20:06:36Z</published>
+    <arxiv:comment>Fixed broken theorem</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kilian Weinberger</name>
+    </author>
+    <author>
+      <name>Anirban Dasgupta</name>
+    </author>
+    <author>
+      <name>Josh Attenberg</name>
+    </author>
+    <author>
+      <name>John Langford</name>
+    </author>
+    <author>
+      <name>Alex Smola</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.01474v1</id>
+    <title>Bilinear Supervised Hashing Based on 2D Image Features</title>
+    <updated>2019-01-05T23:39:27Z</updated>
+    <link href="https://arxiv.org/abs/1901.01474v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.01474v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hashing has been recognized as an efficient representation learning method to effectively handle big data due to its low computational complexity and memory cost. Most of the existing hashing methods focus on learning the low-dimensional vectorized binary features based on the high-dimensional raw vectorized features. However, studies on how to obtain preferable binary codes from the original 2D image features for retrieval is very limited. This paper proposes a bilinear supervised discrete hashing (BSDH) method based on 2D image features which utilizes bilinear projections to binarize the image matrix features such that the intrinsic characteristics in the 2D image space are preserved in the learned binary codes. Meanwhile, the bilinear projection approximation and vectorization binary codes regression are seamlessly integrated together to formulate the final robust learning framework. Furthermore, a discrete optimization strategy is developed to alternatively update each variable for obtaining the high-quality binary codes. In addition, two 2D image features, traditional SURF-based FVLAD feature and CNN-based AlexConv5 feature are designed for further improving the performance of the proposed BSDH method. Results of extensive experiments conducted on four benchmark datasets show that the proposed BSDH method almost outperforms all competing hashing methods with different input features by different evaluation protocols.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-05T23:39:27Z</published>
+    <arxiv:comment>Accepted by IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yujuan Ding</name>
+    </author>
+    <author>
+      <name>Wai Kueng Wong</name>
+    </author>
+    <author>
+      <name>Zhihui Lai</name>
+    </author>
+    <author>
+      <name>Zheng Zhang</name>
+    </author>
+  </entry>
+</feed>

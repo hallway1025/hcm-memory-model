@@ -1,0 +1,618 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PAM0ON+JTR8kK4auVyTJQETsGG4</id>
+  <title>arXiv Query: search_query=all:retrieval AND all:augmented AND all:agent AND all:long-term AND all:memory AND submittedDate:"202301010000 TO 202612312359"&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-11-07T11:35:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:retrieval+AND+(all:augmented+AND+(all:agent+AND+(all:long-term+AND+(all:memory+AND+submittedDate:%22202301010000+TO+202612312359%22))))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>110</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06052v4</id>
+    <title>A Survey of Agent Memory in the Second Half: Towards Self-Evolving and Long-Horizon Agents</title>
+    <updated>2026-08-04T20:54:45Z</updated>
+    <link href="https://arxiv.org/abs/2602.06052v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06052v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Research in artificial intelligence is shifting from model innovations and benchmark scores towards problem definition and rigorous real-world evaluation. As the field enters the "second half," the central challenge becomes real utility in long-horizon, dynamic, and user-dependent settings such as agentic coding, deep research, and computer use, where LLM-based agents face context explosion beyond fixed context windows and must continuously accumulate, manage, and selectively reuse information across extended interactions. Memory, with hundreds of papers released in 2025, therefore emerges as the critical solution to fill this utility gap. Beyond passive storage, memory is increasingly the substrate through which agents self-evolve: short-term memory gates which experiences are perceived and abstracted during execution, while long-term memory consolidates them into reusable knowledge and skills, forming the loop through which agents improve from their own experience. In this survey, we provide a unified view of foundation agent memory along three dimensions: memory substrate (internal parametric state and external retrieval-augmented stores), cognitive mechanism (sensory, working, episodic, semantic, and procedural), and memory subject (user-centric personalization and agent-centric experience). We then analyze how memory is operated under single- and multi-agent topologies and highlight learning policies over memory operations, showing how memory management itself is becoming a trainable capability spanning reinforcement-learned context curation, experience consolidation at decision time, and the emerging ecosystem of portable, shareable agent skills. Finally, we review evaluation benchmarks and metrics for memory utility, and outline open challenges and future directions.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-14T07:38:38Z</published>
+    <arxiv:comment>Accepted at Transactions on Machine Learning Research (TMLR) with Survey Certification. Project page: https://github.com/AgentMemoryWorld/Awesome-Agent-Memory</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wei-Chieh Huang</name>
+    </author>
+    <author>
+      <name>Weizhi Zhang</name>
+    </author>
+    <author>
+      <name>Yueqing Liang</name>
+    </author>
+    <author>
+      <name>Yuanchen Bei</name>
+    </author>
+    <author>
+      <name>Yankai Chen</name>
+    </author>
+    <author>
+      <name>Tao Feng</name>
+    </author>
+    <author>
+      <name>Xinyu Pan</name>
+    </author>
+    <author>
+      <name>Zhen Tan</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Tianxin Wei</name>
+    </author>
+    <author>
+      <name>Shanglin Wu</name>
+    </author>
+    <author>
+      <name>Ruiyao Xu</name>
+    </author>
+    <author>
+      <name>Liangwei Yang</name>
+    </author>
+    <author>
+      <name>Rui Yang</name>
+    </author>
+    <author>
+      <name>Wooseong Yang</name>
+    </author>
+    <author>
+      <name>Chin-Yuan Yeh</name>
+    </author>
+    <author>
+      <name>Hanrong Zhang</name>
+    </author>
+    <author>
+      <name>Haozhen Zhang</name>
+    </author>
+    <author>
+      <name>Siqi Zhu</name>
+    </author>
+    <author>
+      <name>Henry Peng Zou</name>
+    </author>
+    <author>
+      <name>Wanjia Zhao</name>
+    </author>
+    <author>
+      <name>Song Wang</name>
+    </author>
+    <author>
+      <name>Wujiang Xu</name>
+    </author>
+    <author>
+      <name>Zixuan Ke</name>
+    </author>
+    <author>
+      <name>Zheng Hui</name>
+    </author>
+    <author>
+      <name>Dawei Li</name>
+    </author>
+    <author>
+      <name>Yaozu Wu</name>
+    </author>
+    <author>
+      <name>Langzhou He</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Xiongxiao Xu</name>
+    </author>
+    <author>
+      <name>Baixiang Huang</name>
+    </author>
+    <author>
+      <name>Juntao Tan</name>
+    </author>
+    <author>
+      <name>Shelby Heinecke</name>
+    </author>
+    <author>
+      <name>Huan Wang</name>
+    </author>
+    <author>
+      <name>Caiming Xiong</name>
+    </author>
+    <author>
+      <name>Ahmed A. Metwally</name>
+    </author>
+    <author>
+      <name>Jun Yan</name>
+    </author>
+    <author>
+      <name>Chen-Yu Lee</name>
+    </author>
+    <author>
+      <name>Hanqing Zeng</name>
+    </author>
+    <author>
+      <name>Yinglong Xia</name>
+    </author>
+    <author>
+      <name>Xiaokai Wei</name>
+    </author>
+    <author>
+      <name>Ali Payani</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Haitong Ma</name>
+    </author>
+    <author>
+      <name>Wenya Wang</name>
+    </author>
+    <author>
+      <name>Chenguang Wang</name>
+    </author>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+    <author>
+      <name>Xin Eric Wang</name>
+    </author>
+    <author>
+      <name>Yongfeng Zhang</name>
+    </author>
+    <author>
+      <name>Jiaxuan You</name>
+    </author>
+    <author>
+      <name>Hanghang Tong</name>
+    </author>
+    <author>
+      <name>Xiao Luo</name>
+    </author>
+    <author>
+      <name>Xue Liu</name>
+    </author>
+    <author>
+      <name>Yizhou Sun</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+    <author>
+      <name>Julian McAuley</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+    <author>
+      <name>Jiawei Han</name>
+    </author>
+    <author>
+      <name>Philip S. Yu</name>
+    </author>
+    <author>
+      <name>Kai Shu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.00017v2</id>
+    <title>Learning User-Aware Recall: Personalized Retrieval in Long-Term Conversational Memory</title>
+    <updated>2026-07-02T04:36:04Z</updated>
+    <link href="https://arxiv.org/abs/2607.00017v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.00017v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term conversational agents are expected to remember past interactions, but memory is useful only when the right evidence is recalled for the right user. Existing memory-augmented LLM agents have made progress in building compact memory banks, yet retrieval is still often driven by query-centered similarity or fixed ranking rules, leaving user-conditioned relevance underexplored. To address this gap, we propose Profile-guided Personalized Retrieval Optimization (PPRO), a retrieval-centric framework that makes memory retrieval both user-aware and optimizable. PPRO builds episodic and semantic memory banks from dialogue histories and derives a user profile from accumulated memories. The profile serves as an explicit personalized prior in memory ranking, allowing retrieval to account for stable user attributes, preferences, and relationships. PPRO further trains a query rewriter with Group Relative Policy Optimization, using both evidence retrieval quality and downstream answer quality as feedback while keeping the memory banks and answer model fixed. Experiments on LoCoMo and LongMemEval-S show consistent gains over training-free memory systems and training-based baselines. Ablation studies further show that both profile-guided ranking and retrieval-oriented rewriting contribute substantially to performance, highlighting retrieval optimization as a key factor in personalized long-term memory use.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T06:47:48Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>ZhiShu Jiang</name>
+    </author>
+    <author>
+      <name>Haibo Liu</name>
+    </author>
+    <author>
+      <name>Xin Shen</name>
+    </author>
+    <author>
+      <name>Guanqiang QI</name>
+    </author>
+    <author>
+      <name>Chenxi Miao</name>
+    </author>
+    <author>
+      <name>Weikang Li</name>
+    </author>
+    <author>
+      <name>Liwei Qian</name>
+    </author>
+    <author>
+      <name>Xin Pei</name>
+    </author>
+    <author>
+      <name>Jizhou Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.09297v1</id>
+    <title>TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA</title>
+    <updated>2026-03-10T07:27:01Z</updated>
+    <link href="https://arxiv.org/abs/2603.09297v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.09297v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) has exhibited strong reasoning ability in text-based contexts across various domains, yet the limitation of context window poses challenges for the model on long-range inference tasks and necessitates a memory storage system. While many current storage approaches have been proposed with episodic notes and graph representations of memory, retrieval methods still primarily rely on predefined workflows or static similarity top-k over embeddings. To address this inflexibility, we introduced a novel tool-augmented autonomous memory retrieval framework (TA-Mem), which contains: (1) a memory extraction LLM agent which is prompted to adaptively chuck an input into sub-context based on semantic correlation, and extract information into structured notes, (2) a multi-indexed memory database designed for different types of query methods including both key-based lookup and similarity-based retrieval, (3) a tool-augmented memory retrieval agent which explores the memory autonomously by selecting appropriate tools provided by the database based on the user input, and decides whether to proceed to the next iteration or finalizing the response after reasoning on the fetched memories. The TA-Mem is evaluated on the LoCoMo dataset, achieving significant performance improvements over existing baseline approaches. In addition, an analysis of tool use across different question types also demonstrates the adaptivity of the proposed method.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-10T07:27:01Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Mengwei Yuan</name>
+    </author>
+    <author>
+      <name>Jianan Liu</name>
+    </author>
+    <author>
+      <name>Jing Yang</name>
+    </author>
+    <author>
+      <name>Xianyou Li</name>
+    </author>
+    <author>
+      <name>Weiran Yan</name>
+    </author>
+    <author>
+      <name>Yichao Wu</name>
+    </author>
+    <author>
+      <name>Penghao Liang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.14908v2</id>
+    <title>KARMA: Augmenting Embodied AI Agents with Long-and-short Term Memory Systems</title>
+    <updated>2025-03-21T01:58:00Z</updated>
+    <link href="https://arxiv.org/abs/2409.14908v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.14908v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embodied AI agents responsible for executing interconnected, long-sequence household tasks often face difficulties with in-context memory, leading to inefficiencies and errors in task execution. To address this issue, we introduce KARMA, an innovative memory system that integrates long-term and short-term memory modules, enhancing large language models (LLMs) for planning in embodied agents through memory-augmented prompting. KARMA distinguishes between long-term and short-term memory, with long-term memory capturing comprehensive 3D scene graphs as representations of the environment, while short-term memory dynamically records changes in objects' positions and states. This dual-memory structure allows agents to retrieve relevant past scene experiences, thereby improving the accuracy and efficiency of task planning. Short-term memory employs strategies for effective and adaptive memory replacement, ensuring the retention of critical information while discarding less pertinent data. Compared to state-of-the-art embodied agents enhanced with memory, our memory-augmented embodied AI agent improves success rates by 1.3x and 2.3x in Composite Tasks and Complex Tasks within the AI2-THOR simulator, respectively, and enhances task execution efficiency by 3.4x and 62.7x. Furthermore, we demonstrate that KARMA's plug-and-play capability allows for seamless deployment on real-world robotic systems, such as mobile manipulation platforms.Through this plug-and-play memory system, KARMA significantly enhances the ability of embodied agents to generate coherent and contextually appropriate plans, making the execution of complex household tasks more efficient. The experimental videos from the work can be found at https://youtu.be/4BT7fnw9ehs. Our code is available at https://github.com/WZX0Swarm0Robotics/KARMA/tree/master.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-23T11:02:46Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zixuan Wang</name>
+    </author>
+    <author>
+      <name>Bo Yu</name>
+    </author>
+    <author>
+      <name>Junzhe Zhao</name>
+    </author>
+    <author>
+      <name>Wenhao Sun</name>
+    </author>
+    <author>
+      <name>Sai Hou</name>
+    </author>
+    <author>
+      <name>Shuai Liang</name>
+    </author>
+    <author>
+      <name>Xing Hu</name>
+    </author>
+    <author>
+      <name>Yinhe Han</name>
+    </author>
+    <author>
+      <name>Yiming Gan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.18406v1</id>
+    <title>CoreMem: Riemannian Retrieval and Fisher-Guided Distillation for Long-Term Memory in Dialogue Agents</title>
+    <updated>2026-06-16T18:56:23Z</updated>
+    <link href="https://arxiv.org/abs/2606.18406v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.18406v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Personalized dialogue agents require continuous long-term memory to maintain coherent interactions across multiple sessions. However, deploying these capabilities on consumer-grade hardware (e.g., 8 GB VRAM edge devices) introduces severe memory and compute bottlenecks. Existing systems typically rely on isotropic cosine similarity for retrieval and heuristic rules for context compression. These approaches lack a unified theoretical foundation, frequently suffering from the hubness problem in high-dimensional retrieval and syntactic fragmentation during compression. To overcome these limitations, we propose CoreMem, a resource-efficient edge-cloud memory architecture fundamentally unified by information geometry. First, Riemannian retrieval replaces cosine matching with a locally adaptive Fisher-Rao metric, effectively penalizing hub memories via Mahalanobis distance with O(Ndr) Woodbury acceleration for real-time search. Second, Fisher-guided discrete token distillation (FDTD) introduces a hierarchical sentence-to-token compression mechanism. It derives sensitivity scores from Fisher information traces, providing a principled compression-KL tradeoff augmented with explicit structural syntax protection. Evaluated on the LOCOMO and LongMemEval-S benchmarks, CoreMem achieves strong accuracy improvements, yielding substantial gains in Open-domain (+4.51 pp) and Temporal (+4.17 pp) reasoning. Extensive profiling confirms that CoreMem operates seamlessly within a strict 8 GB VRAM budget, successfully bridging the gap between resource-constrained edge devices and the demand for theoretically grounded, lifelong memory agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-16T18:56:23Z</published>
+    <arxiv:comment>15 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jiaqi Chen</name>
+    </author>
+    <author>
+      <name>Yongqin Zeng</name>
+    </author>
+    <author>
+      <name>Shaoshen Chen</name>
+    </author>
+    <author>
+      <name>Yijian Zhang</name>
+    </author>
+    <author>
+      <name>Hai-Tao Zheng</name>
+    </author>
+    <author>
+      <name>Chunxia Ma</name>
+    </author>
+    <author>
+      <name>XiuTeng Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.01885v3</id>
+    <title>Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents</title>
+    <updated>2026-07-23T06:23:36Z</updated>
+    <link href="https://arxiv.org/abs/2601.01885v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.01885v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents face fundamental limitations in long-horizon reasoning due to finite context windows, making effective memory management critical. Existing methods typically handle long-term memory (LTM) and short-term memory (STM) as separate components, relying on heuristics or auxiliary controllers, which limits adaptability and end-to-end optimization. In this paper, we propose Agentic Memory (AgeMem), a unified framework that integrates LTM and STM management directly into the agent's policy. AgeMem exposes memory operations as tool-based actions, enabling the LLM agent to autonomously decide what and when to store, retrieve, update, summarize, or discard information. To train such unified behaviors, we propose a three-stage progressive reinforcement learning strategy and design a step-wise GRPO to address sparse and discontinuous rewards induced by memory operations. Experiments on five long-horizon benchmarks demonstrate that AgeMem consistently outperforms strong memory-augmented baselines across multiple LLM backbones, achieving improved task performance, higher-quality long-term memory, and more efficient context usage.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-05T08:24:16Z</published>
+    <arxiv:comment>ACL'26 SAC Highlight. The code is available at https://github.com/y1y5/AgeMem</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yi Yu</name>
+    </author>
+    <author>
+      <name>Liuyi Yao</name>
+    </author>
+    <author>
+      <name>Yuexiang Xie</name>
+    </author>
+    <author>
+      <name>Qingquan Tan</name>
+    </author>
+    <author>
+      <name>Jiaqi Feng</name>
+    </author>
+    <author>
+      <name>Yaliang Li</name>
+    </author>
+    <author>
+      <name>Libing Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.00872v1</id>
+    <title>MemFit: Efficient Long-Term Agentic Memory</title>
+    <updated>2026-10-01T00:44:33Z</updated>
+    <link href="https://arxiv.org/abs/2610.00872v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.00872v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term memory systems for large language models (LLMs) have gained popularity for extending reasoning capabilities across applications. Current memory systems rely on LLM agents to organize and consolidate memory, resulting in costly, inefficient write operations. To address this limitation, we propose MemFit, a long-term memory system for conversational agents that reduces the cost and latency of memory operations. Unlike existing systems that rely on expensive LLM calls for memory construction or discard surface-level details through compression, MemFit stores each turn verbatim in an append-only store with near-instantaneous, LLM-free insertion, indexing turns with segment summaries rather than replacing them. Additionally, MemFit uses an LLM-free, multi-path retrieval strategy that combines lexical and semantic signals with cross-encoder reranking over caption- augmented episodes in both textual and multimodal settings. Empirical results on three widely used benchmarks, LoCoMo, MemGallery, and LongMemEval-S, show that MemFit achieves state-of-the-art performance while reducing memory construction time and cost several-fold, providing a scalable and efficient solution for persistent agentic memory.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-01T00:44:33Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mitchell Piehl</name>
+    </author>
+    <author>
+      <name>Muchao Ye</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.11248v1</id>
+    <title>EvoGraph-Mem: Failure-Aware Editable Graph Memory for Long-Term Language Agents</title>
+    <updated>2026-08-03T12:35:44Z</updated>
+    <link href="https://arxiv.org/abs/2608.11248v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.11248v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term memory is essential for language agents operating across extended interactions and evolving tasks. Existing memory-augmented agents mainly focus on storing and retrieving past experience, but the quality of stored memories may degrade over time. In particular, previously distilled insights can become outdated, over-generalized, or harmful under new task contexts, causing memory pollution when repeatedly reused. To address this issue, we study insight-level memory maintenance for long-term language agents and propose a failure-aware memory maintenance framework based on an editable insight graph. Each insight node tracks positive evidence, negative evidence, and an activation state, enabling the agent to distinguish reusable insights from conflicting or invalid ones. We further introduce a utility-aware retrieval mechanism and a graph controller that updates the memory graph after task execution by keeping reliable insights, archiving invalid ones, revising outdated ones, and adding newly discovered reusable insights. Extensive experiments show that our method consistently outperforms representative memory-based agent baselines across different backbone models. Ablation studies further demonstrate that append-only memory is insufficient for long-horizon tasks, while evidence-aware retrieval and graph-level editing improve memory reliability and downstream task performance.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-03T12:35:44Z</published>
+    <arxiv:comment>10 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuxi Qian</name>
+    </author>
+    <author>
+      <name>Yuxiang Ren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.12231v1</id>
+    <title>Thought-Retriever: Don't Just Retrieve Raw Data, Retrieve Thoughts for Memory-Augmented Agentic Systems</title>
+    <updated>2026-04-14T03:11:36Z</updated>
+    <link href="https://arxiv.org/abs/2604.12231v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.12231v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have transformed AI research thanks to their powerful internal capabilities and knowledge. However, existing LLMs still fail to effectively incorporate the massive external knowledge when interacting with the world. Although retrieval-augmented LLMs are proposed to mitigate the issue, they are still fundamentally constrained by the context length of LLMs, as they can only retrieve top-K raw data chunks from the external knowledge base which often consists of millions of data chunks. Here we propose Thought-Retriever, a novel model-agnostic algorithm that helps LLMs generate output conditioned on arbitrarily long external data, without being constrained by the context length or number of retrieved data chunks. Our key insight is to let an LLM fully leverage its intermediate responses generated when solving past user queries (thoughts), filtering meaningless and redundant thoughts, organizing them in thought memory, and retrieving the relevant thoughts when addressing new queries. This effectively equips LLM-based agents with a self-evolving long-term memory that grows more capable through continuous interaction. Besides algorithmic innovation, we further meticulously prepare a novel benchmark, AcademicEval, which requires an LLM to faithfully leverage ultra-long context to answer queries based on real-world academic papers. Extensive experiments on AcademicEval and two other public datasets validate that Thought-Retriever remarkably outperforms state-of-the-art baselines, achieving an average increase of at least 7.6% in F1 score and 16% in win rate across various tasks. More importantly, we further demonstrate two exciting findings: (1) Thought-Retriever can indeed help LLM self-evolve after solving more user queries; (2) Thought-Retriever learns to leverage deeper thoughts to answer more abstract user queries.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-14T03:11:36Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Transactions on Machine Learning Research (TMLR), 04/2026</arxiv:journal_ref>
+    <author>
+      <name>Tao Feng</name>
+    </author>
+    <author>
+      <name>Pengrui Han</name>
+    </author>
+    <author>
+      <name>Guanyu Lin</name>
+    </author>
+    <author>
+      <name>Ge Liu</name>
+    </author>
+    <author>
+      <name>Jiaxuan You</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.00057v2</id>
+    <title>Toward Conversational Agents with Context and Time Sensitive Long-term Memory</title>
+    <updated>2024-06-04T18:01:03Z</updated>
+    <link href="https://arxiv.org/abs/2406.00057v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.00057v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There has recently been growing interest in conversational agents with long-term memory which has led to the rapid development of language models that use retrieval-augmented generation (RAG). Until recently, most work on RAG has focused on information retrieval from large databases of texts, like Wikipedia, rather than information from long-form conversations. In this paper, we argue that effective retrieval from long-form conversational data faces two unique problems compared to static database retrieval: 1) time/event-based queries, which requires the model to retrieve information about previous conversations based on time or the order of a conversational event (e.g., the third conversation on Tuesday), and 2) ambiguous queries that require surrounding conversational context to understand. To better develop RAG-based agents that can deal with these challenges, we generate a new dataset of ambiguous and time-based questions that build upon a recent dataset of long-form, simulated conversations, and demonstrate that standard RAG based approaches handle such questions poorly. We then develop a novel retrieval model which combines chained-of-table search methods, standard vector-database retrieval, and a prompting method to disambiguate queries, and demonstrate that this approach substantially improves over current methods at solving these tasks. We believe that this new dataset and more advanced RAG agent can act as a key benchmark and stepping stone towards effective memory augmented conversational agents that can be used in a wide variety of AI applications.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-29T18:19:46Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Nick Alonso</name>
+    </author>
+    <author>
+      <name>Tomás Figliolia</name>
+    </author>
+    <author>
+      <name>Anthony Ndirango</name>
+    </author>
+    <author>
+      <name>Beren Millidge</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.17753v1</id>
+    <title>Evaluating Very Long-Term Conversational Memory of LLM Agents</title>
+    <updated>2024-02-27T18:42:31Z</updated>
+    <link href="https://arxiv.org/abs/2402.17753v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.17753v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing works on long-term open-domain dialogues focus on evaluating model responses within contexts spanning no more than five chat sessions. Despite advancements in long-context large language models (LLMs) and retrieval augmented generation (RAG) techniques, their efficacy in very long-term dialogues remains unexplored. To address this research gap, we introduce a machine-human pipeline to generate high-quality, very long-term dialogues by leveraging LLM-based agent architectures and grounding their dialogues on personas and temporal event graphs. Moreover, we equip each agent with the capability of sharing and reacting to images. The generated conversations are verified and edited by human annotators for long-range consistency and grounding to the event graphs. Using this pipeline, we collect LoCoMo, a dataset of very long-term conversations, each encompassing 300 turns and 9K tokens on avg., over up to 35 sessions. Based on LoCoMo, we present a comprehensive evaluation benchmark to measure long-term memory in models, encompassing question answering, event summarization, and multi-modal dialogue generation tasks. Our experimental results indicate that LLMs exhibit challenges in understanding lengthy conversations and comprehending long-range temporal and causal dynamics within dialogues. Employing strategies like long-context LLMs or RAG can offer improvements but these models still substantially lag behind human performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-27T18:42:31Z</published>
+    <arxiv:comment>19 pages; Project page: https://snap-research.github.io/locomo/</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Adyasha Maharana</name>
+    </author>
+    <author>
+      <name>Dong-Ho Lee</name>
+    </author>
+    <author>
+      <name>Sergey Tulyakov</name>
+    </author>
+    <author>
+      <name>Mohit Bansal</name>
+    </author>
+    <author>
+      <name>Francesco Barbieri</name>
+    </author>
+    <author>
+      <name>Yuwei Fang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.28575v1</id>
+    <title>TWIST: A Proposed Benchmark for Intervention Quality in Conversational Memory, with a Human-Validated Draft-Alignment</title>
+    <updated>2026-09-23T12:25:28Z</updated>
+    <link href="https://arxiv.org/abs/2609.28575v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.28575v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-conversation memory benchmarks increasingly test recall and prompted knowledge updates, and recent work studies evolving user beliefs and memory state. TWIST is a proposed benchmark suite for a complementary, unmeasured property: intervention quality -- whether a deployed memory system, exercised through its own ingest/recall/vet surface, acts correctly at belief change points. Four tracks cover unprompted tension detection, vetting outgoing drafts against the record, answering with current beliefs while preserving supersession history, and governing sensitive recall. The suite extends LoCoMo's corpora and harness, pairing every detect/block metric with a matched do-not-over-detect control: surface-matched hard negatives price false intervention, so no track can be gamed by flagging everything. The benchmark itself is validated first: independent, gold-blind double annotation with adjudication, judge decoy calibration, and a separability audit. On the human-validated Track B v1.0 key (161 items, post-adjudication kappa = 0.85), no tested configuration simultaneously achieves high contradiction recall, high hard-negative specificity, and high attribution: flat-RAG baselines detect 0.76-0.97 of true contradictions but falsely flag 16-43% of surface-matched safe drafts depending on backend, while a deployed coherence-oriented system almost never over-flags (0.98-1.00 specificity) yet catches 42% of true contradictions -- a trade-off no recall-only score can see. A 13-configuration baseline ladder localizes causes: every gold contradiction is detectable from its evidence alone (recall 1.000), calibrated models nearly solve the track given the full transcript -- consistent with substantial retrieval-coverage gaps -- and draft-only floors reveal model-dependent style priors. A system's TWIST profile, beside its recall score, measures whether memory knows when to intervene and when not to.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-23T12:25:28Z</published>
+    <arxiv:comment>conversational memory, LLM agents, agent memory systems, benchmark, contradiction detection, belief revision, supersession, intervention quality, hard negatives, retrieval-augmented generation, evaluation methodology, memory governance, long-term memory, human annotation</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Subrat Panda</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.16211v1</id>
+    <title>Accurate and Efficient Long-Term Memory for LLM Agents</title>
+    <updated>2026-05-15T02:21:45Z</updated>
+    <link href="https://arxiv.org/abs/2607.16211v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.16211v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents augmented with persistent memory can recall past interactions, but existing systems suffer from two limitations: flat, unstructured storage loses relational context needed for multi-hop and temporal reasoning, and reliance on expensive LLM-based classification makes them impractical for latency-sensitive deployment. Without mechanisms to validate new information against stored knowledge, these systems silently accumulate contradictions. We present MOSAIC (Memory-Organized Structured Agent for Information Collection), a structured, conflict-aware long-term memory framework for LLM agents that is substantially more accurate and efficient. MOSAIC introduces three key capabilities: (1) entity-typed graph storage with semantic classification preserving relational structure across events, personas, and relationships, enabling multi-hop and temporal reasoning over conversation history; (2) hash-accelerated dual-path retrieval replacing LLM-based classification with locality-sensitive hashing, achieving near-instantaneous lookup with negligible accuracy loss; and (3) active conflict detection at save time that cross-references new information against existing graph neighbors, triggering updates or deletions for contradictory entries. Evaluated on LoCoMo (long-conversation QA), HaluMem, and a novel clinical-guideline error compounding test, MOSAIC achieves 89.35% accuracy on LoCoMo (+27.21 pp over the best baseline), best HaluMem-Medium extraction F1(86.77%) and HaluMem-Long extraction F1 (85.84%), best QA correctness on both Medium and Long (73.10%, 70.75%), and detects 66% of injected factual conflicts-4.7 times higher than the best baseline (14%)-while hash-accelerated retrieval keeps average search latency at 0.58 s per question.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-15T02:21:45Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zicheng Zhao</name>
+    </author>
+    <author>
+      <name>Xinyang Guo</name>
+    </author>
+    <author>
+      <name>Luyao Lv</name>
+    </author>
+    <author>
+      <name>Menghan Wang</name>
+    </author>
+    <author>
+      <name>Ming Li</name>
+    </author>
+    <author>
+      <name>Shuaicheng Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.19549v2</id>
+    <title>From Single to Multi-Granularity: Toward Long-Term Memory Association and Selection of Conversational Agents</title>
+    <updated>2025-09-29T08:51:22Z</updated>
+    <link href="https://arxiv.org/abs/2505.19549v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.19549v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have recently been widely adopted in conversational agents. However, the increasingly long interactions between users and agents accumulate extensive dialogue records, making it difficult for LLMs with limited context windows to maintain a coherent long-term dialogue memory and deliver personalized responses. While retrieval-augmented memory systems have emerged to address this issue, existing methods often depend on single-granularity memory segmentation and retrieval. This approach falls short in capturing deep memory connections, leading to partial retrieval of useful information or substantial noise, resulting in suboptimal performance. To tackle these limits, we propose MemGAS, a framework that enhances memory consolidation by constructing multi-granularity association, adaptive selection, and retrieval. MemGAS is based on multi-granularity memory units and employs Gaussian Mixture Models to cluster and associate new memories with historical ones. An entropy-based router adaptively selects optimal granularity by evaluating query relevance distributions and balancing information completeness and noise. Retrieved memories are further refined via LLM-based filtering. Experiments on four long-term memory benchmarks demonstrate that MemGAS outperforms state-of-the-art methods on both question answer and retrieval tasks, achieving superior performance across different query types and top-K settings. \footnote{https://github.com/quqxui/MemGAS}</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-26T06:13:07Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Derong Xu</name>
+    </author>
+    <author>
+      <name>Yi Wen</name>
+    </author>
+    <author>
+      <name>Pengyue Jia</name>
+    </author>
+    <author>
+      <name>Yingyi Zhang</name>
+    </author>
+    <author>
+      <name>wenlin zhang</name>
+    </author>
+    <author>
+      <name>Yichao Wang</name>
+    </author>
+    <author>
+      <name>Huifeng Guo</name>
+    </author>
+    <author>
+      <name>Ruiming Tang</name>
+    </author>
+    <author>
+      <name>Xiangyu Zhao</name>
+    </author>
+    <author>
+      <name>Enhong Chen</name>
+    </author>
+    <author>
+      <name>Tong Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.12627v3</id>
+    <title>EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory</title>
+    <updated>2026-08-18T22:47:18Z</updated>
+    <link href="https://arxiv.org/abs/2608.12627v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.12627v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-horizon egocentric memory transforms continuous first-person video and audio into a searchable record of past experiences. We demonstrate two bottlenecks in existing systems: indices built from context-poor captions are unreliable for agentic search, while retrieval ignores a question's temporal intent. To address both bottlenecks, we introduce EgoCITE (Egocentric Context-augmented Indexing and Time-aware Evidence retrieval), a long-horizon agentic memory framework for egocentric QA. EgoCITE comprises three components. EgoScheme uses local multimodal context to turn fragmentary video captions and speech transcripts into self-contained atomic memory indices. EgoIndex organizes complementary action, activity, utterance, and conversation representations into searchable multi-view memory indices at multiple granularities. EgoRetrv combines semantic search with question-conditioned temporal relevance scoring and curation of retrieved evidence. We evaluate EgoCITE on EgoLifeQA, EgoMem, and EgoR1-Bench in terms of answer accuracy and target-event retrieval alignment. EgoCITE improves accuracy over agentic memory baselines by at least 4.4--14.2% while achieving 36$\times$ lower cost than long-context LLM agents.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-12T22:20:29Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Le Zhang</name>
+    </author>
+    <author>
+      <name>Hao Chen</name>
+    </author>
+    <author>
+      <name>Vlad Roznyatovskiy</name>
+    </author>
+    <author>
+      <name>Jianzhong Zhang</name>
+    </author>
+    <author>
+      <name>Ke Sun</name>
+    </author>
+  </entry>
+</feed>

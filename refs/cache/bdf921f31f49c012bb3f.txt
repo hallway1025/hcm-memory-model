@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/n+LQv8z9ZNc7XRpdAlEzduuCIg8</id>
+  <title>arXiv Query: search_query=all:learned AND all:memory AND all:controller AND all:agent&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T13:52:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:learned+AND+(all:memory+AND+(all:controller+AND+all:agent))&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>520</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.05960v2</id>
+    <title>Distilling Feedback into Memory-as-a-Tool</title>
+    <updated>2026-03-17T18:50:47Z</updated>
+    <link href="https://arxiv.org/abs/2601.05960v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.05960v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a framework that amortizes the cost of inference-time reasoning by converting transient critiques into retrievable guidelines, through a file-based memory system and agent-controlled tool calls. We evaluate this method on the Rubric Feedback Bench, a novel dataset for rubric-based learning. Experiments demonstrate that our augmented LLMs rapidly match the performance of test-time refinement pipelines while drastically reducing inference cost.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-09T17:26:52Z</published>
+    <arxiv:comment>Code: https://github.com/vicgalle/feedback-memory-as-a-tool Data: https://huggingface.co/datasets/vicgalle/rubric-feedback-bench</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems</arxiv:journal_ref>
+    <author>
+      <name>Víctor Gallego</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.18652v1</id>
+    <title>MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents</title>
+    <updated>2026-05-18T16:57:36Z</updated>
+    <link href="https://arxiv.org/abs/2605.18652v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.18652v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent GUI agents have made substantial progress in visual grounding and action prediction, yet they remain brittle in long-horizon tasks that require maintaining task state across many interface transitions. Existing agents typically rely on raw history replay or text-only memory, which either overwhelms the model with redundant screenshots or discards localized visual evidence needed for future decisions. To address these limitations, we introduce \textbf{MementoGUI}, a plug-in agentic memory framework that equips MLLM-based GUI agents with \textbf{MementoCore}, a learned controller for online memory selection, compression, and retrieval. Rather than treating interaction history as a fixed context, MementoGUI formulates long-horizon GUI control as an online memory-control problem: working memory selectively preserves task-relevant interface events with textual summaries and ROI-level visual evidence, while episodic memory retrieves reusable past trajectories through learned relevance selection. MementoCore modularizes memory control into specialized operators for step processing, memory compression, episodic writing, and episodic selection, enabling plug-in memory augmentation without finetuning the GUI agent backbone. We further develop a scalable data curation pipeline that converts computer-use trajectories into memory-controller training data, introduce \textbf{MementoGUI-Bench} for evaluating long-horizon decision-making in GUI agents, and design MLLM-based metrics for semantic action matching, task progress, and memory consistency. Experiments on GUI-Odyssey, MM-Mind2Web, and MementoGUI-Bench show that MementoGUI consistently improves GUI agents over no-history, history-replay, and text-only memory baselines, with larger MementoCore backbones further strengthening memory-augmented GUI control.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-18T16:57:36Z</published>
+    <arxiv:comment>Preprint, 15 pages, 4 figures, 5 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ziyun Zeng</name>
+    </author>
+    <author>
+      <name>Hang Hua</name>
+    </author>
+    <author>
+      <name>Bocheng Zou</name>
+    </author>
+    <author>
+      <name>Mu Cai</name>
+    </author>
+    <author>
+      <name>Rogerio Feris</name>
+    </author>
+    <author>
+      <name>Jiebo Luo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.23201v3</id>
+    <title>Tell Me What To Learn: Generalizing Neural Memory to be Controllable in Natural Language</title>
+    <updated>2026-11-05T17:12:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.23201v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.23201v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern machine learning models are deployed in diverse, non-stationary environments where they must continually adapt to new tasks and evolving knowledge. Continual fine-tuning and in-context learning are costly and brittle, whereas neural memory methods promise lightweight updates with minimal forgetting. However, existing neural memory models typically assume a single fixed objective and homogeneous information streams, leaving users with no control over what the model remembers or ignores over time. To address this challenge, we propose a generalized neural memory system that performs flexible updates based on learning instructions specified in natural language. Our approach enables adaptive agents to learn selectively from heterogeneous information sources, supporting settings, such as healthcare and customer service, where fixed-objective memory updates are insufficient.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-26T16:50:52Z</published>
+    <arxiv:comment>47 Pages, Code at https://github.com/maxbennett/Generalized-Neural-Memory</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Max S. Bennett</name>
+    </author>
+    <author>
+      <name>Thomas P. Zollo</name>
+    </author>
+    <author>
+      <name>Richard Zemel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.13591v3</id>
+    <title>Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents</title>
+    <updated>2026-10-12T18:07:30Z</updated>
+    <link href="https://arxiv.org/abs/2607.13591v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.13591v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents increasingly rely on external memory systems to accumulate experience across tasks. Yet nearly all existing approaches, from graph-structured memories to reflective insight stores, access memory through fixed, hand-designed heuristics. We argue that this static view of memory is a core bottleneck for agentic learning because optimal memory behavior is fundamentally context-dependent. The early stages of the tasks, benefit from minimal retrieval because memory is sparse; recurring goal types benefit from plan reuse rather than generic nearest-neighbor lookup; stuck agents benefit from re-retrieval with alternative queries; and across long task streams, the memory store itself must be consolidated and pruned to remain useful. We present Memory as a Controlled Process (MemCon), a framework that models memory operations as a Markov Decision Process and learns an online policy that adaptively decides when, what, and how much to retrieve, when to inject a distilled plan, and when to consolidate or forget. MemCon is backend-agnostic: it wraps any existing memory implementation, learns from task-by-task binary feedback with no pretraining and no additional LLM calls, and uses a lightweight tabular contextual bandit with UCB exploration that converges within tens of tasks. Across 6 benchmarks, 3 agent frameworks, and 3 LLM backbones, MemCon consistently outperforms multiple memory baselines by up to 15.2 points in task success while reducing token consumption by 5--20%.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-15T08:32:40Z</published>
+    <arxiv:comment>none</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Eric Hanchen Jiang</name>
+    </author>
+    <author>
+      <name>Zhi Zhang</name>
+    </author>
+    <author>
+      <name>Yuchen Wu</name>
+    </author>
+    <author>
+      <name>Levina Li</name>
+    </author>
+    <author>
+      <name>Dong Liu</name>
+    </author>
+    <author>
+      <name>Xiao Liang</name>
+    </author>
+    <author>
+      <name>Rui Sun</name>
+    </author>
+    <author>
+      <name>Yubei Li</name>
+    </author>
+    <author>
+      <name>Edward Sun</name>
+    </author>
+    <author>
+      <name>Haozheng Luo</name>
+    </author>
+    <author>
+      <name>Zhaolu Kang</name>
+    </author>
+    <author>
+      <name>Aylin Caliskan</name>
+    </author>
+    <author>
+      <name>Kai-Wei Chang</name>
+    </author>
+    <author>
+      <name>Ying Nian Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05965v2</id>
+    <title>Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</title>
+    <updated>2026-06-14T04:50:39Z</updated>
+    <link href="https://arxiv.org/abs/2602.05965v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05965v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic systems solve complex tasks by coordinating multiple agents that iteratively reason, invoke tools, and exchange intermediate results. To improve robustness and solution quality, recent approaches deploy multiple agent teams running in parallel to explore diverse reasoning trajectories. However, parallel execution comes at a significant computational cost: when different teams independently reason about similar sub-problems or execute analogous steps, they repeatedly perform substantial overlapping computation. To address these limitations, in this paper, we propose Learning to Share (LTS), a learned shared-memory mechanism for parallel agentic frameworks that enables selective cross-team information reuse while controlling context growth. LTS introduces a global memory bank accessible to all teams and a lightweight controller that decides whether intermediate agent steps should be added to memory or not. The controller is trained using stepwise reinforcement learning with usage-aware credit assignment, allowing it to identify information that is globally useful across parallel executions. Experiments on the AssistantBench and GAIA benchmarks show that LTS significantly reduces overall runtime while matching or improving task performance compared to memory-free parallel baselines, demonstrating that learned memory admission is an effective strategy for improving the efficiency of parallel agentic systems. Project page: https://joefioresi718.github.io/LTS_webpage/</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T18:20:21Z</published>
+    <arxiv:comment>ICML 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Joseph Fioresi</name>
+    </author>
+    <author>
+      <name>Parth Parag Kulkarni</name>
+    </author>
+    <author>
+      <name>Ashmal Vayani</name>
+    </author>
+    <author>
+      <name>Song Wang</name>
+    </author>
+    <author>
+      <name>Mubarak Shah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.07622v1</id>
+    <title>Controlled Memory Interference in Continual LLM Agents</title>
+    <updated>2026-08-07T09:46:19Z</updated>
+    <link href="https://arxiv.org/abs/2608.07622v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.07622v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term memory enables AI agents to maintain continuity across sessions, personalize behavior, and evolve through accumulated experience. Yet memory evolution is not simply a process of storing more information: new experiences may reinforce, revise, or interfere with existing memory states. Existing systems mainly emphasize memory construction and relevance-based retrieval, but several memories may remain simultaneously relevant while differing in state, temporal validity, or authority. We introduce Controlled Memory Interference (CMI), a controlled diagnostic and data-generation framework for studying how agent memory evolves under different memory relationships. Across controlled memory evolution, benign accumulation has limited effects, whereas relationship-specific interference sharply suppresses update plasticity with little stability gain, either by blocking target-memory exposure or by disrupting its downstream use. Lexical and Dense retrieval exhibit distinct interference pathways, while poisoning is more sensitive to update-authority cues than to recency alone. Beyond diagnosis, CMI provides targeted examples for interference-aware memory learning, improving the distinction between valid updates and interference-inducing memories while preserving performance on original memory tasks. These findings show that memory evolution is shaped not only by memory scale, but also by interactions among accumulated experiences. More broadly, memory interference emerges as an important factor for reliable continual agent memory systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-07T09:46:19Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ao Ding</name>
+    </author>
+    <author>
+      <name>Hongzong LI</name>
+    </author>
+    <author>
+      <name>Shiqin Tang</name>
+    </author>
+    <author>
+      <name>Li Zhang</name>
+    </author>
+    <author>
+      <name>Liang Chen</name>
+    </author>
+    <author>
+      <name>Xuyang Chen</name>
+    </author>
+    <author>
+      <name>Zi Liang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.07764v2</id>
+    <title>End-to-End Egospheric Spatial Memory</title>
+    <updated>2021-02-17T18:56:39Z</updated>
+    <link href="https://arxiv.org/abs/2102.07764v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.07764v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spatial memory, or the ability to remember and recall specific locations and objects, is central to autonomous agents' ability to carry out tasks in real environments. However, most existing artificial memory modules are not very adept at storing spatial information. We propose a parameter-free module, Egospheric Spatial Memory (ESM), which encodes the memory in an ego-sphere around the agent, enabling expressive 3D representations. ESM can be trained end-to-end via either imitation or reinforcement learning, and improves both training efficiency and final performance against other memory baselines on both drone and manipulator visuomotor control tasks. The explicit egocentric geometry also enables us to seamlessly combine the learned controller with other non-learned modalities, such as local obstacle avoidance. We further show applications to semantic segmentation on the ScanNet dataset, where ESM naturally combines image-level and map-level inference modalities. Through our broad set of experiments, we show that ESM provides a general computation graph for embodied spatial reasoning, and the module forms a bridge between real-time mapping systems and differentiable memory architectures. Implementation at: https://github.com/ivy-dl/memory.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-15T18:59:07Z</published>
+    <arxiv:comment>Conference paper at ICLR 2021. Implementation: https://github.com/ivy-dl/memory Project page: https://djl11.github.io/ESM/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Daniel Lenton</name>
+    </author>
+    <author>
+      <name>Stephen James</name>
+    </author>
+    <author>
+      <name>Ronald Clark</name>
+    </author>
+    <author>
+      <name>Andrew J. Davison</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.23067v1</id>
+    <title>What Training Data Teaches RL Memory Agents: An Empirical Study of Curriculum Effects in Memory-Augmented QA</title>
+    <updated>2026-05-21T21:58:10Z</updated>
+    <link href="https://arxiv.org/abs/2605.23067v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.23067v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) has emerged as a viable recipe for training LLM agents to reason over external memory banks in multi-session dialogue. Existing work trains exclusively on a single benchmark, leaving open how the composition of training data shapes the skills a memory agent acquires. We present a controlled empirical study that holds architecture, RL algorithm, and all hyperparameters fixed and varies only the training curriculum across three conditions: in-domain (LoCoMo), mixed-benchmark (LoCoMo + LongMemEval), and out-of-domain (LongMemEval only). Across two benchmarks and ten question types, curriculum composition acts as a fine-grained lever on specialization rather than a uniform scaling factor on performance. The mixed curriculum yields the strongest overall F1 on both evaluation sets. Training on a narrow out-of-domain set transfers a targeted skill - temporal reasoning - despite weak aggregate performance. Per-type differences substantially exceed aggregate differences, indicating that single-number benchmark comparisons systematically underreport curriculum effects. We further report two practical lessons from adapting GRPO to a single-GPU regime: cross-benchmark mixing requires filtering format-specific noise from memory banks to preserve training signal, and binary exact-match reward produces no learning signal at the small group sizes (G = 4) required on one GPU, motivating continuous reward functions in this regime.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-21T21:58:10Z</published>
+    <arxiv:comment>14 pages, 2 figures, 11 tables. Code, checkpoints, and evaluation artifacts available at https://github.com/EvaxHe/rl-memory-curriculum</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xinjie He</name>
+    </author>
+    <author>
+      <name>Zhiyuan Lin</name>
+    </author>
+    <author>
+      <name>Su Liu</name>
+    </author>
+    <author>
+      <name>Jialun Wu</name>
+    </author>
+    <author>
+      <name>Qiyang Xie</name>
+    </author>
+    <author>
+      <name>Weikai Zhou</name>
+    </author>
+    <author>
+      <name>Shuai Xiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.04549v1</id>
+    <title>Adaptive Memory Admission Control for LLM Agents</title>
+    <updated>2026-03-04T19:32:02Z</updated>
+    <link href="https://arxiv.org/abs/2603.04549v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.04549v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-based agents increasingly rely on long-term memory to support multi-session reasoning and interaction, yet current systems provide little control over what information is retained. In practice, agents either accumulate large volumes of conversational content, including hallucinated or obsolete facts, or depend on opaque, fully LLM-driven memory policies that are costly and difficult to audit. As a result, memory admission remains a poorly specified and weakly controlled component in agent architectures. To address this gap, we propose Adaptive Memory Admission Control (A-MAC), a framework that treats memory admission as a structured decision problem. A-MAC decomposes memory value into five complementary and interpretable factors: future utility, factual confidence, semantic novelty, temporal recency, and content type prior. The framework combines lightweight rule-based feature extraction with a single LLM-assisted utility assessment, and learns domain-adaptive admission policies through cross-validated optimization. This design enables transparent and efficient control over long-term memory. Experiments on the LoCoMo benchmark show that A-MAC achieves a superior precision-recall tradeoff, improving F1 to 0.583 while reducing latency by 31% compared to state-of-the-art LLM-native memory systems. Ablation results identify content type prior as the most influential factor for reliable memory admission. These findings demonstrate that explicit and interpretable admission control is a critical design principle for scalable and reliable memory in LLM-based agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-04T19:32:02Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Guilin Zhang</name>
+    </author>
+    <author>
+      <name>Wei Jiang</name>
+    </author>
+    <author>
+      <name>Xiejiashan Wang</name>
+    </author>
+    <author>
+      <name>Aisha Behr</name>
+    </author>
+    <author>
+      <name>Kai Zhao</name>
+    </author>
+    <author>
+      <name>Jeffrey Friedman</name>
+    </author>
+    <author>
+      <name>Xu Chu</name>
+    </author>
+    <author>
+      <name>Amine Anoun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.37923v1</id>
+    <title>EpiCon: Collective Agent Learning through Co-Evolving Multimodal Memory</title>
+    <updated>2026-09-29T16:16:24Z</updated>
+    <link href="https://arxiv.org/abs/2609.37923v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.37923v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agents can learn from past executions, but enabling different agents to reuse and build on one another's experience remains challenging. We introduce EpiCon, a shared multimodal memory framework for agent collective learning without updating host model parameters. EpiCon links question-level memory evolution to a persistent experience bank through two independently trained 2B models: a memory controller and a tree self-organizer. The controller jointly refines textual guidance and visual evidence across attempts and selectively includes visual memory. The self-organizer consolidates lessons hierarchically and retrieves experience and rules for new problems. We evaluate EpiCon on eleven benchmarks spanning four multimodal task domains, using two harnesses and multiple backbones. A frozen bank improves other systems even with a single solving attempt. A second harness raises the original system's macro-average score by 2.6 points across eleven benchmarks. Across four host configurations, EpiCon improves macro-average scores by 1.7 to 4.9 points over No Memory and reduces memory-operation time by 67\% to 74\% relative to backbone-sized memory models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-29T16:16:24Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ziyun Zeng</name>
+    </author>
+    <author>
+      <name>Hang Hua</name>
+    </author>
+    <author>
+      <name>Shaden Alshammari</name>
+    </author>
+    <author>
+      <name>Rogerio Feris</name>
+    </author>
+    <author>
+      <name>William T. Freeman</name>
+    </author>
+    <author>
+      <name>Jiebo Luo</name>
+    </author>
+  </entry>
+</feed>

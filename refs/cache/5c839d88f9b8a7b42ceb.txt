@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rJorquR5wtBT/eMG9BKLLdmS8co</id>
+  <title>arXiv Query: search_query=all:weight AND all:interpolation AND all:forgetting&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-11-07T14:09:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:weight+AND+(all:interpolation+AND+all:forgetting)&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>25</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2404.04002v2</id>
+    <title>Continual Learning with Weight Interpolation</title>
+    <updated>2024-04-09T09:35:24Z</updated>
+    <link href="https://arxiv.org/abs/2404.04002v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.04002v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continual learning poses a fundamental challenge for modern machine learning systems, requiring models to adapt to new tasks while retaining knowledge from previous ones. Addressing this challenge necessitates the development of efficient algorithms capable of learning from data streams and accumulating knowledge over time. This paper proposes a novel approach to continual learning utilizing the weight consolidation method. Our method, a simple yet powerful technique, enhances robustness against catastrophic forgetting by interpolating between old and new model weights after each novel task, effectively merging two models to facilitate exploration of local minima emerging after arrival of new concepts. Moreover, we demonstrate that our approach can complement existing rehearsal-based replay approaches, improving their accuracy and further mitigating the forgetting phenomenon. Additionally, our method provides an intuitive mechanism for controlling the stability-plasticity trade-off. Experimental results showcase the significant performance enhancement to state-of-the-art experience replay algorithms the proposed weight consolidation approach offers. Our algorithm can be downloaded from https://github.com/jedrzejkozal/weight-interpolation-cl.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-05T10:25:40Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jędrzej Kozal</name>
+    </author>
+    <author>
+      <name>Jan Wasilewski</name>
+    </author>
+    <author>
+      <name>Bartosz Krawczyk</name>
+    </author>
+    <author>
+      <name>Michał Woźniak</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.01538v1</id>
+    <title>Countering Catastrophic Forgetting of Large Language Models for Better Instruction Following via Weight-Space Model Merging</title>
+    <updated>2026-04-02T02:18:49Z</updated>
+    <link href="https://arxiv.org/abs/2604.01538v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.01538v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models have been adopted in the medical domain for clinical documentation to reduce clinician burden. However, studies have reported that LLMs often "forget" a significant amount of instruction-following ability when fine-tuned using a task-specific medical dataset, a critical challenge in adopting general-purpose LLMs for clinical applications. This study presents a model merging framework to efficiently adapt general-purpose LLMs to the medical domain by countering this forgetting issue. By merging a clinical foundation model (GatorTronLlama) with a general instruct model (Llama-3.1-8B-Instruct) via interpolation-based merge methods, we seek to derive a domain-adapted model with strong performance on clinical tasks while retaining instruction-following ability. Comprehensive evaluation across medical benchmarks and five clinical generation tasks (e.g., radiology and discharge summarization) shows that merged models can effectively mitigate catastrophic forgetting, preserve clinical domain expertise, and retain instruction-following ability. In addition, our model merging strategies demonstrate training efficiency, achieving performance on par with fully fine-tuned baselines under severely constrained supervision (e.g., 64-shot vs. 256-shot). Consequently, weight-space merging constitutes a highly scalable solution for adapting open-source LLMs to clinical applications, facilitating broader deployment in resource-constrained healthcare environments.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-02T02:18:49Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mengxian Lyu</name>
+    </author>
+    <author>
+      <name>Cheng Peng</name>
+    </author>
+    <author>
+      <name>Ziyi Chen</name>
+    </author>
+    <author>
+      <name>Mengyuan Zhang</name>
+    </author>
+    <author>
+      <name>Jieting Li Lu</name>
+    </author>
+    <author>
+      <name>Yonghui Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.08258v1</id>
+    <title>Thermodynamics of Forgetting in a Bounded Hopfield Network</title>
+    <updated>2026-11-05T16:33:59Z</updated>
+    <link href="https://arxiv.org/abs/2611.08258v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.08258v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A memory that keeps learning must also forget. The Hopfield network does not: beyond a critical number of stored patterns it falls into a state of total confusion and retrieves none of them. Parisi showed in 1986 that bounding the synaptic strength cures this pathology, since the clipping of the couplings gradually erases the oldest memories and leaves room for the new ones. In this paper we provide a thermodynamic description of the resulting network, known as the Hopfield-Parisi model. Starting from the learning rule, we show that the network is equivalent to a Hopfield model whose patterns are weighted according to their age, superimposed on a Sherrington-Kirkpatrick spin glass, both governed by the synaptic bound: a larger bound makes the memory longer, but also noisier. The theory of nonlinear networks developed in the eighties already provides, through the heuristic replica method, the equations that govern this model at any temperature, but to the best of our knowledge they have been solved only at zero temperature. We rederive them at the replica symmetric level through Guerra's interpolation and solve them at finite temperature, obtaining the phase diagram of the model together with its memory horizon, namely the largest age at which a pattern can still be retrieved. The solution shows that forgetting acts on the signal alone, the noise being the same for patterns of every age, and that the horizon is maximal at an intermediate bound which is essentially insensitive to temperature. Monte Carlo simulations of networks trained with the original learning rule support these predictions.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-05T16:33:59Z</published>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Andrea Lepre</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.00284v2</id>
+    <title>Specializing Without Forgetting: Analyzing Knowledge Preservation in Multilingual Model Adaptation</title>
+    <updated>2026-10-02T04:25:28Z</updated>
+    <link href="https://arxiv.org/abs/2606.00284v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.00284v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While continual pretraining (CPT) is a practical way to extend large language models to new languages, naïve finetuning often erodes existing capabilities through catastrophic forgetting. We investigate which model layers drive this trade-off, and whether interventions at these layers can guide knowledge preservation during adaptation. We interpolate gemma-3-4b model states before and after CPT on five language families to localize forgetting on reading comprehension and translation, finding that middle-layer reversion yields the largest comprehension recovery, while translation effects vary by language family and direction. Guided by these findings, we evaluate CPT strategies that leverage this layer information to mitigate forgetting: layer freezing, layer-range L2 regularization, post-hoc layer reversion, and model souping, comparing all strategies against joint multilingual and family-specific vanilla CPT baselines. We find that preserving the layer weights identified via model interpolation substantially reduces comprehension loss relative to joint CPT, with layer freezing exceeding base model performance on average. However, these strategies yield mixed translation results: dense training or post-hoc reversion often outperforms both training-time constraints and family-specific specialization, complicating prior assumptions about how models should be aligned when extended to new tasks. Instead, we argue that multilingual adaptation strategy should be informed by target language, base model knowledge, and downstream task, and propose interpolation-based localization as a diagnostic for identifying candidate layers before committing to a training-time intervention in a new setting.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-29T19:18:20Z</published>
+    <arxiv:comment>29 Pages, 5 Figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sanchit Ahuja</name>
+    </author>
+    <author>
+      <name>Terra Blevins</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.04560v1</id>
+    <title>A generalization of quantum Lakshmibai-Seshadri paths for arbitrary weights</title>
+    <updated>2024-03-07T14:56:18Z</updated>
+    <link href="https://arxiv.org/abs/2403.04560v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.04560v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct an injective weight-preserving map (called the forgetful map) from the set of all admissible subsets in the quantum alcove model associated to an arbitrary weight. The image of this forgetful map can be explicitly described by introducing the notion of "interpolated quantum Lakshmibai-Seshadri (QLS for short) paths", which can be thought of as a generalization of quantum Lakshmibai-Seshadri paths. As an application, we reformulate, in terms of interpolated QLS paths, an identity of Chevalley type for the graded characters of Demazure submodules of a level-zero extremal weight module over a quantum affine algebra, which is a representation-theoretic analog of the Chevalley formula for the torus-equivariant $K$-group of a semi-infinite flag manifold.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-07T14:56:18Z</published>
+    <arxiv:comment>32 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Takafumi Kouno</name>
+    </author>
+    <author>
+      <name>Satoshi Naito</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.21830v1</id>
+    <title>Shape Generation via Weight Space Learning</title>
+    <updated>2025-03-26T15:49:27Z</updated>
+    <link href="https://arxiv.org/abs/2503.21830v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.21830v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Foundation models for 3D shape generation have recently shown a remarkable capacity to encode rich geometric priors across both global and local dimensions. However, leveraging these priors for downstream tasks can be challenging as real-world data are often scarce or noisy, and traditional fine-tuning can lead to catastrophic forgetting. In this work, we treat the weight space of a large 3D shape-generative model as a data modality that can be explored directly. We hypothesize that submanifolds within this high-dimensional weight space can modulate topological properties or fine-grained part features separately, demonstrating early-stage evidence via two experiments. First, we observe a sharp phase transition in global connectivity when interpolating in conditioning space, suggesting that small changes in weight space can drastically alter topology. Second, we show that low-dimensional reparameterizations yield controlled local geometry changes even with very limited data. These results highlight the potential of weight space learning to unlock new approaches for 3D shape generation and specialized fine-tuning.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-26T15:49:27Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Maximilian Plattner</name>
+    </author>
+    <author>
+      <name>Arturs Berzins</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.16768v1</id>
+    <title>WARP: On the Benefits of Weight Averaged Rewarded Policies</title>
+    <updated>2024-06-24T16:24:34Z</updated>
+    <link href="https://arxiv.org/abs/2406.16768v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.16768v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning from human feedback (RLHF) aligns large language models (LLMs) by encouraging their generations to have high rewards, using a reward model trained on human preferences. To prevent the forgetting of pre-trained knowledge, RLHF usually incorporates a KL regularization; this forces the policy to remain close to its supervised fine-tuned initialization, though it hinders the reward optimization. To tackle the trade-off between KL and reward, in this paper we introduce a novel alignment strategy named Weight Averaged Rewarded Policies (WARP). WARP merges policies in the weight space at three distinct stages. First, it uses the exponential moving average of the policy as a dynamic anchor in the KL regularization. Second, it applies spherical interpolation to merge independently fine-tuned policies into a new enhanced one. Third, it linearly interpolates between this merged model and the initialization, to recover features from pre-training. This procedure is then applied iteratively, with each iteration's final model used as an advanced initialization for the next, progressively refining the KL-reward Pareto front, achieving superior rewards at fixed KL. Experiments with GEMMA policies validate that WARP improves their quality and alignment, outperforming other open-source LLMs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-24T16:24:34Z</published>
+    <arxiv:comment>11 main pages (34 pages with Appendix)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alexandre Ramé</name>
+    </author>
+    <author>
+      <name>Johan Ferret</name>
+    </author>
+    <author>
+      <name>Nino Vieillard</name>
+    </author>
+    <author>
+      <name>Robert Dadashi</name>
+    </author>
+    <author>
+      <name>Léonard Hussenot</name>
+    </author>
+    <author>
+      <name>Pierre-Louis Cedoz</name>
+    </author>
+    <author>
+      <name>Pier Giuseppe Sessa</name>
+    </author>
+    <author>
+      <name>Sertan Girgin</name>
+    </author>
+    <author>
+      <name>Arthur Douillard</name>
+    </author>
+    <author>
+      <name>Olivier Bachem</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.15720v1</id>
+    <title>Tripartite Weight-Space Ensemble for Few-Shot Class-Incremental Learning</title>
+    <updated>2025-06-04T01:41:42Z</updated>
+    <link href="https://arxiv.org/abs/2506.15720v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.15720v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Few-shot class incremental learning (FSCIL) enables the continual learning of new concepts with only a few training examples. In FSCIL, the model undergoes substantial updates, making it prone to forgetting previous concepts and overfitting to the limited new examples. Most recent trend is typically to disentangle the learning of the representation from the classification head of the model. A well-generalized feature extractor on the base classes (many examples and many classes) is learned, and then fixed during incremental learning. Arguing that the fixed feature extractor restricts the model's adaptability to new classes, we introduce a novel FSCIL method to effectively address catastrophic forgetting and overfitting issues. Our method enables to seamlessly update the entire model with a few examples. We mainly propose a tripartite weight-space ensemble (Tri-WE). Tri-WE interpolates the base, immediately previous, and current models in weight-space, especially for the classification heads of the models. Then, it collaboratively maintains knowledge from the base and previous models. In addition, we recognize the challenges of distilling generalized representations from the previous model from scarce data. Hence, we suggest a regularization loss term using amplified data knowledge distillation. Simply intermixing the few-shot data, we can produce richer data enabling the distillation of critical knowledge from the previous model. Consequently, we attain state-of-the-art results on the miniImageNet, CUB200, and CIFAR100 datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-04T01:41:42Z</published>
+    <arxiv:comment>Accepted at CVPR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Juntae Lee</name>
+    </author>
+    <author>
+      <name>Munawar Hayat</name>
+    </author>
+    <author>
+      <name>Sungrack Yun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1405.6854v1</id>
+    <title>Weighted rooted trees and deformations of operads</title>
+    <updated>2014-05-27T10:02:18Z</updated>
+    <link href="https://arxiv.org/abs/1405.6854v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1405.6854v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We will define an operad $\mathcal{B}^0$ on planar rooted trees. $\mathcal{B}^0$ is analgous to the $NAP$-operad in the non-planar tree setting. We will define a family of "current-preserving" operads $\mathcal{B}^λ$ depending on a scalar parameter $λ$, which can be seen as a deformation of the operad $\mathcal{B}^0$. Forgetting the extra "current preserving" notion above give back the Brace operad for $λ=1$ and the $\mathcal{B}^0$ operad for $λ=0$. A natural map from non-planar rooted trees to plane ones gives back the current-preserving interpolation between $NAP$ and pre-Lie investigated in a previous article.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-05-27T10:02:18Z</published>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Abdellatif Saïdi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.08564v3</id>
+    <title>How to Teach Large Multimodal Models New Skills</title>
+    <updated>2026-10-22T05:22:21Z</updated>
+    <link href="https://arxiv.org/abs/2510.08564v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.08564v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How can we teach large multimodal models (LMMs) new skills without erasing prior abilities? We study sequential fine-tuning on five target skills while monitoring general ability on eight held-out benchmarks across three model families. Surprisingly, we find that performance lost on held-out tasks after fine-tuning on one skill can partly recover when the model is subsequently tuned on a different skill. We trace this behavior to a measurable shift in the output token distribution, manifested through a simple counting-bias probe that shows the shift co-varies with forgetting. Guided by this insight, we identify two simple, robust tuning recipes that learn strongly while limiting drift: (i) updating only the self-attention projection layers (SA Proj., $Δ$ learning +24.9 / $Δ$ held-out forgetting -0.6), and (ii) updating only the MLP Gate&amp;Up while freezing the Down projection (+30.5 / -2.1). Both substantially outperform full-LLM tuning (+31.8 / -23.3) in the learning-forgetting trade-off. We also compare against common forgetting mitigation methods: Learning without Forgetting (LwF), LoRA, Mixture-of-Experts, and weight-space interpolation (WiSE-FT), and find that our selective tuning recipes match or exceed their learning-stability balance while remaining simpler, requiring no replay, auxiliary parameters, or per-stage tuning. These results hold across LLaVA-OneVision, LLaVA-NeXT, and Qwen2.5-VL, confirming that the key to teaching LMMs new skills without forgetting lies in controlling output distribution shift by choosing which components to tune. Code will be made available.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-09T17:59:37Z</published>
+    <arxiv:comment>ECCV 2026 Spotlight. Code is available at https://github.com/jessemelpolio/LMM_CL</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhen Zhu</name>
+    </author>
+    <author>
+      <name>Yiming Gong</name>
+    </author>
+    <author>
+      <name>Yao Xiao</name>
+    </author>
+    <author>
+      <name>Yaoyao Liu</name>
+    </author>
+    <author>
+      <name>Derek Hoiem</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.19819v1</id>
+    <title>Adaptive Model Ensemble for Continual Learning</title>
+    <updated>2025-09-24T07:01:49Z</updated>
+    <link href="https://arxiv.org/abs/2509.19819v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.19819v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Model ensemble is an effective strategy in continual learning, which alleviates catastrophic forgetting by interpolating model parameters, achieving knowledge fusion learned from different tasks. However, existing model ensemble methods usually encounter the knowledge conflict issue at task and layer levels, causing compromised learning performance in both old and new tasks. To solve this issue, we propose meta-weight-ensembler that adaptively fuses knowledge of different tasks for continual learning. Concretely, we employ a mixing coefficient generator trained via meta-learning to generate appropriate mixing coefficients for model ensemble to address the task-level knowledge conflict. The mixing coefficient is individually generated for each layer to address the layer-level knowledge conflict. In this way, we learn the prior knowledge about adaptively accumulating knowledge of different tasks in a fused model, achieving efficient learning in both old and new tasks. Meta-weight-ensembler can be flexibly combined with existing continual learning methods to boost their ability of alleviating catastrophic forgetting. Experiments on multiple continual learning datasets show that meta-weight-ensembler effectively alleviates catastrophic forgetting and achieves state-of-the-art performance.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-24T07:01:49Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yuchuan Mao</name>
+    </author>
+    <author>
+      <name>Zhi Gao</name>
+    </author>
+    <author>
+      <name>Xiaomeng Fan</name>
+    </author>
+    <author>
+      <name>Yuwei Wu</name>
+    </author>
+    <author>
+      <name>Yunde Jia</name>
+    </author>
+    <author>
+      <name>Chenchen Jing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.19561v1</id>
+    <title>Merging without Forgetting: Continual Fusion of Task-Specific Models via Optimal Transport</title>
+    <updated>2025-11-24T15:27:47Z</updated>
+    <link href="https://arxiv.org/abs/2511.19561v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.19561v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Merging models fine-tuned for different tasks into a single unified model has become an increasingly important direction for building versatile, efficient multi-task systems. Existing approaches predominantly rely on parameter interpolation in weight space, which we show introduces significant distribution shift in the feature space and undermines task-specific knowledge. In this paper, we propose OTMF (Optimal Transport-based Masked Fusion), a novel model merging framework rooted in optimal transport theory to address the distribution shift that arises from naive parameter interpolation. Instead of directly aggregating features or weights, OTMF aligns the semantic geometry of task-specific models by discovering common masks applied to task vectors through optimal transport plans. These masks selectively extract transferable and task-agnostic components while preserving the unique structural identities of each task. To ensure scalability in real-world settings, OTMF further supports a continual fusion paradigm that incrementally integrates each new task vector without revisiting previous ones, maintaining a bounded memory footprint and enabling efficient fusion across a growing number of tasks. We conduct comprehensive experiments on multiple vision and language benchmarks, and results show that OTMF achieves state-of-the-art performance in terms of both accuracy and efficiency. These findings highlight the practical and theoretical value of our approach to model merging.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-24T15:27:47Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zecheng Pan</name>
+    </author>
+    <author>
+      <name>Zhikang Chen</name>
+    </author>
+    <author>
+      <name>Ding Li</name>
+    </author>
+    <author>
+      <name>Min Zhang</name>
+    </author>
+    <author>
+      <name>Sen Cui</name>
+    </author>
+    <author>
+      <name>Hongshuo Jin</name>
+    </author>
+    <author>
+      <name>Luqi Tao</name>
+    </author>
+    <author>
+      <name>Yi Yang</name>
+    </author>
+    <author>
+      <name>Deheng Ye</name>
+    </author>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+    <author>
+      <name>Tingting Zhu</name>
+    </author>
+    <author>
+      <name>Tianling Ren</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["42608247"],"translationset":[],"querytranslation":"\"10 1016 j tins 2026 07 008\"[Publisher ID]"}}

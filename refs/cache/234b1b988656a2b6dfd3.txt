@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/r6X01kDNSAQAU4NIFLUIrEfVmi8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2302.05640&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:31:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2302.05640" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2302.05640v1</id>
+    <title>Meta-Learning Based Knowledge Extrapolation for Temporal Knowledge Graph</title>
+    <updated>2023-02-11T09:52:26Z</updated>
+    <link href="https://arxiv.org/abs/2302.05640v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.05640v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the last few years, the solution to Knowledge Graph (KG) completion via learning embeddings of entities and relations has attracted a surge of interest. Temporal KGs(TKGs) extend traditional Knowledge Graphs (KGs) by associating static triples with timestamps forming quadruples. Different from KGs and TKGs in the transductive setting, constantly emerging entities and relations in incomplete TKGs create demand to predict missing facts with unseen components, which is the extrapolation setting. Traditional temporal knowledge graph embedding (TKGE) methods are limited in the extrapolation setting since they are trained within a fixed set of components. In this paper, we propose a Meta-Learning based Temporal Knowledge Graph Extrapolation (MTKGE) model, which is trained on link prediction tasks sampled from the existing TKGs and tested in the emerging TKGs with unseen entities and relations. Specifically, we meta-train a GNN framework that captures relative position patterns and temporal sequence patterns between relations. The learned embeddings of patterns can be transferred to embed unseen components. Experimental results on two different TKG extrapolation datasets show that MTKGE consistently outperforms both the existing state-of-the-art models for knowledge graph extrapolation and specifically adapted KGE and TKGE baselines.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-11T09:52:26Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhongwu Chen</name>
+    </author>
+    <author>
+      <name>Chengjin Xu</name>
+    </author>
+    <author>
+      <name>Fenglong Su</name>
+    </author>
+    <author>
+      <name>Zhen Huang</name>
+    </author>
+    <author>
+      <name>You Dou</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HlPFX8T6cnj6q2ksXBf8mlA7k4Q</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.00671&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:30:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.00671" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00671v2</id>
+    <title>Fast-weight Product Key Memory</title>
+    <updated>2026-02-22T06:35:55Z</updated>
+    <link href="https://arxiv.org/abs/2601.00671v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.00671v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sequence modeling layers in modern language models typically face a trade-off between storage capacity and computational efficiency. While softmax attention offers unbounded storage at prohibitive quadratic cost, linear variants are more efficient but suffer from limited, fixed-size storage. We introduce Fast-weight Product Key Memory (FwPKM), a sparse fast-weight memory layer that resolves this tension. FwPKM updates sparsely activated parameters at both training and inference time using chunk-level gradient descent on a local memory-rewrite objective. This performs Test-Time Training (TTT)-style gradient updates on activated slots in a sparse memory, enabling rapid memorization and retrieval of many new key-value associations while keeping per-token compute low and fixed. Experiments show that FwPKM functions as an effective episodic memory that complements the semantic memory of standard modules, yielding significant perplexity reductions on long-context datasets. Notably, in Needle-in-a-Haystack evaluations, FwPKM generalizes to 128K-token contexts despite being trained on only 4K-token sequences.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-02T12:37:53Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tianyu Zhao</name>
+    </author>
+    <author>
+      <name>Llion Jones</name>
+    </author>
+  </entry>
+</feed>

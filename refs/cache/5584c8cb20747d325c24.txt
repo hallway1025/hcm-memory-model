@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["28118817"],"translationset":[],"querytranslation":"\"10.1007\"[All Fields] AND \"11\"[Publisher ID]","errorlist":{"phrasesnotfound":["/","978-3-031-28719-0"],"fieldsnotfound":[]}}}

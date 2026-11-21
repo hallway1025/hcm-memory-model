@@ -1,0 +1,13 @@
+  [char s0] ckpt 1 N=388 wrote=388 rates={'20': 0.792, '100': 0.792, '500': 0.792, '2500': 0.792} beta*=20 2s
+  [char s0] ckpt 2 N=775 wrote=775 rates={'20': 0.917, '100': 0.958, '500': 0.958, '2500': 0.958} beta*=100 7s
+  [char s0] ckpt 3 N=1133 wrote=1133 rates={'20': 0.875, '100': 0.917, '500': 0.917, '2500': 0.917} beta*=100 14s
+  [char s0] ckpt 4 N=1495 wrote=1495 rates={'20': 0.917, '100': 0.917, '500': 0.917, '2500': 0.917} beta*=20 22s
+  [sem s0] ckpt 1 N=412 wrote=412 rates={'20': 0.792, '100': 0.792, '500': 0.792, '2500': 0.792} beta*=20 2s
+  [sem s0] ckpt 2 N=856 wrote=856 rates={'20': 0.833, '100': 0.792, '500': 0.792, '2500': 0.792} beta*=20 7s
+  [sem s0] ckpt 3 N=1271 wrote=1271 rates={'20': 0.75, '100': 0.792, '500': 0.792, '2500': 0.792} beta*=100 15s
+  [sem s0] ckpt 4 N=1693 wrote=1693 rates={'20': 0.833, '100': 0.833, '500': 0.833, '2500': 0.833} beta*=20 24s
+  [transfer s0] ckpt 0 beta*=20 rate=0.792 reused
+  [transfer s0] ckpt 1 beta*=100 rate=0.792 reused
+  [transfer s0] ckpt 2 beta*=100 rate=0.792 reused
+  [transfer s0] ckpt 3 beta*=20 rate=0.833 reused
+seed 0 done in 393s char_n=1495 sem_n=1693 gate=POSITIVE

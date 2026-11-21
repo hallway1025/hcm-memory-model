@@ -1,0 +1,56 @@
+[
+ {
+  "use_ctx": false,
+  "kappa": 0.0,
+  "n_written": 19,
+  "A": 10,
+  "A_n": 10,
+  "B": 9,
+  "B_n": 9
+ },
+ {
+  "use_ctx": false,
+  "kappa": 1.0,
+  "n_written": 19,
+  "A": 10,
+  "A_n": 10,
+  "B": 9,
+  "B_n": 9
+ },
+ {
+  "use_ctx": false,
+  "kappa": 3.0,
+  "n_written": 19,
+  "A": 10,
+  "A_n": 10,
+  "B": 9,
+  "B_n": 9
+ },
+ {
+  "use_ctx": true,
+  "kappa": 0.0,
+  "n_written": 19,
+  "A": 10,
+  "A_n": 10,
+  "B": 9,
+  "B_n": 9
+ },
+ {
+  "use_ctx": true,
+  "kappa": 1.0,
+  "n_written": 19,
+  "A": 10,
+  "A_n": 10,
+  "B": 9,
+  "B_n": 9
+ },
+ {
+  "use_ctx": true,
+  "kappa": 3.0,
+  "n_written": 19,
+  "A": 10,
+  "A_n": 10,
+  "B": 9,
+  "B_n": 9
+ }
+]

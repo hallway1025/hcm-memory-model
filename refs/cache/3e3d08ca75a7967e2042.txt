@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TLMgVrR0yJgPIKgcYMsvuh238tE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2405.20620&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T11:57:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2405.20620" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2405.20620v1</id>
+    <title>"Forgetting" in Machine Learning and Beyond: A Survey</title>
+    <updated>2024-05-31T05:10:30Z</updated>
+    <link href="https://arxiv.org/abs/2405.20620v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.20620v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This survey investigates the multifaceted nature of forgetting in machine learning, drawing insights from neuroscientific research that posits forgetting as an adaptive function rather than a defect, enhancing the learning process and preventing overfitting. This survey focuses on the benefits of forgetting and its applications across various machine learning sub-fields that can help improve model performance and enhance data privacy. Moreover, the paper discusses current challenges, future directions, and ethical considerations regarding the integration of forgetting mechanisms into machine learning models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-31T05:10:30Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alyssa Shuang Sha</name>
+    </author>
+    <author>
+      <name>Bernardo Pereira Nunes</name>
+    </author>
+    <author>
+      <name>Armin Haller</name>
+    </author>
+  </entry>
+</feed>

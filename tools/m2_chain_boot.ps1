@@ -1,0 +1,3 @@
+$p = Start-Process -FilePath 'powershell' -ArgumentList '-NoProfile','-ExecutionPolicy','Bypass','-File','C:/Users/you/hcm/tools/m2_chain_runner.ps1' -WorkingDirectory 'C:/Users/you/hcm' -RedirectStandardOutput 'C:/Users/you/hcm/results/chain_runner.log' -RedirectStandardError 'C:/Users/you/hcm/results/chain_runner.err' -PassThru -WindowStyle Hidden
+Start-Sleep -Seconds 3
+Write-Output ('RUNNER_PID=' + $p.Id)

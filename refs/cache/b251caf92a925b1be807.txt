@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kAmWZ4qUSjJgwXLMHVGBr0ujAJ4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2603.09297&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T12:14:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2603.09297" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2603.09297v1</id>
+    <title>TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA</title>
+    <updated>2026-03-10T07:27:01Z</updated>
+    <link href="https://arxiv.org/abs/2603.09297v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.09297v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) has exhibited strong reasoning ability in text-based contexts across various domains, yet the limitation of context window poses challenges for the model on long-range inference tasks and necessitates a memory storage system. While many current storage approaches have been proposed with episodic notes and graph representations of memory, retrieval methods still primarily rely on predefined workflows or static similarity top-k over embeddings. To address this inflexibility, we introduced a novel tool-augmented autonomous memory retrieval framework (TA-Mem), which contains: (1) a memory extraction LLM agent which is prompted to adaptively chuck an input into sub-context based on semantic correlation, and extract information into structured notes, (2) a multi-indexed memory database designed for different types of query methods including both key-based lookup and similarity-based retrieval, (3) a tool-augmented memory retrieval agent which explores the memory autonomously by selecting appropriate tools provided by the database based on the user input, and decides whether to proceed to the next iteration or finalizing the response after reasoning on the fetched memories. The TA-Mem is evaluated on the LoCoMo dataset, achieving significant performance improvements over existing baseline approaches. In addition, an analysis of tool use across different question types also demonstrates the adaptivity of the proposed method.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-10T07:27:01Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Mengwei Yuan</name>
+    </author>
+    <author>
+      <name>Jianan Liu</name>
+    </author>
+    <author>
+      <name>Jing Yang</name>
+    </author>
+    <author>
+      <name>Xianyou Li</name>
+    </author>
+    <author>
+      <name>Weiran Yan</name>
+    </author>
+    <author>
+      <name>Yichao Wu</name>
+    </author>
+    <author>
+      <name>Penghao Liang</name>
+    </author>
+  </entry>
+</feed>

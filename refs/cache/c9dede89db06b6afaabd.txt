@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["18206284"],"translationset":[],"querytranslation":"\"10 1016 j bandc 2007 11 006\"[Publisher ID]"}}

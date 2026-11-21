@@ -1,0 +1,607 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM"><PMID Version="1">24600373</PMID><DateCompleted><Year>2014</Year><Month>03</Month><Day>06</Day></DateCompleted><DateRevised><Year>2021</Year><Month>10</Month><Day>21</Day></DateRevised><Article PubModel="Electronic-eCollection"><Journal><ISSN IssnType="Print">1662-5161</ISSN><JournalIssue CitedMedium="Print"><Volume>8</Volume><PubDate><Year>2014</Year></PubDate></JournalIssue><Title>Frontiers in human neuroscience</Title><ISOAbbreviation>Front Hum Neurosci</ISOAbbreviation></Journal><ArticleTitle>The spectro-contextual encoding and retrieval theory of episodic memory.</ArticleTitle><Pagination><StartPage>75</StartPage><MedlinePgn>75</MedlinePgn></Pagination><ELocationID EIdType="pii" ValidYN="Y">75</ELocationID><ELocationID EIdType="doi" ValidYN="Y">10.3389/fnhum.2014.00075</ELocationID><Abstract><AbstractText>The spectral fingerprint hypothesis, which posits that different frequencies of oscillations underlie different cognitive operations, provides one account for how interactions between brain regions support perceptual and attentive processes (Siegel etal., 2012). Here, we explore and extend this idea to the domain of human episodic memory encoding and retrieval. Incorporating findings from the synaptic to cognitive levels of organization, we argue that spectrally precise cross-frequency coupling and phase-synchronization promote the formation of hippocampal-neocortical cell assemblies that form the basis for episodic memory. We suggest that both cell assembly firing patterns as well as the global pattern of brain oscillatory activity within hippocampal-neocortical networks represents the contents of a particular memory. Drawing upon the ideas of context reinstatement and multiple trace theory, we argue that memory retrieval is driven by internal and/or external factors which recreate these frequency-specific oscillatory patterns which occur during episodic encoding. These ideas are synthesized into a novel model of episodic memory (the spectro-contextual encoding and retrieval theory, or "SCERT") that provides several testable predictions for future research.</AbstractText></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Watrous</LastName><ForeName>Andrew J</ForeName><Initials>AJ</Initials><AffiliationInfo><Affiliation>Center for Neuroscience, University of California Davis, CA, USA ; University of Bonn, Bonn Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Ekstrom</LastName><ForeName>Arne D</ForeName><Initials>AD</Initials><AffiliationInfo><Affiliation>Center for Neuroscience, University of California Davis, CA, USA ; Neuroscience Graduate Group, University of California Davis, CA, USA ; Department of Psychology, University of California Davis, CA, USA.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><GrantList CompleteYN="Y"><Grant><GrantID>R01 NS076856</GrantID><Acronym>NS</Acronym><Agency>NINDS NIH HHS</Agency><Country>United States</Country></Grant></GrantList><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType="Electronic"><Year>2014</Year><Month>02</Month><Day>18</Day></ArticleDate></Article><MedlineJournalInfo><Country>Switzerland</Country><MedlineTA>Front Hum Neurosci</MedlineTA><NlmUniqueID>101477954</NlmUniqueID><ISSNLinking>1662-5161</ISSNLinking></MedlineJournalInfo><KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">cell assembly</Keyword><Keyword MajorTopicYN="N">context reinstatement</Keyword><Keyword MajorTopicYN="N">cross-frequency coupling</Keyword><Keyword MajorTopicYN="N">episodic memory</Keyword><Keyword MajorTopicYN="N">hippocampus</Keyword><Keyword MajorTopicYN="N">neocortex</Keyword><Keyword MajorTopicYN="N">oscillations</Keyword><Keyword MajorTopicYN="N">phase-synchronization</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="received"><Year>2013</Year><Month>9</Month><Day>18</Day></PubMedPubDate><PubMedPubDate PubStatus="accepted"><Year>2014</Year><Month>1</Month><Day>29</Day></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2014</Year><Month>3</Month><Day>7</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2014</Year><Month>3</Month><Day>7</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="medline"><Year>2014</Year><Month>3</Month><Day>7</Day><Hour>6</Hour><Minute>1</Minute></PubMedPubDate><PubMedPubDate PubStatus="pmc-release"><Year>2014</Year><Month>1</Month><Day>1</Day></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">24600373</ArticleId><ArticleId IdType="pmc">PMC3927099</ArticleId><ArticleId IdType="doi">10.3389/fnhum.2014.00075</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Addante R. J., Watrous A. J., Yonelinas A. P., Ekstrom A. D., Ranganath C. (2011). Prestimulus theta activity predicts correct source memory retrieval.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+108
+10702&#x2013;10707
+10.1073/pnas.1014528108</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.1014528108</ArticleId><ArticleId IdType="pmc">PMC3127901</ArticleId><ArticleId IdType="pubmed">21670287</ArticleId></ArticleIdList></Reference><Reference><Citation>Akam T., Kullman D. M. (2014). Oscillatory multiplexing of population codes for selective communication in the mammalian brain.
+<i>Nat. Rev. Neurosci.</i>
+15
+111-122
+10.1038/nrn3668</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn3668</ArticleId><ArticleId IdType="pmc">PMC4724886</ArticleId><ArticleId IdType="pubmed">24434912</ArticleId></ArticleIdList></Reference><Reference><Citation>Anastassiou C. A., Markram H., Koch C. (2011). Ephaptic coupling of cortical neurons.
+<i>Nat. Neurosci.</i>
+14
+217&#x2013;223 10.1038/nn.2727</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn.2727</ArticleId><ArticleId IdType="pubmed">21240273</ArticleId></ArticleIdList></Reference><Reference><Citation>Anderson K. L., Rajagovindan R., Ghacibeh G. A., Meador K. J., Ding M. (2009). Theta oscillations mediate interaction between prefrontal cortex and medial temporal lobe in human memory.
+<i>Cereb. Cortex</i>
+1
+15</Citation><ArticleIdList><ArticleId IdType="pubmed">19861635</ArticleId></ArticleIdList></Reference><Reference><Citation>Axmacher N., Henseler M. M., Jensen O., Weinreich I., Elger C. E., Fell J. (2010a). Cross-frequency coupling supports multi-item working memory in the human hippocampus.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+107
+3228&#x2013;3233 10.1073/pnas.0911531107</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.0911531107</ArticleId><ArticleId IdType="pmc">PMC2840289</ArticleId><ArticleId IdType="pubmed">20133762</ArticleId></ArticleIdList></Reference><Reference><Citation>Axmacher N., Lenz S., Haupt S., Elger C. E., Fell J. (2010b). Electrophysiological signature of working and long-term memory interaction in the human hippocampus.
+<i>Eur. J. Neurosci.</i>
+31
+177&#x2013;188 10.1111/j.1460-9568.2009.07041.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1460-9568.2009.07041.x</ArticleId><ArticleId IdType="pubmed">20092564</ArticleId></ArticleIdList></Reference><Reference><Citation>Axmacher N., Mormann F., Fern&#xe1;ndez G., Elger C. E., Fell J. (2006). Memory formation by neuronal synchronization.
+<i>Brain Res. Rev.</i>
+52
+170&#x2013;182 10.1016/j.brainresrev.2006.01.007</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.brainresrev.2006.01.007</ArticleId><ArticleId IdType="pubmed">16545463</ArticleId></ArticleIdList></Reference><Reference><Citation>Axmacher N., Schmitz D. P., Wagner T., Elger C. E., Fell J. (2008). Interactions between medial temporal lobe, prefrontal cortex, and inferior temporal regions during visual working memory: a combined intracranial EEG and functional magnetic resonance imaging study.
+<i>J. Neurosci.</i>
+28
+7304&#x2013;7312 10.1523/JNEUROSCI.1778-08.2008</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.1778-08.2008</ArticleId><ArticleId IdType="pmc">PMC6670397</ArticleId><ArticleId IdType="pubmed">18632934</ArticleId></ArticleIdList></Reference><Reference><Citation>Bao W., Wu J.-Y. (2003). Propagating wave and irregular dynamics: spatiotemporal patterns of cholinergic theta oscillations in neocortex in vitro.
+<i>J. Neurophysiol.</i>
+90
+333&#x2013;341 10.1152/jn.00715.2002</Citation><ArticleIdList><ArticleId IdType="doi">10.1152/jn.00715.2002</ArticleId><ArticleId IdType="pmc">PMC2941800</ArticleId><ArticleId IdType="pubmed">12612003</ArticleId></ArticleIdList></Reference><Reference><Citation>Battaglia F. P., Benchenane K., Sirota A., Pennartz C. M. A., Wiener S. I. (2011). The hippocampus: hub of brain network communication for memory.
+<i>Trends Cogn. Sci.</i>
+15
+310&#x2013;318 10.1016/j.tics.2011.05.008</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tics.2011.05.008</ArticleId><ArticleId IdType="pubmed">21696996</ArticleId></ArticleIdList></Reference><Reference><Citation>Belluscio M. A., Mizuseki K., Schmidt R., Kempter R., Buzs&#xe1;ki G. (2012). Cross-frequency phase-phase coupling between &#x3b8; and &#x3b3; oscillations in the hippocampus.
+<i>J. Neurosci.</i>
+32
+423&#x2013;435 10.1523/JNEUROSCI.4122-11.2012</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.4122-11.2012</ArticleId><ArticleId IdType="pmc">PMC3293373</ArticleId><ArticleId IdType="pubmed">22238079</ArticleId></ArticleIdList></Reference><Reference><Citation>Benchenane K., Peyrache A., Khamassi M., Tierney P. L., Gioanni Y., Battaglia F. P., et al.  (2010). Coherent theta oscillations and reorganization of spike timing in the hippocampal-prefrontal network upon learning.
+<i>Neuron</i>
+66
+921&#x2013;936 10.1016/j.neuron.2010.05.013</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2010.05.013</ArticleId><ArticleId IdType="pubmed">20620877</ArticleId></ArticleIdList></Reference><Reference><Citation>Blatow M., Rozov A., Katona I., Hormuzdi S. G., Meyer A. H., Whittington M. A., et al.  (2003). A novel network of multipolar bursting interneurons generates theta frequency oscillations in neocortex.
+<i>Neuron</i>
+38
+805&#x2013;817 10.1016/S0896-6273(03)00300-3</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0896-6273(03)00300-3</ArticleId><ArticleId IdType="pubmed">12797964</ArticleId></ArticleIdList></Reference><Reference><Citation>Bliss T. V., Lomo T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path.
+<i>J. Physiol.</i>
+232
+331&#x2013;356</Citation><ArticleIdList><ArticleId IdType="pmc">PMC1350458</ArticleId><ArticleId IdType="pubmed">4727084</ArticleId></ArticleIdList></Reference><Reference><Citation>Bosman C. A., Schoffelen J. M., Brunet N., Oostenveld R., Bastos A. M., Womelsdorf T., et al.  (2012). Attentional stimulus selection through selective synchronization between monkey visual areas.
+<i>Neuron</i>
+75
+875&#x2013;888
+10.1016/j.neuron.2012.06.037</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2012.06.037</ArticleId><ArticleId IdType="pmc">PMC3457649</ArticleId><ArticleId IdType="pubmed">22958827</ArticleId></ArticleIdList></Reference><Reference><Citation>Brager D. H., Johnston D. (2007). Plasticity of intrinsic excitability during long-term depression is mediated through mGluR-dependent changes in I(h) in hippocampal CA1 pyramidal neurons.
+<i>J. Neurosci.</i>
+27
+13926&#x2013;13937 10.1523/JNEUROSCI.3520-07.2007</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.3520-07.2007</ArticleId><ArticleId IdType="pmc">PMC6673524</ArticleId><ArticleId IdType="pubmed">18094230</ArticleId></ArticleIdList></Reference><Reference><Citation>Bragin A., Jand&#xf3; G., N&#xe1;dasdy Z., Hetke J., Wise K., Buzs&#xe1;ki G. (1995). Gamma (40-100 Hz) oscillation in the hippocampus of the behaving rat.
+<i>J. Neurosci.</i>
+15
+47&#x2013;60</Citation><ArticleIdList><ArticleId IdType="pmc">PMC6578273</ArticleId><ArticleId IdType="pubmed">7823151</ArticleId></ArticleIdList></Reference><Reference><Citation>Burke J. F., Zaghloul K. A., Jacobs J., Williams R. B., Sperling M. R., Sharan A. D., et al.  (2013). Synchronous and asynchronous theta and gamma activity during episodic memory formation.
+<i>J. Neurosci.</i>
+33
+292&#x2013;304 10.1523/JNEUROSCI.2057-12.2013</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.2057-12.2013</ArticleId><ArticleId IdType="pmc">PMC3711714</ArticleId><ArticleId IdType="pubmed">23283342</ArticleId></ArticleIdList></Reference><Reference><Citation>Buzs&#xe1;ki G. (1996). The hippocampo-neocortical dialogue.
+<i>Cereb. Cortex</i>
+6
+81&#x2013;92 10.1093/cercor/6.2.81</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/6.2.81</ArticleId><ArticleId IdType="pubmed">8670641</ArticleId></ArticleIdList></Reference><Reference><Citation>Buzs&#xe1;ki G. (2005). Theta rhythm of navigation: link between path integration and landmark navigation, episodic and semantic memory.
+<i>Hippocampus</i>
+15
+827&#x2013;840 10.1002/hipo.20113</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.20113</ArticleId><ArticleId IdType="pubmed">16149082</ArticleId></ArticleIdList></Reference><Reference><Citation>Buzs&#xe1;ki G., Moser E. I. (2013). Memory, navigation and theta rhythm in the hippocampal-entorhinal system.
+<i>Nat. Neurosci.</i>
+16
+130&#x2013;138 10.1038/nn.3304</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn.3304</ArticleId><ArticleId IdType="pmc">PMC4079500</ArticleId><ArticleId IdType="pubmed">23354386</ArticleId></ArticleIdList></Reference><Reference><Citation>Cabral H. O., Vinck M., Fouquet C., Pennartz C. M. A., Rondi-Reig L., Battaglia F. P. (2014). Oscillatory dynamics and place field maps reflect hippocampal ensemble processing of sequence and place memory under NMDA receptor control.
+<i>Neuron</i>
+81
+402&#x2013;415 10.1016/j.neuron.2013.11.010</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2013.11.010</ArticleId><ArticleId IdType="pubmed">24462101</ArticleId></ArticleIdList></Reference><Reference><Citation>Cameron K. A., Yashar S., Wilson C. L., Fried I. (2001). Human hippocampal neurons predict how well word pairs will be remembered.
+<i>Neuron</i>
+30
+289&#x2013;298 10.1016/S0896-6273(01)00280-X</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0896-6273(01)00280-X</ArticleId><ArticleId IdType="pubmed">11343662</ArticleId></ArticleIdList></Reference><Reference><Citation>Canolty R. T., Knight R. T. (2010). The functional role of cross-frequency coupling.
+<i>Trends Cogn. Sci.</i>
+14
+506&#x2013;515 10.1016/j.tics.2010.09.001</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tics.2010.09.001</ArticleId><ArticleId IdType="pmc">PMC3359652</ArticleId><ArticleId IdType="pubmed">20932795</ArticleId></ArticleIdList></Reference><Reference><Citation>Canolty R. T., Edwards E., Dalal S. S., Soltani M., Nagarajan S. S., Kirsch H. E., et al.  (2006). High gamma power is phase-locked to theta oscillations in human neocortex.
+<i>Science</i>
+313
+1626&#x2013;1628 10.1126/science.1128115</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1128115</ArticleId><ArticleId IdType="pmc">PMC2628289</ArticleId><ArticleId IdType="pubmed">16973878</ArticleId></ArticleIdList></Reference><Reference><Citation>Canolty R. T., Ganguly K., Carmena J. M. (2012). Task-dependent changes in cross-level coupling between single neurons and oscillatory activity in multiscale networks.
+<i>PLoS Comput. Biol.</i>
+8:e1002809
+10.1371/journal.pcbi.1002809</Citation><ArticleIdList><ArticleId IdType="doi">10.1371/journal.pcbi.1002809</ArticleId><ArticleId IdType="pmc">PMC3527280</ArticleId><ArticleId IdType="pubmed">23284276</ArticleId></ArticleIdList></Reference><Reference><Citation>Canolty R. T., Ganguly K., Kennerley S. W., Cadieu C. F., Koepsell K., Wallis J. D., et al.  (2010). Oscillatory phase coupling coordinates anatomically dispersed functional cell assemblies.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+107
+17356&#x2013;17361 10.1073/pnas.1008306107</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.1008306107</ArticleId><ArticleId IdType="pmc">PMC2951408</ArticleId><ArticleId IdType="pubmed">20855620</ArticleId></ArticleIdList></Reference><Reference><Citation>Caporale N., Dan Y. (2008). Spike timing-dependent plasticity: a Hebbian learning rule.
+<i>Annu. Rev. Neurosci.</i>
+31
+25&#x2013;46 10.1146/annurev.neuro.31.060407.125639</Citation><ArticleIdList><ArticleId IdType="doi">10.1146/annurev.neuro.31.060407.125639</ArticleId><ArticleId IdType="pubmed">18275283</ArticleId></ArticleIdList></Reference><Reference><Citation>Cashdollar N., Malecki U., Rugg-Gunn F. J., Duncan J. S., Lavie N., Duzel E. (2009). Hippocampus-dependent and -independent theta-networks of active maintenance.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+106
+20493&#x2013;20498 10.1073/pnas.0904823106</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.0904823106</ArticleId><ArticleId IdType="pmc">PMC2787111</ArticleId><ArticleId IdType="pubmed">19918077</ArticleId></ArticleIdList></Reference><Reference><Citation>Chapman C. A. C, Lacaille J. C. J. (1999). Intrinsic theta-frequency membrane potential oscillations in hippocampal CA1 interneurons of stratum lacunosum-moleculare.
+<i>J. Neurophysiol.</i>
+81
+1296&#x2013;1307</Citation><ArticleIdList><ArticleId IdType="pubmed">10085356</ArticleId></ArticleIdList></Reference><Reference><Citation>Chrobak J. J., Buzs&#xe1;ki G. (1998). Gamma oscillations in the entorhinal cortex of the freely behaving rat.
+<i>J. Neurosci.</i>
+18
+388&#x2013;398</Citation><ArticleIdList><ArticleId IdType="pmc">PMC6793397</ArticleId><ArticleId IdType="pubmed">9412515</ArticleId></ArticleIdList></Reference><Reference><Citation>Coleshill S. G., Binnie C. D., Morris R. G., Alarc&#xf3;n G., van Emde Boas W., Velis D. N., et al.  (2004). Material-specific recognition memory deficits elicited by unilateral hippocampal electrical stimulation.
+<i>J. Neurosci.</i>
+24
+1612&#x2013;1616 10.1523/JNEUROSCI.4352-03.2004</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.4352-03.2004</ArticleId><ArticleId IdType="pmc">PMC6730466</ArticleId><ArticleId IdType="pubmed">14973245</ArticleId></ArticleIdList></Reference><Reference><Citation>Colgin L. L., Denninger T., Fyhn M., Hafting T., Bonnevie T., Jensen O., et al.  (2009). Frequency of gamma oscillations routes flow of information in the hippocampus.
+<i>Nature</i>
+462
+353&#x2013;357 10.1038/nature08573</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nature08573</ArticleId><ArticleId IdType="pubmed">19924214</ArticleId></ArticleIdList></Reference><Reference><Citation>Crone N. E., Miglioretti D. L., Gordon B., Lesser R. P. (1998). Functional mapping of human sensorimotor cortex with electrocorticographic spectral analysis. II. Event-related synchronization in the gamma band.
+<i>Brain</i>121(Pt
+12)
+2301&#x2013;2315 10.1093/brain/121.12.2301</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/brain/121.12.2301</ArticleId><ArticleId IdType="pubmed">9874481</ArticleId></ArticleIdList></Reference><Reference><Citation>Das A., Narayanan R. (2014). Active dendrites regulate spectral selectivity in location-dependent spike initiation dynamics of hippocampal model neurons.
+<i>J. Neurosci.</i>
+34
+1195&#x2013;1211 10.1523/JNEUROSCI.3203-13.2014</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.3203-13.2014</ArticleId><ArticleId IdType="pmc">PMC6705308</ArticleId><ArticleId IdType="pubmed">24453312</ArticleId></ArticleIdList></Reference><Reference><Citation>Demiralp T., Bayraktaroglu Z., Lenz D., Junge S., Busch N. A., Maess B., et al.  (2007). Gamma amplitudes are coupled to theta phase in human EEG during visual perception.
+<i>Int. J. Psychophysiol.</i>
+64
+24&#x2013;30 10.1016/j.ijpsycho.2006.07.005</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.ijpsycho.2006.07.005</ArticleId><ArticleId IdType="pubmed">16956685</ArticleId></ArticleIdList></Reference><Reference><Citation>Diana R. A., Yonelinas A. P., Ranganath C. (2007). Imaging recollection and familiarity in the medial temporal lobe: a three-component model.
+<i>Trends Cogn. Sci.</i>
+11
+379&#x2013;386 10.1016/j.tics.2007.08.001</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tics.2007.08.001</ArticleId><ArticleId IdType="pubmed">17707683</ArticleId></ArticleIdList></Reference><Reference><Citation>Douchamps V., Jeewajee A., Blundell P., Burgess N., Lever C. (2013). Evidence for encoding versus retrieval scheduling in the hippocampus by theta phase and acetylcholine.
+<i>J. Neurosci.</i>
+33
+8689&#x2013;8704 10.1523/JNEUROSCI.4483-12.2013</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.4483-12.2013</ArticleId><ArticleId IdType="pmc">PMC3715394</ArticleId><ArticleId IdType="pubmed">23678113</ArticleId></ArticleIdList></Reference><Reference><Citation>D&#xfc;zel E., Habib R., Schott B., Schoenfeld A., Lobaugh N., McIntosh A. R., et al.  (2003). A multivariate, spatiotemporal analysis of electromagnetic time-frequency data of recognition memory.
+<i>Neuroimage</i>
+18
+185&#x2013;197 10.1016/S1053-8119(02)00031-9</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S1053-8119(02)00031-9</ArticleId><ArticleId IdType="pubmed">12595175</ArticleId></ArticleIdList></Reference><Reference><Citation>D&#xfc;zel E., Neufang M., Heinze H.-J. (2005). The oscillatory dynamics of recognition memory and its relationship to event-related responses.
+<i>Cereb. Cortex</i>
+15
+1992&#x2013;2002 10.1093/cercor/bhi074</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/bhi074</ArticleId><ArticleId IdType="pubmed">15772372</ArticleId></ArticleIdList></Reference><Reference><Citation>Eichenbaum H. (2000). A cortical-hippocampal system for declarative memory.
+<i>Nat. Rev. Neurosci.</i>
+1
+41&#x2013;50 10.1038/35036213</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/35036213</ArticleId><ArticleId IdType="pubmed">11252767</ArticleId></ArticleIdList></Reference><Reference><Citation>Eichenbaum H., Yonelinas A. P., Ranganath C. (2007). The medial temporal lobe and recognition memory.
+<i>Annu. Rev. Neurosci.</i>
+30
+123&#x2013;152 10.1146/annurev.neuro.30.051606.094328</Citation><ArticleIdList><ArticleId IdType="doi">10.1146/annurev.neuro.30.051606.094328</ArticleId><ArticleId IdType="pmc">PMC2064941</ArticleId><ArticleId IdType="pubmed">17417939</ArticleId></ArticleIdList></Reference><Reference><Citation>Ekstrom A. D., Copara M. S., Isham E. A., Wang W.-C., Yonelinas A. P. (2011). Dissociable networks involved in spatial and temporal order source retrieval.
+<i>Neuroimage</i>
+56
+1803&#x2013;1813 10.1016/j.neuroimage.2011.02.033</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2011.02.033</ArticleId><ArticleId IdType="pubmed">21334445</ArticleId></ArticleIdList></Reference><Reference><Citation>Ekstrom A. D., Kahana M. J., Caplan J. B., Fields T. A., Isham E. A., Newman E. L., et al.  (2003). Cellular networks underlying human spatial navigation.
+<i>Nature</i>
+425
+184&#x2013;188 10.1038/nature01964</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nature01964</ArticleId><ArticleId IdType="pubmed">12968182</ArticleId></ArticleIdList></Reference><Reference><Citation>Ekstrom A. D., Watrous A. J. (2014). Multifaceted roles for low-frequency oscillations in bottom-up and top-down processing during navigation and memory.
+<i>Neuroimage</i>
+85
+667&#x2013;677 10.1016/j.neuroimage.2013.06.049</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2013.06.049</ArticleId><ArticleId IdType="pmc">PMC4099189</ArticleId><ArticleId IdType="pubmed">23792985</ArticleId></ArticleIdList></Reference><Reference><Citation>Ekstrom A., Suthana N., Millett D., Fried I., Bookheimer S. (2009). Correlation between BOLD fMRI and theta-band local field potentials in the human hippocampal area.
+<i>J. Neurophysiol.</i>
+101
+2668&#x2013;2678 10.1152/jn.91252.2008</Citation><ArticleIdList><ArticleId IdType="doi">10.1152/jn.91252.2008</ArticleId><ArticleId IdType="pmc">PMC2681439</ArticleId><ArticleId IdType="pubmed">19244353</ArticleId></ArticleIdList></Reference><Reference><Citation>Engel A. K., Fries P., Singer W. (2001). Dynamic predictions: oscillations and synchrony in top-down processing.
+<i>Nat. Rev. Neurosci.</i>
+2
+704&#x2013;716 10.1038/35094565</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/35094565</ArticleId><ArticleId IdType="pubmed">11584308</ArticleId></ArticleIdList></Reference><Reference><Citation>Fell J., Axmacher N. (2011). The role of phase synchronization in memory processes.
+<i>Nat. Rev. Neurosci.</i>
+12
+105&#x2013;118 10.1038/nrn2979</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn2979</ArticleId><ArticleId IdType="pubmed">21248789</ArticleId></ArticleIdList></Reference><Reference><Citation>Fell J., Fern&#xe1;ndez G., Klaver P., Axmacher N., Mormann F., Haupt S., et al.  (2006). Rhinal-hippocampal coupling during declarative memory formation: dependence on item characteristics.
+<i>Neurosci. Lett.</i>
+407
+37&#x2013;41 10.1016/j.neulet.2006.07.074</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neulet.2006.07.074</ArticleId><ArticleId IdType="pubmed">16959417</ArticleId></ArticleIdList></Reference><Reference><Citation>Fell J., Klaver P., Elfadil H., Schaller C., Elger C. E., Fern&#xe1;ndez G. (2003). Rhinal-hippocampal theta coherence during declarative memory formation: interaction with gamma synchronization?
+<i>Eur. J. Neurosci.</i>
+17
+1082&#x2013;1088
+10.1046/j.1460-9568.2003.02522.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1046/j.1460-9568.2003.02522.x</ArticleId><ArticleId IdType="pubmed">12653984</ArticleId></ArticleIdList></Reference><Reference><Citation>Fell J., Klaver P., Lehnertz K., Grunwald T., Schaller C., Elger C. E., et al.  (2001). Human memory formation is accompanied by rhinal-hippocampal coupling and decoupling.
+<i>Nat. Neurosci.</i>
+4
+1259&#x2013;1264 10.1038/nn759</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn759</ArticleId><ArticleId IdType="pubmed">11694886</ArticleId></ArticleIdList></Reference><Reference><Citation>Fell J., Ludowig E., Rosburg T., Axmacher N., Elger C. E. (2008). Phase-locking within human mediotemporal lobe predicts memory formation.
+<i>Neuroimage</i>
+43
+410&#x2013;419 10.1016/j.neuroimage.2008.07.021</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2008.07.021</ArticleId><ArticleId IdType="pubmed">18703147</ArticleId></ArticleIdList></Reference><Reference><Citation>Felleman D. J, Van Essen D. C. (1991). Distributed hierarchical processing in the primate cerebral cortex.
+<i>Cereb. Cortex</i>
+1
+1&#x2013;47 10.1093/cercor/1.1.1</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/1.1.1</ArticleId><ArticleId IdType="pubmed">1822724</ArticleId></ArticleIdList></Reference><Reference><Citation>Foster B. L., Kaveh A., Dastjerdi M., Miller K. J., Parvizi J. (2013). Human retrosplenial cortex displays transient theta phase locking with medial temporal cortex prior to activation during autobiographical memory retrieval.
+<i>J. Neurosci.</i>
+33
+10439&#x2013;10446 10.1523/JNEUROSCI.0513-13.2013</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.0513-13.2013</ArticleId><ArticleId IdType="pmc">PMC3685837</ArticleId><ArticleId IdType="pubmed">23785155</ArticleId></ArticleIdList></Reference><Reference><Citation>Freeman W. J., Schneider W. (1982). Changes in spatial patterns of rabbit olfactory EEG with conditioning to odors.
+<i>Psychophysiology</i>
+19
+44&#x2013;56
+10.1111/j.1469-8986.1982.tb02598.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1469-8986.1982.tb02598.x</ArticleId><ArticleId IdType="pubmed">7058239</ArticleId></ArticleIdList></Reference><Reference><Citation>Fries P. (2005). A mechanism for cognitive dynamics: neuronal communication through neuronal coherence.
+<i>Trends Cogn. Sci.</i>
+9
+474&#x2013;480 10.1016/j.tics.2005.08.011</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tics.2005.08.011</ArticleId><ArticleId IdType="pubmed">16150631</ArticleId></ArticleIdList></Reference><Reference><Citation>Friese U., K&#xf6;ster M., Hassler U., Martens U., Trujillo-Barreto N., Gruber T. (2013). Successful memory encoding is associated with increased cross-frequency coupling between frontal theta and posterior gamma oscillations in human scalp-recorded EEG.
+<i>Neuroimage</i>
+66
+642&#x2013;647 10.1016/j.neuroimage.2012.11.002</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2012.11.002</ArticleId><ArticleId IdType="pubmed">23142278</ArticleId></ArticleIdList></Reference><Reference><Citation>Fuentemilla L., Penny W. D., Cashdollar N., Bunzeck N., D&#xfc;zel E. (2010). Theta-coupled periodic replay in working memory.
+<i>Curr. Biol.</i>
+20
+606&#x2013;612 10.1016/j.cub.2010.01.057</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cub.2010.01.057</ArticleId><ArticleId IdType="pmc">PMC2856918</ArticleId><ArticleId IdType="pubmed">20303266</ArticleId></ArticleIdList></Reference><Reference><Citation>Gelbard-Sagiv H., Mukamel R., Harel M., Malach R., Fried I. (2008). Internally generated reactivation of single neurons in human hippocampus during free recall.
+<i>Science</i>
+322
+96&#x2013;101 10.1126/science.1164685</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1164685</ArticleId><ArticleId IdType="pmc">PMC2650423</ArticleId><ArticleId IdType="pubmed">18772395</ArticleId></ArticleIdList></Reference><Reference><Citation>Giocomo L. M., Hasselmo M. E. (2008). Time constants of h current in layer ii stellate cells differ along the dorsal to ventral axis of medial entorhinal cortex.
+<i>J. Neurosci.</i>
+28
+9414&#x2013;9425 10.1523/JNEUROSCI.3196-08.2008</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.3196-08.2008</ArticleId><ArticleId IdType="pmc">PMC2990529</ArticleId><ArticleId IdType="pubmed">18799674</ArticleId></ArticleIdList></Reference><Reference><Citation>Giocomo L. M., Zilli E. A., Frans&#xe9;n E., Hasselmo M. E. (2007). Temporal frequency of subthreshold oscillations scales with entorhinal grid cell field spacing.
+<i>Science</i>
+315
+1719&#x2013;1722 10.1126/science.1139207</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1139207</ArticleId><ArticleId IdType="pmc">PMC2950607</ArticleId><ArticleId IdType="pubmed">17379810</ArticleId></ArticleIdList></Reference><Reference><Citation>Givens B. (1996). Stimulus-evoked resetting of the dentate theta rhythm: relation to working memory.
+<i>Neuroreport</i>
+8
+159&#x2013;163 10.1097/00001756-199612200-00032</Citation><ArticleIdList><ArticleId IdType="doi">10.1097/00001756-199612200-00032</ArticleId><ArticleId IdType="pubmed">9051772</ArticleId></ArticleIdList></Reference><Reference><Citation>Godden D. R., Baddeley A. D. (1975). Context-dependent memory in two natural environments: on land and underwater.
+<i>Br. J. Psychol.</i>
+66
+325&#x2013;331 10.1111/j.2044-8295.1975.tb01468.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.2044-8295.1975.tb01468.x</ArticleId></ArticleIdList></Reference><Reference><Citation>Gordon A. M., Rissman J., Kiani R., Wagner A. D. (2013). Cortical reinstatement mediates the relationship between content-specific encoding activity and subsequent recollection decisions.
+<i>Cereb. Cortex</i>
+10.1093/cercor/bht194
+[Epub ahead of print]</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/bht194</ArticleId><ArticleId IdType="pmc">PMC4296124</ArticleId><ArticleId IdType="pubmed">23921785</ArticleId></ArticleIdList></Reference><Reference><Citation>Goutagny R., Jackson J., Williams S. (2009). Self-generated theta oscillations in the hippocampus.
+<i>Nat. Neurosci.</i>
+12
+1491&#x2013;1493 10.1038/nn.2440</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn.2440</ArticleId><ArticleId IdType="pubmed">19881503</ArticleId></ArticleIdList></Reference><Reference><Citation>Groppe D. M., Bickel S., Keller C. J., Jain S. K., Hwang S. T., Harden C., et al.  (2013). Dominant frequencies of resting human brain activity as measured by the electrocorticogram.
+<i>Neuroimage</i>
+79
+223&#x2013;233 10.1016/j.neuroimage.2013.04.044</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2013.04.044</ArticleId><ArticleId IdType="pmc">PMC4269223</ArticleId><ArticleId IdType="pubmed">23639261</ArticleId></ArticleIdList></Reference><Reference><Citation>Gu N., Jackson J., Goutagny R., Lowe G., Manseau F., Williams S. (2013). NMDA-dependent phase synchronization between septal and temporal CA3 hippocampal networks.
+<i>J. Neurosci.</i>
+33
+8276&#x2013;8287 10.1523/JNEUROSCI.0179-13.2013</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.0179-13.2013</ArticleId><ArticleId IdType="pmc">PMC6619614</ArticleId><ArticleId IdType="pubmed">23658168</ArticleId></ArticleIdList></Reference><Reference><Citation>Gutfreund Y., Yarom Y., Segev I. (1995). Subthreshold oscillations and resonant frequency in guinea-pig cortical neurons: physiology and modelling.
+<i>J. Physiol.</i>483(Pt
+3)
+621&#x2013;640</Citation><ArticleIdList><ArticleId IdType="pmc">PMC1157807</ArticleId><ArticleId IdType="pubmed">7776248</ArticleId></ArticleIdList></Reference><Reference><Citation>Harris K. D., Csicsvari J., Hirase H., Dragoi G., Buzs&#xe1;ki G. (2003). Organization of cell assemblies in the hippocampus.
+<i>Nature</i>
+424
+552&#x2013;556 10.1038/nature01834</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nature01834</ArticleId><ArticleId IdType="pubmed">12891358</ArticleId></ArticleIdList></Reference><Reference><Citation>Hasselmo M. E., Bodel&#xf3;n C., Wyble B. P. (2002). A proposed function for hippocampal theta rhythm: separate phases of encoding and retrieval enhance reversal of prior learning.
+<i>Neural Comput.</i>
+14
+793&#x2013;817 10.1162/089976602317318965</Citation><ArticleIdList><ArticleId IdType="doi">10.1162/089976602317318965</ArticleId><ArticleId IdType="pubmed">11936962</ArticleId></ArticleIdList></Reference><Reference><Citation>Hebb D. O. (1949). <i>The Organization of Behavior</i>.
+New York: Wiley &amp; Sons</Citation></Reference><Reference><Citation>Henrie J. A., Shapley R. (2005). LFP power spectra in V1 cortex: the graded effect of stimulus contrast.
+<i>J. Neurophysiol.</i>
+94
+479&#x2013;490 10.1152/jn.00919.2004</Citation><ArticleIdList><ArticleId IdType="doi">10.1152/jn.00919.2004</ArticleId><ArticleId IdType="pubmed">15703230</ArticleId></ArticleIdList></Reference><Reference><Citation>Hoffman K. L., McNaughton B. L. (2002). Coordinated reactivation of distributed memory traces in primate neocortex.
+<i>Science</i>
+297
+2070&#x2013;2073 10.1126/science.1073538</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1073538</ArticleId><ArticleId IdType="pubmed">12242447</ArticleId></ArticleIdList></Reference><Reference><Citation>Houweling A. R., Bazhenov M., Timofeev I., Grenier F., Steriade M., Sejnowski T. J. (2002). Frequency-selective augmenting responses by short-term synaptic depression in cat neocortex.
+<i>J. Physiol.</i>
+542
+599&#x2013;617 10.1113/jphysiol.2001.012759</Citation><ArticleIdList><ArticleId IdType="doi">10.1113/jphysiol.2001.012759</ArticleId><ArticleId IdType="pmc">PMC2316151</ArticleId><ArticleId IdType="pubmed">12122156</ArticleId></ArticleIdList></Reference><Reference><Citation>H&#xf6;lscher C., Anwyl R., Rowan M. J. (1997). Stimulation on the positive phase of hippocampal theta rhythm induces long-term potentiation that can be depotentiated by stimulation on the negative phase in area CA1 in vivo.
+<i>J. Neurosci.</i>
+17
+6470&#x2013;6477</Citation><ArticleIdList><ArticleId IdType="pmc">PMC6568346</ArticleId><ArticleId IdType="pubmed">9236254</ArticleId></ArticleIdList></Reference><Reference><Citation>Hu H., Vervaeke K., Storm J. F. (2002). Two forms of electrical resonance at theta frequencies, generated by M-current, h-current and persistent Na+ current in rat hippocampal pyramidal cells.
+<i>J. Physiol.</i>
+545
+783&#x2013;805 10.1113/jphysiol.2002.029249</Citation><ArticleIdList><ArticleId IdType="doi">10.1113/jphysiol.2002.029249</ArticleId><ArticleId IdType="pmc">PMC2290731</ArticleId><ArticleId IdType="pubmed">12482886</ArticleId></ArticleIdList></Reference><Reference><Citation>Huerta P. T., Lisman J. E. (1993). Heightened synaptic plasticity of hippocampal CA1 neurons during a cholinergically induced rhythmic state.
+<i>Nature</i>
+364
+723&#x2013;725 10.1038/364723a0</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/364723a0</ArticleId><ArticleId IdType="pubmed">8355787</ArticleId></ArticleIdList></Reference><Reference><Citation>Huerta P. T., Lisman J. E. (1995). Bidirectional synaptic plasticity induced by a single burst during cholinergic theta oscillation in CA1 in vitro.
+<i>Neuron</i>
+15
+1053&#x2013;1063 10.1016/0896-6273(95)90094-2</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/0896-6273(95)90094-2</ArticleId><ArticleId IdType="pubmed">7576649</ArticleId></ArticleIdList></Reference><Reference><Citation>Hutcheon B., Yarom Y. (2000). Resonance, oscillation and the intrinsic frequency preferences of neurons.
+<i>Trends Neurosci.</i>
+23
+216&#x2013;222 10.1016/S0166-2236(00)01547-2</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0166-2236(00)01547-2</ArticleId><ArticleId IdType="pubmed">10782127</ArticleId></ArticleIdList></Reference><Reference><Citation>Huxter J., Burgess N, O&#x2019;Keefe J. (2003). Independent rate and temporal coding in hippocampal pyramidal cells.
+<i>Nature</i>
+425
+828&#x2013;832 10.1038/nature02058</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nature02058</ArticleId><ArticleId IdType="pmc">PMC2677642</ArticleId><ArticleId IdType="pubmed">14574410</ArticleId></ArticleIdList></Reference><Reference><Citation>Izhikevich E. M., Desai N. S., Walcott E. C., Hoppensteadt F. C. (2003). Bursts as a unit of neural information: selective communication via resonance.
+<i>Trends Neurosci.</i>
+26
+161&#x2013;167 10.1016/S0166-2236(03)00034-1</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0166-2236(03)00034-1</ArticleId><ArticleId IdType="pubmed">12591219</ArticleId></ArticleIdList></Reference><Reference><Citation>Jacobs J., Kahana M. J. (2009). Neural representations of individual stimuli in humans revealed by gamma-band electrocorticographic activity.
+<i>J. Neurosci.</i>
+29
+10203&#x2013;10214 10.1523/JNEUROSCI.2187-09.2009</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.2187-09.2009</ArticleId><ArticleId IdType="pmc">PMC2752642</ArticleId><ArticleId IdType="pubmed">19692595</ArticleId></ArticleIdList></Reference><Reference><Citation>Jacobs J., Kahana M. J., Ekstrom A. D., Fried I. (2007). Brain oscillations control timing of single-neuron activity in humans.
+<i>J. Neurosci.</i>
+27
+3839&#x2013;3844 10.1523/JNEUROSCI.4636-06.2007</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.4636-06.2007</ArticleId><ArticleId IdType="pmc">PMC6672400</ArticleId><ArticleId IdType="pubmed">17409248</ArticleId></ArticleIdList></Reference><Reference><Citation>Jacobs J., Lega B., Anderson C. (2012). Explaining how brain stimulation can evoke memories.
+<i>J. Cogn. Neurosci.</i>
+24
+553&#x2013;563 10.1162/jocn_a_00170</Citation><ArticleIdList><ArticleId IdType="doi">10.1162/jocn_a_00170</ArticleId><ArticleId IdType="pubmed">22098266</ArticleId></ArticleIdList></Reference><Reference><Citation>Jacobs J., Weidemann C. T., Miller J. F., Solway A., Burke J. F., Wei X.-X., et al.  (2013). Direct recordings of grid-like neuronal activity in human spatial navigation.
+<i>Nat. Neurosci</i>.
+16
+1188&#x2013;1190 10.1038/nn.3466</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn.3466</ArticleId><ArticleId IdType="pmc">PMC3767317</ArticleId><ArticleId IdType="pubmed">23912946</ArticleId></ArticleIdList></Reference><Reference><Citation>Jeewajee A., Lever C., Burton S., O&#x2019;Keefe J., Burgess N. (2008). Environmental novelty is signaled by reduction of the hippocampal theta frequency.
+<i>Hippocampus</i>
+18
+340&#x2013;348 10.1002/hipo.20394</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.20394</ArticleId><ArticleId IdType="pmc">PMC2678674</ArticleId><ArticleId IdType="pubmed">18081172</ArticleId></ArticleIdList></Reference><Reference><Citation>Jensen O., Lisman J. E. (1998). An oscillatory short-term memory buffer model can account for data on the Sternberg task.
+<i>J. Neurosci.</i>
+18
+10688&#x2013;10699</Citation><ArticleIdList><ArticleId IdType="pmc">PMC6793327</ArticleId><ArticleId IdType="pubmed">9852604</ArticleId></ArticleIdList></Reference><Reference><Citation>Jirsa V., M&#xfc;ller V. (2013). Cross-frequency coupling in real and virtual brain networks.
+<i>Front. Comput. Neurosci.</i>
+7:78
+10.3389/fncom.2013.00078</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fncom.2013.00078</ArticleId><ArticleId IdType="pmc">PMC3699761</ArticleId><ArticleId IdType="pubmed">23840188</ArticleId></ArticleIdList></Reference><Reference><Citation>Johnson J. D., McDuff S. G. R., Rugg M. D., Norman K. A. (2009). Recollection, familiarity, and cortical reinstatement: a multivoxel pattern analysis.
+<i>Neuron</i>
+63
+697&#x2013;708 10.1016/j.neuron.2009.08.011</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2009.08.011</ArticleId><ArticleId IdType="pmc">PMC2771457</ArticleId><ArticleId IdType="pubmed">19755111</ArticleId></ArticleIdList></Reference><Reference><Citation>Jones M. W., Wilson M. A. (2005). Theta rhythms coordinate hippocampal-prefrontal interactions in a spatial memory task.
+<i>PLoS Biol.</i>
+3:e402
+10.1371/journal.pbio.0030402</Citation><ArticleIdList><ArticleId IdType="doi">10.1371/journal.pbio.0030402</ArticleId><ArticleId IdType="pmc">PMC1283536</ArticleId><ArticleId IdType="pubmed">16279838</ArticleId></ArticleIdList></Reference><Reference><Citation>Jutras M. J., Buffalo E. A. (2010). Synchronous neural activity and memory formation.
+<i>Curr. Opin. Neurobiol.</i>
+20
+150&#x2013;155 10.1016/j.conb.2010.02.006</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.conb.2010.02.006</ArticleId><ArticleId IdType="pmc">PMC2862842</ArticleId><ArticleId IdType="pubmed">20303255</ArticleId></ArticleIdList></Reference><Reference><Citation>Jutras M. J., Fries P., Buffalo E. A. (2009). Gamma-band synchronization in the Macaque hippocampus and memory formation.
+<i>J. Neurosci.</i>
+29
+12521&#x2013;12531 10.1523/JNEUROSCI.0640-09.2009</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.0640-09.2009</ArticleId><ArticleId IdType="pmc">PMC2785486</ArticleId><ArticleId IdType="pubmed">19812327</ArticleId></ArticleIdList></Reference><Reference><Citation>Jutras M. J., Fries P., Buffalo E. A. (2013). Oscillatory activity in the monkey hippocampus during visual exploration and memory formation.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+110
+13144&#x2013;13149 10.1073/pnas.1302351110</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.1302351110</ArticleId><ArticleId IdType="pmc">PMC3740906</ArticleId><ArticleId IdType="pubmed">23878251</ArticleId></ArticleIdList></Reference><Reference><Citation>Kendrick K. M., Zhan Y., Fischer H., Nicol A. U., Zhang X., Feng J. (2011). Learning alters theta amplitude, theta-gamma coupling and neuronal synchronization in inferotemporal cortex.
+<i>BMC Neurosci.</i>
+12:55
+10.1186/1471-2202-12-55</Citation><ArticleIdList><ArticleId IdType="doi">10.1186/1471-2202-12-55</ArticleId><ArticleId IdType="pmc">PMC3123243</ArticleId><ArticleId IdType="pubmed">21658251</ArticleId></ArticleIdList></Reference><Reference><Citation>Khader P. H., Jost K., Ranganath C., R&#xf6;sler F. (2010). Theta and alpha oscillations during working-memory maintenance predict successful long-term memory encoding.
+<i>Neurosci. Lett.</i>
+468
+339&#x2013;343 10.1016/j.neulet.2009.11.028</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neulet.2009.11.028</ArticleId><ArticleId IdType="pmc">PMC3951969</ArticleId><ArticleId IdType="pubmed">19922772</ArticleId></ArticleIdList></Reference><Reference><Citation>Knight R. (1996). Contribution of human hippocampal region to novelty detection.
+<i>Nature</i>
+383
+256&#x2013;259 10.1038/383256a0</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/383256a0</ArticleId><ArticleId IdType="pubmed">8805701</ArticleId></ArticleIdList></Reference><Reference><Citation>Knight R. T. (2007). Neuroscience.
+Neural networks debunk phrenology.<i> Science</i>
+316
+1578&#x2013;1579 10.1126/science.1144677</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1144677</ArticleId><ArticleId IdType="pubmed">17569852</ArticleId></ArticleIdList></Reference><Reference><Citation>Knight R. T., Eichenbaum H. (2013). Multiplexed memories: a view from human cortex.
+<i>Nat. Neurosci.</i>
+16
+257&#x2013;258 10.1038/nn.3341</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn.3341</ArticleId><ArticleId IdType="pmc">PMC4090684</ArticleId><ArticleId IdType="pubmed">23434977</ArticleId></ArticleIdList></Reference><Reference><Citation>Koch G., Ponzo V., Di Lorenzo F., Caltagirone C., Veniero D. (2013). Hebbian and anti-hebbian spike-timing-dependent plasticity of human cortico-cortical connections.
+<i>J. Neurosci.</i>
+33
+9725&#x2013;9733 10.1523/JNEUROSCI.4988-12.2013</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.4988-12.2013</ArticleId><ArticleId IdType="pmc">PMC6619701</ArticleId><ArticleId IdType="pubmed">23739969</ArticleId></ArticleIdList></Reference><Reference><Citation>Kramis R., Vanderwolf C. H., Bland B. H. (1975). Two types of hippocampal rhythmical slow activity in both the rabbit and the rat: relations to behavior and effects of atropine, diethyl ether, urethane, and pentobarbital.
+<i>Exp. Neurol.</i>
+49
+58&#x2013;85 10.1016/0014-4886(75)90195-8</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/0014-4886(75)90195-8</ArticleId><ArticleId IdType="pubmed">1183532</ArticleId></ArticleIdList></Reference><Reference><Citation>Kraus B. J., Ii R. J. R., White J. A., Eichenbaum H., Hasselmo M. E. (2013). Hippocampal &#x201c;time cells&#x201d;: time versus path integration.
+<i>Neuron</i>
+78
+1090&#x2013;1101 10.1016/j.neuron.2013.04.015</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2013.04.015</ArticleId><ArticleId IdType="pmc">PMC3913731</ArticleId><ArticleId IdType="pubmed">23707613</ArticleId></ArticleIdList></Reference><Reference><Citation>Lakatos P., Karmos G., Mehta A. D., Ulbert I., Schroeder C. E. (2008). Entrainment of neuronal oscillations as a mechanism of attentional selection.
+<i>Science</i>
+320
+110&#x2013;113 10.1126/science.1154735</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1154735</ArticleId><ArticleId IdType="pubmed">18388295</ArticleId></ArticleIdList></Reference><Reference><Citation>Lavenex P., Amaral D. (2000). Hippocampal-neocortical interaction: a hierarchy of associativity.
+<i>Hippocampus</i>
+10
+420&#x2013;430 10.1002/1098-1063(2000)10:4&lt;420::AID-HIPO8&gt;3.0.CO;2-5</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/1098-1063(2000)10:4&lt;420::AID-HIPO8&gt;3.0.CO;2-5</ArticleId><ArticleId IdType="pubmed">10985281</ArticleId></ArticleIdList></Reference><Reference><Citation>Lee H., Simpson G. V., Logothetis N. K., Rainer G. (2005). Phase locking of single neuron activity to theta oscillations during working memory in monkey extrastriate visual cortex.
+<i>Neuron</i>
+45
+147&#x2013;156 10.1016/j.neuron.2004.12.025</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2004.12.025</ArticleId><ArticleId IdType="pubmed">15629709</ArticleId></ArticleIdList></Reference><Reference><Citation>Lega B. C., Jacobs J., Kahana M. (2011). Human hippocampal theta oscillations and the formation of episodic memories.
+<i>Hippocampus</i>
+22
+748&#x2013;761 10.1002/hipo.20937</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.20937</ArticleId><ArticleId IdType="pubmed">21538660</ArticleId></ArticleIdList></Reference><Reference><Citation>Lenck-Santini P.-P., Fenton A. A., Muller R. U. (2008). Discharge properties of hippocampal neurons during performance of a jump avoidance task.
+<i>J. Neurosci.</i>
+28
+6773&#x2013;6786 10.1523/JNEUROSCI.5329-07.2008</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.5329-07.2008</ArticleId><ArticleId IdType="pmc">PMC2636898</ArticleId><ArticleId IdType="pubmed">18596153</ArticleId></ArticleIdList></Reference><Reference><Citation>Lever C., Burton S., Jeewajee A., Wills T. J., Cacucci F., Burgess N., et al.  (2010). Environmental novelty elicits a later theta phase of firing in CA1 but not subiculum.
+<i>Hippocampus</i>
+20
+229&#x2013;234 10.1002/hipo.20671</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.20671</ArticleId><ArticleId IdType="pmc">PMC3173854</ArticleId><ArticleId IdType="pubmed">19623610</ArticleId></ArticleIdList></Reference><Reference><Citation>Liebe S., Hoerzer G. M., Logothetis N. K., Rainer G. (2012). Theta coupling between V4 and prefrontal cortex predicts visual short-term memory performance.
+<i>Nat. Neurosci.</i>
+15
+456&#x2013;462 10.1038/nn.3038</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn.3038</ArticleId><ArticleId IdType="pubmed">22286175</ArticleId></ArticleIdList></Reference><Reference><Citation>Lisman J. (2005). The theta/gamma discrete phase code occuring during the hippocampal phase precession may be a more general brain coding scheme.
+<i>Hippocampus</i>
+15
+913&#x2013;922 10.1002/hipo.20121</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.20121</ArticleId><ArticleId IdType="pubmed">16161035</ArticleId></ArticleIdList></Reference><Reference><Citation>Lisman J. E., Idiart M. A. (1995). Storage of 7+/-2 short-term memories in oscillatory subcycles.
+<i>Science</i>
+267
+1512&#x2013;1515 10.1126/science.7878473</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.7878473</ArticleId><ArticleId IdType="pubmed">7878473</ArticleId></ArticleIdList></Reference><Reference><Citation>Lisman J. E., Jensen O. (2013). The theta-gamma neural code.
+<i>Neuron</i>
+77
+1002&#x2013;1016 10.1016/j.neuron.2013.03.007</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2013.03.007</ArticleId><ArticleId IdType="pmc">PMC3648857</ArticleId><ArticleId IdType="pubmed">23522038</ArticleId></ArticleIdList></Reference><Reference><Citation>Liu H., Agam Y., Madsen J. R., Kreiman G. (2009). Timing, timing, timing: fast decoding of object information from intracranial field potentials in human visual cortex.
+<i>Neuron</i>
+62
+281&#x2013;290 10.1016/j.neuron.2009.02.025</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2009.02.025</ArticleId><ArticleId IdType="pmc">PMC2921507</ArticleId><ArticleId IdType="pubmed">19409272</ArticleId></ArticleIdList></Reference><Reference><Citation>Lopour B. A., Tavassoli A., Fried I., Ringach D. L. (2013). Coding of Information in the phase of local field potentials within human medial temporal lobe.
+<i>Neuron</i>
+79
+594&#x2013;606 10.1016/j.neuron.2013.06.001</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2013.06.001</ArticleId><ArticleId IdType="pmc">PMC3835725</ArticleId><ArticleId IdType="pubmed">23932002</ArticleId></ArticleIdList></Reference><Reference><Citation>Macdonald C. J., Lepage K. Q., Eden U. T., Eichenbaum H. (2011). Hippocampal &#x201c;time cells&#x201d; bridge the gap in memory for discontiguous events.
+<i>Neuron</i>
+71
+737&#x2013;749 10.1016/j.neuron.2011.07.012</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2011.07.012</ArticleId><ArticleId IdType="pmc">PMC3163062</ArticleId><ArticleId IdType="pubmed">21867888</ArticleId></ArticleIdList></Reference><Reference><Citation>Madison D. V., Malenka R. C., Nicoll R. A. (1991). Mechanisms underlying long-term potentiation of synaptic transmission.
+<i>Annu. Rev. Neurosci.</i>
+14
+379&#x2013;397 10.1146/annurev.ne.14.030191.002115</Citation><ArticleIdList><ArticleId IdType="doi">10.1146/annurev.ne.14.030191.002115</ArticleId><ArticleId IdType="pubmed">1851607</ArticleId></ArticleIdList></Reference><Reference><Citation>Manning J. R., Jacobs J., Fried I., Kahana M. J. (2009). Broadband shifts in local field potential power spectra are correlated with single-neuron spiking in humans.
+<i>J. Neurosci.</i>
+29
+13613&#x2013;13620 10.1523/JNEUROSCI.2041-09.2009</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.2041-09.2009</ArticleId><ArticleId IdType="pmc">PMC3001247</ArticleId><ArticleId IdType="pubmed">19864573</ArticleId></ArticleIdList></Reference><Reference><Citation>Manning J. R., Polyn S. M., Baltuch G. H., Litt B., Kahana M. J. (2011). Oscillatory patterns in temporal lobe reveal context reinstatement during memory search.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+108
+12893&#x2013;12897 10.1073/pnas.1015174108</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.1015174108</ArticleId><ArticleId IdType="pmc">PMC3150951</ArticleId><ArticleId IdType="pubmed">21737744</ArticleId></ArticleIdList></Reference><Reference><Citation>Manns J. R., Zilli E. A., Ong K. C., Hasselmo M. E., Eichenbaum H. (2007). Hippocampal CA1 spiking during encoding and retrieval: relation to theta phase.
+<i>Neurobiol. Learn. Mem.</i>
+87
+9&#x2013;20 10.1016/j.nlm.2006.05.007</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.nlm.2006.05.007</ArticleId><ArticleId IdType="pubmed">16839788</ArticleId></ArticleIdList></Reference><Reference><Citation>Maris E., Vugt M. V., Kahana M. (2011). Spatially distributed patterns of oscillatory coupling between high-frequency amplitudes and low-frequency phases in human iEEG.
+<i>Neuroimage</i>
+54
+836&#x2013;850 10.1016/j.neuroimage.2010.09.029</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2010.09.029</ArticleId><ArticleId IdType="pubmed">20851192</ArticleId></ArticleIdList></Reference><Reference><Citation>Markram H., L&#xfc;bke J., Frotscher M., Sakmann B. (1997). Regulation of synaptic efficacy by coincidence of postsynaptic APs and EPSPs.
+<i>Science</i>
+275
+213&#x2013;215 10.1126/science.275.5297.213</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.275.5297.213</ArticleId><ArticleId IdType="pubmed">8985014</ArticleId></ArticleIdList></Reference><Reference><Citation>Markram H., Wang Y., Tsodyks M. (1998). Differential signaling via the same axon of neocortical pyramidal neurons.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+95
+5323&#x2013;5328 10.1073/pnas.95.9.5323</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.95.9.5323</ArticleId><ArticleId IdType="pmc">PMC20259</ArticleId><ArticleId IdType="pubmed">9560274</ArticleId></ArticleIdList></Reference><Reference><Citation>Marr D. (1971). Simple memory: a theory for archicortex.
+<i>Philos. Trans. R. Soc. Lond. B Biol. Sci.</i>
+262
+23&#x2013;81 10.1098/rstb.1971.0078</Citation><ArticleIdList><ArticleId IdType="doi">10.1098/rstb.1971.0078</ArticleId><ArticleId IdType="pubmed">4399412</ArticleId></ArticleIdList></Reference><Reference><Citation>McCartney H., Johnson A. D., Weil Z. M., Givens B. (2004). Theta reset produces optimal conditions for long-term potentiation.
+<i>Hippocampus</i>
+14
+684&#x2013;687 10.1002/hipo.20019</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.20019</ArticleId><ArticleId IdType="pubmed">15318327</ArticleId></ArticleIdList></Reference><Reference><Citation>McClelland J. L., McNaughton B. L, O&#x2019;Reilly R. C. (1995). Why there are complementary learning systems in the hippocampus and neocortex.
+<i>Psychol. Rev.</i>
+102
+419&#x2013;457 10.1037/0033-295X.102.3.419</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-295X.102.3.419</ArticleId><ArticleId IdType="pubmed">7624455</ArticleId></ArticleIdList></Reference><Reference><Citation>McFarland W. L., Teitelbaum H., Hedges E. K. (1975). Relationship between hippocampal theta activity and running speed in the rat.
+<i>J. Comp. Physiol. Psychol.</i>
+88
+324&#x2013;328 10.1037/h0076177</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/h0076177</ArticleId><ArticleId IdType="pubmed">1120805</ArticleId></ArticleIdList></Reference><Reference><Citation>Miller K. J. (2010). Broadband spectral change: evidence for a macroscale correlate of population firing rate?
+<i>J. Neurosci.</i>
+30
+6477&#x2013;6479
+10.1523/JNEUROSCI.6401-09.2010</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.6401-09.2010</ArticleId><ArticleId IdType="pmc">PMC6632564</ArticleId><ArticleId IdType="pubmed">20463210</ArticleId></ArticleIdList></Reference><Reference><Citation>Mitchell K. J., Johnson M. K. (2009). Source monitoring 15 years later: what have we learned from fMRI about the neural mechanisms of source memory?
+<i>Psychol. Bull.</i>
+135
+638&#x2013;677
+10.1037/a0015849</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0015849</ArticleId><ArticleId IdType="pmc">PMC2859897</ArticleId><ArticleId IdType="pubmed">19586165</ArticleId></ArticleIdList></Reference><Reference><Citation>Montgomery S. M., Betancur M. I., Buzs&#xe1;ki G. (2009). Behavior-dependent coordination of multiple theta dipoles in the hippocampus.
+<i>J. Neurosci.</i>
+29
+1381&#x2013;1394 10.1523/JNEUROSCI.4339-08.2009</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.4339-08.2009</ArticleId><ArticleId IdType="pmc">PMC2768079</ArticleId><ArticleId IdType="pubmed">19193885</ArticleId></ArticleIdList></Reference><Reference><Citation>Mormann F., Dubois J., Kornblith S., Milosavljevic M., Cerf M., Ison M., et al.  (2011). A category-specific response to animals in the right human amygdala.
+<i>Nat. Neurosci.</i>
+14
+1247&#x2013;1249 10.1038/nn.2899</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn.2899</ArticleId><ArticleId IdType="pmc">PMC3505687</ArticleId><ArticleId IdType="pubmed">21874014</ArticleId></ArticleIdList></Reference><Reference><Citation>Mormann F., Fell J., Axmacher N., Weber B., Lehnertz K., Elger C. E., et al.  (2005). Phase/amplitude reset and theta-gamma interaction in the human medial temporal lobe during a continuous word recognition memory task.
+<i>Hippocampus</i>
+15
+890&#x2013;900 10.1002/hipo.20117</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.20117</ArticleId><ArticleId IdType="pubmed">16114010</ArticleId></ArticleIdList></Reference><Reference><Citation>Mormann F., Kornblith S., Quiroga R. Q., Kraskov A., Cerf M., Fried I., et al.  (2008a). Latency and selectivity of single neurons indicate hierarchical processing in the human medial temporal lobe.
+<i>J. Neurosci.</i>
+28
+8865&#x2013;8872 10.1523/JNEUROSCI.1640-08.2008</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.1640-08.2008</ArticleId><ArticleId IdType="pmc">PMC2676868</ArticleId><ArticleId IdType="pubmed">18768680</ArticleId></ArticleIdList></Reference><Reference><Citation>Mormann F., Osterhage H., Andrzejak R. G., Weber B., Fern&#xe1;ndez G., Fell J., et al.  (2008b). Independent delta/theta rhythms in the human hippocampus and entorhinal cortex.
+<i>Front. Hum. Neurosci.</i>
+2:3
+10.3389/neuro.09.003</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/neuro.09.003</ArticleId><ArticleId IdType="pmc">PMC2525973</ArticleId><ArticleId IdType="pubmed">18958204</ArticleId></ArticleIdList></Reference><Reference><Citation>Morton N. W., Kahana M. J., Rosenberg E. A., Baltuch G. H., Litt B., Sharan A. D., et al.  (2012). Category-specific neural oscillations predict recall organization during memory search.
+<i>Cereb. Cortex</i>
+23
+2407&#x2013;2422 10.1093/cercor/bhs229</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/bhs229</ArticleId><ArticleId IdType="pmc">PMC3767960</ArticleId><ArticleId IdType="pubmed">22875859</ArticleId></ArticleIdList></Reference><Reference><Citation>Nadel L., Moscovitch M. (1997). Memory consolidation, retrograde amnesia and the hippocampal complex.
+<i>Curr. Opin. Neurobiol.</i>
+7
+217&#x2013;227 10.1016/S0959-4388(97)80010-4</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0959-4388(97)80010-4</ArticleId><ArticleId IdType="pubmed">9142752</ArticleId></ArticleIdList></Reference><Reference><Citation>Nadel L., Samsonovich A., Ryan L., Moscovitch M. (2000). Multiple trace theory of human memory: computational, neuroimaging, and neuropsychological results.
+<i>Hippocampus</i>
+10
+352&#x2013;368 10.1002/1098-1063(2000)10:4&lt;352::AID-HIPO2&gt;3.0.CO;2-D</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/1098-1063(2000)10:4&lt;352::AID-HIPO2&gt;3.0.CO;2-D</ArticleId><ArticleId IdType="pubmed">10985275</ArticleId></ArticleIdList></Reference><Reference><Citation>Narayanan R., Johnston D. (2007). Long-term potentiation in rat hippocampal neurons is accompanied by spatially widespread changes in intrinsic oscillatory dynamics and excitability.
+<i>Neuron</i>
+56
+1061&#x2013;1075 10.1016/j.neuron.2007.10.033</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2007.10.033</ArticleId><ArticleId IdType="pmc">PMC2430016</ArticleId><ArticleId IdType="pubmed">18093527</ArticleId></ArticleIdList></Reference><Reference><Citation>Norman K. A, O&#x2019;Reilly R. C. (2003). Modeling hippocampal and neocortical contributions to recognition memory: a complementary-learning-systems approach.
+<i>Psychol. Rev.</i>
+110
+611&#x2013;646 10.1037/0033-295X.110.4.611</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-295X.110.4.611</ArticleId><ArticleId IdType="pubmed">14599236</ArticleId></ArticleIdList></Reference><Reference><Citation>Ohl F. W., Scheich H., Freeman W. J. (2001). Change in pattern of ongoing cortical activity with auditory category learning.
+<i>Nature</i>
+412
+733&#x2013;736 10.1038/35089076</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/35089076</ArticleId><ArticleId IdType="pubmed">11507640</ArticleId></ArticleIdList></Reference><Reference><Citation>O&#x2019;Keefe J., Dostrovsky J. (1971). The hippocampus as a spatial map.
+Preliminary evidence from unit activity in the freely-moving rat.<i> Brain Res.</i>
+34
+171&#x2013;175 10.1016/0006-8993(71)90358-1</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/0006-8993(71)90358-1</ArticleId><ArticleId IdType="pubmed">5124915</ArticleId></ArticleIdList></Reference><Reference><Citation>Pastalkova E., Itskov V., Amarasingham A., Buzs&#xe1;ki G. (2008). Internally generated cell assembly sequences in the rat hippocampus.
+<i>Science</i>
+321
+1322&#x2013;1327 10.1126/science.1159775</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1159775</ArticleId><ArticleId IdType="pmc">PMC2570043</ArticleId><ArticleId IdType="pubmed">18772431</ArticleId></ArticleIdList></Reference><Reference><Citation>Pavlides C., Greenstein Y. J., Grudman M., Winson J. (1988). Long-term potentiation in the dentate gyrus is induced preferentially on the positive phase of theta-rhythm.
+<i>Brain Res.</i>
+439
+383&#x2013;387 10.1016/0006-8993(88)91499-0</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/0006-8993(88)91499-0</ArticleId><ArticleId IdType="pubmed">3359196</ArticleId></ArticleIdList></Reference><Reference><Citation>Paz R., Bauer E. P., Pare D. (2008). Theta synchronizes the activity of medial prefrontal neurons during learning.
+<i>Learn. Memory</i>
+15
+524&#x2013;531 10.1101/lm.932408</Citation><ArticleIdList><ArticleId IdType="doi">10.1101/lm.932408</ArticleId><ArticleId IdType="pmc">PMC2493046</ArticleId><ArticleId IdType="pubmed">18612069</ArticleId></ArticleIdList></Reference><Reference><Citation>Penley S. C., Hinman J. R., Long L. L., Markus E. J., Escab&#xef; M. A., Chrobak J. J. (2013). Novel space alters theta and gamma synchrony across the longitudinal axis of the hippocampus.
+<i>Front. Syst. Neurosci.</i>
+7:20
+10.3389/fnsys.2013.00020</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fnsys.2013.00020</ArticleId><ArticleId IdType="pmc">PMC3691506</ArticleId><ArticleId IdType="pubmed">23805081</ArticleId></ArticleIdList></Reference><Reference><Citation>Peters H. C., Hu H., Pongs O., Storm J. F., Isbrandt D. (2005). Conditional transgenic suppression of M channels in mouse brain reveals functions in neuronal excitability, resonance and behavior.
+<i>Nat. Neurosci.</i>
+8
+51&#x2013;60 10.1038/nn1375</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn1375</ArticleId><ArticleId IdType="pubmed">15608631</ArticleId></ArticleIdList></Reference><Reference><Citation>Pike F. G., Goddard R. S., Suckling J. M., Ganter P., Kasthuri N., Paulsen O. (2000). Distinct frequency preferences of different types of rat hippocampal neurones in response to oscillatory input currents.
+<i>J. Physiol. </i>529(Pt
+1)
+205&#x2013;213 10.1111/j.1469-7793.2000.00205.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1469-7793.2000.00205.x</ArticleId><ArticleId IdType="pmc">PMC2270176</ArticleId><ArticleId IdType="pubmed">11080262</ArticleId></ArticleIdList></Reference><Reference><Citation>Polan&#xef;a R., Nitsche M. A., Korman C., Batsikadze G., Paulus W. (2012). The importance of timing in segregated theta phase-coupling for cognitive performance.
+<i>Curr. Biol.</i>
+22
+1314&#x2013;1318 10.1016/j.cub.2012.05.021</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cub.2012.05.021</ArticleId><ArticleId IdType="pubmed">22683259</ArticleId></ArticleIdList></Reference><Reference><Citation>Quiroga R. Q., Kraskov A., Koch C., Fried I. (2009). Explicit encoding of multimodal percepts by single neurons in the human brain.
+<i>Curr. Biol.</i>
+19
+1308&#x2013;1313 10.1016/j.cub.2009.06.060</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cub.2009.06.060</ArticleId><ArticleId IdType="pmc">PMC3032396</ArticleId><ArticleId IdType="pubmed">19631538</ArticleId></ArticleIdList></Reference><Reference><Citation>Quiroga R. Q., Reddy L., Kreiman G., Koch C., Fried I. (2005). Invariant visual representation by single neurons in the human brain.
+<i>Nature</i>
+435
+1102&#x2013;1107 10.1038/nature03687</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nature03687</ArticleId><ArticleId IdType="pubmed">15973409</ArticleId></ArticleIdList></Reference><Reference><Citation>Raghavachari S., Lisman J. E., Tully M., Madsen J. R., Bromfield E. B., Kahana M. J. (2006). Theta oscillations in human cortex during a working-memory task: evidence for local generators.
+<i>J. Neurophysiol.</i>
+95
+1630&#x2013;1638 10.1152/jn.00409.2005</Citation><ArticleIdList><ArticleId IdType="doi">10.1152/jn.00409.2005</ArticleId><ArticleId IdType="pubmed">16207788</ArticleId></ArticleIdList></Reference><Reference><Citation>Ranganath C., Blumenfeld R. S. (2005). Doubts about double dissociations between short- and long-term memory.
+<i>Trends Cogn. Sci.</i>
+9
+374&#x2013;380 10.1016/j.tics.2005.06.009</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tics.2005.06.009</ArticleId><ArticleId IdType="pubmed">16002324</ArticleId></ArticleIdList></Reference><Reference><Citation>Ranganath C, D&#x2019;Esposito M. (2001). Medial temporal lobe activity associated with active maintenance of novel information.
+<i>Neuron</i>
+31
+865&#x2013;873 10.1016/S0896-6273(01)00411-1</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0896-6273(01)00411-1</ArticleId><ArticleId IdType="pubmed">11567623</ArticleId></ArticleIdList></Reference><Reference><Citation>Ranganath C., Cohen M. X., Brozinsky C. J. (2005). Working memory maintenance contributes to long-term memory formation: neural and behavioral evidence.
+<i>J. Cogn. Neurosci.</i>
+17
+994&#x2013;1010 10.1162/0898929054475118</Citation><ArticleIdList><ArticleId IdType="doi">10.1162/0898929054475118</ArticleId><ArticleId IdType="pubmed">16102232</ArticleId></ArticleIdList></Reference><Reference><Citation>Redondo R. L, Morris R. G. M. (2011). Making memories last: the synaptic tagging and capture hypothesis.
+<i>Nat. Rev. Neurosci.</i>
+12
+17&#x2013;30 10.1038/nrn2963</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn2963</ArticleId><ArticleId IdType="pubmed">21170072</ArticleId></ArticleIdList></Reference><Reference><Citation>Rizzuto D. S., Madsen J. R., Bromfield E. B., Schulze-Bonhage A., Kahana M. J. (2006). Human neocortical oscillations exhibit theta phase differences between encoding and retrieval.
+<i>Neuroimage</i>
+31
+1352&#x2013;1358 10.1016/j.neuroimage.2006.01.009</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2006.01.009</ArticleId><ArticleId IdType="pubmed">16542856</ArticleId></ArticleIdList></Reference><Reference><Citation>Rizzuto D. S., Madsen J. R., Bromfield E. B., Schulze-Bonhage A., Seelig D., Aschenbrenner-Scheibe R., et al.  (2003). Reset of human neocortical oscillations during a working memory task.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+100
+7931&#x2013;7936 10.1073/pnas.0732061100</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.0732061100</ArticleId><ArticleId IdType="pmc">PMC164690</ArticleId><ArticleId IdType="pubmed">12792019</ArticleId></ArticleIdList></Reference><Reference><Citation>Roberts M. J., Lowet E., Brunet N. M., Ter Wal M., Tiesinga P., Fries P., et al.  (2013). Robust gamma coherence between macaque V1 and V2 by dynamic frequency matching.
+<i>Neuron</i>
+78
+523&#x2013;536
+10.1016/j.neuron.2013.03.003</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2013.03.003</ArticleId><ArticleId IdType="pubmed">23664617</ArticleId></ArticleIdList></Reference><Reference><Citation>Rutishauser U., Mamelak A. N., Schuman E. M. (2006). Single-trial learning of novel stimuli by individual neurons of the human hippocampus-amygdala complex.
+<i>Neuron</i>
+49
+805&#x2013;813 10.1016/j.neuron.2006.02.015</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2006.02.015</ArticleId><ArticleId IdType="pubmed">16543129</ArticleId></ArticleIdList></Reference><Reference><Citation>Rutishauser U., Ross I. B., Mamelak A. N., Schuman E. M. (2010). Human memory strength is predicted by theta-frequency phase-locking of single neurons.
+<i>Nature</i>
+464
+903&#x2013;907 10.1038/nature08860</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nature08860</ArticleId><ArticleId IdType="pubmed">20336071</ArticleId></ArticleIdList></Reference><Reference><Citation>Salazar R. F., Dotson N. M., Bressler S. L., Gray C. M. (2012). Content-specific fronto-parietal synchronization during visual working memory.
+<i>Science</i>
+338
+1097&#x2013;1100 10.1126/science.1224000</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1224000</ArticleId><ArticleId IdType="pmc">PMC4038369</ArticleId><ArticleId IdType="pubmed">23118014</ArticleId></ArticleIdList></Reference><Reference><Citation>Saleh M., Reimer J., Penn R., Ojakangas C. L., Hatsopoulos N. G. (2010). Fast and slow oscillations in human primary motor cortex predict oncoming behaviorally relevant cues.
+<i>Neuron</i>
+65
+461&#x2013;471 10.1016/j.neuron.2010.02.001</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2010.02.001</ArticleId><ArticleId IdType="pmc">PMC3199221</ArticleId><ArticleId IdType="pubmed">20188651</ArticleId></ArticleIdList></Reference><Reference><Citation>Schroeder C. E., Wilson D. A., Radman T., Scharfman H., Lakatos P. (2010). Dynamics of Active Sensing and perceptual selection.
+<i>Curr. Opin. Neurobiol.</i>
+20
+172&#x2013;176 10.1016/j.conb.2010.02.010</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.conb.2010.02.010</ArticleId><ArticleId IdType="pmc">PMC2963579</ArticleId><ArticleId IdType="pubmed">20307966</ArticleId></ArticleIdList></Reference><Reference><Citation>Schyns P. G., Thut G., Gross J. (2011). Cracking the code of oscillatory activity.
+<i>PLoS Biol.</i>
+9:e1001064
+10.1371/journal.pbio.1001064</Citation><ArticleIdList><ArticleId IdType="doi">10.1371/journal.pbio.1001064</ArticleId><ArticleId IdType="pmc">PMC3096604</ArticleId><ArticleId IdType="pubmed">21610856</ArticleId></ArticleIdList></Reference><Reference><Citation>Scoville W. B., Milner B. (1957). Loss of recent memory after bilateral hippocampal lesions.
+<i>J. Neurol. Neurosurg. Psychiatry.</i>
+20
+11&#x2013;21 10.1136/jnnp.20.1.11</Citation><ArticleIdList><ArticleId IdType="doi">10.1136/jnnp.20.1.11</ArticleId><ArticleId IdType="pmc">PMC497229</ArticleId><ArticleId IdType="pubmed">13406589</ArticleId></ArticleIdList></Reference><Reference><Citation>Sederberg P. B., Kahana M. J., Howard M. W., Donner E. J., Madsen J. R. (2003). Theta and gamma oscillations during encoding predict subsequent recall.
+<i>J. Neurosci.</i>
+23
+10809&#x2013;10814</Citation><ArticleIdList><ArticleId IdType="pmc">PMC6740970</ArticleId><ArticleId IdType="pubmed">14645473</ArticleId></ArticleIdList></Reference><Reference><Citation>Shay C. F., Boardman I. S., James N. M., Hasselmo M. E. (2012). Voltage dependence of subthreshold resonance frequency in layer II of medial entorhinal cortex.
+<i>Hippocampus</i>
+22
+1733&#x2013;1749 10.1002/hipo.22008</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.22008</ArticleId><ArticleId IdType="pmc">PMC3371298</ArticleId><ArticleId IdType="pubmed">22368047</ArticleId></ArticleIdList></Reference><Reference><Citation>Shirvalkar P. R., Rapp P. R., Shapiro M. L. (2010). Bidirectional changes to hippocampal theta-gamma comodulation predict memory for recent spatial episodes.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+107
+7054&#x2013;7059 10.1073/pnas.0911184107</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.0911184107</ArticleId><ArticleId IdType="pmc">PMC2872428</ArticleId><ArticleId IdType="pubmed">20351262</ArticleId></ArticleIdList></Reference><Reference><Citation>Siapas A. G., Lubenov E. V., Wilson M. A. (2005). Prefrontal phase locking to hippocampal theta oscillations.
+<i>Neuron</i>
+46
+141&#x2013;151 10.1016/j.neuron.2005.02.028</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2005.02.028</ArticleId><ArticleId IdType="pubmed">15820700</ArticleId></ArticleIdList></Reference><Reference><Citation>Siegel M., Donner T. H., Engel A. K. (2012). Spectral fingerprints of large-scale neuronal interactions.
+<i>Nat. Rev. Neurosci.</i>
+13
+121&#x2013;134 10.1038/nrn3137</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn3137</ArticleId><ArticleId IdType="pubmed">22233726</ArticleId></ArticleIdList></Reference><Reference><Citation>Siegel M., Warden M. R., Miller E. K. (2009). Phase-dependent neuronal coding of objects in short-term memory.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+106
+21341&#x2013;21346 10.1073/pnas.0908193106</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.0908193106</ArticleId><ArticleId IdType="pmc">PMC2779828</ArticleId><ArticleId IdType="pubmed">19926847</ArticleId></ArticleIdList></Reference><Reference><Citation>Singh N. C. N, Theunissen F. E. F. (2003). Modulation spectra of natural sounds and ethological theories of auditory processing.
+<i>J. Acoust. Soc. Am.</i>
+114
+3394&#x2013;3411 10.1121/1.1624067</Citation><ArticleIdList><ArticleId IdType="doi">10.1121/1.1624067</ArticleId><ArticleId IdType="pubmed">14714819</ArticleId></ArticleIdList></Reference><Reference><Citation>Sirota A., Montgomery S., Fujisawa S., Isomura Y., Zugaro M., Buzs&#xe1;ki G. (2008). Entrainment of neocortical neurons and gamma oscillations by the hippocampal theta rhythm.
+<i>Neuron</i>
+60
+683&#x2013;697 10.1016/j.neuron.2008.09.014</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2008.09.014</ArticleId><ArticleId IdType="pmc">PMC2640228</ArticleId><ArticleId IdType="pubmed">19038224</ArticleId></ArticleIdList></Reference><Reference><Citation>Staresina B. P., Davachi L. (2009). Mind the gap: binding experiences across space and time in the human hippocampus.
+<i>Neuron</i>
+63
+267&#x2013;276 10.1016/j.neuron.2009.06.024</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2009.06.024</ArticleId><ArticleId IdType="pmc">PMC2726251</ArticleId><ArticleId IdType="pubmed">19640484</ArticleId></ArticleIdList></Reference><Reference><Citation>Staudigl T., Hanslmayr S. (2013). Theta oscillations at encoding mediate the context-dependent nature of human episodic memory.
+<i>Curr. Biol.</i>
+23
+1101&#x2013;1106 10.1016/j.cub.2013.04.074</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cub.2013.04.074</ArticleId><ArticleId IdType="pubmed">23746635</ArticleId></ArticleIdList></Reference><Reference><Citation>Tayler K. K., Tanaka K. Z., Reijmers L. G., Wiltgen B. J. (2012). Reactivation of neural ensembles during the retrieval of recent and remote memory.
+<i>Curr. Biol.</i>
+23
+1&#x2013;8</Citation><ArticleIdList><ArticleId IdType="pubmed">23246402</ArticleId></ArticleIdList></Reference><Reference><Citation>Teyler T. J., Rudy J. W. (2007). The hippocampal indexing theory and episodic memory: updating the index.
+<i>Hippocampus</i>
+17
+1158&#x2013;1169 10.1002/hipo.20350</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.20350</ArticleId><ArticleId IdType="pubmed">17696170</ArticleId></ArticleIdList></Reference><Reference><Citation>Tierney P. L., D&#xe9;gen&#xe8;tais E., Thierry A.-M., Glowinski J., Gioanni Y. (2004). Influence of the hippocampus on inter neurons of the rat prefrontal cortex.
+<i>Eur. J. Neurosci.</i>
+20
+514&#x2013;524 10.1111/j.1460-9568.2004.03501.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1460-9568.2004.03501.x</ArticleId><ArticleId IdType="pubmed">15233760</ArticleId></ArticleIdList></Reference><Reference><Citation>Tohidi V., Nadim F. (2009). Membrane resonance in bursting pacemaker neurons of an oscillatory network is correlated with network frequency.
+<i>J. Neurosci.</i>
+29
+6427&#x2013;6435 10.1523/JNEUROSCI.0545-09.2009</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.0545-09.2009</ArticleId><ArticleId IdType="pmc">PMC2716082</ArticleId><ArticleId IdType="pubmed">19458214</ArticleId></ArticleIdList></Reference><Reference><Citation>Tort A. B. L., Komorowski R. W., Manns J. R., Kopell N. J., Eichenbaum H. (2009). Theta-gamma coupling increases during the learning of item-context associations.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+106
+20942&#x2013;20477 10.1073/pnas.0911331106</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.0911331106</ArticleId><ArticleId IdType="pmc">PMC2791641</ArticleId><ArticleId IdType="pubmed">19934062</ArticleId></ArticleIdList></Reference><Reference><Citation>Tsunada J., Baker A. E., Christison-Lagay K. L., Davis S. J., Cohen Y. E. (2011). Modulation of cross-frequency coupling by novel and repeated stimuli in the primate ventrolateral prefrontal cortex.
+<i>Front. Psychol.</i>
+2:217
+10.3389/fpsyg.2011.00217</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fpsyg.2011.00217</ArticleId><ArticleId IdType="pmc">PMC3171109</ArticleId><ArticleId IdType="pubmed">21941517</ArticleId></ArticleIdList></Reference><Reference><Citation>Tulving E., Thomson D. M. (1973). Encoding specificity and retrieval processes in episodic memory.
+<i>Psychol. Rev.</i>
+80
+352 10.1037/h0020071</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/h0020071</ArticleId></ArticleIdList></Reference><Reference><Citation>Ulrich D. (2002). Dendritic resonance in rat neocortical pyramidal cells.
+<i>J. Neurophysiol.</i>
+87
+2753&#x2013;2759</Citation><ArticleIdList><ArticleId IdType="pubmed">12037177</ArticleId></ArticleIdList></Reference><Reference><Citation>van der Meij R., Kahana M., Maris E. (2012). Phase-amplitude coupling in human electrocorticography is spatially distributed and phase diverse.
+<i>J. Neurosci.</i>
+32
+111&#x2013;123 10.1523/JNEUROSCI.4816-11.2012</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.4816-11.2012</ArticleId><ArticleId IdType="pmc">PMC6621324</ArticleId><ArticleId IdType="pubmed">22219274</ArticleId></ArticleIdList></Reference><Reference><Citation>van Gerven M. A. J., Maris E., Sperling M., Sharan A., Litt B., Anderson C., et al.  (2013). Decoding the memorization of individual stimuli with direct human brain recordings.
+<i>Neuroimage</i>
+70
+223&#x2013;232 10.1016/j.neuroimage.2012.12.059</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2012.12.059</ArticleId><ArticleId IdType="pmc">PMC3580011</ArticleId><ArticleId IdType="pubmed">23298746</ArticleId></ArticleIdList></Reference><Reference><Citation>van Vugt M. K., Schulze-Bonhage A., Litt B., Brandt A., Kahana M. J. (2010). Hippocampal gamma oscillations increase with memory load.
+<i>J. Neurosci.</i>
+30
+2694&#x2013;2699 10.1523/JNEUROSCI.0567-09.2010</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.0567-09.2010</ArticleId><ArticleId IdType="pmc">PMC2835496</ArticleId><ArticleId IdType="pubmed">20164353</ArticleId></ArticleIdList></Reference><Reference><Citation>Vanderwolf C. H. (1969). Hippocampal electrical activity and voluntary movement in the rat.
+<i>Electroencephalogr. Clin. Neurophysiol.</i>
+26
+407&#x2013;418 10.1016/0013-4694(69)90092-3</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/0013-4694(69)90092-3</ArticleId><ArticleId IdType="pubmed">4183562</ArticleId></ArticleIdList></Reference><Reference><Citation>Vargha-Khadem F., Gadian D. G., Watkins K. E., Connelly A., Van Paesschen W., Mishkin M. (1997). Differential effects of early hippocampal pathology on episodic and semantic memory.
+<i>Science</i>
+277
+376&#x2013;380 10.1126/science.277.5324.376</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.277.5324.376</ArticleId><ArticleId IdType="pubmed">9219696</ArticleId></ArticleIdList></Reference><Reference><Citation>Voytek B., Canolty R. T., Shestyuk A., Crone N. E., Parvizi J., Knight R. T. (2010). Shifts in gamma phase-amplitude coupling frequency from theta to alpha over posterior cortex during visual tasks.
+<i>Front. Hum. Neurosci.</i>
+4:191
+10.3389/fnhum.2010.00191</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fnhum.2010.00191</ArticleId><ArticleId IdType="pmc">PMC2972699</ArticleId><ArticleId IdType="pubmed">21060716</ArticleId></ArticleIdList></Reference><Reference><Citation>Wang W.-T., Wan Y.-H., Zhu J.-L., Lei G.-S., Wang Y.-Y., Zhang P., et al.  (2006). Theta-frequency membrane resonance and its ionic mechanisms in rat subicular pyramidal neurons.
+<i>Neuroscience</i>
+140
+45&#x2013;55 10.1016/j.neuroscience.2006.01.033</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroscience.2006.01.033</ArticleId><ArticleId IdType="pubmed">16527421</ArticleId></ArticleIdList></Reference><Reference><Citation>Watrous A. J., Fried I., Ekstrom A. D. (2011). Behavioral correlates of human hippocampal delta and theta oscillations during navigation.
+<i>J. Neurophysiol.</i>
+105
+1747&#x2013;1755 10.1152/jn.00921.2010</Citation><ArticleIdList><ArticleId IdType="doi">10.1152/jn.00921.2010</ArticleId><ArticleId IdType="pubmed">21289136</ArticleId></ArticleIdList></Reference><Reference><Citation>Watrous A. J., Tandon N., Conner C. R., Pieters T., Ekstrom A. D. (2013a). Frequency-specific network connectivity increases underlie accurate spatiotemporal memory retrieval.
+<i>Nat. Neurosci.</i>
+16
+349&#x2013;356 10.1038/nn.3315</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn.3315</ArticleId><ArticleId IdType="pmc">PMC3581758</ArticleId><ArticleId IdType="pubmed">23354333</ArticleId></ArticleIdList></Reference><Reference><Citation>Watrous A. J., Lee D. J., Izadi A., Gurkoff G. G., Shahlaie K., Ekstrom A. D. (2013b). A comparative study of human and rat hippocampal low-frequency oscillations during spatial navigation.
+<i>Hippocampus</i>
+23
+656&#x2013;661 10.1002/hipo.22124</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.22124</ArticleId><ArticleId IdType="pmc">PMC4068262</ArticleId><ArticleId IdType="pubmed">23520039</ArticleId></ArticleIdList></Reference><Reference><Citation>Weiss S., M&#xfc;ller H. M., Rappelsberger P. (2000). Theta synchronization predicts efficient memory encoding of concrete and abstract nouns.
+<i>Neuroreport</i>
+11
+2357&#x2013;2361 10.1097/00001756-200008030-00005</Citation><ArticleIdList><ArticleId IdType="doi">10.1097/00001756-200008030-00005</ArticleId><ArticleId IdType="pubmed">10943685</ArticleId></ArticleIdList></Reference><Reference><Citation>Weiss S., Rappelsberger P. (2000). Long-range EEG synchronization during word encoding correlates with successful memory performance.
+<i>Brain Res. Cogn. Brain Res.</i>
+9
+299&#x2013;312 10.1016/S0926-6410(00)00011-2</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0926-6410(00)00011-2</ArticleId><ArticleId IdType="pubmed">10808141</ArticleId></ArticleIdList></Reference><Reference><Citation>Whishaw I. Q., Vanderwolf C. H. (1973). Hippocampal EEG and behavior: changes in amplitude and frequency of RSA (theta rhythm) associated with spontaneous and learned movement patterns in rats and cats.
+<i>Behav. Biol.</i>
+8
+461&#x2013;484 10.1016/S0091-6773(73)80041-0</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0091-6773(73)80041-0</ArticleId><ArticleId IdType="pubmed">4350255</ArticleId></ArticleIdList></Reference><Reference><Citation>Whittingstall K., Logothetis N. K. (2009). Frequency-band coupling in surface EEG reflects spiking activity in monkey visual cortex.
+<i>Neuron</i>
+64
+281&#x2013;289 10.1016/j.neuron.2009.08.016</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2009.08.016</ArticleId><ArticleId IdType="pubmed">19874794</ArticleId></ArticleIdList></Reference><Reference><Citation>Wilson D. I. G., Langston R. F., Schlesiger M. I., Wagner M., Watanabe S., Ainge J. A. (2013). Lateral entorhinal cortex is critical for novel object-context recognition.
+<i>Hippocampus</i>
+23
+352&#x2013;366 10.1002/hipo.22095</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.22095</ArticleId><ArticleId IdType="pmc">PMC3648979</ArticleId><ArticleId IdType="pubmed">23389958</ArticleId></ArticleIdList></Reference><Reference><Citation>Wimber M., Maa&#xdf; A., Staudigl T., Richardson-Klavehn A., Hanslmayr S. (2012). Rapid memory reactivation revealed by oscillatory entrainment.
+<i>Curr. Biol.</i>
+22
+1482&#x2013;1486 10.1016/j.cub.2012.05.054</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cub.2012.05.054</ArticleId><ArticleId IdType="pubmed">22795695</ArticleId></ArticleIdList></Reference><Reference><Citation>Womelsdorf T., Schoffelen J.-M., Oostenveld R., Singer W., Desimone R., Engel A. K., et al.  (2007). Modulation of neuronal interactions through neuronal synchronization.
+<i>Science</i>
+316
+1609&#x2013;1612 10.1126/science.1139597</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1139597</ArticleId><ArticleId IdType="pubmed">17569862</ArticleId></ArticleIdList></Reference><Reference><Citation>Yonelinas A. P., Kroll N. E. A., Quamme J. R., Lazzara M. M., Sauv&#xe9; M.-J., Widaman K. F., et al.  (2002). Effects of extensive temporal lobe damage or mild hypoxia on recollection and familiarity.
+<i>Nat. Neurosci.</i>
+5
+1236&#x2013;1241 10.1038/nn961</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn961</ArticleId><ArticleId IdType="pubmed">12379865</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>

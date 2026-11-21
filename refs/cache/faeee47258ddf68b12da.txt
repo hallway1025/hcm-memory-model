@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM"><PMID Version="1">30405503</PMID><DateRevised><Year>2020</Year><Month>09</Month><Day>30</Day></DateRevised><Article PubModel="Electronic-eCollection"><Journal><ISSN IssnType="Print">1664-1078</ISSN><JournalIssue CitedMedium="Print"><Volume>9</Volume><PubDate><Year>2018</Year></PubDate></JournalIssue><Title>Frontiers in psychology</Title><ISOAbbreviation>Front Psychol</ISOAbbreviation></Journal><ArticleTitle>Retrieval-Induced Forgetting as Motivated Cognition.</ArticleTitle><Pagination><StartPage>2030</StartPage><MedlinePgn>2030</MedlinePgn></Pagination><ELocationID EIdType="pii" ValidYN="Y">2030</ELocationID><ELocationID EIdType="doi" ValidYN="Y">10.3389/fpsyg.2018.02030</ELocationID><Abstract><AbstractText>Recalling information from a particular category can reduce one's memory capability for related, non-retrieved information. This is known as the retrieval-induced forgetting effect (RIF; Anderson et al., 1994). The present paper reviews studies that show that the RIF effect is motivated. More specifically, we describe research showing that the need for closure (NFC; the motivation to attain epistemic certainty; Kruglanski and Webster, 1996) generally <i>enhances</i> the RIF, because this prevents uncertainty and confusion from the intrusion of unwanted memories during selective-retrieval. However, when the content of the to-be-forgotten information serves the retriever's goals, NFC <i>reduces</i> RIF. Overall, the present findings are consistent with the view that motivation can affect the magnitude of RIF effects which, in turn, can serve as a mechanism for reaching preferred conclusions.</AbstractText></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Pica</LastName><ForeName>Gennaro</ForeName><Initials>G</Initials><AffiliationInfo><Affiliation>University of Rome, "La Sapienza", Rome, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Chernikova</LastName><ForeName>Marina</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>University of Maryland, College Park, College Park, MD, United States.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Pierro</LastName><ForeName>Antonio</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>University of Rome, "La Sapienza", Rome, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Giannini</LastName><ForeName>Anna Maria</ForeName><Initials>AM</Initials><AffiliationInfo><Affiliation>University of Rome, "La Sapienza", Rome, Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Kruglanski</LastName><ForeName>Arie W</ForeName><Initials>AW</Initials><AffiliationInfo><Affiliation>University of Maryland, College Park, College Park, MD, United States.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType="Electronic"><Year>2018</Year><Month>10</Month><Day>23</Day></ArticleDate></Article><MedlineJournalInfo><Country>Switzerland</Country><MedlineTA>Front Psychol</MedlineTA><NlmUniqueID>101550902</NlmUniqueID><ISSNLinking>1664-1078</ISSNLinking></MedlineJournalInfo><KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">memory bias</Keyword><Keyword MajorTopicYN="N">motivated cognition</Keyword><Keyword MajorTopicYN="N">motivation</Keyword><Keyword MajorTopicYN="N">need for closure</Keyword><Keyword MajorTopicYN="N">retrieval-induced forgetting</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="received"><Year>2018</Year><Month>5</Month><Day>28</Day></PubMedPubDate><PubMedPubDate PubStatus="accepted"><Year>2018</Year><Month>10</Month><Day>2</Day></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2018</Year><Month>11</Month><Day>9</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2018</Year><Month>11</Month><Day>9</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="medline"><Year>2018</Year><Month>11</Month><Day>9</Day><Hour>6</Hour><Minute>1</Minute></PubMedPubDate><PubMedPubDate PubStatus="pmc-release"><Year>2018</Year><Month>10</Month><Day>23</Day></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">30405503</ArticleId><ArticleId IdType="pmc">PMC6206073</ArticleId><ArticleId IdType="doi">10.3389/fpsyg.2018.02030</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Amir N., Coles M. E., Brigidi B., Foa E. B. (2001). The effect of practice on recall of emotional information in individuals with generalized social phobia.
+<i>J. Abnorm. Psychol.</i>
+110
+76&#x2013;82. </Citation><ArticleIdList><ArticleId IdType="pubmed">11261403</ArticleId></ArticleIdList></Reference><Reference><Citation>Anderson M. C. (2003). Rethinking interference theory: executive control and the mechanisms of forgetting.
+<i>J. Mem. Lang.</i>
+49
+415&#x2013;445. 10.1016/j.jml.2003.08.006
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.jml.2003.08.006</ArticleId></ArticleIdList></Reference><Reference><Citation>Anderson M. C., Bjork R. A., Bjork E. L. (1994). Remembering can cause forgetting: retrieval dynamics in long-term memory.
+<i>J. Exp. Psychol. Learn. Mem. Cognit.</i>
+20
+1063&#x2013;1087. 10.1037/0278-7393.20.5.1063</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0278-7393.20.5.1063</ArticleId><ArticleId IdType="pubmed">7931095</ArticleId></ArticleIdList></Reference><Reference><Citation>B&#xe9;langer J. J., Kruglanski A. W., Chen X., Orehek E. (2014). Bending perception to desire: effects of task demands, motivation, and cognitive resources.
+<i>Motiv. Emot.</i>
+38
+802&#x2013;814. 10.1007/s11031-014-9436-z</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11031-014-9436-z</ArticleId></ArticleIdList></Reference><Reference><Citation>Coman A., Hirst W. (2015). Social identity and socially shared retrieval-induced forgetting: the effects of group membership.
+<i>J. Exp. Psychol. Gen.</i>
+144
+717&#x2013;722. 10.1037/xge0000077
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/xge0000077</ArticleId><ArticleId IdType="pubmed">25938179</ArticleId></ArticleIdList></Reference><Reference><Citation>Conway A. R. A., Kane M. J., Bunting M. F., Hambrick D. Z., Wilhelm O., Engle R. W. (2005). Working memory span tasks: a methodological review and user&#x2019;s guide.
+<i>Psychon. Bull. Rev.</i>
+16
+769&#x2013;786.</Citation><ArticleIdList><ArticleId IdType="pubmed">16523997</ArticleId></ArticleIdList></Reference><Reference><Citation>Dijksterhuis A., van Knippenberg A., Kruglanski A. W., Schaper C. (1996). Motivated social cognition: need for closure effects on memory and judgment.
+<i>J. Exp. Soc. Psychol.</i>
+32
+254&#x2013;270. 10.1006/jesp.1996.0012</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/jesp.1996.0012</ArticleId></ArticleIdList></Reference><Reference><Citation>Dunn E. W., Spellman B. A. (2003). Forgetting by remembering: stereotype inhibition through rehearsal of alternative aspects of identity.
+<i>J. Exp. Soc. Psychol.</i>
+39
+420&#x2013;433. 10.1016/S0022-1031(03)00032-5</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0022-1031(03)00032-5</ArticleId></ArticleIdList></Reference><Reference><Citation>Fein S., Spencer S. J. (1997). Prejudice as self-image maintenance: affirming the self through derogating others.
+<i>J. Pers. Soc. Psychol.</i>
+73
+31&#x2013;44. 10.1037/0022-3514.73.1.31</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0022-3514.73.1.31</ArticleId></ArticleIdList></Reference><Reference><Citation>Garcia-Bajos E., Migueles M. (2009). When stereotype knowledge prevents retrieval-induced forgetting.
+<i>Acta Psychol.</i>
+131
+63&#x2013;71. 10.1016/j.actpsy.2009.02.007
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.actpsy.2009.02.007</ArticleId><ArticleId IdType="pubmed">19289236</ArticleId></ArticleIdList></Reference><Reference><Citation>Ikeda K., Castel A. D., Murayama K. (2015). Mastery-approach goals eliminate retrieval induced forgetting: the role of achievement goals in memory inhibition.
+<i>Pers. Soc. Psychol. Bull.</i>
+41
+687&#x2013;695. 10.1177/0146167215575730
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0146167215575730</ArticleId><ArticleId IdType="pubmed">25754601</ArticleId></ArticleIdList></Reference><Reference><Citation>Imai H., Kim D., Sasaki Y., Watanabe T. (2014). Reward eliminates retrieval-induced forgetting.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+111
+17326&#x2013;17369. 10.1073/pnas.1404469111
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.1404469111</ArticleId><ArticleId IdType="pmc">PMC4260611</ArticleId><ArticleId IdType="pubmed">25404297</ArticleId></ArticleIdList></Reference><Reference><Citation>Kossowska M. (2007). The role of cognitive inhibition in motivation toward closure.
+<i>Pers. Individ. Differ.</i>
+42
+1117&#x2013;1126. 10.1016/j.paid.2006.09.026</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.paid.2006.09.026</ArticleId></ArticleIdList></Reference><Reference><Citation>Kruglanski A. W. (1996). &#x201c;Motivated social cognition: principles of the interface,&#x201d; in
+<i>Social Psychology: Handbook of Basic Principles</i>, eds
+Higgins E. T., Kruglanski A. W. (New York, NY: Guilford Press; ), 493&#x2013;520.</Citation></Reference><Reference><Citation>Kruglanski A. W. (2004). <i>The Psychology of Closed Mindedness.</i>
+New York, NY: Psychology Press.</Citation></Reference><Reference><Citation>Kruglanski A. W., Belanger J., Chen X., Kopetz C., Pierro A., Mannetti L. (2012). The energetics of motivated cognition: a force field analysis.
+<i>Psychol. Rev.</i>
+119
+1&#x2013;20. 10.1037/a0025488
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0025488</ArticleId><ArticleId IdType="pubmed">21967165</ArticleId></ArticleIdList></Reference><Reference><Citation>Kruglanski A. W., Shteynberg G. (2012). &#x201c;Cognitive consistency as a means to an end: How subjective logic affords knowledge,&#x201d; in
+<i>Cognitive Consistency: A Fundamental Principle in Social Cognition</i>, eds
+Gawronski B., Strack F. (New York, NY: Guilford Press; ), 245&#x2013;264.</Citation></Reference><Reference><Citation>Kruglanski A. W., Webster D. M. (1996). Motivated closing of the mind: &#x201c;Seizing&#x201d; and &#x201c;Freezing&#x201d;.
+<i>Psychol. Rev.</i>
+103
+263&#x2013;283. 10.1037/0033-295X.103.2.263</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-295X.103.2.263</ArticleId><ArticleId IdType="pubmed">8637961</ArticleId></ArticleIdList></Reference><Reference><Citation>Kuhbandner C., B&#xe4;uml K.-H., Stiedl F. C. (2009). Retrieval-induced forgetting of negative stimuli: the role of emotional intensity.
+<i>Cogn. Emot.</i>
+23
+817&#x2013;830.</Citation></Reference><Reference><Citation>Kunda Z. (1990). The case for motivated reasoning.
+<i>Psychol. Bull.</i>
+108
+480&#x2013;498. 10.1037/0033-2909.108.3.480</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-2909.108.3.480</ArticleId><ArticleId IdType="pubmed">2270237</ArticleId></ArticleIdList></Reference><Reference><Citation>Macrae C. N., Bodenhausen G. V. (2000). Social cognition: thinking categorically about others.
+<i>Ann. Rev. Psychol.</i>
+51
+93&#x2013;120. 10.1146/annurev.psych.51.1.93
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1146/annurev.psych.51.1.93</ArticleId><ArticleId IdType="pubmed">10751966</ArticleId></ArticleIdList></Reference><Reference><Citation>Nuney M., Gregory J., Zinbarg R. E. (2017). Anxiety and retrieval inhibition: support for an enhanced inhibition account.
+<i>Cogn. Emot.</i>
+31
+349&#x2013;359. 10.1080/02699931.2015.1090957
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/02699931.2015.1090957</ArticleId><ArticleId IdType="pubmed">26437374</ArticleId></ArticleIdList></Reference><Reference><Citation>Pica G., B&#xe9;langer J., Pantaleo G., Pierro A., Kruglanski A. W. (2016). Prejudice in person memory: self-threat biases memories of stigmatized group members.
+<i>Eur. J. Soc. Psychol.</i>
+46
+124&#x2013;131. 10.1002/ejsp.2140</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/ejsp.2140</ArticleId></ArticleIdList></Reference><Reference><Citation>Pica G., Pierro A., B&#xe9;langer J., Kruglanski A. W. (2013a). The motivational dynamics of retrieval induced forgetting: a test for cognitive energetics theory.
+<i>Pers. Soc. Psychol. Bull.</i>
+39
+1530&#x2013;1541. 10.1177/0146167213499237
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0146167213499237</ArticleId><ArticleId IdType="pubmed">23928398</ArticleId></ArticleIdList></Reference><Reference><Citation>Pica G., Pierro A., Kruglanski A. W. (2013b). The effect of circadian rhythms on retriva-induced forgetting.
+<i>Cogn. Proc.</i>
+15
+29&#x2013;38. 10.1007/s10339-013-0575-z
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s10339-013-0575-z</ArticleId><ArticleId IdType="pubmed">23836277</ArticleId></ArticleIdList></Reference><Reference><Citation>Pica G., Pierro A., B&#xe9;langer J., Kruglanski A. W. (2014). The role of need for cognitive closure in retrieval-induced forgetting and misinformation effects in eyewitness memory.
+<i>Soc. Cogn.</i>
+32
+337&#x2013;359. 10.1521/soco.2014.32.4.337</Citation><ArticleIdList><ArticleId IdType="doi">10.1521/soco.2014.32.4.337</ArticleId></ArticleIdList></Reference><Reference><Citation>Pica G., Pierro A., Pellegrini V., De Cristofaro V., Giannini A., Kruglanski A. W. (2018). Keeping in mind the gender-stereotype&#x201d;: the role of Need for closure in the retrieval-induced forgetting of female managers&#x2019; qualities.
+<i>Cogn. Proc.</i>
+19
+363&#x2013;373. 10.1007/s10339-018-0864-7
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s10339-018-0864-7</ArticleId><ArticleId IdType="pubmed">29779169</ArticleId></ArticleIdList></Reference><Reference><Citation>Pica G., Sciara S., Livi S., Pantaleo G. (2017). Ethnic prejudice in person memory: lessened retrieval-induced forgetting of negative traits ascribed to an africanamerican target.
+<i>Psycol. Soc.</i>
+12
+351&#x2013;362.</Citation></Reference><Reference><Citation>Santioso R., Kunda Z., Fong G. T. (1990). Motivated recruitment of autobiographical memories.
+<i>J. Pers. Soc. Psychol.</i>
+59
+229&#x2013;241. 10.1037/0022-3514.59.2.229
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0022-3514.59.2.229</ArticleId><ArticleId IdType="pubmed">2213492</ArticleId></ArticleIdList></Reference><Reference><Citation>Shah J. Y., Friedman R., Kruglanski A. W. (2002). Forgetting all else: on the antecedents and consequences of goal shielding.
+<i>J. Pers. Soc. Psychol.</i>
+83
+1261&#x2013;1280. 10.1037/0022-3514.83.6.1261
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0022-3514.83.6.1261</ArticleId><ArticleId IdType="pubmed">12500810</ArticleId></ArticleIdList></Reference><Reference><Citation>Storm B. C. (2011). The benefit of forgetting in thinking and remembering.
+<i>Curr. Direct. Psychol. Sci.</i>
+20
+291&#x2013;295. 10.1177/0963721411418469</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0963721411418469</ArticleId></ArticleIdList></Reference><Reference><Citation>Storm B. C., Angello G., Buchli D. R., Koppel R. H., Little J. L., Nestojko J. F. (2015). &#x201c;A review of retrieval-induced forgetting in the contexts of learning, eyewitness memory, social cognition, autobiographical memory, and creative cognition,&#x201d; in
+<i>The Psychology of Learning and Motivation</i>, ed.
+Ross B. (Amsterdam: Elsevier Inc; ), 141&#x2013;194.</Citation></Reference><Reference><Citation>Storm B. C., Jobe T. A. (2012). Retrieval-induced forgetting predicts failure to recall negative autobiographical memories.
+<i>Psychol. Sci.</i>
+23
+1356&#x2013;1363. 10.1177/0956797612443837
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0956797612443837</ArticleId><ArticleId IdType="pubmed">23044797</ArticleId></ArticleIdList></Reference><Reference><Citation>Strojny P., Kossoswka M., Strojny A. (2016). Search for expectancy-inconsistent information reduces uncertainty better: the role of cognitive capacity.
+<i>Front. Psychol.</i>
+7:395. 10.3389/fpsyg.2016.00395
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fpsyg.2016.00395</ArticleId><ArticleId IdType="pmc">PMC4801866</ArticleId><ArticleId IdType="pubmed">27047422</ArticleId></ArticleIdList></Reference><Reference><Citation>Webster D. M., Kruglanski A. W. (1994). Individual differences in need for cognitive closure.
+<i>J. Pers. Soc. Psychol.</i>
+67
+1049&#x2013;1062. 10.1037/0022-3514.67.6.1049</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0022-3514.67.6.1049</ArticleId><ArticleId IdType="pubmed">7815301</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>

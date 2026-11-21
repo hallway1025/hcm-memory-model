@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bEaEkpfBQtv/QvQL43u5rDf1fWY</id>
+  <title>arXiv Query: search_query=all:Zep AND all:temporal AND all:knowledge AND all:graph&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-07T11:45:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Zep+AND+(all:temporal+AND+(all:knowledge+AND+all:graph))&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.13956v1</id>
+    <title>Zep: A Temporal Knowledge Graph Architecture for Agent Memory</title>
+    <updated>2025-01-20T16:52:48Z</updated>
+    <link href="https://arxiv.org/abs/2501.13956v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.13956v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Zep, a novel memory layer service for AI agents that outperforms the current state-of-the-art system, MemGPT, in the Deep Memory Retrieval (DMR) benchmark. Additionally, Zep excels in more comprehensive and challenging evaluations than DMR that better reflect real-world enterprise use cases. While existing retrieval-augmented generation (RAG) frameworks for large language model (LLM)-based agents are limited to static document retrieval, enterprise applications demand dynamic knowledge integration from diverse sources including ongoing conversations and business data. Zep addresses this fundamental limitation through its core component Graphiti -- a temporally-aware knowledge graph engine that dynamically synthesizes both unstructured conversational data and structured business data while maintaining historical relationships. In the DMR benchmark, which the MemGPT team established as their primary evaluation metric, Zep demonstrates superior performance (94.8% vs 93.4%). Beyond DMR, Zep's capabilities are further validated through the more challenging LongMemEval benchmark, which better reflects enterprise use cases through complex temporal reasoning tasks. In this evaluation, Zep achieves substantial results with accuracy improvements of up to 18.5% while simultaneously reducing response latency by 90% compared to baseline implementations. These results are particularly pronounced in enterprise-critical tasks such as cross-session information synthesis and long-term context maintenance, demonstrating Zep's effectiveness for deployment in real-world applications.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-20T16:52:48Z</published>
+    <arxiv:comment>12 pages, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Preston Rasmussen</name>
+    </author>
+    <author>
+      <name>Pavlo Paliychuk</name>
+    </author>
+    <author>
+      <name>Travis Beauvais</name>
+    </author>
+    <author>
+      <name>Jack Ryan</name>
+    </author>
+    <author>
+      <name>Daniel Chalef</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.05577v1</id>
+    <title>Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction</title>
+    <updated>2026-07-06T19:23:52Z</updated>
+    <link href="https://arxiv.org/abs/2607.05577v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.05577v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-form fiction writers need memory that answers multi-hop questions about evolving story state: who knows a secret and when they learned it, whether an event preceded the narration that revealed it, whether a setup paid off, and how a relationship shifted. General-purpose retrieval and agent-memory systems represent entities and facts but not the narratological structure these questions turn on, so they surface the wrong evidence or none at all. We introduce the Narrative World Model (NWM), a writer-memory system that pairs a narratology-grounded typed temporal-state graph with query-conditioned hybrid retrieval. To measure memory rather than the answerer, we read every system through a single held-constant Opus 4.8 reader over only that system's chapter-safe evidence, on a reproducible public corpus and a validated multi-hop benchmark, and we compare against the strongest existing temporal-knowledge-graph agent-memory framework, Graphiti/Zep (Rasmussen et al., 2025). NWM substantially and significantly outperforms this baseline on multi-hop narratological QA across both corpora, and far exceeds GraphRAG and flat retrieval. The advantage is representational rather than an artifact of extraction: it survives rebuilding the baseline with NWM's own extractor, and traces to its narratology-grounded structure and query-conditioned retrieval, not to graph size or extractor quality.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-06T19:23:52Z</published>
+    <arxiv:comment>23 pages, 4 figures; 9-page main text plus appendix. Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mohammad Saifullah</name>
+    </author>
+    <author>
+      <name>Thomas Kornmaier</name>
+    </author>
+    <author>
+      <name>Taaha Kazi</name>
+    </author>
+    <author>
+      <name>Vasu Sharma</name>
+    </author>
+    <author>
+      <name>Aditya Sanjiv Kanade</name>
+    </author>
+    <author>
+      <name>Aanand Kumar Yadav</name>
+    </author>
+  </entry>
+</feed>

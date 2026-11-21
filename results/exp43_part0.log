@@ -1,0 +1,4 @@
+part0 seed0: agree=True rej(e/m)=950/929 dmaxcos=1.49e-08 dsc=1.49e-08 dz=4.32e-09 da=6.38e-10 arg=True -> PASS
+part0 seed1: agree=True rej(e/m)=950/940 dmaxcos=1.86e-08 dsc=1.86e-08 dz=4.55e-09 da=8.87e-10 arg=True -> PASS
+part0 seed2: agree=True rej(e/m)=950/940 dmaxcos=1.12e-08 dsc=1.49e-08 dz=3.45e-09 da=4.03e-10 arg=True -> PASS
+WROTE <user-home>\Desktop\Deepseek Harmness²âÊÔÇø\brain-memory-model\results\exp43_inverted_index.json

@@ -1,0 +1,796 @@
+==== SURVEY2 CROSSREF start ====  
+[OK] +587 refs, skipped 20 -> refs\survey2\refs_survey2.jsonl
+  S000 T1       2010 Frontiers in Neuroscience          Self-organizing Winner-Take-All networks
+  S001 T1       2012 BMC Neuroscience                   Group sparse coding with a collection of winner-take-all net
+  S002 T1       2021 Lecture Notes in Computer Science  Modeling Winner-Take-All Competition in Sparse Binary Projec
+  S003 T1       None Lecture Notes in Computer Science  Sparse Coding in Sparse Winner Networks
+  S004 T2       2009 PLoS Computational Biology         The Temporal Winner-Take-All Readout
+  S005 T2       2011 Neural Computation                 A Multifactor Winner-Take-All Dynamics
+  S006 T3       1991 [Proceedings] 1991 IEEE Internatio Logarithmic search in a winner-take-all network
+  S007 T3       2010 The 2010 International Joint Confe Self-organization of two interacting winner-take-all systems
+  S008 T3       2016 2016 International Joint Conferenc Margined Winner-Take-All: New learning rule for pattern reco
+  S009 T3       None Proceedings of ICNN'95 - Internati A high resolution CMOS winner-take-all circuit
+  S010 T3       None 2004 IEEE International Joint Conf Sparse representation from a winner-take-all neural network
+  S011 T3       None Proceedings of International Confe Improving the resolution of Lazzaro winner-take-all circuit
+  S012 unknown  1965 High-Water Cargo                   CHAPTER TWENTY Winner Take All
+  S013 unknown  1991 JOM                                Interference proceedings—winner take all
+  S014 unknown  1991 Optical Society of America Annual  Winner-take-all VLSI/liquid crystal spatial light modulators
+  S015 unknown  1991 Optical Computing                  Competitive Optical Learning with Winner-Take-All Modulators
+  S016 unknown  1993 Neural Network Learning and Expert Winner-Take-All Groups or Linear Machines
+  S017 unknown  1993 Spatial Light Modulators and Appli VLSI/Liquid Crystal Winner-Take-All Modulators for Optical C
+  S018 unknown  2002 W'waves                            The winner take all
+  S019 unknown  2002 Economic Theory                    Winner-take-all price competition
+  S020 T1       2009 2009 2nd IEEE International Confer Neurodynamic optimization and its applications for winners-t
+  S021 T1       2010 Nature                             Winners take all
+  S022 T1       2012 Communications in Computer and Inf A Continuous-Time Model of Analogue K-Winners-Take-All Neura
+  S023 T1       2012 Nature                             In sport, winners do take all
+  S024 T1       2015 JSTS:Journal of Semiconductor Tech A Parallel Search Algorithm and Its Implementation for Digit
+  S025 T1       2023 Information Sciences               Single-state distributed k-winners-take-all neural network m
+  S026 T1       2024 IEEE Transactions on Network Scien Distributed Gradient Method for Neural Network-Based Constra
+  S027 T1       None Lecture Notes in Computer Science  Solving the k-Winners-Take-All Problem and the Oligopoly Cou
+  S028 T3       1994 IEEE Transactions on Neural Networ A new winners-take-all architecture in artificial neural net
+  S029 T3       1995 IEEE Transactions on Neural Networ K-winners-take-all circuit with O(N) complexity
+  S030 T3       1997 IEEE Transactions on Neural Networ k-winners-take-all neural net with /spl Theta/(1) time compl
+  S031 T3       1998 IEEE Transactions on Neural Networ A new k-winners-take-all neural network and its array archit
+  S032 T1       2014 Frontiers in Human Neuroscience    Sparse distributed memory: understanding the speed and robus
+  S033 T3       1989 International Joint Conference on  A conditional probability interpretation of Kanerva's sparse
+  S034 T3       1990 1990 IJCNN International Joint Con ASDM-a novel neural network model based on sparse distribute
+  S035 T3       1992 Artificial Neural Networks         Temporal Sparse Distributed Memory: Identifying Temporal Pat
+  S036 T3       2013 Neural Networks                    Integer sparse distributed memory: Analysis and results
+  S037 T3       None [Proceedings] COGANN-92: Internati Genetic sparse distributed memory
+  S038 T3       None Proceedings of the International J An adaptive sparse distributed memory
+  S039 T3       None Proceedings 5th Brazilian Symposiu Convergence in a sparse distributed memory
+  S040 T3       None IEEE International Conference on N Sparse distributed memory for multivalued patterns
+  S041 T3       None Proceedings of International Confe ATM call admission control using sparse distributed memory
+  S042 T3       None Proceedings 5th Brazilian Symposiu Some results on activation and scaling of sparse distributed
+  S043 T3       None Neural Networks for Signal Process Sparse distributed memory implementations on tree shape para
+  S044 T3       None Proceedings of 1994 IEEE Internati 2D sparse distributed memory-optical neural network for patt
+  S045 unknown  1990 13th Aeroacoustics Conference      Identification of aerospace acoustic sources using sparse di
+  S046 unknown  1991 Acta Psychologica                  Sparse distributed memory
+  S047 T1       2011 2011 International Conference on M Locality Sensitive Hashing Based Service Classification
+  S048 T1       2013 2013 Mexican International Confere Compressing Locality Sensitive Hashing Tables
+  S049 T1       2015 2015 10th International Conference An improved algorithm for locality-sensitive hashing
+  S050 T1       2017 Encyclopedia of Computer Science a Locality Sensitive Hashing
+  S051 T1       2020 Applied Sciences                   Locality-Sensitive Hashing for Information Retrieval System 
+  S052 T1       2023 Education Sciences                 Maintaining Academic Integrity in Programming: Locality-Sens
+  S053 T1       2025 Theoretical Computer Science       Faster and space efficient indexing for locality sensitive h
+  S054 T1       2025 Grail of Science                   MACHINE LEARNING-ENHANCED LOCALITY-SENSITIVE HASHING FOR ZER
+  S055 T3       2012 The 2012 International Joint Confe Improving kernel locality-sensitive hashing using pre-images
+  S056 unknown  2001 Bioinformatics                     Efficient large-scale sequence comparison by locality-sensit
+  S057 unknown  2006 Proceedings of the twenty-second a Lower bounds on locality sensitive hashing
+  S058 unknown  2008 Proceedings of the 16th ACM intern A posteriori multi-probe locality sensitive hashing
+  S059 unknown  2008 IEEE SoutheastCon 2008             Locality sensitive hashing based searching scheme for a mass
+  S060 unknown  2009 2009 IEEE 12th International Confe Kernelized locality-sensitive hashing for scalable image sea
+  S061 unknown  2009 2009 Chinese Control and Decision  A method using locality-sensitive hashing for large-scale co
+  S062 T1       2024 MALCOM: Indonesian Journal of Mach Rute Pendistribusian Barang dengan Algoritma Nearest Neighbo
+  S063 T1       2025 Applied Sciences                   Reference-Vector Removed Product Quantization for Approximat
+  S064 T1       2026 Applied Sciences                   Pyramid Product Quantization for Approximate Nearest Neighbo
+  S065 T1       None Series in Computer Science         Nearest Neighbor Queries
+  S066 T1       None Series in Computer Science         Analysis of Nearest Neighbor Queries
+  S067 T2       2004 Pattern Recognition Letters        A vector quantization method for nearest neighbor classifier
+  S068 T2       2013 2013 IEEE Conference on Computer V Optimized Product Quantization for Approximate Nearest Neigh
+  S069 T2       2014 2014 IEEE Conference on Computer V Locally Optimized Product Quantization for Approximate Neare
+  S070 T2       2016 2016 23rd International Conference Joint K-Means quantization for Approximate Nearest Neighbor 
+  S071 T2       2019 Pattern Recognition Letters        Quarter-Point Product Quantization for approximate nearest n
+  S072 unknown  1999 Optical Engineering                Vector quantization by lazy pairwise nearest neighbor method
+  S073 unknown  2009 2009 16th IEEE International Confe Quantization based nearest-neighbor-preserving metric approx
+  S074 T2       2025 Advances in Neural Information Pro Revising and Falsifying Sparse Autoencoder Feature Explanati
+  S075 unknown  2016 SpringerPlus                       Transformer fault diagnosis using continuous sparse autoenco
+  S076 unknown  2018 IEEE Access                        Supervised Learning via Unsupervised Sparse Autoencoder
+  S077 unknown  2018 2018 IEEE Congress on Evolutionary Pseudoinverse Learning Algorithom for Fast Sparse Autoencode
+  S078 unknown  2019 Neurocomputing                     Sparse autoencoder for social image understanding
+  S079 unknown  2021 2021 International Conference on A Sparse Autoencoder for Sparse Code Multiple Access
+  S080 unknown  2025 2025 Conference on Artificial Inte Sparse Autoencoder Insights on Voice Embeddings
+  S081 unknown  2026 Deep Learning and Signal Processin Deep Sparse Autoencoder
+  S082 unknown  2026 Sensors                            Sparse Temporal AutoEncoder for ECG Anomaly Detection
+  S083 T2       2016 2016 IEEE Conference on Computer V Multilinear Hyperplane Hashing
+  S084 unknown  2009 Encyclopedia of Biometrics         Optimal Hyperplane
+  S085 unknown  2010 Topics in Hyperplane Arrangements, Hyperplane Arrangements
+  S086 unknown  2015 Advanced Courses in Mathematics -  Weighted Stable Hyperplane Arrangements
+  S087 unknown  2019 The Joys of Hashing                Universal Hashing
+  S088 unknown  2024 Springer Monographs in Mathematics Poisson Hyperplane Processes
+  S089 unknown  2024 Springer Monographs in Mathematics Hyperplane and Particle Processes
+  S090 unknown  None Media Theory                       Hyperplane arrangements and their media
+  S091 T1       2014 Encyclopedia of Computational Neur Hopfield Network
+  S092 T1       2015 Encyclopedia of Computational Neur Stochastic Hopfield Network
+  S093 T1       2015 Modern Applied Science             Mean Field Theory in Doing Logic Programming Using Hopfield 
+  S094 T1       2023 Interdisciplinary Mathematical Sci Hopfield neural network lattice model
+  S095 T1       2024 SN Computer Science                Hybrid Hopfield Neural Network
+  S096 T2       2025 Advances in Neural Information Pro On the Role of Hidden States of Modern Hopfield Network in T
+  S097 T3       1988 Neural Networks                    Extended hopfield neural network: A complementary approach
+  S098 T3       1989 International Joint Conference on  Knowledge representation in a multilayered Hopfield network
+  S099 T3       1995 4th International Conference on Ar LSI module placement by the Hopfield neural network
+  S100 T3       1995 4th International Conference on Ar Homomorphic graph matching using self organising Hopfield ne
+  S101 T3       2015 2015 International Joint Conferenc An application of neurohydrodynamics to a Hopfield neural ne
+  S102 T3       None IJCNN-91-Seattle International Joi Backtracking dynamics for a Hopfield-style network
+  S103 T3       None IEEE International Conference on N A Bayesian interpretation for the Hopfield network
+  S104 unknown  1993 Artificial Neural Nets and Genetic Output Zeroing within a Hopfield Network
+  S105 unknown  1994 Control Engineering Practice       059 FMS's dynamic scheduling by Hopfield neural network
+  S106 unknown  1998 International Journal of Modern Ph Learning Rule for Pattern Recognition in Hopfield Neuronal N
+  S107 unknown  2002 Journal of Control, Automation and Hopfield Network for Partitioning of Field of View
+  S108 unknown  2003 Modern Approaches in Geophysics    Seismic Horizon Picking Using a Hopfield Network
+  S109 unknown  2004 Neurocomputing                     Projective invariant object recognition by a Hopfield networ
+  S110 unknown  2004 Neurocomputing                     Analysis of cortical connectivity using Hopfield neural netw
+  S111 T1       2023 2023 Conference on Cognitive Compu Sequential Learning and Retrieval in a Sparse Distributed Me
+  S112 unknown  1989 International Journal of High Spee KANERVA’S SPARSE DISTRIBUTED MEMORY: AN ASSOCIATIVE MEMORY A
+  S113 unknown  1989 IEEE Transactions on Information T The capacity of the Kanerva associative memory
+  S114 unknown  1991 1991 IEEE International Symposium  VLSI architectures of sparse distributed memory
+  S115 unknown  1991 1991 IEEE International Symposium  Configurable sparse distributed memory hardware implementati
+  S116 unknown  1993 1993 International Conference on P Supernodal Sparse Cholesky Factorization on Distributed-Memo
+  S117 unknown  1995 Parallel Computing                 Alternatives for solving sparse triangular systems on distri
+  S118 unknown  1995 Journal of Parallel and Distribute Parallel Implementation of a Sparse Simplex Algorithm on MIM
+  S119 unknown  1996 SIAM Journal on Scientific Computi Parallel Sparse Orthogonal Factorization on Distributed-Memo
+  S120 unknown  1996 Proceedings of the 1996 ACM/IEEE c Sparse LU factorization with partial pivoting on distributed
+  S121 unknown  1997 Neurocomputing                     Assigning meaning to data: Using sparse distributed memory f
+  S122 unknown  1997 Journal of Parallel and Distribute Conjugate Gradient and Lanczos Methods for Sparse Matrices o
+  S123 unknown  1998 IEEE Transactions on Parallel and  Efficient sparse LU factorization with partial pivoting on d
+  S124 unknown  2000 Parallel Computing                 Investigating the sparse simplex algorithm on a distributed 
+  S125 unknown  2003 Cognitive Systems Research         Sparse distributed memory for ‘conscious’ software agents
+  S126 T1       2020 Procedia Computer Science          Employing Differentiable Neural Computers for Image Captioni
+  S127 T1       2021 2021 25th International Computer S Augmenting Differentiable Neural Computer with Read Network 
+  S128 T1       None Lecture Notes in Computer Science  Chaotic neural networks and associative memory
+  S129 T2       2020 2020 IEEE/CVF Conference on Comput DMCP: Differentiable Markov Channel Pruning for Neural Netwo
+  S130 T2       2020 2020 IEEE/CVF Conference on Comput Rethinking Differentiable Search for Mixed-Precision Neural 
+  S131 T2       2021 2021 IEEE/CVF Conference on Comput DSRNA: Differentiable Search of Robust Neural Architectures
+  S132 T2       2021 2021 IEEE/CVF Conference on Comput DiNTS: Differentiable Neural Network Topology Search for 3D 
+  S133 T2       2024 2024 IEEE/CVF Conference on Comput CycleGANAS: Differentiable Neural Architecture Search for Cy
+  S134 T2       2024 2024 IEEE/CVF Conference on Comput Differentiable Neural Surface Refinement for Modeling Transp
+  S135 T3       1998 Neural Networks                    Singular-continuous nowhere-differentiable attractors in neu
+  S136 T3       2020 2020 International Joint Conferenc Att-DARTS: Differentiable Neural Architecture Search for Att
+  S137 T3       2023 Neural Networks                    An architecture entropy regularizer for differentiable neura
+  S138 T1       2023 Nature Machine Intelligence        A neuro-vector-symbolic architecture for solving Raven’s pro
+  S139 T2       2023 Neural Computation                 Optimal Quadratic Binding for Relational Reasoning in Vector
+  S140 T2       2024 Advances in Neural Information Pro A Walsh Hadamard Derived Linear Vector Symbolic Architecture
+  S141 unknown  1987 ACM SIGARCH Computer Architecture  A RISC architecture for symbolic computation
+  S142 unknown  1994 Frontiers of Supercomputing II     3. Vector Pipeline Architecture
+  S143 unknown  2006 Symbolic Interaction               Symbolic Interaction Theory and Architecture
+  S144 unknown  2007 Monumentality and the Roman Empire The Symbolic Significance of Architectural Form
+  S145 unknown  2014 2014 IEEE International Conference A Neurobiologically Plausible Vector Symbolic Architecture
+  S146 unknown  2014 2014 IEEE International Conference Enabling 'Question Answering' in the MBAT Vector Symbolic Ar
+  S147 unknown  2019 Computational Models in Architectu I AN OVERVIEW ARCHITECTURE AND COMPUTATION
+  S148 unknown  2020 Future Generation Computer Systems Efficient orchestration of Node-RED IoT workflows using a Ve
+  S149 unknown  2024 2024 Device Research Conference (D CMOS+X Technologies for Neuro-Vector-Symbolic Computing
+  S150 unknown  2025 Proceedings of the 23rd Annual Int Ultra-Lightweight Edge Intelligence Using Vector Symbolic Ar
+  S151 unknown  2025 2025 62nd ACM/IEEE Design Automati Holistic Design towards Resource-Stringent Binary Vector Sym
+  S152 unknown  2025 2025 IEEE/ACM International Sympos ID-VS A: Independent and Dynamic Vector Symbolic Architectur
+  S153 unknown  2006 Primary Education: The Key Concept MEMORY
+  S154 unknown  2009 Key Concepts in Marketing          The Product Life Cycle
+  S155 unknown  2009 Key Concepts in Marketing          Product Anatomy
+  S156 unknown  2009 Key Concepts in Marketing          New Product Development
+  S157 unknown  2009 Key Concepts in Marketing          Core Product
+  S158 unknown  2013 Memory                             6. False Memory
+  S159 unknown  2013 Memory                             1. What Is Memory?
+  S160 unknown  2014 Medievalism: Key Critical Terms    15 Memory
+  S161 unknown  2019 A Mother's Tale                    My Mother’s Key Memory
+  S162 unknown  2020 Findings of the Association for Co Large Product Key Memory for Pretrained Language Models
+  S163 T1       2019 Associative Memory Cells: Basic Un Associative Memory Cells in Memory Trace
+  S164 T1       2019 Associative Memory Cells: Basic Un The Impacts of Associative Memory Cells on Pathology
+  S165 T1       2019 Associative Memory Cells: Basic Un Associative Memory Cells in Physiological Psychology
+  S166 T1       2019 Associative Memory Cells: Basic Un Plasticity of Associative Memory Cells
+  S167 T1       2019 Associative Memory Cells: Basic Un Working Principles of Associative Memory Cells
+  S168 T1       None Lecture Notes in Computer Science  One Shot Associative Memory Method for Distorted Pattern Rec
+  S169 T2       1985 Journal of Experimental Psychology Associative storage and retrieval processes in person memory
+  S170 T2       1986 Pattern Recognition Letters        Pattern storage and associative memory in quasi-neural netwo
+  S171 T2       2005 Journal of Experimental Psychology The "One-Shot" Hypothesis for Context Storage.
+  S172 T3       1981 Biological Cybernetics             On the storage capacity of an associative memory with random
+  S173 T3       1991 VLSI Design of Neural Networks     VLSI Design of an Associative Memory Based on Distributed St
+  S174 T3       2022 PLOS ONE                           Entropic associative memory for manuscript symbols
+  S175 T3       2024 PLOS ONE                           A neural network model for online one-shot storage of patter
+  S176 T3       2024 PLOS ONE                           Correction: A neural network model for online one-shot stora
+  S177 T3       None Proceedings of the International J Modular neural associative memory capable of storage of larg
+  S178 T1       2017 Nature Human Behaviour             The successor representation in human reinforcement learning
+  S179 T1       2018 The Journal of Neuroscience        The Successor Representation: Its Computational Logic and Ne
+  S180 T1       2021 European Journal of Neuroscience   Rigid reduced successor representation as a potential mechan
+  S181 T1       2022 2022 Conference on Cognitive Compu Measuring Behavioral Arbitration of the Successor Representa
+  S182 T1       2024 Psychological Review               A probabilistic successor representation for context-depende
+  S183 T2       1993 Neural Computation                 Improving Generalization for Temporal Difference Learning: T
+  S184 T2       2012 Neural Computation                 The Successor Representation and Temporal Context
+  S185 T2       2024 Neural Computation                 Associative Learning of an Unnormalized Successor Representa
+  S186 T2       2024 PLOS Computational Biology         The successor representation subserves hierarchical abstract
+  S187 unknown  2020 Proceedings of the AAAI Conference Count-Based Exploration with the Successor Representation
+  S188 unknown  2021 Galeazzo Ciano                     4. The Successor
+  S189 unknown  2022 Neurocomputing                     AKF-SR: Adaptive Kalman filtering-based successor representa
+  S190 unknown  2025 Oxford English Dictionary          successor, n.
+  S191 unknown  2025 Academy of Management Proceedings  After Women Take Over: Women CEO Successor and TMT Gender Re
+  S192 T1       2024 Information Sciences               CRmod: Context-Aware Rule-Guided reasoning over temporal kno
+  S193 T1       2026 npj Heritage Science               Modeling dual temporal dependencies for temporal knowledge g
+  S194 T1       2026 Frontiers of Computer Science      Temporal knowledge graph reasoning via multi-granularity kno
+  S195 T1       2026 PeerJ Computer Science             WTNet: temporal knowledge graph reasoning network with windo
+  S196 T2       2024 Pattern Recognition                MetaTKG++: Learning evolving factor enhanced meta-knowledge 
+  S197 T2       2026 Pattern Recognition                Global–local evolution modeling with cyclic patterns for tem
+  S198 T2       2026 Pattern Recognition                Temporal knowledge graph reasoning with local-global evoluti
+  S199 T3       2024 2024 International Joint Conferenc Leveraging the Power of Echo State Network for Enhanced Temp
+  S200 T3       2024 Neural Networks                    PLEASING: Exploring the historical and potential events for 
+  S201 T3       2026 Scientific Reports                 A temporal knowledge graph reasoning model based on global k
+  S202 T3       2026 Neural Networks                    Bridging graph structure and knowledge-guided editing for in
+  S203 unknown  2021 Journal of Intelligent &amp; Fuzzy Reasoning over temporal knowledge graph with temporal consis
+  S204 unknown  2022 Knowledge-Based Systems            Temporal knowledge graph question answering via subgraph rea
+  S205 unknown  2022 2022 4th International Conference  Temporal Knowledge Graph Reasoning based on Graph Convolutio
+  S206 unknown  2022 Proceedings of the Thirty-First In TiRGN: Time-Guided Recurrent Graph Network with Local-Global
+  S207 T1       2022 2022 Conference on Cognitive Compu Continual Reinforcement Learning with Multi-Timescale Succes
+  S208 T2       2020 Hippocampus                        Neurobiological successor features for spatial navigation
+  S209 T2       2024 Advances in Neural Information Pro Learning Successor Features the Simple Way
+  S210 T2       2024 Advances in Neural Information Pro Distributional Successor Features Enable Zero-Shot Policy Op
+  S211 T3       2024 Scientific Reports                 Temporally extended successor feature neural episodic contro
+  S212 unknown  1988 Rethinking the Nuclear Weapons Dil Arms Control for the ‘Successor Generation’
+  S213 unknown  1998 Institutions of Isolation          Ending Isolation: Border Control in the Soviet Successor Sta
+  S214 unknown  2020 The Communist Successor Parties of A Typology of Communist Successor Parties
+  S215 unknown  2022 Proceedings of the Thirty-First In Option Transfer and SMDP Abstraction with Successor Features
+  S216 unknown  2022 2022 IEEE Conference on Games (CoG Task Relabelling for Multi-task Transfer using Successor Fea
+  S217 unknown  2022 Transportation Research Procedia   Investigating Successor Features in the Domain of Autonomous
+  S218 unknown  2023 2023 IEEE International Conference Safety-Constrained Policy Transfer with Successor Features
+  S219 T2       1999 Hippocampus                        Medial temporal lobe activation during episodic encoding and
+  S220 T2       2004 Hippocampus                        Medial temporal lobe activation during encoding and retrieva
+  S221 T2       2009 Hippocampus                        The retrieval of learned sequences engages the hippocampus: 
+  S222 T2       2012 The Clinical Neurobiology of the H Temporal Lobe Epilepsy and the Hippocampus
+  S223 unknown  1990 Physical Review A                  Retrieval of spatio-temporal sequence in asynchronous neural
+  S224 unknown  None Proceedings IEEE Workshop on Visua A spatio-temporal logic for image sequence coding and retrie
+  S225 unknown  None Proceedings 1993 IEEE Symposium on Sequence retrieval by contents through spatio temporal index
+  S226 T1       2015 BMC Neuroscience                   Mechanisms of hippocampal sequence replay
+  S227 T1       2018 Proceedings of the National Academ Note on the quadratic penalties in elastic weight consolidat
+  S228 T1       2024 Communications in Computer and Inf A Simple Machine Unlearning Approach Using Elastic Weight Co
+  S229 T1       2025 Communications in Computer and Inf Video Piracy Websites Detection Using Continual Learning wit
+  S230 T1       2026 Lecture Notes in Computer Science  Dynamic Elastic Weight Consolidation for Continual Learning 
+  S231 T2       2021 2020 25th International Conference Sequential Domain Adaptation through Elastic Weight Consolid
+  S232 T3       2021 IEEE Transactions on Neural Networ IncDet: In Defense of Elastic Weight Consolidation for Incre
+  S233 T3       2026 Scientific Reports                 Trigger-based conditional selective unlearning with elastic 
+  S234 unknown  1986 Consolidation of Soils: Testing an Large-Scale Self-Weight Consolidation Testing
+  S235 unknown  1996 Géotechnique                       Elastic visco-plastic modelling of one-dimensional consolida
+  S236 unknown  1996 Géotechnique                       Sedimentation and self-weight consolidation: general unifyin
+  S237 unknown  1999 Applied Analyses in Geotechnics    Transient flow: elastic and consolidation settlements
+  S238 unknown  2000 Computers and Geotechnics          Visco-elastic consolidation subsequent to pile installation
+  S239 unknown  2011 Environmental Management and Engin Elastic Consolidation Settlement due to Periodic Pumping
+  S240 unknown  2013 Computers and Geotechnics          Large deformation elastic electro-osmosis consolidation of c
+  S241 unknown  2019 Materials                          Elastic stiffness, and weight
+  S242 T1       2019 Lecture Notes in Computer Science  Marginal Replay vs Conditional Replay for Continual Learning
+  S243 T1       2020 Nature Communications              Brain-inspired replay for continual learning with artificial
+  S244 T1       2022 Lecture Notes in Computer Science  A Benchmark and Empirical Analysis for Replay Strategies in 
+  S245 T1       2027 Information Sciences               Attention-based experience replay for knowledge distillation
+  S246 T2       2018 2018 IEEE/CVF Conference on Comput Subset Replay Based Continual Learning for Scalable Improvem
+  S247 T2       2021 2020 25th International Conference Rethinking Experience Replay: a Bag of Tricks for Continual 
+  S248 T2       2021 2021 IEEE/CVF Conference on Comput Class-Incremental Experience Replay for Continual Learning u
+  S249 T2       2021 2021 IEEE/CVF Conference on Comput Selective Replay Enhances Learning in Online Continual Analo
+  S250 T2       2022 2022 IEEE/CVF Conference on Comput Learning Bayesian Sparse Networks with Full Experience Repla
+  S251 T2       2022 Advances in Neural Information Pro Retrospective Adversarial Replay for Continual Learning
+  S252 T2       2023 Advances in Neural Information Pro Augmented Memory Replay-based Continual Learning Approaches 
+  S253 T2       2024 Advances in Neural Information Pro Saliency-driven Experience Replay for Continual Learning
+  S254 T2       2024 Towards Human Brain Inspired Lifel Generative Replay-Based Continual Zero-Shot Learning
+  S255 T2       2024 Towards Human Brain Inspired Lifel Architect, Regularize and Replay: A Flexible Hybrid Approach
+  S256 T2       2025 Pattern Recognition                Continual learning with high-order experience replay for dyn
+  S257 T2       2027 Pattern Recognition                Learning to Replay: A meta-reinforcement learning approach t
+  S258 T3       2021 2021 International Joint Conferenc An Investigation of Replay-based Approaches for Continual Le
+  S259 T3       2021 2021 International Joint Conferenc BinPlay: A Binary Latent Autoencoder for Generative Replay C
+  S260 T3       2021 2021 International Joint Conferenc Generative Feature Replay with Orthogonal Weight Modificatio
+  S261 T3       2022 2022 International Joint Conferenc Ego-graph Replay based Continual Learning for Misinformation
+  S262 T1       2025 Lecture Notes in Computer Science  Brain Generative Replay for Continual Learning
+  S263 T2       2023 2023 IEEE 17th International Confe Latent Generative Replay for Resource-Efficient Continual Le
+  S264 T2       2026 Pattern Recognition Letters        Actor-critic driven continual learning with memory replay fo
+  S265 T3       2021 2021 International Joint Conferenc S-TRIGGER: Continual State Representation Learning via Self-
+  S266 T3       2023 Neural Networks                    Generative negative replay for continual learning
+  S267 T3       2024 2024 International Joint Conferenc Adiabatic replay for continual learning
+  S268 unknown  2019 2019 IEEE Workshop on Applications Continual Learning of New Sound Classes Using Generative Rep
+  S269 unknown  2021 2021 6th International Conference  Prioritized Experience Replay for Continual Learning
+  S270 unknown  2021 Proceedings of the 13th Internatio Beneficial Effect of Combined Replay for Continual Learning
+  S271 unknown  2022 Progress in Neurobiology           The hippocampal formation as a hierarchical generative model
+  S272 unknown  2022 Journal of Imaging                 Unified Probabilistic Deep Continual Learning through Genera
+  S273 unknown  2022 2022 16th IEEE International Confe Memory Enhanced Replay for Continual Learning
+  S274 T1       2011 Cognitive Science                  Complementary Learning Systems
+  S275 T1       2016 Trends in Cognitive Sciences       What Learning Systems do Intelligent Agents Need? Complement
+  S276 T2       1996 Hippocampus                        Considerations arising from a complementary learning systems
+  S277 T2       2023 Advances in Neural Information Pro Cross-modal Active Complementary Learning with Self-refining
+  S278 T2       2025 Advances in Neural Information Pro ComRank: Ranking Loss for Multi-Label Complementary Label Le
+  S279 T3       2004 Neurobiology of Learning and Memor Hippocampus, cortex, and basal ganglia: Insights from comput
+  S280 T3       2019 Cortex                             The role of complementary learning systems in learning and c
+  S281 T3       2020 Neural Networks                    A complementary learning systems approach to temporal differ
+  S282 T3       2024 IEEE Transactions on Neural Networ Biased Complementary-Label Learning Without True Labels
+  S283 unknown  1998 Complementary Therapies in Medicin The role of image systems in complementary medicine
+  S284 unknown  2002 Complementary Therapies in Nursing Learning lessons
+  S285 unknown  2009 Expert Systems with Applications   Assessment of a complementary cyber learning system to offli
+  S286 unknown  2009 International Joint Conference on  Learning complementary multiagent behaviors: a case study
+  S287 unknown  2010 Language Learning                  A Complementary Systems Account of Word Learning in L1 and L
+  S288 unknown  2010 International Conference on Fuzzy  A Fuzzy Complementary Criterion for structure learning of a 
+  S289 T2       2024 Advances in Neural Information Pro Model Sensitivity Aware Continual Learning
+  S290 T3       2025 Scientific Reports                 Multi-scene image fusion via memory aware synapses
+  S291 unknown  2021 Journal of Intelligent Manufacturi Continual learning of neural networks for quality prediction
+  S292 unknown  2024 IEEE Robotics and Automation Lette Mitigating Catastrophic Forgetting in Robot Continual Learni
+  S293 unknown  2024 IEEE Access                        Adversary Aware Continual Learning
+  S294 unknown  2026 Expert Systems with Applications   Adaptive memory replay for plasticity-aware edge continual l
+  S295 unknown  2026 Proceedings of the 35th ACM Intern FedMem: Memory-Aware Federated Continual Learning via Dual-C
+  S296 unknown  2023 Ancient Weights and Measures       THE METAL WEIGHTS.
+  S297 unknown  2023 Glass Stamps and Weights           GLASS STAMPS AND WEIGHTS.
+  S298 unknown  2023 Ancient Weights and Measures       OTHER COLLECTIONS OF WEIGHTS.
+  S299 unknown  2025 The Weights of Mughal India        Bankers’ Weights
+  S300 unknown  2025 The Weights of Mughal India        Opium Weights
+  S301 unknown  2025 The Weights of Mughal India        Jewellers’ Weights
+  S302 T1       2024 Applied Sciences                   Efficient Fine-Tuning of Large Language Models via a Low-Ran
+  S303 T1       2025 2025 International Conference on D A Comprehensive Review of Low-Rank Decomposition Techniques 
+  S304 T1       2025 Communications in Computer and Inf Multi-head Low-Rank Adaptation for Parameter-Efficient Fine-
+  S305 T1       2025 International Journal of Science a Parameter-Efficient Fine-Tuning for Generative AI: Implement
+  S306 T1       2026 Theoretical and Natural Science    Low-Rank Adaptation for Parameter-Efficient Fine-Tuning of L
+  S307 T1       2026 2026 IEEE World Skills Conference  Rank-wise Temporally Gated LoRA for Time-Conditioned Paramet
+  S308 T2       2025 Advances in Neural Information Pro GraLoRA: Granular Low-Rank Adaptation for Parameter-Efficien
+  S309 T2       2025 International Conference on Image, Parameter-efficient few-shot geo-localization via low-rank a
+  S310 T2       2025 Advances in Neural Information Pro RefLoRA: Refactored Low-Rank Adaptation for Efficient Fine-T
+  S311 T3       2024 Neural Networks                    Hydra: Multi-head low-rank adaptation for parameter efficien
+  S312 T3       2025 Neural Networks                    Corrigendum to “Hydra: Multi-head Low-rank Adaptation for Pa
+  S313 T3       2026 2026 International Joint Conferenc SLoRA: Shared Low-Rank Adaptation for Parameter-Efficient Fi
+  S314 T3       2026 Neural Networks                    La-LoRA: Parameter-efficient fine-tuning with layer-wise ada
+  S315 T3       2026 Neural Networks                    Matrix-Transformation based Low-Rank Adaptation (MTLoRA): A 
+  S316 T3       2026 IEEE Transactions on Neural Networ Triangular Adaptive Low-Rank Adaptation for Parameter-Effici
+  S317 T1       2024 IEEE Transactions on Geoscience an AiRs: Adapter in Remote Sensing for Parameter-Efficient Tran
+  S318 T2       2022 Advances in Neural Information Pro ST-Adapter: Parameter-Efficient Image-To-Video Transfer Lear
+  S319 T2       2022 2022 IEEE/CVF Conference on Comput VL-ADAPTER: Parameter-Efficient Transfer Learning for Vision
+  S320 T2       2024 2024 IEEE/CVF Conference on Comput MV-Adapter: Multimodal Video Transfer Learning for Video Tex
+  S321 T2       2024 2024 IEEE/CVF Conference on Comput Conv-Adapter: Exploring Parameter Efficient Transfer Learnin
+  S322 T2       2024 2024 IEEE/CVF Conference on Comput Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Tra
+  S323 T3       2026 2026 International Joint Conferenc GLAD: A Gating LoRA-Adapter Approach for Efficient Transfer 
+  S324 unknown  1987 Journal of Chemical Education      A modified adapter for liquid transfer
+  S325 unknown  2004 World Pumps                        Adapter for small-scale fluid transfer duties
+  S326 unknown  2021 Journal of Physics: Conference Ser Improving Cross-Project Defect Prediction with Weighted Soft
+  S327 unknown  2021 2021 IEEE 12th Energy Conversion C Classification of Defective Photovoltaic Modules in ImageNet
+  S328 unknown  2022 2022 IEEE International Conference Boosting Adapter Transfer Learning via Weak Parameter Sharin
+  S329 T1       2026 Forensic Sciences Research         Removing watermark from diffusion models via Low-Rank Adapta
+  S330 T3       2025 Scientific Reports                 Low-rank adaptation for edge AI
+  S331 T3       2026 Neural Networks                    RaLo: Rank-aware low-rank adaptation for pre-trained foundat
+  S332 unknown  2021 International Journal of Machine L Implicit Adaptation to Low Rank Structure in Online Learning
+  S333 unknown  2024 Applied and Computational Engineer A concise analysis of low-rank adaptation
+  S334 unknown  2024 Findings of the Association for Co PRILoRA: Pruned and Rank-Increasing Low-Rank Adaptation
+  S335 unknown  2025 Findings of the Association for Co CoLA: Collaborative Low-Rank Adaptation
+  S336 unknown  2025 Issues In Information Systems      ReptiLoRA: Accelerating Meta?Initialization with Low?Rank Ad
+  S337 unknown  2025 International Journal of Computer  Accelerating with Low Rank Updates: RLS Framework for Segmen
+  S338 unknown  2026 Proceedings of the 64th Annual Mee Can Spectral-Clipping Enable Better Learning While Forgettin
+  S339 unknown  2026 IEEE Control Systems Letters       LoRA-RC: Reservoir Computing with Low-Rank Adaptation
+  S340 unknown  2026 Findings of the Association for Co RB-LoRA: Rank-Balanced Aggregation for Low-Rank Adaptation w
+  S341 T1       1995 Connection Science                 Catastrophic Forgetting, Rehearsal and Pseudorehearsal
+  S342 T1       1999 Trends in Cognitive Sciences       Catastrophic forgetting in connectionist networks
+  S343 T1       2017 Trends in Cognitive Sciences       Avoiding Catastrophic Forgetting
+  S344 T1       2020 Applied Network Science            Enhancing network modularity to mitigate catastrophic forget
+  S345 T1       2022 Proceedings of the Twentieth Annua Solutions to the Catastrophic Forgetting Problem
+  S346 T1       2026 Journal of High School Science     Navigating parameter space: mitigating catastrophic forgetti
+  S347 T2       2005 Modeling Language, Cognition and A EVOLVING NEURAL NETWORKS THAT SUFFER MINIMAL CATASTROPHIC FO
+  S348 T2       2015 Cognition                          Array heterogeneity prevents catastrophic forgetting in infa
+  S349 T2       2023 Proceedings of the 12th Internatio Severity of Catastrophic Forgetting in Object Detection for 
+  S350 T2       2025 Advances in Neural Information Pro Demystifying Language Model Forgetting with Low-rank Example
+  S351 T3       2020 2020 International Joint Conferenc Catastrophic forgetting and mode collapse in GANs
+  S352 T3       2021 2021 International Joint Conferenc Overcoming Catastrophic Forgetting with Gaussian Mixture Rep
+  S353 T1       2015 Trends in Cognitive Sciences       ‘Activity-silent’ working memory in prefrontal cortex: a dyn
+  S354 T1       2017 Neuroscience Bulletin              Economic “Activity-Silent” Synaptic Mechanisms of Working Me
+  S355 T1       2019 Proceedings of the National Academ Probing the limits of activity-silent non-conscious working 
+  S356 T1       2019 Annals of the New York Academy of  Between persistently active and activity‐silent frameworks: 
+  S357 T1       2020 Nature Neuroscience                Interplay between persistent activity and activity-silent dy
+  S358 T1       2021 Trends in Cognitive Sciences       Is Activity Silent Working Memory Simply Episodic Memory?
+  S359 T1       2022 Journal of Cognitive Neuroscience  Is There an Activity-silent Working Memory?
+  S360 T1       2025 International Journal of Science a Effects of Structured Physical Activity Training on Working 
+  S361 T2       2020 PLOS Computational Biology         A functional spiking-neuron model of activity-silent working
+  S362 T2       2025 Cerebral Cortex                    Reactivating and reorganizing activity-silent working memory
+  S363 T3       2003 Neuropsychologia                   Prefrontal activity associated with working memory and episo
+  S364 unknown  2002 Working Memory in Perspective      Neural working memory
+  S365 unknown  2002 Working Memory in Perspective      An introduction to working memory
+  S366 unknown  2004 Visuo-spatial Working Memory and I WORKING MEMORY
+  S367 unknown  2007 Working Memory, Thought, and Actio Neuroimaging working memory
+  S368 T1       2007 The Cognitive Neuroscience of Work What do estimates of working memory capacity tell us?
+  S369 T1       2011 Developmental Science              Age differences in visual working memory capacity: not based
+  S370 T1       2025 SunText Review of Arts &amp; Socia Population Distribution of Working Memory Capacities Indicat
+  S371 T2       2003 Memory &amp; Cognition             Roles of working memory capacity and long-term working memor
+  S372 T2       2016 Cognition                          Working memory capacity and controlled serial memory search
+  S373 T2       2019 Journal of Cognition               Working Memory Capacity Limits Memory for Bindings
+  S374 unknown  2008 Variation in Working Memory        Individual Differences in Working Memory Capacity and Reason
+  S375 unknown  2009 Memory                             Examining variation in working memory capacity and retrieval
+  S376 unknown  2012 Working Memory Capacity            The Problem of Capacity Limits
+  S377 unknown  2012 Working Memory Capacity            Why the Capacity Limit?
+  S378 unknown  2012 Working Memory Capacity            Other Views of Capacity Limits
+  S379 unknown  2013 Working Memory                     Working Memory Capacity and Musical Skill
+  S380 unknown  2015 Mechanisms of Sensory Working Memo Individual Differences in Visual Working Memory Capacity
+  S381 unknown  2015 Working Memory in Second Language  14. Working Memory Capacity, Cognitive Complexity and L2 Rec
+  S382 unknown  2017 Journal of speech-language &amp; h Correlation Between Single Working Memory Capacity and Avera
+  S383 T1       2009 Nature Precedings                  Learning alters theta-nested gamma oscillations in inferotem
+  S384 T1       2013 Neuroscience Letters               Theta–gamma coupling during a working memory task as compare
+  S385 T1       2013 Neuron                             Feedback Inhibition Enables Theta-Nested Gamma Oscillations 
+  S386 T1       2015 Cognitive Neuroscience             Theta-gamma phase-phase coupling during working memory maint
+  S387 T1       2017 Nature Communications              Hippocampal-prefrontal theta-gamma coupling during performan
+  S388 T1       2018 Frontiers in Human Neuroscience    The Effects of Theta and Gamma tACS on Working Memory and El
+  S389 T1       2020 Frontiers in Computational Neurosc Theta-Nested Gamma Oscillations in Next Generation Neural Ma
+  S390 T1       2021 Psychological Science              Theta-Rhythmic Oscillation of Working Memory Performance
+  S391 T2       2012 Brain Research Bulletin            Increases of theta–low gamma coupling in rat medial prefront
+  S392 T2       2015 Brain Stimulation                  The role of theta and gamma oscillations in working memory
+  S393 T2       2016 Behavioural Brain Research         Aβ1-42-induced dysfunction in synchronized gamma oscillation
+  S394 T2       2021 Brain Oscillations, Synchrony, and The gamma, beta, and theta rhythms and nested oscillations
+  S395 unknown  2022 Knowledge-Based Systems            Multitask Pointer Network for multi-representational parsing
+  S396 T1       2007 Frontiers in Neuroscience          Molecular Mechanisms of Synaptic Plasticity Underlying Long-
+  S397 T1       2007 The Cognitive Neuroscience of Work Working memory and short-term memory storage
+  S398 T1       2009 Encyclopedia of Neuroscience       Synaptic Plasticity: Short-Term Mechanisms
+  S399 T1       2010 Frontiers in Neuroscience          A normative theory of short-term synaptic plasticity
+  S400 T1       2010 Frontiers in Neuroscience          Short-term synaptic plasticity and sensory adaptation as Bay
+  S401 T1       2011 Frontiers in Integrative Neuroscie A novel learning rule for long-term plasticity of short-term
+  S402 T1       2013 The Journal of Neuroscience        Short-Term Plasticity Explains Irregular Persistent Activity
+  S403 T1       2022 Frontiers in Integrative Neuroscie Simulations of working memory spiking networks driven by sho
+  S404 T1       2026 Journal of Cognitive Neuroscience  Synergistic Short-Term Synaptic Plasticity Mechanisms for Wo
+  S405 T2       1988 Synaptic Plasticity in the Hippoca Long-Term Synaptic Potentiation and Macromolecular Changes i
+  S406 T2       2013 Neuropsychopharmacology            Cannabinoids Ameliorate Impairments Induced by Chronic Stres
+  S407 T2       2018 eLife                              Molecular mechanisms that stabilize short term synaptic plas
+  S408 T1       1982 Decision Sciences                  DECISION FLEXIBILITY AND PERCEIVED INFORMATION VALUE*
+  S409 T1       1998 On Science, Inference, Information The Value of Perfect Information
+  S410 T1       2003 Operations Research/Computer Scien Information Value
+  S411 T1       2015 Value of Information in the Earth  Value of information in spatial decision situations
+  S412 unknown  1983 Proceedings of SPE Hydrocarbon Eco The Development Decision: Value of Information
+  S413 unknown  1988 Transactions of the Tenth Prague C Information Assembly Value in Decision-Making
+  S414 unknown  1997 Theory and Decision                RISK AND THE VALUE OF INFORMATION IN IRREVERSIBLE DECISIONS
+  S415 unknown  1998 Theory and Decision                The Sure Thing Principle and the Value of Information: Corri
+  S416 unknown  1998 Information Driven Management Conc DECISION ANALYSIS &amp; EVPI, The EXPECTED VALUE of PERFECT 
+  S417 unknown  1999 The Economic Value of Information  The Value of the Informed Decision
+  S418 unknown  2004 Decision Analysis                  Value of Information in Portfolio Decision Analysis
+  S419 unknown  2004 Quantitative Techniques for Decisi Chapter 5 The Value of Information in Decision Models
+  S420 unknown  2006 Info-Gap Decision Theory           Value of Information
+  S421 unknown  2006 Decision Modelling For Health Econ Decision making, uncertainty and the value of information
+  S422 unknown  2008 Decision Analysis                  The Value of Information and Intensity of Preference
+  S423 T1       2006 Lecture Notes in Computer Science  Learned Lexicon-Driven Interactive Video Retrieval
+  S424 unknown  1991 Learned Publishing                 The editorial policy of a learned society
+  S425 unknown  2003 Learned Publishing                 Text retrieval: an overview
+  S426 unknown  2011 Shaping Education Policy           What Have We Learned about Shaping Education Policy?
+  S427 unknown  2014 What Have We Learned?              Fiscal Policy
+  S428 unknown  2018 International Series on Public Pol Lessons Learned and Not Learned: Bibliometric Analysis of Po
+  S429 unknown  2022 Proceedings of the 45th Internatio Faster Learned Sparse Retrieval with Guided Traversal
+  S430 unknown  2023 Proceedings of the 46th Internatio Adapting Learned Sparse Retrieval for Long Documents
+  S431 unknown  2024 Proceedings of the 47th Internatio Faster Learned Sparse Retrieval with Block-Max Pruning
+  S432 unknown  2025 Proceedings of the ACM on Web Conf Retrieval with Learned Similarities
+  S433 T1       2024 Psychological Review               Optimal metacognitive control of memory recall.
+  S434 T2       2000 Journal of Experimental Psychology Metacognitive and control strategies in study-time allocatio
+  S435 T2       2004 Journal of Experimental Psychology Spacing One's Study: Evidence for a Metacognitive Control St
+  S436 T2       2008 Memory &amp; Cognition             Framing effects on metacognitive monitoring and control
+  S437 T2       2010 Journal of Experimental Psychology Metacognitive control and the spacing effect.
+  S438 T2       2010 Journal of Experimental Psychology "Metacognitive control and the spacing effect": Correction t
+  S439 T2       2010 Journal of Experimental Psychology Metacognitive control and spaced practice: Clarifying what p
+  S440 T2       2014 Implicit Memory and Metacognition  Metacognitive Aspects of Implicit/Explicit Memory
+  S441 T2       2014 Journal of Experimental Psychology The spacing effect and metacognitive control.
+  S442 T2       2016 Memory &amp; Cognition             Updating metacognitive control in response to expected reten
+  S443 T2       2021 Journal of Cognition and Developme Metacognitive Monitoring and Control in Children’s Prospecti
+  S444 T2       2026 Memory &amp; Cognition             Limited cue integration in metacognitive control decisions
+  S445 T3       2022 Evolution of Learning and Memory M Metacognitive Monitoring and Control in Monkeys
+  S446 unknown  1990 Learning Disability Quarterly      Metacognitive Control Processes and Memory Deficits in Poor 
+  S447 unknown  1996 Memory                             Metacognitive Processes
+  S448 T1       2025 Proceedings of the 2nd Internation A Cost-Sensitive Method for Credit Card Default Prediction
+  S449 unknown  2004 Interspeech 2004                   Cost-sensitive call classification
+  S450 unknown  2008 2008 Panhellenic Conference on Inf Stacking Cost Sensitive Models
+  S451 unknown  2011 Encyclopedia of Machine Learning   Cost-Sensitive Classification
+  S452 unknown  2011 Encyclopedia of Adolescence        Abstention
+  S453 unknown  2012 The Ethics of Voting               Deference and Abstention
+  S454 unknown  2014 Journal of Software                Fisher Consistent Cost Sensitive Boosting Algorithm
+  S455 unknown  2021 Hot Contention, Cool Abstention    Hot Contention, Cool Abstention
+  S456 unknown  2023 Oxford English Dictionary          abstention, n.
+  S457 unknown  2024 Computational Intelligence         Cost‐sensitive tree SHAP for explaining cost‐sensitive tree‐
+  S458 unknown  2026 Encyclopedia of Phenomenology      Self-Abstention
+  S459 unknown  None Voters &amp; Voting: An Introducti Non-Voting and Abstention
+  S460 T1       2018 Information Sciences               Active learning via collective inference in network regressi
+  S461 T1       2020 Communications in Computer and Inf Deep Active Inference for Partially Observable MDPs
+  S462 T1       2020 Communications in Computer and Inf Active Inference or Control as Inference? A Unifying View
+  S463 T1       2020 Communications in Computer and Inf Visual Search as Active Inference
+  S464 T1       2023 Communications in Computer and Inf Active Inference Successor Representations
+  S465 T1       2023 Communications in Computer and Inf Object-Based Active Inference
+  S466 T1       2023 Communications in Computer and Inf Active Inference and Psychology of Expectations: A Study of 
+  S467 T1       2024 Communications in Computer and Inf Learning in Hybrid Active Inference Models
+  S468 T1       2024 Communications in Computer and Inf Exploring and Learning Structure: Active Inference Approach 
+  S469 T1       2026 Communications in Computer and Inf Deep Active Inference with Neural Stochastic Differential Eq
+  S470 T1       2026 Communications in Computer and Inf A Diffusion Prior for Active Inference Planning
+  S471 T2       2025 Advances in Neural Information Pro Balanced Active Inference
+  S472 T1       1979 International Journal of Computer  Dynoc?A dynamic optimal cluster-seeking technique
+  S473 T1       2016 Journal of Automation and Informat Seeking Optimal Knots for Segment Approximation
+  S474 T2       2022 Advances in Neural Information Pro Fair Bayes-Optimal Classifiers Under Predictive Parity
+  S475 T2       2025 Advances in Neural Information Pro Bayes optimal learning of attention-indexed models
+  S476 T2       2025 Advances in Neural Information Pro Fairness-aware Bayes Optimal Functional Classification
+  S477 T2       2025 Advances in Neural Information Pro Practical Bayes-Optimal Membership Inference Attacks
+  S478 unknown  1974 Kybernetes                         THE BAYES METHODS FOR SEEKING THE EXTREMAL POINT
+  S479 unknown  1983 Biometrika                         Bayes D-Optimal and E-Optimal Block Designs
+  S480 unknown  1994 The Library Quarterly              An Optimal Foraging Approach to Information Seeking and Use
+  S481 unknown  1995 Information Seeking in Electronic  Information and information seeking
+  S482 T1       2021 Lecture Notes in Computer Science  Event Relation Reasoning Based on Event Knowledge Graph
+  S483 T1       2022 Applied Sciences                   Sudden Event Prediction Based on Event Knowledge Graph
+  S484 T1       2023 Applied Sciences                   Event Knowledge Graph: A Review Based on Scientometric Analy
+  S485 unknown  2016 Proceedings of the 10th ACM Intern Continuous graph pattern matching over knowledge graph strea
+  S486 unknown  2019 Future Generation Computer Systems Social event decomposition for constructing knowledge graph
+  S487 unknown  2020 Proceedings of the 26th ACM SIGKDD Dynamic Knowledge Graph based Multi-Event Forecasting
+  S488 unknown  2020 2020 IEEE International Conference Knowledge Graph Enhanced Event Extraction in Financial Docum
+  S489 unknown  2021 Findings of the Association for Co EventKE: Event-Enhanced Knowledge Graph Embedding
+  S490 unknown  2021 Tehnicki vjesnik - Technical Gazet Construction of Event Knowledge Graph based on Semantic Anal
+  S491 unknown  2022 2022 IEEE 10th International Confe Entity Event Knowledge Graph for Powerful Health Informatics
+  S492 unknown  2022 2022 IEEE 24th Conference on Busin Towards an event-centric knowledge graph approach for public
+  S493 unknown  2022 Proceedings of WCSE 2022 Spring Ev Transformer Recommendation Algorithm with Fusion Knowledge G
+  S494 unknown  2022 2022 IEEE International Conference Label Enhanced Event Detection with Collective Knowledge and
+  S495 unknown  2023 2023 8th International Conference  Tourism Event Knowledge Graph for Attractions Recommendation
+  S496 unknown  2023 Proceedings of the 15th Internatio Mechanical Fault Prediction Based on Event Knowledge Graph
+  S497 unknown  2008 Event Structures in Linguistic For The lower part of event ontology
+  S498 unknown  2014 Being Shaken: Ontology and the Eve Traumatic Ontology
+  S499 unknown  2018 Polis, Ontology, Ecclesial Event   Christos Yannaras’ Political Ontology:
+  S500 unknown  2021 Collected Essays in Speculative Ph 6 The Triune Event: Event Ontology, Reason and Love
+  S501 T1       2000 Trends in Cognitive Sciences       The episodic buffer: a new component of working memory?
+  S502 T1       2015 Lecture Notes in Computer Science  An Episodic Memory Retrieval Algorithm for the Soar Cognitiv
+  S503 T2       2021 Brain and Cognition                Fractionating the episodic buffer
+  S504 unknown  2006 Advances in Consciousness Research The episodic buffer
+  S505 unknown  2007 Working Memory, Thought, and Actio Exploring the episodic buffer
+  S506 unknown  2010 Psychologica Belgica               Investigating the episodic buffer
+  S507 unknown  2015 Universal Journal of Psychology    The Role of Episodic Buffer in Episodic Future Thinking
+  S508 unknown  2021 Advances in Human and Social Aspec Cognitive Architecture With Episodic Memory
+  S509 unknown  2022 Cognitive Systems Research         Bio-inspired cognitive architecture of episodic memory
+  S510 T1       2020 Topics in Cognitive Science        Structuring Memory Through Inference‐Based Event Segmentatio
+  S511 T1       2022 iScience                           Event segmentation reveals working memory forgetting rate
+  S512 T1       2024 Neuroscience &amp; Biobehavioral R Prediction error and event segmentation in episodic memory
+  S513 T1       2025 Journal of Cognitive Neuroscience  Event Segmentation Promotes the Reorganization of Emotional 
+  S514 T1       2025 Current Directions in Psychologica Event Segmentation Interventions Improve Memory for Naturali
+  S515 T1       2025 npj Science of Learning            Hierarchical event segmentation of episodic memory in virtua
+  S516 T2       2013 Cognition                          Event segmentation ability uniquely predicts event memory
+  S517 T2       2017 Journal of Applied Research in Mem Event segmentation as a working memory process.
+  S518 T2       2017 Journal of Experimental Psychology Event segmentation improves event memory up to one month lat
+  S519 T2       2021 Memory &amp; Cognition             Semantic knowledge attenuates age-related differences in eve
+  S520 T2       2022 Brain and Cognition                Relation between event segmentation and memory dysfunction i
+  S521 T2       2023 Journal of Experimental Psychology Acoustic features drive event segmentation in speech.
+  S522 T1       2012 Encyclopedia of the Sciences of Le Schema-Dependent Memory Consolidation
+  S523 T1       2024 Tourism Social Science Series      Memory Schema
+  S524 T2       1984 Memory &amp; Cognition             Fragment and schema models for recall
+  S525 T2       1984 Memory &amp; Cognition             The role of elaborative and schema processes in story memory
+  S526 T2       2026 Cognition                          Directional asymmetry in event schema activation
+  S527 unknown  2013 Adaptive Reasoning for Real-world  Memory for Schema-Based Reasoning
+  S528 unknown  2016 Memory and Intertextuality in Rena Schema and fragment
+  S529 unknown  2022 Visual Memory                      Visual perspective in event memory
+  S530 unknown  2023 The Palgrave Encyclopedia of Memor Schema
+  S531 unknown  2024 The Oxford Handbook of Human Memor Schema, Inference, and Memory
+  S532 unknown  2025 Group Therapy for Complex Trauma   Traumatic Memory
+  S533 T1       2005 Lecture Notes in Computer Science  Deriving TF-IDF as a Fisher Kernel
+  S534 T1       2023 International Journal of Science a Using TF-IDF to Enhance Information Retrieval in Hadith Corp
+  S535 unknown  2014 Procedia Engineering               KNN with TF-IDF based Framework for Text Categorization
+  S536 unknown  2015 2015 International Conference on C Analysis of TF-IDF Model and its Variant for Document Retrie
+  S537 unknown  2026 2026 Forth International Conferenc A Hybrid Automatic Text Summarization System Using TF-IDF an
+  S538 T1       2014 Journal of Technical Science and T A Novel Feature Hashing for Text Mining
+  S539 T1       2018 Lecture Notes in Computer Science  Character-Based N-gram Model for Uyghur Text Retrieval
+  S540 unknown  1994 Chinese Primer                     CHINESE PRIMER. Character Text
+  S541 unknown  2004 Information Retrieval              Character N-Gram Tokenization for European Language Text Ret
+  S542 unknown  2005 Information Processing &amp; Manag Character contiguity in N-gram-based word matching: the case
+  S543 unknown  2008 2008 IEEE Conference on Soft Compu Multilingual text categorization using Character N-gram
+  S544 unknown  2010 2010 2nd International Conference  Parallel Hashing-N-Gram-Hirschberg algorithm
+  S545 unknown  2010 Computer Speech &amp; Language     Recursive n-gram hashing is pairwise independent, at best
+  S546 unknown  2015 International Journal of Computer  Character Analysis Scheme for Compressing Text Files
+  S547 unknown  2018 Proceedings of the 2018 EMNLP Work Word-like character n-gram embedding
+  S548 unknown  2018 2018 International Conference on A An Evaluation of Character Level N-gram Termsets in Text Cat
+  S549 unknown  2019 The Journal of The University of D THE CHARACTER BETWEEN READING TEXT AND VISUAL TEXT(2000-2017
+  S550 T1       2012 Proteome Science                   Protein sequence classification using feature hashing
+  S551 T1       2026 Applied Sciences                   Feature Fusion-Based Cross-Modal Proxy Hashing Retrieval
+  S552 T2       2016 Pattern Recognition Letters        Multi-feature Hashing Tracking
+  S553 unknown  2015 2015 IEEE International Conference Multi-feature hashing based on SNR maximization
+  S554 unknown  2016 Proceedings of the International C Multiple-Feature Kernel Hashing for Mass Detection
+  S555 unknown  2018 Proceedings of the Twenty-Seventh  Feature Hashing for Network Representation Learning
+  S556 unknown  2018 Proceedings of the 2018 2nd Intern Anchor Graph Hashing with Feature Learning
+  S557 unknown  2019 Proceedings of the 2019 on Interna Feature Pyramid Hashing
+  S558 unknown  2020 Proceedings of the 7th ACM IKDD Co Effect of Feature Hashing on Fair Classification
+  S559 unknown  2024 2024 IEEE 16th International Confe Iris Feature Extraction Method Based on Deep Hashing
+  S560 T1       2011 Journal of Vegetation Science      Liana co-occurrence patterns in a temperate rainforest
+  S561 T1       2022 Communications in Computer and Inf Learning Co-occurrence Embeddings for Sentence Classificatio
+  S562 unknown  2021 2021 IEEE International Conference Constraining Weighted Word Co-occurrence Frequencies in Word
+  S563 unknown  2022 Cooperatively Managing and Exploit 3  Co-occurrence Graphs
+  S564 unknown  2022 Cooperatively Managing and Exploit 4  Decentralised Co-occurrence Graph Management
+  S565 unknown  2023 Oxford English Dictionary          co-occurrence, n.
+  S566 unknown  2025 Lexikographisch-grammatische Persp 277Lexical co-occurrence: from Saussure’s syntagmatic relati
+  S567 T3       2024 2024 International Joint Conferenc Enhance Large Language Models for Multilingual Sentence Embe
+  S568 T3       2025 2025 International Joint Conferenc RKDCSE : Relational Knowledge Distillation For Sentence Repr
+  S569 T3       2026 PLOS One                           Adaptive knowledge distillation based structure-text embeddi
+  S570 unknown  2020 Proceedings of the 28th Internatio Knowledge Base Embedding By Cooperative Knowledge Distillati
+  S571 unknown  2020 Proceedings of the 2020 Conference Making Monolingual Sentence Embeddings Multilingual using Kn
+  S572 unknown  2022 Proceedings of the ACM Web Confere Collaborative Knowledge Distillation for Heterogeneous Infor
+  S573 unknown  2022 2022 IEEE International Conference Self-Knowledge Distillation from Target-Embedding AutoEncode
+  S574 unknown  2023 Findings of the Association for Co Cross-Lingual Knowledge Distillation for Answer Sentence Sel
+  S575 unknown  2023 Knowledge-Based Systems            CLSEP: Contrastive learning of sentence embedding with promp
+  S576 unknown  2023 Proceedings of the 2023 Conference Multi-Task Knowledge Distillation with Embedding Constraints
+  S577 T1       2000 Science                            Nonlinear Dimensionality Reduction by Locally Linear Embeddi
+  S578 T1       2012 Lecture Notes in Computer Science  A Particle Swarm Embedding Algorithm for Nonlinear Dimension
+  S579 T1       2014 Journal of Information and Computa Weighted Kernel Locally Linear Embedding for Dimensionality 
+  S580 T2       2009 2009 Chinese Conference on Pattern Neighborhood Balance Embedding for Unsupervised Dimensionali
+  S581 T2       2014 Pattern Recognition Letters        Partial-update dimensionality reduction for accumulating co-
+  S582 T2       2017 2017 3rd International Conference  Evaluation of graph embedding approach for dimensionality re
+  S583 T2       2021 Pattern Recognition Letters        Geometry and statistics-preserving manifold embedding for no
+  S584 T3       2014 2014 International Joint Conferenc K-associated optimal network for graph embedding dimensional
+  S585 T3       None Proceedings. 2005 IEEE Internation Embedding via clustering: using spectral information to guid
+  S586 unknown  2006 Proceedings of the Workshop on Tas Dimensionality reduction aids term co-occurrence based multi
+  skip: Sparse distributed memory: understanding the speed and robustn :: dup
+  skip: A conditional probability interpretation of Kanerva's sparse d :: dup
+  skip: Temporal Sparse Distributed Memory: Identifying Temporal Patte :: dup
+  skip: Integer sparse distributed memory: Analysis and results :: dup
+  skip: Genetic sparse distributed memory :: dup
+  skip: An adaptive sparse distributed memory :: dup
+  skip: Convergence in a sparse distributed memory :: dup
+  skip: Sparse distributed memory for multivalued patterns :: dup
+  skip: ATM call admission control using sparse distributed memory :: dup
+  skip: 2D sparse distributed memory-optical neural network for patter :: dup
+  skip: Some results on activation and scaling of sparse distributed m :: dup
+  skip: Sparse distributed memory implementations on tree shape parall :: dup
+  skip: Identification of aerospace acoustic sources using sparse dist :: dup
+  skip: Sparse distributed memory :: dup
+  skip: Generative Replay-Based Continual Zero-Shot Learning :: dup
+  skip: Learning to Replay: A meta-reinforcement learning approach to  :: dup
+  skip: Generative Feature Replay with Orthogonal Weight Modification  :: dup
+  skip: BinPlay: A Binary Latent Autoencoder for Generative Replay Con :: dup
+  skip: An Investigation of Replay-based Approaches for Continual Lear :: dup
+  skip: A Novel Feature Hashing for Text Mining :: dup
+==== DONE ==== 
+==== SURVEY2B CROSSREF start ====  
+[OK] +170 refs, skipped 12 -> refs\survey2\refs_survey2.jsonl
+  S755 T1       2019 Associative Memory Cells: Basic Un Plasticity of Associative Memory Cells
+  S756 T1       2019 Associative Memory Cells: Basic Un Working Principles of Associative Memory Cells
+  S757 T1       2019 Associative Memory Cells: Basic Un Associative Memory Cells in Memory Trace
+  S758 T1       2019 Associative Memory Cells: Basic Un Cellular and Molecular Changes in Associative Memory
+  S759 T1       2019 Associative Memory Cells: Basic Un The Impacts of Associative Memory Cells on Pathology
+  S760 T1       2019 Associative Memory Cells: Basic Un Associative Memory Cells in Physiological Psychology
+  S761 T1       2019 Associative Memory Cells: Basic Un Experimental Models and Strategies for Studying Associative 
+  S762 T1       2026 Machine Learning: Science and Tech Saddle hierarchy in dense associative memory
+  S763 T1       2026 Computational Optical Imaging and  Dense associative memory in a nonlinear optical Hopfield neu
+  S764 T2       2018 Neural Computation                 Dense Associative Memory Is Robust to Adversarial Inputs
+  S765 T2       2024 Advances in Neural Information Pro Dense Associative Memory Through the Lens of Random Features
+  S766 T2       2025 Advances in Neural Information Pro Dense Associative Memory with Epanechnikov Energy
+  S767 T1       2023 Nature Nanotechnology              Memory augmented factorization for holographic representatio
+  S768 T2       2009 Journal of Mathematical Psychology Geometric analogue of holographic reduced representation
+  S769 T3       1995 IEEE Transactions on Neural Networ Holographic reduced representations
+  S770 unknown  1981 January 16                         Holographic Currents in Reduced KNbO
+                    <su
+  S771 unknown  2002 Cognitive Systems Research         Learning the systematic transformation of holographic reduce
+  S772 unknown  2004 IEEE Transactions on Image Process Holographic Image Representation With Reduced Aliasing and N
+  S773 unknown  2005 Frontiers in Optics                Improved Holographic Data Storage by Reduced Exposures
+  S774 unknown  2006 Neurocomputing                     Deductive rules in holographic reduced representation
+  S775 unknown  2014 Reduced Order Methods for Modeling Comparison of Some Reduced Representation Approximations
+  S776 unknown  2014 Physical Review D                  Holographic representation of local operators in de Sitter s
+  S777 T1       2002 Neuron                             Theta Oscillations in the Hippocampus
+  S778 T1       2013 Encyclopedia of Computational Neur Gamma and Theta Oscillations, Hippocampus: Overview
+  S779 T2       2005 Hippocampus                        The theta rhythm
+  S780 T2       2007 Hippocampus                        Hippocampal theta sequences
+  S781 T2       2013 Hippocampus                        Recognition memory and theta–gamma interactions in the hippo
+  S782 unknown  2001 Neurocomputing                     Theta rhythm oscillations and sequence encoding in the hippo
+  S783 unknown  2016 Springer Theses                    Theta-Gamma Cross-Frequency Coupling in the Hippocampus-Ento
+  S784 unknown  2024 Biofizika                          Theta Oscillations and Comparator Function of the Hippocampu
+  S785 unknown  2026 Journal of Visualized Experiments  In Vitro Recording of Theta Oscillations in the Mouse Hippoc
+  S786 T1       2012 Encyclopedia of the Sciences of Le Chunking Mechanisms and Learning
+  S787 T1       2012 Encyclopedia of the Sciences of Le Chunking Theory
+  S788 T1       2012 Encyclopedia of the Sciences of Le Chunking
+  S789 T1       2012 Encyclopedia of the Sciences of Le Learning by Chunking
+  S790 T1       2018 2018 Conference on Cognitive Compu Evidence for chunking vs. statistical learning in motor sequ
+  S791 T2       2003 Experimental Brain Research        Chunking during human visuomotor sequence learning
+  S792 T2       2018 Consciousness and Cognition        Implicit sequence learning of chunking and abstract structur
+  S793 T2       2024 Animal Cognition                   Chunking as a function of sequence length
+  S794 T2       2025 Advances in Neural Information Pro Reinforcement Learning with Action Chunking
+  S795 unknown  1969 Journal of Verbal Learning and Ver Chunking: Associative chaining versus coding
+  S796 unknown  2001 Learning Vocabulary in Another Lan Chunking and collocation
+  S797 unknown  2010 Journal of Experimental Psychology Task-relevant chunking in sequence learning.
+  S798 T1       2018 Nature Human Behaviour             Speed of time-compressed forward replay flexibly changes in 
+  S799 T1       2023 Proceedings of the National Academ Distinct replay signatures for prospective decision-making a
+  S800 unknown  2007 Seibutsu Butsuri                   Memory Replay and Memory Consolidation
+  S801 unknown  2008 Cognitive Neurodynamics            Forward shift from reverse replay
+  S802 unknown  2014 Space,Time and Memory in the Hippo Memory Replay in the Hippocampus
+  S803 unknown  2021 Acta Psychologica                  Moving forward: Exploring the role of interference on prospe
+  S804 unknown  2025 Space, Time, and Memory            Experience Replay Algorithms and the Function of Episodic Me
+  S805 T1       2009 Frontiers in Systems Neuroscience  Structural plasticity and memory: Catastrophic forgetting, a
+  S806 T1       2023 2023 Conference on Cognitive Compu Rapid Learning Without Catastrophic Forgetting in Multiple M
+  S807 T1       2025 Procedia Computer Science          Mitigating catastrophic forgetting in medical imaging via in
+  S808 T2       2005 Modeling Language, Cognition and A EVOLVING NEURAL NETWORKS THAT SUFFER MINIMAL CATASTROPHIC FO
+  S809 T2       2020 eLife                              Can sleep protect memories from catastrophic forgetting?
+  S810 T3       2015 2015 International Joint Conferenc Reduction of catastrophic forgetting with transfer learning 
+  S811 T3       2022 Scientific Reports                 Model architecture can transform catastrophic forgetting int
+  S812 T3       2025 Learning and Memory: A Comprehensi Continual learning and catastrophic forgetting
+  S813 unknown  1999 Network: Computation in Neural Sys Catastrophic forgetting in simple networks: an analysis of t
+  S814 unknown  2006 The 2006 IEEE International Joint  Alleviating Catastrophic Forgetting via Multi-Objective Lear
+  S815 unknown  2017 2017 IEEE International Conference Incremental Learning of Object Detectors without Catastrophi
+  S816 unknown  2018 Proceedings of the Genetic and Evo Embodiment can combat catastrophic forgetting
+  S817 unknown  2020 Proceedings of the 12th Internatio Mitigate Catastrophic Forgetting by Varying Goals
+  S818 unknown  2020 2020 7th International Conference  Comparative Analysis of Catastrophic Forgetting in Metric Le
+  S819 unknown  2021 2021 8th International Conference  The Role Weights Play in Catastrophic Forgetting
+  S820 T1       2024 Lecture Notes in Computer Science  A Relevant Prototype Domain Gradient Projection Continual Le
+  S821 T2       2021 2021 IEEE/CVF Conference on Comput Layerwise Optimization by Gradient Decomposition for Continu
+  S822 T2       2022 2022 IEEE/CVF Conference on Comput GCR: Gradient Coreset based Replay Buffer Selection for Cont
+  S823 T2       2023 2023 IEEE/CVF Conference on Comput Rethinking Gradient Projection Continual Learning: Stability
+  S824 T2       2023 2023 IEEE/CVF Conference on Comput Preserving Linear Separability in Continual Learning by Back
+  S825 T2       2024 Pattern Recognition Letters        PNSP: Overcoming catastrophic forgetting using Primary Null 
+  S826 T2       2025 Advances in Neural Information Pro Gradient-Guided Epsilon Constraint Method for Online Continu
+  S827 T3       2023 IEEE Transactions on Neural Networ GopGAN: Gradients Orthogonal Projection Generative Adversari
+  S828 unknown  2011 Encyclopedia of Machine Learning   Continual Learning
+  S829 unknown  2018 Self-Learning Control of Finite Ma Projection Gradient Method
+  S830 unknown  2021 Proceedings of the AAAI Conference Gradient Regularized Contrastive Learning for Continual Doma
+  S831 unknown  2022 Proceedings of the 30th ACM Intern Class Gradient Projection For Continual Learning
+  S832 T2       1991 Imagery and Cognition              Visuo-Spatial Short-Term Memory: Visual Working Memory or Vi
+  S833 T2       2000 Neuropsychopharmacology            Nicotine Impairs Spatial Working Memory while Leaving Spatia
+  S834 T2       2006 Memory &amp; Cognition             Auditory and visual spatial working memory
+  S835 T2       2013 Hippocampus                        Circuit mechanisms of GluA1-dependent spatial working memory
+  S836 unknown  2001 Memory                             The development of visuo-spatial working memory
+  S837 unknown  2004 Visuo-spatial Working Memory and I WORKING MEMORY
+  S838 unknown  2004 Visuo-spatial Working Memory and I Visuo-spatial working memory in ageing
+  S839 unknown  2004 Visuo-spatial Working Memory and I Imagery, blindness, and visuo-spatial working memory
+  S840 unknown  2004 Memory                             Complexity factors in visuo‐spatial working memory
+  S841 unknown  2004 Visuo-spatial Working Memory and I A continuity approach to visuo-spatial working memory
+  S842 unknown  2004 Visuo-spatial Working Memory and I Individual diﬀerences in children’s visuo-spatial working me
+  S843 unknown  2004 Visuo-spatial Working Memory and I Models and components of visuo-spatial representation and wo
+  S844 T1       1972 Psychonomic Science                Delayed response learning by cage-reared normal and prefront
+  S845 T1       1976 International Journal of Neuroscie Delayed Response Capability After Prefrontal Ablation: A Com
+  S846 T2       1975 Brain Research                     Delayed matching in rhesus monkeys with selective prefrontal
+  S847 T2       1988 Behavioural Brain Research         Delayed response deficit in monkeys by locally disturbed pre
+  S848 T3       1947 Journal of Neurophysiology         THE EFFECT OF SEDATIVES UPON DELAYED RESPONSE IN MONKEYS FOL
+  S849 T3       1967 Experimental Neurology             Differential recovery of delayed response function following
+  S850 T3       1999 Neuropsychologia                   The dependence of span and delayed-response performance on p
+  S851 unknown  1969 Physiology &amp; Behavior          Delayed response in blind cats before and after prefrontal a
+  S852 unknown  1969 Journal of Comparative and Physiol Analysis of changes in indirect delayed response performance
+  S853 unknown  1976 Journal of Comparative and Physiol Delayed-matching and delayed-response deficit from cooling d
+  S854 T1       2003 Neuron                             Dynamics of Population Code for Working Memory in the Prefro
+  S855 T1       2013 Neuron                             Population Code, Noise Correlations, and Memory
+  S856 T1       2016 Neuron                             A Code for Cross-Modal Working Memory
+  S857 T1       2019 The Journal of Neuroscience        The Neural Code of Working Memory Maintenance
+  S858 unknown  2002 Working Memory in Perspective      Neural working memory
+  S859 unknown  2002 Working Memory in Perspective      An introduction to working memory
+  S860 unknown  2007 Working Memory, Thought, and Actio Neuroimaging working memory
+  S861 unknown  2007 Working Memory, Thought, and Actio Working memory in context
+  S862 unknown  2012 Working Memory and Neurodevelopmen Working memory in autism
+  S863 unknown  2012 Working Memory and Neurodevelopmen Working memory in dyslexia
+  S864 unknown  2012 Working Memory and Neurodevelopmen Working memory in Williams syndrome
+  S865 unknown  2013 Working Memory                     The Evolution of Working Memory
+  S866 T1       2009 Encyclopedia of Neuroscience       Memory-guided Saccades
+  S867 T1       2009 Encyclopedia of Neuroscience       Memory-guided Saccade Task
+  S868 T1       2017 Nature Neuroscience                Dynamic hidden states underlying working-memory-guided behav
+  S869 T1       2019 Cell Reports                       Distinct Neural Circuits Underlie Prospective and Concurrent
+  S870 T2       2014 Cognition                          Working memory updating and the development of rule-guided b
+  S871 T2       2016 Cognition                          Working memory gating mechanisms explain developmental chang
+  S872 T2       2026 Current Biology                    Dissociable cortical-hippocampal dopamine dynamics support m
+  S873 T3       2016 Current Opinion in Neurobiology    Multiple modes of hippocampal–prefrontal interactions in mem
+  S874 T3       2019 Scientific Reports                 Individual differences in working memory capacity and cue-gu
+  S875 unknown  1984 Infant Behavior and Development    Memory development and “memory talk”
+  S876 unknown  1987 Foraging Theory                    4. Incomplete Information
+  S877 unknown  1996 Proceedings of the workshop on Adv Information visualization and information foraging
+  S878 unknown  2007 Information Foraging Theory        Information Foraging Theory
+  S879 unknown  2007 Information Foraging Theory        Social Information Foraging
+  S880 unknown  2007 Information Foraging Theory        A Cognitive Model of Information Foraging on the Web
+  S881 unknown  2007 Information Foraging Theory        Rational Analyses of Information Scent and Web Foraging
+  S882 unknown  2007 Information Foraging Theory        The Ecology of Information Foraging on the World Wide Web
+  S883 unknown  2007 Choice Reviews Online              Information foraging theory: adaptive interaction with infor
+  S884 unknown  2007 Information Foraging Theory        Stochastic Models of Information Foraging by Information Sce
+  S885 unknown  2007 Information Foraging Theory        Elementary Foraging Models
+  S886 T1       2020 Current Opinion in Behavioral Scie Editorial overview: Curiosity: Explore versus exploit
+  S887 T1       2021 Cognitive Science                  Motivated Reasoning in an Explore‐Exploit Task
+  S888 T2       2021 Cognition                          The placebo effect: To explore or to exploit?
+  S889 unknown  1999 Computer                           Explore, excogitate, exploit: component mining
+  S890 unknown  2005 Proceedings of the 7th annual work An autonomous explore/exploit strategy
+  S891 unknown  2009 2009 Ninth IEEE International Conf Explore/Exploit Schemes for Web Content Optimization
+  S892 unknown  2014 Simulating Innovation              Explore and exploit
+  S893 unknown  2015 Statistical Methods for Recommende Explore-Exploit for Recommender Problems
+  S894 unknown  2016 Proceedings of the 10th ACM Confer The Exploit-Explore Dilemma in Music Recommendation
+  S895 unknown  2018 Advances in Intelligent Systems an Explore-Exploit-Explore in Ant Colony Optimization
+  S896 T1       2022 Communications in Computer and Inf Hierarchical Storyline Generation Based on Event-centric Tem
+  S897 T1       2023 Proceedings of the 12th Internatio Clustering Object-Centric Event Logs
+  S898 T1       2023 Lecture Notes in Computer Science  Shards of Knowledge – Modeling Attributions for Event-Centri
+  S899 T1       2023 Journal of Systems Science and Sys Narrative Graph: Telling Evolving Stories Based on Event-cen
+  S900 unknown  2017 Managing Project Uncertainty       Knowledge-Centric Strategies
+  S901 unknown  2020 2020 IEEE International Conference An Event-Centric Prediction System for COVID-19
+  S902 unknown  2022 Event- and Data-Centric Enterprise Advanced Analytics and Knowledge Management
+  S903 unknown  2023 Mathematics                        Event-Centric Temporal Knowledge Graph Construction: A Surve
+  S904 unknown  2023 Semantic AI in Knowledge Graphs    Modeling Event-Centric Knowledge Graph for Crime Analysis on
+  S905 unknown  2023 IEEE Access                        Synthesizing Event-Centric Knowledge Graphs of Daily Activit
+  S906 unknown  2011 Sound and Script in Chinese Diaspo The Missing Script of Taiwan
+  S907 unknown  2015 Proceedings of the 2015 Conference Script Induction as Language Modeling
+  S908 unknown  2017 Chinese Script                     2 The Script
+  S909 unknown  2020 Proceedings of the First Joint Wor Script Induction as Association Rule Mining
+  S910 unknown  2022 Script Analysis                    Script Analysis
+  S911 unknown  2022 Script Analysis                    Script Breakdown
+  S912 unknown  2023 Beyond Alterity: Contemporary Indi The Neoliberal Script
+  S913 T1       2020 SN Computer Science                Word Replaceability Through Word Vectors
+  S914 unknown  2015 Proceedings of the Nineteenth Conf Accurate Cross-lingual Projection between Count-based Word V
+  S915 unknown  2015 International Journal of Machine L Structured Vectors for Chinese Word Representations
+  S916 unknown  2018 2018 IEEE 37th International Perfo Network Embedding based on External Word Vectors
+  S917 unknown  2019 Proceedings of The 7th Internation Jointly Embedding Knowledge Graph and Word Vectors
+  S918 unknown  2021 2021 2nd International Conference  Chinese Sentiment Analysis of MOOC Reviews Based on Word Vec
+  S919 unknown  2022 Proceedings of the 18th Internatio Term-based Website Evaluation Applying Word Vectors and Read
+  S920 unknown  2024 Journal of Intelligent &amp; Fuzzy Query reformulation system based on WordNet and word vectors
+  S921 unknown  2024 IEEE Access                        Named Entity Recognition Model Based on the Fusion of Word V
+  S922 unknown  2014 Proceedings of the 2014 Conference Glove: Global Vectors for Word Representation
+  S923 unknown  2024 Made in China                      The Glove Capital of America
+  S924 unknown  2025 Principles of Specialty Nursing    “To Glove or Not to Glove”
+  skip: Catastrophic Forgetting, Rehearsal and Pseudorehearsal :: dup
+  skip: Catastrophic forgetting in connectionist networks :: dup
+  skip: Avoiding Catastrophic Forgetting :: dup
+  skip: Enhancing network modularity to mitigate catastrophic forgetti :: dup
+  skip: Solutions to the Catastrophic Forgetting Problem :: dup
+  skip: Navigating parameter space: mitigating catastrophic forgetting :: dup
+  skip: Array heterogeneity prevents catastrophic forgetting in infant :: dup
+  skip: Severity of Catastrophic Forgetting in Object Detection for Au :: dup
+  skip: Catastrophic forgetting and mode collapse in GANs :: dup
+  skip: Overcoming Catastrophic Forgetting with Gaussian Mixture Repla :: dup
+  skip: WORKING MEMORY :: dup
+  skip: Towards an event-centric knowledge graph approach for public a :: dup
+==== 2B DONE ==== 

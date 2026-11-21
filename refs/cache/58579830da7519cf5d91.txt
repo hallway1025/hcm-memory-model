@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/u2RIUXbdok7iK4W8J7r3w8/Zf8c</id>
+  <title>arXiv Query: search_query=all:selective AND all:prediction AND all:abstention&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-11-07T13:52:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:selective+AND+(all:prediction+AND+all:abstention)&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>120</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00138v2</id>
+    <title>Explicit Abstention Knobs for Predictable Reliability in Video Question Answering</title>
+    <updated>2026-01-15T17:31:17Z</updated>
+    <link href="https://arxiv.org/abs/2601.00138v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.00138v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-stakes deployment of vision-language models (VLMs) requires selective prediction, where systems abstain when uncertain rather than risk costly errors. We investigate whether confidence-based abstention provides reliable control over error rates in video question answering, and whether that control remains robust under distribution shift. Using NExT-QA and Gemini 2.0 Flash, we establish two findings. First, confidence thresholding provides mechanistic control in-distribution. Sweeping threshold epsilon produces smooth risk-coverage tradeoffs, reducing error rates f</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-31T23:27:32Z</published>
+    <arxiv:comment>Preprint. Diagnostic study of confidence-based abstention under evidence truncation</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jorge Ortiz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.01008v1</id>
+    <title>An Explainable Agentic AI Framework for Uncertainty-Aware and Abstention-Enabled Acute Ischemic Stroke Imaging Decisions</title>
+    <updated>2026-01-03T00:10:08Z</updated>
+    <link href="https://arxiv.org/abs/2601.01008v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.01008v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial intelligence models have shown strong potential in acute ischemic stroke imaging, particularly for lesion detection and segmentation using computed tomography and magnetic resonance imaging. However, most existing approaches operate as black box predictors, producing deterministic outputs without explicit uncertainty awareness or structured mechanisms to abstain under ambiguous conditions. This limitation raises serious safety and trust concerns in high risk emergency radiology settings. In this paper, we propose an explainable agentic AI framework for uncertainty aware and abstention enabled decision support in acute ischemic stroke imaging. The framework follows a modular agentic pipeline in which a perception agent performs lesion aware image analysis, an uncertainty estimation agent computes slice level predictive reliability, and a decision agent determines whether to issue a prediction or abstain based on predefined uncertainty thresholds. Unlike prior stroke imaging systems that primarily focus on improving segmentation or classification accuracy, the proposed framework explicitly prioritizes clinical safety, transparency, and clinician aligned decision behavior. Qualitative and case based analyses across representative stroke imaging scenarios demonstrate that uncertainty driven abstention naturally emerges in diagnostically ambiguous regions and low information slices. The framework further integrates visual explanation mechanisms to support both predictive and abstention decisions, addressing a key limitation of existing uncertainty aware medical imaging systems. Rather than introducing a new performance benchmark, this work presents agentic control, uncertainty awareness, and selective abstention as essential design principles for developing safe and trustworthy medical imaging AI systems.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-03T00:10:08Z</published>
+    <arxiv:comment>Preprint. Conceptual and exploratory framework focusing on uncertainty-aware and abstention-enabled decision support for acute ischemic stroke imaging</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Md Rashadul Islam</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.15610v2</id>
+    <title>Selective "Selective Prediction": Reducing Unnecessary Abstention in Vision-Language Reasoning</title>
+    <updated>2024-06-12T21:09:39Z</updated>
+    <link href="https://arxiv.org/abs/2402.15610v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.15610v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Selective prediction minimizes incorrect predictions from vision-language models (VLMs) by allowing them to abstain from answering when uncertain. However, when deploying a vision-language system with low tolerance for inaccurate predictions, selective prediction may be over-cautious and abstain too frequently, even on many correct predictions. We introduce ReCoVERR, an inference-time algorithm to reduce the over-abstention of a selective vision-language system without increasing the error rate of the system's predictions. When the VLM makes a low-confidence prediction, instead of abstaining ReCoVERR tries to find relevant clues in the image that provide additional evidence for the prediction. ReCoVERR uses an LLM to pose related questions to the VLM, collects high-confidence evidences, and if enough evidence confirms the prediction the system makes a prediction instead of abstaining. ReCoVERR enables three VLMs (BLIP2, InstructBLIP, and LLaVA-1.5) to answer up to 20% more questions on the VQAv2 and A-OKVQA tasks without decreasing system accuracy, thus improving overall system reliability. Our code is available at https://github.com/tejas1995/ReCoVERR.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-23T21:16:52Z</published>
+    <arxiv:comment>Accepted to ACL Findings 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tejas Srinivasan</name>
+    </author>
+    <author>
+      <name>Jack Hessel</name>
+    </author>
+    <author>
+      <name>Tanmay Gupta</name>
+    </author>
+    <author>
+      <name>Bill Yuchen Lin</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Jesse Thomason</name>
+    </author>
+    <author>
+      <name>Khyathi Raghavi Chandu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.08751v1</id>
+    <title>Improving Selective Visual Question Answering by Learning from Your Peers</title>
+    <updated>2023-06-14T21:22:01Z</updated>
+    <link href="https://arxiv.org/abs/2306.08751v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.08751v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite advances in Visual Question Answering (VQA), the ability of models to assess their own correctness remains underexplored. Recent work has shown that VQA models, out-of-the-box, can have difficulties abstaining from answering when they are wrong. The option to abstain, also called Selective Prediction, is highly relevant when deploying systems to users who must trust the system's output (e.g., VQA assistants for users with visual impairments). For such scenarios, abstention can be especially important as users may provide out-of-distribution (OOD) or adversarial inputs that make incorrect answers more likely. In this work, we explore Selective VQA in both in-distribution (ID) and OOD scenarios, where models are presented with mixtures of ID and OOD data. The goal is to maximize the number of questions answered while minimizing the risk of error on those questions. We propose a simple yet effective Learning from Your Peers (LYP) approach for training multimodal selection functions for making abstention decisions. Our approach uses predictions from models trained on distinct subsets of the training data as targets for optimizing a Selective VQA model. It does not require additional manual labels or held-out data and provides a signal for identifying examples that are easy/difficult to generalize to. In our extensive evaluations, we show this benefits a number of models across different architectures and scales. Overall, for ID, we reach 32.92% in the selective prediction metric coverage at 1% risk of error (C@1%) which doubles the previous best coverage of 15.79% on this task. For mixed ID/OOD, using models' softmax confidences for abstention decisions performs very poorly, answering &lt;5% of questions at 1% risk of error even when faced with only 10% OOD examples, but a learned selection function with LYP can increase that to 25.38% C@1%.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-14T21:22:01Z</published>
+    <arxiv:comment>CVPR 2023. Code available here: https://github.com/facebookresearch/selective-vqa_ood</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Corentin Dancette</name>
+    </author>
+    <author>
+      <name>Spencer Whitehead</name>
+    </author>
+    <author>
+      <name>Rishabh Maheshwary</name>
+    </author>
+    <author>
+      <name>Ramakrishna Vedantam</name>
+    </author>
+    <author>
+      <name>Stefan Scherer</name>
+    </author>
+    <author>
+      <name>Xinlei Chen</name>
+    </author>
+    <author>
+      <name>Matthieu Cord</name>
+    </author>
+    <author>
+      <name>Marcus Rohrbach</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.19133v1</id>
+    <title>Knowing When Not to Predict: Self Supervised Learning and Abstention for Safer DR Screening</title>
+    <updated>2026-05-18T21:32:03Z</updated>
+    <link href="https://arxiv.org/abs/2605.19133v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.19133v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised learning (SSL) is now a standard way to pretrain medical image models, but performance is still mostly judged by downstream accuracy. For safety-critical screening tasks such as diabetic retinopathy grading, this is not enough: a model must also know when its predictions are unreliable and defer uncertain cases for clinical review. In this work, we examine how the length of SSL pretraining influences calibrated confidence and confidence-based abstention. We evaluate multiple SSL checkpoints under a fixed fine-tuning protocol and assess calibrated confidence, coverage, selective accuracy, and selective macro-F1. Across datasets and data regimes, SSL pretraining improves selective prediction compared to training from scratch. Unlike prior SSL studies that primarily evaluate downstream accuracy or AUROC, we analyze how SSL pretraining duration influences confidence behavior under calibrated confidence-based abstention. However, once accuracy saturates, selective performance can still change markedly across checkpoints, and longer pretraining does not consistently improve reliability. These results underscore the importance of abstention-aware evaluation and suggest that pretraining length should be treated as an important reliability-related design choice rather than only a computational detail. Code is available at GitHub.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-18T21:32:03Z</published>
+    <arxiv:comment>Accepted at IJCAI 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Muskaan Chopra</name>
+    </author>
+    <author>
+      <name>Lorenz Sparrenberg</name>
+    </author>
+    <author>
+      <name>Jan H. Terheyden</name>
+    </author>
+    <author>
+      <name>Rafet Sifa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.09235v2</id>
+    <title>Reliable Multi-label Classification: Prediction with Partial Abstention</title>
+    <updated>2020-01-24T08:49:16Z</updated>
+    <link href="https://arxiv.org/abs/1904.09235v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.09235v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In contrast to conventional (single-label) classification, the setting of multilabel classification (MLC) allows an instance to belong to several classes simultaneously. Thus, instead of selecting a single class label, predictions take the form of a subset of all labels. In this paper, we study an extension of the setting of MLC, in which the learner is allowed to partially abstain from a prediction, that is, to deliver predictions on some but not necessarily all class labels. We propose a formalization of MLC with abstention in terms of a generalized loss minimization problem and present first results for the case of the Hamming loss, rank loss, and F-measure, both theoretical and experimental.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-19T15:33:06Z</published>
+    <arxiv:comment>19 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Proceedings AAAI-20, Thirty-Fourth AAAI Conference on Artificial Intelligence, New York, USA, 2020</arxiv:journal_ref>
+    <author>
+      <name>Vu-Linh Nguyen</name>
+    </author>
+    <author>
+      <name>Eyke Hüllermeier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.13254v1</id>
+    <title>Calibrated Abstention for Reliable TCR--pMHC Binding Prediction under Epitope Shift</title>
+    <updated>2026-04-14T19:38:54Z</updated>
+    <link href="https://arxiv.org/abs/2604.13254v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.13254v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Predicting T-cell receptor (TCR)--peptide-MHC (pMHC) binding is central to vaccine design and T-cell therapy, yet deployed models frequently encounter epitopes unseen during training, causing silent overconfidence and unreliable prioritization. We address this by framing TCR--pMHC prediction as a \emph{selective prediction} problem: a calibrated model should either output a trustworthy confidence score or explicitly abstain. Concretely, we (1) introduce a dual-encoder architecture encoding both CDR3$α$/CDR3$β$ and peptide sequences via a pre-trained protein language model; (2) apply temperature scaling to correct systematic probability miscalibration; and (3) impose a conformal abstention rule that provides finite-sample coverage guarantees at a user-specified target error rate. Evaluated under three split strategies -- random, epitope-held-out, and distance-aware -- our method achieves AUROC 0.813 and ECE 0.043 under the challenging epitope-held-out protocol, reducing ECE by 69.7\% relative to an uncalibrated baseline. At 80\% coverage, the selective model further reduces error rate from 18.7\% to 10.9\%, demonstrating that calibrated abstention enables principled coverage-risk trade-offs aligned with practical screening budgets.</summary>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-14T19:38:54Z</published>
+    <arxiv:primary_category term="cs.GR"/>
+    <author>
+      <name>Arman Bekov</name>
+    </author>
+    <author>
+      <name>Timur Bekzhanov</name>
+    </author>
+    <author>
+      <name>Bekzat Sadykov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.07255v2</id>
+    <title>Beyond Confidence: Adaptive Abstention in Dual-Threshold Conformal Prediction for Autonomous System Perception</title>
+    <updated>2025-02-13T06:35:29Z</updated>
+    <link href="https://arxiv.org/abs/2502.07255v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.07255v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety-critical perception systems require both reliable uncertainty quantification and principled abstention mechanisms to maintain safety under diverse operational conditions. We present a novel dual-threshold conformalization framework that provides statistically-guaranteed uncertainty estimates while enabling selective prediction in high-risk scenarios. Our approach uniquely combines a conformal threshold ensuring valid prediction sets with an abstention threshold optimized through ROC analysis, providing distribution-free coverage guarantees (&gt;= 1 - alpha) while identifying unreliable predictions. Through comprehensive evaluation on CIFAR-100, ImageNet1K, and ModelNet40 datasets, we demonstrate superior robustness across camera and LiDAR modalities under varying environmental perturbations. The framework achieves exceptional detection performance (AUC: 0.993 to 0.995) under severe conditions while maintaining high coverage (&gt;90.0%) and enabling adaptive abstention (13.5% to 63.4% +/- 0.5) as environmental severity increases. For LiDAR-based perception, our approach demonstrates particularly strong performance, maintaining robust coverage (&gt;84.5%) while appropriately abstaining from unreliable predictions. Notably, the framework shows remarkable stability under heavy perturbations, with detection performance (AUC: 0.995 +/- 0.001) significantly outperforming existing methods across all modalities. Our unified approach bridges the gap between theoretical guarantees and practical deployment needs, offering a robust solution for safety-critical autonomous systems operating in challenging real-world conditions.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-11T04:45:31Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <arxiv:journal_ref>Proc. 2025 IEEE International Conference on Omni-layer Intelligent Systems COINS Madison WI USA Aug 4-6 2025</arxiv:journal_ref>
+    <author>
+      <name>Divake Kumar</name>
+    </author>
+    <author>
+      <name>Nastaran Darabi</name>
+    </author>
+    <author>
+      <name>Sina Tayebati</name>
+    </author>
+    <author>
+      <name>Amit Ranjan Trivedi</name>
+    </author>
+    <arxiv:doi>10.1109/COINS65080.2025.11125785</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/COINS65080.2025.11125785" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.01512v1</id>
+    <title>Abstention Spends Its Budget on Local Label Variance More Than on Novelty: Auditing Conformal Calibration and Selective Prediction under Molecular Scaffold Shift</title>
+    <updated>2026-11-01T03:44:38Z</updated>
+    <link href="https://arxiv.org/abs/2611.01512v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.01512v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Selective prediction with split conformal calibration promises a post-hoc fix for molecular property prediction: abstain on the least reliable compounds, ideally out-of-distribution chemistry, and the retained set becomes trustworthy without retraining. We audit this recipe for a gradient-boosted fingerprint model on lipophilicity (regression) and BBBP (classification) under a Bemis-Murcko scaffold split, holding the fitted model and evaluation molecules fixed while varying only the calibration fold (18 replicates). (i) On lipophilicity, coverage depends on calibration provenance: calibrating on held-out training-scaffold molecules falls below nominal (PICP 0.841 at a 0.90 target), while novel-scaffold calibration recovers it (0.904); on BBBP, coverage stays above nominal in every regime. (ii) For split conformalized quantile regression (CQR) the conformal correction is a constant, so conformalization does not change what is abstained on. (iii) The abstention score (CQR width; effectively ensemble variance on BBBP) tracks local label variance more than chemical novelty: controlling for local label variance largely explains away the novelty association (partial Spearman 0.067 and 0.047). (iv) At a fixed assay budget, gating on interval width or ensemble variance never improves hit precision over ranking by point prediction, at the pre-specified operating point or across 20 exploratory settings; a plain novelty gate shows small, uncorrected gains at the smallest budgets. (v) In an exploratory analysis, exact conformal selection exceeds its false discovery rate target under training-scaffold calibration (0.303 at q=0.2) and is consistent with it under novel-scaffold calibration, contributing a data-driven batch size rather than a better ranking. Conformalization earns its keep through guarantees whose validity hinges on calibration provenance, not by choosing what to abstain on.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-01T03:44:38Z</published>
+    <arxiv:comment>12 pages, 4 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Arnav Srivastava</name>
+    </author>
+    <author>
+      <name>Krishna Kassetty</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.08230v1</id>
+    <title>Selective Ensembles for Consistent Predictions</title>
+    <updated>2021-11-16T05:03:56Z</updated>
+    <link href="https://arxiv.org/abs/2111.08230v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.08230v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work has shown that models trained to the same objective, and which achieve similar measures of accuracy on consistent test data, may nonetheless behave very differently on individual predictions. This inconsistency is undesirable in high-stakes contexts, such as medical diagnosis and finance. We show that this inconsistent behavior extends beyond predictions to feature attributions, which may likewise have negative implications for the intelligibility of a model, and one's ability to find recourse for subjects. We then introduce selective ensembles to mitigate such inconsistencies by applying hypothesis testing to the predictions of a set of models trained using randomly-selected starting conditions; importantly, selective ensembles can abstain in cases where a consistent outcome cannot be achieved up to a specified confidence level. We prove that that prediction disagreement between selective ensembles is bounded, and empirically demonstrate that selective ensembles achieve consistent predictions and feature attributions while maintaining low abstention rates. On several benchmark datasets, selective ensembles reach zero inconsistently predicted points, with abstention rates as low 1.5%.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-16T05:03:56Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Emily Black</name>
+    </author>
+    <author>
+      <name>Klas Leino</name>
+    </author>
+    <author>
+      <name>Matt Fredrikson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.27914v1</id>
+    <title>Geometry-Calibrated Conformal Abstention for Language Models</title>
+    <updated>2026-04-30T14:20:16Z</updated>
+    <link href="https://arxiv.org/abs/2604.27914v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.27914v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When language models lack relevant knowledge for a given query, they frequently generate plausible responses that can be hallucinations, rather than admitting being agnostic about the answer. Retraining models to reward admitting ignorance can lead to overly conservative behaviors and poor generalization due to scarce evaluation benchmarks. We propose a post hoc framework, Conformal Abstention (CA), adapted from conformal prediction (CP) to determine whether to abstain from answering a query. CA provides finite-sample guarantees on both the probability of participation (i.e., not abstaining) and the probability that the generated response is correct. Importantly, the abstention decision relies on prediction confidence rather than the non-conformity scores used in CP, which are intractable for open-ended generation. To better align prediction confidence with the model's ignorance, we introduce a calibration strategy using representation geometry within the model to measure knowledge involvement in shaping the response. Experiments demonstrate that we improve selective answering significantly with 75 percent conditional correctness.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-30T14:20:16Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rui Xu</name>
+    </author>
+    <author>
+      <name>Yi Chen</name>
+    </author>
+    <author>
+      <name>Sihong Xie</name>
+    </author>
+    <author>
+      <name>Hui Xiong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.06884v1</id>
+    <title>Learning Conformal Abstention Policies for Adaptive Risk Management in Large Language and Vision-Language Models</title>
+    <updated>2025-02-08T21:30:41Z</updated>
+    <link href="https://arxiv.org/abs/2502.06884v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.06884v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language and Vision-Language Models (LLMs/VLMs) are increasingly used in safety-critical applications, yet their opaque decision-making complicates risk assessment and reliability. Uncertainty quantification (UQ) helps assess prediction confidence and enables abstention when uncertainty is high. Conformal prediction (CP), a leading UQ method, provides statistical guarantees but relies on static thresholds, which fail to adapt to task complexity and evolving data distributions, leading to suboptimal trade-offs in accuracy, coverage, and informativeness. To address this, we propose learnable conformal abstention, integrating reinforcement learning (RL) with CP to optimize abstention thresholds dynamically. By treating CP thresholds as adaptive actions, our approach balances multiple objectives, minimizing prediction set size while maintaining reliable coverage. Extensive evaluations across diverse LLM/VLM benchmarks show our method outperforms Least Ambiguous Classifiers (LAC) and Adaptive Prediction Sets (APS), improving accuracy by up to 3.2%, boosting AUROC for hallucination detection by 22.19%, enhancing uncertainty-guided selective generation (AUARC) by 21.17%, and reducing calibration error by 70%-85%. These improvements hold across multiple models and datasets while consistently meeting the 90% coverage target, establishing our approach as a more effective and flexible solution for reliable decision-making in safety-critical applications. The code is available at: {https://github.com/sinatayebati/vlm-uncertainty}.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-08T21:30:41Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sina Tayebati</name>
+    </author>
+    <author>
+      <name>Divake Kumar</name>
+    </author>
+    <author>
+      <name>Nastaran Darabi</name>
+    </author>
+    <author>
+      <name>Dinithi Jayasuriya</name>
+    </author>
+    <author>
+      <name>Ranganath Krishnan</name>
+    </author>
+    <author>
+      <name>Amit Ranjan Trivedi</name>
+    </author>
+  </entry>
+</feed>

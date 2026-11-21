@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["36685084"],"translationset":[],"querytranslation":"\"10 3389 fnsyn 2022 1087042\"[Publisher ID]"}}

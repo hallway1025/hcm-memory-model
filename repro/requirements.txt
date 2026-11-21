@@ -1,0 +1,8 @@
+# HCM v1.2 一键复现环境依赖（版本钉死 = 本仓库 2026-11-20 实测可复现版本）
+# 核验基线：numpy 2.4.4 / matplotlib 3.11.2 / python-docx 1.2.0 / pypdf 7.0.0 / requests 2.33.1
+# Python 3.11+（本仓库实测 3.14.0；下限 3.11，3.12/3.13/3.14 均已实测可用）
+numpy==2.4.4
+matplotlib==3.11.2
+python-docx==1.2.0
+pypdf==7.0.0
+requests==2.33.1

@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kMBlmM81/6p3Xd6ofKUCrq050D0</id>
+  <title>arXiv Query: search_query=all:machine AND all:unlearning AND all:LLM AND all:agents AND submittedDate:"202401010000 TO 202612312359"&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-11-07T11:43:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:machine+AND+(all:unlearning+AND+(all:LLM+AND+(all:agents+AND+submittedDate:%22202401010000+TO+202612312359%22)))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.17659v1</id>
+    <title>Can Agents Truly Forget? Explore Machine Unlearning for LLM Agents</title>
+    <updated>2026-10-13T03:37:30Z</updated>
+    <link href="https://arxiv.org/abs/2610.17659v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.17659v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents have shown strong capabilities in interactive problem solving, tool use, and long-horizon task execution. However, they may also acquire sensitive or private knowledge during training and expose it during deployment. Retraining a model from scratch to remove such knowledge is prohibitively costly, making machine unlearning a more practical approach. Machine unlearning aims to remove targeted undesirable knowledge from trained models without retraining from scratch while preserving general utility. When language models are deployed as agents, parameter-level unlearning becomes insufficient: forgotten information may still persist in memory artifacts or be reacquired via tool calls. In this paper, we formulate the problem of agent unlearning as removing private information from an LLM-based agent across three information channels: parametric knowledge, persistent memory, and tool-call acquisition. To study this problem, we introduce we introduce Agent Unlearning Benchmark (AUBench), a controlled benchmark that extends the fictitious-author setting of TOFU into an agent environment with persistent memory, an offline web snapshot, tool-accessible documents, and provenance-tracked interaction trajectories. By evaluating existing parameter-level and memory-level unlearning methods in this setting, AUBench reveals the gap between model-level forgetting and system-level agent unlearning, and provides a foundation for developing unlearning methods that operate across the full lifecycle of LLM agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-13T03:37:30Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Junkai Lin</name>
+    </author>
+    <author>
+      <name>Ge Xu</name>
+    </author>
+    <author>
+      <name>Zheng Xu</name>
+    </author>
+    <author>
+      <name>Junkai Chen</name>
+    </author>
+    <author>
+      <name>Xiangyuan Lan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.17692v2</id>
+    <title>Agentic Unlearning: When LLM Agent Meets Machine Unlearning</title>
+    <updated>2026-02-28T03:08:09Z</updated>
+    <link href="https://arxiv.org/abs/2602.17692v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.17692v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we introduce \textbf{agentic unlearning} which removes specified information from both model parameters and persistent memory in agents with closed-loop interaction. Existing unlearning methods target parameters alone, leaving two critical gaps: (i) parameter-memory backflow, where retrieval reactivates parametric remnants or memory artifacts reintroduce sensitive content, and (ii) the absence of a unified strategy that covers both parameter and memory pathways. We present Synchronized Backflow Unlearning (SBU), a framework that unlearns jointly across parameter and memory pathways. The memory pathway performs dependency closure-based unlearning that prunes isolated entities while logically invalidating shared artifacts. The parameter pathway employs stochastic reference alignment to guide model outputs toward a high-entropy prior. These pathways are integrated via a synchronized dual-update protocol, forming a closed-loop mechanism where memory unlearning and parametric suppression reinforce each other to prevent cross-pathway recontamination. Experiments on medical QA benchmarks show that SBU reduces traces of targeted private information across both pathways with limited degradation on retained data.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T07:13:13Z</published>
+    <arxiv:comment>9 pages, 6 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bin Wang</name>
+    </author>
+    <author>
+      <name>Fan Wang</name>
+    </author>
+    <author>
+      <name>Pingping Wang</name>
+    </author>
+    <author>
+      <name>Jinyu Cong</name>
+    </author>
+    <author>
+      <name>Yang Yu</name>
+    </author>
+    <author>
+      <name>Yilong Yin</name>
+    </author>
+    <author>
+      <name>Zhongyi Han</name>
+    </author>
+    <author>
+      <name>Benzheng Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.15477v1</id>
+    <title>Towards Robust Evaluation of Unlearning in LLMs via Data Transformations</title>
+    <updated>2024-11-23T07:20:36Z</updated>
+    <link href="https://arxiv.org/abs/2411.15477v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.15477v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have shown to be a great success in a wide range of applications ranging from regular NLP-based use cases to AI agents. LLMs have been trained on a vast corpus of texts from various sources; despite the best efforts during the data pre-processing stage while training the LLMs, they may pick some undesirable information such as personally identifiable information (PII). Consequently, in recent times research in the area of Machine Unlearning (MUL) has become active, the main idea is to force LLMs to forget (unlearn) certain information (e.g., PII) without suffering from performance loss on regular tasks. In this work, we examine the robustness of the existing MUL techniques for their ability to enable leakage-proof forgetting in LLMs. In particular, we examine the effect of data transformation on forgetting, i.e., is an unlearned LLM able to recall forgotten information if there is a change in the format of the input? Our findings on the TOFU dataset highlight the necessity of using diverse data formats to quantify unlearning in LLMs more reliably.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-23T07:20:36Z</published>
+    <arxiv:comment>Accepted at EMNLP 2024 Findings; 21 pages (5 page main content + references + appendix)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Abhinav Joshi</name>
+    </author>
+    <author>
+      <name>Shaswati Saha</name>
+    </author>
+    <author>
+      <name>Divyaksh Shukla</name>
+    </author>
+    <author>
+      <name>Sriram Vema</name>
+    </author>
+    <author>
+      <name>Harsh Jhamtani</name>
+    </author>
+    <author>
+      <name>Manas Gaur</name>
+    </author>
+    <author>
+      <name>Ashutosh Modi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.13996v1</id>
+    <title>Beyond Single-Value Metrics: Evaluating and Enhancing LLM Unlearning with Cognitive Diagnosis</title>
+    <updated>2025-02-19T06:56:59Z</updated>
+    <link href="https://arxiv.org/abs/2502.13996v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.13996v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Due to the widespread use of LLMs and the rising critical ethical and safety concerns, LLM unlearning methods have been developed to remove harmful knowledge and undesirable capabilities. In this context, evaluations are mostly based on single-value metrics such as QA accuracy. However, these metrics often fail to capture the nuanced retention of harmful knowledge components, making it difficult to assess the true effectiveness of unlearning. To address this issue, we propose UNCD (UNlearning evaluation via Cognitive Diagnosis), a novel framework that leverages Cognitive Diagnosis Modeling for fine-grained evaluation of LLM unlearning. Our dedicated benchmark, UNCD-Cyber, provides a detailed assessment of the removal of dangerous capabilities. Moreover, we introduce UNCD-Agent, which refines unlearning by diagnosing knowledge remnants and generating targeted unlearning data. Extensive experiments across eight unlearning methods and two base models demonstrate that UNCD not only enhances evaluation but also effectively facilitates the removal of harmful LLM abilities.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-19T06:56:59Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yicheng Lang</name>
+    </author>
+    <author>
+      <name>Kehan Guo</name>
+    </author>
+    <author>
+      <name>Yue Huang</name>
+    </author>
+    <author>
+      <name>Yujun Zhou</name>
+    </author>
+    <author>
+      <name>Haomin Zhuang</name>
+    </author>
+    <author>
+      <name>Tianyu Yang</name>
+    </author>
+    <author>
+      <name>Yao Su</name>
+    </author>
+    <author>
+      <name>Xiangliang Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.15267v3</id>
+    <title>When Machine Unlearning Meets Retrieval-Augmented Generation (RAG): Keep Secret or Forget Knowledge?</title>
+    <updated>2026-07-16T14:27:01Z</updated>
+    <link href="https://arxiv.org/abs/2410.15267v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.15267v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The deployment of large language models (LLMs) like ChatGPT and Gemini has shown their powerful natural language generation capabilities. However, these models can inadvertently learn and retain sensitive information and harmful content during training, raising significant ethical and legal concerns. To address these issues, machine unlearning has been introduced as a potential solution. While existing unlearning methods take into account the specific characteristics of LLMs, they often suffer from high computational demands, limited applicability, or the risk of catastrophic forgetting. To address these limitations, we propose a lightweight behavioral unlearning framework based on Retrieval-Augmented Generation (RAG) technology. By modifying the external knowledge base of RAG, we simulate the effects of forgetting without directly interacting with the unlearned LLM. We approach the construction of unlearned knowledge as a constrained optimization problem, deriving two key components that underpin the effectiveness of RAG-based unlearning. This RAG-based approach is particularly effective for closed-source LLMs, where existing unlearning methods often fail. We evaluate our framework through extensive experiments on both open-source and closed-source models, including ChatGPT, Gemini, Llama-2-7b-chat, and PaLM 2. The results demonstrate that our approach meets five key unlearning criteria: effectiveness, universality, harmlessness, simplicity, and robustness. Meanwhile, this approach can extend to multimodal large language models and LLM-based agents.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-20T03:51:01Z</published>
+    <arxiv:comment>This paper is accepted by IEEE Transactions on Dependable and Secure Computing 2025. The source code is available at \url{https://github.com/shihe98/RAG_Unlearning}</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Shang Wang</name>
+    </author>
+    <author>
+      <name>Tianqing Zhu</name>
+    </author>
+    <author>
+      <name>Dayong Ye</name>
+    </author>
+    <author>
+      <name>Wanlei Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.26142v2</id>
+    <title>Simulating Novice Students Using Machine Unlearning and Relearning in Large Language Models</title>
+    <updated>2026-03-30T06:38:18Z</updated>
+    <link href="https://arxiv.org/abs/2603.26142v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.26142v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Student simulation can support learning-by-teaching pedagogy where human students (as tutors) teach AI-simulated novice students (as tutees). Recent research often relies on prompt engineering with large language models (LLMs) to simulate novice student behaviour, but it is difficult to keep the AI-simulated student at a stable novice knowledge level. A key reason is that many LLMs are trained to be broadly capable, so even when prompted to "act like a novice," the LLMs can still produce expert-level explanations during the learning-by-teaching interaction process. As a result, the AI-simulated student may drift beyond the intended knowledge level, reducing the credibility of the simulation for studying learning-by-teaching processes. Thus, we propose a knowledge-level simulation approach based on machine unlearning. We investigate this approach using a dataset of multiple-choice questions on Python programming concepts. We apply machine unlearning to transform a knowledgeable LLM into a novice-level AI student (i.e., teachable agent), then evaluate whether the teachable agent can relearn targeted knowledge components through learning-by-teaching dialogue interactions. Finally, we analyse the dialogue logs to characterise how the agent's behaviour changes over time, including its question asking, error patterns, and responsiveness to instruction. The results show that (1) unlearning produces simulated student agents with more novice-like responses than prompt-only baselines, (2) the agents recover a measurable portion of the unlearned knowledge under structured exposure, and (3) dialogue analyses reveal identifiable trajectories of conceptual change and teaching moves that predict learning recovery.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-27T07:51:54Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Jiajia Song</name>
+    </author>
+    <author>
+      <name>Zhihan Guo</name>
+    </author>
+    <author>
+      <name>Jionghao Lin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.01639v4</id>
+    <title>Moral Alignment for LLM Agents</title>
+    <updated>2025-05-11T19:14:09Z</updated>
+    <link href="https://arxiv.org/abs/2410.01639v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.01639v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Decision-making agents based on pre-trained Large Language Models (LLMs) are increasingly being deployed across various domains of human activity. While their applications are currently rather specialized, several research efforts are underway to develop more generalist agents. As LLM-based systems become more agentic, their influence on human activity will grow and their transparency will decrease. Consequently, developing effective methods for aligning them to human values is vital.
+  The prevailing practice in alignment often relies on human preference data (e.g., in RLHF or DPO), in which values are implicit, opaque and are essentially deduced from relative preferences over different model outputs. In this work, instead of relying on human feedback, we introduce the design of reward functions that explicitly and transparently encode core human values for Reinforcement Learning-based fine-tuning of foundation agent models. Specifically, we use intrinsic rewards for the moral alignment of LLM agents.
+  We evaluate our approach using the traditional philosophical frameworks of Deontological Ethics and Utilitarianism, quantifying moral rewards for agents in terms of actions and consequences on the Iterated Prisoner's Dilemma (IPD) environment. We also show how moral fine-tuning can be deployed to enable an agent to unlearn a previously developed selfish strategy. Finally, we find that certain moral strategies learned on the IPD game generalize to several other matrix game environments. In summary, we demonstrate that fine-tuning with intrinsic rewards is a promising general solution for aligning LLM agents to human values, and it might represent a more transparent and cost-effective alternative to currently predominant alignment techniques.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-02T15:09:36Z</published>
+    <arxiv:comment>Published at the 13th International Conference on Learning Representations (ICLR'25), Singapore, Apr 2025. https://openreview.net/forum?id=MeGDmZjUXy</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Elizaveta Tennant</name>
+    </author>
+    <author>
+      <name>Stephen Hailes</name>
+    </author>
+    <author>
+      <name>Mirco Musolesi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.01047v2</id>
+    <title>LLM Ghostbusters: Surgical Package Hallucination Suppression via Adaptive Unlearning</title>
+    <updated>2026-09-21T21:37:37Z</updated>
+    <link href="https://arxiv.org/abs/2605.01047v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.01047v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hallucinations remain an unsolved problem for LLMs, and package hallucinations are a particularly dangerous instance of this phenomenon. Package hallucinations occur during code generation when a model fabricates non-existent software packages, recommending imports and installation commands for fictional libraries. This creates a critical supply-chain vulnerability; an attacker can proactively register such packages on public registries with malicious payloads that are subsequently installed and executed by developers or autonomous agents. These hallucinations enable a class of package confusion attack known as slopsquatting. To address this issue, we present Adaptive Unlearning (AU), a post-deployment framework that surgically suppresses package hallucinations while preserving general model utility. AU introduces a hybrid token-level objective that simultaneously reinforces valid outputs and suppresses hallucinated ones. Combined with an adaptive discovery loop that continuously surfaces new hallucination-inducing contexts without human supervision, AU enables generalization to unseen prompts and hallucinations. We demonstrate that AU reduces package hallucination rates by 88%, while maintaining performance on standard coding benchmarks. Our analysis shows that distributional changes are concentrated on package-related generations, leaving general coding behavior largely unaffected and confirming that AU's effect is isolated to the targeted distribution. AU relies entirely on model-generated data and requires no human annotation, representing a post-deployment hallucination mitigation framework.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-01T19:20:31Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Joseph Spracklen</name>
+    </author>
+    <author>
+      <name>Pedram Aghazadeh</name>
+    </author>
+    <author>
+      <name>Farinaz Koushanfar</name>
+    </author>
+    <author>
+      <name>Murtuza Jadliwala</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.20965v2</id>
+    <title>AegisLLM: Scaling Agentic Systems for Self-Reflective Defense in LLM Security</title>
+    <updated>2025-06-13T22:43:06Z</updated>
+    <link href="https://arxiv.org/abs/2504.20965v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.20965v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce AegisLLM, a cooperative multi-agent defense against adversarial attacks and information leakage. In AegisLLM, a structured workflow of autonomous agents - orchestrator, deflector, responder, and evaluator - collaborate to ensure safe and compliant LLM outputs, while self-improving over time through prompt optimization. We show that scaling agentic reasoning system at test-time - both by incorporating additional agent roles and by leveraging automated prompt optimization (such as DSPy)- substantially enhances robustness without compromising model utility. This test-time defense enables real-time adaptability to evolving attacks, without requiring model retraining. Comprehensive evaluations across key threat scenarios, including unlearning and jailbreaking, demonstrate the effectiveness of AegisLLM. On the WMDP unlearning benchmark, AegisLLM achieves near-perfect unlearning with only 20 training examples and fewer than 300 LM calls. For jailbreaking benchmarks, we achieve 51% improvement compared to the base model on StrongReject, with false refusal rates of only 7.9% on PHTest compared to 18-55% for comparable methods. Our results highlight the advantages of adaptive, agentic reasoning over static defenses, establishing AegisLLM as a strong runtime alternative to traditional approaches based on model modifications. Code is available at https://github.com/zikuicai/aegisllm</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-29T17:36:05Z</published>
+    <arxiv:comment>ICLR 2025 Workshop BuildingTrust</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zikui Cai</name>
+    </author>
+    <author>
+      <name>Shayan Shabihi</name>
+    </author>
+    <author>
+      <name>Bang An</name>
+    </author>
+    <author>
+      <name>Zora Che</name>
+    </author>
+    <author>
+      <name>Brian R. Bartoldson</name>
+    </author>
+    <author>
+      <name>Bhavya Kailkhura</name>
+    </author>
+    <author>
+      <name>Tom Goldstein</name>
+    </author>
+    <author>
+      <name>Furong Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.25198v2</id>
+    <title>Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty</title>
+    <updated>2026-07-01T17:23:10Z</updated>
+    <link href="https://arxiv.org/abs/2606.25198v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.25198v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous AI Research promises to accelerate the scientific progress of machine learning. To realise this goal, current Large Language Model (LLM)-based agents need to go beyond just writing code, to mastering the exploration of simultaneously performant, diverse and novel ideas. To this end, we introduce Heuresis, a framework that abstracts the research pipeline into a set of general and composable primitives, enabling open-ended scientific exploration in machine learning research. We implement six search strategies: a greedy baseline, two archive-based (MAP-Elites, Go-Explore), one evolutionary (Islands), and two divergent (Curiosity, Omni), and evaluate them across three axes (Quality, Diversity, and Novelty) on three domains (LLM Pretraining, On-Policy RL, and Model Unlearning), totalling 3,222 scored runs. We find that completely novel ideas are rare. No idea across our scored runs is rated as "Original", and only a few achieve only "Minor Similarity" to prior work. Moreover, novel ideas never approach the highest-performing known-recipe scores. Across all six strategies and three domains, only one such idea lands in the top-10 by quality. We also observed agents resorting to a variety of reward-hacking techniques during execution (40 confirmed fabrications across 1,628 scored runs), and detecting them was necessary to keep the search faithful to the task. Our results show that while current search and Quality-Diversity strategies enable us to steer where the generated ideas land on the quality, diversity, and novelty axes, they do not expand the quality-novelty frontier. Bridging this gap is the open challenge towards the ultimate goal of perpetual, autonomous scientific progress. Code is available at github.com/a-antoniades/Heuresis.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-23T21:44:08Z</published>
+    <arxiv:comment>14 pages main text, 82 pages total including appendix; 38 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Antonis Antoniades</name>
+    </author>
+    <author>
+      <name>Deepak Nathani</name>
+    </author>
+    <author>
+      <name>Ritam Saha</name>
+    </author>
+    <author>
+      <name>Alfonso Amayuelas</name>
+    </author>
+    <author>
+      <name>Ivan Bercovich</name>
+    </author>
+    <author>
+      <name>Zhaotian Weng</name>
+    </author>
+    <author>
+      <name>Vignesh Baskaran</name>
+    </author>
+    <author>
+      <name>Kunal Bhatia</name>
+    </author>
+    <author>
+      <name>William Yang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.11270v1</id>
+    <title>TAIJI: MCP-based Multi-Modal Data Analytics on Data Lakes</title>
+    <updated>2025-05-16T14:03:30Z</updated>
+    <link href="https://arxiv.org/abs/2505.11270v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.11270v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The variety of data in data lakes presents significant challenges for data analytics, as data scientists must simultaneously analyze multi-modal data, including structured, semi-structured, and unstructured data. While Large Language Models (LLMs) have demonstrated promising capabilities, they still remain inadequate for multi-modal data analytics in terms of accuracy, efficiency, and freshness. First, current natural language (NL) or SQL-like query languages may struggle to precisely and comprehensively capture users' analytical intent. Second, relying on a single unified LLM to process diverse data modalities often leads to substantial inference overhead. Third, data stored in data lakes may be incomplete or outdated, making it essential to integrate external open-domain knowledge to generate timely and relevant analytics results.
+  In this paper, we envision a new multi-modal data analytics system. Specifically, we propose a novel architecture built upon the Model Context Protocol (MCP), an emerging paradigm that enables LLMs to collaborate with knowledgeable agents. First, we define a semantic operator hierarchy tailored for querying multi-modal data in data lakes and develop an AI-agent-powered NL2Operator translator to bridge user intent and analytical execution. Next, we introduce an MCP-based execution framework, in which each MCP server hosts specialized foundation models optimized for specific data modalities. This design enhances both accuracy and efficiency, while supporting high scalability through modular deployment. Finally, we propose a updating mechanism by harnessing the deep research and machine unlearning techniques to refresh the data lakes and LLM knowledges, with the goal of balancing the data freshness and inference efficiency.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-16T14:03:30Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Chao Zhang</name>
+    </author>
+    <author>
+      <name>Shaolei Zhang</name>
+    </author>
+    <author>
+      <name>Quehuan Liu</name>
+    </author>
+    <author>
+      <name>Sibei Chen</name>
+    </author>
+    <author>
+      <name>Tong Li</name>
+    </author>
+    <author>
+      <name>Ju Fan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.25992v3</id>
+    <title>Supervised Reinforcement Learning: From Expert Trajectories to Step-wise Reasoning</title>
+    <updated>2026-02-27T02:22:22Z</updated>
+    <link href="https://arxiv.org/abs/2510.25992v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.25992v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) often struggle with problems that require multi-step reasoning. For small-scale open-source models, Reinforcement Learning with Verifiable Rewards (RLVR) fails when correct solutions are rarely sampled even after many attempts, while Supervised Fine-Tuning (SFT) tends to overfit long demonstrations through rigid token-by-token imitation. To address this gap, we propose Supervised Reinforcement Learning (SRL), a framework that reformulates problem solving as generating a sequence of logical "actions". SRL trains the model to generate an internal reasoning monologue before committing to each action. It provides smoother rewards based on the similarity between the model's actions and expert actions extracted from the SFT dataset in a step-wise manner. This supervision offers richer learning signals even when all rollouts are incorrect, while encouraging flexible reasoning guided by expert demonstrations. As a result, SRL enables small models to learn challenging problems previously unlearnable by SFT or RLVR. Moreover, initializing training with SRL before refining with RLVR yields the strongest overall performance. Beyond reasoning benchmarks, SRL generalizes effectively to agentic software engineering tasks, establishing it as a robust and versatile training framework for reasoning-oriented LLMs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-29T22:05:08Z</published>
+    <arxiv:comment>Paper accepted by ICLR 2026. The first two authors contribute equally</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yihe Deng</name>
+    </author>
+    <author>
+      <name>I-Hung Hsu</name>
+    </author>
+    <author>
+      <name>Jun Yan</name>
+    </author>
+    <author>
+      <name>Zifeng Wang</name>
+    </author>
+    <author>
+      <name>Rujun Han</name>
+    </author>
+    <author>
+      <name>Gufeng Zhang</name>
+    </author>
+    <author>
+      <name>Yanfei Chen</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+    <author>
+      <name>Tomas Pfister</name>
+    </author>
+    <author>
+      <name>Chen-Yu Lee</name>
+    </author>
+  </entry>
+</feed>

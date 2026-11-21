@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/f2HWRWFhfPkUU4uFaeZdaHZ+ObU</id>
+  <title>arXiv Query: search_query=all:product AND all:key AND all:memory&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T13:50:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:product+AND+(all:key+AND+all:memory)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>453</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00671v2</id>
+    <title>Fast-weight Product Key Memory</title>
+    <updated>2026-02-22T06:35:55Z</updated>
+    <link href="https://arxiv.org/abs/2601.00671v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.00671v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sequence modeling layers in modern language models typically face a trade-off between storage capacity and computational efficiency. While softmax attention offers unbounded storage at prohibitive quadratic cost, linear variants are more efficient but suffer from limited, fixed-size storage. We introduce Fast-weight Product Key Memory (FwPKM), a sparse fast-weight memory layer that resolves this tension. FwPKM updates sparsely activated parameters at both training and inference time using chunk-level gradient descent on a local memory-rewrite objective. This performs Test-Time Training (TTT)-style gradient updates on activated slots in a sparse memory, enabling rapid memorization and retrieval of many new key-value associations while keeping per-token compute low and fixed. Experiments show that FwPKM functions as an effective episodic memory that complements the semantic memory of standard modules, yielding significant perplexity reductions on long-context datasets. Notably, in Needle-in-a-Haystack evaluations, FwPKM generalizes to 128K-token contexts despite being trained on only 4K-token sequences.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-02T12:37:53Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tianyu Zhao</name>
+    </author>
+    <author>
+      <name>Llion Jones</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.05242v2</id>
+    <title>Large Memory Layers with Product Keys</title>
+    <updated>2019-12-16T03:46:57Z</updated>
+    <link href="https://arxiv.org/abs/1907.05242v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.05242v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces a structured memory which can be easily integrated into a neural network. The memory is very large by design and significantly increases the capacity of the architecture, by up to a billion parameters with a negligible computational overhead. Its design and access pattern is based on product keys, which enable fast and exact nearest neighbor search. The ability to increase the number of parameters while keeping the same computational budget lets the overall system strike a better trade-off between prediction accuracy and computation efficiency both at training and test time. This memory layer allows us to tackle very large scale language modeling tasks. In our experiments we consider a dataset with up to 30 billion words, and we plug our memory layer in a state-of-the-art transformer-based architecture. In particular, we found that a memory augmented model with only 12 layers outperforms a baseline transformer model with 24 layers, while being twice faster at inference time. We release our code for reproducibility purposes.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-10T14:52:12Z</published>
+    <arxiv:comment>Advances in Neural Information Processing Systems, 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Guillaume Lample</name>
+    </author>
+    <author>
+      <name>Alexandre Sablayrolles</name>
+    </author>
+    <author>
+      <name>Marc'Aurelio Ranzato</name>
+    </author>
+    <author>
+      <name>Ludovic Denoyer</name>
+    </author>
+    <author>
+      <name>Hervé Jégou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.03881v1</id>
+    <title>Large Product Key Memory for Pretrained Language Models</title>
+    <updated>2020-10-08T10:19:50Z</updated>
+    <link href="https://arxiv.org/abs/2010.03881v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.03881v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Product key memory (PKM) proposed by Lample et al. (2019) enables to improve prediction accuracy by increasing model capacity efficiently with insignificant computational overhead. However, their empirical application is only limited to causal language modeling. Motivated by the recent success of pretrained language models (PLMs), we investigate how to incorporate large PKM into PLMs that can be finetuned for a wide variety of downstream NLP tasks. We define a new memory usage metric, and careful observation using this metric reveals that most memory slots remain outdated during the training of PKM-augmented models. To train better PLMs by tackling this issue, we propose simple but effective solutions: (1) initialization from the model weights pretrained without memory and (2) augmenting PKM by addition rather than replacing a feed-forward network. We verify that both of them are crucial for the pretraining of PKM-augmented PLMs, enhancing memory utilization and downstream performance. Code and pretrained weights are available at https://github.com/clovaai/pkm-transformers.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-08T10:19:50Z</published>
+    <arxiv:comment>Accepted to Findings of EMNLP 2020; 10 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Gyuwan Kim</name>
+    </author>
+    <author>
+      <name>Tae-Hwan Jung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.28048v1</id>
+    <title>AI Hardware Accelerators for Large Language Models: Architectures and the Memory Wall</title>
+    <updated>2026-08-28T08:10:01Z</updated>
+    <link href="https://arxiv.org/abs/2608.28048v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.28048v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) place unprecedented and still-growing demands on the hardware that trains and serves them. This review surveys the full landscape of AI hardware accelerators for LLMs, including general-purpose GPUs, custom ASICs such as TPUs, Trainium, Groq, and Cerebras, reconfigurable FPGAs, processing-in-memory and near-memory architectures, and emerging neuromorphic and photonic approaches across cloud and edge deployment. Using the transformer's computational structure and roofline analysis as a common framework, we show that the decisive constraint on LLM acceleration is not arithmetic but memory: the autoregressive decode phase is bandwidth-bound, the key-value cache can rival the model weights in size, and data movement dominates energy. Comparing platforms on compute, memory, energy, programmability, and scalability, we find that no single architecture is optimal across workloads: GPUs remain the flexible default and the workhorse of training; domain-specific ASICs win at scale for stable, high-volume workloads; processing-in-memory is the most promising near-term response to the memory wall, entering systems as a heterogeneous complement; and neuromorphic and photonic computing, while promising, are not yet production-ready at frontier scale. Future progress depends on hardware-algorithm co-design and heterogeneous, memory-centric systems: for large language models, the memory system has become the computer.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-28T08:10:01Z</published>
+    <arxiv:comment>Review/survey article on AI hardware accelerators for large language models; compares GPUs, ASICs, FPGAs, processing-in-memory/near-memory, neuromorphic, and photonic architectures</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Siddharth Patel</name>
+    </author>
+    <author>
+      <name>Rohit Singh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.8016v2</id>
+    <title>Measurement-device-independent quantum key distribution with ensemble-based memories</title>
+    <updated>2014-11-25T12:11:17Z</updated>
+    <link href="https://arxiv.org/abs/1407.8016v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.8016v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum memories are enabling devices for extending the reach of quantum key distribution (QKD) systems. The required specifications for memories are, however, often considered too demanding for available technologies. One can change this mindset by introducing memory-assisted measurement-device-independent QKD (MDI-QKD), which imposes less stringent conditions on the memory modules. It has been shown that, in the case of {\em fast} single-qubit memories, we can reach rates and distances not attainable by single no-memory QKD links. Single-qubit memories, such as single atoms or ions, have, currently, too slow of an access time to offer an advantage in practice. Here, we relax that assumption, and consider ensemble-based memories, which satisfy the main two requirements of having short access times and large storage-bandwidth products. Our results, however, suggest that the multiple-excitation effects in such memories can be so detrimental that they may wash away the scaling improvement offered by memory-equipped systems. We then propose an alternative setup that can in principle remedy the above problem. As a prelude to our main problem, we also obtain secret key generation rates for MDI-QKD systems that rely on imperfect single-photon sources with nonzero probabilities of emitting two photons.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-30T12:14:03Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>IEEE Journal of Selected Topics in Quantum Electronics, 21:6601010, May/June 2015</arxiv:journal_ref>
+    <author>
+      <name>Nicoló Lo Piparo</name>
+    </author>
+    <author>
+      <name>Mohsen Razavi</name>
+    </author>
+    <author>
+      <name>Christiana Panayi</name>
+    </author>
+    <arxiv:doi>10.1109/JSTQE.2014.2377651</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/JSTQE.2014.2377651" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.06240v1</id>
+    <title>TOKI: A Bitemporal Operator Algebra for Contradiction Resolution in LLM-Agent Persistent Memory</title>
+    <updated>2026-06-04T14:46:52Z</updated>
+    <link href="https://arxiv.org/abs/2606.06240v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.06240v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Persistent memory for an LLM agent is a write-heavy substrate: every belief update is a versioned write, and a new claim may contradict a stored one. Production systems use four resolution heuristics (last-writer-wins, evidence-weighted merge, await-confirmation, per-rule policy), yet none declares the isolation level it assumes or the write-time anomalies it admits. We show that contradiction resolution is write-time concurrency control and make the missing contract explicit. TOKI types the four heuristics as one family of bitemporal operators over a dual-row schema, each with an isolation precondition and a provenance annotation that preserves the losing fact in an audit row. Four soundness theorems close the contract across isolation, schema, and provenance, lift the guarantees to operator pipelines, and extend the fold operators to n-ary conflict sets. A tightness companion proves that, within the relational schedule model, keyed logging of the adjudicating judge is necessary for replay consistency, which every audited baseline omits. A verdict matrix over eight systems localizes the gap: every baseline that keeps a language-model judge on the write path admits at least one of three write-time anomalies (replay inconsistency, belief-drift skew, audit erasure); a content-addressed engine-layer comparator avoids them only by removing the judge, and TOKI alone excludes all three while keeping it. On its one natural-workload slice the audit-row defence moves LoCoMo by 0.86, and ablating the typed memory layer removes 0.49 accuracy on 1,444 answerable LoCoMo questions; the cross-system comparison stays underpowered and claims no superiority. The contribution is the contract: a write-time correctness specification, proved sound across isolation, schema, and provenance, pinning the guarantee every production heuristic assumes but no deployed system makes explicit.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-04T14:46:52Z</published>
+    <arxiv:comment>43 pages including full appendices (proofs, protocols, and reproducibility ledger). Code, data, and reproducibility artifact: https://github.com/ZenAlexa/toki-bitemporal-memory</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Ziming Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.24330v2</id>
+    <title>Interdomain Attention: Beyond Token-Level Key-Value Memory</title>
+    <updated>2026-10-20T11:41:39Z</updated>
+    <link href="https://arxiv.org/abs/2605.24330v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.24330v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Softmax attention-based transformers and recurrent memory-based models (e.g., state space models (SSMs)) form the foundation of modern sequence models. Hybrid architectures aim to combine the expressivity from attention and the computational efficiency from recurrent memory, yet so far common practices simply stack both attention and recurrent layers. We propose Interdomain Attention (IA) as a novel hybrid attention architecture that mixes attention and recurrent memory in the same layer. Motivated by a kernel regression view of softmax attention, IA compresses values and kernel features of keys into a recurrent memory parameterized by an SSM. Then IA approximates dot-product attention by implicitly reconstructing the attention matrix and values from memory states; importantly this construction maintains SSM's computational efficiency advantage. We demonstrate IA's efficacy by designing and pre-training IA network architectures, where ablation studies identify attention-like readout as the primary source of gain over SSMs. Across 125M-1.3B models pre-trained on text data, IA improves over an S4D baseline at matched memory size. It also outperforms softmax attention-based Transformer in perplexity and accuracy on common-sense reasoning tasks. Based on Caduceus backbone, IA matches or outperforms the original SSM-based architecture in both perplexity and downstream tasks on genomic data.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-23T01:18:00Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Naoki Kiyohara</name>
+    </author>
+    <author>
+      <name>Harrison Bo Hua Zhu</name>
+    </author>
+    <author>
+      <name>Riccardo El Hassanin</name>
+    </author>
+    <author>
+      <name>Zhuo Sun</name>
+    </author>
+    <author>
+      <name>Wenlong Chen</name>
+    </author>
+    <author>
+      <name>Samir Bhatt</name>
+    </author>
+    <author>
+      <name>Yingzhen Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.07814v1</id>
+    <title>Memory-assisted quantum key distribution resilient against multiple-excitation effects</title>
+    <updated>2017-07-25T05:15:54Z</updated>
+    <link href="https://arxiv.org/abs/1707.07814v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.07814v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory-assisted quantum key distribution (MA-QKD) has recently been proposed as a technique to improve the rate-versus-distance behavior of QKD systems by using existing, or nearly-achievable, quantum technologies. The promise is that MA-QKD would require less demanding quantum memories than the ones needed for probabilistic quantum repeaters. Nevertheless, early investigations suggest that, in order to beat the conventional no-memory QKD schemes, the quantum memories used in the MA-QKD protocols must have high bandwidth-storage products and short interaction times. Among different types of quantum memories, ensemble-based memories offer some of the required specifications, but they typically suffer from multiple excitation effects. To avoid the latter issue, in this paper, we propose two new variants of MA-QKD both relying on single-photon sources (SPSs) for entangling purposes. One is based on known techniques for entanglement distribution in quantum repeaters. This scheme turns out to offer no advantage even if one uses ideal SPSs. By finding the root cause of the problem, we then propose another setup, which can outperform single no-QM setups even if we allow for some imperfections in our SPSs. For such a scheme, we compare the key rate for different types of ensemble-based memories and show that certain classes of atomic ensembles can improve the rate-versus-distance behavior.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-25T05:15:54Z</published>
+    <arxiv:comment>33 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Nicolo Lo Piparo</name>
+    </author>
+    <author>
+      <name>Neil Sinclair</name>
+    </author>
+    <author>
+      <name>Mohsen Razavi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.09208v1</id>
+    <title>Shift-Accumulate Attention: Multiplier-Free Query--Key Products for Transformer Decoding</title>
+    <updated>2026-09-05T21:14:28Z</updated>
+    <link href="https://arxiv.org/abs/2609.09208v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.09208v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Power-of-two (PoT) quantisation turns a multiplication into a bit shift, so far only for the post-softmax attention--value product. The earlier and larger product, S=QK^T, has not been reformulated the same way. We quantise the key cache to a signed power-of-two fixed-point code, so that every scalar multiplication in QK^T becomes a sign flip, a bit shift and an integer accumulation. A fixed-point head-room F&gt;= e_max turns every shift index r=F-e into a non-negative left shift, making the accumulation exact in integer arithmetic. We add a sub-power mantissa extension that halves the score error for one extra shift-add, a shift-exact online softmax whose running maximum lives in an integer log2 domain so that every rescaling is itself an exact shift, and a log-quantised AV product.
+  Fused CUDA kernels in a 1.1B Llama decoder on an RTX 4090: at B=8, T=32k the 4-bit kernel is 4.60x faster than FP16 scaled dot-product attention with a 2.5x smaller KV cache, and batched decoding crosses over at B=64 to 1.22x FP16 throughput at 11.02 against 13.77 GB peak memory. A matched INT8 multiply--accumulate kernel on the same tiling reaches 5.29x: on a GPU with a hardware 4-way INT8 dot product, shift-accumulate is not faster than the MAC it replaces. An iso-storage control--an 8-bit shift code of exactly one byte per key, run through the identical kernel--prices the arithmetic substitution alone at 2.02x at comparable accuracy. The advantage of the PoT representation is therefore its density and the removal of the multiplier, not raw GPU throughput. A sweep over exponent width, mantissa levels, granularity and rounding gives the design lesson: nearest-PoT relative error is scale-free, so extra exponent bits buy nothing (eps_S=0.1302 at 3, 4 and 5 bits) and accuracy must come from mantissa terms.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-05T21:14:28Z</published>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Khubaib Ahmed</name>
+    </author>
+    <author>
+      <name>Amna Noor</name>
+    </author>
+    <author>
+      <name>Ahsan Ul haq</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.10155v1</id>
+    <title>LOOKAT: Lookup-Optimized Key-Attention for Memory-Efficient Transformers</title>
+    <updated>2026-01-15T07:54:07Z</updated>
+    <link href="https://arxiv.org/abs/2601.10155v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.10155v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Compressing the KV cache is a required step to deploy large language models on edge devices. Current quantization methods compress storage but fail to reduce bandwidth as attention calculation requires dequantizing keys from INT4/INT8 to FP16 before use. We observe that attention scoring is mathematically equivalent to the inner product similarity search and we can apply some compression techniques from vector databases to compress KV-cache better. We propose LOOKAT, which applies product quantization and asymmetric distance computation, to transformer architecture by decomposing key vectors into subspaces, learning codebooks and computing attention tables via lookup tables. This transforms attention from memory-bound to compute-bound. LOOKAT achieves 64 $\times$ compression at 95.7\% output fidelity and 32 $\times$ compression at 95.0\% fidelity when tested on GPT-2. LOOKAT requires no architecture changes or training while maintaining rank correlation $ρ&gt; 0.95$. Theoretical analysis confirms that rank correlation degrades as $O(d_k/mK)$, with guarantees validated across sequence lengths up to 1024 tokens.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-15T07:54:07Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aryan Karmore</name>
+    </author>
+  </entry>
+</feed>

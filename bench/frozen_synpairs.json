@@ -1,0 +1,552 @@
+{
+  "asset": "frozen_synpairs",
+  "version": "1-rev2",
+  "frozen_at": "2026-11-07T10:34:17+00:00",
+  "author": "opt-verify (fresh F2/F3 verification agent)",
+  "purpose": "F3 semantic-gain probe: >=20 dedup near-synonym text pairs, tagged shared/zero-shared chars, OOV coverage vs full-train vocab; plus 24 hand-checked unrelated pairs as noise baseline. All texts authored by the agent (not copied from corpus). Hard zero-shared pairs frozen BEFORE any evaluation; must not be removed after seeing results.",
+  "rule": {
+    "clean": "remove [..] markers (regex \\[[^\\]]{1,8}\\]) + all whitespace",
+    "shared_char": "set(a) & set(b) nonempty",
+    "oov": "char not in full-train cleaned char vocab (vocab size 4729, incl U+FFFD)",
+    "dedup": "all 72 texts distinct"
+  },
+  "corpus_sha256": {
+    "train__peer-01.csv": "4940a20bbd342d91b22c606ff65cdd39b3b7ac8011c35a49e3ec6d0cf6ff731e",
+    "train___.csv": "e33bf6c9124f212f288f22e5ca05915a730ad3c7c1ce151b73f1ed153e9fb6ab",
+    "train__group-01.csv": "a2b3f3cfc591ac8160fe4d9475dc7360590a3ccb781cfd37c6b8ccb3d2b29ffe",
+    "train__group-04.csv": "0b1696d561bd72f8e23264d619eb03227017c168852be2dcb0ffa73c189135f9"
+  },
+  "stats": {
+    "n_synonym_pairs": 24,
+    "n_zero_shared": 14,
+    "n_shared_char": 10,
+    "pairs_with_any_oov": 0,
+    "oov_chars_union": [],
+    "oov_char_count": 0,
+    "pair_char_count": 98
+  },
+  "eval_plan_frozen": "Same sample compared on NEW256 vs R256: (1) frontend input cosine cos(emb(a),emb(b)); (2) HCM code cosine - fresh small HCM (same hyperparams beta=100,L=3,lam=1,use_resid=False,do_rif=False, capacity=10,d_c=d_x) observe a then b, cos(M[:,0],M[:,1]); (3) same two metrics on unrelated pairs as baseline. 3 seeds = HCM seed in {0,1,2}; encoder seeds fixed.",
+  "pairs": [
+    {
+      "pid": 0,
+      "kind": "synonym",
+      "a": "谢谢",
+      "b": "感谢",
+      "shared_chars": [
+        "谢"
+      ],
+      "zero_shared": false,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 1,
+      "kind": "synonym",
+      "a": "你好",
+      "b": "您好",
+      "shared_chars": [
+        "好"
+      ],
+      "zero_shared": false,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 2,
+      "kind": "synonym",
+      "a": "再见",
+      "b": "拜拜",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 3,
+      "kind": "synonym",
+      "a": "对不起",
+      "b": "抱歉",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 4,
+      "kind": "synonym",
+      "a": "多少钱",
+      "b": "啥价格",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 5,
+      "kind": "synonym",
+      "a": "等一下",
+      "b": "稍候",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 6,
+      "kind": "synonym",
+      "a": "睡觉了",
+      "b": "就寝",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 7,
+      "kind": "synonym",
+      "a": "吃饭去吧",
+      "b": "该用餐了",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 8,
+      "kind": "synonym",
+      "a": "没关系",
+      "b": "不碍事",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 9,
+      "kind": "synonym",
+      "a": "知道了",
+      "b": "收到",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 10,
+      "kind": "synonym",
+      "a": "很开心",
+      "b": "好高兴",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 11,
+      "kind": "synonym",
+      "a": "晚安",
+      "b": "好梦",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 12,
+      "kind": "synonym",
+      "a": "吃饭了吗",
+      "b": "吃过饭没",
+      "shared_chars": [
+        "吃",
+        "饭"
+      ],
+      "zero_shared": false,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 13,
+      "kind": "synonym",
+      "a": "什么意思",
+      "b": "啥意思",
+      "shared_chars": [
+        "思",
+        "意"
+      ],
+      "zero_shared": false,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 14,
+      "kind": "synonym",
+      "a": "我明白了",
+      "b": "我懂了",
+      "shared_chars": [
+        "了",
+        "我"
+      ],
+      "zero_shared": false,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 15,
+      "kind": "synonym",
+      "a": "别难过",
+      "b": "想开点",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 16,
+      "kind": "synonym",
+      "a": "行吧",
+      "b": "可以呀",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 17,
+      "kind": "synonym",
+      "a": "今天天气怎么样",
+      "b": "今天天气如何",
+      "shared_chars": [
+        "今",
+        "天",
+        "气"
+      ],
+      "zero_shared": false,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 18,
+      "kind": "synonym",
+      "a": "一起吃晚饭吗",
+      "b": "约饭吗",
+      "shared_chars": [
+        "吗",
+        "饭"
+      ],
+      "zero_shared": false,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 19,
+      "kind": "synonym",
+      "a": "多谢啦",
+      "b": "感恩",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 20,
+      "kind": "synonym",
+      "a": "你太棒了",
+      "b": "你真厉害",
+      "shared_chars": [
+        "你"
+      ],
+      "zero_shared": false,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 21,
+      "kind": "synonym",
+      "a": "我很累",
+      "b": "我疲惫不堪",
+      "shared_chars": [
+        "我"
+      ],
+      "zero_shared": false,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 22,
+      "kind": "synonym",
+      "a": "明天见",
+      "b": "明日再会",
+      "shared_chars": [
+        "明"
+      ],
+      "zero_shared": false,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 23,
+      "kind": "synonym",
+      "a": "帮个忙",
+      "b": "施以援手",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    }
+  ],
+  "unrelated_pairs": [
+    {
+      "pid": 100,
+      "kind": "unrelated",
+      "a": "谢谢",
+      "b": "明天下雨",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 101,
+      "kind": "unrelated",
+      "a": "你好",
+      "b": "这道题很难",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 102,
+      "kind": "unrelated",
+      "a": "再见",
+      "b": "电脑开机了",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 103,
+      "kind": "unrelated",
+      "a": "对不起",
+      "b": "我喜欢打球",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 104,
+      "kind": "unrelated",
+      "a": "多少钱",
+      "b": "窗外很吵",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 105,
+      "kind": "unrelated",
+      "a": "等一下",
+      "b": "那里风景不错",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 106,
+      "kind": "unrelated",
+      "a": "睡觉了",
+      "b": "键盘坏了",
+      "shared_chars": [
+        "了"
+      ],
+      "zero_shared": false,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 107,
+      "kind": "unrelated",
+      "a": "吃饭去吧",
+      "b": "他跑步很快",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 108,
+      "kind": "unrelated",
+      "a": "没关系",
+      "b": "停车场满了",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 109,
+      "kind": "unrelated",
+      "a": "知道了",
+      "b": "文件已经发给你",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 110,
+      "kind": "unrelated",
+      "a": "很开心",
+      "b": "手机没电了",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 111,
+      "kind": "unrelated",
+      "a": "晚安",
+      "b": "这家店很贵",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 112,
+      "kind": "unrelated",
+      "a": "吃饭了吗",
+      "b": "猫在睡觉",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 113,
+      "kind": "unrelated",
+      "a": "什么意思",
+      "b": "地铁到站了",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 114,
+      "kind": "unrelated",
+      "a": "我明白了",
+      "b": "药已经吃了",
+      "shared_chars": [
+        "了"
+      ],
+      "zero_shared": false,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 115,
+      "kind": "unrelated",
+      "a": "别难过",
+      "b": "密码改掉了",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 116,
+      "kind": "unrelated",
+      "a": "行吧",
+      "b": "楼下在施工",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 117,
+      "kind": "unrelated",
+      "a": "今天天气怎么样",
+      "b": "锅里还有饭",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 118,
+      "kind": "unrelated",
+      "a": "一起吃晚饭吗",
+      "b": "图书馆很安静",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 119,
+      "kind": "unrelated",
+      "a": "多谢啦",
+      "b": "网速太慢",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 120,
+      "kind": "unrelated",
+      "a": "你太棒了",
+      "b": "他的车坏了",
+      "shared_chars": [
+        "了"
+      ],
+      "zero_shared": false,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 121,
+      "kind": "unrelated",
+      "a": "我很累",
+      "b": "会议改到三点",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 122,
+      "kind": "unrelated",
+      "a": "明天见",
+      "b": "电池充满了吗",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    },
+    {
+      "pid": 123,
+      "kind": "unrelated",
+      "a": "帮个忙",
+      "b": "快递到了",
+      "shared_chars": [],
+      "zero_shared": true,
+      "oov_chars_a": [],
+      "oov_chars_b": []
+    }
+  ],
+  "sha256": "481680be28610e0a54dd28f0788aa1fe63e17d7faba9436f9c7af699692f4670",
+  "amendment": {
+    "date": "2026-11-08T00:50:00+08:00",
+    "reason": "pid collision fix: synonym and unrelated pairs both used pids 0-23; evaluator joins pair records by pid (dict), so unrelated rows shadowed all synonym rows (h2h rows=0, synonym paired diffs empty). Renumbered unrelated pids to 100-123. Zero semantic change: eval_plan_frozen does not reference pid values; texts/kinds/shared_chars/eval plan untouched.",
+    "approved": "Lead-approved D-047",
+    "script_unchanged": "bench/exp29_text_frontend.py sha256[:8]=F3D78C50"
+  }
+}

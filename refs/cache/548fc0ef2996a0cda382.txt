@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/E0Ypg4ccpb2YKmBSzXGns0ehm+k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2505.00675&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T12:15:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2505.00675" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.00675v3</id>
+    <title>Rethinking Memory in LLM based Agents: Representations, Operations, and Emerging Topics</title>
+    <updated>2025-12-24T15:24:04Z</updated>
+    <link href="https://arxiv.org/abs/2505.00675v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.00675v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory is fundamental to large language model (LLM)-based agents, but existing surveys emphasize application-level use (e.g., personalized dialogue), while overlooking the atomic operations governing memory dynamics. This work categorizes memory into parametric (implicit in model weights) and contextual (explicit external data, structured/unstructured) forms, and defines six core operations: Consolidation, Updating, Indexing, Forgetting, Retrieval, and Condensation. Mapping these dimensions reveals four key research topics: long-term, long-context, parametric modification, and multi-source memory. The taxonomy provides a structured view of memory-related research, benchmarks, and tools, clarifying functional interactions in LLM-based agents and guiding future advancements. The datasets, papers, and tools are publicly available at https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-01T17:31:33Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yiming Du</name>
+    </author>
+    <author>
+      <name>Wenyu Huang</name>
+    </author>
+    <author>
+      <name>Danna Zheng</name>
+    </author>
+    <author>
+      <name>Zhaowei Wang</name>
+    </author>
+    <author>
+      <name>Sebastien Montella</name>
+    </author>
+    <author>
+      <name>Mirella Lapata</name>
+    </author>
+    <author>
+      <name>Kam-Fai Wong</name>
+    </author>
+    <author>
+      <name>Jeff Z. Pan</name>
+    </author>
+  </entry>
+</feed>

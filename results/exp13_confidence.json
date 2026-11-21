@@ -1,0 +1,10 @@
+{
+ "n": 120,
+ "base_rate": 0.5,
+ "corr_m1": -0.0697,
+ "corr_raw": 0.9745,
+ "auc_m1": 0.458,
+ "auc_raw": 1.0,
+ "raw_in_mean": 0.809,
+ "raw_out_mean": 0.412
+}

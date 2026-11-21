@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5X1TW6Ws/WKWWrDUrOeMnkENht4</id>
+  <title>arXiv Query: search_query=all:HNSW AND all:vector AND all:search&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:44:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:HNSW+AND+(all:vector+AND+all:search)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>92</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.11783v1</id>
+    <title>Efficient Vector Search on Disaggregated Memory with d-HNSW</title>
+    <updated>2025-05-17T01:31:21Z</updated>
+    <link href="https://arxiv.org/abs/2505.11783v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.11783v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient vector query processing is critical to enable AI applications at scale. Recent solutions struggle with growing vector datasets that exceed single-machine memory capacity, forcing unnecessary data movement and resource underutilization in monolithic architectures. We present d-HNSW, the first disaggregated vector similarity search engine for RDMA-based remote memory systems that achieves high performance while supporting fast data indexing with low network communication overhead. The core of d-HNSW is a novel disaggregation of the graph-based vector indexing data structure HNSW. It exploits the characteristics of greedy searching in HNSW to efficiently coordinate data transfers from the memory pool to the compute pool while serving data requests. Specifically, it leverages three ideas: (i) Representative index caching, a lightweight index constructed from a sampled subset of data, is cached in the compute pool to reduce frequent access to critical components of the hierarchical graph-based index, (ii) RDMA-friendly data layout design to reduce the networking round trips incurred by vector query and insertion and (iii) batched query-aware data loading to reduce bandwidth usage on data transfer between pools, addressing the limited cache capacity in compute nodes. We evaluate d-HNSW with extensive benchmarking datasets. The experimental results show that d-HNSW outperforms Naive d-HNSW implementation by up to 117x in latency while maintaining recall as 0.87 in dataset SIFT1M@1.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-17T01:31:21Z</published>
+    <arxiv:comment>To appear in HotStorage 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Yi Liu</name>
+    </author>
+    <author>
+      <name>Fei Fang</name>
+    </author>
+    <author>
+      <name>Chen Qian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.13591v1</id>
+    <title>d-HNSW: A High-performance Vector Search Engine on Disaggregated Memory</title>
+    <updated>2026-03-13T21:06:13Z</updated>
+    <link href="https://arxiv.org/abs/2603.13591v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.13591v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient vector search is essential for powering large-scale AI applications, such as LLMs. Existing solutions are designed for monolithic architectures where compute and memory are tightly coupled. Recently, disaggregated architecture breaks this coupling by separating compution and memory resources into independently scalable pools to improve utilization. However, applying vector database on disaggregated memory system brings unique challenges to system design due to its graph-based index. We present d-HNSW, the first RDMA-based vector search engine optimized for disaggregated memory systems. d-HNSW preserves HNSW's high accuracy while addressing the new system-level challenges introduced by disaggregation: 1) network inefficiency from pointer-chasing traversals, 2) non-contiguous remote memory layout induced by dynamic insertions, 3) redundant data transfers in batch workloads, and 4) resource underutilization due to sequential execution. d-HNSW tackles these challenges through a set of hardware-algorithm co-designed techniques, including 1) balanced clustering with a lightweight representative index to reduce network round-trips and ensure predictable latency, 2) an RDMA-friendly graph layout that preserves data contiguity under dynamic insertions, 3) query-aware data loading to eliminate redundant fetches across batch queries, and 4) a pipelined execution model that overlaps RDMA transfers with computation to hide network latency and improve throughput. Our evaluation results in a public cloud show that d-HNSW achieves up to &lt; 10-2x query latency and &gt; 100x query throughput compared to other baselines, while maintaining a high recall of 94%.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-13T21:06:13Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Fei Fang</name>
+    </author>
+    <author>
+      <name>Yi Liu</name>
+    </author>
+    <author>
+      <name>Chen Qian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.21600v1</id>
+    <title>AQR-HNSW: Accelerating Approximate Nearest Neighbor Search via Density-aware Quantization and Multi-stage Re-ranking</title>
+    <updated>2026-02-25T05:58:16Z</updated>
+    <link href="https://arxiv.org/abs/2602.21600v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.21600v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Approximate Nearest Neighbor (ANN) search has become fundamental to modern AI infrastructure, powering recommendation systems, search engines, and large language models across industry leaders from Google to OpenAI. Hierarchical Navigable Small World (HNSW) graphs have emerged as the dominant ANN algorithm, widely adopted in production systems due to their superior recall versus latency balance. However, as vector databases scale to billions of embeddings, HNSW faces critical bottlenecks: memory consumption expands, distance computation overhead dominates query latency, and it suffers suboptimal performance on heterogeneous data distributions. This paper presents Adaptive Quantization and Rerank HNSW (AQR-HNSW), a novel framework that synergistically integrates three strategies to enhance HNSW scalability. AQR-HNSW introduces (1) density-aware adaptive quantization, achieving 4x compression while preserving distance relationships; (2) multi-state re-ranking that reduces unnecessary computations by 35%; and (3) quantization-optimized SIMD implementations delivering 16-64 operations per cycle across architectures. Evaluation on standard benchmarks demonstrates 2.5-3.3x higher queries per second (QPS) than state-of-the-art HNSW implementations while maintaining over 98% recall, with 75% memory reduction for the index graph and 5x faster index construction.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-25T05:58:16Z</published>
+    <arxiv:comment>Accepted at DAC 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Ganap Ashit Tewary</name>
+    </author>
+    <author>
+      <name>Nrusinga Charan Gantayat</name>
+    </author>
+    <author>
+      <name>Jeff Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.11557v1</id>
+    <title>From HNSW to Information-Theoretic Binarization: Rethinking the Architecture of Scalable Vector Search</title>
+    <updated>2025-12-16T23:24:37Z</updated>
+    <link href="https://arxiv.org/abs/2601.11557v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.11557v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern semantic search and retrieval-augmented generation (RAG) systems rely predominantly on in-memory approximate nearest neighbor (ANN) indexes over high-precision floating-point vectors, resulting in escalating operational cost and inherent trade-offs between latency, throughput, and retrieval accuracy. This paper analyzes the architectural limitations of the dominant "HNSW + float32 + cosine similarity" stack and evaluates existing cost-reduction strategies, including storage disaggregation and lossy vector quantization, which inevitably sacrifice either performance or accuracy. We introduce and empirically evaluate an alternative information-theoretic architecture based on maximally informative binarization (MIB), efficient bitwise distance metrics, and an information-theoretic scoring (ITS) mechanism. Unlike conventional ANN systems, this approach enables exhaustive search over compact binary representations, allowing deterministic retrieval and eliminating accuracy degradation under high query concurrency. Using the MAIR benchmark across 14 datasets and 10,038 queries, we compare this architecture against Elasticsearch, Pinecone, PGVector, and Qdrant. Results demonstrate retrieval quality comparable to full-precision systems, while achieving substantially lower latency and maintaining constant throughput at high request rates. We show that this architectural shift enables a truly serverless, cost-per-query deployment model, challenging the necessity of large in-memory ANN indexes for high-quality semantic search.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-16T23:24:37Z</published>
+    <arxiv:comment>16 Pages, 5 Figures, 3 Tables</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Seyed Moein Abtahi</name>
+    </author>
+    <author>
+      <name>Majid Fekri</name>
+    </author>
+    <author>
+      <name>Tara Khani</name>
+    </author>
+    <author>
+      <name>Akramul Azim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.06636v1</id>
+    <title>Distribution-Aware Exploration for Adaptive HNSW Search</title>
+    <updated>2025-12-07T02:55:56Z</updated>
+    <link href="https://arxiv.org/abs/2512.06636v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.06636v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hierarchical Navigable Small World (HNSW) is widely adopted for approximate nearest neighbor search (ANNS) for its ability to deliver high recall with low latency on large-scale, high-dimensional embeddings. The exploration factor, commonly referred to as ef, is a key parameter in HNSW-based vector search that balances accuracy and efficiency. However, existing systems typically rely on manually and statically configured ef values that are uniformly applied across all queries. This results in a distribution-agnostic configuration that fails to account for the non-uniform and skewed nature of real-world embedding data and query workloads. As a consequence, HNSW-based systems suffer from two key practical issues: (i) the absence of recall guarantees, and (ii) inefficient ANNS performance due to over- or under-searching. In this paper, we propose Adaptive-ef (Ada-ef), a data-driven, update-friendly, query-adaptive approach that dynamically configures ef for each query at runtime to approximately meet a declarative target recall with minimal computation. The core of our approach is a theoretically grounded statistical model that captures the similarity distribution between each query and the database vectors. Based on this foundation, we design a query scoring mechanism that distinguishes between queries requiring only small ef and those that need larger ef to meet a target recall, and accordingly assigns an appropriate ef to each query. Experimental results on real-world embeddings produced by state-of-the-art Transformer models from OpenAI and Cohere show that, compared with state-of-the-art learning-based adaptive approaches, our method achieves the target recall while avoiding both over- and under-searching, reducing online query latency by up to 4x, offline computation time by 50x, and offline memory usage by 100x.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-07T02:55:56Z</published>
+    <arxiv:comment>Accepted for publication in SIGMOD 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Chao Zhang</name>
+    </author>
+    <author>
+      <name>Renée J. Miller</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.01255v1</id>
+    <title>RaG-Tree: Combining R-Tree and HNSW for Multi-Attribute Range Filtered Approximate Nearest Neighbor Search</title>
+    <updated>2026-08-02T14:06:14Z</updated>
+    <link href="https://arxiv.org/abs/2608.01255v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.01255v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-attribute range-filtered approximate nearest neighbor search (MR-ANNS), which retrieves high-dimensional vectors satisfying multiple attribute constraints, is a fundamental operation in modern AI applications. Existing MR-ANNS indexes either exploit a single attribute for range localization or recursively partition objects along individual attributes, which may limit their ability to exploit attribute correlations for effective range pruning and attribute-vector correlations for efficient nearest-neighbor search. In this paper, we propose RaG-Tree, a unified index that couples an R-tree with partition-aware HNSW graphs for MR-ANNS. RaG-Tree leverages hierarchical R-tree partitions for effective range pruning and adapts the sparsity of each HNSW graph to the local vector distributions within its partition, enabling lightweight indexing and efficient query processing. To support efficient query processing and dynamic updates, we develop a cost-based adaptive search algorithm that minimizes unnecessary graph exploration, together with an efficient index maintenance mechanism for incrementally updating affected partition-aware HNSW graphs. Extensive experiments on three real-world datasets show that RaG-Tree achieves superior query performance over state-of-the-art baselines, while also providing lightweight indexing and fast incremental updates.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-02T14:06:14Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Jiawei Liu</name>
+    </author>
+    <author>
+      <name>Xiang Zhang</name>
+    </author>
+    <author>
+      <name>Chao Zhang</name>
+    </author>
+    <author>
+      <name>Ju Fan</name>
+    </author>
+    <author>
+      <name>Xiaoyong Du</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.04630v1</id>
+    <title>Exploiting Structural Properties for Efficient Constraint-Aware HNSW Hyperparameter Tuning</title>
+    <updated>2026-07-06T03:30:53Z</updated>
+    <link href="https://arxiv.org/abs/2607.04630v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.04630v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vector databases (VectorDBs) are a core component of modern retrieval systems, including Retrieval-Augmented Generation (RAG), where efficient Approximate Nearest Neighbor Search (ANNS) is critical. Among ANNS algorithms, Hierarchical Navigable Small World (HNSW) graphs are widely adopted for their strong recalllatency trade-off. However, configuring HNSW remains challenging: its hyperparameters jointly affect search quality, latency, build time, and index size in nonlinear ways, while production deployments impose strict resource and tuning-time constraints.We study HNSW hyperparameter tuning from a systems perspective and show that its configuration space exhibits strong structural regularities. Specifically, we identify monotonic, dominant unimodal, and separable relationships among search-time and construction-time parameters, which induce feasibility boundaries under performance and resource constraints. Building on this insight, we propose CHAT, a constraint-aware tuning framework for HNSW. Unlike generic black-box optimizers, CHAT exploits HNSW-specific structure to perform deterministic, sample-efficient search and prune resource-infeasible configurations before full index construction. Across multiple datasets and HNSW-based vector search engines, CHAT identifies configurations that maximize recall or throughput while satisfying constraints on accuracy, latency, build time, index size, and tuning budget. Compared to strong baselines, CHAT achieves up to 45% higher throughput or 11% higher recall, and converges up to 44x faster. These results show that principled, structure-aware tuning enables efficient and robust HNSW deployment beyond generic black-box optimization.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-06T03:30:53Z</published>
+    <arxiv:comment>This paper has been accepted to ACM SIGMOD 2027</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Geon Choi</name>
+    </author>
+    <author>
+      <name>Hoeun Lee</name>
+    </author>
+    <author>
+      <name>Jaeyoung Do</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.18497v1</id>
+    <title>Ghost Vectors: Soft-Deleted Embeddings Remain Reconstructible in HNSW Vector Databases</title>
+    <updated>2026-06-16T21:15:49Z</updated>
+    <link href="https://arxiv.org/abs/2606.18497v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.18497v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-augmented generation (RAG) allows large language models to access external and private corpora for factual, domain-specific responses. Modern RAG pipelines use hierarchical navigable small world (HNSW) vector databases for efficient similarity search. When a user requests data deletion, the systems typically only mark the record as deleted, leaving the embedding on disk physically unchanged. This soft-delete operation raises compliance concerns under data-erasure and retention requirements such as GDPR Article 17 and HIPAA. Analysis on three HNSW implementations confirms that deleted vectors remain physically recoverable by accessing the raw index files at the storage layer, bypassing API access. Using the Vec2Text inversion model without domain-specific fine-tuning, we show this vulnerability on multiple real-world datasets and data modalities. On Wikipedia biographical living persons dataset (BLP), we successfully recover 25.5% of exact person names and 46.4% of geographic locations (ROUGE-L 0.185). Recovery reaches 100% for both patient age and gender markers (ROUGE-L 0.290) on highly structured, sensitive data (NIH Synthea dataset). On soft-deleted image embeddings, we show 100% tissue classification on histopathology patches (p=1.02e-07) and top-1 identity recovery reaches 99% on facial embeddings (p&lt;0.01). This work introduces Epoch Key Rotation, which encrypts vectors and discards the key upon deletion. Epoch key rotation reduces observed PII recovery to 0% and completes in 2.5 ms for 500 deleted vectors (approximately 0.005 ms/record). Additionally, it generates an ECDSA-signed cryptographic proof as an auditable record of the deletion event.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-16T21:15:49Z</published>
+    <arxiv:comment>13 pages, 5 figures, 12 tables. Prepared for submission</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Chandranil Chakraborttii</name>
+    </author>
+    <author>
+      <name>Jackeline García Alvarado</name>
+    </author>
+    <author>
+      <name>Sitora Abdulofizova</name>
+    </author>
+    <author>
+      <name>Shivanshu Dwivedi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.01940v3</id>
+    <title>Down with the Hierarchy: The 'H' in HNSW Stands for "Hubs"</title>
+    <updated>2025-07-03T13:32:02Z</updated>
+    <link href="https://arxiv.org/abs/2412.01940v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.01940v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Driven by recent breakthrough advances in neural representation learning, approximate near-neighbor (ANN) search over vector embeddings has emerged as a critical computational workload. With the introduction of the seminal Hierarchical Navigable Small World (HNSW) algorithm, graph-based indexes have established themselves as the overwhelmingly dominant paradigm for efficient and scalable ANN search. As the name suggests, HNSW searches a layered hierarchical graph to quickly identify neighborhoods of similar points to a given query vector. But is this hierarchy even necessary? A rigorous experimental analysis to answer this question would provide valuable insights into the nature of algorithm design for ANN search and motivate directions for future work in this increasingly crucial domain. We conduct an extensive benchmarking study covering more large-scale datasets than prior investigations of this question. We ultimately find that a flat navigable small world graph graph retains all of the benefits of HNSW on high-dimensional datasets, with latency and recall performance essentially \emph{identical} to the original algorithm but with less memory overhead. Furthermore, we go a step further and study \emph{why} the hierarchy of HNSW provides no benefit in high dimensions, hypothesizing that navigable small world graphs contain a well-connected, frequently traversed ``highway" of hub nodes that maintain the same purported function as the hierarchical layers. We present compelling empirical evidence that the \emph{Hub Highway Hypothesis} holds for real datasets and investigate the mechanisms by which the highway forms. The implications of this hypothesis may also provide future research directions in developing enhancements to graph-based ANN search.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-02T20:04:06Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Blaise Munyampirwa</name>
+    </author>
+    <author>
+      <name>Vihan Lakshman</name>
+    </author>
+    <author>
+      <name>Benjamin Coleman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.17647v1</id>
+    <title>SHINE: A Scalable HNSW Index in Disaggregated Memory</title>
+    <updated>2025-07-23T16:09:10Z</updated>
+    <link href="https://arxiv.org/abs/2507.17647v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.17647v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Approximate nearest neighbor (ANN) search is a fundamental problem in computer science for which in-memory graph-based methods, such as Hierarchical Navigable Small World (HNSW), perform exceptionally well. To scale beyond billions of high-dimensional vectors, the index must be distributed. The disaggregated memory architecture physically separates compute and memory into two distinct hardware units and has become popular in modern data centers. Both units are connected via RDMA networks that allow compute nodes to directly access remote memory and perform all the computations, posing unique challenges for disaggregated indexes.
+  In this work, we propose a scalable HNSW index for ANN search in disaggregated memory. In contrast to existing distributed approaches, which partition the graph at the cost of accuracy, our method builds a graph-preserving index that reaches the same accuracy as a single-machine HNSW. Continuously fetching high-dimensional vector data from remote memory leads to severe network bandwidth limitations, which we overcome by employing an efficient caching mechanism. Since answering a single query involves processing numerous unique graph nodes, caching alone is not sufficient to achieve high scalability. We logically combine the caches of the compute nodes to increase the overall cache effectiveness and confirm the efficiency and scalability of our method in our evaluation.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-23T16:09:10Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Manuel Widmoser</name>
+    </author>
+    <author>
+      <name>Daniel Kocher</name>
+    </author>
+    <author>
+      <name>Nikolaus Augsten</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GLnuPk4qBEmlhmoh9ulvGeVwSUw</id>
+  <title>arXiv Query: search_query=&amp;id_list=1308.5050&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:33:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=1308.5050" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1308.5050v1</id>
+    <title>Encoding certainty in bump attractors</title>
+    <updated>2013-08-23T05:20:22Z</updated>
+    <link href="https://arxiv.org/abs/1308.5050v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1308.5050v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Persistent activity in neuronal populations has been shown to represent the spatial position of remembered stimuli. Networks that support bump attractors are often used to model such persistent activity. Such models usually exhibit translational symmetry. Thus activity bumps are neutrally stable, and perturbations in position do not decay away. We extend previous work on bump attractors by constructing model networks capable of encoding the certainty or salience of a stimulus stored in memory. Such networks support bumps that are not only neutrally stable to perturbations in position, but also perturbations in amplitude. Possible bump solutions then lie on a two-dimensional attractor, determined by a continuum of positions and amplitudes. Such an attractor requires precisely balancing the strength of recurrent synaptic connections. The amplitude of activity bumps represents certainty, and is determined by the initial input to the system. Moreover, bumps with larger amplitudes are more robust to noise, and over time provide a more faithful representation of the stored stimulus. In networks with separate excitatory and inhibitory populations, generating bumps with a continuum of possible amplitudes, requires tuning the strength of inhibition to precisely cancel background excitation.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-08-23T05:20:22Z</published>
+    <arxiv:comment>23 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Sam Carroll</name>
+    </author>
+    <author>
+      <name>Kresimir Josic</name>
+    </author>
+    <author>
+      <name>Zachary P Kilpatrick</name>
+    </author>
+  </entry>
+</feed>

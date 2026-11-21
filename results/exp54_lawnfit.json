@@ -1,0 +1,676 @@
+{
+ "exp": "exp54_lawnfit",
+ "kind": "analysis-only",
+ "sources": [
+  {
+   "id": "S1",
+   "file": "exp25_collapse_external.json",
+   "sha256_16": "246a22eb105138c2"
+  },
+  {
+   "id": "S2",
+   "file": "exp19g_beta_scale.json",
+   "sha256_16": "baca9f7330ef7b02"
+  },
+  {
+   "id": "S3",
+   "file": "exp19h_l0_beta_regression.json",
+   "sha256_16": "5d357a8607b1ea33"
+  },
+  {
+   "id": "S4",
+   "file": "exp26_l2_pilot.json",
+   "sha256_16": "2d6e9e3f38af3bb4"
+  },
+  {
+   "id": "S5",
+   "file": "exp37_N100000_F_b100_s2.json",
+   "sha256_16": "bd6a3e32d094f744"
+  },
+  {
+   "id": "S6:exp52_N20000_F_b100_s0.json",
+   "file": "exp52_N20000_F_b100_s0.json",
+   "sha256_16": "7fca6ae2a693f75e"
+  },
+  {
+   "id": "S6:exp52_eq_N3000_F_b100_s0.json",
+   "file": "exp52_eq_N3000_F_b100_s0.json",
+   "sha256_16": "9d80b9826123e786"
+  },
+  {
+   "id": "S7",
+   "file": "<user-home>/exp45_logs/logderived_gate.json",
+   "sha256_16": "3b237f395ab8fd20"
+  }
+ ],
+ "staircase": {
+  "exp25_external": {
+   "dense": [
+    {
+     "N": 1000,
+     "n_probes": 200,
+     "beta_star_full": 5,
+     "beta_star_best": 5,
+     "beta_star_stored": 2,
+     "hits_at_grid": {
+      "2": 197,
+      "5": 200,
+      "10": 200,
+      "20": 200,
+      "50": 200,
+      "100": 200,
+      "200": 200,
+      "500": 200,
+      "1000": 200
+     }
+    },
+    {
+     "N": 10000,
+     "n_probes": 200,
+     "beta_star_full": 2,
+     "beta_star_best": 2,
+     "beta_star_stored": 2,
+     "hits_at_grid": {
+      "2": 200,
+      "5": 200,
+      "10": 200,
+      "20": 200,
+      "50": 200,
+      "100": 200,
+      "200": 200,
+      "500": 200,
+      "1000": 200
+     }
+    },
+    {
+     "N": 100000,
+     "n_probes": 200,
+     "beta_star_full": 2,
+     "beta_star_best": 2,
+     "beta_star_stored": 2,
+     "hits_at_grid": {
+      "2": 200,
+      "5": 200,
+      "10": 200,
+      "20": 200,
+      "50": 200,
+      "100": 200,
+      "200": 200,
+      "500": 200,
+      "1000": 200
+     }
+    },
+    {
+     "N": 1000000,
+     "n_probes": 50,
+     "beta_star_full": 2,
+     "beta_star_best": 2,
+     "beta_star_stored": 2,
+     "hits_at_grid": {
+      "2": 50,
+      "5": 50,
+      "10": 50,
+      "20": 50,
+      "50": 50,
+      "100": 50,
+      "200": 50,
+      "500": 50,
+      "1000": 50
+     }
+    }
+   ],
+   "sparse": [
+    {
+     "N": 1000,
+     "n_probes": 200,
+     "beta_star_full": 5,
+     "beta_star_best": 5,
+     "beta_star_stored": 2,
+     "hits_at_grid": {
+      "2": 179,
+      "5": 200,
+      "10": 200,
+      "20": 200,
+      "50": 200,
+      "100": 200,
+      "200": 200,
+      "500": 200,
+      "1000": 200
+     }
+    },
+    {
+     "N": 10000,
+     "n_probes": 200,
+     "beta_star_full": 5,
+     "beta_star_best": 5,
+     "beta_star_stored": 2,
+     "hits_at_grid": {
+      "2": 162,
+      "5": 200,
+      "10": 200,
+      "20": 200,
+      "50": 200,
+      "100": 200,
+      "200": 200,
+      "500": 200,
+      "1000": 200
+     }
+    },
+    {
+     "N": 100000,
+     "n_probes": 200,
+     "beta_star_full": 5,
+     "beta_star_best": 5,
+     "beta_star_stored": 2,
+     "hits_at_grid": {
+      "2": 176,
+      "5": 200,
+      "10": 200,
+      "20": 200,
+      "50": 200,
+      "100": 200,
+      "200": 200,
+      "500": 200,
+      "1000": 200
+     }
+    },
+    {
+     "N": 1000000,
+     "n_probes": 50,
+     "beta_star_full": 5,
+     "beta_star_best": 5,
+     "beta_star_stored": 2,
+     "hits_at_grid": {
+      "2": 44,
+      "5": 50,
+      "10": 50,
+      "20": 50,
+      "50": 50,
+      "100": 50,
+      "200": 50,
+      "500": 50,
+      "1000": 50
+     }
+    }
+   ],
+   "dense_cluster": [
+    {
+     "N": 1000,
+     "n_probes": 200,
+     "beta_star_full": 5,
+     "beta_star_best": 5,
+     "beta_star_stored": 2,
+     "hits_at_grid": {
+      "2": 147,
+      "5": 200,
+      "10": 200,
+      "20": 200,
+      "50": 200,
+      "100": 200,
+      "200": 200,
+      "500": 200,
+      "1000": 200
+     }
+    },
+    {
+     "N": 10000,
+     "n_probes": 200,
+     "beta_star_full": 5,
+     "beta_star_best": 5,
+     "beta_star_stored": 5,
+     "hits_at_grid": {
+      "2": 17,
+      "5": 200,
+      "10": 200,
+      "20": 200,
+      "50": 200,
+      "100": 200,
+      "200": 200,
+      "500": 200,
+      "1000": 200
+     }
+    },
+    {
+     "N": 100000,
+     "n_probes": 200,
+     "beta_star_full": 10,
+     "beta_star_best": 10,
+     "beta_star_stored": 5,
+     "hits_at_grid": {
+      "2": 0,
+      "5": 191,
+      "10": 200,
+      "20": 200,
+      "50": 200,
+      "100": 200,
+      "200": 200,
+      "500": 200,
+      "1000": 200
+     }
+    },
+    {
+     "N": 1000000,
+     "n_probes": 50,
+     "beta_star_full": 10,
+     "beta_star_best": 10,
+     "beta_star_stored": 5,
+     "hits_at_grid": {
+      "2": 2,
+      "5": 40,
+      "10": 50,
+      "20": 50,
+      "50": 50,
+      "100": 50,
+      "200": 50,
+      "500": 50,
+      "1000": 50
+     }
+    }
+   ]
+  },
+  "exp19g_N20000_min_level0.1": {
+   "per_beta": {
+    "20.0": {
+     "min_top1": 0,
+     "n_probes": 40,
+     "full_all": false
+    },
+    "100.0": {
+     "min_top1": 40,
+     "n_probes": 40,
+     "full_all": true
+    },
+    "500.0": {
+     "min_top1": 40,
+     "n_probes": 40,
+     "full_all": true
+    },
+    "2500.0": {
+     "min_top1": 40,
+     "n_probes": 40,
+     "full_all": true
+    }
+   },
+   "beta_low_pass": 100.0,
+   "beta_high_fail": 20.0
+  },
+  "exp19h_N4000_min_level0.1": {
+   "per_beta": {
+    "20.0": {
+     "min_top1": 39,
+     "n_probes": 40,
+     "full_all": false
+    },
+    "100.0": {
+     "min_top1": 40,
+     "n_probes": 40,
+     "full_all": true
+    },
+    "500.0": {
+     "min_top1": 40,
+     "n_probes": 40,
+     "full_all": true
+    }
+   },
+   "beta_low_pass": 100.0,
+   "beta_high_fail": 20.0
+  },
+  "exp26_N50000_beta20_anchor": {
+   "source": "S4",
+   "N": 50000,
+   "deg25_hits": 0,
+   "deg25_of": 60,
+   "note": "beta=20 collapse anchor at 5e4 (deg0 not run for anchor rows)"
+  },
+  "fixed_beta100_passes": [
+   {
+    "source": "S4",
+    "N": 50000,
+    "cell": "F_b100",
+    "deg0": 60,
+    "deg25": 60
+   },
+   {
+    "source": "S4",
+    "N": 50000,
+    "cell": "T_b100",
+    "deg0": 60,
+    "deg25": 60
+   },
+   {
+    "source": "S5",
+    "N": 100000,
+    "cell": "F_b100",
+    "deg0": 60,
+    "deg25": 60
+   },
+   {
+    "source": "S6",
+    "N": 20000,
+    "cell": "F_b100",
+    "deg0": 60,
+    "deg25": 60
+   }
+  ],
+  "exp45_online_beta_star_PRELIMINARY": {
+   "present": true,
+   "n_seeds": 3,
+   "label": "PRELIMINARY (log-derived, canonical = rerun JSONs pending)",
+   "seeds": [
+    {
+     "seed": 0,
+     "char_beta_curve": [
+      {
+       "N": 8657,
+       "beta": 500
+      },
+      {
+       "N": 18273,
+       "beta": 500
+      },
+      {
+       "N": 27755,
+       "beta": 100
+      },
+      {
+       "N": 37006,
+       "beta": 500
+      },
+      {
+       "N": 46020,
+       "beta": 500
+      },
+      {
+       "N": 54788,
+       "beta": 100
+      },
+      {
+       "N": 63531,
+       "beta": 500
+      },
+      {
+       "N": 72532,
+       "beta": 100
+      },
+      {
+       "N": 81513,
+       "beta": 500
+      },
+      {
+       "N": 90539,
+       "beta": 500
+      },
+      {
+       "N": 92756,
+       "beta": 500
+      }
+     ],
+     "sem_beta_curve": [
+      {
+       "N": 9914,
+       "beta": 100
+      },
+      {
+       "N": 19810,
+       "beta": 500
+      },
+      {
+       "N": 29413,
+       "beta": 500
+      },
+      {
+       "N": 38823,
+       "beta": 100
+      },
+      {
+       "N": 47915,
+       "beta": 500
+      },
+      {
+       "N": 56736,
+       "beta": 100
+      },
+      {
+       "N": 65513,
+       "beta": 100
+      },
+      {
+       "N": 74525,
+       "beta": 100
+      },
+      {
+       "N": 83549,
+       "beta": 500
+      },
+      {
+       "N": 92901,
+       "beta": 100
+      },
+      {
+       "N": 95353,
+       "beta": 100
+      }
+     ]
+    },
+    {
+     "seed": 1,
+     "char_beta_curve": [
+      {
+       "N": 8657,
+       "beta": 500
+      },
+      {
+       "N": 18274,
+       "beta": 100
+      },
+      {
+       "N": 27757,
+       "beta": 500
+      },
+      {
+       "N": 37012,
+       "beta": 500
+      },
+      {
+       "N": 46029,
+       "beta": 500
+      },
+      {
+       "N": 54801,
+       "beta": 500
+      },
+      {
+       "N": 63555,
+       "beta": 100
+      },
+      {
+       "N": 72557,
+       "beta": 500
+      },
+      {
+       "N": 81546,
+       "beta": 2500
+      },
+      {
+       "N": 90595,
+       "beta": 100
+      },
+      {
+       "N": 92815,
+       "beta": 500
+      }
+     ],
+     "sem_beta_curve": [
+      {
+       "N": 9919,
+       "beta": 100
+      },
+      {
+       "N": 19817,
+       "beta": 100
+      },
+      {
+       "N": 29420,
+       "beta": 100
+      },
+      {
+       "N": 38830,
+       "beta": 100
+      },
+      {
+       "N": 47920,
+       "beta": 500
+      },
+      {
+       "N": 56740,
+       "beta": 500
+      },
+      {
+       "N": 65520,
+       "beta": 500
+      },
+      {
+       "N": 74532,
+       "beta": 500
+      },
+      {
+       "N": 83554,
+       "beta": 500
+      },
+      {
+       "N": 92918,
+       "beta": 500
+      },
+      {
+       "N": 95370,
+       "beta": 2500
+      }
+     ]
+    },
+    {
+     "seed": 2,
+     "char_beta_curve": [
+      {
+       "N": 8654,
+       "beta": 100
+      },
+      {
+       "N": 18274,
+       "beta": 500
+      },
+      {
+       "N": 27761,
+       "beta": 100
+      },
+      {
+       "N": 37019,
+       "beta": 500
+      },
+      {
+       "N": 46034,
+       "beta": 100
+      },
+      {
+       "N": 54808,
+       "beta": 100
+      },
+      {
+       "N": 63562,
+       "beta": 500
+      },
+      {
+       "N": 72554,
+       "beta": 500
+      },
+      {
+       "N": 81531,
+       "beta": 500
+      },
+      {
+       "N": 90560,
+       "beta": 2500
+      },
+      {
+       "N": 92779,
+       "beta": 500
+      }
+     ],
+     "sem_beta_curve": [
+      {
+       "N": 9914,
+       "beta": 100
+      },
+      {
+       "N": 19812,
+       "beta": 100
+      },
+      {
+       "N": 29418,
+       "beta": 500
+      },
+      {
+       "N": 38823,
+       "beta": 100
+      },
+      {
+       "N": 47912,
+       "beta": 100
+      },
+      {
+       "N": 56731,
+       "beta": 100
+      },
+      {
+       "N": 65511,
+       "beta": 100
+      },
+      {
+       "N": 74522,
+       "beta": 100
+      },
+      {
+       "N": 83528,
+       "beta": 500
+      },
+      {
+       "N": 92881,
+       "beta": 100
+      },
+      {
+       "N": 95335,
+       "beta": 500
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "fits": {
+  "exp25_dense_cluster_fullpass_lnN": {
+   "slope_per_lnN": 0.8686,
+   "intercept": -1.5,
+   "r2": 0.8,
+   "n_points": 4,
+   "note": "beta grid {2,5,10,20,50,100,200,500,1000} is coarse; fit is descriptive, not confirmatory"
+  }
+ },
+ "gates": {
+  "G2_external_dense_cluster_monotone": {
+   "beta_star_full_seq": [
+    5,
+    5,
+    10,
+    10
+   ],
+   "pass": true
+  },
+  "G1_traceability": {
+   "n_sources": 8,
+   "pass": true
+  },
+  "G3_bracket_discipline": {
+   "pass": true,
+   "note": "in-model beta* reported as grid brackets only"
+  }
+ }
+}

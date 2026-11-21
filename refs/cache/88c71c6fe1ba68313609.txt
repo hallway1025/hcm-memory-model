@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/M7kKxpUgEuRFLDMr9tqiQRUR4fM</id>
+  <title>arXiv Query: search_query=all:modern AND all:Hopfield AND all:network AND all:capacity&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:44:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:modern+AND+(all:Hopfield+AND+(all:network+AND+all:capacity))&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>32</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.00241v1</id>
+    <title>Accuracy and capacity of Modern Hopfield networks with synaptic noise</title>
+    <updated>2025-02-28T23:07:33Z</updated>
+    <link href="https://arxiv.org/abs/2503.00241v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.00241v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the retrieval accuracy and capacity of modern Hopfield networks of with two-state (Ising) spins interacting via modified Hebbian $n$-spin interactions. In particular, we consider systems where the interactions deviate from the Hebb rule through additive or multiplicative noise or through clipping or deleting interactions. We find that the capacity scales as $N^{n-1}$ with the number of spins $N$ in all cases, but with a prefactor reduced compared to the Hebbian case. For $n=2$ our results agree with the previously known results for the conventional $n = 2$ Hopfield network.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-28T23:07:33Z</published>
+    <arxiv:comment>24 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Sharba Bhattacharjee</name>
+    </author>
+    <author>
+      <name>Ivar Martin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.06518v1</id>
+    <title>Minimum Description Length Hopfield Networks</title>
+    <updated>2023-11-11T09:23:54Z</updated>
+    <link href="https://arxiv.org/abs/2311.06518v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.06518v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Associative memory architectures are designed for memorization but also offer, through their retrieval method, a form of generalization to unseen inputs: stored memories can be seen as prototypes from this point of view. Focusing on Modern Hopfield Networks (MHN), we show that a large memorization capacity undermines the generalization opportunity. We offer a solution to better optimize this tradeoff. It relies on Minimum Description Length (MDL) to determine during training which memories to store, as well as how many of them.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-11T09:23:54Z</published>
+    <arxiv:comment>4 pages, Associative Memory &amp; Hopfield Networks Workshop at NeurIPS2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Matan Abudy</name>
+    </author>
+    <author>
+      <name>Nur Lan</name>
+    </author>
+    <author>
+      <name>Emmanuel Chemla</name>
+    </author>
+    <author>
+      <name>Roni Katzir</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.13505v1</id>
+    <title>Modern Hopfield Networks and Attention for Immune Repertoire Classification</title>
+    <updated>2020-07-16T20:35:46Z</updated>
+    <link href="https://arxiv.org/abs/2007.13505v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.13505v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A central mechanism in machine learning is to identify, store, and recognize patterns. How to learn, access, and retrieve such patterns is crucial in Hopfield networks and the more recent transformer architectures. We show that the attention mechanism of transformer architectures is actually the update rule of modern Hopfield networks that can store exponentially many patterns. We exploit this high storage capacity of modern Hopfield networks to solve a challenging multiple instance learning (MIL) problem in computational biology: immune repertoire classification. Accurate and interpretable machine learning methods solving this problem could pave the way towards new vaccines and therapies, which is currently a very relevant research topic intensified by the COVID-19 crisis. Immune repertoire classification based on the vast number of immunosequences of an individual is a MIL problem with an unprecedentedly massive number of instances, two orders of magnitude larger than currently considered problems, and with an extremely low witness rate. In this work, we present our novel method DeepRC that integrates transformer-like attention, or equivalently modern Hopfield networks, into deep learning architectures for massive MIL such as immune repertoire classification. We demonstrate that DeepRC outperforms all other methods with respect to predictive performance on large-scale experiments, including simulated and real-world virus infection data, and enables the extraction of sequence motifs that are connected to a given disease class. Source code and datasets: https://github.com/ml-jku/DeepRC</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-16T20:35:46Z</published>
+    <arxiv:comment>10 pages (+appendix); Source code and datasets: https://github.com/ml-jku/DeepRC</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Advances in Neural Information Processing Systems 33 (NeurIPS 2020)</arxiv:journal_ref>
+    <author>
+      <name>Michael Widrich</name>
+    </author>
+    <author>
+      <name>Bernhard Schäfl</name>
+    </author>
+    <author>
+      <name>Hubert Ramsauer</name>
+    </author>
+    <author>
+      <name>Milena Pavlović</name>
+    </author>
+    <author>
+      <name>Lukas Gruber</name>
+    </author>
+    <author>
+      <name>Markus Holzleitner</name>
+    </author>
+    <author>
+      <name>Johannes Brandstetter</name>
+    </author>
+    <author>
+      <name>Geir Kjetil Sandve</name>
+    </author>
+    <author>
+      <name>Victor Greiff</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Günter Klambauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.10122v4</id>
+    <title>Modern Hopfield Networks with Continuous-Time Memories</title>
+    <updated>2025-04-10T14:32:13Z</updated>
+    <link href="https://arxiv.org/abs/2502.10122v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.10122v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research has established a connection between modern Hopfield networks (HNs) and transformer attention heads, with guarantees of exponential storage capacity. However, these models still face challenges scaling storage efficiently. Inspired by psychological theories of continuous neural resource allocation in working memory, we propose an approach that compresses large discrete Hopfield memories into smaller, continuous-time memories. Leveraging continuous attention, our new energy function modifies the update rule of HNs, replacing the traditional softmax-based probability mass function with a probability density, over the continuous memory. This formulation aligns with modern perspectives on human executive function, offering a principled link between attractor dynamics in working memory and resource-efficient memory allocation. Our framework maintains competitive performance with HNs while leveraging a compressed memory, reducing computational costs across synthetic and video datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-14T12:41:05Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Saul Santos</name>
+    </author>
+    <author>
+      <name>António Farinhas</name>
+    </author>
+    <author>
+      <name>Daniel C. McNamee</name>
+    </author>
+    <author>
+      <name>André F. T. Martins</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.07223v1</id>
+    <title>A Hardware-aware Hopfield Network with a Nonlinear Memristor Array for Robust Associative Memory with Superlinear Capacity</title>
+    <updated>2026-05-08T04:16:53Z</updated>
+    <link href="https://arxiv.org/abs/2605.07223v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.07223v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Associative memory retrieves complete patterns from partial or corrupted inputs and constitutes a primitive form of generative inference. Classical Hopfield networks (CHN) provide a canonical framework for associative memory but suffer from limited memory capacity. Recently, modern Hopfield networks (MHN) were introduced to achieve higher capacity by using explicit pattern-wise storage and neurons with the softmax activation function, which makes the MHN vulnerable to noise and the hardware implementation complicated due to its network size varying with the number of stored patterns. Here, we introduce a hardware-aware Hopfield network (HHN), in which the intrinsic nonlinear current-voltage characteristics of a charge-trap memristor are leveraged to engineer the energy landscape of the HN, increasing the memory capacity. Using a 25 x 25 nonlinear memristor array, we demonstrate reliable reconstruction of corrupted patterns with memory capacity far exceeding the classical limit (K ~ 0.14N, where N is the number of neurons). The HHN preserves Hopfield-type energy-minimization dynamics and remains robust to synaptic conductance noise. Large-scale simulations on high-dimensional image data reveal an empirical memory capacity scaling of K ~ 0.3 x N^1.2 under a fixed synaptic budget. These results establish HHN as a scalable hardware-native architecture for low-power associative memory and generative inference.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-08T04:16:53Z</published>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Younghyun Lee</name>
+    </author>
+    <author>
+      <name>Hakseung Rhee</name>
+    </author>
+    <author>
+      <name>Unhyeon Kang</name>
+    </author>
+    <author>
+      <name>Seungmin Oh</name>
+    </author>
+    <author>
+      <name>Kyungmin Lee</name>
+    </author>
+    <author>
+      <name>Hyun Jae Jang</name>
+    </author>
+    <author>
+      <name>Seongsik Park</name>
+    </author>
+    <author>
+      <name>YeonJoo Jeong</name>
+    </author>
+    <author>
+      <name>Inho Kim</name>
+    </author>
+    <author>
+      <name>Jong Keuk Park</name>
+    </author>
+    <author>
+      <name>Kyung Min Kim</name>
+    </author>
+    <author>
+      <name>Suyoun Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.09518v1</id>
+    <title>The Capacity of Modern Hopfield Networks under the Data Manifold Hypothesis</title>
+    <updated>2025-03-12T16:32:59Z</updated>
+    <link href="https://arxiv.org/abs/2503.09518v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.09518v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We generalize the computation of the capacity of exponential Hopfield model from Lucibello and Mézard (2024) to more generic pattern ensembles, including binary patterns and patterns generated from a hidden manifold model.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-12T16:32:59Z</published>
+    <arxiv:comment>ICLR 2025 Workshop Paper, 9 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Beatrice Achilli</name>
+    </author>
+    <author>
+      <name>Luca Ambrogioni</name>
+    </author>
+    <author>
+      <name>Carlo Lucibello</name>
+    </author>
+    <author>
+      <name>Marc Mézard</name>
+    </author>
+    <author>
+      <name>Enrico Ventura</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.05179v1</id>
+    <title>Simplicial Hopfield networks</title>
+    <updated>2023-05-09T05:23:04Z</updated>
+    <link href="https://arxiv.org/abs/2305.05179v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.05179v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hopfield networks are artificial neural networks which store memory patterns on the states of their neurons by choosing recurrent connection weights and update rules such that the energy landscape of the network forms attractors around the memories. How many stable, sufficiently-attracting memory patterns can we store in such a network using $N$ neurons? The answer depends on the choice of weights and update rule. Inspired by setwise connectivity in biology, we extend Hopfield networks by adding setwise connections and embedding these connections in a simplicial complex. Simplicial complexes are higher dimensional analogues of graphs which naturally represent collections of pairwise and setwise relationships. We show that our simplicial Hopfield networks increase memory storage capacity. Surprisingly, even when connections are limited to a small random subset of equivalent size to an all-pairwise network, our networks still outperform their pairwise counterparts. Such scenarios include non-trivial simplicial topology. We also test analogous modern continuous Hopfield networks, offering a potentially promising avenue for improving the attention mechanism in Transformer models.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-09T05:23:04Z</published>
+    <arxiv:comment>36 pages, 7 figures, published as a conference paper at ICLR 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <arxiv:journal_ref>International Conference on Learning Representations 2023</arxiv:journal_ref>
+    <author>
+      <name>Thomas F Burns</name>
+    </author>
+    <author>
+      <name>Tomoki Fukai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.14003v1</id>
+    <title>Rectified Lagrangian for Out-of-Distribution Detection in Modern Hopfield Networks</title>
+    <updated>2025-02-19T09:50:22Z</updated>
+    <link href="https://arxiv.org/abs/2502.14003v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.14003v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern Hopfield networks (MHNs) have recently gained significant attention in the field of artificial intelligence because they can store and retrieve a large set of patterns with an exponentially large memory capacity. A MHN is generally a dynamical system defined with Lagrangians of memory and feature neurons, where memories associated with in-distribution (ID) samples are represented by attractors in the feature space. One major problem in existing MHNs lies in managing out-of-distribution (OOD) samples because it was originally assumed that all samples are ID samples. To address this, we propose the rectified Lagrangian (RegLag), a new Lagrangian for memory neurons that explicitly incorporates an attractor for OOD samples in the dynamical system of MHNs. RecLag creates a trivial point attractor for any interaction matrix, enabling OOD detection by identifying samples that fall into this attractor as OOD. The interaction matrix is optimized so that the probability densities can be estimated to identify ID/OOD. We demonstrate the effectiveness of RecLag-based MHNs compared to energy-based OOD detection methods, including those using state-of-the-art Hopfield energies, across nine image datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-19T09:50:22Z</published>
+    <arxiv:comment>Accepted to AAAI 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ryo Moriai</name>
+    </author>
+    <author>
+      <name>Nakamasa Inoue</name>
+    </author>
+    <author>
+      <name>Masayuki Tanaka</name>
+    </author>
+    <author>
+      <name>Rei Kawakami</name>
+    </author>
+    <author>
+      <name>Satoshi Ikehata</name>
+    </author>
+    <author>
+      <name>Ikuro Sato</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.16408v2</id>
+    <title>Modern Hopfield Networks meet Encoded Neural Representations -- Addressing Practical Considerations</title>
+    <updated>2024-10-30T22:35:58Z</updated>
+    <link href="https://arxiv.org/abs/2409.16408v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.16408v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Content-addressable memories such as Modern Hopfield Networks (MHN) have been studied as mathematical models of auto-association and storage/retrieval in the human declarative memory, yet their practical use for large-scale content storage faces challenges. Chief among them is the occurrence of meta-stable states, particularly when handling large amounts of high dimensional content. This paper introduces Hopfield Encoding Networks (HEN), a framework that integrates encoded neural representations into MHNs to improve pattern separability and reduce meta-stable states. We show that HEN can also be used for retrieval in the context of hetero association of images with natural language queries, thus removing the limitation of requiring access to partial content in the same domain. Experimental results demonstrate substantial reduction in meta-stable states and increased storage capacity while still enabling perfect recall of a significantly larger number of inputs advancing the practical utility of associative memory networks for real-world tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-24T19:17:15Z</published>
+    <arxiv:comment>17 pages, 8 figures, accepted as a workshop paper at UniReps @ Neurips 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Satyananda Kashyap</name>
+    </author>
+    <author>
+      <name>Niharika S. D'Souza</name>
+    </author>
+    <author>
+      <name>Luyao Shi</name>
+    </author>
+    <author>
+      <name>Ken C. L. Wong</name>
+    </author>
+    <author>
+      <name>Hongzhi Wang</name>
+    </author>
+    <author>
+      <name>Tanveer Syeda-Mahmood</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.05562v2</id>
+    <title>Modern Hopfield Networks Require Chain-of-Thought to Solve $\mathsf{NC}^1$-Hard Problems</title>
+    <updated>2026-01-23T03:45:30Z</updated>
+    <link href="https://arxiv.org/abs/2412.05562v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.05562v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern Hopfield Networks (MHNs) have emerged as powerful components in deep learning, serving as effective replacements for pooling layers, LSTMs, and attention mechanisms. While recent advancements have significantly improved their storage capacity and retrieval efficiency, their fundamental theoretical boundaries remain underexplored. In this paper, we rigorously characterize the expressive power of MHNs through the lens of circuit complexity theory. We prove that $\mathrm{poly}(n)$-precision MHNs with constant depth and linear hidden dimension fall within the $\mathsf{DLOGTIME}$-uniform $\mathsf{TC}^0$ complexity class. Consequently, assuming $\mathsf{TC}^0 \neq \mathsf{NC}^1$, we demonstrate that these architectures are incapable of solving $\mathsf{NC}^1$-hard problems, such as undirected graph connectivity and tree isomorphism. We further extend these impossibility results to Kernelized Hopfield Networks. However, we show that these limitations are not absolute: we prove that equipping MHNs with a Chain-of-Thought (CoT) mechanism enables them to transcend the $\mathsf{TC}^0$ barrier, allowing them to solve inherently serial problems like the word problem for the permutation group $S_5$. Collectively, our results delineate a fine-grained boundary between the capabilities of standard MHNs and those augmented with reasoning steps.</summary>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-07T06:52:41Z</published>
+    <arxiv:primary_category term="cs.CC"/>
+    <author>
+      <name>Yang Cao</name>
+    </author>
+    <author>
+      <name>Xiaoyu Li</name>
+    </author>
+    <author>
+      <name>Yuanpeng Li</name>
+    </author>
+    <author>
+      <name>Yingyu Liang</name>
+    </author>
+    <author>
+      <name>Zhenmei Shi</name>
+    </author>
+    <author>
+      <name>Zhao Song</name>
+    </author>
+  </entry>
+</feed>

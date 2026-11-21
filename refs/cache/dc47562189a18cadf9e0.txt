@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pd4vDxBRmd+Z/Xo1xlNO3JNKhX8</id>
+  <title>arXiv Query: search_query=&amp;id_list=1710.03957&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T23:46:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=1710.03957" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1710.03957v1</id>
+    <title>DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset</title>
+    <updated>2017-10-11T08:30:30Z</updated>
+    <link href="https://arxiv.org/abs/1710.03957v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.03957v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a high-quality multi-turn dialog dataset, DailyDialog, which is intriguing in several aspects. The language is human-written and less noisy. The dialogues in the dataset reflect our daily communication way and cover various topics about our daily life. We also manually label the developed dataset with communication intention and emotion information. Then, we evaluate existing approaches on DailyDialog dataset and hope it benefit the research field of dialog systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-11T08:30:30Z</published>
+    <arxiv:comment>accepted by IJCNLP 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yanran Li</name>
+    </author>
+    <author>
+      <name>Hui Su</name>
+    </author>
+    <author>
+      <name>Xiaoyu Shen</name>
+    </author>
+    <author>
+      <name>Wenjie Li</name>
+    </author>
+    <author>
+      <name>Ziqiang Cao</name>
+    </author>
+    <author>
+      <name>Shuzi Niu</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,30 @@
+{"area":"K1_sparse_encoder","module":"K1_sparse_encoder","role":"survey","query":"winner take all sparse coding","channel":"arxiv","n":12}
+{"area":"K1_sparse_encoder","module":"K1_sparse_encoder","role":"survey","query":"locality sensitive hashing","channel":"arxiv","n":15}
+{"area":"K1_sparse_encoder","module":"K1_sparse_encoder","role":"survey","query":"product quantization approximate nearest neighbor","channel":"arxiv","n":12}
+{"area":"K1_sparse_encoder","module":"K1_sparse_encoder","role":"survey","query":"top-k sparse autoencoder","channel":"arxiv","n":10}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"modern Hopfield networks","channel":"arxiv","n":15}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"Kanerva sparse distributed memory","channel":"arxiv","n":10}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"vector symbolic architecture","channel":"arxiv","n":12}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"product key memory","channel":"arxiv","n":10}
+{"area":"K3_temporal_links","module":"K3_temporal_links","role":"survey","query":"successor representation","channel":"arxiv","n":15}
+{"area":"K3_temporal_links","module":"K3_temporal_links","role":"survey","query":"temporal knowledge graph","channel":"arxiv","n":12}
+{"area":"K3_temporal_links","module":"K3_temporal_links","role":"survey","query":"temporal link prediction","channel":"arxiv","n":10}
+{"area":"K4_consolidation_sched","module":"K4_consolidation_sched","role":"survey","query":"continual learning experience replay","channel":"arxiv","n":15}
+{"area":"K4_consolidation_sched","module":"K4_consolidation_sched","role":"survey","query":"elastic weight consolidation","channel":"arxiv","n":10}
+{"area":"K4_consolidation_sched","module":"K4_consolidation_sched","role":"survey","query":"gradient episodic memory","channel":"arxiv","n":10}
+{"area":"K5_semantic_slow","module":"K5_semantic_slow","role":"survey","query":"LoRA low rank adaptation","channel":"arxiv","n":12}
+{"area":"K5_semantic_slow","module":"K5_semantic_slow","role":"survey","query":"fast weights","channel":"arxiv","n":10}
+{"area":"K5_semantic_slow","module":"K5_semantic_slow","role":"survey","query":"parameter efficient continual learning","channel":"arxiv","n":10}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"working memory neural network capacity","channel":"arxiv","n":12}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"activity silent memory","channel":"arxiv","n":10}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"pointer networks","channel":"arxiv","n":10}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"selective prediction abstention","channel":"arxiv","n":12}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"value of information","channel":"arxiv","n":10}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"learned memory controller agent","channel":"arxiv","n":10}
+{"area":"K8_event_layer","module":"K8_event_layer","role":"survey","query":"temporal knowledge graph event","channel":"arxiv","n":10}
+{"area":"K8_event_layer","module":"K8_event_layer","role":"survey","query":"event extraction knowledge base","channel":"arxiv","n":10}
+{"area":"K8_event_layer","module":"K8_event_layer","role":"survey","query":"episodic memory agent events","channel":"arxiv","n":10}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"efficient text embedding","channel":"arxiv","n":12}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"feature hashing","channel":"arxiv","n":10}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"PPMI word embeddings","channel":"arxiv","n":10}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"distilled sentence embeddings","channel":"arxiv","n":10}

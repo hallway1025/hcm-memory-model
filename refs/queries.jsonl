@@ -1,0 +1,128 @@
+{"query":"Loss of recent memory after bilateral hippocampal lesions","module":"M2_EPI","role":"evidence","n":1,"year":1957}
+{"query":"Reactivation of hippocampal ensemble memories during sleep","module":"M4_CON","role":"evidence","n":1,"year":1994}
+{"query":"Why there are complementary learning systems in the hippocampus and neocortex a theory of learning","module":"M5_SEM","role":"theory","n":1,"year":1995}
+{"query":"Storage of 7 +/- 2 short-term memories in oscillatory subcycles","module":"M6_WM","role":"theory","n":1,"year":1995}
+{"query":"Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and planning","module":"M4_CON","role":"review","n":1,"year":2015}
+{"query":"dentate gyrus pattern separation computational","module":"M1_SEP","role":"mechanism","n":3}
+{"query":"pattern separation in the dentate gyrus and CA3 of the hippocampus","module":"M1_SEP","role":"evidence","n":3}
+{"query":"mnemonic similarity task pattern separation aging","module":"M1_SEP","role":"method","n":3}
+{"query":"adult hippocampal neurogenesis pattern separation","module":"M1_SEP","role":"evidence","n":3}
+{"query":"sparse coding in the dentate gyrus","module":"M1_SEP","role":"mechanism","n":3}
+{"query":"expansion recoding dentate gyrus granule cells","module":"M1_SEP","role":"mechanism","n":3}
+{"query":"grid cells in the entorhinal cortex spatial coding","module":"M1_SEP","role":"evidence","n":3}
+{"query":"entorhinal cortex layer II input to the dentate gyrus","module":"M1_SEP","role":"mechanism","n":3}
+{"query":"pattern separation and pattern completion in the human hippocampus high resolution fMRI","module":"M1_SEP","role":"evidence","n":3}
+{"query":"decorrelation of cortical inputs by the dentate gyrus","module":"M1_SEP","role":"mechanism","n":3}
+{"query":"deep networks with sparse representations sharpen recalled memories dentist","module":"M1_SEP","role":"theory","n":3}
+{"query":"theoretical models of pattern separation in the dentate gyrus","module":"M1_SEP","role":"review","n":3}
+{"query":"CA3 recurrent collateral network pattern completion","module":"M2_EPI","role":"mechanism","n":3}
+{"query":"attractor neural network memory capacity hippocampus","module":"M2_EPI","role":"theory","n":3}
+{"query":"hippocampal lesions retrograde amnesia temporal gradient","module":"M2_EPI","role":"evidence","n":3}
+{"query":"autoassociative memory CA3 attractor dynamics","module":"M2_EPI","role":"mechanism","n":3}
+{"query":"neural networks and physical systems with emergent collective computational abilities","module":"M2_EPI","role":"theory","n":3}
+{"query":"modern Hopfield networks attention memory capacity","module":"M2_EPI","role":"theory","n":3}
+{"query":"pattern completion in the CA3 region computational model","module":"M2_EPI","role":"mechanism","n":3}
+{"query":"CA3 lesions impair spatial memory pattern completion","module":"M2_EPI","role":"evidence","n":3}
+{"query":"reverberating attractor dynamics in hippocampal CA3","module":"M2_EPI","role":"evidence","n":3}
+{"query":"memory retrieval from partial cues hippocampal attractor","module":"M2_EPI","role":"mechanism","n":3}
+{"query":"recurrent excitatory connections CA3 pyramidal cells","module":"M2_EPI","role":"evidence","n":3}
+{"query":"distinct roles of dentate gyrus and CA3 in pattern separation and completion","module":"M2_EPI","role":"review","n":3}
+{"query":"the temporal context model episodic memory","module":"M3_CTX","role":"theory","n":3}
+{"query":"is memory search governed by universal principles context maintenance and retrieval","module":"M3_CTX","role":"theory","n":3}
+{"query":"a context based theory of episodic memory encoding and retrieval","module":"M3_CTX","role":"theory","n":3}
+{"query":"hippocampal time cells and the encoding of temporal context","module":"M3_CTX","role":"evidence","n":3}
+{"query":"time cells in the hippocampus of a virtual reality task","module":"M3_CTX","role":"evidence","n":3}
+{"query":"CA1 neurons code elapsed time during delay","module":"M3_CTX","role":"evidence","n":3}
+{"query":"contiguity effect free recall temporal clustering","module":"M3_CTX","role":"evidence","n":3}
+{"query":"entorhinal cortical input to CA1 encodes temporal associations","module":"M3_CTX","role":"mechanism","n":3}
+{"query":"item and context binding in episodic memory hippocampal","module":"M3_CTX","role":"mechanism","n":3}
+{"query":"temporal context drift hippocampal and memory elicitation","module":"M3_CTX","role":"evidence","n":3}
+{"query":"the hippocampus as a predictive map","module":"M3_CTX","role":"theory","n":3}
+{"query":"time as a context dimension in episodic memory","module":"M3_CTX","role":"review","n":3}
+{"query":"hippocampal sharp wave ripples replay and memory consolidation","module":"M4_CON","role":"review","n":3}
+{"query":"reverse replay of behavioural sequences in hippocampal place cells during awake","module":"M4_CON","role":"evidence","n":3}
+{"query":"sleep dependent memory consolidation","module":"M4_CON","role":"review","n":3}
+{"query":"catastrophic forgetting neural networks interleaved learning","module":"M4_CON","role":"mechanism","n":3}
+{"query":"ripples slow oscillations networks of memory consolidation","module":"M4_CON","role":"review","n":3}
+{"query":"coordinated interactions between the hippocampus and neocortex during sleep","module":"M4_CON","role":"evidence","n":3}
+{"query":"sharp wave ripples reinstatement of memory in slow wave sleep","module":"M4_CON","role":"evidence","n":3}
+{"query":"prioritized experience replay reinforcement learning","module":"M4_CON","role":"method","n":3}
+{"query":"replay of remote memory in hippocampal cortical networks","module":"M4_CON","role":"evidence","n":3}
+{"query":"spindle ripple coupling memory consolidation","module":"M4_CON","role":"evidence","n":3}
+{"query":"hippocampal replay promotes efficient sequential learning","module":"M4_CON","role":"evidence","n":3}
+{"query":"offline replay and memory consolidation in the sleeping brain","module":"M4_CON","role":"review","n":3}
+{"query":"a semantic hub and spoke framework of conceptual representation","module":"M5_SEM","role":"theory","n":3}
+{"query":"schemas and memory consolidation","module":"M5_SEM","role":"evidence","n":3}
+{"query":"cascade models of synaptically stored memories","module":"M5_SEM","role":"theory","n":3}
+{"query":"the memory function of sleep systems consolidation","module":"M5_SEM","role":"review","n":3}
+{"query":"systems consolidation of recent and remote memory","module":"M5_SEM","role":"review","n":3}
+{"query":"semantic memory consolidation and the hippocampus","module":"M5_SEM","role":"evidence","n":3}
+{"query":"complementary learning systems fast and slow learning in neocortex","module":"M5_SEM","role":"theory","n":3}
+{"query":"memory consolidation and the medial temporal lobe a systems perspective","module":"M5_SEM","role":"theory","n":3}
+{"query":"semantic memory and the human brain structure and representation","module":"M5_SEM","role":"review","n":3}
+{"query":"the role of the hippocampus in semantic memory","module":"M5_SEM","role":"evidence","n":3}
+{"query":"slow learning of cortical hierarchies and interference","module":"M5_SEM","role":"theory","n":3}
+{"query":"semantic dementia and the organisation of semantic memory","module":"M5_SEM","role":"evidence","n":3}
+{"query":"capacity limit of visual working memory in posterior parietal cortex","module":"M6_WM","role":"evidence","n":3}
+{"query":"the magical number 4 in visual working memory","module":"M6_WM","role":"theory","n":3}
+{"query":"theta gamma coupling in working memory prefrontal","module":"M6_WM","role":"evidence","n":3}
+{"query":"persistent activity in the prefrontal cortex during delay","module":"M6_WM","role":"evidence","n":3}
+{"query":"working memory a review of the theoretical and empirical work","module":"M6_WM","role":"review","n":3}
+{"query":"prefrontal basal ganglia working memory gating PBWM","module":"M6_WM","role":"theory","n":3}
+{"query":"gamma band synchronization and working memory load","module":"M6_WM","role":"evidence","n":3}
+{"query":"oscillatory interference model of verbal working memory","module":"M6_WM","role":"theory","n":3}
+{"query":"discrete slots versus flexible resource in visual working memory","module":"M6_WM","role":"theory","n":3}
+{"query":"recurrent prefrontal network maintains working memory online","module":"M6_WM","role":"mechanism","n":3}
+{"query":"multi item working memory maintenance in continuous attractor networks","module":"M6_WM","role":"theory","n":3}
+{"query":"working memory capacity four plus minus one chunks","module":"M6_WM","role":"review","n":3}
+{"query":"dopamine novelty and exploration in the hippocampus","module":"M7_NEU","role":"evidence","n":3}
+{"query":"amygdala modulation of memory consolidation emotional arousal","module":"M7_NEU","role":"evidence","n":3}
+{"query":"locus coeruleus noradrenaline arousal and memory","module":"M7_NEU","role":"review","n":3}
+{"query":"a neural substrate of prediction and reward","module":"M7_NEU","role":"evidence","n":3}
+{"query":"novelty responses in the medial temporal lobe and dopamine","module":"M7_NEU","role":"evidence","n":3}
+{"query":"emotional arousal enhances memory consolidation amygdala noradrenergic","module":"M7_NEU","role":"evidence","n":3}
+{"query":"dopaminergic gating of hippocampal memory persistence","module":"M7_NEU","role":"evidence","n":3}
+{"query":"reward prediction error dopamine neurons","module":"M7_NEU","role":"review","n":3}
+{"query":"locus coeruleus pupil arousal and the reset of brain states","module":"M7_NEU","role":"evidence","n":3}
+{"query":"hippocampal novelty signal and salience detection","module":"M7_NEU","role":"evidence","n":3}
+{"query":"amygdala hippocampal interactions in emotional memory","module":"M7_NEU","role":"review","n":3}
+{"query":"VTA hippocampal loop dopamine memory encoding","module":"M7_NEU","role":"evidence","n":3}
+{"query":"retrieval induced forgetting a retrieval specific mechanism","module":"M8_FOR","role":"evidence","n":3}
+{"query":"active forgetting of memory in drosophila","module":"M8_FOR","role":"evidence","n":3}
+{"query":"reconsolidation and the dynamic nature of memory","module":"M8_FOR","role":"review","n":3}
+{"query":"persistent disruption of an established fear memory by reconsolidation blockade","module":"M8_FOR","role":"evidence","n":3}
+{"query":"interference and decay in short term memory","module":"M8_FOR","role":"theory","n":3}
+{"query":"retrieval induced forgetting mechanism and consequences","module":"M8_FOR","role":"review","n":3}
+{"query":"memory reconsolidation update and interference","module":"M8_FOR","role":"evidence","n":3}
+{"query":"adaptive forgetting in humans","module":"M8_FOR","role":"theory","n":3}
+{"query":"inter item interference and recognition memory retrieval","module":"M8_FOR","role":"evidence","n":3}
+{"query":"interference resolution during memory retrieval prefrontal control","module":"M8_FOR","role":"evidence","n":3}
+{"query":"the forgetting function of episodic memory over time","module":"M8_FOR","role":"theory","n":3}
+{"query":"synaptic and systems mechanisms of active forgetting","module":"M8_FOR","role":"review","n":3}
+{"query":"prefrontal hippocampal interactions in memory retrieval","module":"M0_META","role":"evidence","n":3}
+{"query":"metamemory confidence judgments and recognition accuracy","module":"M0_META","role":"evidence","n":3}
+{"query":"cognitive control of memory retrieval strategy","module":"M0_META","role":"review","n":3}
+{"query":"model based and model free reinforcement learning arbitration","module":"M0_META","role":"theory","n":3}
+{"query":"hippocampal prefrontal interaction episodic memory encoding","module":"M0_META","role":"evidence","n":3}
+{"query":"a model of metacognitive monitoring and control","module":"M0_META","role":"theory","n":3}
+{"query":"metacognition in memory and decision making","module":"M0_META","role":"review","n":3}
+{"query":"frontal lobe contributions to memory retrieval strategy selection","module":"M0_META","role":"evidence","n":3}
+{"query":"ventrolateral prefrontal cortex retrieval output monitoring","module":"M0_META","role":"evidence","n":3}
+{"query":"episodic memory retrieval control network","module":"M0_META","role":"review","n":3}
+{"query":"uncertainty driven exploration and decision making","module":"M0_META","role":"theory","n":3}
+{"query":"confidence aware memory retrieval computational model","module":"M0_META","role":"theory","n":3}
+{"query":"Suppressing unwanted memories by executive control","module":"M8_FOR","role":"evidence","n":3,"year":2001}
+{"query":"Activity-dependent scaling of quantal amplitude in neocortical neurons","module":"M8_FOR","role":"evidence","n":3,"year":1998}
+{"query":"Sparse Distributed Memory Kanerva","module":"M2_EPI","role":"baseline","n":3,"year":1988}
+{"query":"A neural network model of when to retrieve and encode episodic memories","module":"M4_CON","role":"theory","n":3,"year":2022}
+{"query":"Organizing memories for generalization in complementary learning systems","module":"M4_CON","role":"evidence","n":3,"year":2023}
+{"query":"A generative model of memory construction and consolidation","module":"M4_CON","role":"evidence","n":3,"year":2024}
+{"query":"Prioritizing memories replay learned tags Spens","module":"M4_CON","role":"system","n":3,"year":2025}
+{"query":"Predictive forgetting optimal generalisation information bottleneck","module":"M5_SEM","role":"system","n":3,"year":2026}
+{"query":"Adaptive compression unifying framework episodic semantic memory","module":"M8_FOR","role":"review","n":3,"year":2025}
+{"query": "Hopfield networks is all you need modern hopfield attention", "module": "M1_SEP", "role": "theory", "n": 3, "year": 2020}
+{"query": "Softmax is not enough sharp size generalisation", "module": "M1_SEP", "role": "theory", "n": 3, "year": 2024}
+{"query": "similarity-weighted interleaved learning catastrophic forgetting", "module": "M4_CON", "role": "method", "n": 3, "year": 2022}
+{"query": "Attention approximates sparse distributed memory", "module": "M1_SEP", "role": "theory", "n": 3, "year": 2021}
+{"query": "Prioritized experience replay", "module": "M4_CON", "role": "method", "n": 3, "year": 2016}
+{"query": "Survey memory mechanism large language model agents", "module": "related_work", "role": "review", "n": 3, "year": 2024}

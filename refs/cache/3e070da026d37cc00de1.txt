@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1/krE35NmrDYu1BNupgnu73LbA4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2112.07791&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:31:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2112.07791" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.07791v2</id>
+    <title>A Simple But Powerful Graph Encoder for Temporal Knowledge Graph Completion</title>
+    <updated>2022-12-13T13:16:34Z</updated>
+    <link href="https://arxiv.org/abs/2112.07791v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.07791v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge graphs contain rich knowledge about various entities and the relational information among them, while temporal knowledge graphs (TKGs) describe and model the interactions of the entities over time. In this context, automatic temporal knowledge graph completion (TKGC) has gained great interest. Recent TKGC methods integrate advanced deep learning techniques, e.g., Transformers, and achieve superior model performance. However, this also introduces a large number of excessive parameters, which brings a heavier burden for parameter optimization. In this paper, we propose a simple but powerful graph encoder for TKGC, called TARGCN. TARGCN is parameter-efficient, and it extensively explores every entity's temporal context for learning contextualized representations. We find that instead of adopting various kinds of complex modules, it is more beneficial to efficiently capture the temporal contexts of entities. We experiment TARGCN on three benchmark datasets. Our model can achieve a more than 46% relative improvement on the GDELT dataset compared with state-of-the-art TKGC models. Meanwhile, it outperforms the strongest baseline on the ICEWS05-15 dataset with around 18% fewer parameters.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-14T23:30:42Z</published>
+    <arxiv:comment>NeurIPS 2022 Temporal Graph Learning Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zifeng Ding</name>
+    </author>
+    <author>
+      <name>Yunpu Ma</name>
+    </author>
+    <author>
+      <name>Bailan He</name>
+    </author>
+    <author>
+      <name>Volker Tresp</name>
+    </author>
+  </entry>
+</feed>

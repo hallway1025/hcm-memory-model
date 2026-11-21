@@ -1,0 +1,30 @@
+[
+ {
+  "noise": 0.3,
+  "n": 50,
+  "sparse_only": 50,
+  "dense_once": 50,
+  "dense_hopfield": 50
+ },
+ {
+  "noise": 0.45,
+  "n": 50,
+  "sparse_only": 48,
+  "dense_once": 49,
+  "dense_hopfield": 49
+ },
+ {
+  "noise": 0.6,
+  "n": 50,
+  "sparse_only": 39,
+  "dense_once": 50,
+  "dense_hopfield": 50
+ },
+ {
+  "noise": 0.7,
+  "n": 50,
+  "sparse_only": 36,
+  "dense_once": 44,
+  "dense_hopfield": 44
+ }
+]

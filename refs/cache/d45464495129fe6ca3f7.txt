@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Hkkr0MP6cK2wsui3DEbFONt+8pc</id>
+  <title>arXiv Query: search_query=all:value AND all:of AND all:information&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T13:52:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:value+AND+(all:of+AND+all:information)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2107.11259v1</id>
+    <title>Probing tripartite entanglement and coherence dynamics in pure and mixed independent classical environments</title>
+    <updated>2021-07-23T14:18:40Z</updated>
+    <link href="https://arxiv.org/abs/2107.11259v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.11259v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum information processing exploits non-local functionality that has led to significant breakthroughs in the successful deployment of quantum mechanical protocols. In this regard, we address the dynamics of entanglement and coherence for three non-interacting qubits initially prepared as maximally entangled GHZ-like state coupled with independent classical environments. Two different Gaussian noises in pure and mixed noisy situations, namely, pure power-law noise, pure fractional Gaussian noise, power-law noise maximized and fractional Gaussian noise maximized cases are assumed to characterize the environments. With the help of time-dependent entanglement witnesses, purity, and decoherence measures, within the full range of parameters, we show that the current mixed noise cases are more detrimental than pure ones where entanglement and coherence are found short-lived. The power-law noise phase, in particular, appears to be more flexible and exploitable for long-term preservation effects. In contrast, we find that in both pure and mixed noise cases, where entanglement and coherence degrade at a relatively high rate, there is no ultimate solution for avoiding the detrimental dephasing effects of fractional Gaussian noise. The three-qubit state becomes disentangled and decoherent within independent classical environments driven by both pure and mixed Gaussian noises, either in long or short interaction time. In addition, due to the lack of the entanglement revival phenomenon, there is no information exchange between the system and the environment. The three-qubit GHZ-like states have thus been realized to be an excellent resource for long enough quantum correlations, coherence, and quantum information preservation in classical independent channels driven by pure power-law noise with extremely low parameter values.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-23T14:18:40Z</published>
+    <arxiv:comment>24 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Atta Ur Rahman</name>
+    </author>
+    <author>
+      <name>Muhammad Javed</name>
+    </author>
+    <author>
+      <name>Arif Ullah</name>
+    </author>
+    <author>
+      <name>Quantum Optics</name>
+    </author>
+    <author>
+      <name>Quantum Information Research Group</name>
+    </author>
+    <author>
+      <name>Department of Physics</name>
+    </author>
+    <author>
+      <name>University of Malakand</name>
+    </author>
+    <author>
+      <name>Chakdara Dir</name>
+    </author>
+    <author>
+      <name> Pakistan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.00345v1</id>
+    <title>Queering the Audits: Community-Based Auditing of AI Harms to Queer Communities</title>
+    <updated>2026-10-30T20:26:03Z</updated>
+    <link href="https://arxiv.org/abs/2611.00345v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.00345v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI systems embed majority-group defaults into training data, evaluation metrics, and category definitions, producing documented harms for queer communities including erasure, misclassification, and discrimination. Standard technical audits often rely on aggregate measures and cannot detect harms that be come visible only through the lived experience of affected communities. We conducted a participatory auditing workshop at EurIPS 2025 where 16 queer community members audited four case studies using the 4Cs harm taxonomy (Content, Conduct, Contact, Contract) applied across the AI lifecycle. Participants used structured worksheets and plenary synthesis to classify harms and trace them to their origins in the development pipeline. Across all four cases, participants traced harms to problem definition and data collection, and they identified contractual structures that extract value from vulnerable populations while providing minimal recourse. These findings illustrate that community-informed auditing surfaces concrete, identity-specific harms that aggregate evaluation methods risk overlooking.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-30T20:26:03Z</published>
+    <arxiv:comment>Published in Identity Aware AI workshop at LREC 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>In Proceedings of the Second Workshop of Identity Aware AI at 2026, pages 66-76, Palma de Mallorca, Spain. European Language Resources Association</arxiv:journal_ref>
+    <author>
+      <name>Organizers of QueerInAI</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>A Pranav</name>
+    </author>
+    <author>
+      <name>Alissa A. Valentine</name>
+    </author>
+    <author>
+      <name>Alex Markham</name>
+    </author>
+    <author>
+      <name>Beckett LeClair</name>
+    </author>
+    <author>
+      <name>Tereza Blazkova</name>
+    </author>
+    <author>
+      <name>Ekaterina Kornilitsina</name>
+    </author>
+    <author>
+      <name>Sofie H. Bruun</name>
+    </author>
+    <author>
+      <name>Gerasimos Spanakis</name>
+    </author>
+    <author>
+      <name>Anne Lauscher</name>
+    </author>
+    <arxiv:doi>10.63317/5acrwqmesyw4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.63317/5acrwqmesyw4" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,1018 @@
+{
+ "exp": "exp44_analyze",
+ "n_runs": 8,
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "primary_definition": "intrain200 deg0.3 semantic-only (cfg.lam=0) corrected-criterion hit rate",
+ "primary_rate": {
+  "A_fixed": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "B_online": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "C_uniform": [
+   0.0,
+   0.0,
+   0.005,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "paired_stats": {
+  "B_minus_A": {
+   "n_seeds": 8,
+   "mean": 0.0,
+   "sd": 0.0,
+   "p_value": 1.0,
+   "cohen_dz": 0.0
+  },
+  "B_minus_C": {
+   "n_seeds": 8,
+   "mean": -0.000625,
+   "sd": 0.001767766952966369,
+   "p_value": 1.0,
+   "cohen_dz": -0.35355339059327373
+  },
+  "A_minus_C": {
+   "n_seeds": 8,
+   "mean": -0.000625,
+   "sd": 0.001767766952966369,
+   "p_value": 1.0,
+   "cohen_dz": -0.35355339059327373
+  }
+ },
+ "secondary_rate": {
+  "intrain200|lam0|deg0.0": {
+   "A_fixed": 0.0,
+   "B_online": 0.000625,
+   "C_uniform": 0.0
+  },
+  "intrain200|lam05|deg0.3": {
+   "A_fixed": 0.6375,
+   "B_online": 0.6375,
+   "C_uniform": 0.6375
+  },
+  "dup200|lam0|deg0.0": {
+   "A_fixed": 0.0,
+   "B_online": 0.0,
+   "C_uniform": 0.0
+  }
+ },
+ "coverage_mean": {
+  "A_fixed": {
+   "unique_replayed": 9134.75,
+   "target_replayed": 14.875
+  },
+  "B_online": {
+   "unique_replayed": 9606.5,
+   "target_replayed": 17.375
+  },
+  "C_uniform": {
+   "unique_replayed": 10653.125,
+   "target_replayed": 17.125
+  }
+ },
+ "theta_trajectories": [
+  [
+   {
+    "chunk": 0,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 2,
+    "alpha": 0.5,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 4,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 6,
+    "alpha": 1.0,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 8,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 10,
+    "alpha": 0.25,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 12,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 14,
+    "alpha": 1.0,
+    "b": 0.25,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 16,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 18,
+    "alpha": 0.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 20,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 22,
+    "alpha": 0.5,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 24,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 26,
+    "alpha": 1.0,
+    "b": 0.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 28,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 30,
+    "alpha": 1.0,
+    "b": 2.0,
+    "rate": 0.0,
+    "gap": 0.0
+   }
+  ],
+  [
+   {
+    "chunk": 0,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 2,
+    "alpha": 0.5,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 4,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 6,
+    "alpha": 1.0,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 8,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 10,
+    "alpha": 0.25,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 12,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 14,
+    "alpha": 1.0,
+    "b": 0.25,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 16,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 18,
+    "alpha": 0.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 20,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 22,
+    "alpha": 0.5,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 24,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 26,
+    "alpha": 1.0,
+    "b": 0.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 28,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 30,
+    "alpha": 1.0,
+    "b": 2.0,
+    "rate": 0.0,
+    "gap": 0.0
+   }
+  ],
+  [
+   {
+    "chunk": 0,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 2,
+    "alpha": 0.5,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 4,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 6,
+    "alpha": 1.0,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 8,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 10,
+    "alpha": 0.25,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 12,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 14,
+    "alpha": 1.0,
+    "b": 0.25,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 16,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 18,
+    "alpha": 0.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 20,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 22,
+    "alpha": 0.5,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 24,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 26,
+    "alpha": 1.0,
+    "b": 0.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 28,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 30,
+    "alpha": 1.0,
+    "b": 2.0,
+    "rate": 0.0,
+    "gap": 0.0
+   }
+  ],
+  [
+   {
+    "chunk": 0,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 2,
+    "alpha": 0.5,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 4,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 6,
+    "alpha": 1.0,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 8,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 10,
+    "alpha": 0.25,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 12,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 14,
+    "alpha": 1.0,
+    "b": 0.25,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 16,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 18,
+    "alpha": 0.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 20,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 22,
+    "alpha": 0.5,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 24,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 26,
+    "alpha": 1.0,
+    "b": 0.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 28,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 30,
+    "alpha": 1.0,
+    "b": 2.0,
+    "rate": 0.0,
+    "gap": 0.0
+   }
+  ],
+  [
+   {
+    "chunk": 0,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 2,
+    "alpha": 0.5,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 4,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 6,
+    "alpha": 1.0,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 8,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 10,
+    "alpha": 0.25,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 12,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 14,
+    "alpha": 1.0,
+    "b": 0.25,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 16,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 18,
+    "alpha": 0.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 20,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 22,
+    "alpha": 0.5,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 24,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 26,
+    "alpha": 1.0,
+    "b": 0.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 28,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 30,
+    "alpha": 1.0,
+    "b": 2.0,
+    "rate": 0.0,
+    "gap": 0.0
+   }
+  ],
+  [
+   {
+    "chunk": 0,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 2,
+    "alpha": 0.5,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 4,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 6,
+    "alpha": 1.0,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 8,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 10,
+    "alpha": 0.25,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 12,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 14,
+    "alpha": 1.0,
+    "b": 0.25,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 16,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 18,
+    "alpha": 0.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 20,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 22,
+    "alpha": 0.5,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 24,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 26,
+    "alpha": 1.0,
+    "b": 0.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 28,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 30,
+    "alpha": 1.0,
+    "b": 2.0,
+    "rate": 0.0,
+    "gap": 0.0
+   }
+  ],
+  [
+   {
+    "chunk": 0,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 2,
+    "alpha": 0.5,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 4,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 6,
+    "alpha": 1.0,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 8,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 10,
+    "alpha": 0.25,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 12,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 14,
+    "alpha": 1.0,
+    "b": 0.25,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 16,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 18,
+    "alpha": 0.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 20,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 22,
+    "alpha": 0.5,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 24,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 26,
+    "alpha": 1.0,
+    "b": 0.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 28,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 30,
+    "alpha": 1.0,
+    "b": 2.0,
+    "rate": 0.0,
+    "gap": 0.0
+   }
+  ],
+  [
+   {
+    "chunk": 0,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 2,
+    "alpha": 0.5,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 4,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 6,
+    "alpha": 1.0,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 8,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 10,
+    "alpha": 0.25,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 12,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 14,
+    "alpha": 1.0,
+    "b": 0.25,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 16,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 18,
+    "alpha": 0.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 20,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 22,
+    "alpha": 0.5,
+    "b": 0.5,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 24,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 26,
+    "alpha": 1.0,
+    "b": 0.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 28,
+    "alpha": 1.0,
+    "b": 1.0,
+    "rate": 0.0,
+    "gap": 0.0
+   },
+   {
+    "chunk": 30,
+    "alpha": 1.0,
+    "b": 2.0,
+    "rate": 0.0,
+    "gap": 0.0
+   }
+  ]
+ ],
+ "gate_verdict": "NEGATIVE (reported verbatim): B<=A on primary; online tag criterion gives no detectable gain over fixed tag",
+ "gate_pre_registered": "pre-registered: B>A positive reported as positive; B<=A reported as negative; both verbatim",
+ "completed_at": "2026-11-11T15:04:34+00:00"
+}

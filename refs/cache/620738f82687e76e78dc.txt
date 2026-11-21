@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vZflZz1qjbfqCMU0rt6KPDn17/8</id>
+  <title>arXiv Query: search_query=all:state AND all:space AND all:models AND all:time AND all:cells AND submittedDate:"202401010000 TO 202612312359"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:44:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:state+AND+(all:space+AND+(all:models+AND+(all:time+AND+(all:cells+AND+submittedDate:%22202401010000+TO+202612312359%22))))&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>130</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.13638v4</id>
+    <title>State Space Models Naturally Produce Time Cell and Oscillatory Behaviors and Scale to Abstract Cognitive Functions</title>
+    <updated>2026-10-14T12:48:42Z</updated>
+    <link href="https://arxiv.org/abs/2507.13638v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.13638v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A grand challenge in modern neuroscience is bridging the gap between the microscale neural circuits and cognitive functions. While extensive knowledge exists about neuronal connectivity and biophysics, how low-level phenomena give rise to abstract behaviors remains largely unresolved. Here, we propose that a mathematical framework based on State Space Models offers mathematical sufficiency and computational plausibility to generate response profiles that resemble time cells, ramping activity, and oscillatory responses. Our results suggest that such behaviors can emerge from a structured multi-timescale complex rotational basis, which enables optimized history compression and naturally generates structured temporal dynamics even prior to training, mirroring recent findings in biological circuits. Learning exploits and adapts to the pre-existing temporal basis for specific tasks. We show that the model can readily scale to abstract cognitive functions such as event counting, supporting its use as a computationally tractable framework for understanding neural activities.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-18T03:53:16Z</published>
+    <arxiv:comment>Sen Lu and Xiaoyu Zhang contributed equally. Wei D. Lu is the corresponding author. 5 figures are included in 15 pages</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Sen Lu</name>
+    </author>
+    <author>
+      <name>Xiaoyu Zhang</name>
+    </author>
+    <author>
+      <name>Mingtao Hu</name>
+    </author>
+    <author>
+      <name>Eric Yeu-Jer Lee</name>
+    </author>
+    <author>
+      <name>Soohyeon Kim</name>
+    </author>
+    <author>
+      <name>Wei D. Lu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.23882v1</id>
+    <title>In-Context Learned Equalization in Cell-Free Massive MIMO via State-Space Models</title>
+    <updated>2024-10-31T12:45:50Z</updated>
+    <link href="https://arxiv.org/abs/2410.23882v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.23882v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sequence models have demonstrated the ability to perform tasks like channel equalization and symbol detection by automatically adapting to current channel conditions. This is done without requiring any explicit optimization and by leveraging not only short pilot sequences but also contextual information such as long-term channel statistics. The operating principle underlying automatic adaptation is in-context learning (ICL), an emerging property of sequence models. Prior art adopted transformer-based sequence models, which, however, have a computational complexity scaling quadratically with the context length due to batch processing. Recently, state-space models (SSMs) have emerged as a more efficient alternative, affording a linear inference complexity in the context size. This work explores the potential of SSMs for ICL-based equalization in cell-free massive MIMO systems. Results show that selective SSMs achieve comparable performance to transformer-based models while requiring approximately eight times fewer parameters and five times fewer floating-point operations.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-31T12:45:50Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Zihang Song</name>
+    </author>
+    <author>
+      <name>Matteo Zecchin</name>
+    </author>
+    <author>
+      <name>Bipin Rajendran</name>
+    </author>
+    <author>
+      <name>Osvaldo Simeone</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.02182v2</id>
+    <title>Sequence models for continuous cell cycle stage prediction from brightfield images</title>
+    <updated>2025-12-09T19:50:46Z</updated>
+    <link href="https://arxiv.org/abs/2502.02182v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.02182v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding cell cycle dynamics is crucial for studying biological processes such as growth, development and disease progression. While fluorescent protein reporters like the Fucci system allow live monitoring of cell cycle phases, they require genetic engineering and occupy additional fluorescence channels, limiting broader applicability in complex experiments. In this study, we conduct a comprehensive evaluation of deep learning methods for predicting continuous Fucci signals using non-fluorescence brightfield imaging, a widely available label-free modality. To that end, we generated a large dataset of 1.3 M images of dividing RPE1 cells with full cell cycle trajectories to quantitatively compare the predictive performance of distinct model categories including single time-frame models, causal state space models and bidirectional transformer models. We show that both causal and transformer-based models significantly outperform single- and fixed frame approaches, enabling the prediction of visually imperceptible transitions like G1/S within 1h resolution. Our findings underscore the importance of sequence models for accurate predictions of cell cycle dynamics and highlight their potential for label-free imaging.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-04T09:57:17Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Louis-Alexandre Leger</name>
+    </author>
+    <author>
+      <name>Maxine Leonardi</name>
+    </author>
+    <author>
+      <name>Andrea Salati</name>
+    </author>
+    <author>
+      <name>Felix Naef</name>
+    </author>
+    <author>
+      <name>Martin Weigert</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.16956v4</id>
+    <title>GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data</title>
+    <updated>2026-03-23T19:48:29Z</updated>
+    <link href="https://arxiv.org/abs/2504.16956v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.16956v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Single-cell RNA sequencing (scRNA-seq) enables high-resolution analysis of cellular heterogeneity, but its complexity, which is marked by high dimensionality, sparsity, and batch effects, which poses major computational challenges. Transformer-based models have made significant advances in this domain but are often limited by their quadratic complexity and suboptimal handling of long-range dependencies. In this work, we introduce GeneMamba, a scalable and efficient foundation model for single-cell transcriptomics built on state space modeling. Leveraging the Bi-Mamba architecture, GeneMamba captures bidirectional gene context with linear-time complexity, offering substantial computational gains over transformer baselines. The model is pretrained on nearly 30 million cells and incorporates biologically informed objectives, including pathway-aware contrastive loss and rank-based gene encoding. We evaluate GeneMamba across diverse tasks, including multi-batch integration, cell type annotation, and gene-gene correlation, demonstrating strong performance, interpretability, and robustness. These results position GeneMamba as a practical and powerful alternative to transformer-based methods, advancing the development of biologically grounded, scalable tools for large-scale single-cell data analysis.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-22T20:34:47Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>IJCNN 2026</arxiv:journal_ref>
+    <author>
+      <name>Cong Qi</name>
+    </author>
+    <author>
+      <name>Hanzhang Fang</name>
+    </author>
+    <author>
+      <name>Siqi Jiang</name>
+    </author>
+    <author>
+      <name>Xun Song</name>
+    </author>
+    <author>
+      <name>Tianxing Hu</name>
+    </author>
+    <author>
+      <name>Wei Zhi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.09937v1</id>
+    <title>Characterizing generalized Floquet topological states in hybrid space-time dimensions</title>
+    <updated>2024-09-16T02:27:52Z</updated>
+    <link href="https://arxiv.org/abs/2409.09937v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.09937v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In spatiotemporally modulated systems, topological states exist not only in energy gaps but also in momentum gaps. Such unconventional topological states impose challenges on topological physics. The underlying models also make the conventional Hamiltonian descriptions complicated. Here, we propose to describe such systems with space- and time-direction transfer matrices which substantially simplify the underlying theory and give direct information on the topological properties of the quasienergy and quasimomentum gaps. In particular, we find that the space- and time-direction reflection phases can serve as signatures for distinguishing various topological phases of the quasienergy and quasimomentum gaps. This approach directly reveals the topological properties of the band gap, avoiding the complexity in calculating bulk band topology in hybrid energy-moment space. By investigating two concrete models, we show that the method works well for both Hermitian and non-Hermitian systems. Furthermore, we uncover an unconventional topological state, called the anomalous Floquet quasimomentum gap, whose topological properties are invariant for different choices of the unit-cell center. This work advances the study of topological phenomena in hybrid space-time (energy-momentum) dimension that are attracting much interest due to the development of spatiotemporally modulated materials.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-16T02:27:52Z</published>
+    <arxiv:comment>11 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Weiwei Zhu</name>
+    </author>
+    <author>
+      <name>Jian-Hua Jiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.11998v3</id>
+    <title>An inverse problem in cell dynamics: Recovering an initial distribution of telomere lengths from measurements of senescence times</title>
+    <updated>2026-03-26T09:25:46Z</updated>
+    <link href="https://arxiv.org/abs/2501.11998v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.11998v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Telomeres are repetitive sequences situated at both ends of the chromosomes of eukaryotic cells. At each cell division, they are eroded until they reach a critical length that triggers a state in which the cell stops to divide: the senescent state. In this work, we are interested in the link between the initial distribution of telomere lengths and the distribution of senescence times. We propose a method to retrieve the initial distribution of telomere lengths, using only measurements of senescence times. Our approach relies on approximating our models with transport equations, which provide natural estimators for the initial telomere lengths distribution. We investigate this method from a theoretical point of view by providing bounds on the errors of our estimators, pointwise and in all Lebesgue spaces. We also illustrate it with estimations on simulations, and discuss its limitations related to the curse of dimensionality.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-21T09:45:46Z</published>
+    <arxiv:comment>Version of the pre-publication accepted for publication</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Jules Olayé</name>
+      <arxiv:affiliation>IMT</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.05110v2</id>
+    <title>BLINK: Behavioral Latent Modeling of NK Cell Cytotoxicity</title>
+    <updated>2026-03-16T12:40:52Z</updated>
+    <link href="https://arxiv.org/abs/2603.05110v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.05110v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning models of cellular interaction dynamics hold promise for understanding cell behavior. Natural killer (NK) cell cytotoxicity is a prominent example of such interaction dynamics and is commonly studied using time-resolved multi-channel fluorescence microscopy. Although tumor cell death events can be annotated at single frames, NK cytotoxic outcome emerges over time from cellular interactions and cannot be reliably inferred from frame-wise classification alone. We introduce BLINK, a trajectory-based recurrent state-space model that serves as a cell world model for NK-tumor interactions. BLINK learns latent interaction dynamics from partially observed NK-tumor interaction sequences and predicts apoptosis increments that accumulate into cytotoxic outcomes. Experiments on long-term time-lapse NK-tumor recordings show improved cytotoxic outcome detection and enable forecasting of future outcomes, together with an interpretable latent representation that organizes NK trajectories into coherent behavioral modes and temporally structured interaction phases. BLINK provides a unified framework for quantitative evaluation and structured modeling of NK cytotoxic behavior at the single-cell level.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-05T12:29:57Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Iman Nematollahi</name>
+    </author>
+    <author>
+      <name>Jose Francisco Villena-Ossa</name>
+    </author>
+    <author>
+      <name>Alina Moter</name>
+    </author>
+    <author>
+      <name>Kiana Farhadyar</name>
+    </author>
+    <author>
+      <name>Gabriel Kalweit</name>
+    </author>
+    <author>
+      <name>Abhinav Valada</name>
+    </author>
+    <author>
+      <name>Toni Cathomen</name>
+    </author>
+    <author>
+      <name>Evelyn Ullrich</name>
+    </author>
+    <author>
+      <name>Maria Kalweit</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.07294v1</id>
+    <title>Constitutive State-Space Modeling of Path-Dependent Plasticity: A Resolution-Consistent and Parallelizable Computational Framework</title>
+    <updated>2026-09-07T10:09:06Z</updated>
+    <link href="https://arxiv.org/abs/2609.07294v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.07294v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Data-driven constitutive models for path-dependent plasticity are commonly formulated using nonlinear recurrent neural networks, whose sequential state evolution limits parallel training and whose predictions may depend on the discretization of the applied strain path. We introduce a Constitutive State Space (CSS) model that reformulates structured state-space dynamics as an incremental constitutive operator. The strain increment is decomposed into magnitude and direction: the loading direction drives the latent state-space system, while the increment magnitude enters the zero-order-hold discretization of its continuous-time linear recurrence. This mechanics-tailored construction guarantees stationarity under zero increments, strongly reduces sensitivity to strain-path resolution, and retains the parallel-scan structure of S5 for efficient training on long constitutive histories. The CSS and Minimal State Cell (MSC) architectures are compared for four multiaxial path-dependent material models including isotropic J2 plasticity, pressure-sensitive foam plasticity, and combined isotropic-kinematic hardening. CSS matches or exceeds the prediction accuracy of the MSC, including one order of magnitude lower validation losses for the plastically incompressible materials. Importantly, CSS maintains low errors across large changes in strain-path discretization, whereas the MSC error increases substantially when evaluated at coarser resolutions than used for training. CSS trains substantially faster and requires fewer strain-stress pairs to attain comparable or better accuracy. Analysis of the learned state further reveals latent structure consistent with the dimensionality of the underlying physical constitutive models. These results establish mechanics-tailored structured state-space dynamics as a computational framework for efficient and discretization-robust data-driven constitutive modeling.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-07T10:09:06Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rui Barreira</name>
+    </author>
+    <author>
+      <name>Taylan Soydan</name>
+    </author>
+    <author>
+      <name>Francesco Scipione</name>
+    </author>
+    <author>
+      <name>Miguel A. Bessa</name>
+    </author>
+    <author>
+      <name>Dirk Mohr</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11518v2</id>
+    <title>Measurement of tissue viscosity to relate force and motion in collective cell migration</title>
+    <updated>2025-12-16T14:12:06Z</updated>
+    <link href="https://arxiv.org/abs/2508.11518v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11518v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In tissue development, wound healing, and cancer invasion, coordinated cell motion arises from active forces produced by the cells. The relationship between force and motion remains unclear, however, because the forces result from a sum of contributions from activity and the constitutive response of the cell collective. Here, we develop a method to decouple the forces due to activity from those due to constitutive response. As a model of an epithelial tissue, we use a monolayer of epithelial cells in the fluid state, for which the constitutive behavior is that of a viscous fluid. By careful study of the distribution of the ratio between shear stress and strain rate, we show that the order of magnitude of viscosity within the epithelial tissue is 100 Pa-hr and that increasing (decreasing) the actomyosin cytoskeleton and cell-cell adhesions increase (decrease) the magnitude of tissue viscosity. These results establish tissue viscosity as a meaningful way to describe the mechanical behavior of epithelial tissues, and demonstrate a direct relationship between tissue microstructure and material properties. By providing the first experimental measurement of tissue viscosity, our study is a step toward separating the active and constitutive components of stress, in turn clarifying the relationship between force and motion and providing a new means of identifying how active cell forces evolve in space and time.</summary>
+    <category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.CB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-15T14:57:40Z</published>
+    <arxiv:primary_category term="physics.bio-ph"/>
+    <author>
+      <name>Molly McCord</name>
+    </author>
+    <author>
+      <name>Jacob Notbohm</name>
+    </author>
+    <arxiv:doi>10.1039/D5SM01139F</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1039/D5SM01139F" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.02043v2</id>
+    <title>Efficient magnetohydrodynamic modelling of the time-evolving corona by COCONUT</title>
+    <updated>2025-02-08T21:55:38Z</updated>
+    <link href="https://arxiv.org/abs/2409.02043v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.02043v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Compared to quasi-steady-state corona models that are constrained by a time-invariant magnetogram over a CR period, time-evolving corona models driven by time-varying photospheric magnetograms are more realistic and can maintain more useful information to accurately describe solar wind evolution and forecast CME propagation. This paper demonstrate that time-evolving corona simulations can be performed efficiently and accurately using an implicit method with relatively large time steps. We also evaluate differences between coronal structures captured by time-evolving and quasi-steady simulations over a CR period during solar minimum. We used a series of hourly updated photospheric magnetograms to drive the evolution of coronal structures from the solar surface to $25\; R_s$ during two CRs around the 2019 eclipse in an inertial coordinate system. We compare the time-evolving and quasi-steady simulations to demonstrate that the differences in these two types of coronal modelling can be obvious even for a solar minimum. The relative differences in radial velocity and density can be over $15 \%$ and $25 \%$ at 20$\;R_s$ during one CR period. We also evaluated the impact of time steps on the simulation results. Using a time step of approximately 10 minutes balances efficiency and necessary numerical stability and accuracy for time-evolving corona simulations around solar minima, with coronal evolution during a full CR simulated within only 9 hours (using 1080 CPU cores for 1.5M grid cells). The simulation results demonstrate that time-evolving MHD coronal simulations can be performed efficiently and accurately using an implicit method, offering a more realistic alternative to quasi-steady-state simulations. The fully implicit time-evolving corona model thus promises to simulate the time-evolving corona accurately in practical space weather forecasting.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-03T16:43:58Z</published>
+    <arxiv:comment>accept, 14 pages, 7 figures, 4 movies</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>A&amp;A 694, A234 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Haopeng Wang</name>
+    </author>
+    <author>
+      <name>Stefaan Poedts</name>
+    </author>
+    <author>
+      <name>Andrea Lani</name>
+    </author>
+    <author>
+      <name>Michaela Brchnelová</name>
+    </author>
+    <author>
+      <name>Tinatin Baratashvili</name>
+    </author>
+    <author>
+      <name>Luis Linan</name>
+    </author>
+    <author>
+      <name>Fan Zhang</name>
+    </author>
+    <author>
+      <name>Dawei Hou</name>
+    </author>
+    <author>
+      <name>Yuhao Zhou</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202452279</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202452279" title="doi"/>
+  </entry>
+</feed>

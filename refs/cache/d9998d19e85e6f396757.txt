@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/E+EfX6L/M8tWIDHVz0WzHtfb+Nc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2505.22101&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T11:56:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2505.22101" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.22101v1</id>
+    <title>MemOS: An Operating System for Memory-Augmented Generation (MAG) in Large Language Models</title>
+    <updated>2025-05-28T08:27:12Z</updated>
+    <link href="https://arxiv.org/abs/2505.22101v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.22101v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have emerged as foundational infrastructure in the pursuit of Artificial General Intelligence (AGI). Despite their remarkable capabilities in language perception and generation, current LLMs fundamentally lack a unified and structured architecture for handling memory. They primarily rely on parametric memory (knowledge encoded in model weights) and ephemeral activation memory (context-limited runtime states). While emerging methods like Retrieval-Augmented Generation (RAG) incorporate plaintext memory, they lack lifecycle management and multi-modal integration, limiting their capacity for long-term knowledge evolution. To address this, we introduce MemOS, a memory operating system designed for LLMs that, for the first time, elevates memory to a first-class operational resource. It builds unified mechanisms for representation, organization, and governance across three core memory types: parametric, activation, and plaintext. At its core is the MemCube, a standardized memory abstraction that enables tracking, fusion, and migration of heterogeneous memory, while offering structured, traceable access across tasks and contexts. MemOS establishes a memory-centric execution framework with strong controllability, adaptability, and evolvability. It fills a critical gap in current LLM infrastructure and lays the groundwork for continual adaptation, personalized intelligence, and cross-platform coordination in next-generation intelligent systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-28T08:27:12Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhiyu Li</name>
+    </author>
+    <author>
+      <name>Shichao Song</name>
+    </author>
+    <author>
+      <name>Hanyu Wang</name>
+    </author>
+    <author>
+      <name>Simin Niu</name>
+    </author>
+    <author>
+      <name>Ding Chen</name>
+    </author>
+    <author>
+      <name>Jiawei Yang</name>
+    </author>
+    <author>
+      <name>Chenyang Xi</name>
+    </author>
+    <author>
+      <name>Huayi Lai</name>
+    </author>
+    <author>
+      <name>Jihao Zhao</name>
+    </author>
+    <author>
+      <name>Yezhaohui Wang</name>
+    </author>
+    <author>
+      <name>Junpeng Ren</name>
+    </author>
+    <author>
+      <name>Zehao Lin</name>
+    </author>
+    <author>
+      <name>Jiahao Huo</name>
+    </author>
+    <author>
+      <name>Tianyi Chen</name>
+    </author>
+    <author>
+      <name>Kai Chen</name>
+    </author>
+    <author>
+      <name>Kehang Li</name>
+    </author>
+    <author>
+      <name>Zhiqiang Yin</name>
+    </author>
+    <author>
+      <name>Qingchen Yu</name>
+    </author>
+    <author>
+      <name>Bo Tang</name>
+    </author>
+    <author>
+      <name>Hongkang Yang</name>
+    </author>
+    <author>
+      <name>Zhi-Qin John Xu</name>
+    </author>
+    <author>
+      <name>Feiyu Xiong</name>
+    </author>
+  </entry>
+</feed>

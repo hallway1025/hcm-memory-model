@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM"><PMID Version="1">28179880</PMID><DateRevised><Year>2024</Year><Month>03</Month><Day>24</Day></DateRevised><Article PubModel="Electronic-eCollection"><Journal><ISSN IssnType="Print">1662-5161</ISSN><JournalIssue CitedMedium="Print"><Volume>11</Volume><PubDate><Year>2017</Year></PubDate></JournalIssue><Title>Frontiers in human neuroscience</Title><ISOAbbreviation>Front Hum Neurosci</ISOAbbreviation></Journal><ArticleTitle>Comparison of the Working Memory Load in <i>N</i>-Back and Working Memory Span Tasks by Means of EEG Frequency Band Power and P300 Amplitude.</ArticleTitle><Pagination><StartPage>6</StartPage><MedlinePgn>6</MedlinePgn></Pagination><ELocationID EIdType="pii" ValidYN="Y">6</ELocationID><ELocationID EIdType="doi" ValidYN="Y">10.3389/fnhum.2017.00006</ELocationID><Abstract><AbstractText>According to theoretical accounts, both, <i>N</i>-back and complex span tasks mainly require working memory (WM) processing. In contrast, simple span tasks conceptually mainly require WM storage. Thus, conceptually, an <i>N</i>-back task and a complex span task share more commonalities as compared to a simple span task. In the current study, we compared an <i>N</i>-back task, a complex operation span task (Ospan), and a simple digit span task (Dspan) by means of typical WM load-related measures of the Electroencephalogram (EEG) like the parietal alpha and beta frequency band power, the frontal theta frequency band power, and the P300 amplitude, to examine whether these tasks would show commonalities or differences in WM processing-load. We expected that increasing WM-load would generally lead to a decreased alpha and beta frequency band power, an increased theta frequency band power, and a decreased P300 amplitude. Yet, based on the conceptual considerations, we hypothesized that the outcomes of these measures would be more comparable between the <i>N</i>-back and the Ospan as compared to the Dspan. Our hypotheses were partly confirmed. The <i>N</i>-back and the Ospan showed timely more prolonged alpha frequency band power effects as compared to the Dspan. This might indicate higher demands on WM processing in the former two tasks. The theta frequency band power and the P300 amplitude were most pronounced in the <i>N</i>-back task as compared to both span tasks. This might indicate specific demands on cognitive control in the <i>N</i>-back task. Additionally, we observed that behavioral performance measures correlated with changes in EEG alpha power of the <i>N</i>-back and the Ospan, yet not of the Dspan. Taken together, the hypothesized conceptual commonalities between the <i>N</i>-back task and the Ospan (and, for the Dspan, differences) were only partly confirmed by the electrophysiological WM load-related measures, indicating a potential need for reconsidering the theoretical accounts on WM tasks and the value of a closer link to electrophysiological research herein.</AbstractText></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Scharinger</LastName><ForeName>Christian</ForeName><Initials>C</Initials><AffiliationInfo><Affiliation>Knowledge Media Research Center T&#xfc;bingen, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Soutschek</LastName><ForeName>Alexander</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Laboratory for Social and Neural Systems Research, University of Zurich Zurich, Switzerland.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Schubert</LastName><ForeName>Torsten</ForeName><Initials>T</Initials><AffiliationInfo><Affiliation>Department of Psychology, Humboldt-Universit&#xe4;t zu BerlinBerlin, Germany; Department of Psychology, Martin-Luther-Universit&#xe4;t Halle-WittenbergHalle, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Gerjets</LastName><ForeName>Peter</ForeName><Initials>P</Initials><AffiliationInfo><Affiliation>Knowledge Media Research CenterT&#xfc;bingen, Germany; Department of Psychology, Eberhard-Karls-Universit&#xe4;t T&#xfc;bingenT&#xfc;bingen, Germany.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType="Electronic"><Year>2017</Year><Month>01</Month><Day>25</Day></ArticleDate></Article><MedlineJournalInfo><Country>Switzerland</Country><MedlineTA>Front Hum Neurosci</MedlineTA><NlmUniqueID>101477954</NlmUniqueID><ISSNLinking>1662-5161</ISSNLinking></MedlineJournalInfo><KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">EEG time-frequency analysis</Keyword><Keyword MajorTopicYN="N">EEG/ERP</Keyword><Keyword MajorTopicYN="N">ERD/ERS</Keyword><Keyword MajorTopicYN="N">N-back task</Keyword><Keyword MajorTopicYN="N">P300</Keyword><Keyword MajorTopicYN="N">digit span task</Keyword><Keyword MajorTopicYN="N">operation span task</Keyword><Keyword MajorTopicYN="N">working memory</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="received"><Year>2016</Year><Month>6</Month><Day>1</Day></PubMedPubDate><PubMedPubDate PubStatus="accepted"><Year>2017</Year><Month>1</Month><Day>5</Day></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2017</Year><Month>2</Month><Day>10</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2017</Year><Month>2</Month><Day>10</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="medline"><Year>2017</Year><Month>2</Month><Day>10</Day><Hour>6</Hour><Minute>1</Minute></PubMedPubDate><PubMedPubDate PubStatus="pmc-release"><Year>2017</Year><Month>1</Month><Day>1</Day></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">28179880</ArticleId><ArticleId IdType="pmc">PMC5263141</ArticleId><ArticleId IdType="doi">10.3389/fnhum.2017.00006</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Baddeley A. (2003). Working memory: looking back and looking forward.
+<i>Nat. Rev. Neurosci.</i>
+4
+829&#x2013;839. 10.1038/nrn1201</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn1201</ArticleId><ArticleId IdType="pubmed">14523382</ArticleId></ArticleIdList></Reference><Reference><Citation>Baddeley A. (2007). <i>Working Memory, Thought, and Action</i>.
+Oxford: Oxford University Press; 
+10.1093/acprof:oso/9780198528012.001.0001</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/acprof:oso/9780198528012.001.0001</ArticleId></ArticleIdList></Reference><Reference><Citation>Bayliss D. M., Jarrold C., Gunn D. M., Baddeley A. D. (2003). The complexities of complex span: explaining individual differences in working memory in children and adults.
+<i>J. Exp. Psychol. Gen.</i>
+132
+71&#x2013;92. 10.1037/0096-3445.132.1.71</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0096-3445.132.1.71</ArticleId><ArticleId IdType="pubmed">12656298</ArticleId></ArticleIdList></Reference><Reference><Citation>Blankenship A. B. (1938). Memory span: a review of the literature.
+<i>Psychol. Bull.</i>
+35
+1&#x2013;25. 10.1037/h0061086</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/h0061086</ArticleId></ArticleIdList></Reference><Reference><Citation>Bledowski C., Kaiser J., Rahm B. (2010). Basic operations in working memory: contributions from functional imaging studies.
+<i>Behav. Brain Res.</i>
+214
+172&#x2013;179. 10.1016/j.bbr.2010.05.041</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.bbr.2010.05.041</ArticleId><ArticleId IdType="pubmed">20678984</ArticleId></ArticleIdList></Reference><Reference><Citation>Chen Y.-N., Mitra S., Schlaghecken F. (2008). Sub-processes of working memory in the n-back task: an investigation using ERPs.
+<i>Clin. Neurophysiol.</i>
+119
+1546&#x2013;1559. 10.1016/j.clinph.2008.03.003</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.clinph.2008.03.003</ArticleId><ArticleId IdType="pubmed">18448388</ArticleId></ArticleIdList></Reference><Reference><Citation>Conway A. R. A., Kane M. J., Bunting M. F., Hambrick D. Z., Wilhelm O., Engle R. W. (2005). Working memory span tasks: a methodological review and user&#x2019;s guide.
+<i>Psychon. Bull. Rev.</i>
+12
+769&#x2013;786. 10.3758/BF03196772</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03196772</ArticleId><ArticleId IdType="pubmed">16523997</ArticleId></ArticleIdList></Reference><Reference><Citation>Cowan N. (1999). &#x201c;An embedded-process model of working memory,&#x201d; in
+<i>Models of Working Memory: Mechanisms of Active Maintenance and Executive Control</i>
+eds
+Miyake A., Shah P. (Cambridge: Cambridge University Press; ) 62&#x2013;101.</Citation></Reference><Reference><Citation>Daneman M., Carpenter P. A. (1980). Individual differences in working memory and reading.
+<i>J. Verbal Learn. Verbal Behav.</i>
+19
+450&#x2013;466. 10.1016/S0022-5371(80)90312-6</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0022-5371(80)90312-6</ArticleId></ArticleIdList></Reference><Reference><Citation>Delorme A., Makeig S. (2004). EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis.
+<i>J. Neurosci. Methods</i>
+134
+9&#x2013;21. 10.1016/j.jneumeth.2003.10.009</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.jneumeth.2003.10.009</ArticleId><ArticleId IdType="pubmed">15102499</ArticleId></ArticleIdList></Reference><Reference><Citation>Donchin E., Coles M. G. H. (1988). Is the P300 component a manifestation of context updating?
+<i>Behav. Brain Sci.</i>
+11
+355&#x2013;372. 10.1017/S0140525X00058027</Citation><ArticleIdList><ArticleId IdType="doi">10.1017/S0140525X00058027</ArticleId></ArticleIdList></Reference><Reference><Citation>Duncan C. C., Barry R. J., Connolly J. F., Fischer C., Michie P. T., N&#xe4;&#xe4;t&#xe4;nen R., et al.  (2009). Event-related potentials in clinical research: guidelines for eliciting, recording, and quantifying mismatch negativity, P300, and N400.
+<i>Clin. Neurophysiol.</i>
+120
+1883&#x2013;1908. 10.1016/j.clinph.2009.07.045</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.clinph.2009.07.045</ArticleId><ArticleId IdType="pubmed">19796989</ArticleId></ArticleIdList></Reference><Reference><Citation>Engel A. K., Fries P. (2010). Beta-band oscillations &#x2013; signalling the status quo?
+<i>Curr. Opin. Neurobiol.</i>
+20
+156&#x2013;165. 10.1016/j.conb.2010.02.015</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.conb.2010.02.015</ArticleId><ArticleId IdType="pubmed">20359884</ArticleId></ArticleIdList></Reference><Reference><Citation>Engle R. W. (2002). Working memory capacity as executive attention.
+<i>Curr. Dir. Psychol. Sci.</i>
+11
+19&#x2013;23. 10.1111/1467-8721.00160</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/1467-8721.00160</ArticleId></ArticleIdList></Reference><Reference><Citation>Fu S., Parasuraman R. (2008). &#x201c;Event-related potentials (ERPs) in neuroergonomics,&#x201d; in
+<i>Neuroergonomics. The Brain at Work</i>
+eds
+Parasuraman R., Rizzo M. (New York, NY: Oxford University Press; ) 32&#x2013;50.</Citation></Reference><Reference><Citation>Gevins A., Smith M. E. (2000). Neurophysiological measures of working memory and individual differences in cognitive ability and cognitive style.
+<i>Cereb. Cortex</i>
+10
+829&#x2013;839. 10.1093/cercor/10.9.829</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/10.9.829</ArticleId><ArticleId IdType="pubmed">10982744</ArticleId></ArticleIdList></Reference><Reference><Citation>Gevins A., Smith M. E., Le J., Leong H., Bennett J., Martin N., et al.  (1996). High resolution evoked potential imaging of the cortical dynamics of human working memory.
+<i>Electroencephalogr. Clin. Neurophys.</i>
+98
+327&#x2013;348. 10.1016/0013-4694(96)00288-X</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/0013-4694(96)00288-X</ArticleId><ArticleId IdType="pubmed">8641154</ArticleId></ArticleIdList></Reference><Reference><Citation>Gevins A., Smith M. E., McEvoy C. L., Yu D. (1997). High-resolution EEG mapping of cortical activation related to working memory: effects of task difficulty, type of processing, and practice.
+<i>Cereb. Cortex</i>
+7
+374&#x2013;385. 10.1093/cercor/7.4.374</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/7.4.374</ArticleId><ArticleId IdType="pubmed">9177767</ArticleId></ArticleIdList></Reference><Reference><Citation>Gray H. M., Ambady N., Lowenthal W. T., Deldin P. (2004). P300 as an index of attention to self-relevant stimuli.
+<i>J. Exp. Soc. Psychol.</i>
+40
+216&#x2013;224. 10.1016/S0022-1031(03)00092-1</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0022-1031(03)00092-1</ArticleId></ArticleIdList></Reference><Reference><Citation>Gregoire J., Van Der Linden M. (2004). Effect of age on forward and backward span tasks.
+<i>J. Int. Neuropsychol. Soc.</i>
+10
+475&#x2013;481. 10.1017/S1355617704104037</Citation><ArticleIdList><ArticleId IdType="doi">10.1017/S1355617704104037</ArticleId><ArticleId IdType="pubmed">15327726</ArticleId></ArticleIdList></Reference><Reference><Citation>Gross B., Metz A., Ullsperger P. (1992). Die P300-Komponente des ereigniskorrelierten Hirnpotentials in einem Kurzzeitged&#xe4;chtnisparadigma.
+<i>Z. Exp. Angew. Psychol.</i>
+39
+56&#x2013;67.</Citation><ArticleIdList><ArticleId IdType="pubmed">1598764</ArticleId></ArticleIdList></Reference><Reference><Citation>Grune K., Metz A., Hagendorf H., Fischer S. (1996). Information processing in working memory and event-related brain potentials.
+<i>Int. J. Psychophysiol.</i>
+23
+111&#x2013;120. 10.1016/0167-8760(96)00040-2</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/0167-8760(96)00040-2</ArticleId><ArticleId IdType="pubmed">8880371</ArticleId></ArticleIdList></Reference><Reference><Citation>Humstone H. J. (1919). Memory span tests.
+<i>Psychol. Clin.</i>
+12
+196&#x2013;200.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC5076260</ArticleId><ArticleId IdType="pubmed">28909279</ArticleId></ArticleIdList></Reference><Reference><Citation>Jaeggi S. M., Buschkuehl M., Perrig W. J., Meier B. (2010). The concurrent validity of the n-back task as a working memory measure.
+<i>Memory</i>
+18
+394&#x2013;412. 10.1080/09658211003702171</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/09658211003702171</ArticleId><ArticleId IdType="pubmed">20408039</ArticleId></ArticleIdList></Reference><Reference><Citation>Jasper H. H. (1958). The ten-twenty electrode system of the international federation.
+<i>Electroencephalogr. Clin. Neurophys.</i>
+10
+371&#x2013;375.</Citation><ArticleIdList><ArticleId IdType="pubmed">10590970</ArticleId></ArticleIdList></Reference><Reference><Citation>Jensen O., Gelfand J., Kounios J., Lisman J. E. (2002). Oscillations in the alpha band (9-12 Hz) increase with memory load during retention in a short-term memory task.
+<i>Cereb. Cortex</i>
+12
+877&#x2013;882. 10.1093/cercor/12.8.877</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/12.8.877</ArticleId><ArticleId IdType="pubmed">12122036</ArticleId></ArticleIdList></Reference><Reference><Citation>Johnson R. (1993). On the neural generators of the P300 component of the event-related potential.
+<i>Psychophysiology</i>
+30
+90&#x2013;97. 10.1111/j.1469-8986.1993.tb03208.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1469-8986.1993.tb03208.x</ArticleId><ArticleId IdType="pubmed">8416066</ArticleId></ArticleIdList></Reference><Reference><Citation>Jonides J., Schumacher E. H., Smith E. E., Lauber E. J., Awh E., Minoshima S., et al.  (1997). Verbal working memory load affects regional brain activation as measured by PET.
+<i>J. Cogn. Neurosci.</i>
+9
+462&#x2013;475. 10.1162/jocn.1997.9.4.462</Citation><ArticleIdList><ArticleId IdType="doi">10.1162/jocn.1997.9.4.462</ArticleId><ArticleId IdType="pubmed">23968211</ArticleId></ArticleIdList></Reference><Reference><Citation>Kane M. J., Conway A. R. A., Miura T. K., Colflesh G. J. H. (2007). Working memory, attention control, and the N-back task: a question of construct validity.
+<i>J. Exp. Psychol. Learn. Mem. Cogn.</i>
+33
+615&#x2013;622. 10.1037/0278-7393.33.3.615</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0278-7393.33.3.615</ArticleId><ArticleId IdType="pubmed">17470009</ArticleId></ArticleIdList></Reference><Reference><Citation>Klimesch W. (1999). EEG alpha and theta oscillations reflect cognitive and memory performance: a review and analysis.
+<i>Brain Res. Rev.</i>
+29
+169&#x2013;195. 10.1016/S0165-0173(98)00056-3</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0165-0173(98)00056-3</ArticleId><ArticleId IdType="pubmed">10209231</ArticleId></ArticleIdList></Reference><Reference><Citation>Kok A. (2001). On the utility of P3 amplitude as a measure of processing capacity.
+<i>Psychophysiology</i>
+38
+557&#x2013;577. 10.1017/S0048577201990559</Citation><ArticleIdList><ArticleId IdType="doi">10.1017/S0048577201990559</ArticleId><ArticleId IdType="pubmed">11352145</ArticleId></ArticleIdList></Reference><Reference><Citation>Krause C. M., Pesonen M., H&#xe4;m&#xe4;l&#xe4;inen H. (2010). Brain oscillatory 4-30 Hz electroencephalogram responses in adolescents during a visual memory task.
+<i>Neuroreport</i>
+21
+767&#x2013;771. 10.1097/WNR.0b013e32833bfcbb</Citation><ArticleIdList><ArticleId IdType="doi">10.1097/WNR.0b013e32833bfcbb</ArticleId><ArticleId IdType="pubmed">20577134</ArticleId></ArticleIdList></Reference><Reference><Citation>Krause C. M., Sillanm&#xe4;ki L., Koivisto M., Saarela C., H&#xe4;ggqvist A., Laine M., et al.  (2000). The effects of memory load on event-related EEG desynchronization and synchronization.
+<i>Clin. Neurophysiol.</i>
+111
+2071&#x2013;2078. 10.1016/S1388-2457(00)00429-6</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S1388-2457(00)00429-6</ArticleId><ArticleId IdType="pubmed">11068244</ArticleId></ArticleIdList></Reference><Reference><Citation>Mazaheri A., Picton T. W. (2005). EEG spectral dynamics during discrimination of auditory and visual targets.
+<i>Cogn. Brain Res.</i>
+24
+81&#x2013;96. 10.1016/j.cogbrainres.2004.12.013</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cogbrainres.2004.12.013</ArticleId><ArticleId IdType="pubmed">15922161</ArticleId></ArticleIdList></Reference><Reference><Citation>McEvoy L. K., Pellouchoud E., Smith M. E., Gevins A. (2001). Neurophysiological signals of working memory in normal aging.
+<i>Brain Res. Cogn. Brain Res.</i>
+11
+363&#x2013;376. 10.1016/S0926-6410(01)00009-X</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0926-6410(01)00009-X</ArticleId><ArticleId IdType="pubmed">11339986</ArticleId></ArticleIdList></Reference><Reference><Citation>Miller K. M., Price C. C., Okun M. S., Montijo H., Bowers D. (2009). Is the n-back task a valid neuropsychological measure for assessing working memory?
+<i>Arch. Clin. Neuropsychol.</i>
+24
+711&#x2013;717. 10.1093/arclin/acp063</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/arclin/acp063</ArticleId><ArticleId IdType="pmc">PMC2770861</ArticleId><ArticleId IdType="pubmed">19767297</ArticleId></ArticleIdList></Reference><Reference><Citation>Miyake A., Friedman N. P., Emerson M. J., Witzki A. H., Howerter A. (2000). The unity and diversity of executive functions and their contributions to complex &#x201c;frontal lobe&#x201d; tasks: a latent variable analysis.
+<i>Cogn. Psychol.</i>
+41
+49&#x2013;100. 10.1006/cogp.1999.0734</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/cogp.1999.0734</ArticleId><ArticleId IdType="pubmed">10945922</ArticleId></ArticleIdList></Reference><Reference><Citation>Oldfield R. (1971). The assessment and analysis of handedness: the Edinburgh Inventory.
+<i>Neuropsychologia</i>
+9
+97&#x2013;113. 10.1016/0028-3932(71)90067-4</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/0028-3932(71)90067-4</ArticleId><ArticleId IdType="pubmed">5146491</ArticleId></ArticleIdList></Reference><Reference><Citation>Owen A. M., McMillan K. M., Laird A. R., Bullmore E. (2005). N-back working memory paradigm: a meta-analysis of normative functional neuroimaging studies.
+<i>Hum. Brain Mapp.</i>
+25
+46&#x2013;59. 10.1002/hbm.20131</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hbm.20131</ArticleId><ArticleId IdType="pmc">PMC6871745</ArticleId><ArticleId IdType="pubmed">15846822</ArticleId></ArticleIdList></Reference><Reference><Citation>Palom&#xe4;ki J., Kivikangas M., Alafuzoff A., Hakala T., Krause C. M. (2012). Brain oscillatory 4-35 Hz EEG responses during an n-back task with complex visual stimuli.
+<i>Neurosci. Lett.</i>
+516
+141&#x2013;145. 10.1016/j.neulet.2012.03.076</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neulet.2012.03.076</ArticleId><ArticleId IdType="pubmed">22490880</ArticleId></ArticleIdList></Reference><Reference><Citation>Palva S., Palva J. M. (2007). New vistas for alpha-frequency band oscillations.
+<i>Trends Neurosci.</i>
+30
+150&#x2013;158. 10.1016/j.tins.2007.02.001</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tins.2007.02.001</ArticleId><ArticleId IdType="pubmed">17307258</ArticleId></ArticleIdList></Reference><Reference><Citation>Pesonen M., H&#xe4;m&#xe4;l&#xe4;inen H., Krause C. M. (2007). Brain oscillatory 4-30 Hz responses during a visual n-back memory task with varying memory load.
+<i>Brain Res.</i>
+1138
+171&#x2013;177. 10.1016/j.brainres.2006.12.076</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.brainres.2006.12.076</ArticleId><ArticleId IdType="pubmed">17270151</ArticleId></ArticleIdList></Reference><Reference><Citation>Pfurtscheller G., Lopes da Silva F. H. (1999). Event-related EEG/MEG synchronization and desynchronization: basic principles.
+<i>Clin. Neurophysiol.</i>
+110
+1842&#x2013;1857. 10.1016/S1388-2457(99)00141-8</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S1388-2457(99)00141-8</ArticleId><ArticleId IdType="pubmed">10576479</ArticleId></ArticleIdList></Reference><Reference><Citation>Picton T. W. (1992). The P300 wave of the human event-related potential.
+<i>J. Clin. Neurophysiol.</i>
+9
+456&#x2013;479. 10.1097/00004691-199210000-00002</Citation><ArticleIdList><ArticleId IdType="doi">10.1097/00004691-199210000-00002</ArticleId><ArticleId IdType="pubmed">1464675</ArticleId></ArticleIdList></Reference><Reference><Citation>Polich J. (2007). Updating P300: an integrative theory of P3a and P3b.
+<i>Clin. Neurophysiol.</i>
+118
+2128&#x2013;2148. 10.1016/j.clinph.2007.04.019</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.clinph.2007.04.019</ArticleId><ArticleId IdType="pmc">PMC2715154</ArticleId><ArticleId IdType="pubmed">17573239</ArticleId></ArticleIdList></Reference><Reference><Citation>Redick T. S., Lindsey D. R. B. (2013). Complex span and n-back measures of working memory: a meta-analysis.
+<i>Psychon. Bull. Rev.</i>
+20
+1102&#x2013;1113. 10.3758/s13423-013-0453-9</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/s13423-013-0453-9</ArticleId><ArticleId IdType="pubmed">23733330</ArticleId></ArticleIdList></Reference><Reference><Citation>Ruchkin D. S., Sutton S. (1978). Emitted P300 potentials and temporal unvertainty.
+<i>Electroencephalogr. Clin. Neurophysiol.</i>
+45
+268&#x2013;277. 10.1016/0013-4694(78)90010-X</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/0013-4694(78)90010-X</ArticleId><ArticleId IdType="pubmed">78836</ArticleId></ArticleIdList></Reference><Reference><Citation>Sauseng P., Griesmayr B., Freunberger R., Klimesch W. (2010). Control mechanisms in working memory: a possible function of EEG theta oscillations.
+<i>Neurosci. Biobehav. Rev.</i>
+34
+1015&#x2013;1022. 10.1016/j.neubiorev.2009.12.006</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neubiorev.2009.12.006</ArticleId><ArticleId IdType="pubmed">20006645</ArticleId></ArticleIdList></Reference><Reference><Citation>Schalk G., McFarland D. J., Hinterberger T., Birbaumer N., Wolpaw J. R. (2004). BCI2000: a general-purpose brain-computer interface (BCI) system.
+<i>IEEE Trans. Biomed. Eng.</i>
+51
+1034&#x2013;1043. 10.1109/TBME.2004.827072</Citation><ArticleIdList><ArticleId IdType="doi">10.1109/TBME.2004.827072</ArticleId><ArticleId IdType="pubmed">15188875</ArticleId></ArticleIdList></Reference><Reference><Citation>Scharinger C., Soutschek A., Schubert T., Gerjets P. (2015). When flanker meets the n-back: what EEG and pupil dilation data reveal about the interplay between the two central-executive working memory functions inhibition and updating.
+<i>Psychophysiology</i>
+52
+1293&#x2013;1304. 10.1111/psyp.12500</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/psyp.12500</ArticleId><ArticleId IdType="pubmed">26238380</ArticleId></ArticleIdList></Reference><Reference><Citation>Spencer K. M., Polich J. (1999). Posstimulus EEG spectral analysis and P300: attention, task, and probability.
+<i>Psychophysiology</i>
+36
+220&#x2013;232. 10.1111/1469-8986.3620220</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/1469-8986.3620220</ArticleId><ArticleId IdType="pubmed">10194969</ArticleId></ArticleIdList></Reference><Reference><Citation>Squires N. K., Squires K. C., Hillyard S. A. (1975). Two varieties of long-latency positive waves evoked by unpredictable auditory stimuli in man.
+<i>Electroencephalogr. Clin. Neurophysiol.</i>
+38
+387&#x2013;401. 10.1016/0013-4694(75)90263-1</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/0013-4694(75)90263-1</ArticleId><ArticleId IdType="pubmed">46819</ArticleId></ArticleIdList></Reference><Reference><Citation>Stipacek A., Grabner R. H., Neuper C., Fink A., Neubauer A. C. (2003). Sensitivity of human EEG alpha band desynchronization to different working memory components and increasing levels of memory load.
+<i>Neurosci. Lett.</i>
+353
+193&#x2013;196. 10.1016/j.neulet.2003.09.044</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neulet.2003.09.044</ArticleId><ArticleId IdType="pubmed">14665414</ArticleId></ArticleIdList></Reference><Reference><Citation>Sutton S., Braten M., Zubin J., John E. R. (1965). Evoked-potentials correlates of stimulus uncertainty.
+<i>Science</i>
+150
+1187&#x2013;1188. 10.1126/science.150.3700.1187</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.150.3700.1187</ArticleId><ArticleId IdType="pubmed">5852977</ArticleId></ArticleIdList></Reference><Reference><Citation>Turner M., Engle R. W. (1989). Is working memory capacity task dependent?
+<i>J. Mem. Lang.</i>
+28
+127&#x2013;154. 10.1016/0749-596X(89)90040-5</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/0749-596X(89)90040-5</ArticleId></ArticleIdList></Reference><Reference><Citation>Unsworth N., Engle R. W. (2007). On the division of short-term and working memory: an examination of simple and complex span and their relation to higher order abilities.
+<i>Psychol. Bull.</i>
+133
+1038&#x2013;1066. 10.1037/0033-2909.133.6.1038</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-2909.133.6.1038</ArticleId><ArticleId IdType="pubmed">17967093</ArticleId></ArticleIdList></Reference><Reference><Citation>Verleger R. (1988). Event-related potentials and cognition: a critique of the context updating hypothesis and an alternative interpretation of P3.
+<i>Behav. Brain Sci.</i>
+11
+343&#x2013;427. 10.1017/S0140525X00058015</Citation><ArticleIdList><ArticleId IdType="doi">10.1017/S0140525X00058015</ArticleId></ArticleIdList></Reference><Reference><Citation>Watter S., Geffen G. M., Geffen L. B. (2001). The n-back as a dual-task: P300 morphology under divided attention.
+<i>Psychophysiology</i>
+38
+998&#x2013;1003. 10.1111/1469-8986.3860998</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/1469-8986.3860998</ArticleId><ArticleId IdType="pubmed">12240676</ArticleId></ArticleIdList></Reference><Reference><Citation>Wickens C., Kramer A., Vanasse L., Donchin E. (1983). Performance of concurrent tasks: a psychophysiological analysis of the reciprocity of information-processing resources.
+<i>Science</i>
+221
+1080&#x2013;1082. 10.1126/science.6879207</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.6879207</ArticleId><ArticleId IdType="pubmed">6879207</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>

@@ -1,0 +1,10 @@
+train rows=8000
+written 7435/8000 66s
+probe pairs=200
+w0_deg0 self1=141 next1=0 next5=2/200
+w0_deg30 self1=95 next1=0 next5=2/200
+w1_deg0 self1=141 next1=141 next5=141/200
+w1_deg30 self1=95 next1=95 next5=96/200
+w3_deg0 self1=141 next1=141 next5=141/200
+w3_deg30 self1=95 next1=95 next5=96/200
+GATE w1.0: delta=0.695 p=0.0000 verdict=CURE_GENERALIZES elapsed=1086s

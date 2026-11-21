@@ -1,0 +1,98 @@
+[
+ {
+  "N": 30,
+  "resid": false,
+  "exact": 30,
+  "degraded": 30,
+  "n": 30,
+  "code_cos": 0.02342800237238407
+ },
+ {
+  "N": 30,
+  "resid": true,
+  "exact": 30,
+  "degraded": 30,
+  "n": 30,
+  "code_cos": 0.017288561910390854
+ },
+ {
+  "N": 60,
+  "resid": false,
+  "exact": 30,
+  "degraded": 30,
+  "n": 30,
+  "code_cos": 0.02144588902592659
+ },
+ {
+  "N": 60,
+  "resid": true,
+  "exact": 30,
+  "degraded": 30,
+  "n": 30,
+  "code_cos": 0.020021913573145866
+ },
+ {
+  "N": 120,
+  "resid": false,
+  "exact": 30,
+  "degraded": 30,
+  "n": 30,
+  "code_cos": 0.02098594605922699
+ },
+ {
+  "N": 120,
+  "resid": true,
+  "exact": 30,
+  "degraded": 30,
+  "n": 30,
+  "code_cos": 0.019800735637545586
+ },
+ {
+  "N": 300,
+  "resid": false,
+  "exact": 30,
+  "degraded": 30,
+  "n": 30,
+  "code_cos": 0.020873893052339554
+ },
+ {
+  "N": 300,
+  "resid": true,
+  "exact": 30,
+  "degraded": 30,
+  "n": 30,
+  "code_cos": 0.02029845118522644
+ },
+ {
+  "N": 600,
+  "resid": false,
+  "exact": 30,
+  "degraded": 30,
+  "n": 30,
+  "code_cos": 0.020848261192440987
+ },
+ {
+  "N": 600,
+  "resid": true,
+  "exact": 30,
+  "degraded": 30,
+  "n": 30,
+  "code_cos": 0.020577574148774147
+ },
+ {
+  "N": 1200,
+  "resid": false,
+  "exact": 30,
+  "degraded": 30,
+  "n": 30,
+  "code_cos": 0.02098606526851654
+ },
+ {
+  "N": 1200,
+  "resid": true,
+  "exact": 30,
+  "degraded": 30,
+  "n": 30,
+  "code_cos": 0.02075396291911602
+ }
+]

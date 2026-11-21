@@ -1,0 +1,196 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM"><PMID Version="1">33776950</PMID><DateRevised><Year>2021</Year><Month>03</Month><Day>30</Day></DateRevised><Article PubModel="Electronic-eCollection"><Journal><ISSN IssnType="Print">1664-302X</ISSN><JournalIssue CitedMedium="Print"><Volume>12</Volume><PubDate><Year>2021</Year></PubDate></JournalIssue><Title>Frontiers in microbiology</Title><ISOAbbreviation>Front Microbiol</ISOAbbreviation></Journal><ArticleTitle>Overexpression of Efflux Pumps, Mutations in the Pumps' Regulators, Chromosomal Mutations, and AAC(6')-Ib-cr Are Associated With Fluoroquinolone Resistance in Diverse Sequence Types of Neonatal Septicaemic <i>Acinetobacter baumannii</i>: A 7-Year Single Center Study.</ArticleTitle><Pagination><StartPage>602724</StartPage><MedlinePgn>602724</MedlinePgn></Pagination><ELocationID EIdType="pii" ValidYN="Y">602724</ELocationID><ELocationID EIdType="doi" ValidYN="Y">10.3389/fmicb.2021.602724</ELocationID><Abstract><AbstractText>This study investigates susceptibility toward three fluoroquinolones (ciprofloxacin, levofloxacin, moxifloxacin), multiple fluoroquinolone-resistance mechanisms, and epidemiological relationship of neonatal septicaemic <i>Acinetobacter baumannii</i>. Previous studies on fluoroquinolone resistance in <i>A. baumannii</i> focused primarily on ciprofloxacin susceptibility and assessed a particular mechanism of resistance; a more holistic approach was taken here. Epidemiological relationship was evaluated by Multi Locus Sequence Typing. Minimum Inhibitory Concentrations of fluoroquinolones was determined with and without efflux pump inhibitors. Overexpression of efflux pumps, resistance-nodulation-cell-division (RND)-type, and multidrug and toxic compound extrusion (MATE)-type efflux pumps were evaluated by reverse transcriptase-qPCR. Mutations within regulatory proteins (AdeRS, AdeN, and AdeL) of RND-pumps were examined. Chromosomal mutations, presence of <i>qnr</i> and <i>aac(6</i>'<i>)-Ib-cr</i> were investigated. <i>A. baumannii</i> were highly diverse as 24 sequence-types with seven novel STs (ST-1440/ST-1441/ST-1481/ST-1482/ST-1483/ST-1484/ST-1486) were identified among 47 <i>A. baumannii.</i> High resistance to ciprofloxacin (96%), levofloxacin (92%), and particularly moxifloxacin (90%) was observed, with multiple mechanisms being active. Resistance to 4<sup>th</sup> generation fluoroquinolone (moxifloxacin) in neonatal isolates is worrisome. Mutations within GyrA (S83L) and ParC (S80L) were detected in more than 90% of fluoroquinolone-resistant <i>A. baumannii</i> (FQRAB) spread across 10 different clonal complexes (CC1/CC2/CC10/CC25/CC32/CC126/CC149/CC216/CC218/CC513). Efflux-based FQ resistance was found in 65% of FQRAB with &#x2265;2 different active pumps in 38% of strains. Overexpression of <i>adeB</i> was highest (2.2-34-folds) followed by <i>adeJ</i>, <i>adeG</i>, and <i>abeM</i>. Amino acid changes in the regulators (AdeRS/AdeN/AdeL) either as single or multiple substitutions substantiated the overexpression of the pumps. Diverse mutations within AdeRS were detected among different CCs whereas mutations within AdeN linked to CC10 and CC32. Chromosomal mutations and active efflux pumps were detected simultaneously among 64% of FQRAB. Presence of <i>aac(6')-Ib-cr</i> was also high (74% of FQRAB) but <i>qnrS</i> were absent. As most FQRABs had chromosomal mutations, this was considered predominant, however, isolates where pumps were also active had higher MIC values, establishing the critical role of the efflux pumps. The high variability of FQ susceptibility among FQRAB, possessing the same set of mutations in <i>gyrA</i>, <i>parC</i>, and efflux pump regulators, was also noted. This reveals the complexity of interpreting the interplay of multiple resistance mechanisms in <i>A. baumannii</i>.</AbstractText><CopyrightInformation>Copyright &#xa9; 2021 Roy, Chatterjee, Bhattacharjee, Chattopadhyay, Saha, Dutta and Basu.</CopyrightInformation></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Roy</LastName><ForeName>Subhasree</ForeName><Initials>S</Initials><AffiliationInfo><Affiliation>Division of Bacteriology, Indian Council of Medical Research (ICMR)-National Institute of Cholera and Enteric Diseases, Kolkata, India.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Chatterjee</LastName><ForeName>Somdatta</ForeName><Initials>S</Initials><AffiliationInfo><Affiliation>Division of Bacteriology, Indian Council of Medical Research (ICMR)-National Institute of Cholera and Enteric Diseases, Kolkata, India.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Bhattacharjee</LastName><ForeName>Amrita</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Division of Bacteriology, Indian Council of Medical Research (ICMR)-National Institute of Cholera and Enteric Diseases, Kolkata, India.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Chattopadhyay</LastName><ForeName>Pinaki</ForeName><Initials>P</Initials><AffiliationInfo><Affiliation>Department of Neonatology, Institute of Post-Graduate Medical Education and Research, Kolkata, India.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Saha</LastName><ForeName>Bijan</ForeName><Initials>B</Initials><AffiliationInfo><Affiliation>Department of Neonatology, Institute of Post-Graduate Medical Education and Research, Kolkata, India.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Dutta</LastName><ForeName>Shanta</ForeName><Initials>S</Initials><AffiliationInfo><Affiliation>Division of Bacteriology, Indian Council of Medical Research (ICMR)-National Institute of Cholera and Enteric Diseases, Kolkata, India.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Basu</LastName><ForeName>Sulagna</ForeName><Initials>S</Initials><AffiliationInfo><Affiliation>Division of Bacteriology, Indian Council of Medical Research (ICMR)-National Institute of Cholera and Enteric Diseases, Kolkata, India.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType="Electronic"><Year>2021</Year><Month>03</Month><Day>11</Day></ArticleDate></Article><MedlineJournalInfo><Country>Switzerland</Country><MedlineTA>Front Microbiol</MedlineTA><NlmUniqueID>101548977</NlmUniqueID><ISSNLinking>1664-302X</ISSNLinking></MedlineJournalInfo><KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">A. baumannii</Keyword><Keyword MajorTopicYN="N">AdeRS/AdeL/AdeN</Keyword><Keyword MajorTopicYN="N">India</Keyword><Keyword MajorTopicYN="N">RND pumps</Keyword><Keyword MajorTopicYN="N">ciprofloxacin/levofloxacin/moxifloxacin</Keyword><Keyword MajorTopicYN="N">gyrA/parC</Keyword><Keyword MajorTopicYN="N">neonatal sepsis</Keyword><Keyword MajorTopicYN="N">sequence types</Keyword></KeywordList><CoiStatement>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="received"><Year>2020</Year><Month>9</Month><Day>4</Day></PubMedPubDate><PubMedPubDate PubStatus="accepted"><Year>2021</Year><Month>1</Month><Day>21</Day></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2021</Year><Month>3</Month><Day>29</Day><Hour>6</Hour><Minute>24</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2021</Year><Month>3</Month><Day>30</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="medline"><Year>2021</Year><Month>3</Month><Day>30</Day><Hour>6</Hour><Minute>1</Minute></PubMedPubDate><PubMedPubDate PubStatus="pmc-release"><Year>2021</Year><Month>3</Month><Day>11</Day></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">33776950</ArticleId><ArticleId IdType="pmc">PMC7990795</ArticleId><ArticleId IdType="doi">10.3389/fmicb.2021.602724</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Aldred K. J., Kerns R. J., Osheroff N. (2014). Mechanism of quinolone action and resistance.
+<i>Biochemistry</i>
+53
+1565&#x2013;1574. 10.1021/bi5000564
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1021/bi5000564</ArticleId><ArticleId IdType="pmc">PMC3985860</ArticleId><ArticleId IdType="pubmed">24576155</ArticleId></ArticleIdList></Reference><Reference><Citation>Ardebili A., Lari A. R., Beheshti M., Lari E. R. (2015). Association between mutations in gyrA and parC genes of <i>Acinetobacter baumannii</i> clinical isolates and ciprofloxacin resistance.
+<i>Iran. J. Basic Med. Sci.</i>
+18
+623&#x2013;626.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC4509960</ArticleId><ArticleId IdType="pubmed">26221488</ArticleId></ArticleIdList></Reference><Reference><Citation>Ardebili A., Lari A. R., Talebi M. (2014). Correlation of ciprofloxacin resistance with the AdeABC efflux system in <i>Acinetobacter baumannii</i> clinical isolates.
+<i>Ann. Lab. Med.</i>
+34
+433&#x2013;438. 10.3343/alm.2014.34.6.433
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3343/alm.2014.34.6.433</ArticleId><ArticleId IdType="pmc">PMC4215416</ArticleId><ArticleId IdType="pubmed">25368818</ArticleId></ArticleIdList></Reference><Reference><Citation>Asif M., Alvi I. A., Ur Rehman S. (2018). Insight into <i>acinetobacter baumannii</i>: pathogenesis, global resistance, mechanisms of resistance, treatment options, and alternative modalities.
+<i>Infect. Drug Resist.</i>
+11
+1249&#x2013;1260. 10.2147/IDR.S166750
+</Citation><ArticleIdList><ArticleId IdType="doi">10.2147/IDR.S166750</ArticleId><ArticleId IdType="pmc">PMC6110297</ArticleId><ArticleId IdType="pubmed">30174448</ArticleId></ArticleIdList></Reference><Reference><Citation>Blanchard C., Barnett P., Perlmutter J., Dunman P. M. (2014). Identification of <i>Acinetobacter baumannii</i> serum-associated antibiotic efflux pump inhibitors.
+<i>Antimicrob. Agents Chemother.</i>
+58
+6360&#x2013;6370. 10.1128/AAC.03535-14
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/AAC.03535-14</ArticleId><ArticleId IdType="pmc">PMC4249429</ArticleId><ArticleId IdType="pubmed">25114126</ArticleId></ArticleIdList></Reference><Reference><Citation>Cattoir V., Poirel L., Rotimi V., Soussy C. J., Nordmann P. (2007). Multiplex PCR for detection of plasmid-mediated quinolone resistance qnr genes in ESBL-producing enterobacterial isolates.
+<i>J. Antimicrob. Chemother.</i>
+60
+394&#x2013;397. 10.1093/jac/dkm204
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/jac/dkm204</ArticleId><ArticleId IdType="pubmed">17561500</ArticleId></ArticleIdList></Reference><Reference><Citation>Chang T. Y., Huang B. J., Sun J. R., Perng C. L., Chan M. C., Yu C. P., et al.  (2016). AdeR protein regulates adeABC expression by binding to a direct-repeat motif in the intercistronic spacer.
+<i>Microbiol. Res.</i>
+183
+60&#x2013;67. 10.1016/j.micres.2015.11.010
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.micres.2015.11.010</ArticleId><ArticleId IdType="pubmed">26805619</ArticleId></ArticleIdList></Reference><Reference><Citation>Chatterjee S., Datta S., Roy S., Ramanan L., Saha A., Viswanathan R., et al.  (2016). Carbapenem resistance in <i>Acinetobacter baumannii</i> and other acinetobacter spp. causing neonatal sepsis: focus on NDM-1 and its linkage to ISAba125.
+<i>Front. Microbiol.</i>
+7:1126. 10.3389/fmicb.2016.01126
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fmicb.2016.01126</ArticleId><ArticleId IdType="pmc">PMC4976090</ArticleId><ArticleId IdType="pubmed">27551277</ArticleId></ArticleIdList></Reference><Reference><Citation>Chiu C. H., Lee H. Y., Tseng L. Y., Chen C. L., Chia J. H., Su L. H., et al.  (2010). Mechanisms of resistance to ciprofloxacin, ampicillin/sulbactam and imipenem in <i>Acinetobacter baumannii</i> clinical isolates in Taiwan.
+<i>Int. J. Antimicrob. Agents.</i>
+35
+382&#x2013;386. 10.1016/j.ijantimicag.2009.12.009
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.ijantimicag.2009.12.009</ArticleId><ArticleId IdType="pubmed">20138741</ArticleId></ArticleIdList></Reference><Reference><Citation>Clinical and Laboratory Standards Institute [CLSI] (2019). <i>Performance Standards for Antimicrobial Susceptibility Testing: Eighteenth Informational Supplement M100</i>, 29th Edn. Wayne, PA: CLSI.</Citation></Reference><Reference><Citation>Coyne S., Rosenfeld N., Lambert T., Courvalin P., P&#xe9;richon B. (2010). Overexpression of resistance-nodulation-cell division pump AdeFGH confers multidrug resistance in <i>Acinetobacter baumannii</i>.
+<i>Antimicrob. Agents Chemother.</i>
+54
+4389&#x2013;4393. 10.1128/AAC.00155-10
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/AAC.00155-10</ArticleId><ArticleId IdType="pmc">PMC2944555</ArticleId><ArticleId IdType="pubmed">20696879</ArticleId></ArticleIdList></Reference><Reference><Citation>Damier-Piolle L., Magnet S., Br&#xe9;mont S., Lambert T., Courvalin P. (2008). AdeIJK, a resistance-nodulation-cell division pump effluxing multiple antibiotics in <i>Acinetobacter baumannii</i>.
+<i>Antimicrob. Agents Chemother.</i>
+52
+557&#x2013;562. 10.1128/AAC.00732-07
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/AAC.00732-07</ArticleId><ArticleId IdType="pmc">PMC2224764</ArticleId><ArticleId IdType="pubmed">18086852</ArticleId></ArticleIdList></Reference><Reference><Citation>Elkins C. A., Nikaido H. (2002). Substrate specificity of the RND-type multidrug efflux pumps AcrB and AcrD of.
+<i>J. Bacteriol.</i>
+184
+6490&#x2013;6498. 10.1128/JB.184.23.6490</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/JB.184.23.6490</ArticleId><ArticleId IdType="pmc">PMC135441</ArticleId><ArticleId IdType="pubmed">12426336</ArticleId></ArticleIdList></Reference><Reference><Citation>Farooqui H. H., Selvaraj S., Mehta A., Heymann D. L. (2018). Community level antibiotic utilization in India and its comparison vis-&#xe0;-vis European countries: evidence from pharmaceutical sales data.
+<i>PLoS One</i>
+13:e0204805. 10.1371/journal.pone.0204805
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1371/journal.pone.0204805</ArticleId><ArticleId IdType="pmc">PMC6192587</ArticleId><ArticleId IdType="pubmed">30332450</ArticleId></ArticleIdList></Reference><Reference><Citation>Ferrara A. M. (2007). A brief review of moxifloxacin in the treatment of elderly patients with community-acquired pneumonia (CAP).
+<i>Clin. Interv. Aging</i>
+2
+179&#x2013;187.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC2684507</ArticleId><ArticleId IdType="pubmed">18044134</ArticleId></ArticleIdList></Reference><Reference><Citation>Frasson I., Cavallaro A., Bergo C., Richter S. N., Pal&#xf9; G. (2011). Prevalence of aac(6&#x2019;)-Ib-cr plasmid-mediated and chromosome-encoded fluoroquinolone resistance in <i>Enterobacteriaceae</i> in Italy.
+<i>Gut. Pathog.</i>
+3:12.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC3163596</ArticleId><ArticleId IdType="pubmed">21827661</ArticleId></ArticleIdList></Reference><Reference><Citation>Fuchs A., Bielicki J., Mathur S., Sharland M., Anker J. N., Shah B. A., et al.  (2016). <i>Antibiotic Use for Sepsis in Neonates and Children: 2016 Evidence Update.</i>
+Geneva: WHO.</Citation></Reference><Reference><Citation>Ge B., McDermot T. P. F., White D. G., Meng J. (2005). Role of efflux pumps and topoisomerase mutations in fluoroquinolone resistance in <i>Campylobacter jejuni</i> and Campylobacter coli.
+<i>Antimicrob. Agents Chemother.</i>
+49
+3347&#x2013;3354.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC1196287</ArticleId><ArticleId IdType="pubmed">16048946</ArticleId></ArticleIdList></Reference><Reference><Citation>Gerson S., Nowak J., Zander E., Ertel J., Wen Y., Krut O., et al.  (2018). Diversity of mutations in regulatory genes of resistance-nodulationcell division efflux pumps in association with tigecycline resistance in <i>Acinetobacter baumannii</i>.
+<i>J. Antimicrob.Chemother.</i>
+73
+1501&#x2013;1508. 10.1093/jac/dky083
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/jac/dky083</ArticleId><ArticleId IdType="pubmed">29554339</ArticleId></ArticleIdList></Reference><Reference><Citation>Gramatniece A., Silamikelis I., Zahare I.E, Urtans V., Zahare I., Dimina E., et al.  (2019). Control of <i>Acinetobacter baumannii</i> outbreak in the neonatal intensive care unit in latvia : whole-genome sequencing powered investigation and closure of the ward.
+8:84.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC6532256</ArticleId><ArticleId IdType="pubmed">31143444</ArticleId></ArticleIdList></Reference><Reference><Citation>Hamouda A., Amyes S. G. (2004). Novel gyrA and parC point mutations in two strains of <i>Acinetobacter baumannii</i> resistant to ciprofloxacin.
+<i>J. Antimicrob. Chemother.</i>
+54
+695&#x2013;696. 10.1093/jac/dkh368
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/jac/dkh368</ArticleId><ArticleId IdType="pubmed">15282231</ArticleId></ArticleIdList></Reference><Reference><Citation>Hamouda A., Amyes S. G. (2006). Development of highly ciprofloxacin-resistant laboratory mutants of Acinetobacterbaumannii lacking topoisomerase IV gene mutations.
+<i>J. Antimicrob. Chemother.</i>
+57
+155&#x2013;156. 10.1093/jac/dki397
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/jac/dki397</ArticleId><ArticleId IdType="pubmed">16287982</ArticleId></ArticleIdList></Reference><Reference><Citation>Heinemann B., Wisplinghoff H., Edmond M., Seifert H. (2000). Comparative activities of ciprofloxacin, clinafloxacin, gatifloxacin, gemifloxacin, levofloxacin, moxifloxacin, and trovafloxacin against epidemiologically defined <i>Acinetobacter baumannii</i> strains.
+<i>Antimicrob. Agents Chemother.</i>
+44
+2211&#x2013;2213. 10.1128/AAC.44.8.2211-2213.2000
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/AAC.44.8.2211-2213.2000</ArticleId><ArticleId IdType="pmc">PMC90044</ArticleId><ArticleId IdType="pubmed">10898706</ArticleId></ArticleIdList></Reference><Reference><Citation>Hongbo L., Zhen S., Xu X., Shengqi L. (2013). Mutations in the quinolone resistance determining region in isogenic mutant <i>Acinetobacter baumannii</i> strains.
+<i>AJMR</i>
+7
+3559&#x2013;3562. 10.5897/AJMR2013.5932</Citation><ArticleIdList><ArticleId IdType="doi">10.5897/AJMR2013.5932</ArticleId></ArticleIdList></Reference><Reference><Citation>Hooper D. C., Jacoby G. A. (2015). Mechanisms of drug resistance: quinolone resistance.
+<i>Ann. N. Y. Acad. Sci.</i>
+1354
+12&#x2013;31. 10.1111/nyas.12830
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/nyas.12830</ArticleId><ArticleId IdType="pmc">PMC4626314</ArticleId><ArticleId IdType="pubmed">26190223</ArticleId></ArticleIdList></Reference><Reference><Citation>Hujer A. M., Higgins P. G., Rudin S. D., Buser G. L., Marshall S. H., Xanthopoulou K., et al.  (2017). Nosocomial outbreak of extensively drug-resistant <i>Acinetobacter baumannii</i> isolates containing bla OXA-237 carried on a plasmid.
+<i>Antimicrob. Agents Chemother.</i>
+61:e797-17. 10.1128/aac.00797-17
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/aac.00797-17</ArticleId><ArticleId IdType="pmc">PMC5655091</ArticleId><ArticleId IdType="pubmed">28893775</ArticleId></ArticleIdList></Reference><Reference><Citation>Hujer K. M., Hujer A. M., Endimiani A., Thomson J. M., Adams M. D., Goglin K., et al.  (2009). Rapid determination of quinolone resistance in <i>Acinetobacter</i> spp.
+<i>J. Clin. Microbiol.</i>
+47
+1436&#x2013;1442. 10.1128/JCM.02380-08
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/JCM.02380-08</ArticleId><ArticleId IdType="pmc">PMC2681857</ArticleId><ArticleId IdType="pubmed">19297590</ArticleId></ArticleIdList></Reference><Reference><Citation>Jiang X., Yu T., Jiang X., Zhang W., Zhang L., Ma J. (2014). Emergence of plasmid-mediated quinolone resistance genes in clinical isolates of <i>Acinetobacter baumannii</i> and <i>Pseudomonas aeruginosa</i> in Henan, China.
+<i>Diagn. Microbiol. Infect. Dis.</i>
+79
+381&#x2013;383. 10.1016/j.diagmicrobio.2014.03.025
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.diagmicrobio.2014.03.025</ArticleId><ArticleId IdType="pubmed">24805186</ArticleId></ArticleIdList></Reference><Reference><Citation>Kivata M. W., Mbuchi M., Eyase F. L., Bulimo W. D., Kyanya C. K., Oundo V. (2019). gyrA and parC mutations in fluoroquinolone-resistant <i>Neisseria gonorrhoeae</i> isolates from Kenya.
+<i>BMC Microbiol.</i>
+19:76. 10.1186/s12866-019-1439-1
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1186/s12866-019-1439-1</ArticleId><ArticleId IdType="pmc">PMC6454682</ArticleId><ArticleId IdType="pubmed">30961546</ArticleId></ArticleIdList></Reference><Reference><Citation>Laxminarayan R., Chaudhury R. R. (2016). Antibiotic resistance in india: drivers and opportunities for action.
+<i>PLoS Med.</i>
+13:e1001974. 10.1371/journal.pmed.1001974
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1371/journal.pmed.1001974</ArticleId><ArticleId IdType="pmc">PMC4775002</ArticleId><ArticleId IdType="pubmed">26934098</ArticleId></ArticleIdList></Reference><Reference><Citation>Liu Y. H., Kuo S. C., Lee Y. T., Chang I. C. Y., Yang S. P., Chen T. L., et al.  (2012). Amino acid substitutions of quinolone resistance determining regions in GyrA and ParC associated with quinolone resistance in <i>Acinetobacter baumannii</i> and <i>Acinetobacter</i> genomic species 13TU.
+<i>J. Microbiol. Immunol. Infect.</i>
+45
+108&#x2013;112.</Citation><ArticleIdList><ArticleId IdType="pubmed">22153765</ArticleId></ArticleIdList></Reference><Reference><Citation>Lopes B. S., Amyes S. G. B. (2013). Insertion sequence disruption of adeR and ciprofloxacin resistance caused by efflux pumps and gyrA and parC mutations in <i>Acinetobacter baumannii</i>.
+<i>Int. J. Antimicrob. Agents</i>
+41
+117&#x2013;121. 10.1016/j.ijantimicag.2012.08.012
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.ijantimicag.2012.08.012</ArticleId><ArticleId IdType="pubmed">23217848</ArticleId></ArticleIdList></Reference><Reference><Citation>Maleki M. H., Azizi Jalilian F., Kkayat H., Mohamadi M., Pourahmad F., Asadollahi K. H., et al.  (2014). Detection of highly ciprofloxacin resistance.
+<i>MAEDICA</i>
+9
+162&#x2013;167.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC4296759</ArticleId><ArticleId IdType="pubmed">25705272</ArticleId></ArticleIdList></Reference><Reference><Citation>Marchand I., Marchand I., Damier-piolle L., Damier-piolle L., Courvalin P., Courvalin P., et al.  (2004). Expression of the RND-type Ef ux Pump AdeABC in <i>Acinetobacter baumannii</i> is regulated by the AdeRS two-component system.
+<i>Society</i>
+48
+3298&#x2013;3304. 10.1128/AAC.48.9.3298</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/AAC.48.9.3298</ArticleId><ArticleId IdType="pmc">PMC514774</ArticleId><ArticleId IdType="pubmed">15328088</ArticleId></ArticleIdList></Reference><Reference><Citation>Nowak J., Seifert H., Higgins P. G. (2015). Prevalence of eight resistance-nodulation-division efflux pump genes in epidemiologically characterized <i>Acinetobacter baumannii</i> of worldwide origin.
+<i>J. Med. Microbiol.</i>
+64
+630&#x2013;635. 10.1099/jmm.0.000069
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1099/jmm.0.000069</ArticleId><ArticleId IdType="pubmed">25873581</ArticleId></ArticleIdList></Reference><Reference><Citation>Oethinger M., Kern W. V., Jellen-Ritter A. S., McMurry L. M., Levy S. B. (2000). Ineffectiveness of topoisomerase mutations in mediating clinically significant fluoroquinolone resistance in <i>Escherichia coli</i> in the absence of the AcrAB efflux pump.
+<i>Antimicrob. Agents Chemother.</i>
+44
+10&#x2013;13.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC89620</ArticleId><ArticleId IdType="pubmed">10602715</ArticleId></ArticleIdList></Reference><Reference><Citation>Pannek S., Higgins P. G., Steinke P., Jonas D., Akova M., Bohnert J. A., et al.  (2006). Multidrug efflux inhibition in <i>Acinetobacter baumannii</i>: comparison between 1-(1-naphthylmethyl)-piperazine and phenyl-arginine-&#x3b2;-naphthylamide.
+<i>J. Antimicrob. Chemother.</i>
+57
+970&#x2013;974. 10.1093/jac/dkl081
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/jac/dkl081</ArticleId><ArticleId IdType="pubmed">16531429</ArticleId></ArticleIdList></Reference><Reference><Citation>Park C. H., Robicsek A., Jacoby G. A., Sahm D., Hooper D. C. (2006). Prevalence in the United States of aac(6&#x2032;)-Ib-cr encoding a ciprofloxacin-modifying enzyme.
+<i>Antimicrob. Agents Chemother.</i>
+50
+3953&#x2013;3955. 10.1128/AAC.00915-06
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/AAC.00915-06</ArticleId><ArticleId IdType="pmc">PMC1635235</ArticleId><ArticleId IdType="pubmed">16954321</ArticleId></ArticleIdList></Reference><Reference><Citation>Park S., Lee K. M., Yoo Y. S., Yoo J. S., Il Yoo J., Kim H. S., et al.  (2011). Alterations of gyrA, gyrB, and parC and Activity of efflux pump in fluoroquinolone-resistant <i>Acinetobacter baumannii</i>.
+<i>Osong Public Heal. Res. Perspect.</i>
+2
+164&#x2013;170. 10.1016/j.phrp.2011.11.040
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.phrp.2011.11.040</ArticleId><ArticleId IdType="pmc">PMC3767088</ArticleId><ArticleId IdType="pubmed">24159468</ArticleId></ArticleIdList></Reference><Reference><Citation>Qu J., Du Y., Yu R., L&#xfc; X. (2016). The first outbreak caused by <i>Acinetobacter baumannii</i> ST208 and ST195 in China.
+<i>Biomed Res. Int.</i>
+2016:9254907. 10.1155/2016/9254907
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1155/2016/9254907</ArticleId><ArticleId IdType="pmc">PMC4842041</ArticleId><ArticleId IdType="pubmed">27144176</ArticleId></ArticleIdList></Reference><Reference><Citation>Redgrave L. S., Sutton S. B., Webber M. A., Piddock L. J. V. (2014). Fluoroquinolone resistance: mechanisms, impact on bacteria, and role in evolutionary success.
+<i>Trends Microbiol.</i>
+22
+438&#x2013;445. 10.1016/j.tim.2014.04.007
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tim.2014.04.007</ArticleId><ArticleId IdType="pubmed">24842194</ArticleId></ArticleIdList></Reference><Reference><Citation>Richmond G. E., Evans L. P., Anderson M. J., Wand M. E., Bonney L. C., Ivens A., et al.  (2016). Regulates genes required for multidrug efflux, biofilm formation, and virulence in a strain-specific manner.
+<i>MBio</i>
+7:e430-16. 10.1128/mBio.00430-16
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/mBio.00430-16</ArticleId><ArticleId IdType="pmc">PMC4850262</ArticleId><ArticleId IdType="pubmed">27094331</ArticleId></ArticleIdList></Reference><Reference><Citation>Robicsek A., Strahilevitz J., Jacoby G. A., Macielag M., Abbanat D., Chi H. P., et al.  (2006). Fluoroquinolone-modifying enzyme: a new adaptation of a common aminoglycoside acetyltransferase.
+<i>Nat. Med.</i>
+12
+83&#x2013;88. 10.1038/nm1347
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nm1347</ArticleId><ArticleId IdType="pubmed">16369542</ArticleId></ArticleIdList></Reference><Reference><Citation>Rodr&#xed;guez-Mart&#xed;nez J. M., Machuca J., Cano M. E., Calvo J., Mart&#xed;nez-Mart&#xed;nez L., Pascual A. (2016). Plasmid-mediated quinolone resistance: two decades on.
+<i>Drug Resist. Updat.</i>
+29
+13&#x2013;29. 10.1016/j.drup.2016.09.001
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.drup.2016.09.001</ArticleId><ArticleId IdType="pubmed">27912841</ArticleId></ArticleIdList></Reference><Reference><Citation>Roy S., Viswanathan R., Singh A., Das P., Basu S. (2010). Gut colonization by multidrug-resistant and carbapenem-resistant <i>Acinetobacter baumannii</i> in neonates.
+<i>Eur. J. Clin. Microbiol. Infect. Dis.</i>
+29
+1495&#x2013;1500. 10.1007/s10096-010-1030-z
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s10096-010-1030-z</ArticleId><ArticleId IdType="pubmed">20730467</ArticleId></ArticleIdList></Reference><Reference><Citation>Rules E. (2018). <i>The European Committee on Antimicrobial Susceptibility Testing. Breakpoint tables for interpretation of MICs and zone Version 9.0.</i> </Citation></Reference><Reference><Citation>Rumbo C., Gato E., L&#xf3;pez M., Ruiz De Alegr&#xed;a C., Fern&#xe1;ndez-Cuenca F., Mart&#xed;nez-Mart&#xed;nez L., et al.  (2013). Contribution of efflux pumps, porins, and &#x3b2;-lactamases to multidrug resistance in clinical isolates of <i>Acinetobacter baumannii</i>.
+<i>Antimicrob. Agents Chemother.</i>
+57
+5247&#x2013;5257. 10.1128/AAC.00730-13
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/AAC.00730-13</ArticleId><ArticleId IdType="pmc">PMC3811325</ArticleId><ArticleId IdType="pubmed">23939894</ArticleId></ArticleIdList></Reference><Reference><Citation>Spence R. P., Towner K. J. (2003). Frequencies and mechanisms of resistance to moxifloxacin in nosocomial isolates of <i>Acinetobacter baumannii</i>.
+<i>J. Antimicrob. Chemother.</i>
+52
+687&#x2013;690. 10.1093/jac/dkg424
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/jac/dkg424</ArticleId><ArticleId IdType="pubmed">12951327</ArticleId></ArticleIdList></Reference><Reference><Citation>Su X., Su X., Chen J., Chen J., Mizushima T., Mizushima T., et al.  (2005). AbeM, an H+-coupled <i>Acinetobacter baumannii</i> multidrug efflux pump belonging to the MATE family of transporters.
+<i>Society</i>
+49
+4362&#x2013;4364. 10.1128/AAC.49.10.4362</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/AAC.49.10.4362</ArticleId><ArticleId IdType="pmc">PMC1251516</ArticleId><ArticleId IdType="pubmed">16189122</ArticleId></ArticleIdList></Reference><Reference><Citation>Sun C., Hao J., Dou M., Gong Y. (2015). Mutant prevention concentrations of levofloxacin, pazufloxacin and ciprofloxacin for <i>A. baumannii</i> and mutations in gyrA and parC genes.
+<i>J. Antibiot.</i>
+68
+313&#x2013;317. 10.1038/ja.2014.150
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/ja.2014.150</ArticleId><ArticleId IdType="pubmed">25351948</ArticleId></ArticleIdList></Reference><Reference><Citation>Sun J. R., Jeng W. Y., Perng C. L., Yang Y. S., Soo P. C., Chiang Y., et al.  (2016). Single amino acid substitution Gly186Val in AdeS restores tigecycline susceptibility of <i>Acinetobacter baumannii</i>.
+<i>J. Antimicrob. Chemother.</i>
+71
+1488&#x2013;1492. 10.1093/jac/dkw002
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/jac/dkw002</ArticleId><ArticleId IdType="pubmed">26850720</ArticleId></ArticleIdList></Reference><Reference><Citation>Touati A., Brasme L., Benallaoua S., Gharout A., Madoux J., De Champs C. (2008). First report of qnrB-producing <i>Enterobacter cloacae</i> and qnrA-producing <i>Acinetobacter baumannii</i> recovered from Algerian hospitals.
+<i>Diagn. Microbiol. Infect. Dis.</i>
+60
+287&#x2013;290. 10.1016/j.diagmicrobio.2007.10.002
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.diagmicrobio.2007.10.002</ArticleId><ArticleId IdType="pubmed">18036760</ArticleId></ArticleIdList></Reference><Reference><Citation>Valentine S. C., Contreras D., Tan S., Real L. J., Chu S., Xu H. H. (2008). Phenotypic and molecular characterization of <i>Acinetobacter baumannii</i> clinical isolates from nosocomial outbreaks in Los Angeles County, California.
+<i>J. Clin. Microbiol.</i>
+46
+2499&#x2013;2507. 10.1128/JCM.00367-08
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/JCM.00367-08</ArticleId><ArticleId IdType="pmc">PMC2519477</ArticleId><ArticleId IdType="pubmed">18524965</ArticleId></ArticleIdList></Reference><Reference><Citation>Vila J. (2002). Activity of clinafloxacin, compared with six other quinolones, against <i>Acinetobacter baumannii</i> clinical isolates.
+<i>J. Antimicrob. Chemother.</i>
+49
+471&#x2013;477. 10.1093/jac/49.3.471
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/jac/49.3.471</ArticleId><ArticleId IdType="pubmed">11864947</ArticleId></ArticleIdList></Reference><Reference><Citation>World Health Organization. (2019). <i>World Health Organization Model List of Essential Medicines, 21st List, 2019.</i>
+Geneva: World Health Organization.</Citation></Reference><Reference><Citation>Yang H., Hu L., Liu Y., Ye Y., Li J. (2015). Detection of the plasmid-mediated quinolone resistance determinants in clinical isolates of <i>Acinetobacter baumannii</i> in China.
+<i>J. Chemother.</i>
+28
+443&#x2013;445. 10.1179/1973947815y.0000000017
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1179/1973947815y.0000000017</ArticleId><ArticleId IdType="pubmed">25895829</ArticleId></ArticleIdList></Reference><Reference><Citation>Yoon E.-J., Courvalin P., Grillot-Courvalin C. (2013). RND-Type efflux pumps in multidrug-resistant clinical isolates of <i>Acinetobacter baumannii</i>: major role for AdeABC overexpression and AdeRS mutations.
+<i>Antimicrob. Agents Chemother.</i>
+57
+2989&#x2013;2995. 10.1128/aac.02556-12
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1128/aac.02556-12</ArticleId><ArticleId IdType="pmc">PMC3697384</ArticleId><ArticleId IdType="pubmed">23587960</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>

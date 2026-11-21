@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["33833054"],"translationset":[],"querytranslation":"\"10 1073 pnas 2016432118\"[Publisher ID]"}}

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/A8j9EWTr7pS7C6V1ezZph1SXtDM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2610.33019&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-13T10:37:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2610.33019" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.33019v1</id>
+    <title>Intuition with Evidence: Adaptive Dual Memory for Multimodal Agents</title>
+    <updated>2026-10-08T16:02:56Z</updated>
+    <link href="https://arxiv.org/abs/2610.33019v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.33019v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As multimodal agents engage in sustained interactions, long-term memory serves two distinct but complementary functions: fine-grained evidence recall and internalized interpretation for global understanding. Although episodic and latent memory address these demands through explicit historical records and internalized experience, neither paradigm alone can accommodate the diverse memory affinities across tasks, owing to limitations in episodic evidence coverage and integration, and in latent factual grounding. To bridge this divide, we propose a dual-memory framework, unifying a model-native latent memory as an intuitive prior with a multi-indexed episodic memory for exact evidence reconstruction via retrieval-conditioned joint alignment. At inference, the framework adaptively composes these memories through a training-free routing mechanism driven by Jensen-Shannon Divergence (JSD) sensitivity and confidence proxies for query-dependent memory affinity. Extensive evaluations across multimodal benchmarks demonstrate state-of-the-art performance, outperforming single-paradigm baselines overall (+4.67\% over vanilla Episodic), with further analysis highlighting episodic strengths in evidence-localized tasks and latent contributions to integrating dispersed information and compensating for imperfect retrieval.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T16:02:56Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Qiuhe Hong</name>
+    </author>
+    <author>
+      <name>Jingya Wang</name>
+    </author>
+    <author>
+      <name>Cuzhen Geng</name>
+    </author>
+    <author>
+      <name>Shenyao Peng</name>
+    </author>
+    <author>
+      <name>Munan Ning</name>
+    </author>
+    <author>
+      <name>Yuyang Liu</name>
+    </author>
+    <author>
+      <name>Yonghong Tian</name>
+    </author>
+  </entry>
+</feed>

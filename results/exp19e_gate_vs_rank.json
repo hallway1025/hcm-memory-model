@@ -1,0 +1,162 @@
+[
+ {
+  "seed": 0,
+  "level": 0.0,
+  "gated": 40,
+  "nogate": 40,
+  "acts": {
+   "recall": 40
+  },
+  "raw_ev_mean": 1.0,
+  "raw_ev_std": 0.0,
+  "m1_mean": 0.7807,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "level": 0.1,
+  "gated": 39,
+  "nogate": 39,
+  "acts": {
+   "recall": 39,
+   "separate": 1
+  },
+  "raw_ev_mean": 0.9442,
+  "raw_ev_std": 0.0579,
+  "m1_mean": 0.769,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "level": 0.25,
+  "gated": 8,
+  "nogate": 8,
+  "acts": {
+   "separate": 33,
+   "recall": 7
+  },
+  "raw_ev_mean": 0.6281,
+  "raw_ev_std": 0.1242,
+  "m1_mean": 0.4606,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "level": 0.35,
+  "gated": 0,
+  "nogate": 0,
+  "acts": {
+   "separate": 40
+  },
+  "raw_ev_mean": 0.5654,
+  "raw_ev_std": 0.0059,
+  "m1_mean": 0.3929,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "level": 0.5,
+  "gated": 0,
+  "nogate": 0,
+  "acts": {
+   "separate": 40
+  },
+  "raw_ev_mean": 0.566,
+  "raw_ev_std": 0.0061,
+  "m1_mean": 0.3924,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "level": 0.7,
+  "gated": 0,
+  "nogate": 0,
+  "acts": {
+   "separate": 40
+  },
+  "raw_ev_mean": 0.5665,
+  "raw_ev_std": 0.0054,
+  "m1_mean": 0.3928,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "level": 0.0,
+  "gated": 40,
+  "nogate": 40,
+  "acts": {
+   "recall": 40
+  },
+  "raw_ev_mean": 1.0,
+  "raw_ev_std": 0.0,
+  "m1_mean": 0.7946,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "level": 0.1,
+  "gated": 39,
+  "nogate": 39,
+  "acts": {
+   "recall": 39,
+   "separate": 1
+  },
+  "raw_ev_mean": 0.9405,
+  "raw_ev_std": 0.0603,
+  "m1_mean": 0.788,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "level": 0.25,
+  "gated": 12,
+  "nogate": 12,
+  "acts": {
+   "separate": 28,
+   "recall": 12
+  },
+  "raw_ev_mean": 0.6674,
+  "raw_ev_std": 0.148,
+  "m1_mean": 0.5132,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "level": 0.35,
+  "gated": 0,
+  "nogate": 0,
+  "acts": {
+   "separate": 40
+  },
+  "raw_ev_mean": 0.5647,
+  "raw_ev_std": 0.0063,
+  "m1_mean": 0.3924,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "level": 0.5,
+  "gated": 0,
+  "nogate": 0,
+  "acts": {
+   "separate": 40
+  },
+  "raw_ev_mean": 0.5664,
+  "raw_ev_std": 0.0053,
+  "m1_mean": 0.3927,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "level": 0.7,
+  "gated": 0,
+  "nogate": 0,
+  "acts": {
+   "separate": 40
+  },
+  "raw_ev_mean": 0.5644,
+  "raw_ev_std": 0.0045,
+  "m1_mean": 0.3926,
+  "n_probes": 40
+ }
+]

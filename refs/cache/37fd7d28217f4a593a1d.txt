@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["24366138"],"translationset":[],"querytranslation":"\"10 1098 rstb 2012 0528\"[Publisher ID]"}}

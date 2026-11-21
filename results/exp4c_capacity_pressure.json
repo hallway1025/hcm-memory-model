@@ -1,0 +1,44 @@
+[
+ {
+  "dz": 64,
+  "arm": "noreplay",
+  "A_before": 56,
+  "A_after": 43,
+  "B_after": 84
+ },
+ {
+  "dz": 64,
+  "arm": "priority",
+  "A_before": 56,
+  "A_after": 36,
+  "B_after": 82
+ },
+ {
+  "dz": 64,
+  "arm": "uniform",
+  "A_before": 103,
+  "A_after": 108,
+  "B_after": 67
+ },
+ {
+  "dz": 256,
+  "arm": "noreplay",
+  "A_before": 94,
+  "A_after": 113,
+  "B_after": 100
+ },
+ {
+  "dz": 256,
+  "arm": "priority",
+  "A_before": 94,
+  "A_after": 92,
+  "B_after": 80
+ },
+ {
+  "dz": 256,
+  "arm": "uniform",
+  "A_before": 155,
+  "A_after": 178,
+  "B_after": 105
+ }
+]

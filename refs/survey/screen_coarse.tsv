@@ -1,0 +1,1140 @@
+id	area	coarse_keep	title_hits
+S000	A_timescale	N	
+S001	A_timescale	N	
+S002	A_timescale	Y	time cell
+S003	A_timescale	N	
+S004	A_timescale	N	
+S005	A_timescale	N	
+S006	A_timescale	N	
+S007	A_timescale	N	
+S008	A_timescale	N	
+S009	A_timescale	Y	time cell
+S010	A_timescale	N	
+S011	A_timescale	N	
+S012	A_timescale	N	
+S013	A_timescale	N	
+S014	A_timescale	Y	temporal context;temporal
+S015	A_timescale	Y	temporal
+S016	A_timescale	Y	temporal context;temporal
+S017	A_timescale	Y	temporal context;temporal
+S018	A_timescale	Y	temporal context;temporal
+S019	A_timescale	Y	temporal
+S020	A_timescale	Y	temporal context;temporal
+S021	A_timescale	Y	temporal context;temporal
+S022	A_timescale	Y	temporal context;temporal
+S023	A_timescale	Y	temporal
+S024	A_timescale	Y	temporal context;temporal
+S025	A_timescale	Y	temporal context;temporal
+S026	A_timescale	Y	temporal context;temporal
+S027	A_timescale	Y	temporal context;temporal
+S028	A_timescale	Y	temporal
+S029	A_timescale	Y	temporal context;temporal
+S030	A_timescale	Y	temporal context;temporal
+S031	A_timescale	Y	temporal context;temporal
+S032	A_timescale	Y	temporal
+S033	A_timescale	Y	temporal context;temporal
+S034	A_timescale	N	
+S035	A_timescale	Y	temporal context;temporal
+S036	A_timescale	Y	temporal context;temporal
+S037	A_timescale	Y	temporal
+S038	A_timescale	N	
+S039	A_timescale	N	
+S040	A_timescale	N	
+S041	A_timescale	Y	multiple timescale;timescale
+S042	A_timescale	N	
+S043	A_timescale	Y	timescale
+S044	A_timescale	N	
+S045	A_timescale	N	
+S046	A_timescale	N	
+S047	A_timescale	N	
+S048	A_timescale	Y	multiple timescale;timescale
+S049	A_timescale	N	
+S050	A_timescale	N	
+S051	A_timescale	N	
+S052	A_timescale	N	
+S053	A_timescale	N	
+S054	A_timescale	N	
+S055	A_timescale	N	
+S056	A_timescale	N	
+S057	A_timescale	N	
+S058	A_timescale	N	
+S059	A_timescale	N	
+S060	A_timescale	N	
+S061	A_timescale	N	
+S062	A_timescale	N	
+S063	A_timescale	N	
+S064	A_timescale	Y	temporal
+S065	A_timescale	Y	temporal
+S066	A_timescale	Y	temporal
+S067	A_timescale	Y	temporal
+S068	A_timescale	Y	temporal
+S069	A_timescale	Y	temporal
+S070	A_timescale	Y	scale-free
+S071	A_timescale	N	
+S072	A_timescale	N	
+S073	A_timescale	Y	temporal
+S074	A_timescale	N	
+S075	A_timescale	Y	temporal context;temporal
+S076	A_timescale	Y	temporal
+S077	A_timescale	Y	temporal context;temporal
+S078	A_timescale	Y	temporal context;temporal
+S079	A_timescale	Y	temporal context;temporal
+S080	A_timescale	Y	temporal context;temporal
+S081	A_timescale	N	
+S082	A_timescale	Y	temporal context;temporal
+S083	A_timescale	Y	temporal
+S084	A_timescale	Y	temporal
+S085	A_timescale	Y	temporal context;temporal
+S086	A_timescale	Y	temporal context;temporal
+S087	A_timescale	Y	temporal context;temporal
+S088	A_timescale	Y	temporal
+S089	A_timescale	Y	temporal context;temporal
+S090	A_timescale	N	
+S091	A_timescale	N	
+S092	A_timescale	N	
+S093	A_timescale	N	
+S094	A_timescale	N	
+S095	A_timescale	N	
+S096	A_timescale	N	
+S096	B_forget	Y	forgetting;retrieval-induced
+S097	B_forget	Y	forgetting;retrieval-induced
+S098	B_forget	Y	forgetting;retrieval-induced
+S099	B_forget	Y	forgetting;retrieval-induced
+S100	B_forget	Y	forgetting;retrieval-induced
+S101	B_forget	Y	forgetting;retrieval-induced
+S102	B_forget	Y	forgetting
+S103	B_forget	Y	forgetting;retrieval-induced
+S104	B_forget	Y	forgetting;retrieval-induced
+S105	B_forget	Y	forgetting;retrieval-induced
+S106	B_forget	Y	forgetting;retrieval-induced
+S107	B_forget	Y	forgetting;retrieval-induced
+S108	B_forget	Y	forgetting;retrieval-induced
+S109	B_forget	Y	forgetting;retrieval-induced
+S110	B_forget	Y	forgetting;retrieval-induced
+S111	B_forget	Y	forgetting;retrieval-induced
+S112	B_forget	Y	forgetting;retrieval-induced
+S113	B_forget	Y	forgetting;retrieval-induced
+S114	B_forget	Y	forgetting;retrieval-induced
+S115	B_forget	Y	forgetting;retrieval-induced
+S116	B_forget	Y	forgetting;retrieval-induced
+S117	B_forget	Y	forgetting
+S118	B_forget	Y	forgetting;retrieval-induced
+S119	B_forget	Y	forgetting;retrieval-induced
+S120	B_forget	Y	forgetting;retrieval-induced
+S121	B_forget	N	
+S122	B_forget	N	
+S123	B_forget	N	
+S124	B_forget	Y	forgetting
+S125	B_forget	Y	forgetting
+S126	B_forget	N	
+S127	B_forget	N	
+S128	B_forget	Y	forgetting
+S129	B_forget	N	
+S130	B_forget	Y	forgetting
+S131	B_forget	Y	forgetting
+S132	B_forget	N	
+S133	B_forget	N	
+S134	B_forget	N	
+S135	B_forget	N	
+S136	B_forget	Y	forgetting
+S137	B_forget	N	
+S138	B_forget	Y	forgetting
+S139	B_forget	Y	forgetting
+S140	B_forget	N	
+S141	B_forget	N	
+S142	B_forget	N	
+S143	B_forget	N	
+S144	B_forget	N	
+S145	B_forget	N	
+S146	B_forget	N	
+S147	B_forget	N	
+S148	B_forget	Y	forgetting
+S149	B_forget	N	
+S150	B_forget	Y	forgetting
+S151	B_forget	Y	forgetting
+S152	B_forget	N	
+S153	B_forget	N	
+S154	B_forget	N	
+S155	B_forget	N	
+S156	B_forget	N	
+S157	B_forget	N	
+S158	B_forget	Y	forgetting
+S159	B_forget	N	
+S160	B_forget	N	
+S161	B_forget	N	
+S162	B_forget	N	
+S163	B_forget	N	
+S164	B_forget	N	
+S165	B_forget	N	
+S166	B_forget	N	
+S167	B_forget	N	
+S168	B_forget	N	
+S169	B_forget	Y	forgetting
+S170	B_forget	Y	forgetting
+S171	B_forget	Y	forgetting
+S172	B_forget	Y	forgetting
+S173	B_forget	Y	forgetting;motivated forgetting
+S174	B_forget	Y	forgetting;motivated forgetting
+S175	B_forget	Y	forgetting;motivated forgetting
+S176	B_forget	Y	forgetting;retrieval-induced
+S177	B_forget	Y	forgetting;motivated forgetting
+S178	B_forget	Y	forgetting
+S179	B_forget	Y	forgetting
+S180	B_forget	Y	forgetting
+S181	B_forget	Y	forgetting
+S182	B_forget	Y	forgetting
+S183	B_forget	Y	forgetting;motivated forgetting
+S184	B_forget	Y	forgetting
+S185	B_forget	Y	forgetting;catastrophic forgetting
+S186	B_forget	Y	forgetting;catastrophic forgetting
+S187	B_forget	Y	forgetting
+S188	B_forget	Y	forgetting
+S189	B_forget	Y	forgetting;catastrophic forgetting
+S190	B_forget	N	
+S191	B_forget	N	
+S192	B_forget	N	
+S193	B_forget	Y	forgetting;catastrophic forgetting
+S194	B_forget	Y	forgetting;catastrophic forgetting
+S195	B_forget	Y	forgetting;catastrophic forgetting;pruning
+S196	B_forget	Y	forgetting;catastrophic forgetting
+S197	B_forget	Y	forgetting
+S198	B_forget	Y	forgetting;unlearning
+S199	B_forget	Y	forgetting;catastrophic forgetting
+S200	B_forget	Y	forgetting
+S201	B_forget	Y	forgetting
+S202	B_forget	Y	forgetting;catastrophic forgetting
+S203	B_forget	Y	forgetting;catastrophic forgetting
+S203	C_neuro	Y	GABA
+S204	C_neuro	Y	acetylcholin
+S205	C_neuro	N	
+S206	C_neuro	Y	neuromodulat
+S207	C_neuro	N	
+S208	C_neuro	N	
+S209	C_neuro	N	
+S210	C_neuro	N	
+S211	C_neuro	N	
+S212	C_neuro	N	
+S213	C_neuro	N	
+S214	C_neuro	Y	acetylcholin
+S215	C_neuro	N	
+S216	C_neuro	N	
+S217	C_neuro	N	
+S218	C_neuro	N	
+S219	C_neuro	Y	acetylcholin
+S220	C_neuro	N	
+S221	C_neuro	N	
+S222	C_neuro	N	
+S223	C_neuro	N	
+S224	C_neuro	N	
+S225	C_neuro	N	
+S226	C_neuro	Y	norepinephr;locus coeruleus
+S227	C_neuro	Y	norepinephr;locus coeruleus
+S228	C_neuro	Y	norepinephr;locus coeruleus
+S229	C_neuro	Y	locus coeruleus
+S230	C_neuro	Y	locus coeruleus
+S231	C_neuro	Y	norepinephr;locus coeruleus
+S232	C_neuro	Y	norepinephr;locus coeruleus
+S233	C_neuro	Y	norepinephr;locus coeruleus
+S234	C_neuro	Y	locus coeruleus
+S235	C_neuro	Y	norepinephr;locus coeruleus
+S236	C_neuro	Y	dopamin;norepinephr;locus coeruleus
+S237	C_neuro	Y	norepinephr;locus coeruleus
+S238	C_neuro	Y	norepinephr;locus coeruleus
+S239	C_neuro	Y	norepinephr;locus coeruleus
+S240	C_neuro	Y	norepinephr;locus coeruleus
+S241	C_neuro	Y	norepinephr;locus coeruleus
+S242	C_neuro	Y	locus coeruleus
+S243	C_neuro	Y	locus coeruleus
+S244	C_neuro	Y	norepinephr
+S245	C_neuro	Y	norepinephr;locus coeruleus
+S246	C_neuro	Y	norepinephr;locus coeruleus
+S247	C_neuro	Y	norepinephr;locus coeruleus
+S248	C_neuro	Y	norepinephr;locus coeruleus
+S249	C_neuro	Y	norepinephr;locus coeruleus
+S250	C_neuro	Y	norepinephr;locus coeruleus
+S251	C_neuro	Y	dopamin
+S252	C_neuro	Y	dopamin;reward prediction error
+S253	C_neuro	Y	dopamin
+S254	C_neuro	Y	dopamin;reward prediction error
+S255	C_neuro	Y	dopamin;reward prediction error
+S256	C_neuro	Y	dopamin
+S257	C_neuro	Y	dopamin
+S258	C_neuro	Y	dopamin
+S259	C_neuro	Y	dopamin
+S260	C_neuro	Y	dopamin
+S261	C_neuro	Y	dopamin;reward prediction error
+S262	C_neuro	N	
+S263	C_neuro	Y	serotonin
+S264	C_neuro	Y	dopamin;D1
+S265	C_neuro	Y	dopamin;reward prediction error
+S266	C_neuro	Y	dopamin
+S267	C_neuro	Y	dopamin;reward prediction error
+S268	C_neuro	Y	dopamin
+S269	C_neuro	Y	dopamin;reward prediction error
+S270	C_neuro	Y	dopamin;reward prediction error
+S271	C_neuro	N	
+S272	C_neuro	N	
+S273	C_neuro	N	
+S274	C_neuro	Y	dopamin;norepinephr
+S275	C_neuro	Y	dopamin
+S276	C_neuro	Y	eligibility trace;dopamin
+S277	C_neuro	N	
+S278	C_neuro	Y	eligibility trace
+S279	C_neuro	N	
+S280	C_neuro	Y	eligibility trace
+S281	C_neuro	Y	gating
+S282	C_neuro	N	
+S283	C_neuro	N	
+S284	C_neuro	Y	eligibility trace
+S285	C_neuro	N	
+S286	C_neuro	N	
+S287	C_neuro	N	
+S288	C_neuro	N	
+S289	C_neuro	N	
+S290	C_neuro	N	
+S291	C_neuro	N	
+S292	C_neuro	N	
+S293	C_neuro	N	
+S294	C_neuro	Y	adrenerg;serotonin
+S295	C_neuro	N	
+S296	C_neuro	N	
+S296	D_consolidation	Y	consolidation;plasticity
+S297	D_consolidation	Y	cascade;plasticity
+S298	D_consolidation	Y	consolidation;synaptic consolidation
+S299	D_consolidation	Y	consolidation
+S300	D_consolidation	Y	consolidation;synaptic consolidation
+S301	D_consolidation	Y	consolidation;plasticity
+S302	D_consolidation	Y	consolidation;sleep;plasticity
+S303	D_consolidation	Y	cascade;plasticity
+S304	D_consolidation	Y	consolidation;synaptic consolidation;plasticity
+S305	D_consolidation	Y	consolidation;plasticity
+S306	D_consolidation	Y	consolidation
+S307	D_consolidation	N	
+S308	D_consolidation	N	
+S309	D_consolidation	N	
+S310	D_consolidation	N	
+S311	D_consolidation	Y	consolidation
+S312	D_consolidation	N	
+S313	D_consolidation	Y	sleep;plasticity
+S314	D_consolidation	Y	sleep
+S315	D_consolidation	N	
+S316	D_consolidation	Y	sleep;NREM;REM
+S317	D_consolidation	Y	consolidation;sleep
+S318	D_consolidation	Y	sleep;spindle
+S319	D_consolidation	N	
+S320	D_consolidation	Y	consolidation
+S321	D_consolidation	Y	sharp-wave ripple
+S322	D_consolidation	Y	sleep;slow-wave;spindle
+S323	D_consolidation	Y	neocortical
+S324	D_consolidation	Y	neocortical
+S325	D_consolidation	Y	neocortical
+S326	D_consolidation	Y	consolidation
+S327	D_consolidation	Y	consolidation;sleep;neocortical;plasticity
+S328	D_consolidation	Y	neocortical
+S329	D_consolidation	Y	neocortical
+S330	D_consolidation	Y	neocortical
+S331	D_consolidation	Y	neocortical
+S332	D_consolidation	Y	consolidation;systems consolidation
+S333	D_consolidation	Y	neocortical
+S334	D_consolidation	Y	consolidation;neocortical
+S335	D_consolidation	Y	consolidation;systems consolidation
+S336	D_consolidation	Y	sleep;spindle;neocortical
+S337	D_consolidation	Y	neocortical
+S338	D_consolidation	Y	reactivation;neocortical
+S339	D_consolidation	Y	neocortical
+S340	D_consolidation	Y	reactivation;neocortical;wake
+S341	D_consolidation	Y	neocortical
+S342	D_consolidation	Y	neocortical
+S343	D_consolidation	Y	neocortical
+S344	D_consolidation	Y	neocortical
+S345	D_consolidation	Y	neocortical
+S346	D_consolidation	Y	neocortical
+S347	D_consolidation	Y	neocortical
+S348	D_consolidation	Y	replay
+S349	D_consolidation	Y	replay
+S350	D_consolidation	Y	replay
+S351	D_consolidation	Y	replay
+S352	D_consolidation	Y	replay
+S353	D_consolidation	Y	replay
+S354	D_consolidation	Y	replay
+S355	D_consolidation	Y	replay
+S356	D_consolidation	Y	replay
+S357	D_consolidation	Y	replay
+S358	D_consolidation	Y	replay
+S359	D_consolidation	Y	replay
+S360	D_consolidation	Y	replay
+S361	D_consolidation	Y	replay
+S362	D_consolidation	Y	replay
+S363	D_consolidation	Y	replay
+S364	D_consolidation	Y	replay
+S365	D_consolidation	Y	replay
+S366	D_consolidation	Y	replay
+S367	D_consolidation	Y	consolidation;sleep;reactivation;targeted memory
+S368	D_consolidation	Y	sleep;reactivation;targeted memory
+S369	D_consolidation	Y	sleep;reactivation;targeted memory
+S370	D_consolidation	Y	sleep;reactivation;targeted memory
+S371	D_consolidation	Y	sleep;reactivation;targeted memory
+S372	D_consolidation	Y	sleep;reactivation;targeted memory
+S373	D_consolidation	Y	sleep;reactivation;targeted memory
+S374	D_consolidation	Y	sleep;reactivation;targeted memory
+S375	D_consolidation	Y	consolidation;sleep;reactivation;targeted memory
+S376	D_consolidation	Y	consolidation;sleep;reactivation;targeted memory
+S377	D_consolidation	Y	sleep;reactivation;REM;targeted memory
+S378	D_consolidation	Y	sleep;reactivation;NREM;REM;targeted memory
+S379	D_consolidation	Y	sleep;reactivation;targeted memory
+S380	D_consolidation	Y	sleep;reactivation;REM;targeted memory
+S381	D_consolidation	Y	sleep;reactivation;targeted memory
+S382	D_consolidation	Y	replay
+S383	D_consolidation	Y	replay
+S384	D_consolidation	Y	replay
+S385	D_consolidation	Y	replay
+S386	D_consolidation	Y	replay
+S387	D_consolidation	N	
+S388	D_consolidation	Y	replay
+S389	D_consolidation	Y	replay
+S390	D_consolidation	Y	replay
+S391	D_consolidation	Y	replay
+S392	D_consolidation	Y	replay
+S393	D_consolidation	Y	replay
+S394	D_consolidation	Y	replay
+S395	D_consolidation	Y	replay
+S396	D_consolidation	Y	replay
+S397	D_consolidation	Y	replay
+S398	D_consolidation	Y	replay
+S399	D_consolidation	Y	replay
+S400	D_consolidation	Y	replay
+S401	D_consolidation	Y	replay
+S401	E_wm	Y	working memory;theta
+S402	E_wm	Y	theta;gamma
+S403	E_wm	Y	theta;gamma
+S404	E_wm	Y	working memory;theta;gamma
+S405	E_wm	Y	theta;gamma
+S406	E_wm	Y	working memory;theta;gamma
+S407	E_wm	Y	theta;gamma
+S408	E_wm	Y	working memory;theta;gamma;prefrontal
+S409	E_wm	Y	working memory;theta;gamma
+S410	E_wm	Y	working memory;theta;gamma
+S411	E_wm	Y	working memory;theta;gamma
+S412	E_wm	Y	theta;gamma
+S413	E_wm	Y	theta;gamma
+S414	E_wm	Y	working memory;theta;gamma;prefrontal
+S415	E_wm	Y	theta;gamma
+S416	E_wm	Y	working memory;theta;gamma;prefrontal
+S417	E_wm	Y	working memory;theta;gamma
+S418	E_wm	Y	working memory;theta;gamma;prefrontal
+S419	E_wm	Y	working memory;theta;gamma;oscillat
+S420	E_wm	Y	working memory;theta;gamma
+S421	E_wm	Y	theta;gamma
+S422	E_wm	Y	theta;gamma
+S423	E_wm	Y	theta;gamma
+S424	E_wm	Y	theta;gamma
+S425	E_wm	Y	working memory;theta;gamma
+S426	E_wm	Y	working memory
+S427	E_wm	Y	working memory
+S428	E_wm	Y	working memory
+S429	E_wm	Y	working memory
+S430	E_wm	Y	working memory
+S431	E_wm	Y	working memory
+S432	E_wm	Y	working memory
+S433	E_wm	Y	working memory
+S434	E_wm	Y	working memory
+S435	E_wm	Y	working memory
+S436	E_wm	Y	working memory
+S437	E_wm	Y	working memory
+S438	E_wm	Y	working memory
+S439	E_wm	Y	working memory;slot
+S440	E_wm	Y	working memory
+S441	E_wm	Y	working memory
+S442	E_wm	Y	working memory
+S443	E_wm	Y	working memory
+S444	E_wm	Y	working memory
+S445	E_wm	Y	working memory
+S446	E_wm	Y	working memory
+S447	E_wm	Y	working memory
+S448	E_wm	Y	working memory
+S449	E_wm	Y	working memory
+S450	E_wm	Y	working memory
+S451	E_wm	Y	working memory;prefrontal
+S452	E_wm	Y	working memory
+S453	E_wm	Y	working memory
+S454	E_wm	Y	working memory
+S455	E_wm	Y	working memory;persistent activity;prefrontal
+S456	E_wm	Y	working memory
+S457	E_wm	Y	working memory
+S458	E_wm	Y	working memory
+S459	E_wm	Y	working memory
+S460	E_wm	Y	working memory
+S461	E_wm	Y	working memory;prefrontal
+S462	E_wm	Y	working memory
+S463	E_wm	Y	working memory
+S464	E_wm	Y	working memory
+S465	E_wm	Y	working memory
+S466	E_wm	Y	working memory
+S467	E_wm	Y	working memory
+S468	E_wm	Y	working memory
+S469	E_wm	Y	working memory
+S470	E_wm	Y	working memory
+S471	E_wm	N	
+S472	E_wm	N	
+S473	E_wm	N	
+S474	E_wm	N	
+S475	E_wm	N	
+S476	E_wm	N	
+S477	E_wm	Y	working memory
+S478	E_wm	N	
+S479	E_wm	Y	working memory
+S480	E_wm	N	
+S481	E_wm	Y	working memory
+S482	E_wm	Y	working memory;attractor
+S483	E_wm	Y	working memory;attractor
+S484	E_wm	N	
+S485	E_wm	N	
+S486	E_wm	N	
+S487	E_wm	Y	working memory
+S488	E_wm	Y	working memory
+S489	E_wm	Y	working memory
+S490	E_wm	Y	working memory
+S491	E_wm	Y	working memory
+S491	F_capacity	Y	capacity;Hopfield
+S492	F_capacity	Y	capacity;Hopfield
+S493	F_capacity	Y	Hopfield
+S494	F_capacity	Y	Hopfield
+S495	F_capacity	Y	Hopfield
+S496	F_capacity	Y	Hopfield
+S497	F_capacity	Y	Hopfield
+S498	F_capacity	Y	Hopfield
+S499	F_capacity	Y	Hopfield
+S500	F_capacity	Y	Hopfield
+S501	F_capacity	Y	capacity;Hopfield
+S502	F_capacity	Y	Hopfield
+S503	F_capacity	Y	Hopfield
+S504	F_capacity	Y	capacity;Hopfield
+S505	F_capacity	Y	capacity;Hopfield
+S506	F_capacity	Y	capacity;storage;Hopfield
+S507	F_capacity	Y	Hopfield
+S508	F_capacity	Y	Hopfield
+S509	F_capacity	Y	capacity;storage;Hopfield
+S510	F_capacity	Y	Hopfield
+S511	F_capacity	Y	Hopfield
+S512	F_capacity	Y	Hopfield
+S513	F_capacity	Y	Hopfield
+S514	F_capacity	Y	capacity;Hopfield
+S515	F_capacity	Y	Hopfield
+S516	F_capacity	Y	capacity;associative memory
+S517	F_capacity	Y	capacity;associative memory
+S518	F_capacity	Y	capacity;associative memory
+S519	F_capacity	Y	capacity;associative memory
+S520	F_capacity	Y	associative memory
+S521	F_capacity	Y	associative memory
+S522	F_capacity	Y	associative memory
+S523	F_capacity	Y	associative memory
+S524	F_capacity	Y	associative memory
+S525	F_capacity	Y	associative memory
+S526	F_capacity	Y	capacity;associative memory
+S527	F_capacity	Y	associative memory
+S528	F_capacity	Y	Hopfield;associative memory
+S529	F_capacity	Y	capacity
+S530	F_capacity	Y	associative memory
+S531	F_capacity	Y	capacity;Hopfield
+S532	F_capacity	Y	associative memory
+S533	F_capacity	Y	associative memory
+S534	F_capacity	Y	associative memory
+S535	F_capacity	Y	associative memory
+S536	F_capacity	N	
+S537	F_capacity	Y	associative memory
+S538	F_capacity	N	
+S539	F_capacity	Y	associative memory
+S540	F_capacity	N	
+S541	F_capacity	N	
+S542	F_capacity	Y	capacity;associative memory
+S543	F_capacity	Y	associative memory
+S544	F_capacity	Y	capacity;associative memory
+S545	F_capacity	Y	associative memory
+S546	F_capacity	Y	associative memory
+S547	F_capacity	Y	associative memory
+S548	F_capacity	Y	associative memory
+S549	F_capacity	Y	capacity;associative memory
+S550	F_capacity	Y	capacity;Hopfield;associative memory
+S551	F_capacity	Y	associative memory
+S552	F_capacity	Y	associative memory
+S553	F_capacity	N	
+S554	F_capacity	N	
+S555	F_capacity	Y	capacity;associative memory
+S556	F_capacity	Y	associative memory
+S557	F_capacity	Y	associative memory
+S558	F_capacity	Y	capacity;associative memory
+S559	F_capacity	Y	capacity;associative memory
+S560	F_capacity	Y	capacity;Hopfield;associative memory
+S561	F_capacity	Y	capacity;storage;Hopfield
+S562	F_capacity	Y	capacity;storage;Hopfield
+S563	F_capacity	Y	capacity;storage;Hopfield
+S564	F_capacity	Y	capacity;storage;Hopfield
+S565	F_capacity	Y	capacity;storage;Hopfield
+S566	F_capacity	Y	capacity;scaling;storage;Hopfield
+S567	F_capacity	Y	capacity;storage;Hopfield
+S568	F_capacity	Y	capacity;storage;Hopfield
+S569	F_capacity	Y	capacity;storage;Hopfield
+S570	F_capacity	Y	capacity;storage
+S571	F_capacity	Y	Hopfield
+S572	F_capacity	Y	capacity;storage
+S573	F_capacity	Y	capacity;storage;Hopfield;associative memory
+S574	F_capacity	Y	capacity
+S575	F_capacity	Y	capacity;storage;Hopfield
+S576	F_capacity	Y	capacity;storage;Hopfield
+S577	F_capacity	Y	capacity;scaling;storage
+S578	F_capacity	Y	capacity;storage;Hopfield
+S579	F_capacity	Y	capacity;storage;Hopfield
+S580	F_capacity	Y	capacity;storage;Hopfield
+S581	F_capacity	Y	associative memory
+S582	F_capacity	Y	associative memory
+S583	F_capacity	N	
+S584	F_capacity	Y	associative memory
+S585	F_capacity	Y	capacity;storage;associative memory
+S586	F_capacity	Y	capacity;associative memory;attractor network
+S587	F_capacity	Y	capacity
+S588	F_capacity	Y	capacity;associative memory
+S589	F_capacity	Y	associative memory
+S590	F_capacity	Y	capacity;associative memory
+S591	F_capacity	Y	associative memory
+S592	F_capacity	N	
+S593	F_capacity	Y	associative memory
+S594	F_capacity	Y	capacity;Hopfield;associative memory
+S595	F_capacity	Y	capacity;storage;associative memory
+S596	F_capacity	Y	capacity;associative memory
+S597	F_capacity	Y	capacity
+S598	F_capacity	Y	capacity
+S599	F_capacity	Y	capacity;associative memory
+S600	F_capacity	Y	capacity;storage;associative memory
+S600	G_structure	N	
+S601	G_structure	N	
+S602	G_structure	N	
+S603	G_structure	Y	successor representation
+S604	G_structure	Y	successor representation
+S605	G_structure	Y	successor representation
+S606	G_structure	N	
+S607	G_structure	Y	successor representation
+S608	G_structure	Y	successor representation
+S609	G_structure	N	
+S610	G_structure	Y	successor representation
+S611	G_structure	N	
+S612	G_structure	N	
+S613	G_structure	N	
+S614	G_structure	Y	successor representation
+S615	G_structure	N	
+S616	G_structure	Y	successor representation
+S617	G_structure	Y	successor representation;abstract
+S618	G_structure	Y	successor representation
+S619	G_structure	Y	successor representation
+S620	G_structure	Y	successor representation
+S621	G_structure	N	
+S622	G_structure	Y	graph
+S623	G_structure	Y	graph
+S624	G_structure	N	
+S625	G_structure	N	
+S626	G_structure	N	
+S627	G_structure	Y	structural learning
+S628	G_structure	N	
+S629	G_structure	Y	graph
+S630	G_structure	N	
+S631	G_structure	N	
+S632	G_structure	Y	graph
+S633	G_structure	N	
+S634	G_structure	Y	graph
+S635	G_structure	Y	graph
+S636	G_structure	Y	structural learning;graph
+S637	G_structure	Y	graph
+S638	G_structure	N	
+S639	G_structure	N	
+S640	G_structure	Y	relational
+S641	G_structure	N	
+S642	G_structure	N	
+S643	G_structure	N	
+S644	G_structure	N	
+S645	G_structure	N	
+S646	G_structure	N	
+S647	G_structure	N	
+S648	G_structure	N	
+S649	G_structure	N	
+S650	G_structure	N	
+S651	G_structure	N	
+S652	G_structure	N	
+S653	G_structure	N	
+S654	G_structure	N	
+S655	G_structure	N	
+S656	G_structure	N	
+S657	G_structure	N	
+S658	G_structure	N	
+S659	G_structure	N	
+S660	G_structure	N	
+S661	G_structure	N	
+S662	G_structure	N	
+S663	G_structure	N	
+S664	G_structure	N	
+S665	G_structure	Y	relational
+S666	G_structure	N	
+S667	G_structure	N	
+S668	G_structure	N	
+S669	G_structure	N	
+S670	G_structure	N	
+S671	G_structure	N	
+S672	G_structure	N	
+S673	G_structure	N	
+S674	G_structure	N	
+S675	G_structure	N	
+S676	G_structure	N	
+S677	G_structure	Y	relational
+S678	G_structure	Y	relational
+S679	G_structure	N	
+S680	G_structure	Y	concept
+S681	G_structure	N	
+S682	G_structure	N	
+S683	G_structure	N	
+S684	G_structure	N	
+S685	G_structure	N	
+S686	G_structure	N	
+S687	G_structure	N	
+S688	G_structure	N	
+S689	G_structure	N	
+S690	G_structure	Y	graph
+S691	G_structure	N	
+S692	G_structure	N	
+S693	G_structure	N	
+S694	G_structure	N	
+S695	G_structure	N	
+S696	G_structure	N	
+S697	G_structure	N	
+S697	H_scale	Y	approximate nearest;nearest neighbor
+S698	H_scale	Y	nearest neighbor
+S699	H_scale	Y	approximate nearest;nearest neighbor
+S700	H_scale	Y	approximate nearest;nearest neighbor
+S701	H_scale	Y	approximate nearest;nearest neighbor;quantization
+S702	H_scale	Y	approximate nearest;nearest neighbor;sparse;hashing
+S703	H_scale	Y	approximate nearest;nearest neighbor;quantization
+S704	H_scale	Y	nearest neighbor
+S705	H_scale	Y	nearest neighbor
+S706	H_scale	Y	nearest neighbor
+S707	H_scale	Y	approximate nearest;nearest neighbor
+S708	H_scale	Y	approximate nearest;nearest neighbor;quantization
+S709	H_scale	Y	approximate nearest;nearest neighbor;quantization
+S710	H_scale	Y	approximate nearest;nearest neighbor;quantization
+S711	H_scale	Y	approximate nearest;nearest neighbor;sparse
+S712	H_scale	Y	approximate nearest;nearest neighbor
+S713	H_scale	Y	approximate nearest;nearest neighbor
+S714	H_scale	Y	locality-sensitive;approximate nearest;nearest neighbor
+S715	H_scale	Y	approximate nearest;nearest neighbor;index
+S716	H_scale	Y	approximate nearest;nearest neighbor
+S717	H_scale	N	
+S718	H_scale	N	
+S719	H_scale	N	
+S720	H_scale	N	
+S721	H_scale	N	
+S722	H_scale	N	
+S723	H_scale	N	
+S724	H_scale	N	
+S725	H_scale	Y	sparse
+S726	H_scale	N	
+S727	H_scale	N	
+S728	H_scale	N	
+S729	H_scale	N	
+S730	H_scale	Y	sparse
+S731	H_scale	N	
+S732	H_scale	Y	sparse distributed memory;sparse
+S733	H_scale	Y	sparse distributed memory;Kanerva;sparse
+S734	H_scale	Y	sparse distributed memory;sparse
+S735	H_scale	Y	sparse distributed memory;sparse
+S736	H_scale	Y	sparse distributed memory;sparse
+S737	H_scale	Y	sparse distributed memory;sparse
+S738	H_scale	Y	sparse distributed memory;sparse
+S739	H_scale	Y	sparse distributed memory;sparse
+S740	H_scale	Y	sparse distributed memory;sparse
+S741	H_scale	Y	sparse distributed memory;sparse
+S742	H_scale	Y	sparse distributed memory;sparse
+S743	H_scale	Y	sparse distributed memory;sparse
+S744	H_scale	Y	sparse distributed memory;sparse
+S745	H_scale	Y	sparse
+S746	H_scale	Y	sparse distributed memory;sparse
+S747	H_scale	N	
+S748	H_scale	N	
+S749	H_scale	N	
+S750	H_scale	N	
+S751	H_scale	N	
+S752	H_scale	N	
+S753	H_scale	N	
+S754	H_scale	N	
+S755	H_scale	N	
+S756	H_scale	N	
+S757	H_scale	N	
+S758	H_scale	N	
+S759	H_scale	N	
+S760	H_scale	N	
+S761	H_scale	N	
+S761	I_confidence	Y	signal detection
+S762	I_confidence	N	
+S763	I_confidence	Y	confidence
+S764	I_confidence	Y	signal detection
+S765	I_confidence	Y	signal detection
+S766	I_confidence	Y	signal detection
+S767	I_confidence	N	
+S768	I_confidence	Y	signal detection
+S769	I_confidence	Y	confidence
+S770	I_confidence	Y	confidence;familiarity
+S771	I_confidence	Y	confidence;decision
+S772	I_confidence	N	
+S773	I_confidence	Y	confidence
+S774	I_confidence	Y	decision
+S775	I_confidence	Y	signal detection
+S776	I_confidence	Y	signal detection
+S777	I_confidence	Y	confidence
+S778	I_confidence	Y	confidence
+S779	I_confidence	Y	confidence
+S780	I_confidence	Y	signal detection
+S781	I_confidence	Y	confidence
+S782	I_confidence	Y	confidence
+S783	I_confidence	Y	signal detection
+S784	I_confidence	Y	confidence
+S785	I_confidence	Y	signal detection
+S786	I_confidence	Y	confidence;calibration;decision
+S787	I_confidence	Y	confidence;calibration
+S788	I_confidence	Y	confidence;calibration
+S789	I_confidence	Y	confidence;calibration
+S790	I_confidence	Y	confidence;calibration
+S791	I_confidence	Y	confidence;calibration
+S792	I_confidence	Y	confidence;calibration
+S793	I_confidence	Y	confidence;calibration
+S794	I_confidence	Y	confidence;calibration
+S795	I_confidence	Y	confidence;calibration
+S796	I_confidence	Y	confidence;calibration
+S797	I_confidence	Y	confidence;calibration
+S798	I_confidence	Y	confidence;metamemory
+S799	I_confidence	Y	confidence;calibration
+S800	I_confidence	Y	confidence;metamemory
+S801	I_confidence	Y	confidence;calibration
+S802	I_confidence	Y	confidence;calibration
+S803	I_confidence	Y	confidence;calibration
+S804	I_confidence	Y	metamemory
+S805	I_confidence	Y	metamemory
+S806	I_confidence	N	
+S807	I_confidence	Y	uncertainty
+S808	I_confidence	Y	uncertainty
+S809	I_confidence	Y	uncertainty
+S810	I_confidence	Y	uncertainty
+S811	I_confidence	Y	uncertainty
+S812	I_confidence	N	
+S813	I_confidence	N	
+S814	I_confidence	N	
+S815	I_confidence	Y	uncertainty
+S816	I_confidence	N	
+S817	I_confidence	Y	uncertainty
+S818	I_confidence	N	
+S819	I_confidence	Y	uncertainty
+S820	I_confidence	Y	uncertainty
+S821	A_timescale	Y	temporal context;temporal
+S822	B_forget	Y	forgetting
+S823	B_forget	Y	forgetting;catastrophic forgetting
+S824	B_forget	N	
+S825	B_forget	N	
+S826	B_forget	N	
+S827	D_consolidation	Y	replay
+S828	D_consolidation	Y	replay
+S829	D_consolidation	Y	replay
+S830	D_consolidation	Y	replay
+S831	D_consolidation	Y	replay
+S832	D_consolidation	Y	replay
+S833	D_consolidation	Y	replay
+S834	E_wm	N	
+S835	E_wm	Y	working memory
+S836	E_wm	Y	oscillat
+S837	E_wm	N	
+S838	E_wm	N	
+S839	F_capacity	Y	capacity;associative memory
+S840	F_capacity	Y	capacity;associative memory
+S841	F_capacity	Y	capacity;associative memory
+S842	F_capacity	Y	associative memory
+S843	F_capacity	Y	capacity;Hopfield;associative memory
+S844	F_capacity	Y	capacity
+S845	F_capacity	Y	associative memory
+S846	F_capacity	Y	associative memory
+S847	F_capacity	Y	associative memory
+S848	F_capacity	N	
+S849	G_structure	N	
+S850	G_structure	Y	graph
+S851	G_structure	N	
+S852	H_scale	Y	approximate nearest;nearest neighbor
+S853	H_scale	Y	approximate nearest;nearest neighbor
+S854	H_scale	Y	approximate nearest;nearest neighbor
+S855	H_scale	Y	approximate nearest;nearest neighbor
+S856	H_scale	Y	approximate nearest;nearest neighbor
+S857	H_scale	Y	hashing
+S858	H_scale	Y	sparse
+S859	H_scale	N	
+S860	H_scale	N	
+S861	H_scale	N	
+S862	H_scale	N	
+S863	H_scale	N	
+S864	H_scale	N	
+S865	H_scale	Y	sketch
+S866	H_scale	N	
+S867	H_scale	N	
+S868	I_confidence	Y	uncertainty
+S869	I_confidence	Y	uncertainty
+S870	I_confidence	Y	uncertainty
+S871	I_confidence	Y	uncertainty
+S872	I_confidence	Y	uncertainty
+S873	I_confidence	Y	uncertainty
+S874	I_confidence	Y	uncertainty
+S875	I_confidence	Y	uncertainty
+S876	I_confidence	Y	uncertainty
+S877	J_llm_memory	Y	large language model;language model;agent
+S878	J_llm_memory	Y	large language model;language model;agent
+S879	J_llm_memory	Y	large language model;language model;agent
+S880	J_llm_memory	Y	large language model;language model;agent
+S881	J_llm_memory	Y	large language model;language model;agent
+S882	J_llm_memory	N	
+S883	J_llm_memory	Y	large language model;language model
+S884	J_llm_memory	Y	LLM;agent
+S885	J_llm_memory	Y	LLM;agent
+S886	J_llm_memory	Y	LLM;agent
+S887	J_llm_memory	Y	LLM;agent
+S888	J_llm_memory	Y	LLM;agent
+S889	J_llm_memory	Y	LLM;agent
+S890	J_llm_memory	Y	LLM;agent
+S891	J_llm_memory	Y	LLM;agent;prompt
+S892	J_llm_memory	Y	LLM;agent
+S893	J_llm_memory	Y	large language model;language model;prompt
+S894	J_llm_memory	Y	large language model;language model
+S895	J_llm_memory	Y	large language model;language model
+S896	J_llm_memory	Y	large language model;language model
+S897	J_llm_memory	Y	large language model;language model
+S898	J_llm_memory	N	
+S899	J_llm_memory	Y	large language model;language model;agent
+S900	J_llm_memory	Y	large language model;language model
+S901	J_llm_memory	Y	conversational
+S902	J_llm_memory	Y	LLM;conversational
+S903	J_llm_memory	Y	agent
+S904	J_llm_memory	Y	agent;dialogue
+S905	J_llm_memory	Y	agent
+S906	J_llm_memory	Y	agent;conversational
+S907	J_llm_memory	Y	LLM;agent;conversational
+S908	J_llm_memory	Y	LLM;agent
+S909	J_llm_memory	N	
+S909	B_forget	Y	unlearning
+S910	B_forget	Y	unlearning
+S911	B_forget	Y	unlearning
+S912	B_forget	Y	unlearning
+S913	B_forget	Y	unlearning
+S914	B_forget	Y	unlearning
+S915	B_forget	Y	unlearning
+S916	B_forget	Y	unlearning
+S917	B_forget	Y	unlearning
+S918	B_forget	Y	unlearning
+S919	B_forget	Y	unlearning
+S920	B_forget	Y	unlearning
+S921	B_forget	Y	unlearning
+S922	B_forget	Y	unlearning
+S923	B_forget	Y	unlearning
+S924	B_forget	N	
+S925	B_forget	N	
+S926	B_forget	N	
+S927	B_forget	N	
+S928	B_forget	N	
+S929	B_forget	N	
+S930	B_forget	N	
+S931	B_forget	N	
+S932	C_neuro	Y	locus coeruleus
+S933	C_neuro	Y	locus coeruleus
+S934	C_neuro	Y	locus coeruleus
+S935	C_neuro	Y	locus coeruleus
+S936	C_neuro	Y	locus coeruleus
+S937	C_neuro	Y	dopamin;locus coeruleus
+S938	C_neuro	Y	acetylcholin
+S939	C_neuro	N	
+S940	C_neuro	Y	acetylcholin
+S941	C_neuro	N	
+S942	C_neuro	Y	acetylcholin
+S943	A_timescale	Y	temporal
+S944	A_timescale	Y	temporal
+S945	A_timescale	Y	temporal
+S946	A_timescale	Y	temporal
+S947	A_timescale	Y	temporal
+S948	A_timescale	Y	temporal
+S949	A_timescale	N	
+S950	A_timescale	Y	temporal
+S951	A_timescale	Y	temporal
+S952	A_timescale	Y	temporal
+S953	A_timescale	N	
+S954	A_timescale	N	
+S955	A_timescale	N	
+S956	A_timescale	N	
+S957	A_timescale	N	
+S958	A_timescale	N	
+S959	A_timescale	N	
+S960	A_timescale	N	
+S961	A_timescale	N	
+S962	A_timescale	N	
+S963	D_consolidation	Y	consolidation
+S964	D_consolidation	Y	consolidation
+S965	D_consolidation	Y	consolidation;synaptic consolidation
+S966	D_consolidation	Y	consolidation
+S967	D_consolidation	Y	consolidation;systems consolidation
+S968	D_consolidation	Y	consolidation;replay;systems consolidation
+S969	D_consolidation	Y	consolidation;replay;systems consolidation
+S970	D_consolidation	Y	consolidation;replay
+S971	D_consolidation	Y	consolidation
+S972	D_consolidation	Y	consolidation
+S973	D_consolidation	Y	consolidation;sleep
+S974	D_consolidation	Y	consolidation;systems consolidation;REM
+S975	D_consolidation	Y	consolidation;sleep
+S976	E_wm	Y	working memory;theta;gamma
+S977	E_wm	Y	theta;gamma
+S978	E_wm	Y	theta;gamma
+S979	E_wm	Y	working memory;theta;gamma
+S980	E_wm	Y	working memory;theta;gamma
+S981	E_wm	Y	working memory;theta;gamma
+S982	E_wm	Y	working memory;theta;gamma
+S983	E_wm	Y	working memory;theta;gamma
+S984	E_wm	Y	theta;gamma
+S985	E_wm	Y	working memory;theta;gamma;oscillat;prefrontal
+S986	F_capacity	Y	capacity;storage;Hopfield
+S987	F_capacity	Y	Hopfield
+S988	F_capacity	Y	storage;Hopfield
+S989	F_capacity	Y	capacity;Hopfield
+S990	F_capacity	Y	capacity;storage;Hopfield
+S991	F_capacity	Y	capacity;storage;Hopfield
+S992	F_capacity	Y	capacity;storage;Hopfield
+S993	G_structure	Y	cognitive map
+S994	G_structure	Y	cognitive map;relational memory;relational
+S995	G_structure	Y	relational memory;relational
+S996	G_structure	Y	relational memory;relational
+S997	G_structure	Y	relational memory;relational
+S998	G_structure	Y	relational memory;relational
+S999	G_structure	Y	cognitive map
+S1000	G_structure	N	
+S1001	G_structure	Y	cognitive map
+S1002	G_structure	Y	cognitive map
+S1003	H_scale	Y	sparse distributed memory;sparse
+S1004	H_scale	Y	sparse
+S1005	H_scale	Y	sparse
+S1006	H_scale	Y	sparse
+S1007	H_scale	Y	sparse distributed memory;sparse
+S1008	H_scale	Y	sparse
+S1009	H_scale	Y	sparse
+S1010	H_scale	Y	sparse distributed memory;sparse
+S1011	H_scale	Y	sparse distributed memory;sparse
+S1012	H_scale	Y	sparse distributed memory;sparse
+S1013	H_scale	Y	hashing
+S1014	H_scale	Y	locality-sensitive;hashing
+S1015	H_scale	Y	hashing
+S1016	H_scale	Y	hashing
+S1017	H_scale	Y	hashing
+S1018	H_scale	Y	locality-sensitive;hashing
+S1019	H_scale	Y	locality-sensitive;hashing
+S1020	H_scale	Y	hashing
+S1021	H_scale	Y	locality-sensitive;hashing
+S1022	H_scale	Y	nearest neighbor;hashing
+S1023	I_confidence	Y	confidence
+S1024	I_confidence	Y	familiarity
+S1025	I_confidence	N	
+S1026	I_confidence	N	
+S1027	I_confidence	N	
+S1028	I_confidence	N	
+S1029	I_confidence	N	
+S1030	I_confidence	Y	confidence
+S1031	I_confidence	Y	confidence
+S1032	I_confidence	Y	confidence
+S1033	I_confidence	Y	confidence
+S1034	I_confidence	N	
+S1035	I_confidence	Y	confidence
+S1036	I_confidence	Y	confidence
+S1037	I_confidence	Y	confidence;posterior;subjective
+S1038	B_forget	Y	unlearning
+S1039	B_forget	Y	unlearning
+S1040	B_forget	N	
+S1041	B_forget	Y	forgetting;catastrophic forgetting
+S1042	B_forget	N	
+S1043	B_forget	Y	forgetting;catastrophic forgetting
+S1044	B_forget	Y	forgetting
+S1045	B_forget	Y	forgetting
+S1046	B_forget	Y	forgetting;catastrophic forgetting
+S1047	B_forget	Y	forgetting;catastrophic forgetting
+S1048	F_capacity	Y	capacity;Hopfield
+S1049	F_capacity	Y	Hopfield
+S1050	F_capacity	Y	Hopfield
+S1051	F_capacity	Y	Hopfield
+S1052	F_capacity	Y	capacity;Hopfield
+S1053	F_capacity	Y	Hopfield
+S1054	G_structure	Y	successor representation
+S1055	G_structure	N	
+S1056	G_structure	Y	successor representation;generalization
+S1057	G_structure	Y	successor representation
+S1058	G_structure	Y	successor representation
+S1059	G_structure	N	
+S1060	G_structure	Y	graph
+S1061	G_structure	Y	graph
+S1062	H_scale	Y	HNSW
+S1063	H_scale	Y	HNSW
+S1064	H_scale	Y	sparse
+S1065	H_scale	Y	sparse
+S1066	H_scale	N	
+S1067	H_scale	N	
+S1068	H_scale	Y	sparse
+S1069	I_confidence	Y	confidence
+S1070	I_confidence	Y	confidence
+S1071	I_confidence	Y	confidence
+S1072	I_confidence	Y	confidence;calibration
+S1073	J_llm_memory	Y	LLM;agent
+S1074	J_llm_memory	Y	agent
+S1075	J_llm_memory	Y	agent
+S1076	J_llm_memory	Y	LLM;GPT;MemGPT
+S1077	J_llm_memory	Y	agent
+S1078	J_llm_memory	Y	agent;retrieval-augmented
+S1079	J_llm_memory	Y	instruction
+S1080	J_llm_memory	Y	agent
+S1081	J_llm_memory	Y	agent
+S1082	J_llm_memory	Y	large language model;language model;RAG
+S1083	J_llm_memory	Y	LLM;agent
+S1084	J_llm_memory	Y	assistant;chat
+S1085	J_llm_memory	Y	dialogue
+S1086	J_llm_memory	N	
+S1087	J_llm_memory	Y	agent
+S1088	J_llm_memory	N	
+S1089	J_llm_memory	Y	large language model;language model
+S1090	J_llm_memory	N	
+S1091	J_llm_memory	Y	long context
+S1092	J_llm_memory	N	
+S1093	J_llm_memory	Y	LLM;agent
+S1094	J_llm_memory	Y	LLM;agent;conversational
+S1095	J_llm_memory	Y	LLM;agent
+S1096	J_llm_memory	Y	large language model;language model
+S1097	J_llm_memory	Y	agent
+S1098	J_llm_memory	Y	large language model;language model;RAG
+S1098	I_confidence	N	
+S1099	I_confidence	N	
+S1100	I_confidence	Y	feeling of knowing
+S1101	I_confidence	N	
+S1102	I_confidence	Y	feeling of knowing
+S1103	I_confidence	Y	confidence
+S1104	I_confidence	Y	feeling of knowing
+S1105	I_confidence	Y	feeling of knowing
+S1106	I_confidence	N	
+S1107	I_confidence	N	
+S1108	I_confidence	N	
+S1109	I_confidence	N	
+S1110	I_confidence	N	
+S1111	I_confidence	N	
+S1112	I_confidence	N	
+S1113	I_confidence	N	
+S1114	I_confidence	N	
+S1115	I_confidence	N	
+S1116	I_confidence	N	
+S1117	I_confidence	N	
+S1118	I_confidence	N	
+S1119	I_confidence	N	
+S1120	I_confidence	N	
+S1121	I_confidence	N	
+S1122	A_timescale	N	
+S1123	H_scale	N	
+S1124	J_llm_memory	Y	agent
+S1126	J_llm_memory	Y	agent
+S1127	J_llm_memory	Y	LLM;agent
+S1128	A_timescale	Y	time cell
+S1129	B_forget	Y	forgetting

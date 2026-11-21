@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+o3F0MfyOQ2+wMUjvj8IFaHDasM</id>
+  <title>arXiv Query: search_query=&amp;id_list=1404.1831&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:30:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=1404.1831" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1404.1831v1</id>
+    <title>Improving Bilayer Product Quantization for Billion-Scale Approximate Nearest Neighbors in High Dimensions</title>
+    <updated>2014-04-07T16:08:13Z</updated>
+    <link href="https://arxiv.org/abs/1404.1831v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.1831v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The top-performing systems for billion-scale high-dimensional approximate nearest neighbor (ANN) search are all based on two-layer architectures that include an indexing structure and a compressed datapoints layer. An indexing structure is crucial as it allows to avoid exhaustive search, while the lossy data compression is needed to fit the dataset into RAM. Several of the most successful systems use product quantization (PQ) for both the indexing and the dataset compression layers. These systems are however limited in the way they exploit the interaction of product quantization processes that happen at different stages of these systems.
+  Here we introduce and evaluate two approximate nearest neighbor search systems that both exploit the synergy of product quantization processes in a more efficient way. The first system, called Fast Bilayer Product Quantization (FBPQ), speeds up the runtime of the baseline system (Multi-D-ADC) by several times, while achieving the same accuracy. The second system, Hierarchical Bilayer Product Quantization (HBPQ) provides a significantly better recall for the same runtime at a cost of small memory footprint increase. For the BIGANN dataset of billion SIFT descriptors, the 10% increase in Recall@1 and the 17% increase in Recall@10 is observed.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-07T16:08:13Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Artem Babenko</name>
+    </author>
+    <author>
+      <name>Victor Lempitsky</name>
+    </author>
+  </entry>
+</feed>

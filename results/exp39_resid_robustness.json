@@ -1,0 +1,200 @@
+{
+ "config": {
+  "session": "peer-02",
+  "probes": 100,
+  "deg": 0.3,
+  "beta_probe": 100.0,
+  "L": 3,
+  "judge": "obs_of (L-035)",
+  "smoke": false
+ },
+ "part_a": [
+  {
+   "enc": "R512",
+   "a": 0.01,
+   "N": 4000,
+   "hit_on": 22,
+   "hit_off": 25,
+   "written_on": 3948,
+   "written_off": 2909,
+   "n_probes": 100,
+   "advantage": -3
+  },
+  {
+   "enc": "R512",
+   "a": 0.01,
+   "N": 9033,
+   "hit_on": 22,
+   "hit_off": 25,
+   "written_on": 8921,
+   "written_off": 6387,
+   "n_probes": 100,
+   "advantage": -3
+  },
+  {
+   "enc": "R512",
+   "a": 0.02,
+   "N": 4000,
+   "hit_on": 24,
+   "hit_off": 25,
+   "written_on": 3950,
+   "written_off": 2909,
+   "n_probes": 100,
+   "advantage": -1
+  },
+  {
+   "enc": "R512",
+   "a": 0.02,
+   "N": 9033,
+   "hit_on": 24,
+   "hit_off": 25,
+   "written_on": 8922,
+   "written_off": 6387,
+   "n_probes": 100,
+   "advantage": -1
+  },
+  {
+   "enc": "R512",
+   "a": 0.04,
+   "N": 4000,
+   "hit_on": 23,
+   "hit_off": 25,
+   "written_on": 3949,
+   "written_off": 2909,
+   "n_probes": 100,
+   "advantage": -2
+  },
+  {
+   "enc": "R512",
+   "a": 0.04,
+   "N": 9033,
+   "hit_on": 23,
+   "hit_off": 25,
+   "written_on": 8921,
+   "written_off": 6387,
+   "n_probes": 100,
+   "advantage": -2
+  },
+  {
+   "enc": "S256",
+   "a": 0.01,
+   "N": 4000,
+   "hit_on": 21,
+   "hit_off": 23,
+   "written_on": 3942,
+   "written_off": 3343,
+   "n_probes": 100,
+   "advantage": -2
+  },
+  {
+   "enc": "S256",
+   "a": 0.01,
+   "N": 9033,
+   "hit_on": 20,
+   "hit_off": 23,
+   "written_on": 8891,
+   "written_off": 7338,
+   "n_probes": 100,
+   "advantage": -3
+  },
+  {
+   "enc": "S256",
+   "a": 0.02,
+   "N": 4000,
+   "hit_on": 21,
+   "hit_off": 23,
+   "written_on": 3944,
+   "written_off": 3344,
+   "n_probes": 100,
+   "advantage": -2
+  },
+  {
+   "enc": "S256",
+   "a": 0.02,
+   "N": 9033,
+   "hit_on": 20,
+   "hit_off": 22,
+   "written_on": 8912,
+   "written_off": 7340,
+   "n_probes": 100,
+   "advantage": -2
+  },
+  {
+   "enc": "S256",
+   "a": 0.04,
+   "N": 4000,
+   "hit_on": 21,
+   "hit_off": 22,
+   "written_on": 3945,
+   "written_off": 3344,
+   "n_probes": 100,
+   "advantage": -1
+  },
+  {
+   "enc": "S256",
+   "a": 0.04,
+   "N": 9033,
+   "hit_on": 21,
+   "hit_off": 22,
+   "written_on": 8908,
+   "written_off": 7340,
+   "n_probes": 100,
+   "advantage": -1
+  }
+ ],
+ "part_b": [
+  {
+   "enc": "R512",
+   "N": 9033,
+   "written": 6387,
+   "curve": {
+    "b5": 0,
+    "b10": 0,
+    "b20": 24,
+    "b50": 25,
+    "b100": 25,
+    "b200": 25
+   },
+   "beta_star": 0.0
+  },
+  {
+   "enc": "S256",
+   "N": 9033,
+   "written": 7340,
+   "curve": {
+    "b5": 0,
+    "b10": 0,
+    "b20": 15,
+    "b50": 22,
+    "b100": 22,
+    "b200": 22
+   },
+   "beta_star": 0.0
+  }
+ ],
+ "gates": {
+  "G_R1": {
+   "advantages": [
+    -3,
+    -1,
+    -2,
+    -3,
+    -2,
+    -1
+   ],
+   "n_nonneg": 0,
+   "mean": -2.0,
+   "pass_": false
+  },
+  "G_R2": {
+   "mean_abs": 1.8333333333333333,
+   "pass_": true
+  },
+  "G_R3": {
+   "beta_stars": [],
+   "ratio": null,
+   "pass_": false
+  }
+ },
+ "elapsed_s": 4589.9
+}

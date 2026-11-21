@@ -1,0 +1,351 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM"><PMID Version="1">29255439</PMID><DateRevised><Year>2023</Year><Month>11</Month><Day>05</Day></DateRevised><Article PubModel="Electronic-eCollection"><Journal><ISSN IssnType="Print">1664-1078</ISSN><JournalIssue CitedMedium="Print"><Volume>8</Volume><PubDate><Year>2017</Year></PubDate></JournalIssue><Title>Frontiers in psychology</Title><ISOAbbreviation>Front Psychol</ISOAbbreviation></Journal><ArticleTitle>Motivated Forgetting in Early Mathematics: A Proof-of-Concept Study.</ArticleTitle><Pagination><StartPage>2087</StartPage><MedlinePgn>2087</MedlinePgn></Pagination><ELocationID EIdType="pii" ValidYN="Y">2087</ELocationID><ELocationID EIdType="doi" ValidYN="Y">10.3389/fpsyg.2017.02087</ELocationID><Abstract><AbstractText>Educators assume that students are motivated to retain what they are taught. Yet, students commonly report that they forget most of what they learn, especially in mathematics. In the current study I ask whether students may be motivated to forget mathematics because of academic experiences threaten the self-perceptions they are committed to maintaining. Using a large dataset of 1st and 2nd grade children (<i>N</i> = 812), I hypothesize that math anxiety creates negative experiences in the classroom that threaten children's positive math self-perceptions, which in turn spurs a motivation to forget mathematics. I argue that this motivation to forget is activated during the winter break, which in turn reduces the extent to which children grow in achievement across the school year. Children were assessed for math self-perceptions, math anxiety and math achievement in the fall before going into winter break. During the spring, children's math achievement was measured once again. A math achievement growth score was devised from a regression model of fall math achievement predicting spring achievement. Results show that children with higher math self-perceptions showed reduced growth in math achievement across the school year as a function of math anxiety. Children with lower math interest self-perceptions did not show this relationship. Results serve as a proof-of-concept for a scientific account of motivated forgetting within the context of education.</AbstractText></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Ramirez</LastName><ForeName>Gerardo</ForeName><Initials>G</Initials><AffiliationInfo><Affiliation>Department of Psychology, University of California, Los Angeles, Los Angeles, CA, United States.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Graduate School of Education and Information Studies, University of California, Los Angeles, Los Angeles, CA, United States.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType="Electronic"><Year>2017</Year><Month>12</Month><Day>04</Day></ArticleDate></Article><MedlineJournalInfo><Country>Switzerland</Country><MedlineTA>Front Psychol</MedlineTA><NlmUniqueID>101550902</NlmUniqueID><ISSNLinking>1664-1078</ISSNLinking></MedlineJournalInfo><KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">affect</Keyword><Keyword MajorTopicYN="N">identity threat</Keyword><Keyword MajorTopicYN="N">math anxiety</Keyword><Keyword MajorTopicYN="N">memory retention</Keyword><Keyword MajorTopicYN="N">motivated forgetting</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="received"><Year>2017</Year><Month>7</Month><Day>21</Day></PubMedPubDate><PubMedPubDate PubStatus="accepted"><Year>2017</Year><Month>11</Month><Day>16</Day></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2017</Year><Month>12</Month><Day>20</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2017</Year><Month>12</Month><Day>20</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="medline"><Year>2017</Year><Month>12</Month><Day>20</Day><Hour>6</Hour><Minute>1</Minute></PubMedPubDate><PubMedPubDate PubStatus="pmc-release"><Year>2017</Year><Month>12</Month><Day>4</Day></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">29255439</ArticleId><ArticleId IdType="pmc">PMC5723142</ArticleId><ArticleId IdType="doi">10.3389/fpsyg.2017.02087</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Ambady N., Shih M., Kim A., Pittinsky T. L. (2001). Stereotype susceptibility in children: effects of identity activation on quantitative performance.
+<i>Psychol. Sci.</i>
+12
+385&#x2013;390. 10.1111/1467-9280.00371
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/1467-9280.00371</ArticleId><ArticleId IdType="pubmed">11554671</ArticleId></ArticleIdList></Reference><Reference><Citation>Amodio D. M., Frith C. D. (2006). Meeting of minds: the medial frontal cortex and social cognition.
+<i>Nat. Rev. Neurosci.</i>
+7
+268&#x2013;277. 10.1038/nrn1884
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn1884</ArticleId><ArticleId IdType="pubmed">16552413</ArticleId></ArticleIdList></Reference><Reference><Citation>Anderson M. C., Bjork R. A., Bjork E. L. (1994). Remembering can cause forgetting: retrieval dynamics in long-term memory.
+<i>J. Exp. Psychol. Learn. Mem. Cogn.</i>
+20
+1063&#x2013;1087. 10.1037/0278-7393.20.5.1063</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0278-7393.20.5.1063</ArticleId><ArticleId IdType="pubmed">7931095</ArticleId></ArticleIdList></Reference><Reference><Citation>Anderson M. C., Green C. (2001). Suppressing unwanted memories by executive control.
+<i>Nature</i>
+410
+366&#x2013;369. 10.1038/35066572
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/35066572</ArticleId><ArticleId IdType="pubmed">11268212</ArticleId></ArticleIdList></Reference><Reference><Citation>Anderson M. C., Levy B. J. (2009). Suppressing unwanted memories.
+<i>Curr. Dir. Psychol. Sci.</i>
+18
+189&#x2013;194. 10.1111/j.1467-8721.2009.01634.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1467-8721.2009.01634.x</ArticleId><ArticleId IdType="pmc">PMC5390940</ArticleId><ArticleId IdType="pubmed">28458471</ArticleId></ArticleIdList></Reference><Reference><Citation>Anderson M. C., Ochsner K. N., Kuhl B., Cooper J., Robertson E., Gabrieli S. W., et al.  (2004). Neural systems underlying the suppression of unwanted memories.
+<i>Science</i>
+303
+232&#x2013;235. 10.1126/science.1089504
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1089504</ArticleId><ArticleId IdType="pubmed">14716015</ArticleId></ArticleIdList></Reference><Reference><Citation>Appel M., Kronberger N., Aronson J. (2011). Stereotype threat impairs ability building: effects on the test preparation of women in science and technology.
+<i>Eur. J. Soc. Psychol.</i>
+41
+904&#x2013;913. 10.1002/ejsp.835</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/ejsp.835</ArticleId></ArticleIdList></Reference><Reference><Citation>Aronson J., Lustina M. J., Good C., Keough K., Steele C. M., Brown J. (1999). When White men can&#x2019;t do mathematics: necessary and sufficient factors in stereotype threat.
+<i>J. Exp. Soc. Psychol.</i>
+35
+29&#x2013;46. 10.1006/jesp.1998.1371</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/jesp.1998.1371</ArticleId></ArticleIdList></Reference><Reference><Citation>Bahrick H. P. (1979). Maintenance of knowledge: questions about memory we forgot to ask.
+<i>J. Exp. Psychol. Gen.</i>
+108
+296&#x2013;308. 10.1037/0096-3445.108.3.296</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0096-3445.108.3.296</ArticleId></ArticleIdList></Reference><Reference><Citation>Bahrick H. P., Hall L. K. (1991). Lifetime maintenance of high school mathematics content.
+<i>J. Exp. Psychol. Gen.</i>
+120
+20&#x2013;33. 10.1037/0096-3445.120.1.20</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0096-3445.120.1.20</ArticleId></ArticleIdList></Reference><Reference><Citation>Bahrick H. P., Phelps E. (1987). Retention of Spanish vocabulary over 8 years.
+<i>J. Exp. Psychol. Learn. Mem. Cogn.</i>
+13
+344&#x2013;349. 10.1037/0278-7393.13.2.344</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0278-7393.13.2.344</ArticleId></ArticleIdList></Reference><Reference><Citation>Bai H., Wang L., Pan W., Frey M. (2009). Measuring mathematics anxiety: psychometric analysis of a bidimensional affective scale.
+<i>J. Instr. Psychol.</i>
+36
+185&#x2013;193.</Citation></Reference><Reference><Citation>Baumeister R. F., Smart L., Boden J. M. (1996). Relation of threatened egotism to violence and aggression: the dark side of high self-esteem.
+<i>Psychol. Rev.</i>
+103
+5&#x2013;33. 10.1037/0033-295X.103.1.5
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-295X.103.1.5</ArticleId><ArticleId IdType="pubmed">8650299</ArticleId></ArticleIdList></Reference><Reference><Citation>Benoit R. G., Hulbert J. C., Huddleston E., Anderson M. C. (2015). Adaptive top&#x2013;down suppression of hippocampal activity and the purging of intrusive memories from consciousness.
+<i>J. Cogn. Neurosci.</i>
+27
+96&#x2013;111. 10.1162/jocn_a_00696
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1162/jocn_a_00696</ArticleId><ArticleId IdType="pubmed">25100219</ArticleId></ArticleIdList></Reference><Reference><Citation>Bjork E. L., Bjork R. A. (2003). Intentional forgetting can increase, not decrease, residual influence of to-be-forgotten information.
+<i>J. Exp. Psychol. Learn. Mem. Cogn.</i>
+29
+524&#x2013;531. 10.1037/0278-7393.29.4.524</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0278-7393.29.4.524</ArticleId><ArticleId IdType="pubmed">12924855</ArticleId></ArticleIdList></Reference><Reference><Citation>Bjork E. L., Bjork R. A., Anderson M. C. (1998). &#x201c;Varieties of goal directed forgetting,&#x201d; in
+<i>Intentional Forgetting: Interdisciplinary Approaches</i>, eds
+Golding J. M., MacLeod C. M. (Hillsdale, NJ: Erlbaum; ), 103&#x2013;137.</Citation></Reference><Reference><Citation>Bjork R. A. (1989). &#x201c;Retrieval inhibition as an adaptive mechanism in human memory,&#x201d; in
+<i>Varieties of Memory and Consciousness: Essays in Honour of Endel Tulving</i>, eds
+Roediger H. L., Craik F. I. M. (Hillsdale, NJ: Erlbaum; ), 309&#x2013;330.</Citation></Reference><Reference><Citation>Bjork R. A., Laberge D., Legrand R. (1968). The modification of short-term memory through instructions to forget.
+<i>Psychon. Sci.</i>
+10
+55&#x2013;56. 10.3758/BF03331404</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03331404</ArticleId></ArticleIdList></Reference><Reference><Citation>Bunce D. M., VandenPlas J. R., Soulis C. (2011). Decay of student knowledge in chemistry.
+<i>J. Chem. Educ.</i>
+88
+1231&#x2013;1237. 10.1021/ed100683h</Citation><ArticleIdList><ArticleId IdType="doi">10.1021/ed100683h</ArticleId></ArticleIdList></Reference><Reference><Citation>Canning E. A., Harackiewicz J. M. (2015). Teach it, don&#x2019;t preach it: the differential effects of directly communicated and self-generated utility-value information.
+<i>Motiv. Sci.</i>
+1
+47&#x2013;71.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC4610746</ArticleId><ArticleId IdType="pubmed">26495326</ArticleId></ArticleIdList></Reference><Reference><Citation>Carey E., Hill F., Devine A., Szucs D. (2016). The chicken or the egg? The direction of the relationship between mathematics anxiety and mathematics performance.
+<i>Front. Psychol.</i>
+6:1987. 10.3389/fpsyg.2015.01987
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fpsyg.2015.01987</ArticleId><ArticleId IdType="pmc">PMC4703847</ArticleId><ArticleId IdType="pubmed">26779093</ArticleId></ArticleIdList></Reference><Reference><Citation>Cheryan S., Plaut V. C. (2010). Explaining underrepresentation: a theory of precluded interest.
+<i>Sex Roles</i>
+63
+475&#x2013;488. 10.1007/s11199-010-9835-x
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11199-010-9835-x</ArticleId><ArticleId IdType="pmc">PMC2937137</ArticleId><ArticleId IdType="pubmed">20930923</ArticleId></ArticleIdList></Reference><Reference><Citation>Conway M. A., Cohen G., Stanhope N. (1991). On the very long-term retention of knowledge acquired through formal education: twelve years of cognitive psychology.
+<i>J. Exp. Psychol. Gen.</i>
+120
+395&#x2013;409. 10.1037/0096-3445.120.4.395</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0096-3445.120.4.395</ArticleId></ArticleIdList></Reference><Reference><Citation>Cooper H., Charlton K., Valentine J. C., Muhlenbruck L., Borman G. D. (2000). Making the most of summer school: a meta-analytic and narrative review.
+<i>Monogr. Soc. Res. Child Dev.</i>
+65
+i&#x2013;v, 1&#x2013;118
+discussion
+ 119&#x2013;127, </Citation><ArticleIdList><ArticleId IdType="pubmed">12467098</ArticleId></ArticleIdList></Reference><Reference><Citation>Cooper H., Nye B., Charlton K., Lindsay J., Greathouse S. (1996). The effects of summer vacation on achievement test scores: a narrative and meta-analytic review.
+<i>Rev. Educ. Res.</i>
+66
+227&#x2013;268. 10.3102/00346543066003227</Citation><ArticleIdList><ArticleId IdType="doi">10.3102/00346543066003227</ArticleId></ArticleIdList></Reference><Reference><Citation>Dalton A. N., Huang L. (2014). Motivated forgetting in response to social identity threat.
+<i>J. Consum. Res.</i>
+40
+1017&#x2013;1038. 10.1086/674198</Citation><ArticleIdList><ArticleId IdType="doi">10.1086/674198</ArticleId></ArticleIdList></Reference><Reference><Citation>Davis J. C., Okada R. (1971). Recognition and recall of positively forgotten items.
+<i>J. Exp. Psychol.</i>
+89
+181&#x2013;186. 10.1111/j.1469-8986.2009.00839.x
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1469-8986.2009.00839.x</ArticleId><ArticleId IdType="pubmed">19497005</ArticleId></ArticleIdList></Reference><Reference><Citation>Dempster F. N. (1992). Using tests to promote learning: a neglected classroom resource.
+<i>J. Res. Dev. Educ.</i>
+25
+213&#x2013;217.</Citation></Reference><Reference><Citation>Depue B. E., Banich M. T., Curran T. (2006). Suppression of emotional and non-emotional content in memory: effects of repetition on cognitive control.
+<i>Psychol. Sci.</i>
+17
+441&#x2013;447. 10.1111/j.1467-9280.2006.01725.x
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1467-9280.2006.01725.x</ArticleId><ArticleId IdType="pmc">PMC2878760</ArticleId><ArticleId IdType="pubmed">16683933</ArticleId></ArticleIdList></Reference><Reference><Citation>Deslauriers L., Wieman C. (2011). Learning and retention of quantum concepts with different teaching methods.
+<i>Phys. Rev. Spec. Top. Phys. Educ. Res.</i>
+7:010101
+10.1103/PhysRevSTPER.7.010101</Citation><ArticleIdList><ArticleId IdType="doi">10.1103/PhysRevSTPER.7.010101</ArticleId></ArticleIdList></Reference><Reference><Citation>Devine A., Fawcett K., Sz&#xfc;cs D., Dowker A. (2012). Gender differences in mathematics anxiety and the relation to mathematics performance while controlling for test anxiety.
+<i>Behav. Brain Funct.</i>
+8:33. 10.1186/1744-9081-8-33
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1186/1744-9081-8-33</ArticleId><ArticleId IdType="pmc">PMC3414752</ArticleId><ArticleId IdType="pubmed">22769743</ArticleId></ArticleIdList></Reference><Reference><Citation>Douglas D. B., von Hippel P. T., Broh B. A. (2004). Are schools the great equalizer? Cognitive inequality during the summer months and the school year.
+<i>Am. Soc. Rev.</i>
+69
+613&#x2013;635. 10.1177/000312240406900501</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/000312240406900501</ArticleId></ArticleIdList></Reference><Reference><Citation>Eccles J., Wigfield A., Harold R. D., Blumenfeld P. (1993). Age and gender differences in children&#x2019;s self-and task perceptions during elementary school.
+<i>Child Dev.</i>
+64
+830&#x2013;847. 10.2307/1131221</Citation><ArticleIdList><ArticleId IdType="doi">10.2307/1131221</ArticleId><ArticleId IdType="pubmed">8339698</ArticleId></ArticleIdList></Reference><Reference><Citation>Egan L. C., Santos L. R., Bloom P. (2007). The origins of cognitive dissonance evidence from children and monkeys.
+<i>Psychol. Sci.</i>
+18
+978&#x2013;983. 10.1111/j.1467-9280.2007.02012.x
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1467-9280.2007.02012.x</ArticleId><ArticleId IdType="pubmed">17958712</ArticleId></ArticleIdList></Reference><Reference><Citation>Foley A. E., Herts J. B., Borgonovi F., Guerriero S., Levine S. C., Beilock S. L. (2017). The math anxiety-performance link: A global phenomenon.
+<i>Curr. Dir. Psychol. Sci.</i>
+26
+52&#x2013;58. 10.1177/0963721416672463</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0963721416672463</ArticleId></ArticleIdList></Reference><Reference><Citation>Forbes C. E., Leitner J. B., Duran-Jordan K., Magerman A. B., Schmader T., Allen J. J. (2015). Spontaneous default mode network phase-locking moderates performance perceptions under stereotype threat.
+<i>Soc. Cogn. Affect. Neurosci.</i>
+10
+994&#x2013;1002. 10.1093/scan/nsu145
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/scan/nsu145</ArticleId><ArticleId IdType="pmc">PMC4483567</ArticleId><ArticleId IdType="pubmed">25398433</ArticleId></ArticleIdList></Reference><Reference><Citation>Fredricks J. A., Eccles J. S. (2002). Children&#x2019;s competence and value beliefs from childhood through adolescence: growth trajectories in two male-sex-typed domains.
+<i>Dev. Psychol.</i>
+38
+519&#x2013;533. 10.1037/0012-1649.38.4.519</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0012-1649.38.4.519</ArticleId><ArticleId IdType="pubmed">12090482</ArticleId></ArticleIdList></Reference><Reference><Citation>Galdi S., Cadinu M., Tomasetto C. (2014). The roots of stereotype threat: when automatic associations disrupt girls&#x2019; math performance.
+<i>Child Dev.</i>
+85
+250&#x2013;263. 10.1111/cdev.12128
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/cdev.12128</ArticleId><ArticleId IdType="pubmed">23713580</ArticleId></ArticleIdList></Reference><Reference><Citation>Green J. D., Sedikides C. (2004). Retrieval selectivity in the processing of self-referent information: testing the boundaries of self-protection.
+<i>Self Identity</i>
+3
+69&#x2013;80.</Citation></Reference><Reference><Citation>Greenwald A. G. (1980). The totalitarian ego: fabrication and revision of personal history.
+<i>Am. Psychol.</i>
+35
+603&#x2013;618. 10.1037/0003-066X.35.7.603</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0003-066X.35.7.603</ArticleId></ArticleIdList></Reference><Reference><Citation>Gusnard D. A., Akbudak E., Shulman G. L., Raichle M. E. (2001). Medial prefrontal cortex and self-referential mental activity: relation to a default mode of brain function.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+98
+4259&#x2013;4264. 10.1073/pnas.071043098
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.071043098</ArticleId><ArticleId IdType="pmc">PMC31213</ArticleId><ArticleId IdType="pubmed">11259662</ArticleId></ArticleIdList></Reference><Reference><Citation>Guzzetti B. J., Snyder T. E., Glass G. V., Gamas W. S. (1993). Promoting conceptual change in science: a comparative meta analysis of instructional interventions from reading education and science education.
+<i>Read. Res. Q.</i>
+28
+116&#x2013;159. 10.2307/747886</Citation><ArticleIdList><ArticleId IdType="doi">10.2307/747886</ArticleId></ArticleIdList></Reference><Reference><Citation>Haimovitz K., Dweck C. S. (2016). What predicts children&#x2019;s fixed and growth intelligence mind-sets? Not their parents&#x2019; views of intelligence but their parents&#x2019; views of failure.
+<i>Psychol. Sci.</i>
+27
+859&#x2013;869. 10.1177/0956797616639727
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0956797616639727</ArticleId><ArticleId IdType="pubmed">27113733</ArticleId></ArticleIdList></Reference><Reference><Citation>Hayes A. F. (2013). <i>Introduction to Mediation, Moderation, and Conditional Process Analysis: A Regression-Based Approach.</i>
+New York, NY: Guilford.</Citation></Reference><Reference><Citation>Heyns B. (1978). <i>Summer Learning and the Effects of Schooling.</i>
+New York, NY: Academic Press.</Citation></Reference><Reference><Citation>Hill F., Mammarella I. C., Devine A., Caviola S., Passolunghi M. C., Sz&#xfb;cs D. (2016). Maths anxiety in primary and secondary school students: gender differences, developmental changes and anxiety specificity.
+<i>Learn. Individ. Differ.</i>
+48
+45&#x2013;53. 10.1016/j.lindif.2016.02.006</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.lindif.2016.02.006</ArticleId></ArticleIdList></Reference><Reference><Citation>Hulleman C. S., Harackiewicz J. M. (2009). Promoting interest and performance in high school science classes.
+<i>Science</i>
+326
+1410&#x2013;1412. 10.1126/science.1177067
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1177067</ArticleId><ArticleId IdType="pubmed">19965759</ArticleId></ArticleIdList></Reference><Reference><Citation>Imhoff R., Banse R. (2009). Ongoing victim suffering increases prejudice: the case of secondary anti-Semitism.
+<i>Psychol. Sci.</i>
+20
+1443&#x2013;1447. 10.1111/j.1467-9280.2009.02457.x
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1467-9280.2009.02457.x</ArticleId><ArticleId IdType="pubmed">19845891</ArticleId></ArticleIdList></Reference><Reference><Citation>Immordino-Yang M. H., Christodoulou J. A., Singh V. (2012). Rest is not idleness: implications of the brain&#x2019;s default mode for human development and education.
+<i>Perspect. Psychol. Sci.</i>
+7
+352&#x2013;364. 10.1177/1745691612447308
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/1745691612447308</ArticleId><ArticleId IdType="pubmed">26168472</ArticleId></ArticleIdList></Reference><Reference><Citation>James W. (1890). <i>Principles of Psychology.</i>
+New York, NY: Holt; 
+10.1037/11059-000</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/11059-000</ArticleId></ArticleIdList></Reference><Reference><Citation>Jamieson J. P., Mendes W. B., Nock M. K. (2013). Improving acute stress responses: the power of reappraisal.
+<i>Curr. Dir. Psychol. Sci.</i>
+22
+51&#x2013;56. 10.1177/0963721412461500</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0963721412461500</ArticleId></ArticleIdList></Reference><Reference><Citation>Job V., Friese M., Bernecker K. (2015). Effects of practicing self-control on academic performance.
+<i>Motiv. Sci.</i>
+1
+219&#x2013;232. 10.1037/mot0000024
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/mot0000024</ArticleId></ArticleIdList></Reference><Reference><Citation>Jones J. T., Pelham B. W., Mirenberg M. C., Hetts J. J. (2002). Name letter preferences are not merely mere exposure: implicit egotism as self-regulation.
+<i>J. Exp. Soc. Psychol.</i>
+38
+170&#x2013;177. 10.1006/jesp.2001.1497</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/jesp.2001.1497</ArticleId></ArticleIdList></Reference><Reference><Citation>Jonker T. R., Seli P., MacLeod C. M. (2013). Putting retrieval-induced forgetting in context: an inhibition-free, context-based account.
+<i>Psychol. Rev.</i>
+120
+852&#x2013;872. 10.1037/a0034246
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0034246</ArticleId><ArticleId IdType="pubmed">24219851</ArticleId></ArticleIdList></Reference><Reference><Citation>Jordan N. C., Glutting J., Ramineni C. (2010). The importance of number sense to mathematics achievement in first and third grades.
+<i>Learn. Individ. Differ.</i>
+20
+82&#x2013;88. 10.1016/j.lindif.2009.07.004
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.lindif.2009.07.004</ArticleId><ArticleId IdType="pmc">PMC2855153</ArticleId><ArticleId IdType="pubmed">20401327</ArticleId></ArticleIdList></Reference><Reference><Citation>Kamuche F. U., Ledman R. E. (2011). Relationship of time and learning retention.
+<i>J. Coll. Teach. Learn.</i>
+2
+25&#x2013;28. 10.19030/tlc.v2i8.1851</Citation><ArticleIdList><ArticleId IdType="doi">10.19030/tlc.v2i8.1851</ArticleId></ArticleIdList></Reference><Reference><Citation>Kouchaki M., Gino F. (2016). Memories of unethical actions become obfuscated over time.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+113
+6166&#x2013;6171. 10.1073/pnas.1523586113
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.1523586113</ArticleId><ArticleId IdType="pmc">PMC4896721</ArticleId><ArticleId IdType="pubmed">27185941</ArticleId></ArticleIdList></Reference><Reference><Citation>Krinzinger H., Kaufmann L., Willmes K. (2009). Math anxiety and math ability in early primary school years.
+<i>J. Psychoeduc. Assess.</i>
+27
+206&#x2013;225. 10.1177/0734282908330583
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0734282908330583</ArticleId><ArticleId IdType="pmc">PMC2853710</ArticleId><ArticleId IdType="pubmed">20401159</ArticleId></ArticleIdList></Reference><Reference><Citation>Landauer T. K., Bjork R. A. (1978). &#x201c;Optimum rehearsal patterns and name learning,&#x201d; in <i>Practical Aspects of Memory</i>, eds
+Gruneberg M. M., Morris P. E., Sykes R. N. (London: Academic Press; ), 625&#x2013;632.</Citation></Reference><Reference><Citation>Lawrence N. K. (2013). Cumulative exams in the introductory psychology course.
+<i>Teach. Psychol.</i>
+40
+15&#x2013;19. 10.1187/cbe.12-04-0048
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1187/cbe.12-04-0048</ArticleId><ArticleId IdType="pmc">PMC3516795</ArticleId><ArticleId IdType="pubmed">23222835</ArticleId></ArticleIdList></Reference><Reference><Citation>Lyons I. M., Beilock S. L. (2012). When math hurts: math anxiety predicts pain network activation in anticipation of doing math.
+<i>PLOS ONE</i>
+7:e48076. 10.1371/journal.pone.0048076
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1371/journal.pone.0048076</ArticleId><ArticleId IdType="pmc">PMC3485285</ArticleId><ArticleId IdType="pubmed">23118929</ArticleId></ArticleIdList></Reference><Reference><Citation>MacLeod C. M. (1975). Long-term recognition and recall following directed forgetting.
+<i>J. Exp. Psychol. Hum. Learn. Mem.</i>
+1
+271&#x2013;279. 10.1037/xge0000128
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/xge0000128</ArticleId><ArticleId IdType="pmc">PMC4694085</ArticleId><ArticleId IdType="pubmed">26709589</ArticleId></ArticleIdList></Reference><Reference><Citation>Major B., Spencer S., Schmader T., Wolfe C., Crocker J. (1998). Coping with negative stereotypes about intellectual performance: the role of psychological disengagement.
+<i>Pers. Soc. Psychol. Bull.</i>
+24
+34&#x2013;50. 10.1177/0146167298241003</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0146167298241003</ArticleId></ArticleIdList></Reference><Reference><Citation>Maloney E. A., Ramirez G., Gunderson E. A., Levine S. C., Beilock S. L. (2015). Intergenerational effects of parents&#x2019; math anxiety on children&#x2019;s math achievement and anxiety.
+<i>Psychol. Sci.</i>
+26
+1480&#x2013;1488. 10.1177/0956797615592630
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0956797615592630</ArticleId><ArticleId IdType="pubmed">26253552</ArticleId></ArticleIdList></Reference><Reference><Citation>Manning J. R., Hulbert J. C., Williams J., Piloto L., Sahakyan L., Norman K. A. (2016). A neural signature of contextually mediated intentional forgetting.
+<i>Psychon. Bull. Rev.</i>
+23
+1534&#x2013;1542. 10.3758/s13423-016-1024-7
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/s13423-016-1024-7</ArticleId><ArticleId IdType="pmc">PMC5050245</ArticleId><ArticleId IdType="pubmed">27150815</ArticleId></ArticleIdList></Reference><Reference><Citation>McKown C., Weinstein R. S. (2003). The development and consequences of stereotype consciousness in middle childhood.
+<i>Child Dev.</i>
+74
+498&#x2013;515. 10.1111/1467-8624.7402012</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/1467-8624.7402012</ArticleId><ArticleId IdType="pubmed">12705569</ArticleId></ArticleIdList></Reference><Reference><Citation>Necka E. A., Sokolowski H. M., Lyons I. M. (2015). The role of self-math overlap in understanding math anxiety and the relation between math anxiety and performance.
+<i>Front. Psychol.</i>
+6:1543. 10.3389/fpsyg.2015.01543
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fpsyg.2015.01543</ArticleId><ArticleId IdType="pmc">PMC4604265</ArticleId><ArticleId IdType="pubmed">26528210</ArticleId></ArticleIdList></Reference><Reference><Citation>Newman L. S., Eccleston C. P., Oikawa M. (2016). Ignoring biased feedback: membership in a stigmatized group as a moderator of mnemic neglect.
+<i>J. Soc. Psychol.</i>
+157
+152&#x2013;164. 10.1080/00224545.2016.1176550
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/00224545.2016.1176550</ArticleId><ArticleId IdType="pubmed">27065341</ArticleId></ArticleIdList></Reference><Reference><Citation>Nicholls J. G., Miller A. T. (1984). Reasoning about the ability of self and others: a developmental study.
+<i>Child Dev.</i>
+55
+1990&#x2013;1999. 10.2307/1129774
+</Citation><ArticleIdList><ArticleId IdType="doi">10.2307/1129774</ArticleId></ArticleIdList></Reference><Reference><Citation>Nussbaum A. D., Steele C. M. (2007). Situational disengagement and persistence in the face of adversity.
+<i>J. Exp. Soc. Psychol.</i>
+43
+127&#x2013;134. 10.1016/j.jesp.2005.12.007</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.jesp.2005.12.007</ArticleId></ArticleIdList></Reference><Reference><Citation>Ochsner K. N., Beer J. S., Robertson E. R., Cooper J. C., Gabrieli J. D., Kihsltrom J. F., et al.  (2005). The neural correlates of direct and reflected self-knowledge.
+<i>Neuroimage</i>
+28
+797&#x2013;814. 10.1016/j.neuroimage.2005.06.069
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2005.06.069</ArticleId><ArticleId IdType="pubmed">16290016</ArticleId></ArticleIdList></Reference><Reference><Citation>Osborne J. W. (1997). Race and academic disidentification.
+<i>J. Educ. Psychol.</i>
+89
+728&#x2013;735. 10.1037/0022-0663.89.4.728</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0022-0663.89.4.728</ArticleId></ArticleIdList></Reference><Reference><Citation>Osborne J. W., Walker C. (2006). Stereotype threat, identification with academics, and withdrawal from school: why the most successful students of colour might be most likely to withdraw.
+<i>Educ. Psychol.</i>
+26
+563&#x2013;577. 10.1080/01443410500342518</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/01443410500342518</ArticleId></ArticleIdList></Reference><Reference><Citation>Papies E. K., Stroebe W., Aarts H. (2008). Healthy cognition: processes of self-regulatory success in restrained eating.
+<i>Pers. Soc. Psychol. Bull.</i>
+34
+1290&#x2013;1300. 10.1177/0146167208320063
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0146167208320063</ArticleId><ArticleId IdType="pubmed">18596220</ArticleId></ArticleIdList></Reference><Reference><Citation>PISA (2013). <i>Results: Ready to Learn-Students&#x2019; Engagement, Drive and Self-Beliefs</i>, Vol. III
+Pisa: OECD.</Citation></Reference><Reference><Citation>Radvansky G. A., Copeland D. E. (2006). Walking through doorways causes forgetting: situation models and experienced space.
+<i>Mem. Cogn.</i>
+34
+1150&#x2013;1156. 10.3758/BF03193261
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03193261</ArticleId><ArticleId IdType="pubmed">17128613</ArticleId></ArticleIdList></Reference><Reference><Citation>Radvansky G. A., Krawietz S. A., Tamplin A. K. (2011). Walking through doorways causes forgetting: further explorations.
+<i>Q. J. Exp. Psychol.</i>
+64
+1632&#x2013;1645. 10.1080/17470218.2011.571267
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/17470218.2011.571267</ArticleId><ArticleId IdType="pubmed">21563019</ArticleId></ArticleIdList></Reference><Reference><Citation>Ramirez G., Chang H., Maloney E. A., Levine S. C., Beilock S. L. (2016). On the relationship between math anxiety and math achievement in early elementary school: the role of problem solving strategies.
+<i>J. Exp. Child Psychol.</i>
+141
+83&#x2013;100. 10.1016/j.jecp.2015.07.014
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.jecp.2015.07.014</ArticleId><ArticleId IdType="pubmed">26342473</ArticleId></ArticleIdList></Reference><Reference><Citation>Ramirez G., Gunderson E. A., Levine S. C., Beilock S. L. (2013). Math anxiety, working memory, and math achievement in early elementary school.
+<i>J. Cogn. Dev.</i>
+14
+187&#x2013;202. 10.1016/j.jecp.2015.07.014
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.jecp.2015.07.014</ArticleId><ArticleId IdType="pubmed">26342473</ArticleId></ArticleIdList></Reference><Reference><Citation>Ramirez G., McDonough I. M., Jin L. (2017). Classroom stress promotes motivated forgetting of mathematics knowledge.
+<i>J. Educ. Psychol.</i>
+109
+812&#x2013;825. 10.1037/edu0000170</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/edu0000170</ArticleId></ArticleIdList></Reference><Reference><Citation>Rohrer D., Taylor K. (2007). The shuffling of mathematics problems improves learning.
+<i>Instr. Sci.</i>
+35
+481&#x2013;498. 10.1007/s11251-007-9015-8</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11251-007-9015-8</ArticleId></ArticleIdList></Reference><Reference><Citation>Ross M., Wilson A. E. (2002). It feels like yesterday: self-esteem, valence of personal past experiences, and judgments of subjective distance.
+<i>Pers. Process. Individ. Dif.</i>
+82
+792&#x2013;803. 10.1037/0022-3514.82.5.792
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0022-3514.82.5.792</ArticleId><ArticleId IdType="pubmed">12003478</ArticleId></ArticleIdList></Reference><Reference><Citation>Rotella K. N., Richeson J. A. (2013). Motivated to &#x201c;forget&#x201d;: the effects of in-group wrongdoing on memory and collective guilt.
+<i>Soc. Psychol. Pers. Sci.</i>
+4
+730&#x2013;737. 10.1177/1948550613482986</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/1948550613482986</ArticleId></ArticleIdList></Reference><Reference><Citation>Sahakyan L., Kelley C. M. (2002). A contextual change account of the directed forgetting effect.
+<i>J. Exp. Psychol. Learn. Mem. Cogn.</i>
+28
+1064&#x2013;1072. 10.1037/0278-7393.28.6.1064
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0278-7393.28.6.1064</ArticleId><ArticleId IdType="pubmed">12450332</ArticleId></ArticleIdList></Reference><Reference><Citation>Sahdra B., Ross M. (2007). Group identification and historical memory.
+<i>Pers. Soc. Psychol. Bull.</i>
+33
+384&#x2013;395. 10.1177/0146167206296103
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0146167206296103</ArticleId><ArticleId IdType="pubmed">17312319</ArticleId></ArticleIdList></Reference><Reference><Citation>Schmader T., Major B. (1999). The impact of ingroup vs outgroup performance on personal values.
+<i>J. Exp. Soc. Psychol.</i>
+35
+47&#x2013;67. 10.1006/jesp.1998.1372</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/jesp.1998.1372</ArticleId></ArticleIdList></Reference><Reference><Citation>Sedikides C., Green J. D. (2004). What I don&#x2019;t recall can&#x2019;t hurt me: information negativity versus information inconsistency as determinants of memorial self-defense.
+<i>Soc. Cogn.</i>
+22
+4&#x2013;29. 10.1521/soco.22.1.4.30987</Citation><ArticleIdList><ArticleId IdType="doi">10.1521/soco.22.1.4.30987</ArticleId></ArticleIdList></Reference><Reference><Citation>Sherman D. K., Cohen G. L. (2006). The psychology of self-defense: self-affirmation theory.
+<i>Adv. Exp. Soc. Psychol.</i>
+38
+183&#x2013;242. 10.1016/S0065-2601(06)38004-5</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0065-2601(06)38004-5</ArticleId></ArticleIdList></Reference><Reference><Citation>Shu L. L., Gino F. (2012). Sweeping dishonesty under the rug: how unethical actions lead to forgetting of moral rules.
+<i>J. Pers. Soc. Psychol.</i>
+102
+1164&#x2013;1177. 10.1037/a0028381
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0028381</ArticleId><ArticleId IdType="pubmed">22642485</ArticleId></ArticleIdList></Reference><Reference><Citation>Shu L. L., Gino F., Bazerman M. H. (2011). Dishonest deed, clear conscience: when cheating leads to moral disengagement and motivated forgetting.
+<i>Pers. and Soc. Psychol. Bull.</i>
+37
+330&#x2013;349. 10.1177/0146167211398138
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0146167211398138</ArticleId><ArticleId IdType="pubmed">21307176</ArticleId></ArticleIdList></Reference><Reference><Citation>Stawarczyk D., Majerus S., Maquet P., D&#x2019;Argembeau A. (2011). Neural correlates of ongoing conscious experience: both task-unrelatedness and stimulus-independence are related to default network activity.
+<i>PLOS ONE</i>
+6:e16997. 10.1371/journal.pone.0016997
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1371/journal.pone.0016997</ArticleId><ArticleId IdType="pmc">PMC3038939</ArticleId><ArticleId IdType="pubmed">21347270</ArticleId></ArticleIdList></Reference><Reference><Citation>Steele J., James J. B., Barnett R. C. (2002). Learning in a man&#x2019;s world: examining the perceptions of undergraduate women in male-dominated academic areas.
+<i>Psychol. Women Q.</i>
+26
+46&#x2013;50. 10.1111/1471-6402.00042</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/1471-6402.00042</ArticleId></ArticleIdList></Reference><Reference><Citation>Stipek D. J., Mac Iver D. (1989). Developmental change in children&#x2019;s assessment of intellectual competence.
+<i>Child Dev.</i>
+60
+521&#x2013;538. 10.1111/jir.12088
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/jir.12088</ArticleId><ArticleId IdType="pubmed">23957719</ArticleId></ArticleIdList></Reference><Reference><Citation>Storm B. C., Jobe T. A. (2012). Retrieval-induced forgetting predicts failure to recall negative autobiographical memories.
+<i>Psychol. Sci.</i>
+23
+1356&#x2013;1363. 10.1177/0956797612443837
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0956797612443837</ArticleId><ArticleId IdType="pubmed">23044797</ArticleId></ArticleIdList></Reference><Reference><Citation>Tajfel H., Turner C. J. (1986). &#x201c;The social identity theory of intergroup behavior,&#x201d; in
+<i>Psychology of Intergroup Relations</i>, eds
+Worchel S., Austin W. G. (Chicago: NelsonHall Publishers; ).</Citation></Reference><Reference><Citation>Taylor S. E., Brown J. D. (1994). Positive illusions and well-being revisited: separating fact from fiction.
+<i>Psychol. Bull.</i>
+116
+21&#x2013;27. 10.1037/0033-2909.116.1.21
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-2909.116.1.21</ArticleId><ArticleId IdType="pubmed">8078971</ArticleId></ArticleIdList></Reference><Reference><Citation>Thompson J., Morton J., Fraser L. (1997). Memories for the Marchioness.
+<i>Memory</i>
+5
+615&#x2013;638. 10.1080/741941482
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/741941482</ArticleId><ArticleId IdType="pubmed">9415324</ArticleId></ArticleIdList></Reference><Reference><Citation>Trautwein U., Marsh H. W., Nagengast B., L&#xfc;dtke O., Nagy G., Jonkmann K. (2012). Probing for the multiplicative term in modern expectancy&#x2013;value theory: a latent interaction modeling study.
+<i>J. Educ. Psychol.</i>
+104
+763&#x2013;777. 10.1037/a0027470</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0027470</ArticleId></ArticleIdList></Reference><Reference><Citation>von Hippel P. T. (2007). &#x201c;What happens to summer learning in year-round schools,&#x201d; in
+<i>Paper Presented at the Annual meeting of the American Sociological Association</i>,
+New York, NY.</Citation></Reference><Reference><Citation>Vukovic R. K., Kieffer M. J., Bailey S. P., Harari R. R. (2013). Mathematics anxiety in young children: concurrent and longitudinal associations with mathematical performance.
+<i>Contemp. Educ. Psychol.</i>
+38
+1&#x2013;10. 10.1016/j.cedpsych.2012.09.001</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cedpsych.2012.09.001</ArticleId></ArticleIdList></Reference><Reference><Citation>Walton G. M. (2014). The new science of wise psychological interventions.
+<i>Curr. Dir. Psychol. Sci.</i>
+23
+73&#x2013;82. 10.1177/0963721413512856</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0963721413512856</ArticleId></ArticleIdList></Reference><Reference><Citation>Wigfield A., Eccles J. S. (2000). Expectancy&#x2013;value theory of achievement motivation.
+<i>Contemp. Educ. Psychol.</i>
+25
+68&#x2013;81. 10.1006/ceps.1999.1015
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/ceps.1999.1015</ArticleId><ArticleId IdType="pubmed">10620382</ArticleId></ArticleIdList></Reference><Reference><Citation>Wilson T. D., Linville P. W. (1982). Improving the academic performance of college freshmen: attribution theory revisited.
+<i>J. Pers. Soc. Psychol.</i>
+42
+367&#x2013;376. 10.1037/0022-3514.42.2.367</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0022-3514.42.2.367</ArticleId></ArticleIdList></Reference><Reference><Citation>Woodcock R. W., McGrew K. S., Mather N. (2001). <i>Woodcock-Johnson III Tests of Achievement.</i>
+Itasca, IL: Riverside Publishing.</Citation></Reference><Reference><Citation>Young C. B., Wu S. S., Menon V. (2012). The neurodevelopmental basis of math anxiety.
+<i>Psychol. Sci.</i>
+23
+492&#x2013;501. 10.1177/0956797611429134
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0956797611429134</ArticleId><ArticleId IdType="pmc">PMC3462591</ArticleId><ArticleId IdType="pubmed">22434239</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>

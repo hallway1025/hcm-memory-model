@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RV+f8K5VCmRWuMtgwGIHwqmDDug</id>
+  <title>arXiv Query: search_query=all:product AND all:quantization AND all:approximate AND all:nearest AND all:neighbor&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-11-07T13:50:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:product+AND+(all:quantization+AND+(all:approximate+AND+(all:nearest+AND+all:neighbor)))&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>46</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1404.1831v1</id>
+    <title>Improving Bilayer Product Quantization for Billion-Scale Approximate Nearest Neighbors in High Dimensions</title>
+    <updated>2014-04-07T16:08:13Z</updated>
+    <link href="https://arxiv.org/abs/1404.1831v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.1831v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The top-performing systems for billion-scale high-dimensional approximate nearest neighbor (ANN) search are all based on two-layer architectures that include an indexing structure and a compressed datapoints layer. An indexing structure is crucial as it allows to avoid exhaustive search, while the lossy data compression is needed to fit the dataset into RAM. Several of the most successful systems use product quantization (PQ) for both the indexing and the dataset compression layers. These systems are however limited in the way they exploit the interaction of product quantization processes that happen at different stages of these systems.
+  Here we introduce and evaluate two approximate nearest neighbor search systems that both exploit the synergy of product quantization processes in a more efficient way. The first system, called Fast Bilayer Product Quantization (FBPQ), speeds up the runtime of the baseline system (Multi-D-ADC) by several times, while achieving the same accuracy. The second system, Hierarchical Bilayer Product Quantization (HBPQ) provides a significantly better recall for the same runtime at a cost of small memory footprint increase. For the BIGANN dataset of billion SIFT descriptors, the 10% increase in Recall@1 and the 17% increase in Recall@10 is observed.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-07T16:08:13Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Artem Babenko</name>
+    </author>
+    <author>
+      <name>Victor Lempitsky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.06925v1</id>
+    <title>Transformed Residual Quantization for Approximate Nearest Neighbor Search</title>
+    <updated>2015-12-22T01:12:54Z</updated>
+    <link href="https://arxiv.org/abs/1512.06925v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.06925v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The success of product quantization (PQ) for fast nearest neighbor search depends on the exponentially reduced complexities of both storage and computation with respect to the codebook size. Recent efforts have been focused on employing sophisticated optimization strategies, or seeking more effective models. Residual quantization (RQ) is such an alternative that holds the same property as PQ in terms of the aforementioned complexities. In addition to being a direct replacement of PQ, hybrids of PQ and RQ can yield more gains for approximate nearest neighbor search. This motivated us to propose a novel approach to optimizing RQ and the related hybrid models. With an observation of the general randomness increase in a residual space, we propose a new strategy that jointly learns a local transformation per residual cluster with an ultimate goal to reduce overall quantization errors. We have shown that our approach can achieve significantly better accuracy on nearest neighbor search than both the original and the optimized PQ on several very large scale benchmarks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-22T01:12:54Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jiangbo Yuan</name>
+    </author>
+    <author>
+      <name>Xiuwen Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.18724v1</id>
+    <title>Routing-Guided Learned Product Quantization for Graph-Based Approximate Nearest Neighbor Search</title>
+    <updated>2023-11-30T17:22:55Z</updated>
+    <link href="https://arxiv.org/abs/2311.18724v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.18724v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a vector dataset $\mathcal{X}$, a query vector $\vec{x}_q$, graph-based Approximate Nearest Neighbor Search (ANNS) aims to build a proximity graph (PG) as an index of $\mathcal{X}$ and approximately return vectors with minimum distances to $\vec{x}_q$ by searching over the PG index. It suffers from the large-scale $\mathcal{X}$ because a PG with full vectors is too large to fit into the memory, e.g., a billion-scale $\mathcal{X}$ in 128 dimensions would consume nearly 600 GB memory. To solve this, Product Quantization (PQ) integrated graph-based ANNS is proposed to reduce the memory usage, using smaller compact codes of quantized vectors in memory instead of the large original vectors. Existing PQ methods do not consider the important routing features of PG, resulting in low-quality quantized vectors that affect the ANNS's effectiveness. In this paper, we present an end-to-end Routing-guided learned Product Quantization (RPQ) for graph-based ANNS. It consists of (1) a \textit{differentiable quantizer} used to make the standard discrete PQ differentiable to suit for back-propagation of end-to-end learning, (2) a \textit{sampling-based feature extractor} used to extract neighborhood and routing features of a PG, and (3) a \textit{multi-feature joint training module} with two types of feature-aware losses to continuously optimize the differentiable quantizer. As a result, the inherent features of a PG would be embedded into the learned PQ, generating high-quality quantized vectors. Moreover, we integrate our RPQ with the state-of-the-art DiskANN and existing popular PGs to improve their performance. Comprehensive experiments on real-world large-scale datasets (from 1M to 1B) demonstrate RPQ's superiority, e.g., 1.7$\times$-4.2$\times$ improvement on QPS at the same recall@10 of 95\%.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-30T17:22:55Z</published>
+    <arxiv:comment>14 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Qiang Yue</name>
+    </author>
+    <author>
+      <name>Xiaoliang Xu</name>
+    </author>
+    <author>
+      <name>Yuxiang Wang</name>
+    </author>
+    <author>
+      <name>Yikun Tao</name>
+    </author>
+    <author>
+      <name>Xuliyuan Luo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.17816v1</id>
+    <title>Privacy-Preserving Product-Quantized Approximate Nearest Neighbor Search Framework for Large-scale Datasets via A Hybrid of Fully Homomorphic Encryption and Trusted Execution Environment</title>
+    <updated>2026-04-20T05:14:40Z</updated>
+    <link href="https://arxiv.org/abs/2604.17816v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.17816v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A nearest-neighbor framework is a fundamental tool for various applications involving Large Language Models (LLMs) and Visual Language Models (VLMs). Vectors used for nearest-neighbor searches have richer information for similarity searches. This information leads to security risks, such as embedding inversion and membership attacks. Therefore, Privacy-Preserving Approximate Nearest-Neighbor (PP-ANN) approaches are necessary for highly confidential data. However, conventional PP-ANN approaches based on a Trusted Execution Environment (TEE) or Fully Homomorphic Encryption (FHE) do not achieve practical security or performance. Additionally, conventional approaches focus on the search process rather than database generation for nearest-neighbor. To address these issues, we propose a Privacy-Preserving Product-Quantization Approximate Nearest Neighbor (PPPQ-ANN) framework. PPPQ-ANN provides a multi-layered security structure for vectors based on a hybrid of FHE and TEE. Additionally, PPPQ-ANN minimizes FHE ciphertext computations by combining Product-Quantization (PQ) with optimized data packing. We demonstrate the performance of PPPQ-ANN on million-scale datasets. As a result, PPPQ-ANN achieves database generation in less than 2 hours and more than 50 QPS in a sequential search while preserving privacy. Therefore, PPPQ-ANN optimizes the trade-off between security and performance by utilizing a hybrid of FHE and TEE, achieving practical performance while preserving privacy.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-20T05:14:40Z</published>
+    <arxiv:comment>15 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Shozo Saeki</name>
+    </author>
+    <author>
+      <name>Minoru Kawahara</name>
+    </author>
+    <author>
+      <name>Hirohisa Aman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.30384v1</id>
+    <title>RSLM: Training-Free Vector Quantization for Approximate Nearest Neighbor Search</title>
+    <updated>2026-08-31T07:40:57Z</updated>
+    <link href="https://arxiv.org/abs/2608.30384v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.30384v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By introducing RSLM (Rotated Scaled Lloyd-Max), a family of training-free vector quantization codecs compressing embeddings to 1--4 bits per dimension, we reduce memory cost and memory bandwidth of a typical large-scale Approximate Nearest Neighbor (ANN) search system, while reducing its complexity and keeping or improving recall across multiple benchmark datasets. State-of-the-art systems filter candidates using coarse partitions, approximately score them to narrow the set, and then rescore the best with higher precision representations (often &gt;=8 bits per dimension). Our relativized codecs can bring this down to 2--4 bits per dimension.
+  We use the properties of the ANN system to encode residual vectors instead of full vectors, both for the approximate scoring phase and the rescoring phase. Since Maximum Inner Product Search (MIPS) is very sensitive to vector norms, we correct the $L_2$ norms of quantized vectors. Our major innovation is that we correct the $L_2$ norm of the final reconstructed vector rather than just the residual. Our rescaling replaces more complicated schemes, such as Anisotropic loss. The residualization scheme gives us a more favorable quality vs size trade-off than generic quantization methods.
+  Our high-performance implementation leverages a block-wise cascaded Fast Walsh-Hadamard Transform (FWHT) with linear-like complexity, AVX SIMD-optimized codebooks, and a steganographic encoding of scaling factors for perfect cache-line alignment.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-31T07:40:57Z</published>
+    <arxiv:comment>14 Pages, 3 Figures, Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rastislav Lenhardt</name>
+    </author>
+    <author>
+      <name>Teodora Dobos</name>
+    </author>
+    <author>
+      <name>Thomas Vecchiato</name>
+    </author>
+    <author>
+      <name>Jiri Isa</name>
+    </author>
+    <author>
+      <name>Igor Ginzburg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.05911v1</id>
+    <title>Efficient Large-scale Approximate Nearest Neighbor Search on the GPU</title>
+    <updated>2017-02-20T09:57:11Z</updated>
+    <link href="https://arxiv.org/abs/1702.05911v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.05911v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a new approach for efficient approximate nearest neighbor (ANN) search in high dimensional spaces, extending the idea of Product Quantization. We propose a two-level product and vector quantization tree that reduces the number of vector comparisons required during tree traversal. Our approach also includes a novel highly parallelizable re-ranking method for candidate vectors by efficiently reusing already computed intermediate values. Due to its small memory footprint during traversal, the method lends itself to an efficient, parallel GPU implementation. This Product Quantization Tree (PQT) approach significantly outperforms recent state of the art methods for high dimensional nearest neighbor queries on standard reference datasets. Ours is the first work that demonstrates GPU performance superior to CPU performance on high dimensional, large scale ANN problems in time-critical real-world applications, like loop-closing in videos.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-20T09:57:11Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 2027 - 2035 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Patrick Wieschollek</name>
+    </author>
+    <author>
+      <name>Oliver Wang</name>
+    </author>
+    <author>
+      <name>Alexander Sorkine-Hornung</name>
+    </author>
+    <author>
+      <name>Hendrik P. A. Lensch</name>
+    </author>
+    <arxiv:doi>10.1109/CVPR.2016.223</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/CVPR.2016.223" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.12497v1</id>
+    <title>RaBitQ: Quantizing High-Dimensional Vectors with a Theoretical Error Bound for Approximate Nearest Neighbor Search</title>
+    <updated>2024-05-21T04:55:04Z</updated>
+    <link href="https://arxiv.org/abs/2405.12497v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.12497v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Searching for approximate nearest neighbors (ANN) in the high-dimensional Euclidean space is a pivotal problem. Recently, with the help of fast SIMD-based implementations, Product Quantization (PQ) and its variants can often efficiently and accurately estimate the distances between the vectors and have achieved great success in the in-memory ANN search. Despite their empirical success, we note that these methods do not have a theoretical error bound and are observed to fail disastrously on some real-world datasets. Motivated by this, we propose a new randomized quantization method named RaBitQ, which quantizes $D$-dimensional vectors into $D$-bit strings. RaBitQ guarantees a sharp theoretical error bound and provides good empirical accuracy at the same time. In addition, we introduce efficient implementations of RaBitQ, supporting to estimate the distances with bitwise operations or SIMD-based operations. Extensive experiments on real-world datasets confirm that (1) our method outperforms PQ and its variants in terms of accuracy-efficiency trade-off by a clear margin and (2) its empirical performance is well-aligned with our theoretical analysis.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-21T04:55:04Z</published>
+    <arxiv:comment>The paper has been accepted by SIGMOD 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Jianyang Gao</name>
+    </author>
+    <author>
+      <name>Cheng Long</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.20957v2</id>
+    <title>Fast and Efficient Approximate Nearest Neighbor Search for High-Dimensional LLM Embeddings</title>
+    <updated>2026-08-04T08:51:41Z</updated>
+    <link href="https://arxiv.org/abs/2607.20957v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.20957v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The annual SISAP Indexing Challenge benchmarks Approximate Nearest Neighbor Search (ANNS) algorithms under rigorous constraints. This paper presents our submissions for the 2026 edition, addressing both $k$-Nearest Neighbor Graph (kNNG) construction on 1024-dimensional BGE-M3 embeddings (Task 1) and Maximum Inner Product Search (MIPS) on unnormalized Llama-3.2-8B features (Task 2). To optimize construction speed, we utilize Equi-Voronoi Polytopes (EVP) for efficient quantization, supplemented by targeted reranking strategies to maintain high recall. For MIPS, we transform the asymmetric inner product problem into a Euclidean search space via dimensionality augmentation. To reduce query latency and optimize memory access, we introduce a 1D presorting mechanism via Fast Linear Assignment Sorting (FLAS) prior to graph construction. This significantly improves spatial locality and cache hit rates during subsequent graph traversal.
+  Source Code: https://github.com/Visual-Computing/sisap26-deglib</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-23T06:35:12Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Nico Hezel</name>
+    </author>
+    <author>
+      <name>Kai Uwe Barthel</name>
+    </author>
+    <author>
+      <name>Bruno Schilling</name>
+    </author>
+    <author>
+      <name>Konstantin Schall</name>
+    </author>
+    <author>
+      <name>Andre Moelle</name>
+    </author>
+    <author>
+      <name>Klaus Jung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.21600v1</id>
+    <title>AQR-HNSW: Accelerating Approximate Nearest Neighbor Search via Density-aware Quantization and Multi-stage Re-ranking</title>
+    <updated>2026-02-25T05:58:16Z</updated>
+    <link href="https://arxiv.org/abs/2602.21600v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.21600v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Approximate Nearest Neighbor (ANN) search has become fundamental to modern AI infrastructure, powering recommendation systems, search engines, and large language models across industry leaders from Google to OpenAI. Hierarchical Navigable Small World (HNSW) graphs have emerged as the dominant ANN algorithm, widely adopted in production systems due to their superior recall versus latency balance. However, as vector databases scale to billions of embeddings, HNSW faces critical bottlenecks: memory consumption expands, distance computation overhead dominates query latency, and it suffers suboptimal performance on heterogeneous data distributions. This paper presents Adaptive Quantization and Rerank HNSW (AQR-HNSW), a novel framework that synergistically integrates three strategies to enhance HNSW scalability. AQR-HNSW introduces (1) density-aware adaptive quantization, achieving 4x compression while preserving distance relationships; (2) multi-state re-ranking that reduces unnecessary computations by 35%; and (3) quantization-optimized SIMD implementations delivering 16-64 operations per cycle across architectures. Evaluation on standard benchmarks demonstrates 2.5-3.3x higher queries per second (QPS) than state-of-the-art HNSW implementations while maintaining over 98% recall, with 75% memory reduction for the index graph and 5x faster index construction.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-25T05:58:16Z</published>
+    <arxiv:comment>Accepted at DAC 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Ganap Ashit Tewary</name>
+    </author>
+    <author>
+      <name>Nrusinga Charan Gantayat</name>
+    </author>
+    <author>
+      <name>Jeff Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.09596v1</id>
+    <title>High-dimensional approximate nearest neighbor: k-d Generalized Randomized Forests</title>
+    <updated>2016-03-31T14:04:30Z</updated>
+    <link href="https://arxiv.org/abs/1603.09596v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.09596v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new data-structure, the generalized randomized kd forest, or kgeraf, for approximate nearest neighbor searching in high dimensions. In particular, we introduce new randomization techniques to specify a set of independently constructed trees where search is performed simultaneously, hence increasing accuracy. We omit backtracking, and we optimize distance computations, thus accelerating queries. We release public domain software geraf and we compare it to existing implementations of state-of-the-art methods including BBD-trees, Locality Sensitive Hashing, randomized kd forests, and product quantization. Experimental results indicate that our method would be the method of choice in dimensions around 1,000, and probably up to 10,000, and pointsets of cardinality up to a few hundred thousands or even one million; this range of inputs is encountered in many critical applications today. For instance, we handle a real dataset of $10^6$ images represented in 960 dimensions with a query time of less than $1$sec on average and 90\% responses being true nearest neighbors.</summary>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-31T14:04:30Z</published>
+    <arxiv:primary_category term="cs.CG"/>
+    <author>
+      <name>Yannis Avrithis</name>
+    </author>
+    <author>
+      <name>Ioannis Z. Emiris</name>
+    </author>
+    <author>
+      <name>Georgios Samaras</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.18926v1</id>
+    <title>LoRANN: Low-Rank Matrix Factorization for Approximate Nearest Neighbor Search</title>
+    <updated>2024-10-24T17:13:39Z</updated>
+    <link href="https://arxiv.org/abs/2410.18926v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.18926v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Approximate nearest neighbor (ANN) search is a key component in many modern machine learning pipelines; recent use cases include retrieval-augmented generation (RAG) and vector databases. Clustering-based ANN algorithms, that use score computation methods based on product quantization (PQ), are often used in industrial-scale applications due to their scalability and suitability for distributed and disk-based implementations. However, they have slower query times than the leading graph-based ANN algorithms. In this work, we propose a new supervised score computation method based on the observation that inner product approximation is a multivariate (multi-output) regression problem that can be solved efficiently by reduced-rank regression. Our experiments show that on modern high-dimensional data sets, the proposed reduced-rank regression (RRR) method is superior to PQ in both query latency and memory usage. We also introduce LoRANN, a clustering-based ANN library that leverages the proposed score computation method. LoRANN is competitive with the leading graph-based algorithms and outperforms the state-of-the-art GPU ANN methods on high-dimensional data sets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-24T17:13:39Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Elias Jääsaari</name>
+    </author>
+    <author>
+      <name>Ville Hyvönen</name>
+    </author>
+    <author>
+      <name>Teemu Roos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.14415v5</id>
+    <title>Connecting Compression Spaces with Transformer for Approximate Nearest Neighbor Search</title>
+    <updated>2022-04-06T05:56:15Z</updated>
+    <link href="https://arxiv.org/abs/2107.14415v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.14415v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a generic feature compression method for Approximate Nearest Neighbor Search (ANNS) problems, which speeds up existing ANNS methods in a plug-and-play manner. Specifically, based on transformer, we propose a new network structure to compress the feature into a low dimensional space, and an inhomogeneous neighborhood relationship preserving (INRP) loss that aims to maintain high search accuracy. Specifically, we use multiple compression projections to cast the feature into many low dimensional spaces, and then use transformer to globally optimize these projections such that the features are well compressed following the guidance from our loss function. The loss function is designed to assign high weights on point pairs that are close in original feature space, and keep their distances in projected space. Keeping these distances helps maintain the eventual top-k retrieval accuracy, and down weighting others creates room for feature compression. In experiments, we run our compression method on public datasets, and use the compressed features in graph based, product quantization and scalar quantization based ANNS solutions. Experimental results show that our compression method can significantly improve the efficiency of these methods while preserves or even improves search accuracy, suggesting its broad potential impact on real world applications.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-30T03:24:34Z</published>
+    <arxiv:comment>13 pages, 3 figures and 5 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Haokui Zhang</name>
+    </author>
+    <author>
+      <name>Buzhou Tang</name>
+    </author>
+    <author>
+      <name>Wenze Hu</name>
+    </author>
+    <author>
+      <name>Xiaoyu Wang</name>
+    </author>
+  </entry>
+</feed>

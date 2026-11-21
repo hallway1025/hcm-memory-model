@@ -1,0 +1,182 @@
+[
+ {
+  "overlap": 0.5,
+  "N": 30,
+  "homeo": true,
+  "stored": 30,
+  "cue0": 30,
+  "cue20": 30,
+  "nq": 30
+ },
+ {
+  "overlap": 0.5,
+  "N": 30,
+  "homeo": false,
+  "stored": 30,
+  "cue0": 30,
+  "cue20": 30,
+  "nq": 30
+ },
+ {
+  "overlap": 0.5,
+  "N": 100,
+  "homeo": true,
+  "stored": 100,
+  "cue0": 38,
+  "cue20": 37,
+  "nq": 60
+ },
+ {
+  "overlap": 0.5,
+  "N": 100,
+  "homeo": false,
+  "stored": 100,
+  "cue0": 10,
+  "cue20": 11,
+  "nq": 60
+ },
+ {
+  "overlap": 0.5,
+  "N": 300,
+  "homeo": true,
+  "stored": 300,
+  "cue0": 60,
+  "cue20": 58,
+  "nq": 60
+ },
+ {
+  "overlap": 0.5,
+  "N": 300,
+  "homeo": false,
+  "stored": 300,
+  "cue0": 1,
+  "cue20": 1,
+  "nq": 60
+ },
+ {
+  "overlap": 0.5,
+  "N": 800,
+  "homeo": true,
+  "stored": 800,
+  "cue0": 1,
+  "cue20": 0,
+  "nq": 60
+ },
+ {
+  "overlap": 0.5,
+  "N": 800,
+  "homeo": false,
+  "stored": 800,
+  "cue0": 0,
+  "cue20": 0,
+  "nq": 60
+ },
+ {
+  "overlap": 0.5,
+  "N": 1200,
+  "homeo": true,
+  "stored": 1200,
+  "cue0": 2,
+  "cue20": 1,
+  "nq": 60
+ },
+ {
+  "overlap": 0.5,
+  "N": 1200,
+  "homeo": false,
+  "stored": 1200,
+  "cue0": 0,
+  "cue20": 0,
+  "nq": 60
+ },
+ {
+  "overlap": 0.75,
+  "N": 30,
+  "homeo": true,
+  "stored": 30,
+  "cue0": 15,
+  "cue20": 16,
+  "nq": 30
+ },
+ {
+  "overlap": 0.75,
+  "N": 30,
+  "homeo": false,
+  "stored": 30,
+  "cue0": 0,
+  "cue20": 0,
+  "nq": 30
+ },
+ {
+  "overlap": 0.75,
+  "N": 100,
+  "homeo": true,
+  "stored": 100,
+  "cue0": 0,
+  "cue20": 0,
+  "nq": 60
+ },
+ {
+  "overlap": 0.75,
+  "N": 100,
+  "homeo": false,
+  "stored": 100,
+  "cue0": 0,
+  "cue20": 0,
+  "nq": 60
+ },
+ {
+  "overlap": 0.75,
+  "N": 300,
+  "homeo": true,
+  "stored": 300,
+  "cue0": 1,
+  "cue20": 0,
+  "nq": 60
+ },
+ {
+  "overlap": 0.75,
+  "N": 300,
+  "homeo": false,
+  "stored": 300,
+  "cue0": 0,
+  "cue20": 0,
+  "nq": 60
+ },
+ {
+  "overlap": 0.75,
+  "N": 800,
+  "homeo": true,
+  "stored": 800,
+  "cue0": 0,
+  "cue20": 0,
+  "nq": 60
+ },
+ {
+  "overlap": 0.75,
+  "N": 800,
+  "homeo": false,
+  "stored": 800,
+  "cue0": 0,
+  "cue20": 0,
+  "nq": 60
+ },
+ {
+  "overlap": 0.75,
+  "N": 1200,
+  "homeo": true,
+  "stored": 1200,
+  "cue0": 0,
+  "cue20": 0,
+  "nq": 60
+ },
+ {
+  "overlap": 0.75,
+  "N": 1200,
+  "homeo": false,
+  "stored": 1200,
+  "cue0": 0,
+  "cue20": 0,
+  "nq": 60
+ }
+]

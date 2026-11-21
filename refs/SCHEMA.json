@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "file": "refs/refs.jsonl",
+    "desc": "每条一行 JSON。所有字段由 API 机检产出，禁止手写 DOI/PMID。",
+    "verification_states": {
+      "verified": "DOI/PMID 至少一条解析成功，且标题相似度>=0.90、年份一致、第一作者姓氏一致",
+      "partial": "解析成功但有字段不一致（需人工裁定并记录）",
+      "failed": "无法解析（禁止引用）"
+    },
+    "evidence_levels": {
+      "fulltext": "读过 OA 全文（EuropePMC fullTextXML 或同等）",
+      "abstract": "仅读摘要",
+      "review_transfer": "经权威综述转述，未见原文"
+    }
+  },
+  "fields": {
+    "ref_id": "R001 形式，稳定主键，正文引用吃这个",
+    "module": [
+      "M1_SEP",
+      "M2_EPI",
+      "M3_CTX",
+      "M4_CON",
+      "M5_SEM",
+      "M6_WM",
+      "M7_NEU",
+      "M8_FOR",
+      "M0_META",
+      "cross"
+    ],
+    "role": [
+      "mechanism",
+      "evidence",
+      "theory",
+      "method",
+      "review"
+    ],
+    "doi": "10.xxxx/yyyy",
+    "pmid": "PubMed ID",
+    "pmcid": "PMC ID（有则用于取全文）",
+    "title": "标准化标题",
+    "authors": "第一作者姓氏 + et al 标记",
+    "year": "整数",
+    "journal": "API 返回的 container-title",
+    "tier": "T1|T2|T3|REJECT|unknown",
+    "verified": "verified|partial|failed",
+    "title_similarity": "float",
+    "evidence_level": "fulltext|abstract|review_transfer",
+    "retracted": "bool",
+    "source_query": "产生此条的检索式（可复现）",
+    "resolved_by": "crossref|pubmed|europepmc|openalex",
+    "retrieved_at": "ISO8601",
+    "claims": [
+      "C12"
+    ],
+    "notes": "自由文本"
+  }
+}

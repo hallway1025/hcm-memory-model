@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9pxQeiKktgBKYi4ZQYMpfYVlkGs</id>
+  <title>arXiv Query: search_query=all:winner AND all:take AND all:all AND all:sparse AND all:coding&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-11-07T13:49:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:winner+AND+(all:take+AND+(all:all+AND+(all:sparse+AND+all:coding)))&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>9</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1707.04129v1</id>
+    <title>A cortical sparse distributed coding model linking mini- and macrocolumn-scale functionality</title>
+    <updated>2017-07-13T13:56:51Z</updated>
+    <link href="https://arxiv.org/abs/1707.04129v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.04129v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>No generic function for the minicolumn, i.e., one that would apply equally well to all cortical areas and species, has yet been proposed. I propose that the minicolumn does have a generic functionality, which only becomes clear when seen in the context of the function of the higher-level, subsuming unit, the macrocolumn. I propose that: a) a macrocolumn's function is to store sparse distributed representations of its inputs and to be a recognizer of those inputs; and b) the generic function of the minicolumn is to enforce macrocolumnar code sparseness. The minicolumn, defined here as a physically localized pool of ~20 L2/3 pyramidals, does this by acting as a winner-take-all (WTA) competitive module, implying that macrocolumnar codes consist of ~70 active L2/3 cells, assuming ~70 minicolumns per macrocolumn. I describe an algorithm for activating these codes during both learning and retrievals, which causes more similar inputs to map to more highly intersecting codes, a property which yields ultra-fast (immediate, first-shot) storage and retrieval. The algorithm achieves this by adding an amount of randomness (noise) into the code selection process, which is inversely proportional to an input's familiarity. I propose a possible mapping of the algorithm onto cortical circuitry, and adduce evidence for a neuromodulatory implementation of this familiarity-contingent noise mechanism. The model is distinguished from other recent columnar cortical circuit models in proposing a generic minicolumnar function in which a group of cells within the minicolumn, the L2/3 pyramidals, compete (WTA) to be part of the sparse distributed macrocolumnar code.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-13T13:56:51Z</published>
+    <arxiv:comment>13 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <arxiv:journal_ref>Frontiers in Neuroanatomy (2010) 4:17</arxiv:journal_ref>
+    <author>
+      <name>Gerard J. Rinkus</name>
+    </author>
+    <arxiv:doi>10.3389/fnana.2010.00017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3389/fnana.2010.00017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.03741v1</id>
+    <title>Expressivity of expand-and-sparsify representations</title>
+    <updated>2020-06-05T23:36:59Z</updated>
+    <link href="https://arxiv.org/abs/2006.03741v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.03741v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A simple sparse coding mechanism appears in the sensory systems of several organisms: to a coarse approximation, an input $x \in \R^d$ is mapped to much higher dimension $m \gg d$ by a random linear transformation, and is then sparsified by a winner-take-all process in which only the positions of the top $k$ values are retained, yielding a $k$-sparse vector $z \in \{0,1\}^m$. We study the benefits of this representation for subsequent learning.
+  We first show a universal approximation property, that arbitrary continuous functions of $x$ are well approximated by linear functions of $z$, provided $m$ is large enough. This can be interpreted as saying that $z$ unpacks the information in $x$ and makes it more readily accessible. The linear functions can be specified explicitly and are easy to learn, and we give bounds on how large $m$ needs to be as a function of the input dimension $d$ and the smoothness of the target function. Next, we consider whether the representation is adaptive to manifold structure in the input space. This is highly dependent on the specific method of sparsification: we show that adaptivity is not obtained under the winner-take-all mechanism, but does hold under a slight variant. Finally we consider mappings to the representation space that are random but are attuned to the data distribution, and we give favorable approximation bounds in this setting.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-05T23:36:59Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Sanjoy Dasgupta</name>
+    </author>
+    <author>
+      <name>Christopher Tosh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/q-bio/0508032v2</id>
+    <title>Self-Sustained Thought Processes in a Dense Associative Network</title>
+    <updated>2007-03-02T10:56:11Z</updated>
+    <link href="https://arxiv.org/abs/q-bio/0508032v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/q-bio/0508032v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Several guiding principles for thought processes are proposed and a neural-network-type model implementing these principles is presented and studied. We suggest to consider thinking within an associative network built-up of overlapping memory states. We consider a homogeneous associative network as biological considerations rule out distinct conjunction units between the information (the memories) stored in the brain. We therefore propose that memory states have a dual functionality: They represent on one side the stored information and serve, on the other side, as the associative links in between the different dynamical states of the network which consists of transient attractors.
+  We implement these principles within a generalized winners-take-all neural network with sparse coding and an additional coupling to local reservoirs. We show that this network is capable to generate autonomously a self-sustained time-series of memory states which we identify with a thought process. Each memory state is associatively connected with its predecessor.
+  This system shows several emerging features, it is able (a) to recognize external patterns in a noisy background, (b) to focus attention autonomously and (c) to represent hierarchical memory states with an internal structure.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.AO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-08-22T14:38:44Z</published>
+    <arxiv:comment>14 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <arxiv:journal_ref>Proceedings of the 28th Annual German Conference on Artificial Intelligence (KI 2005), U. Furbach (Eds.): KI 2005, Springer Lecture Notes in Artificial Intelligence 3698, pp. 366-379, 2005</arxiv:journal_ref>
+    <author>
+      <name>Claudius Gros</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.07614v1</id>
+    <title>Feedback inhibition shapes emergent computational properties of cortical microcircuit motifs</title>
+    <updated>2017-05-22T08:52:31Z</updated>
+    <link href="https://arxiv.org/abs/1705.07614v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.07614v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cortical microcircuits are very complex networks, but they are composed of a relatively small number of stereotypical motifs. Hence one strategy for throwing light on the computational function of cortical microcircuits is to analyze emergent computational properties of these stereotypical microcircuit motifs. We are addressing here the question how spike-timing dependent plasticity (STDP) shapes the computational properties of one motif that has frequently been studied experimentally: interconnected populations of pyramidal cells and parvalbumin-positive inhibitory cells in layer 2/3. Experimental studies suggest that these inhibitory neurons exert some form of divisive inhibition on the pyramidal cells. We show that this data-based form of feedback inhibition, which is softer than that of winner-take-all models that are commonly considered in theoretical analyses, contributes to the emergence of an important computational function through STDP: The capability to disentangle superimposed firing patterns in upstream networks, and to represent their information content through a sparse assembly code.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-22T08:52:31Z</published>
+    <arxiv:comment>25 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Zeno Jonke</name>
+    </author>
+    <author>
+      <name>Robert Legenstein</name>
+    </author>
+    <author>
+      <name>Stefan Habenschuss</name>
+    </author>
+    <author>
+      <name>Wolfgang Maass</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.16923v1</id>
+    <title>Beyond Deep Learning: Speech Segmentation and Phone Classification with Neural Assemblies</title>
+    <updated>2026-03-11T21:25:03Z</updated>
+    <link href="https://arxiv.org/abs/2603.16923v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.16923v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning dominates speech processing but relies on massive datasets, global backpropagation-guided weight updates, and produces entangled representations. Assembly Calculus (AC), which models sparse neuronal assemblies via Hebbian plasticity and winner-take-all competition, offers a biologically grounded alternative, yet prior work focused on discrete symbolic inputs. We introduce an AC-based speech processing framework that operates directly on continuous speech by combining three key contributions:(i) neural encoding that converts speech into assembly-compatible spike patterns using probabilistic mel binarisation and population-coded MFCCs; (ii) a multi-area architecture organising assemblies across hierarchical timescales and classes; and (iii) cross-area update schemes for downstream tasks. Applied to two core tasks of boundary detection and segment classification, our framework detects phone (F1=0.69) and word (F1=0.61) boundaries without any weight training, and achieves 47.5% and 45.1% accuracy on phone and command recognition. These results show that AC-based dynamical systems are a viable alternative to deep learning for speech processing.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-11T21:25:03Z</published>
+    <arxiv:comment>Submitted to Interspeech 2026. 9 Pages</arxiv:comment>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>Trevor Adelson</name>
+    </author>
+    <author>
+      <name>Vidhyasaharan Sethu</name>
+    </author>
+    <author>
+      <name>Ting Dang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.09797v1</id>
+    <title>SeqSAM: Autoregressive Multiple Hypothesis Prediction for Medical Image Segmentation using SAM</title>
+    <updated>2025-03-12T20:01:52Z</updated>
+    <link href="https://arxiv.org/abs/2503.09797v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.09797v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pre-trained segmentation models are a powerful and flexible tool for segmenting images. Recently, this trend has extended to medical imaging. Yet, often these methods only produce a single prediction for a given image, neglecting inherent uncertainty in medical images, due to unclear object boundaries and errors caused by the annotation tool. Multiple Choice Learning is a technique for generating multiple masks, through multiple learned prediction heads. However, this cannot readily be extended to producing more outputs than its initial pre-training hyperparameters, as the sparse, winner-takes-all loss function makes it easy for one prediction head to become overly dominant, thus not guaranteeing the clinical relevancy of each mask produced. We introduce SeqSAM, a sequential, RNN-inspired approach to generating multiple masks, which uses a bipartite matching loss for ensuring the clinical relevancy of each mask, and can produce an arbitrary number of masks. We show notable improvements in quality of each mask produced across two publicly available datasets. Our code is available at https://github.com/BenjaminTowle/SeqSAM.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-12T20:01:52Z</published>
+    <arxiv:comment>Accepted to ISBI 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Benjamin Towle</name>
+    </author>
+    <author>
+      <name>Xin Chen</name>
+    </author>
+    <author>
+      <name>Ke Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.05791v1</id>
+    <title>FlyHash for LLM Agent Memory: An Empirical Validation and a New Application</title>
+    <updated>2026-11-04T00:57:24Z</updated>
+    <link href="https://arxiv.org/abs/2611.05791v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.05791v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents increasingly rely on external memory stores to retain information across conversations, typically via dense vector embeddings searched with approximate nearest-neighbor methods. The fruit fly's olfactory circuit computes a locality-sensitive hash of sensory input using a strikingly different mechanism - sparse random projection followed by winner-take-all competition - and prior work (Dasgupta et al., 2017) showed this scheme, dubbed FlyHash, preserves neighbor structure better per bit than conventional random-hyperplane hashing (SimHash) on several benchmarks. We apply FlyHash, to our knowledge for the first time, to LLM agent memory retrieval, and ask three questions a practitioner actually needs answered: does the quality advantage hold under a correctly matched-bit protocol (it does, robustly, across 10 seeds and four datasets spanning two modalities, with one specific, previously undocumented comparison pitfall identified and corrected along the way); does that advantage translate into real memory and latency savings, including against the dense-vector indexing (HNSW) practitioners default to today (no: at equal bits FlyHash's codes are larger and slower to compare than SimHash's, and HNSW dominates both hash methods at ordinary scale; a sparse-set comparison we introduce recovers most but not all of a naive latency gap, leaving hashing's practical case narrower and more specific than the quality result alone implies); and does the advantage survive genuine, non-circular agent-memory relevance labels rather than the nearest-neighbor-by-embedding proxy this literature otherwise relies on (it does). We report all three answers precisely, including the two that narrow rather than flatter the headline result, and release our implementation, a working agent-memory demo, and a full account of the methodological pitfalls we found and corrected.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-04T00:57:24Z</published>
+    <arxiv:comment>19 pages. Code, data and interactive demo: https://github.com/mohanji/flyhash-agent-memory (archived at https://doi.org/10.5281/zenodo.23903302)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mohan Bheemadolu</name>
+    </author>
+    <author>
+      <name>Chrisogonas O. Odhiambo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.12813v3</id>
+    <title>An optimised deep spiking neural network architecture without gradients</title>
+    <updated>2022-05-02T20:45:29Z</updated>
+    <link href="https://arxiv.org/abs/2109.12813v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.12813v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an end-to-end trainable modular event-driven neural architecture that uses local synaptic and threshold adaptation rules to perform transformations between arbitrary spatio-temporal spike patterns. The architecture represents a highly abstracted model of existing Spiking Neural Network (SNN) architectures. The proposed Optimized Deep Event-driven Spiking neural network Architecture (ODESA) can simultaneously learn hierarchical spatio-temporal features at multiple arbitrary time scales. ODESA performs online learning without the use of error back-propagation or the calculation of gradients. Through the use of simple local adaptive selection thresholds at each node, the network rapidly learns to appropriately allocate its neuronal resources at each layer for any given problem without using a real-valued error measure. These adaptive selection thresholds are the central feature of ODESA, ensuring network stability and remarkable robustness to noise as well as to the selection of initial system parameters. Network activations are inherently sparse due to a hard Winner-Take-All (WTA) constraint at each layer. We evaluate the architecture on existing spatio-temporal datasets, including the spike-encoded IRIS and TIDIGITS datasets, as well as a novel set of tasks based on International Morse Code that we created. These tests demonstrate the hierarchical spatio-temporal learning capabilities of ODESA. Through these tests, we demonstrate ODESA can optimally solve practical and highly challenging hierarchical spatio-temporal learning tasks with the minimum possible number of computing nodes.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-27T05:59:12Z</published>
+    <arxiv:comment>18 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <arxiv:journal_ref>IEEE Access, 2022</arxiv:journal_ref>
+    <author>
+      <name>Yeshwanth Bethi</name>
+    </author>
+    <author>
+      <name>Ying Xu</name>
+    </author>
+    <author>
+      <name>Gregory Cohen</name>
+    </author>
+    <author>
+      <name>Andre van Schaik</name>
+    </author>
+    <author>
+      <name>Saeed Afshar</name>
+    </author>
+    <arxiv:doi>10.1109/ACCESS.2022.3200699</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ACCESS.2022.3200699" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.09114v1</id>
+    <title>A Connectome Test of the Fly Hashing Algorithm</title>
+    <updated>2026-10-06T21:05:27Z</updated>
+    <link href="https://arxiv.org/abs/2610.09114v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.09114v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dasgupta, Stevens and Navlakha (2017) showed that the Drosophila olfactory circuit, modelled as a random sparse projection followed by winner-take-all, is a locality-sensitive hash that beats classical LSH. The projection was random because the wiring was unknown. We test it against four electron-microscopy connectomes (MaleCNS, hemibrain, FlyWire, BANC; four animals, seven hemispheres). First, the 2017 pattern holds in a reimplementation of its protocol on SIFT, MNIST and odour mixtures (GloVe is near chance at short codes for every method): the fly hash beats k Gaussian projections at short hash lengths (3.1x in AP@200 on MNIST at k = 4). Second, against the tested real-valued Gaussian baseline that advantage is per active cell, not per operation: Gaussian projections given the same projection arithmetic retrieve better on every dataset and input dimension tested. Third, across four connectomes the measured pairing of glomeruli gives no consistent retrieval advantage over degree-preserving rewiring: retrieval is slightly lower (median -1.6%), and the small odour deficits depend on how missing odour responses are treated. Separately, equalising glomerular fan-out at fixed connection count improves retrieval in the model in every hemisphere, while equalising inputs per cell lowers it on average. Yet the fan-out profile is similar across the four sampled animals (median between-animal Spearman rho = 0.86), structural synapse counts do not offset it, and its relation to odour tuning is weak. In the model that uneven allocation costs retrieval. For practice: measured wiring gives no consistent retrieval advantage over degree-preserving random wiring, so a fly hash needs no connectome data, and its advantage is per active unit, which may suit hardware where active units rather than arithmetic are the binding cost, a hypothesis we do not test.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-06T21:05:27Z</published>
+    <arxiv:comment>7 pages, 5 figures. Code, data pipeline and results: https://github.com/ssenge/FlyHash-Connectome</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Sebastian Senge</name>
+    </author>
+  </entry>
+</feed>

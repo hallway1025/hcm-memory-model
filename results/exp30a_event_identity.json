@@ -1,0 +1,10 @@
+{
+ "n_pairs": 100,
+ "both_retrieved": 100,
+ "window_correct": 100,
+ "shared_code": 100,
+ "baseline_lost": 100,
+ "triple_all_retrieved": 20,
+ "n_triples": 20,
+ "verdict": "PASS"
+}

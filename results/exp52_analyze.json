@@ -1,0 +1,165 @@
+{
+ "exp": "exp52",
+ "analyze_version": 1,
+ "lockstep": [
+  {
+   "file": "exp52_lockstep_F_b100_s0.json",
+   "gate_pass": true
+  },
+  {
+   "file": "exp52_lockstep_T_b100_s0.json",
+   "gate_pass": true
+  }
+ ],
+ "G_EQ": {
+  "cells": [
+   "F_b100",
+   "T_b100"
+  ],
+  "hard_mismatch": 0,
+  "max_d_a": 2.5614940063815167e-45,
+  "max_d_raw": 2.1051990173326374e-07,
+  "gate_pass": true,
+  "per_cell": {
+   "F_b100": {
+    "n_written": 200000,
+    "write_s": 119830.0,
+    "s_per_write": 0.5991,
+    "peak_rss_mb": 52656.9,
+    "abst_d": 0,
+    "abst_p": 0
+   },
+   "T_b100": {
+    "n_written": 200000,
+    "write_s": 119758.6,
+    "s_per_write": 0.5987,
+    "peak_rss_mb": 52656.0,
+    "abst_d": 0,
+    "abst_p": 0
+   }
+  }
+ },
+ "G_S1_1e6": {
+  "threshold": 0.9,
+  "worst_deg25_rate": 1.0,
+  "gate_pass": true,
+  "per_cell": {
+   "F_b100": {
+    "deg0_rate": 1.0,
+    "deg0": "60/60",
+    "deg25_rate": 1.0,
+    "deg25": "60/60",
+    "abstain_deg25": 0,
+    "s_per_query_deg25": 158.812,
+    "n_written": 1000000,
+    "n_dup_rejected": 0,
+    "audit_n": 1000,
+    "audit_bad_dup": 0,
+    "audit_g_fail": 0,
+    "audit_stride": 1000,
+    "csr_mb": 3753.7,
+    "peak_rss_mb": 75170.3,
+    "s_per_write": 0.017,
+    "timing_s": {
+     "enc": 12038.4,
+     "sc": 3519.7,
+     "app": 1226.3
+    },
+    "premise_ok": true
+   },
+   "T_b100": {
+    "deg0_rate": 1.0,
+    "deg0": "60/60",
+    "deg25_rate": 1.0,
+    "deg25": "60/60",
+    "abstain_deg25": 0,
+    "s_per_query_deg25": 178.829,
+    "n_written": 1000000,
+    "n_dup_rejected": 0,
+    "audit_n": 1000,
+    "audit_bad_dup": 0,
+    "audit_g_fail": 0,
+    "audit_stride": 1000,
+    "csr_mb": 3753.7,
+    "peak_rss_mb": 75169.7,
+    "s_per_write": 0.016,
+    "timing_s": {
+     "enc": 11464.1,
+     "sc": 3432.3,
+     "app": 849.0
+    },
+    "premise_ok": true
+   }
+  }
+ },
+ "G_S3p": {
+  "points": [
+   {
+    "N": 2000,
+    "s_per_write_s": 0.008955,
+    "source": "exp43_part1",
+    "machine": "machine1"
+   },
+   {
+    "N": 100000,
+    "s_per_write_s": 0.4102,
+    "source": "exp43_part2",
+    "machine": "autodl"
+   },
+   {
+    "N": 100000,
+    "s_per_write_s": 0.6803,
+    "source": "exp43_part2",
+    "machine": "machine1"
+   },
+   {
+    "N": 200000,
+    "s_per_write_s": 0.5987,
+    "source": "exp52_eq_T",
+    "machine": "autodl"
+   },
+   {
+    "N": 200000,
+    "s_per_write_s": 0.5991,
+    "source": "exp52_eq",
+    "machine": "autodl"
+   }
+  ],
+  "note": "LEDGER :268 series = {exp43 dense full-semantic points} ∪ {exp52 eq@2e5 full-semantic write time}; 1e6 audit path excluded (enc/append split reported per-cell above). exp43 has only N=2e3 (machine1) and N=1e5 (machine1+autodl) dense points; the 1e5 anchor for the pre-registered series is the AutoDL run (same machine as the eq@2e5 point), the machine1 run is reported as sensitivity.",
+  "series_prereg": [
+   [
+    2000,
+    0.008955
+   ],
+   [
+    100000,
+    0.4102
+   ],
+   [
+    200000,
+    0.5991
+   ]
+  ],
+  "series_sensitivity_machine1_1e5": [
+   [
+    2000,
+    0.008955
+   ],
+   [
+    100000,
+    0.6803
+   ]
+  ],
+  "pearson_prereg": 0.9778932028778325,
+  "pearson_alt_machine1_anchor": null,
+  "gate": "PASS"
+ },
+ "missing_files": [],
+ "verdict": {
+  "G_EQ": true,
+  "G_S1_1e6": true,
+  "G_S3p": "PASS",
+  "premise_ok": true,
+  "overall": "PASS"
+ }
+}

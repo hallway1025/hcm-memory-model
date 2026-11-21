@@ -1,0 +1,70 @@
+[
+ {
+  "arm": "theta0_lam.6",
+  "write_s": 38.4,
+  "rows": [
+   {
+    "level": 0.3,
+    "top1": 1,
+    "abstain": 0
+   },
+   {
+    "level": 0.5,
+    "top1": 1,
+    "abstain": 0
+   }
+  ],
+  "a_top_mean": -1.0
+ },
+ {
+  "arm": "theta0_lam0",
+  "write_s": 36.2,
+  "rows": [
+   {
+    "level": 0.3,
+    "top1": 0,
+    "abstain": 0
+   },
+   {
+    "level": 0.5,
+    "top1": 0,
+    "abstain": 0
+   }
+  ],
+  "a_top_mean": -1.0
+ },
+ {
+  "arm": "develop_lam.6",
+  "write_s": 39.7,
+  "rows": [
+   {
+    "level": 0.3,
+    "top1": 0,
+    "abstain": 0
+   },
+   {
+    "level": 0.5,
+    "top1": 0,
+    "abstain": 0
+   }
+  ],
+  "a_top_mean": -1.0
+ },
+ {
+  "arm": "develop_lam0",
+  "write_s": 40.4,
+  "rows": [
+   {
+    "level": 0.3,
+    "top1": 0,
+    "abstain": 0
+   },
+   {
+    "level": 0.5,
+    "top1": 0,
+    "abstain": 0
+   }
+  ],
+  "a_top_mean": -1.0
+ }
+]

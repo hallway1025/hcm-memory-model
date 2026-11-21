@@ -1,0 +1,399 @@
+{
+ "exp": "exp47b_collapse_baselines",
+ "smoke": true,
+ "pre_registered": true,
+ "config": {
+  "n_corpus": 400,
+  "corpus_files": [
+   "train__peer-02.csv",
+   "train__group-02.csv",
+   "train__group-01.csv",
+   "train__group-04.csv",
+   "train__group-03.csv",
+   "train__group-05.csv"
+  ],
+  "tiers": [
+   100,
+   200,
+   400
+  ],
+  "probe_cap": 20,
+  "judge": "argmax==i written-prefix",
+  "degs": [
+   0.0,
+   0.3,
+   0.5
+  ],
+  "sdm_r": 109,
+  "sdm_n_loc": 4000,
+  "sdm_r_note": "exp38 implemented r=146 (~99% activation, degenerate dense-sum); exp47b primary r=109 (1%, Kanerva 1988)",
+  "determinism": "PYTHONHASHSEED=0 + BLAS pin=1 (launch env)"
+ },
+ "rows": {
+  "bm25_char1": [
+   {
+    "n": 100,
+    "deg0.0": {
+     "hit": 12,
+     "used": 15,
+     "rate": 0.8
+    },
+    "deg0.3": {
+     "hit": 12,
+     "used": 15,
+     "rate": 0.8
+    },
+    "deg0.5": {
+     "hit": 12,
+     "used": 15,
+     "rate": 0.8
+    }
+   },
+   {
+    "n": 200,
+    "deg0.0": {
+     "hit": 10,
+     "used": 20,
+     "rate": 0.5
+    },
+    "deg0.3": {
+     "hit": 10,
+     "used": 20,
+     "rate": 0.5
+    },
+    "deg0.5": {
+     "hit": 10,
+     "used": 20,
+     "rate": 0.5
+    }
+   },
+   {
+    "n": 400,
+    "deg0.0": {
+     "hit": 9,
+     "used": 20,
+     "rate": 0.45
+    },
+    "deg0.3": {
+     "hit": 9,
+     "used": 20,
+     "rate": 0.45
+    },
+    "deg0.5": {
+     "hit": 9,
+     "used": 20,
+     "rate": 0.45
+    }
+   }
+  ],
+  "bm25_char2": [
+   {
+    "n": 100,
+    "deg0.0": {
+     "hit": 9,
+     "used": 15,
+     "rate": 0.6
+    },
+    "deg0.3": {
+     "hit": 9,
+     "used": 15,
+     "rate": 0.6
+    },
+    "deg0.5": {
+     "hit": 7,
+     "used": 15,
+     "rate": 0.4666666666666667
+    }
+   },
+   {
+    "n": 200,
+    "deg0.0": {
+     "hit": 9,
+     "used": 20,
+     "rate": 0.45
+    },
+    "deg0.3": {
+     "hit": 9,
+     "used": 20,
+     "rate": 0.45
+    },
+    "deg0.5": {
+     "hit": 7,
+     "used": 20,
+     "rate": 0.35
+    }
+   },
+   {
+    "n": 400,
+    "deg0.0": {
+     "hit": 9,
+     "used": 20,
+     "rate": 0.45
+    },
+    "deg0.3": {
+     "hit": 9,
+     "used": 20,
+     "rate": 0.45
+    },
+    "deg0.5": {
+     "hit": 7,
+     "used": 20,
+     "rate": 0.35
+    }
+   }
+  ],
+  "knn_tfidf": [
+   {
+    "n": 100,
+    "deg0.0": {
+     "hit": 12,
+     "used": 15,
+     "rate": 0.8
+    },
+    "deg0.3": {
+     "hit": 12,
+     "used": 15,
+     "rate": 0.8
+    },
+    "deg0.5": {
+     "hit": 12,
+     "used": 15,
+     "rate": 0.8
+    }
+   },
+   {
+    "n": 200,
+    "deg0.0": {
+     "hit": 10,
+     "used": 20,
+     "rate": 0.5
+    },
+    "deg0.3": {
+     "hit": 10,
+     "used": 20,
+     "rate": 0.5
+    },
+    "deg0.5": {
+     "hit": 10,
+     "used": 20,
+     "rate": 0.5
+    }
+   },
+   {
+    "n": 400,
+    "deg0.0": {
+     "hit": 9,
+     "used": 20,
+     "rate": 0.45
+    },
+    "deg0.3": {
+     "hit": 9,
+     "used": 20,
+     "rate": 0.45
+    },
+    "deg0.5": {
+     "hit": 9,
+     "used": 20,
+     "rate": 0.45
+    }
+   }
+  ],
+  "knn_s256": [
+   {
+    "n": 100,
+    "deg0.0": {
+     "hit": 12,
+     "used": 15,
+     "rate": 0.8
+    },
+    "deg0.3": {
+     "hit": 12,
+     "used": 15,
+     "rate": 0.8
+    },
+    "deg0.5": {
+     "hit": 12,
+     "used": 15,
+     "rate": 0.8
+    }
+   },
+   {
+    "n": 200,
+    "deg0.0": {
+     "hit": 10,
+     "used": 20,
+     "rate": 0.5
+    },
+    "deg0.3": {
+     "hit": 10,
+     "used": 20,
+     "rate": 0.5
+    },
+    "deg0.5": {
+     "hit": 10,
+     "used": 20,
+     "rate": 0.5
+    }
+   },
+   {
+    "n": 400,
+    "deg0.0": {
+     "hit": 9,
+     "used": 20,
+     "rate": 0.45
+    },
+    "deg0.3": {
+     "hit": 9,
+     "used": 20,
+     "rate": 0.45
+    },
+    "deg0.5": {
+     "hit": 9,
+     "used": 20,
+     "rate": 0.45
+    }
+   }
+  ],
+  "hopf": [
+   {
+    "n": 100,
+    "deg0.0": {
+     "hit": 5,
+     "used": 15,
+     "rate": 0.3333333333333333
+    },
+    "deg0.3": {
+     "hit": 5,
+     "used": 15,
+     "rate": 0.3333333333333333
+    },
+    "deg0.5": {
+     "hit": 6,
+     "used": 15,
+     "rate": 0.4
+    }
+   },
+   {
+    "n": 200,
+    "deg0.0": {
+     "hit": 4,
+     "used": 20,
+     "rate": 0.2
+    },
+    "deg0.3": {
+     "hit": 4,
+     "used": 20,
+     "rate": 0.2
+    },
+    "deg0.5": {
+     "hit": 4,
+     "used": 20,
+     "rate": 0.2
+    }
+   },
+   {
+    "n": 400,
+    "deg0.0": {
+     "hit": 3,
+     "used": 20,
+     "rate": 0.15
+    },
+    "deg0.3": {
+     "hit": 3,
+     "used": 20,
+     "rate": 0.15
+    },
+    "deg0.5": {
+     "hit": 2,
+     "used": 20,
+     "rate": 0.1
+    }
+   }
+  ],
+  "sdm": [
+   {
+    "n": 100,
+    "deg0.0": {
+     "hit": 0,
+     "used": 15,
+     "rate": 0.0
+    },
+    "deg0.3": {
+     "hit": 0,
+     "used": 15,
+     "rate": 0.0
+    },
+    "deg0.5": {
+     "hit": 0,
+     "used": 15,
+     "rate": 0.0
+    }
+   },
+   {
+    "n": 200,
+    "deg0.0": {
+     "hit": 0,
+     "used": 20,
+     "rate": 0.0
+    },
+    "deg0.3": {
+     "hit": 0,
+     "used": 20,
+     "rate": 0.0
+    },
+    "deg0.5": {
+     "hit": 0,
+     "used": 20,
+     "rate": 0.0
+    }
+   },
+   {
+    "n": 400,
+    "deg0.0": {
+     "hit": 0,
+     "used": 20,
+     "rate": 0.0
+    },
+    "deg0.3": {
+     "hit": 0,
+     "used": 20,
+     "rate": 0.0
+    },
+    "deg0.5": {
+     "hit": 0,
+     "used": 20,
+     "rate": 0.0
+    }
+   }
+  ]
+ },
+ "slopes_deg03": {
+  "bm25_char1": -0.5813374166052884,
+  "bm25_char2": -0.24914460711655206,
+  "knn_tfidf": -0.5813374166052884,
+  "knn_s256": -0.5813374166052884,
+  "hopf": -0.3045100753646748,
+  "sdm": 0.0
+ },
+ "slopes_deg05": {
+  "bm25_char1": -0.5813374166052884,
+  "bm25_char2": -0.19377913886842948,
+  "knn_tfidf": -0.5813374166052884,
+  "knn_s256": -0.5813374166052884,
+  "hopf": -0.49828921423310424,
+  "sdm": 0.0
+ },
+ "hcm_ref_slope_per_decade_beta100": -0.021204654214676728,
+ "hcm_ref_curves": [
+  -0.02265916597471881,
+  -0.05097280283334468,
+  0.010018006164033305
+ ],
+ "gates": {
+  "g47b_a_hopf_max_tier_lt_005": false,
+  "g47b_b_modern_flat_abs_slope_lt_002_per_decade": false,
+  "g47b_c_hcm_ref_slope_negative": true
+ },
+ "report_only": true,
+ "elapsed_s": 1.4
+}

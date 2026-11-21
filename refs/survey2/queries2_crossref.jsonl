@@ -1,0 +1,50 @@
+{"area":"K1_sparse_encoder","module":"K1_sparse_encoder","role":"survey","query":"winner-take-all sparse coding","channel":"crossref","n":20}
+{"area":"K1_sparse_encoder","module":"K1_sparse_encoder","role":"survey","query":"k-winners take all","channel":"crossref","n":12}
+{"area":"K1_sparse_encoder","module":"K1_sparse_encoder","role":"survey","query":"sparse distributed memory","channel":"crossref","n":15}
+{"area":"K1_sparse_encoder","module":"K1_sparse_encoder","role":"survey","query":"locality sensitive hashing","channel":"crossref","n":15}
+{"area":"K1_sparse_encoder","module":"K1_sparse_encoder","role":"survey","query":"product quantization nearest neighbor","channel":"crossref","n":12}
+{"area":"K1_sparse_encoder","module":"K1_sparse_encoder","role":"survey","query":"top-k sparse autoencoder","channel":"crossref","n":12}
+{"area":"K1_sparse_encoder","module":"K1_sparse_encoder","role":"survey","query":"hyperplane hashing","channel":"crossref","n":10}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"modern Hopfield network","channel":"crossref","n":20}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"Kanerva sparse distributed memory capacity","channel":"crossref","n":15}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"differentiable neural computer memory","channel":"crossref","n":12}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"vector symbolic architecture binding","channel":"crossref","n":15}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"product key memory","channel":"crossref","n":10}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"associative memory one-shot storage","channel":"crossref","n":15}
+{"area":"K3_temporal_links","module":"K3_temporal_links","role":"survey","query":"successor representation","channel":"crossref","n":20}
+{"area":"K3_temporal_links","module":"K3_temporal_links","role":"survey","query":"temporal knowledge graph reasoning","channel":"crossref","n":15}
+{"area":"K3_temporal_links","module":"K3_temporal_links","role":"survey","query":"episodic control successor features","channel":"crossref","n":12}
+{"area":"K3_temporal_links","module":"K3_temporal_links","role":"survey","query":"temporal association sequence retrieval hippocampus","channel":"crossref","n":12}
+{"area":"K3_temporal_links","module":"K3_temporal_links","role":"survey","query":"time cell sequence replay link","channel":"crossref","n":12}
+{"area":"K4_consolidation_sched","module":"K4_consolidation_sched","role":"survey","query":"elastic weight consolidation","channel":"crossref","n":15}
+{"area":"K4_consolidation_sched","module":"K4_consolidation_sched","role":"survey","query":"experience replay continual learning","channel":"crossref","n":20}
+{"area":"K4_consolidation_sched","module":"K4_consolidation_sched","role":"survey","query":"generative replay continual learning","channel":"crossref","n":12}
+{"area":"K4_consolidation_sched","module":"K4_consolidation_sched","role":"survey","query":"complementary learning systems","channel":"crossref","n":15}
+{"area":"K4_consolidation_sched","module":"K4_consolidation_sched","role":"survey","query":"memory aware synapses continual","channel":"crossref","n":10}
+{"area":"K5_semantic_slow","module":"K5_semantic_slow","role":"survey","query":"fast weights","channel":"crossref","n":12}
+{"area":"K5_semantic_slow","module":"K5_semantic_slow","role":"survey","query":"parameter efficient fine-tuning low rank","channel":"crossref","n":15}
+{"area":"K5_semantic_slow","module":"K5_semantic_slow","role":"survey","query":"adapter modules transfer learning","channel":"crossref","n":12}
+{"area":"K5_semantic_slow","module":"K5_semantic_slow","role":"survey","query":"low rank adaptation forgetting","channel":"crossref","n":12}
+{"area":"K5_semantic_slow","module":"K5_semantic_slow","role":"survey","query":"catastrophic forgetting low rank","channel":"crossref","n":12}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"activity silent working memory","channel":"crossref","n":15}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"working memory capacity slots","channel":"crossref","n":15}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"theta gamma nested oscillation working memory","channel":"crossref","n":12}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"pointer network","channel":"crossref","n":10}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"short term synaptic plasticity working memory","channel":"crossref","n":12}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"value of information decision","channel":"crossref","n":15}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"learned retrieval policy","channel":"crossref","n":10}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"metacognitive control memory","channel":"crossref","n":15}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"cost sensitive abstention","channel":"crossref","n":12}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"active inference information gain","channel":"crossref","n":12}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"Bayes optimal information seeking","channel":"crossref","n":10}
+{"area":"K8_event_layer","module":"K8_event_layer","role":"survey","query":"event knowledge graph","channel":"crossref","n":15}
+{"area":"K8_event_layer","module":"K8_event_layer","role":"survey","query":"temporal event ontology","channel":"crossref","n":10}
+{"area":"K8_event_layer","module":"K8_event_layer","role":"survey","query":"episodic buffer cognitive architecture","channel":"crossref","n":10}
+{"area":"K8_event_layer","module":"K8_event_layer","role":"survey","query":"event segmentation memory","channel":"crossref","n":12}
+{"area":"K8_event_layer","module":"K8_event_layer","role":"survey","query":"event schema memory","channel":"crossref","n":12}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"TF-IDF text retrieval","channel":"crossref","n":12}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"character n-gram hashing text","channel":"crossref","n":12}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"feature hashing","channel":"crossref","n":10}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"PPMI co-occurrence embeddings","channel":"crossref","n":12}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"knowledge distillation sentence embedding","channel":"crossref","n":10}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"co-occurrence embedding dimensionality reduction","channel":"crossref","n":10}

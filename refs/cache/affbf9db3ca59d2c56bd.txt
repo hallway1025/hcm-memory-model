@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["29723711"],"translationset":[],"querytranslation":"\"10 1016 j concog 2018 04 010\"[Publisher ID]"}}

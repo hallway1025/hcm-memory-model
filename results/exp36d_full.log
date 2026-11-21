@@ -1,0 +1,45 @@
+﻿targets 200 -> dev 67 / test 133
+arm taus=None seed=0 k=0.01 written=6865 probes=51 P1=2 P2=0 P3=51 P4=50 (176s)
+DEV single k=0.01  P1=0.039 P2=0.000 P3=1.000 P4=0.980
+arm taus=None seed=0 k=0.03 written=6865 probes=51 P1=15 P2=0 P3=51 P4=50 (174s)
+DEV single k=0.03  P1=0.294 P2=0.000 P3=1.000 P4=0.980
+arm taus=None seed=0 k=0.05 written=6865 probes=51 P1=39 P2=0 P3=51 P4=47 (152s)
+DEV single k=0.05  P1=0.765 P2=0.000 P3=1.000 P4=0.922
+arm taus=None seed=0 k=0.08 written=6865 probes=51 P1=48 P2=0 P3=51 P4=29 (132s)
+DEV single k=0.08  P1=0.941 P2=0.000 P3=1.000 P4=0.569
+arm taus=None seed=0 k=0.1 written=6865 probes=51 P1=49 P2=0 P3=51 P4=19 (139s)
+DEV single k=0.1   P1=0.961 P2=0.000 P3=1.000 P4=0.373
+arm taus=None seed=0 k=0.13 written=6865 probes=51 P1=49 P2=0 P3=51 P4=6 (124s)
+DEV single k=0.13  P1=0.961 P2=0.000 P3=1.000 P4=0.118
+arm taus=None seed=0 k=0.16 written=6865 probes=51 P1=49 P2=0 P3=51 P4=2 (107s)
+DEV single k=0.16  P1=0.961 P2=0.000 P3=1.000 P4=0.039
+arm taus=None seed=0 k=0.2 written=6865 probes=51 P1=50 P2=0 P3=51 P4=1 (117s)
+DEV single k=0.2   P1=0.980 P2=0.000 P3=1.000 P4=0.020
+CALIB single kappa*=0.05 qualifying=[0.01, 0.03, 0.05]
+arm taus=[1, 10, 100, 1000] seed=0 k=0.01 written=6865 probes=51 P1=0 P2=0 P3=51 P4=50 (117s)
+DEV multi  k=0.01  P1=0.000 P2=0.000 P3=1.000 P4=0.980
+arm taus=[1, 10, 100, 1000] seed=0 k=0.03 written=6865 probes=51 P1=7 P2=0 P3=51 P4=48 (113s)
+DEV multi  k=0.03  P1=0.137 P2=0.000 P3=1.000 P4=0.941
+arm taus=[1, 10, 100, 1000] seed=0 k=0.05 written=6865 probes=51 P1=35 P2=0 P3=51 P4=18 (110s)
+DEV multi  k=0.05  P1=0.686 P2=0.000 P3=1.000 P4=0.353
+arm taus=[1, 10, 100, 1000] seed=0 k=0.08 written=6865 probes=51 P1=51 P2=0 P3=51 P4=0 (104s)
+DEV multi  k=0.08  P1=1.000 P2=0.000 P3=1.000 P4=0.000
+arm taus=[1, 10, 100, 1000] seed=0 k=0.1 written=6865 probes=51 P1=51 P2=0 P3=51 P4=0 (114s)
+DEV multi  k=0.1   P1=1.000 P2=0.000 P3=1.000 P4=0.000
+arm taus=[1, 10, 100, 1000] seed=0 k=0.13 written=6865 probes=51 P1=51 P2=0 P3=51 P4=0 (119s)
+DEV multi  k=0.13  P1=1.000 P2=0.000 P3=1.000 P4=0.000
+arm taus=[1, 10, 100, 1000] seed=0 k=0.16 written=6865 probes=51 P1=51 P2=0 P3=51 P4=0 (139s)
+DEV multi  k=0.16  P1=1.000 P2=0.000 P3=1.000 P4=0.000
+arm taus=[1, 10, 100, 1000] seed=0 k=0.2 written=6865 probes=51 P1=51 P2=0 P3=51 P4=0 (115s)
+DEV multi  k=0.2   P1=1.000 P2=0.000 P3=1.000 P4=0.000
+CALIB multi  kappa*=0.03 qualifying=[0.01, 0.03]
+arm taus=None seed=0 k=0.05 written=6865 probes=93 P1=75 P2=0 P3=93 P4=88 (175s)
+arm taus=None seed=1 k=0.05 written=6864 probes=93 P1=75 P2=0 P3=93 P4=89 (186s)
+arm taus=None seed=2 k=0.05 written=6864 probes=93 P1=72 P2=0 P3=93 P4=90 (162s)
+arm taus=[1, 10, 100, 1000] seed=0 k=0.03 written=6865 probes=93 P1=23 P2=0 P3=93 P4=91 (161s)
+arm taus=[1, 10, 100, 1000] seed=1 k=0.03 written=6864 probes=93 P1=18 P2=0 P3=93 P4=90 (172s)
+arm taus=[1, 10, 100, 1000] seed=2 k=0.03 written=6864 probes=93 P1=17 P2=0 P3=93 P4=90 (176s)
+CALIB kappa*: {'single': 0.05, 'multi': 0.03}
+GATES: {"G_T_era_anchor": "FAIL", "G_G_ceiling_noharm": "PASS", "G_C_ceiling_level": "PASS", "CTRL_P2_shuffle": "PASS"}
+
+EXIT=0

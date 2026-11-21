@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5Ez0aLJCwglvt1NblH+8PXDYdxw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2407.08742&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:33:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2407.08742" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.08742v4</id>
+    <title>Improved Robustness and Hyperparameter Selection in the Dense Associative Memory</title>
+    <updated>2024-09-21T12:25:24Z</updated>
+    <link href="https://arxiv.org/abs/2407.08742v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.08742v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Dense Associative Memory generalizes the Hopfield network by allowing for sharper interaction functions. This increases the capacity of the network as an autoassociative memory as nearby learned attractors will not interfere with one another. However, the implementation of the network relies on applying large exponents to the dot product of memory vectors and probe vectors. If the dimension of the data is large the calculation can be very large and result in imprecisions and overflow when using floating point numbers in a practical implementation. We describe the computational issues in detail, modify the original network description to mitigate the problem, and show the modification will not alter the networks' dynamics during update or training. We also show our modification greatly improves hyperparameter selection for the Dense Associative Memory, removing dependence on the interaction vertex and resulting in an optimal region of hyperparameters that does not significantly change with the interaction vertex as it does in the original network.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-29T01:23:19Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Hayden McAlister</name>
+    </author>
+    <author>
+      <name>Anthony Robins</name>
+    </author>
+    <author>
+      <name>Lech Szymanski</name>
+    </author>
+  </entry>
+</feed>

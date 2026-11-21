@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GK+l1p4AaWEOwJBufQUWCze3XGU</id>
+  <title>arXiv Query: search_query=all:MemGPT AND all:LLM AND all:operating AND all:system&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-07T11:45:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:MemGPT+AND+(all:LLM+AND+(all:operating+AND+all:system))&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.08560v2</id>
+    <title>MemGPT: Towards LLMs as Operating Systems</title>
+    <updated>2024-02-12T18:59:46Z</updated>
+    <link href="https://arxiv.org/abs/2310.08560v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.08560v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have revolutionized AI, but are constrained by limited context windows, hindering their utility in tasks like extended conversations and document analysis. To enable using context beyond limited context windows, we propose virtual context management, a technique drawing inspiration from hierarchical memory systems in traditional operating systems that provide the appearance of large memory resources through data movement between fast and slow memory. Using this technique, we introduce MemGPT (Memory-GPT), a system that intelligently manages different memory tiers in order to effectively provide extended context within the LLM's limited context window, and utilizes interrupts to manage control flow between itself and the user. We evaluate our OS-inspired design in two domains where the limited context windows of modern LLMs severely handicaps their performance: document analysis, where MemGPT is able to analyze large documents that far exceed the underlying LLM's context window, and multi-session chat, where MemGPT can create conversational agents that remember, reflect, and evolve dynamically through long-term interactions with their users. We release MemGPT code and data for our experiments at https://memgpt.ai.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-12T17:51:32Z</published>
+    <arxiv:comment>Code and data available at https://research.memgpt.ai</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Charles Packer</name>
+    </author>
+    <author>
+      <name>Sarah Wooders</name>
+    </author>
+    <author>
+      <name>Kevin Lin</name>
+    </author>
+    <author>
+      <name>Vivian Fang</name>
+    </author>
+    <author>
+      <name>Shishir G. Patil</name>
+    </author>
+    <author>
+      <name>Ion Stoica</name>
+    </author>
+    <author>
+      <name>Joseph E. Gonzalez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.03374v2</id>
+    <title>eMEM: A Hybrid Spatio-Temporal Memory System For Embodied Agents</title>
+    <updated>2026-06-22T08:23:44Z</updated>
+    <link href="https://arxiv.org/abs/2606.03374v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.03374v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present eMEM (Embodied Memory), a hybrid graph-based memory system for embodied agents operating in physical environments. Current agent memory architectures, such as Generative Agents, MemGPT, and A-MEM, treat memory as text streams or knowledge graphs, but embodied agents require memory that is simultaneously searchable by meaning, space, and time. eMEM fills this gap with a multi-index architecture (SQLITE for structured storage, hnswlib for approximate nearest neighbour semantic search, and an R-tree for spatial queries) unified behind a single graph model. A tiered consolidation pipeline transforms raw perceptual observations into compressed summaries, mirroring hippocampal-neocortical consolidation in biological systems. Ten agent-facing recall tools expose memory retrieval primitives, including concept-to-location resolution and cross layer recall, as first-class operations for LLM tool calling. The system is fully embedded and runs in-process alongside the agent. In addition we introduce eMEM-Bench v1, a benchmark we construct over ProcTHOR-10K scenes for embodied memory evaluation. The benchmark is organised explicitly around eight cognitive-psychology paradigms (DRM lures, pattern separation, pattern completion, source monitoring, context-dependent retrieval, long-horizon interference, serial position, and a foil augmented retention curve), each chosen so that the result is interpretable against the broader memory-systems literature in humans and prior agent-memory systems; a level of diagnostic that surface-task benchmarks like LoCoMo or OpenEQA cannot provide. eMEM scores 80.8 weighted mean over 988 probes, with a flat retention curve at ceiling from 1 h to 1 yr of simulated delay on room-unique items. We show that a pure RAG baseline (the flat_rag ablation) loses 30 pt on context dependent retrieval and 29 pt on DRM lure rejection, isolating the contribution of multi-layer storage and consolidation respectively. We release both the system and the benchmark code.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-02T09:22:12Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>A. Haroon Rasheed</name>
+      <arxiv:affiliation>MIND</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Maria Kabtoul</name>
+      <arxiv:affiliation>CHROMA</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.12034v1</id>
+    <title>Memory as Metabolism: A Design for Companion Knowledge Systems</title>
+    <updated>2026-04-13T20:22:53Z</updated>
+    <link href="https://arxiv.org/abs/2604.12034v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.12034v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-Augmented Generation remains the dominant pattern for giving LLMs persistent memory, but a visible cluster of personal wiki-style memory architectures emerged in April 2026 -- design proposals from Karpathy, MemPalace, and LLM Wiki v2 that compile knowledge into an interlinked artifact for long-term use by a single user. They sit alongside production memory systems that the major labs have shipped for over a year, and an active academic lineage including MemGPT, Generative Agents, Mem0, Zep, A-Mem, MemMachine, SleepGate, and Second Me. Within a 2026 landscape of emerging governance frameworks for agent context and memory -- including Context Cartography and MemOS -- this paper proposes a companion-specific governance profile: a set of normative obligations, a time-structured procedural rule, and testable conformance invariants for the specific failure mode of entrenchment under user-coupled drift in single-user knowledge wikis built on the LLM wiki pattern.
+  The design principle is that personal LLM memory is a companion system: its job is to mirror the user on operational dimensions (working vocabulary, load-bearing structure, continuity of context) and compensate on epistemic failure modes (entrenchment, suppression of contradicting evidence, Kuhnian ossification). Five operations implement this split -- TRIAGE, DECAY, CONTEXTUALIZE, CONSOLIDATE, AUDIT -- supported by memory gravity and minority-hypothesis retention. The sharpest prediction: accumulated contradictory evidence should have a structural path to updating a centrality-protected dominant interpretation through multi-cycle buffer pressure accumulation, a failure mode no existing benchmark captures. The safety story at the single-agent level is partial, and the paper is explicit about what it does and does not solve.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-13T20:22:53Z</published>
+    <arxiv:comment>41 pages, 1 table. Preprint v3.642. Concept DOI: 10.5281/zenodo.19501651</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Stefan Miteski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.20651v2</id>
+    <title>Memory Bear AI A Breakthrough from Memory to Cognition Toward Artificial General Intelligence</title>
+    <updated>2026-03-18T04:27:52Z</updated>
+    <link href="https://arxiv.org/abs/2512.20651v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.20651v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) face inherent limitations in memory, including restricted context windows, long-term knowledge forgetting, redundant information accumulation, and hallucination generation. These issues severely constrain sustained dialogue and personalized services. This paper proposes the Memory Bear system, which constructs a human-like memory architecture grounded in cognitive science principles. By integrating multimodal information perception, dynamic memory maintenance, and adaptive cognitive services, Memory Bear achieves a full-chain reconstruction of LLM memory mechanisms. Across domains such as healthcare, enterprise operations, and education, Memory Bear demonstrates substantial engineering innovation and performance breakthroughs. It significantly improves knowledge fidelity and retrieval efficiency in long-term conversations, reduces hallucination rates, and enhances contextual adaptability and reasoning capability through memory-cognition integration. Experimental results show that, compared with existing solutions (e.g., Mem0, MemGPT, Graphiti), Memory Bear outperforms them across key metrics, including accuracy, token efficiency, and response latency. This marks a crucial step forward in advancing AI from "memory" to "cognition".</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-17T06:06:18Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Deliang Wen</name>
+    </author>
+    <author>
+      <name>Ke Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.20724v1</id>
+    <title>CALMem : Application-Layer Dual Memory for Conversational AI</title>
+    <updated>2026-05-20T05:23:57Z</updated>
+    <link href="https://arxiv.org/abs/2605.20724v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.20724v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) operate within fixed context windows that fundamentally limit conversational continuity. When context fills, compaction discards history irreversibly; when sessions end, all memory resets to zero. Existing solutions-larger context windows, retrieval-augmented generation for knowledge bases, and memory-augmented architectures such as MemGPT-either require model modification, impose provider lock-in, or do not address the compaction continuity problem. We present CALMem (Conversational Application-Layer Memory), an application-layer dual memory architecture that gives LLM-based conversational assistants virtually unbounded effective context without any modification to the underlying model. CALMem combines two complementary memory subsystems: an episodic memory layer built on sliding-window vector embeddings of conversation history, and a semantic memory layer of agent-writable structured facts. A token-budget-adaptive injection mechanism, called the MOIM (Message of Injected Memory), automatically retrieves and injects relevant past context each turn, scaling injection depth inversely with context pressure. A key contribution is intra-session retrieval: compacted away turns from the current session remain searchable, closing a gap unaddressed by prior work. The system is implemented as a pure application layer in a production Rust codebase, is provider-agnostic, and degrades to original LLM behaviour with zero overhead when disabled. We describe the architecture, design decisions, and performance characteristics, and analyse the trade-offs that guided each implementation choice.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-20T05:23:57Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Rajendra Narayan Jena</name>
+    </author>
+    <author>
+      <name>Rajan Padmanabhan</name>
+    </author>
+    <author>
+      <name>Sankar Arumugam</name>
+    </author>
+  </entry>
+</feed>

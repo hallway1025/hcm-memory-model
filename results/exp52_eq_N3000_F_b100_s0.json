@@ -1,0 +1,31 @@
+{
+ "exp": "exp52",
+ "mode": "eq",
+ "N": 3000,
+ "cell": "F_b100",
+ "seed": 0,
+ "n_written": 3000,
+ "write_s": 23.3,
+ "chunk_times": [
+  23.2
+ ],
+ "s_per_write": 0.0077,
+ "timing": {
+  "enc": 9.9,
+  "sc": 10.2,
+  "app": 2.5
+ },
+ "peak_rss_mb": 826.5,
+ "probes": 60,
+ "hard_mismatch": 0,
+ "gate_G_EQ": true,
+ "judge_agree": 120,
+ "action_agree": 120,
+ "abst_d": 0,
+ "abst_p": 0,
+ "max_d_a": 9.041144411431777e-46,
+ "max_d_m1": 1.1859661441793179e-07,
+ "max_d_m2": 5.476101461177052e-08,
+ "max_d_raw": 1.5330655256384773e-07,
+ "max_d_idx": null
+}

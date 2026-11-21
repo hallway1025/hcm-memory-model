@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ie0ZwxWb0k12GIiESs8zZQAhFIY</id>
+  <title>arXiv Query: search_query=all:eligibility AND all:traces AND all:learning AND all:synapse&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:43:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:eligibility+AND+(all:traces+AND+(all:learning+AND+all:synapse))&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1801.05219v1</id>
+    <title>Eligibility Traces and Plasticity on Behavioral Time Scales: Experimental Support of neoHebbian Three-Factor Learning Rules</title>
+    <updated>2018-01-16T12:08:03Z</updated>
+    <link href="https://arxiv.org/abs/1801.05219v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.05219v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most elementary behaviors such as moving the arm to grasp an object or walking into the next room to explore a museum evolve on the time scale of seconds; in contrast, neuronal action potentials occur on the time scale of a few milliseconds. Learning rules of the brain must therefore bridge the gap between these two different time scales.
+  Modern theories of synaptic plasticity have postulated that the co-activation of pre- and postsynaptic neurons sets a flag at the synapse, called an eligibility trace, that leads to a weight change only if an additional factor is present while the flag is set. This third factor, signaling reward, punishment, surprise, or novelty, could be implemented by the phasic activity of neuromodulators or specific neuronal inputs signaling special events. While the theoretical framework has been developed over the last decades, experimental evidence in support of eligibility traces on the time scale of seconds has been collected only during the last few years.
+  Here we review, in the context of three-factor rules of synaptic plasticity, four key experiments that support the role of synaptic eligibility traces in combination with a third factor as a biological implementation of neoHebbian three-factor learning rules.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-16T12:08:03Z</published>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Wulfram Gerstner</name>
+    </author>
+    <author>
+      <name>Marco Lehmann</name>
+    </author>
+    <author>
+      <name>Vasiliki Liakoni</name>
+    </author>
+    <author>
+      <name>Dane Corneil</name>
+    </author>
+    <author>
+      <name>Johanni Brea</name>
+    </author>
+    <arxiv:doi>10.3389/fncir.2018.00053</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3389/fncir.2018.00053" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.18272v1</id>
+    <title>NeoHebbian Synapses to Accelerate Online Training of Neuromorphic Hardware</title>
+    <updated>2024-11-27T12:06:15Z</updated>
+    <link href="https://arxiv.org/abs/2411.18272v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.18272v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neuromorphic systems that employ advanced synaptic learning rules, such as the three-factor learning rule, require synaptic devices of increased complexity. Herein, a novel neoHebbian artificial synapse utilizing ReRAM devices has been proposed and experimentally validated to meet this demand. This synapse features two distinct state variables: a neuron coupling weight and an "eligibility trace" that dictates synaptic weight updates. The coupling weight is encoded in the ReRAM conductance, while the "eligibility trace" is encoded in the local temperature of the ReRAM and is modulated by applying voltage pulses to a physically co-located resistive heating element. The utility of the proposed synapse has been investigated using two representative tasks: first, temporal signal classification using Recurrent Spiking Neural Networks (RSNNs) employing the e-prop algorithm, and second, Reinforcement Learning (RL) for path planning tasks in feedforward networks using a modified version of the same learning rule. System-level simulations, accounting for various device and system-level non-idealities, confirm that these synapses offer a robust solution for the fast, compact, and energy-efficient implementation of advanced learning rules in neuromorphic hardware.</summary>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-27T12:06:15Z</published>
+    <arxiv:primary_category term="cs.ET"/>
+    <author>
+      <name>Shubham Pande</name>
+    </author>
+    <author>
+      <name>Sai Sukruth Bezugam</name>
+    </author>
+    <author>
+      <name>Tinish Bhattacharya</name>
+    </author>
+    <author>
+      <name>Ewelina Wlazlak</name>
+    </author>
+    <author>
+      <name>Anjan Chakaravorty</name>
+    </author>
+    <author>
+      <name>Bhaswar Chakrabarti</name>
+    </author>
+    <author>
+      <name>Dmitri Strukov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.07775v1</id>
+    <title>A Forward Model at Purkinje Cell Synapses Facilitates Cerebellar Anticipatory Control</title>
+    <updated>2017-01-26T16:59:20Z</updated>
+    <link href="https://arxiv.org/abs/1701.07775v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.07775v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How does our motor system solve the problem of anticipatory control in spite of a wide spectrum of response dynamics from different musculo-skeletal systems, transport delays as well as response latencies throughout the central nervous system? To a great extent, our highly-skilled motor responses are a result of a reactive feedback system, originating in the brain-stem and spinal cord, combined with a feed-forward anticipatory system, that is adaptively fine-tuned by sensory experience and originates in the cerebellum. Based on that interaction we design the counterfactual predictive control (CFPC) architecture, an anticipatory adaptive motor control scheme in which a feed-forward module, based on the cerebellum, steers an error feedback controller with counterfactual error signals. Those are signals that trigger reactions as actual errors would, but that do not code for any current or forthcoming errors. In order to determine the optimal learning strategy, we derive a novel learning rule for the feed-forward module that involves an eligibility trace and operates at the synaptic level. In particular, our eligibility trace provides a mechanism beyond co-incidence detection in that it convolves a history of prior synaptic inputs with error signals. In the context of cerebellar physiology, this solution implies that Purkinje cell synapses should generate eligibility traces using a forward model of the system being controlled. From an engineering perspective, CFPC provides a general-purpose anticipatory control architecture equipped with a learning rule that exploits the full dynamics of the closed-loop system.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-26T16:59:20Z</published>
+    <arxiv:comment>NIPS 2016</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <arxiv:journal_ref>Advances in Neural Information Processing Systems, 29: 3828-3836, (2016)</arxiv:journal_ref>
+    <author>
+      <name>Ivan Herreros-Alonso</name>
+    </author>
+    <author>
+      <name>Xerxes D. Arsiwalla</name>
+    </author>
+    <author>
+      <name>Paul F. M. J. Verschure</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.09049v2</id>
+    <title>Biologically inspired alternatives to backpropagation through time for learning in recurrent neural nets</title>
+    <updated>2019-02-21T17:15:18Z</updated>
+    <link href="https://arxiv.org/abs/1901.09049v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.09049v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The way how recurrently connected networks of spiking neurons in the brain acquire powerful information processing capabilities through learning has remained a mystery. This lack of understanding is linked to a lack of learning algorithms for recurrent networks of spiking neurons (RSNNs) that are both functionally powerful and can be implemented by known biological mechanisms. Since RSNNs are simultaneously a primary target for implementations of brain-inspired circuits in neuromorphic hardware, this lack of algorithmic insight also hinders technological progress in that area. The gold standard for learning in recurrent neural networks in machine learning is back-propagation through time (BPTT), which implements stochastic gradient descent with regard to a given loss function. But BPTT is unrealistic from a biological perspective, since it requires a transmission of error signals backwards in time and in space, i.e., from post- to presynaptic neurons. We show that an online merging of locally available information during a computation with suitable top-down learning signals in real-time provides highly capable approximations to BPTT. For tasks where information on errors arises only late during a network computation, we enrich locally available information through feedforward eligibility traces of synapses that can easily be computed in an online manner. The resulting new generation of learning algorithms for recurrent neural networks provides a new understanding of network learning in the brain that can be tested experimentally. In addition, these algorithms provide efficient methods for on-chip training of RSNNs in neuromorphic hardware.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-25T19:07:36Z</published>
+    <arxiv:comment>We changed in this version 2 of the paper the name of the new learning algorithms to e-prop, corrected minor errors, added details -- especially for resulting new rules for synaptic plasticity, edited the notation, and included new results for TIMIT</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Guillaume Bellec</name>
+    </author>
+    <author>
+      <name>Franz Scherr</name>
+    </author>
+    <author>
+      <name>Elias Hajek</name>
+    </author>
+    <author>
+      <name>Darjan Salaj</name>
+    </author>
+    <author>
+      <name>Robert Legenstein</name>
+    </author>
+    <author>
+      <name>Wolfgang Maass</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.24506v1</id>
+    <title>Generalising E-prop to Deep Networks</title>
+    <updated>2025-12-30T23:10:12Z</updated>
+    <link href="https://arxiv.org/abs/2512.24506v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.24506v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recurrent networks are typically trained with backpropagation through time (BPTT). However, BPTT requires storing the history of all states in the network and then replaying them sequentially backwards in time. This computation appears extremely implausible for the brain to implement. Real Time Recurrent Learning (RTRL) proposes an mathematically equivalent alternative where gradient information is propagated forwards in time locally alongside the regular forward pass, however it has significantly greater computational complexity than BPTT which renders it impractical for large networks. E-prop proposes an approximation of RTRL which reduces its complexity to the level of BPTT while maintaining a purely online forward update which can be implemented by an eligibility trace at each synapse. However, works on RTRL and E-prop ubiquitously investigate learning in a single layer with recurrent dynamics. However, learning in the brain spans multiple layers and consists of both hierarchal dynamics in depth as well as time. In this mathematical note, we extend the E-prop framework to handle arbitrarily deep networks, deriving a novel recursion relationship across depth which extends the eligibility traces of E-prop to deeper layers. Our results thus demonstrate an online learning algorithm can perform accurate credit assignment across both time and depth simultaneously, allowing the training of deep recurrent networks without backpropagation through time.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-30T23:10:12Z</published>
+    <arxiv:comment>30/12/25 initial upload</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Beren Millidge</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.34055v1</id>
+    <title>Quantum neuroplastic learning for time-series processing</title>
+    <updated>2026-10-25T04:31:10Z</updated>
+    <link href="https://arxiv.org/abs/2610.34055v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.34055v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum machine learning uses quantum states and dynamics to represent and process data. In quantum reservoir computing, the physical system is typically fixed and a classical readout is trained. Inspired by the formation, strengthening and pruning of synapses during biological learning, we propose quantum neuroplastic learning (QNL), which reorganizes the couplings among the qubits of a quantum reservoir, much as experience rewires connections among neurons. Eligibility traces guide local edits to couplings, fields, gate angles and evolution time, and an edit is retained when a statistical bound on its improvement exceeds a complexity cost. We evaluate QNL under restarting and online monitored protocols on short- and long-term memory, nonlinear autoregressive processing and forecasting, and channel equalization tasks. In simulation, QNL enhances memory capacity, develops long-term recall and sustains adaptation across multiple tasks, with the largest benefit for tasks that require extended memory. On the IBM superconducting processor \texttt{ibm\_fez}, with six seven-qubit reservoirs running in parallel on 42 qubits (1.28 million shots in total), configurations learned in simulation and frozen before execution reduced the channel-equalization symbol error rate from 9.7\% to 2.2\% and achieved a lower error rate than a matched-budget tuned baseline.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-25T04:31:10Z</published>
+    <arxiv:comment>This is a first draft of the work on ideation. The data, results, figures and equations may be revised based on our ongoing work, and revision from Journal. Upon acceptance in a Journal, the arxiv version may also be withdrawn based on Journal's policy</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Mostafizur Rahaman Laskar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.14447v3</id>
+    <title>Dual-Timescale Hebbian Accumulators for Online Spiking Neural Network Decoding in Intracortical Brain Machine Interfaces</title>
+    <updated>2026-04-09T14:43:05Z</updated>
+    <link href="https://arxiv.org/abs/2509.14447v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.14447v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Intracortical brain-machine interfaces require decoders that adapt continuously to neural signal instability while operating within strict memory budgets. We introduce a dual-timescale Hebbian accumulator learning rule for spiking neural networks that enables per-timestep online supervised updates with training memory constant in sequence length, avoiding backpropagation through time. The rule combines synapse-specific fast and slow eligibility traces, error-modulated three-factor updates, and integer-friendly RMS homeostasis, operating without adaptive gradient optimizers (Adam, RMSProp) or replay buffers. On two primate intracortical datasets, the method achieves Pearson correlations of $R \geq 0.81$ on MC~Maze and $R \geq 0.63$ on Zenodo~Indy, with 63--86\% measured memory reduction versus BPTT at sequence length $T = 1000$. Closed-loop simulations demonstrate online adaptation to neural disruptions and learning from scratch without offline calibration.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-17T21:49:39Z</published>
+    <arxiv:comment>9 pages, 7 figures. Replacement reason - corrections in metadata and PDF</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Sriram V. C. Nallani</name>
+    </author>
+    <author>
+      <name>Sahil Shah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.01338v4</id>
+    <title>Biologically-plausible backpropagation through arbitrary timespans via local neuromodulators</title>
+    <updated>2023-01-14T00:58:51Z</updated>
+    <link href="https://arxiv.org/abs/2206.01338v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.01338v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectacular successes of recurrent neural network models where key parameters are adjusted via backpropagation-based gradient descent have inspired much thought as to how biological neuronal networks might solve the corresponding synaptic credit assignment problem. There is so far little agreement, however, as to how biological networks could implement the necessary backpropagation through time, given widely recognized constraints of biological synaptic network signaling architectures. Here, we propose that extra-synaptic diffusion of local neuromodulators such as neuropeptides may afford an effective mode of backpropagation lying within the bounds of biological plausibility. Going beyond existing temporal truncation-based gradient approximations, our approximate gradient-based update rule, ModProp, propagates credit information through arbitrary time steps. ModProp suggests that modulatory signals can act on receiving cells by convolving their eligibility traces via causal, time-invariant and synapse-type-specific filter taps. Our mathematical analysis of ModProp learning, together with simulation results on benchmark temporal tasks, demonstrate the advantage of ModProp over existing biologically-plausible temporal credit assignment rules. These results suggest a potential neuronal mechanism for signaling credit information related to recurrent interactions over a longer time horizon. Finally, we derive an in-silico implementation of ModProp that could serve as a low-complexity and causal alternative to backpropagation through time.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-02T23:38:10Z</published>
+    <arxiv:comment>NeurIPS 2022 Camera Ready</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Yuhan Helena Liu</name>
+    </author>
+    <author>
+      <name>Stephen Smith</name>
+    </author>
+    <author>
+      <name>Stefan Mihalas</name>
+    </author>
+    <author>
+      <name>Eric Shea-Brown</name>
+    </author>
+    <author>
+      <name>Uygar Sümbül</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,28 @@
+{
+ "exp": "exp37",
+ "N": 100000,
+ "d_x": 2048,
+ "cell": "F_b100",
+ "resid": false,
+ "seed": 1,
+ "write_s": 96203.8,
+ "s_per_write": 0.962,
+ "n_written": 100000,
+ "Mn_dense_mb": 6250.0,
+ "peak_rss_mb": 28223.2,
+ "total_s": 113673.7,
+ "deg0": {
+  "hits": 60,
+  "of": 60,
+  "rate": 1.0,
+  "abstain": 0,
+  "s_per_query": 143.298
+ },
+ "deg25": {
+  "hits": 60,
+  "of": 60,
+  "rate": 1.0,
+  "abstain": 0,
+  "s_per_query": 147.046
+ }
+}

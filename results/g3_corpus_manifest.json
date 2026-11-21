@@ -1,0 +1,30 @@
+{
+  "exp": "g3_corpus",
+  "n": 500,
+  "k": 20,
+  "overlap_target": 0.8,
+  "seed": 0,
+  "d": 2016,
+  "shared_size": 16,
+  "pool_size": 2000,
+  "gen_seconds": 0.004,
+  "measure_seconds": 0.111,
+  "n_pairs_measured": 124750,
+  "acceptance": {
+    "G-B1.a_mean_abs_diff": 0.00042,
+    "G-B1.a_pass": true,
+    "G-B1.b_std": 0.004568,
+    "G-B1.b_pass": true,
+    "G-B1.c_pass": true,
+    "all_pass": true
+  },
+  "cosine_stats": {
+    "mean": 0.80042,
+    "std": 0.004568,
+    "min": 0.8,
+    "max": 0.9
+  },
+  "n_nonzero_total": 10000,
+  "n_expected_total": 10000,
+  "sparsity_ok": true
+}

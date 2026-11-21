@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ITQQ74N6Uh9AScMhW4FsJA8MjQw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2302.02622&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:33:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2302.02622" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2302.02622v1</id>
+    <title>Uncertainty Calibration and its Application to Object Detection</title>
+    <updated>2023-02-06T08:41:07Z</updated>
+    <link href="https://arxiv.org/abs/2302.02622v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.02622v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Image-based environment perception is an important component especially for driver assistance systems or autonomous driving. In this scope, modern neuronal networks are used to identify multiple objects as well as the according position and size information within a single frame. The performance of such an object detection model is important for the overall performance of the whole system. However, a detection model might also predict these objects under a certain degree of uncertainty. [...]
+  In this work, we examine the semantic uncertainty (which object type?) as well as the spatial uncertainty (where is the object and how large is it?). We evaluate if the predicted uncertainties of an object detection model match with the observed error that is achieved on real-world data. In the first part of this work, we introduce the definition for confidence calibration of the semantic uncertainty in the context of object detection, instance segmentation, and semantic segmentation. We integrate additional position information in our examinations to evaluate the effect of the object's position on the semantic calibration properties. Besides measuring calibration, it is also possible to perform a post-hoc recalibration of semantic uncertainty that might have turned out to be miscalibrated. [...]
+  The second part of this work deals with the spatial uncertainty obtained by a probabilistic detection model. [...] We review and extend common calibration methods so that it is possible to obtain parametric uncertainty distributions for the position information in a more flexible way.
+  In the last part, we demonstrate a possible use-case for our derived calibration methods in the context of object tracking. [...] We integrate our previously proposed calibration techniques and demonstrate the usefulness of semantic and spatial uncertainty calibration in a subsequent process. [...]</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-06T08:41:07Z</published>
+    <arxiv:comment>PhD thesis at University of Wuppertal, cite by: 'Fabian Küppers. "Uncertainty Calibration and its Application to Object Detection." PhD Thesis, University of Wuppertal, January 2023'</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Fabian Küppers</name>
+    </author>
+  </entry>
+</feed>

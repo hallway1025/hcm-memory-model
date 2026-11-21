@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uzXMSFV0VQEJuWQiWgsmQByindk</id>
+  <title>arXiv Query: search_query=all:Rethinking AND all:Memory AND all:LLM AND all:based AND all:Agents AND submittedDate:"202501010000 TO 202612312359"&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2026-11-07T11:46:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Rethinking+AND+(all:Memory+AND+(all:LLM+AND+(all:based+AND+(all:Agents+AND+submittedDate:%22202501010000+TO+202612312359%22))))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>9</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.00675v3</id>
+    <title>Rethinking Memory in LLM based Agents: Representations, Operations, and Emerging Topics</title>
+    <updated>2025-12-24T15:24:04Z</updated>
+    <link href="https://arxiv.org/abs/2505.00675v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.00675v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory is fundamental to large language model (LLM)-based agents, but existing surveys emphasize application-level use (e.g., personalized dialogue), while overlooking the atomic operations governing memory dynamics. This work categorizes memory into parametric (implicit in model weights) and contextual (explicit external data, structured/unstructured) forms, and defines six core operations: Consolidation, Updating, Indexing, Forgetting, Retrieval, and Condensation. Mapping these dimensions reveals four key research topics: long-term, long-context, parametric modification, and multi-source memory. The taxonomy provides a structured view of memory-related research, benchmarks, and tools, clarifying functional interactions in LLM-based agents and guiding future advancements. The datasets, papers, and tools are publicly available at https://github.com/Elvin-Yiming-Du/Survey_Memory_in_AI.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-01T17:31:33Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yiming Du</name>
+    </author>
+    <author>
+      <name>Wenyu Huang</name>
+    </author>
+    <author>
+      <name>Danna Zheng</name>
+    </author>
+    <author>
+      <name>Zhaowei Wang</name>
+    </author>
+    <author>
+      <name>Sebastien Montella</name>
+    </author>
+    <author>
+      <name>Mirella Lapata</name>
+    </author>
+    <author>
+      <name>Kam-Fai Wong</name>
+    </author>
+    <author>
+      <name>Jeff Z. Pan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.16045v1</id>
+    <title>RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents</title>
+    <updated>2026-05-15T15:17:36Z</updated>
+    <link href="https://arxiv.org/abs/2605.16045v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.16045v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory systems often organize user-agent interactions as retrievable external memory and are crucial for long-running agents by overcoming the limited context windows of LLMs. However, existing memory systems invoke LLMs to process every incoming interaction for memory extraction, and such an eager memory consolidation scheme leads to substantial token consumption. To tackle this problem, we propose RecMem by rethinking when memory consolidation should be conducted. RecMem stores incoming interactions in a subconscious memory layer and encode them using lightweight embedding models for retrieval. LLMs are only invoked to extract episodic and semantic memory when sustained recurrence are observed for semantically similar interactions. Such recurrence-based consolidation works because these interactions correspond to a semantic cluster with rich information and thus are worth extraction and summarization. To improve accuracy, RecMem also incorporates a semantic refinement mechanism that recovers the fine-grained facts omitted by memory extraction. Experiments show that RecMem reduces the memory construction token cost of three SOTA memory systems by up to 87% while exceeding their accuracy.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-15T15:17:36Z</published>
+    <arxiv:comment>Accepted to ACL 2026 Findings</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zijie Dai</name>
+    </author>
+    <author>
+      <name>Shiyuan Deng</name>
+    </author>
+    <author>
+      <name>Sheng Guan</name>
+    </author>
+    <author>
+      <name>Yizhou Tian</name>
+    </author>
+    <author>
+      <name>Xin Yao</name>
+    </author>
+    <author>
+      <name>Xiao Yan</name>
+    </author>
+    <author>
+      <name>James Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.33226v1</id>
+    <title>Beyond Memory Construction: Rethinking Memory Access for LLM-based Conversational Agents</title>
+    <updated>2026-09-27T05:07:21Z</updated>
+    <link href="https://arxiv.org/abs/2609.33226v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.33226v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory is a core component of conversational agents, enabling coherent and context-aware behavior over long interactions. Recent approaches commonly rely on LLM-based memory construction, where raw interactions are rewritten into structured memory units and later retrieved via a RAG pipeline. While effective in controlled settings, we show that this paradigm breaks down in long-horizon, high-entropy conversations: memory construction becomes increasingly lossy and unstable as context length and information complexity grow, and incurs prohibitive cost due to repeated LLM invocation. To address these limitations, we propose Threader, a memory system that shifts the focus from memory construction to efficient, structure-aware access over raw interactions. Instead of rewriting interactions, Threader preserves them as first-class memory, organizes them into topic-coherent segments via lightweight incremental segmentation, and enables accurate retrieval through multi-view representation. At query time, it performs multi-signal retrieval that combines segment-level access with localized evidence matching, ensuring both completeness and coherence. Extensive experiments demonstrate that Threader consistently improves answer accuracy and evidence recall, while significantly reducing the memory construction overhead.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-27T05:07:21Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Donghua Cai</name>
+    </author>
+    <author>
+      <name>Yongheng Deng</name>
+    </author>
+    <author>
+      <name>Yifei Wang</name>
+    </author>
+    <author>
+      <name>Zijun Shen</name>
+    </author>
+    <author>
+      <name>Ju Ren</name>
+    </author>
+  </entry>
+</feed>

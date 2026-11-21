@@ -1,0 +1,105 @@
+{
+ "meta": {
+  "sess": "peer-01",
+  "N": 3000,
+  "judge": "obs_of (L-035 fixed)"
+ },
+ "arms": [
+  {
+   "arm": "A0_theta0",
+   "n_written": 2188,
+   "rows": [
+    {
+     "level": 0.3,
+     "n": 120,
+     "hit_new": 120,
+     "hit_old": 4,
+     "abstain": 0
+    },
+    {
+     "level": 0.5,
+     "n": 120,
+     "hit_new": 111,
+     "hit_old": 4,
+     "abstain": 0
+    }
+   ],
+   "synth_written": 2000,
+   "synth_old": 40,
+   "synth_new": 40,
+   "write_s": 127.6
+  },
+  {
+   "arm": "A1_develop",
+   "n_written": 2189,
+   "rows": [
+    {
+     "level": 0.3,
+     "n": 120,
+     "hit_new": 0,
+     "hit_old": 0,
+     "abstain": 0
+    },
+    {
+     "level": 0.5,
+     "n": 120,
+     "hit_new": 0,
+     "hit_old": 0,
+     "abstain": 0
+    }
+   ],
+   "synth_written": 2000,
+   "synth_old": 0,
+   "synth_new": 0,
+   "write_s": 121.4
+  },
+  {
+   "arm": "A2_develop_rel.2",
+   "n_written": 2190,
+   "rows": [
+    {
+     "level": 0.3,
+     "n": 120,
+     "hit_new": 0,
+     "hit_old": 0,
+     "abstain": 0
+    },
+    {
+     "level": 0.5,
+     "n": 120,
+     "hit_new": 0,
+     "hit_old": 0,
+     "abstain": 0
+    }
+   ],
+   "synth_written": 2000,
+   "synth_old": 0,
+   "synth_new": 0,
+   "write_s": 137.7
+  },
+  {
+   "arm": "A3_develop_k328",
+   "n_written": 2190,
+   "rows": [
+    {
+     "level": 0.3,
+     "n": 120,
+     "hit_new": 0,
+     "hit_old": 1,
+     "abstain": 0
+    },
+    {
+     "level": 0.5,
+     "n": 120,
+     "hit_new": 0,
+     "hit_old": 0,
+     "abstain": 0
+    }
+   ],
+   "synth_written": 2000,
+   "synth_old": 0,
+   "synth_new": 0,
+   "write_s": 164.7
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM"><PMID Version="1">25859189</PMID><DateCompleted><Year>2015</Year><Month>04</Month><Day>10</Day></DateCompleted><DateRevised><Year>2020</Year><Month>09</Month><Day>29</Day></DateRevised><Article PubModel="Electronic-eCollection"><Journal><ISSN IssnType="Print">1662-5137</ISSN><JournalIssue CitedMedium="Print"><Volume>9</Volume><PubDate><Year>2015</Year></PubDate></JournalIssue><Title>Frontiers in systems neuroscience</Title><ISOAbbreviation>Front Syst Neurosci</ISOAbbreviation></Journal><ArticleTitle>A computational model of pattern separation efficiency in the dentate gyrus with implications in schizophrenia.</ArticleTitle><Pagination><StartPage>42</StartPage><MedlinePgn>42</MedlinePgn></Pagination><ELocationID EIdType="pii" ValidYN="Y">42</ELocationID><ELocationID EIdType="doi" ValidYN="Y">10.3389/fnsys.2015.00042</ELocationID><Abstract><AbstractText>Information processing in the hippocampus begins by transferring spiking activity of the entorhinal cortex (EC) into the dentate gyrus (DG). Activity pattern in the EC is separated by the DG such that it plays an important role in hippocampal functions including memory. The structural and physiological parameters of these neural networks enable the hippocampus to be efficient in encoding a large number of inputs that animals receive and process in their life time. The neural encoding capacity of the DG depends on its single neurons encoding and pattern separation efficiency. In this study, encoding by the DG is modeled such that single neurons and pattern separation efficiency are measured using simulations of different parameter values. For this purpose, a probabilistic model of single neurons efficiency is presented to study the role of structural and physiological parameters. Known neurons number of the EC and the DG is used to construct a neural network by electrophysiological features of granule cells of the DG. Separated inputs as activated neurons in the EC with different firing probabilities are presented into the DG. For different connectivity rates between the EC and DG, pattern separation efficiency of the DG is measured. The results show that in the absence of feedback inhibition on the DG neurons, the DG demonstrates low separation efficiency and high firing frequency. Feedback inhibition can increase separation efficiency while resulting in very low single neuron's encoding efficiency in the DG and very low firing frequency of neurons in the DG (sparse spiking). This work presents a mechanistic explanation for experimental observations in the hippocampus, in combination with theoretical measures. Moreover, the model predicts a critical role for impaired inhibitory neurons in schizophrenia where deficiency in pattern separation of the DG has been observed.</AbstractText></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Faghihi</LastName><ForeName>Faramarz</ForeName><Initials>F</Initials><AffiliationInfo><Affiliation>Center for Neural Informatics, Structures, and Plasticity, Krasnow Institute for Advanced Study, George Mason University Fairfax, VA, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Moustafa</LastName><ForeName>Ahmed A</ForeName><Initials>AA</Initials><AffiliationInfo><Affiliation>Department of Veterans Affairs, VA New Jersey Health Care System East Orange, NJ, USA ; School of Social Sciences and Psychology and Marcs Institute for Brain and Behaviour, University of Western Sydney Sydney NSW, Australia.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType="Electronic"><Year>2015</Year><Month>03</Month><Day>25</Day></ArticleDate></Article><MedlineJournalInfo><Country>Switzerland</Country><MedlineTA>Front Syst Neurosci</MedlineTA><NlmUniqueID>101477946</NlmUniqueID><ISSNLinking>1662-5137</ISSNLinking></MedlineJournalInfo><KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">connectivity rate</Keyword><Keyword MajorTopicYN="N">dentate gyrus</Keyword><Keyword MajorTopicYN="N">entorhinal cortex</Keyword><Keyword MajorTopicYN="N">feedback inhibition</Keyword><Keyword MajorTopicYN="N">mutual information</Keyword><Keyword MajorTopicYN="N">pattern separation</Keyword><Keyword MajorTopicYN="N">sparse coding</Keyword><Keyword MajorTopicYN="N">sparse spiking</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="received"><Year>2014</Year><Month>12</Month><Day>24</Day></PubMedPubDate><PubMedPubDate PubStatus="accepted"><Year>2015</Year><Month>3</Month><Day>5</Day></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2015</Year><Month>4</Month><Day>11</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2015</Year><Month>4</Month><Day>11</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="medline"><Year>2015</Year><Month>4</Month><Day>11</Day><Hour>6</Hour><Minute>1</Minute></PubMedPubDate><PubMedPubDate PubStatus="pmc-release"><Year>2015</Year><Month>1</Month><Day>1</Day></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">25859189</ArticleId><ArticleId IdType="pmc">PMC4373261</ArticleId><ArticleId IdType="doi">10.3389/fnsys.2015.00042</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Amaral D. G., Ishizuka N., Claiborne B. (1990). Chapter neurons, numbers and the hippocampal network.
+<i>Prog. Brain Res.</i>
+83
+1&#x2013;11
+10.1016/S0079-6123(08)61237-6</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0079-6123(08)61237-6</ArticleId><ArticleId IdType="pubmed">2203093</ArticleId></ArticleIdList></Reference><Reference><Citation>Bakker A., Kirwan C. B., Miller M., Stark C. E. (2008). Pattern separation in the human hippocampal CA3 and dentate gyrus.
+<i>Science</i>
+319
+1640&#x2013;1642
+10.1126/science.1152882</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1152882</ArticleId><ArticleId IdType="pmc">PMC2829853</ArticleId><ArticleId IdType="pubmed">18356518</ArticleId></ArticleIdList></Reference><Reference><Citation>Barres B. A., Silverstein B. E., Corey D. P., Chun L. L. (1988). Immunological, morphological, and electrophysiological variation among retinal ganglion cells purified by panning.
+<i>Neuron</i>
+1
+791&#x2013;803
+10.1016/0896-6273(88)90127-4</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/0896-6273(88)90127-4</ArticleId><ArticleId IdType="pubmed">2908449</ArticleId></ArticleIdList></Reference><Reference><Citation>Clayton N. S., Hen R. (2005). Neural circuits and behaviour: developmental and evolutionary perspectives.
+<i>Curr. Opin. Neurobiol.</i>
+15
+683&#x2013;685
+10.1016/j.conb.2005.10.007</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.conb.2005.10.007</ArticleId><ArticleId IdType="pubmed">16271456</ArticleId></ArticleIdList></Reference><Reference><Citation>D&#x2019;Amelio M., Rossini P. M. (2012). Brain excitability and connectivity of neuronal assemblies in Alzheimer&#x2019;s disease: from animal models to human findings.
+<i>Prog. Neurobiol.</i>
+99
+42&#x2013;60
+10.1016/j.pneurobio.2012.07.001</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.pneurobio.2012.07.001</ArticleId><ArticleId IdType="pubmed">22789698</ArticleId></ArticleIdList></Reference><Reference><Citation>Das T., Ivleva E. I., Wagner A. D., Stark C. E., Tamminga C. A. (2014). Loss of pattern separation performance in schizophrenia suggests dentate gyrus dysfunction.
+<i>Schizophr. Res.</i>
+159
+193&#x2013;197
+10.1016/j.schres.2014.05.006</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.schres.2014.05.006</ArticleId><ArticleId IdType="pmc">PMC4177293</ArticleId><ArticleId IdType="pubmed">25176349</ArticleId></ArticleIdList></Reference><Reference><Citation>Deco G., Sch&#xfc;rmann B. (1998). Stochastic resonance in the mutual information between input and output spike trains of noisy central neurons.
+<i>Physica D Nonlinear Phenomena</i>
+117
+276&#x2013;282
+10.1016/S0167-2789(97)00313-8</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0167-2789(97)00313-8</ArticleId></ArticleIdList></Reference><Reference><Citation>Derrick B. E. (2007). Plastic processes in the dentate gyrus: a computational perspective.
+<i>Prog. Brain Res.</i>
+163
+417&#x2013;451
+10.1016/S0079-6123(07)63024-6</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0079-6123(07)63024-6</ArticleId><ArticleId IdType="pubmed">17765732</ArticleId></ArticleIdList></Reference><Reference><Citation>Ebner M., Hameroff S. (2011). Lateral information processing by spiking neurons: a theoretical model of the neural correlate of consciousness.
+<i>Comput. Intell. Neurosci.</i>
+2011:11
+10.1155/2011/247879</Citation><ArticleIdList><ArticleId IdType="doi">10.1155/2011/247879</ArticleId><ArticleId IdType="pmc">PMC3199212</ArticleId><ArticleId IdType="pubmed">22046178</ArticleId></ArticleIdList></Reference><Reference><Citation>English D. F., Peyrache A., Stark E., Roux L., Vallentin D., Long M. A., et al.  (2014). Excitation and inhibition compete to control spiking during hippocampal ripples: intracellular study in behaving mice.
+<i>J. Neurosci.</i>
+34
+16509&#x2013;16517
+10.1523/JNEUROSCI.2600-14.2014</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.2600-14.2014</ArticleId><ArticleId IdType="pmc">PMC4252557</ArticleId><ArticleId IdType="pubmed">25471587</ArticleId></ArticleIdList></Reference><Reference><Citation>Faghihi F., Kolodziejski C., Fiala A., W&#xf6;rg&#xf6;tter F., Tetzlaff C. (2013). An information theoretic model of information processing in the <i>Drosophila</i> olfactory system: the role of inhibitory neurons for system efficiency.
+<i>Front. Comput. Neurosci.</i>
+7:183
+10.3389/fncom.2013.00183</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fncom.2013.00183</ArticleId><ArticleId IdType="pmc">PMC3868887</ArticleId><ArticleId IdType="pubmed">24391579</ArticleId></ArticleIdList></Reference><Reference><Citation>Faghihi F., Moustafa A. A. (2015). Impaired homeostatic regulation of feedback inhibition associated with system deficiency to detect fluctuation in stimulus intensity: a simulation study.
+<i>Neurocomputing</i>
+151
+1248&#x2013;1254
+10.1016/j.neucom.2014.11.008</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neucom.2014.11.008</ArticleId></ArticleIdList></Reference><Reference><Citation>Flores C. E., M&#xe9;ndez P. (2014). Shaping inhibition: activity dependent structural plasticity of GABAergic synapses.
+<i>Front. Cell. Neurosci.</i>
+8:327
+10.3389/fncel.2014.00327</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fncel.2014.00327</ArticleId><ArticleId IdType="pmc">PMC4209871</ArticleId><ArticleId IdType="pubmed">25386117</ArticleId></ArticleIdList></Reference><Reference><Citation>Gilbert P. E., Kesner R. P., DeCoteau W. E. (1998). Memory for spatial location: role of the hippocampus in mediating spatial pattern separation.
+<i>J. Neurosci.</i>
+18
+804&#x2013;810.</Citation><ArticleIdList><ArticleId IdType="pmc">PMC6792543</ArticleId><ArticleId IdType="pubmed">9425021</ArticleId></ArticleIdList></Reference><Reference><Citation>Gilbert P. E., Kesner R. P., Lee I. (2001). Dissociating hippocampal subregions: a double dissociation between dentate gyrus and CA1.
+<i>Hippocampus</i>
+11
+626&#x2013;636
+10.1002/hipo.1077</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.1077</ArticleId><ArticleId IdType="pubmed">11811656</ArticleId></ArticleIdList></Reference><Reference><Citation>Gold A. E., Kesner R. P. (2005). The role of the CA3 subregion of the dorsal hippocampus in spatial pattern completion in the rat.
+<i>Hippocampus</i>
+15
+808&#x2013;814
+10.1002/hipo.20103</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.20103</ArticleId><ArticleId IdType="pubmed">16010664</ArticleId></ArticleIdList></Reference><Reference><Citation>Gould E., Tanapat P., Hastings N. B., Shors T. J. (1999). Neurogenesis in adulthood: a possible role in learning.
+<i>Trends Cogn. Sci.</i>
+3
+186&#x2013;192
+10.1016/S1364-6613(99)01310-8</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S1364-6613(99)01310-8</ArticleId><ArticleId IdType="pubmed">10322475</ArticleId></ArticleIdList></Reference><Reference><Citation>Griffen T. C., Maffei A. (2014). GABAergic synapses: their plasticity and role in sensory cortex.
+<i>Front. Cell. Neurosci.</i>
+8:91
+10.3389/fncel.2014.00091</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fncel.2014.00091</ArticleId><ArticleId IdType="pmc">PMC3972456</ArticleId><ArticleId IdType="pubmed">24723851</ArticleId></ArticleIdList></Reference><Reference><Citation>Gruart A., S&#xe1;nchez-Campusano R., Fern&#xe1;ndez-Guiz&#xe1;n A., Delgado-Garc&#xed;a J. M. (2014). A differential and timed contribution of identified hippocampal synapses to associative learning in mice.
+<i>Cereb. Cortex</i>
+10.1093/cercor/bhu054
+[Epub ahead of print].</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/bhu054</ArticleId><ArticleId IdType="pubmed">24654258</ArticleId></ArticleIdList></Reference><Reference><Citation>Gupta A., Vig L., Noelle D. C. (2012). A neurocomputational approach to automaticity in motor skill learning.
+<i>Biol. Inspired Cogn. Archit.</i>
+2
+1&#x2013;12
+10.1016/j.bica.2012.07.009</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.bica.2012.07.009</ArticleId></ArticleIdList></Reference><Reference><Citation>He Y., Chen Z., Gong G., Evans A. (2009). Neuronal networks in Alzheimer&#x2019;s disease.
+<i>Neuroscientist</i>
+15
+333&#x2013;350
+10.1177/1073858409334423</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/1073858409334423</ArticleId><ArticleId IdType="pubmed">19458383</ArticleId></ArticleIdList></Reference><Reference><Citation>Heisenberg M. (2003). Mushroom body memoir: from maps to models.
+<i>Nat. Rev. Neurosci.</i>
+4
+266&#x2013;275
+10.1038/nrn1074</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn1074</ArticleId><ArticleId IdType="pubmed">12671643</ArticleId></ArticleIdList></Reference><Reference><Citation>Jiao X., Zhu D., Wang R. (2015). &#x201c;Synchronization in neuronal population with phase response,&#x201d; in
+<i>Advances in Cognitive Neurodynamics (IV),</i>
+ed.
+Liljenstr&#xf6;m H. (Dordrecht: Springer; ), 259&#x2013;263.</Citation></Reference><Reference><Citation>Konradi C., Yang C. K., Zimmerman E. I., Lohmann K. M., Gresch P., Pantazopoulos H., et al.  (2011). Hippocampal interneurons are abnormal in schizophrenia.
+<i>Schizophr. Res.</i>
+131
+165&#x2013;173
+10.1016/j.schres.2011.06.007</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.schres.2011.06.007</ArticleId><ArticleId IdType="pmc">PMC3159834</ArticleId><ArticleId IdType="pubmed">21745723</ArticleId></ArticleIdList></Reference><Reference><Citation>Lamprecht R., LeDoux J. (2004). Structural plasticity and memory.
+<i>Nat. Rev. Neurosci.</i>
+5
+45&#x2013;54
+10.1038/nrn1301</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn1301</ArticleId><ArticleId IdType="pubmed">14708003</ArticleId></ArticleIdList></Reference><Reference><Citation>Leutgeb J. K., Leutgeb S., Moser M. B., Moser E. I. (2007). Pattern separation in the dentate gyrus and CA3 of the hippocampus.
+<i>Science</i>
+315
+961&#x2013;966
+10.1126/science.1135801</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1135801</ArticleId><ArticleId IdType="pubmed">17303747</ArticleId></ArticleIdList></Reference><Reference><Citation>L&#xfc;bke J., Frotscher M., Spruston N. (1998). Specialized electrophysiological properties of anatomically identified neurons in the hilar region of the rat fascia dentata.
+<i>J. Neurophysiol.</i>
+79
+1518&#x2013;1534.</Citation><ArticleIdList><ArticleId IdType="pubmed">9497429</ArticleId></ArticleIdList></Reference><Reference><Citation>Marjovi A., Marques L. (2011). Multi-robot olfactory search in structured environments.
+<i>Rob. Auton. Syst.</i>
+59
+867&#x2013;881
+10.1016/j.robot.2011.07.010</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.robot.2011.07.010</ArticleId></ArticleIdList></Reference><Reference><Citation>Marr D. (1970). A theory for cerebral neocortex.
+<i>Pro. R. Soc. Lond. B Biol. Sci.</i>
+176
+161&#x2013;234
+10.1098/rspb.1970.0040</Citation><ArticleIdList><ArticleId IdType="doi">10.1098/rspb.1970.0040</ArticleId><ArticleId IdType="pubmed">4394740</ArticleId></ArticleIdList></Reference><Reference><Citation>Mitaim S., Kosko B. (2004). Adaptive stochastic resonance in noisy neurons based on mutual information.
+<i>IEEE Trans. Neural Netw.</i>
+15
+1526&#x2013;1540
+10.1109/TNN.2004.826218</Citation><ArticleIdList><ArticleId IdType="doi">10.1109/TNN.2004.826218</ArticleId><ArticleId IdType="pubmed">15565779</ArticleId></ArticleIdList></Reference><Reference><Citation>Myers C. E., Scharfman H. E. (2009). A role for hilar cells in pattern separation in the dentate gyrus: a computational approach.
+<i>Hippocampus</i>
+19
+321&#x2013;337
+10.1002/hipo.20516</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hipo.20516</ArticleId><ArticleId IdType="pmc">PMC2723776</ArticleId><ArticleId IdType="pubmed">18958849</ArticleId></ArticleIdList></Reference><Reference><Citation>Newman E. L., Hasselmo M. E. (2014). CA3 Sees the big picture while dentate gyrus splits hairs.
+<i>Neuron</i>
+81
+226&#x2013;228
+10.1016/j.neuron.2014.01.004</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2014.01.004</ArticleId><ArticleId IdType="pubmed">24462091</ArticleId></ArticleIdList></Reference><Reference><Citation>Nitz D., McNaughton B. (2004). Differential modulation of CA1 and dentate gyrus interneurons during exploration of novel environments.
+<i>J. Neurophysiol.</i>
+91
+863&#x2013;872
+10.1152/jn.00614.2003</Citation><ArticleIdList><ArticleId IdType="doi">10.1152/jn.00614.2003</ArticleId><ArticleId IdType="pubmed">14523073</ArticleId></ArticleIdList></Reference><Reference><Citation>Petrantonakis P. C., Poirazi P. (2014). A compressed sensing perspective of hippocampal function.
+<i>Front. Syst. Neurosci.</i>
+8:141
+10.3389/fnsys.2014.00141</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fnsys.2014.00141</ArticleId><ArticleId IdType="pmc">PMC4126371</ArticleId><ArticleId IdType="pubmed">25152718</ArticleId></ArticleIdList></Reference><Reference><Citation>Piatti V. C., Ewell L. A., Leutgeb J. K. (2013). Neurogenesis in the dentate gyrus: carrying the message or dictating the tone.
+<i>Front. Neurosci.</i>
+7:50
+10.3389/fnins.2013.00050</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fnins.2013.00050</ArticleId><ArticleId IdType="pmc">PMC3616253</ArticleId><ArticleId IdType="pubmed">23576950</ArticleId></ArticleIdList></Reference><Reference><Citation>Roudi Y., Nirenberg S., Latham P. E. (2009). Pairwise maximum entropy models for studying large biological systems: when they can work and when they can&#x2019;t.
+<i>PLoS Comput. Biol.</i>
+5:e1000380
+10.1371/journal.pcbi.1000380</Citation><ArticleIdList><ArticleId IdType="doi">10.1371/journal.pcbi.1000380</ArticleId><ArticleId IdType="pmc">PMC2674569</ArticleId><ArticleId IdType="pubmed">19424487</ArticleId></ArticleIdList></Reference><Reference><Citation>Roux L., Buzs&#xe1;ki G. (2014). Tasks for inhibitory interneurons in intact brain circuits.
+<i>Neuropharmacology</i>
+30:e14
+10.1016/j.neuropharm.2014.09.011</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuropharm.2014.09.011</ArticleId><ArticleId IdType="pmc">PMC4254329</ArticleId><ArticleId IdType="pubmed">25239808</ArticleId></ArticleIdList></Reference><Reference><Citation>Rowan M. (2012). Information-selectivity of beta-amyloid pathology in an associative memory model.
+<i>Front. Comput. Neurosci.</i>
+6:2
+10.3389/fncom.2012.00002</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fncom.2012.00002</ArticleId><ArticleId IdType="pmc">PMC3260488</ArticleId><ArticleId IdType="pubmed">22279434</ArticleId></ArticleIdList></Reference><Reference><Citation>Rozo L., Jim&#xe9;nez P., Torras C. (2013). A robot learning from demonstration framework to perform force-based manipulation tasks.
+<i>Intel. Serv. Robotics</i>
+6
+33&#x2013;51
+10.1007/s11370-012-0128-9</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11370-012-0128-9</ArticleId></ArticleIdList></Reference><Reference><Citation>Schmidt B., Marrone D. F., Markus E. J. (2012). Disambiguating the similar: the dentate gyrus and pattern separation.
+<i>Brain Res.</i>
+226
+56&#x2013;65
+10.1016/j.bbr.2011.08.039</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.bbr.2011.08.039</ArticleId><ArticleId IdType="pubmed">21907247</ArticleId></ArticleIdList></Reference><Reference><Citation>Sengupta B., Laughlin S. B., Niven J. E. (2013). Balanced excitatory and inhibitory synaptic currents promote efficient coding and metabolic efficiency.
+<i>PLoS Comput. Biol.</i>
+9:e1003263
+10.1371/journal.pcbi.1003263</Citation><ArticleIdList><ArticleId IdType="doi">10.1371/journal.pcbi.1003263</ArticleId><ArticleId IdType="pmc">PMC3789774</ArticleId><ArticleId IdType="pubmed">24098105</ArticleId></ArticleIdList></Reference><Reference><Citation>Seung H. S., S&#xfc;mb&#xfc;l U. (2014). Neuronal cell types and connectivity: lessons from the retina.
+<i>Neuron</i>
+83
+1262&#x2013;1272
+10.1016/j.neuron.2014.08.054</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2014.08.054</ArticleId><ArticleId IdType="pmc">PMC4206525</ArticleId><ArticleId IdType="pubmed">25233310</ArticleId></ArticleIdList></Reference><Reference><Citation>Song K., Liu Q., Wang Q. (2011). Olfaction and hearing based mobile robot navigation for odor/sound source search.
+<i>Sensors</i>
+11
+2129&#x2013;2154
+10.3390/s110202129</Citation><ArticleIdList><ArticleId IdType="doi">10.3390/s110202129</ArticleId><ArticleId IdType="pmc">PMC3274022</ArticleId><ArticleId IdType="pubmed">22319401</ArticleId></ArticleIdList></Reference><Reference><Citation>Spalding K. L., Bergmann O., Alkass K., Bernard S., Salehpour M., Huttner H. B., et al.  (2013). Dynamics of hippocampal neurogenesis in adult humans.
+<i>Cell</i>
+153
+1219&#x2013;1227
+10.1016/j.cell.2013.05.002</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cell.2013.05.002</ArticleId><ArticleId IdType="pmc">PMC4394608</ArticleId><ArticleId IdType="pubmed">23746839</ArticleId></ArticleIdList></Reference><Reference><Citation>Stramandinoli F., Marocco D., Cangelosi A. (2012). The grounding of higher order concepts in action and language: a cognitive robotics model.
+<i>Neural Netw.</i>
+32
+165&#x2013;173
+10.1016/j.neunet.2012.02.012</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neunet.2012.02.012</ArticleId><ArticleId IdType="pubmed">22386502</ArticleId></ArticleIdList></Reference><Reference><Citation>Tamminga C. A., Stan A. D., Wagner A. D. (2010). The hippocampal formation in schizophrenia.
+<i>Am. J. Psychiatry</i>
+167
+1178&#x2013;1193
+10.1176/appi.ajp.2010.09081187</Citation><ArticleIdList><ArticleId IdType="doi">10.1176/appi.ajp.2010.09081187</ArticleId><ArticleId IdType="pubmed">20810471</ArticleId></ArticleIdList></Reference><Reference><Citation>vanSteveninck R. R. D. R., Lewen G. D., Strong S. P., Koberle R., Bialek W. (1997). Reproducibility and variability in neural spike trains.
+<i>Science</i>
+275
+1805&#x2013;1808
+10.1126/science.275.5307.1805</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.275.5307.1805</ArticleId><ArticleId IdType="pubmed">9065407</ArticleId></ArticleIdList></Reference><Reference><Citation>Van Strien N. M., Cappaert N. L. M., Witter M. P. (2009). The anatomy of memory: an interactive overview of the parahippocampal&#x2013;hippocampal network.
+<i>Nat. Rev. Neurosci.</i>
+10
+272&#x2013;282
+10.1038/nrn2614</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn2614</ArticleId><ArticleId IdType="pubmed">19300446</ArticleId></ArticleIdList></Reference><Reference><Citation>Vega-Flores G., Gruart A., Delgado-Garc&#xed;a J. M. (2014). Involvement of the GABAergicsepto-hippocampal pathway in brain stimulation reward.
+<i>PLoS ONE</i>
+9:e113787
+10.1371/journal.pone.0113787</Citation><ArticleIdList><ArticleId IdType="doi">10.1371/journal.pone.0113787</ArticleId><ArticleId IdType="pmc">PMC4263242</ArticleId><ArticleId IdType="pubmed">25415445</ArticleId></ArticleIdList></Reference><Reference><Citation>Wang L., Maffei A. (2014). Inhibitory plasticity dictates the sign of plasticity at excitatory synapses.
+<i>J. Neurosci.</i>
+34
+1083&#x2013;1093
+10.1523/JNEUROSCI.4711-13.2014</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.4711-13.2014</ArticleId><ArticleId IdType="pmc">PMC3898280</ArticleId><ArticleId IdType="pubmed">24453301</ArticleId></ArticleIdList></Reference><Reference><Citation>Wilbrecht L., Shohamy D. (2009). Neural circuits can bridge systems and cognitive neuroscience.
+<i>Front. Hum. Neurosci.</i>
+3:81
+10.3389/neuro.09.081.2009</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/neuro.09.081.2009</ArticleId><ArticleId IdType="pmc">PMC2814556</ArticleId><ArticleId IdType="pubmed">20126435</ArticleId></ArticleIdList></Reference><Reference><Citation>Yassa M. A., Stark C. E. (2011). Pattern separation in the hippocampus.
+<i>Trends Neurosci.</i>
+34
+515&#x2013;525
+10.1016/j.tins.2011.06.006</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tins.2011.06.006</ArticleId><ArticleId IdType="pmc">PMC3183227</ArticleId><ArticleId IdType="pubmed">21788086</ArticleId></ArticleIdList></Reference><Reference><Citation>Yeckel M. F., Berger T. W. (1990). Feedforward excitation of the hippocampus by afferents from the entorhinal cortex: redefinition of the role of the trisynaptic pathway.
+<i>Proc. Natl. Acad. Sci. U.S.A.</i>
+87
+5832&#x2013;5836
+10.1073/pnas.87.15.5832</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.87.15.5832</ArticleId><ArticleId IdType="pmc">PMC54422</ArticleId><ArticleId IdType="pubmed">2377621</ArticleId></ArticleIdList></Reference><Reference><Citation>Yue S., Rind F. C., Keil M. S., Cuadri J., Stafford R. (2006). A bio-inspired visual collision detection mechanism for cars: optimization of a model of a locust neuron to a novel environment.
+<i>Neurocomputing</i>
+69
+1591&#x2013;1598
+10.1016/j.neucom.2005.06.017</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neucom.2005.06.017</ArticleId></ArticleIdList></Reference><Reference><Citation>Zawadzki K., Feenders C., Viana M. P., Kaiser M., Costa L. D. F. (2012). Morphological homogeneity of neurons: searching for outlier neuronal cells.
+<i>Neuroinformatics</i>
+10
+379&#x2013;389
+10.1007/s12021-012-9150-5</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s12021-012-9150-5</ArticleId><ArticleId IdType="pubmed">22615032</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>

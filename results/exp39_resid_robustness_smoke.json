@@ -1,0 +1,49 @@
+{
+ "config": {
+  "session": "peer-02",
+  "probes": 30,
+  "deg": 0.3,
+  "beta_probe": 100.0,
+  "L": 3,
+  "judge": "obs_of (L-035)",
+  "smoke": true
+ },
+ "part_a": [
+  {
+   "enc": "R512",
+   "a": 0.02,
+   "N": 1000,
+   "hit_on": 14,
+   "hit_off": 14,
+   "written_on": 984,
+   "written_off": 748,
+   "n_probes": 30,
+   "advantage": 0
+  },
+  {
+   "enc": "S256",
+   "a": 0.02,
+   "N": 1000,
+   "hit_on": 13,
+   "hit_off": 13,
+   "written_on": 982,
+   "written_off": 856,
+   "n_probes": 30,
+   "advantage": 0
+  }
+ ],
+ "part_b": [
+  {
+   "enc": "R512",
+   "N": 1000,
+   "written": 748,
+   "curve": {
+    "b20": 14,
+    "b100": 14
+   },
+   "beta_star": 0.0
+  }
+ ],
+ "gates": {},
+ "elapsed_s": 91.0
+}

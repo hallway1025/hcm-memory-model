@@ -1,0 +1,60 @@
+# ===== 内部工作记录（不进公开仓库）=====
+memory/
+_scratch/
+_local_staging/
+_*.log
+_repro_run*.log
+
+# ===== 投稿材料（含通讯邮箱、封面信、审稿人建议等，不进公开仓库）=====
+paper/submission/
+
+# ===== 第三方与缓存 =====
+.venv/
+.venv-repro/
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+.pytest_cache/
+.mypy_cache/
+site-packages/
+
+# ===== 语料原件（隐私，不进公开仓库；仓库内只留代号化后的 csv）=====
+bench/corpus_raw/
+bench/corpus_private/
+
+# ===== 系统杂项 =====
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ===== 误创建的系统路径与临时缓存（防复发）=====
+%SystemDrive%/
+_cache_bak/
+_cache_polluted_bak/
+_repro_run*.log
+
+# ===== 真实聊天语料（含真实姓名/手机号/私人内容，绝不公开）=====
+bench/corpus/
+bench/corpus_oldcorpus/
+bench/corpus_public/
+bench/corpus_raw/
+
+# ===== 凭据类文件（防误提交，L-383）=====
+*cred*
+*token*
+*secret*
+.env*
+id_rsa*
+id_ed25519*
+*.pem
+*.key
+Users*.git-cred*
+
+# ad-hoc debug scripts
+_listpy.ps1
+_smoke*.py
+
+# 备份文件
+*.bak
+*.bak_*

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uBNAMgPJNh6gFgTva3xX+H5SglA</id>
+  <title>arXiv Query: search_query=&amp;id_list=1904.07734&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:31:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=1904.07734" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1904.07734v1</id>
+    <title>Three scenarios for continual learning</title>
+    <updated>2019-04-15T12:22:36Z</updated>
+    <link href="https://arxiv.org/abs/1904.07734v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.07734v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Standard artificial neural networks suffer from the well-known issue of catastrophic forgetting, making continual or lifelong learning difficult for machine learning. In recent years, numerous methods have been proposed for continual learning, but due to differences in evaluation protocols it is difficult to directly compare their performance. To enable more structured comparisons, we describe three continual learning scenarios based on whether at test time task identity is provided and--in case it is not--whether it must be inferred. Any sequence of well-defined tasks can be performed according to each scenario. Using the split and permuted MNIST task protocols, for each scenario we carry out an extensive comparison of recently proposed continual learning methods. We demonstrate substantial differences between the three scenarios in terms of difficulty and in terms of how efficient different methods are. In particular, when task identity must be inferred (i.e., class incremental learning), we find that regularization-based approaches (e.g., elastic weight consolidation) fail and that replaying representations of previous experiences seems required for solving this scenario.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-15T12:22:36Z</published>
+    <arxiv:comment>Extended version of work presented at the NeurIPS Continual Learning workshop (2018); 18 pages, 5 figures, 6 tables. Related to arXiv:1809.10635</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Gido M. van de Ven</name>
+    </author>
+    <author>
+      <name>Andreas S. Tolias</name>
+    </author>
+  </entry>
+</feed>

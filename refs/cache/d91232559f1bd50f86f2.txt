@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4hOWh5k3UbQhxXPmrzTOg56oG2A</id>
+  <title>arXiv Query: search_query=all:activity AND all:silent AND all:memory&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T13:51:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:activity+AND+(all:silent+AND+all:memory)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>34</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.14000v1</id>
+    <title>Activity Regeneration from Silent States in Neuronal Networks with Transient Synaptic Memory</title>
+    <updated>2026-07-15T16:28:51Z</updated>
+    <link href="https://arxiv.org/abs/2607.14000v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.14000v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transient synaptic memory has emerged as a potential mechanism for maintaining short-term information even in the absence of persistent neuronal activity. However, it remains unclear whether the hidden synaptic state alone contains sufficient information to predict the future evolution of neuronal networks after activity has ceased. Here, we introduce a minimal neuronal network model with finite-lifetime synapses and investigate the mechanism underlying spontaneous activity regeneration following complete neuronal silence. We show that the residual synaptic configuration at the first silent state already determines whether network activity terminates after a single activation cycle or spontaneously regenerates an additional cycle. By analyzing this synaptic-memory snapshot, we identify the Latent Excitatory Recruitment (LER) capacity, quantified by the cumulative number of fresh excitatory neurons, as a near-perfect predictor of multi-cycle dynamics without continuing the subsequent network simulation. Remarkably, these distinct dynamical outcomes emerge in an otherwise homogeneous neuronal network, demonstrating that transient synaptic memory alone is sufficient to generate diverse future dynamics. Our findings provide a mechanistic explanation for activity regeneration from a residual synaptic state and suggest that short-term memory is encoded not only in ongoing neuronal activity but also in the latent synaptic configuration that preserves the network's capacity to recruit new neuronal assemblies. More broadly, the proposed snapshot-based framework offers a new perspective for predicting and potentially controlling the future evolution of neuronal networks.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-15T16:28:51Z</published>
+    <arxiv:comment>16 pages, 8 figures. Source code and representative datasets are available on GitHub</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Mozhgan Khanjanianpak</name>
+    </author>
+    <author>
+      <name>Alireza Valiadeh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.05899v1</id>
+    <title>Brain-inspired continual pre-trained learner via silent synaptic consolidation</title>
+    <updated>2024-10-08T10:56:19Z</updated>
+    <link href="https://arxiv.org/abs/2410.05899v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.05899v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pre-trained models have demonstrated impressive generalization capabilities, yet they remain vulnerable to catastrophic forgetting when incrementally trained on new tasks. Existing architecture-based strategies encounter two primary challenges: 1) Integrating a pre-trained network with a trainable sub-network complicates the delicate balance between learning plasticity and memory stability across evolving tasks during learning. 2) The absence of robust interconnections between pre-trained networks and various sub-networks limits the effective retrieval of pertinent information during inference. In this study, we introduce the Artsy, inspired by the activation mechanisms of silent synapses via spike-timing-dependent plasticity observed in mature brains, to enhance the continual learning capabilities of pre-trained models. The Artsy integrates two key components: During training, the Artsy mimics mature brain dynamics by maintaining memory stability for previously learned knowledge within the pre-trained network while simultaneously promoting learning plasticity in task-specific sub-networks. During inference, artificial silent and functional synapses are utilized to establish precise connections between the pre-synaptic neurons in the pre-trained network and the post-synaptic neurons in the sub-networks, facilitated through synaptic consolidation, thereby enabling effective extraction of relevant information from test samples. Comprehensive experimental evaluations reveal that our model significantly outperforms conventional methods on class-incremental learning tasks, while also providing enhanced biological interpretability for architecture-based approaches. Moreover, we propose that the Artsy offers a promising avenue for simulating biological synaptic mechanisms, potentially advancing our understanding of neural plasticity in both artificial and biological systems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-08T10:56:19Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xuming Ran</name>
+    </author>
+    <author>
+      <name>Juntao Yao</name>
+    </author>
+    <author>
+      <name>Yusong Wang</name>
+    </author>
+    <author>
+      <name>Mingkun Xu</name>
+    </author>
+    <author>
+      <name>Dianbo Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.08747v2</id>
+    <title>Silent Until Sparse: Backdoor Attacks on Semi-Structured Sparsity</title>
+    <updated>2026-02-24T19:36:17Z</updated>
+    <link href="https://arxiv.org/abs/2509.08747v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.08747v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Semi-structured (2:4) sparsity is a widely adopted pruning method in modern hardware and software ecosystems (e.g., NVIDIA Sparse Tensor Cores and PyTorch), achieving up to 2X faster inference and reduced memory footprint with negligible accuracy loss. It removes two out of every four contiguous weights, using permutations to ensure the largest-magnitude weights are retained. In this work, we show that this predictable mechanism can be exploited to design Silent Until Sparse (SUS), a novel compression-activated backdoor attack tailored to the 2:4 sparsity regime. SUS employs a two-phase training procedure that modifies (i) the weights that will be retained after pruning to embed the backdoor, and (ii) the weights that will be pruned to hide it in the dense model. SUS also provides formal guarantees that the attack will be successfully activated after sparsification. Experiments show that SUS is largely effective against semi-structured sparsification across both hardware-accelerated and software pipelines, outperforming existing compression-aware backdoor attacks, bypassing standard defenses, and even being robust to user-side fine-tuning.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-03T14:37:58Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Wei Guo</name>
+    </author>
+    <author>
+      <name>Fabio Brau</name>
+    </author>
+    <author>
+      <name>Maura Pintor</name>
+    </author>
+    <author>
+      <name>Ambra Demontis</name>
+    </author>
+    <author>
+      <name>Battista Biggio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.12139v1</id>
+    <title>Complex transitions between spiking, bursting and silent regimes in a new memristive Rulkov neuronal model</title>
+    <updated>2026-01-17T18:57:12Z</updated>
+    <link href="https://arxiv.org/abs/2601.12139v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.12139v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Rulkov model, which simulates the behavior of biological neurons, is modified by replacing one of its control parameters with a memristive, sigmoid-type function of finite memory. This modification causes the parameter to vary according to the system's history throughout the simulation. Previous works usually modify the Rulkov model by introducing additional parameters altering its behavior. Here, by contrast, we retain the original equations and allow the control parameters to vary in time, thereby preserving the model's fundamental properties. In this sense, the proposed model is locally equivalent in time to the original one. However, unlike the original model, which reproduces a single neuronal regime per simulation, the new memristive version exhibits both uniform and chaotic transitions among multiple neuronal activity regimes. Its dynamics are examined with respect to the rate at which the memristive function changes and the number of internal states it stores. Three distinct scenarios emerge around a bifurcation point. Before the bifurcation, the system undergoes uniform transitions toward a stable bursting regime. After the bifurcation, it shows uniform transitions toward a final spiking or silent regime. At the bifurcation point, highly complex transitions arise. As examples, we present trajectories in which the neuron chaotically switches between regimes without ever settling, and trajectories for which it requires around 140000 map iterations to reach a stationary regime.</summary>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-17T18:57:12Z</published>
+    <arxiv:comment>18 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="nlin.CD"/>
+    <arxiv:journal_ref>Chaos, Solitons &amp; Fractals, Vol. 206 (2026) 117928</arxiv:journal_ref>
+    <author>
+      <name>Miguel Moreno</name>
+    </author>
+    <author>
+      <name>Alexandre R. Nieto</name>
+    </author>
+    <author>
+      <name>Miguel A. F. Sanjuán</name>
+    </author>
+    <arxiv:doi>10.1016/j.chaos.2026.117928</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.chaos.2026.117928" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.06626v1</id>
+    <title>Hebbian fast plasticity and working memory</title>
+    <updated>2023-04-13T15:53:09Z</updated>
+    <link href="https://arxiv.org/abs/2304.06626v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.06626v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Theories and models of working memory (WM) were at least since the mid-1990s dominated by the persistent activity hypothesis. The past decade has seen rising concerns about the shortcomings of sustained activity as the mechanism for short-term maintenance of WM information in the light of accumulating experimental evidence for so-called activity-silent WM and the fundamental difficulty in explaining robust multi-item WM. In consequence, alternative theories are now explored mostly in the direction of fast synaptic plasticity as the underlying mechanism.The question of non-Hebbian vs Hebbian synaptic plasticity emerges naturally in this context. In this review we focus on fast Hebbian plasticity and trace the origins of WM theories and models building on this form of associative learning.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-13T15:53:09Z</published>
+    <arxiv:comment>12 pages, 2 figures, 1 box, submitted</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Anders Lansner</name>
+    </author>
+    <author>
+      <name>Florian Fiebig</name>
+    </author>
+    <author>
+      <name>Pawel Herman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.03354v3</id>
+    <title>What Happens Inside Agent Memory? Circuit Analysis from Emergence to Diagnosis</title>
+    <updated>2026-09-27T07:45:09Z</updated>
+    <link href="https://arxiv.org/abs/2605.03354v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.03354v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agent memory failures are silent: an LLM-based agent can produce a fluent response even when it fails to extract, retain, or retrieve the information needed across sessions. The write-manage-read loop describes the external pipeline of these systems but leaves open which internal computations implement each stage. We trace feature circuits across the Qwen-3 family (0.6B--14B), two memory frameworks (mem0, A-MEM), and a matched Gemma-3 replication, reporting two mechanistic findings plus one deliverable. First, under mem0, control is detectable before content. Routing circuitry is causally active at 0.6B, while content circuitry produces no detectable signal until 4B. Gemma-3 reproduces the same order at 1B and 4B. Small models therefore route memory decisions before they can reliably extract or ground the underlying facts. Second, the shared hub is recruited, not created. Write and Read converge on a late-layer hub that already exists in the base model as a context-grounding substrate, on which memory framing recruits a memory-specific functional direction. The hub and the early routing circuit carry over to A-MEM, indicating that these computations belong to the base model rather than to a particular interface. Building on this circuit structure, we develop an unsupervised stage-level diagnostic that localizes silent failures to the responsible operation at 76.2% accuracy. It outperforms a strong LLM trace judge by 3.1 points as well as a supervised hidden-state probe by 8.8 points. Together, these results establish circuit-level signatures as a practical handle for monitoring agent memory and guiding its structural design.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-05T04:17:22Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xutao Mao</name>
+    </author>
+    <author>
+      <name>Jinman Zhao</name>
+    </author>
+    <author>
+      <name>Gerald Penn</name>
+    </author>
+    <author>
+      <name>Cong Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.08716v1</id>
+    <title>Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents</title>
+    <updated>2026-07-09T17:26:28Z</updated>
+    <link href="https://arxiv.org/abs/2607.08716v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.08716v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context window or pushed beyond it, failing to influence decisions when needed. We call this failure mode "behavioral state decay". We study memory as an active intervention mechanism rather than passive retrieval. A separate memory agent runs alongside an unmodified action agent, updating a structured memory bank from the recent trajectory and deciding whether to inject a memory-grounded reminder or remain silent. The module is plug-and-play with frontier action agents and existing agent harnesses. Across Terminal-Bench 2.0 and $τ^2$-Bench, it improves pass@1 for both weaker and stronger action agents, with gains of +8.3 pp on Terminal-Bench and +6.8 pp on $τ^2$-Bench. Ablations show that selective intervention outperforms passive bank exposure, always-on injection, advisor-only guidance, and general retrieval. As an early step toward open-weight memory policies, we train Qwen3.5-27B on SETA using SFT and GRPO, improving validation reward and achieving partial transfer to Terminal-Bench.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-09T17:26:28Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yifan Wu</name>
+    </author>
+    <author>
+      <name>Lizhu Zhang</name>
+    </author>
+    <author>
+      <name>Yuhang Zhou</name>
+    </author>
+    <author>
+      <name>Mingyi Wang</name>
+    </author>
+    <author>
+      <name>Bo Peng</name>
+    </author>
+    <author>
+      <name>Serena Li</name>
+    </author>
+    <author>
+      <name>Xiangjun Fan</name>
+    </author>
+    <author>
+      <name>Zhuokai Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.13257v3</id>
+    <title>Modeling Higher-Order Interactions in Sparse and Heavy-Tailed Neural Population Activity</title>
+    <updated>2025-07-16T06:49:19Z</updated>
+    <link href="https://arxiv.org/abs/2308.13257v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.13257v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neurons process sensory stimuli efficiently, showing sparse yet highly variable ensemble spiking activity involving structured higher-order interactions. Notably, while neural populations are mostly silent, they occasionally exhibit highly synchronous activity, resulting in sparse and heavy-tailed spike-count distributions. However, its mechanistic origin - specifically, what types of nonlinear properties in individual neurons induce such population-level patterns - remains unclear. In this study, we derive sufficient conditions under which the joint activity of homogeneous binary neurons generates sparse and widespread population firing rate distributions in infinitely large networks. We then propose a subclass of exponential family distributions that satisfy this condition. This class incorporates structured higher-order interactions with alternating signs and shrinking magnitudes, along with a base-measure function that offsets distributional concentration, giving rise to parameter-dependent sparsity and heavy-tailed population firing rate distributions. Analysis of recurrent neural networks that recapitulate these distributions reveals that individual neurons possess threshold-like nonlinearity followed by supralinear activation that jointly facilitates sparse and synchronous population activity. These nonlinear features resemble those in modern Hopfield networks, suggesting a connection between widespread population activity and the network's memory capacity. The theory establishes sparse and heavy-tailed distributions for binary patterns, forming a foundation for developing energy-efficient spike-based learning machines.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-25T09:12:26Z</published>
+    <arxiv:comment>8 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Ulises Rodríguez-Domínguez</name>
+    </author>
+    <author>
+      <name>Hideaki Shimazaki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.19723v1</id>
+    <title>StreamSoccer: Event-Driven Memory for Streaming Soccer Commentary</title>
+    <updated>2026-08-20T07:19:29Z</updated>
+    <link href="https://arxiv.org/abs/2608.19723v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.19723v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Streaming video understanding requires models to causally update state as video arrives and organize growing history into semantic units that can evolve, persist, and be recalled under bounded computation and memory. This challenge is pronounced in live soccer commentary, where a system must describe completed events, summarize recent play, recall earlier events, or remain silent using only information available before each utterance. We present StreamSoccer, an event-driven system that uses event memory as its intermediate representation. A fixed-budget active memory integrates the stream; completed event states are retained locally and consolidated into retrievable historical records. A unified generator uses current, recent, and historical context to produce three commentary modes, while a rule-assisted scheduler selects a mode or silence. Unlike streaming video-language models organized around frames, visual tokens, or caches, and soccer-commentary methods based on predefined clips or output timestamps, StreamSoccer explicitly models event lifecycles. We construct a three-track streaming soccer commentary dataset and a layered evaluation protocol. At common reference anchors, StreamSoccer obtains CIDEr scores of 38.62, 23.96, and 17.39 for current-event, recent-window, and historical-memory commentary, ranking first on the current-event and historical-memory tracks and second on recent-window. Controlled ablations show that local completed events improve all tracks and that the full system performs best on all three. Across 174 raw-video runs on 58 matches, per-minute RTF p95 ranges from 0.10 to 0.22 without sustained growth with match history. These results indicate that event memory supports streaming soccer commentary across temporal scopes while controlling long-history computation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-20T07:19:29Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chenxi Shao</name>
+    </author>
+    <author>
+      <name>Bozhong Wang</name>
+    </author>
+    <author>
+      <name>Jiaxin Huang</name>
+    </author>
+    <author>
+      <name>Zhao Liu</name>
+    </author>
+    <author>
+      <name>Sunwei Zhu</name>
+    </author>
+    <author>
+      <name>Tianxin Hang</name>
+    </author>
+    <author>
+      <name>Gaoqi He</name>
+    </author>
+    <author>
+      <name>Yang Li</name>
+    </author>
+    <author>
+      <name>Changbo Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.10265v1</id>
+    <title>Stale, Misattributed, or Late: Where Personal Memory Fails Before Generation</title>
+    <updated>2026-10-07T15:37:12Z</updated>
+    <link href="https://arxiv.org/abs/2610.10265v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.10265v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Personal memory for language agents is usually judged by whether the final an- swer is correct. That score hides errors that arise before generation: the memory block may contain an obsolete value, a fact about the wrong person, or no use- ful fact before the serving deadline. We measure these failures directly. Using Personal Fact Memory (PFM) as a reference layer, we find that temporal validity is primarily a property of memory construction in our setting. On a controlled revision benchmark, serving only the active value of each correctly keyed slot eliminates observed stale exposure; without update resolution, 70.3% of prompts expose a superseded value. Once retrievers share the same active store and par- ticipant information, participant-aware BM25 is equivalent to the reference ranker within a prespecified 0.02 margin. The harder problem is assigning revisions to the right slot. Missed merges leave stale values active, whereas false merges silently remove current values; four LLM key assigners achieve higher key re- call than a rule extractor yet produce lower clean-retrieval rates, and open-domain merge recall on LongMemEval never exceeds 0.062. Misattribution survives va- lidity filtering: an entity posterior reduces same-name exposure on controlled data but cannot distinguish identically named speakers in LoCoMo. Two frozen lan- guage models reproduce prompt errors in generated text. Retrieval latency varies across rankers, but prompt prefill dominates turn-level latency on our hardware. These results argue for evaluating agent memory before generation, separating stored-state validity, identity resolution, abstention, and serving latency.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-07T15:37:12Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Haonan Deng</name>
+    </author>
+    <author>
+      <name>Park Sinchaisri</name>
+    </author>
+  </entry>
+</feed>

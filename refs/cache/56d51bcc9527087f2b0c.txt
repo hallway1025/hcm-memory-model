@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/K7P+xpO3M3LVA0v85/IDGn65C1w</id>
+  <title>arXiv Query: search_query=all:BM25 AND all:lexical AND all:retrieval&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T14:10:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:BM25+AND+(all:lexical+AND+all:retrieval)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>154</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.05662v2</id>
+    <title>Match Your Words! A Study of Lexical Matching in Neural Information Retrieval</title>
+    <updated>2021-12-13T08:28:05Z</updated>
+    <link href="https://arxiv.org/abs/2112.05662v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.05662v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural Information Retrieval models hold the promise to replace lexical matching models, e.g. BM25, in modern search engines. While their capabilities have fully shone on in-domain datasets like MS MARCO, they have recently been challenged on out-of-domain zero-shot settings (BEIR benchmark), questioning their actual generalization capabilities compared to bag-of-words approaches. Particularly, we wonder if these shortcomings could (partly) be the consequence of the inability of neural IR models to perform lexical matching off-the-shelf. In this work, we propose a measure of discrepancy between the lexical matching performed by any (neural) model and an 'ideal' one. Based on this, we study the behavior of different state-of-the-art neural IR models, focusing on whether they are able to perform lexical matching when it's actually useful, i.e. for important terms. Overall, we show that neural IR models fail to properly generalize term importance on out-of-domain collections or terms almost unseen during training</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-10T16:49:49Z</published>
+    <arxiv:comment>Accepted in the 44nd European Conference on Information Retrieval (ECIR'22), short paper track</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Thibault Formal</name>
+    </author>
+    <author>
+      <name>Benjamin Piwowarski</name>
+    </author>
+    <author>
+      <name>Stéphane Clinchant</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.13969v3</id>
+    <title>Complementing Lexical Retrieval with Semantic Residual Embedding</title>
+    <updated>2021-03-29T06:19:52Z</updated>
+    <link href="https://arxiv.org/abs/2004.13969v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.13969v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents CLEAR, a retrieval model that seeks to complement classical lexical exact-match models such as BM25 with semantic matching signals from a neural embedding matching model. CLEAR explicitly trains the neural embedding to encode language structures and semantics that lexical retrieval fails to capture with a novel residual-based embedding learning method. Empirical evaluations demonstrate the advantages of CLEAR over state-of-the-art retrieval models, and that it can substantially improve the end-to-end accuracy and efficiency of reranking pipelines.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-29T06:10:02Z</published>
+    <arxiv:comment>ECIR 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Luyu Gao</name>
+    </author>
+    <author>
+      <name>Zhuyun Dai</name>
+    </author>
+    <author>
+      <name>Tongfei Chen</name>
+    </author>
+    <author>
+      <name>Zhen Fan</name>
+    </author>
+    <author>
+      <name>Benjamin Van Durme</name>
+    </author>
+    <author>
+      <name>Jamie Callan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.10848v1</id>
+    <title>Rethinking Agentic Search with Pi-Serini: Is Lexical Retrieval Sufficient?</title>
+    <updated>2026-05-11T16:58:57Z</updated>
+    <link href="https://arxiv.org/abs/2605.10848v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.10848v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Does a lexical retriever suffice as large language models (LLMs) become more capable in an agentic loop? This question naturally arises when building deep research systems. We revisit it by pairing BM25 with frontier LLMs that have better reasoning and tool-use abilities. To support researchers asking the same question, we introduce Pi-Serini, a search agent equipped with three tools for retrieving, browsing, and reading documents. Our results show that, on BrowseComp-Plus, a well-configured lexical retriever with sufficient retrieval depth can support effective deep research when paired with more capable LLMs. Specifically, Pi-Serini with gpt-5.5 achieves 83.1% answer accuracy and 94.7% surfaced evidence recall, outperforming released search agents that use dense retrievers. Controlled ablations further show that BM25 tuning improves answer accuracy by 18.0% and surfaced evidence recall by 11.1% over the default BM25 setting, while increasing retrieval depth further improves surfaced evidence recall by 25.3% over the shallow-retrieval setting. Source code is available at https://github.com/justram/pi-serini.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-11T16:58:57Z</published>
+    <arxiv:comment>15 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Tz-Huan Hsu</name>
+    </author>
+    <author>
+      <name>Jheng-Hong Yang</name>
+    </author>
+    <author>
+      <name>Jimmy Lin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.07186v1</id>
+    <title>COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List</title>
+    <updated>2021-04-15T00:53:54Z</updated>
+    <link href="https://arxiv.org/abs/2104.07186v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.07186v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Classical information retrieval systems such as BM25 rely on exact lexical match and carry out search efficiently with inverted list index. Recent neural IR models shifts towards soft semantic matching all query document terms, but they lose the computation efficiency of exact match systems. This paper presents COIL, a contextualized exact match retrieval architecture that brings semantic lexical matching. COIL scoring is based on overlapping query document tokens' contextualized representations. The new architecture stores contextualized token representations in inverted lists, bringing together the efficiency of exact match and the representation power of deep language models. Our experimental results show COIL outperforms classical lexical retrievers and state-of-the-art deep LM retrievers with similar or smaller latency.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-15T00:53:54Z</published>
+    <arxiv:comment>NAACL 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Luyu Gao</name>
+    </author>
+    <author>
+      <name>Zhuyun Dai</name>
+    </author>
+    <author>
+      <name>Jamie Callan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.00452v1</id>
+    <title>CeQe: Grounding Lexical Retrieval in Semantic Evidence</title>
+    <updated>2026-08-01T05:27:20Z</updated>
+    <link href="https://arxiv.org/abs/2608.00452v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.00452v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Lexical retrieval (BM25) captures exact keyword matches and weights terms by corpus-wide significance, but it is blind to the semantic vocabulary gap: when a relevant document phrases an answer differently from the query, BM25 never retrieves it, and no amount of downstream reranking or fusion can recover a document that was never in the candidate set. We present Cross-Encoder Query Expansion (CE-QE), which reads the per-token relevance attributions of a cross-encoder applied to top semantic search results, selects the terms the cross-encoder treats as decisive, and appends them to the BM25 query. Unlike classical pseudo-relevance feedback, which reuses BM25's own (possibly wrong) top results, CE-QE seeds expansion from the semantic retriever's results, avoiding self-reinforcing query drift. Unlike recent generative query expansion (HyDE, Query2doc), which prompts a large language model to hallucinate text from its parametric knowledge, every CE-QE expansion term is copied verbatim from a retrieved passage, so it cannot introduce vocabulary the corpus does not contain, and its only added cost is attribution extraction on a cross-encoder a hybrid pipeline already runs for reranking. On seven BEIR datasets, CE-QE improves lexical recall substantially where query and answer vocabulary diverge (e.g., NQ Recall@100 from 0.32 to 0.47), and its score-fusion variant (SESF) beats cross-encoder score fusion by 2.5% on Recall@100 and beats SPLADEv2 and ColBERTv2 by 5.3% and 4.6% on nDCG@10, while leaving the underlying BM25 index completely unmodified.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-01T05:27:20Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Adam Kahirov</name>
+    </author>
+    <author>
+      <name>Umesh Deshpande</name>
+    </author>
+    <author>
+      <name>Swaminathan Sundararaman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.00229v1</id>
+    <title>Hierarchical BM25: Lexical Search at Billion-Document Scale</title>
+    <updated>2026-07-31T19:18:37Z</updated>
+    <link href="https://arxiv.org/abs/2608.00229v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.00229v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A flat BM25 index over one billion documents occupies about 400 GB. Holding it in memory requires DRAM proportional to corpus size. Serving it from disk takes 4-12 seconds per query. Exact top-k lexical retrieval at this scale is therefore impractical within an interactive latency budget.
+  Hierarchical BM25 gives up exact ranking in exchange for fixed bounds on memory and latency. A resident coarse index selects which of ~1K topical, size-balanced document groups a query visits, using two signals: the total frequency of each query term within a group, and, for informative terms spread too thinly across groups for frequency totals to reflect, whether several of them appear together in one document. Selected groups are then searched exhaustively and scored against ~100 KB of global statistics. Every returned score therefore equals the flat index's score, and the approximation is confined to selection alone. The resident footprint is ~4.4 GB, independent of corpus size. Sixteen-term queries over one billion documents return in ~300 ms (4.7x to 5.6x the throughput of a flat multi-threaded index), and a warmed cache sustains ~32 queries per second versus under 3 for flat indexing. At a 500K-document configuration, visiting 5-10% of clusters recovers 0.83-0.92 of the exhaustive result score. Billion-scale recall and a direct comparison against document-reordered BlockMax-WAND remain open.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-31T19:18:37Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Umesh Deshpande</name>
+    </author>
+    <author>
+      <name>Swaminathan Sundararaman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.12895v1</id>
+    <title>Assessing the Performance Gap Between Lexical and Semantic Models for Information Retrieval With Formulaic Legal Language</title>
+    <updated>2025-06-15T15:53:38Z</updated>
+    <link href="https://arxiv.org/abs/2506.12895v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.12895v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Legal passage retrieval is an important task that assists legal practitioners in the time-intensive process of finding relevant precedents to support legal arguments. This study investigates the task of retrieving legal passages or paragraphs from decisions of the Court of Justice of the European Union (CJEU), whose language is highly structured and formulaic, leading to repetitive patterns. Understanding when lexical or semantic models are more effective at handling the repetitive nature of legal language is key to developing retrieval systems that are more accurate, efficient, and transparent for specific legal domains. To this end, we explore when this routinized legal language is better suited for retrieval using methods that rely on lexical and statistical features, such as BM25, or dense retrieval models trained to capture semantic and contextual information. A qualitative and quantitative analysis with three complementary metrics shows that both lexical and dense models perform well in scenarios with more repetitive usage of language, whereas BM25 performs better than the dense models in more nuanced scenarios where repetition and verbatim~quotes are less prevalent and in longer queries. Our experiments also show that BM25 is a strong baseline, surpassing off-the-shelf dense models in 4 out of 7 performance metrics. However, fine-tuning a dense model on domain-specific data led to improved performance, surpassing BM25 in most metrics, and we analyze the effect of the amount of data used in fine-tuning on the model's performance and temporal robustness. The code, dataset and appendix related to this work are available on: https://github.com/larimo/lexsem-legal-ir.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-15T15:53:38Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Larissa Mori</name>
+    </author>
+    <author>
+      <name>Carlos Sousa de Oliveira</name>
+    </author>
+    <author>
+      <name>Yuehwern Yih</name>
+    </author>
+    <author>
+      <name>Mario Ventresca</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.08994v1</id>
+    <title>Guardian Crawler: Retrieval-First Knowledge Discovery with Bounded LLM Augmentation for Noisy Web Intelligence</title>
+    <updated>2026-08-10T01:28:11Z</updated>
+    <link href="https://arxiv.org/abs/2608.08994v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.08994v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieving relevant evidence from noisy web data is challenging, particularly in sensitive domains containing incomplete reports, heterogeneous language, and irrelevant content. We present Guardian Crawler, a reproducible retrieval-first testbed for controlled experiments on knowledge discovery and evidence-grounded summarization over synthetic web-like corpora. The architecture combines BM25 retrieval with risk-aware, embedding-augmented, and hybrid reranking, followed by constrained retrieval-augmented generation with explicit document citations. Experiments on a synthetic 900-document corpus and 10 queries produced the highest descriptive retrieval scores under risk-based reranking, with P@10 = 1.00 and NDCG@10 = 0.94, compared with 0.94 and 0.81 for BM25. The best hybrid and BM25+Semantic configurations reached NDCG@10 values of 0.94 and 0.88, respectively. All 41 evaluable generated bullets passed the lexical coverage threshold; an automated LLM judge classified 36 as supported, one as partially supported, and four as unsupported. These results demonstrate the feasibility of Guardian Crawler as a controlled testbed but do not establish statistical superiority, human-validated faithfulness, or transfer to live-web investigative environments.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-10T01:28:11Z</published>
+    <arxiv:comment>8 pages, 2 figures. Accepted as a Short Paper at KDIR 2026 (International Conference on Knowledge Discovery and Information Retrieval)</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Joshua Castillo</name>
+    </author>
+    <author>
+      <name>Santosh Nukavarapu</name>
+    </author>
+    <author>
+      <name>Ravi Mukkamala</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.05882v1</id>
+    <title>LexBoost: Improving Lexical Document Retrieval with Nearest Neighbors</title>
+    <updated>2024-08-25T18:11:37Z</updated>
+    <link href="https://arxiv.org/abs/2409.05882v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.05882v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sparse retrieval methods like BM25 are based on lexical overlap, focusing on the surface form of the terms that appear in the query and the document. The use of inverted indices in these methods leads to high retrieval efficiency. On the other hand, dense retrieval methods are based on learned dense vectors and, consequently, are effective but comparatively slow. Since sparse and dense methods approach problems differently and use complementary relevance signals, approximation methods were proposed to balance effectiveness and efficiency. For efficiency, approximation methods like HNSW are frequently used to approximate exhaustive dense retrieval. However, approximation techniques still exhibit considerably higher latency than sparse approaches. We propose LexBoost that first builds a network of dense neighbors (a corpus graph) using a dense retrieval approach while indexing. Then, during retrieval, we consider both a document's lexical relevance scores and its neighbors' scores to rank the documents. In LexBoost this remarkably simple application of the Cluster Hypothesis contributes to stronger ranking effectiveness while contributing little computational overhead (since the corpus graph is constructed offline). The method is robust across the number of neighbors considered, various fusion parameters for determining the scores, and different dataset construction methods. We also show that re-ranking on top of LexBoost outperforms traditional dense re-ranking and leads to results comparable with higher-latency exhaustive dense retrieval.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-25T18:11:37Z</published>
+    <arxiv:comment>ACM DocEng 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <arxiv:journal_ref>ACM Symposium on Document Engineering 2024 (DocEng '24), August 20-23, 2024, San Jose, CA, USA. ACM, New York, NY, USA</arxiv:journal_ref>
+    <author>
+      <name>Hrishikesh Kulkarni</name>
+    </author>
+    <author>
+      <name>Nazli Goharian</name>
+    </author>
+    <author>
+      <name>Ophir Frieder</name>
+    </author>
+    <author>
+      <name>Sean MacAvaney</name>
+    </author>
+    <arxiv:doi>10.1145/3685650.3685658</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3685650.3685658" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.04620v1</id>
+    <title>Passage Retrieval of Polish Texts Using OKAPI BM25 and an Ensemble of Cross Encoders</title>
+    <updated>2024-10-06T20:43:42Z</updated>
+    <link href="https://arxiv.org/abs/2410.04620v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.04620v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Passage Retrieval has traditionally relied on lexical methods like TF-IDF and BM25. Recently, some neural network models have surpassed these methods in performance. However, these models face challenges, such as the need for large annotated datasets and adapting to new domains. This paper presents a winning solution to the Poleval 2023 Task 3: Passage Retrieval challenge, which involves retrieving passages of Polish texts in three domains: trivia, legal, and customer support. However, only the trivia domain was used for training and development data. The method used the OKAPI BM25 algorithm to retrieve documents and an ensemble of publicly available multilingual Cross Encoders for Reranking. Fine-tuning the reranker models slightly improved performance but only in the training domain, while it worsened in other domains.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-06T20:43:42Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Proceedings of the 18th Conference on Computer Science and Intelligence Systems, M. Ganzha, L. Maciaszek, M. Paprzycki, D. Ślęzak (eds). ACSIS, Vol. 35, pages 1265-1269 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Jakub Pokrywka</name>
+    </author>
+    <arxiv:doi>10.15439/2023F9253</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.15439/2023F9253" title="doi"/>
+  </entry>
+</feed>

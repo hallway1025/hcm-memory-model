@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HksOty6rLgdVanAM0Np7xIPIMDw</id>
+  <title>arXiv Query: search_query=all:sleep AND all:replay AND all:consolidation AND all:model AND submittedDate:"202401010000 TO 202612312359"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:44:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:sleep+AND+(all:replay+AND+(all:consolidation+AND+(all:model+AND+submittedDate:%22202401010000+TO+202612312359%22)))&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2603.14517v1</id>
+    <title>Learning to Forget: Sleep-Inspired Memory Consolidation for Resolving Proactive Interference in Large Language Models</title>
+    <updated>2026-03-15T17:54:43Z</updated>
+    <link href="https://arxiv.org/abs/2603.14517v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.14517v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) suffer from proactive interference (PI): outdated information in the context window disrupts retrieval of current values. This interference degrades retrieval accuracy log-linearly as stale associations accumulate, a bottleneck that persists regardless of context length and resists prompt-engineering mitigations. Biological brains resolve an analogous challenge through sleep-dependent memory consolidation: synaptic downscaling, selective replay, and targeted forgetting. We propose SleepGate, a biologically inspired framework that augments transformer-based LLMs with a learned sleep cycle over the key-value (KV) cache. SleepGate introduces three mechanisms: (1) a conflict-aware temporal tagger detecting when new entries supersede old ones; (2) a lightweight forgetting gate trained to selectively evict or compress stale cache entries; and (3) a consolidation module that merges surviving entries into compact summaries. These components activate periodically during inference in sleep micro-cycles, governed by an adaptive entropy-based trigger. We formalize a dual-phase training objective jointly optimizing language modeling during the wake phase and post-consolidation retrieval during the sleep phase. Theoretical analysis shows SleepGate reduces the interference horizon from O(n) to O(log n). In experiments with a small-scale transformer (4 layers, 793K parameters), SleepGate achieves 99.5% retrieval accuracy at PI depth 5 and 97.0% at depth 10, while all five baselines -- full KV cache, sliding window, H2O, StreamingLLM, and decay-only ablation -- remain below 18%. Our framework offers an architecture-level solution that prompt engineering cannot address.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-15T17:54:43Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ying Xie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.03979v2</id>
+    <title>Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories</title>
+    <updated>2026-07-10T17:52:03Z</updated>
+    <link href="https://arxiv.org/abs/2606.03979v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.03979v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The past few decades have witnessed significant advances in the design of machine learning algorithms, from early studies on task-specific shallow models to more general deep Large Language Models (LLMs). Despite showing promising results in tasks that require instant prediction or in-context learning, existing models lack the ability to continually learn and effectively transfer their temporal in-context knowledge to their long-term parameters. Inspired by human learning process, we introduce a ''Sleep'' paradigm that allows the models to continually learn, distill their short-term fragile memories into stable long-term knowledge with replay, and recursively improve themselves with ''Dreaming'' process. In more detail, sleep consists of two stages: (1) Memory Consolidation: an upward distillation process, called Knowledge Seeding, where the memories of a smaller-self are distilled into a larger network to provide more capacity while preserving the knowledge. As a proof of concept, we present a new Generalized Distillation process for {Knowledge Seeding} (i.e., the combination of on-policy distillation with Reinforcement Learning (RL)-based imitation learning); (2) Dreaming: a self-improvement phase, where the model uses RL to generate a curriculum of synthetic data to rehearse new knowledge and refine existing capabilities without human supervision. Our experiments on long-horizon, continual learning, knowledge incorporation, and few-shot generalization tasks support the importance of the sleep stage.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-02T17:56:55Z</published>
+    <arxiv:comment>A version of this work has been publicly available from September 2025 on OpenReview</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ali Behrouz</name>
+    </author>
+    <author>
+      <name>Farnoosh Hashemi</name>
+    </author>
+    <author>
+      <name>Adel Javanmard</name>
+    </author>
+    <author>
+      <name>Vahab Mirrokni</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.21296v2</id>
+    <title>MyGO: Memory Yielding Generative Offline-consolidation for Lifelong Learning Systems</title>
+    <updated>2026-01-07T02:01:51Z</updated>
+    <link href="https://arxiv.org/abs/2508.21296v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.21296v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continual or Lifelong Learning aims to develop models capable of acquiring new knowledge from a sequence of tasks without catastrophically forgetting what has been learned before. Existing approaches often rely on storing samples from previous tasks (experience replay) or employing complex regularization terms to protect learned weights. However, these methods face challenges related to data privacy, storage limitations, and performance degradation when tasks are dissimilar. To address these challenges, we introduce MyGO (Memory Yielding Generative Offline-consolidation), a novel lifelong learning framework inspired by the biological wake-sleep cycle. During the "wake" phase, the system rapidly learns a new task and trains a compact generative model (Generative Memory, G-mem) to capture its data distribution. During the "sleep" phase, the system enters an offline state, using all learned G-mem models to generate pseudo-data ("dreams") and consolidate new and old knowledge into a core feature extractor via knowledge distillation. This approach obviates the need to store any raw data, retaining only compact generative models, which offers significant advantages in privacy and storage efficiency. We evaluate MyGO on computer vision (Split-MNIST) and natural language processing (Split-AG News) benchmarks, comparing it against a sequential fine-tuning baseline. The results demonstrate that MyGO significantly mitigates catastrophic forgetting and maintains high average accuracy across tasks, proving the framework's effectiveness and domain-generality.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-29T01:29:48Z</published>
+    <arxiv:comment>Upon re-evaluating the proposed "Sleep Phase" mechanism, the authors identified stability issues in the generative replay component that limit the framework's scalability to high-dimensional data. We are withdrawing the paper to fundamentally revise the generative architecture and correct these limitations before any future submission</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shihao Ji</name>
+    </author>
+    <author>
+      <name>Zihui Song</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04095v1</id>
+    <title>A computational account of dreaming: learning and memory consolidation</title>
+    <updated>2026-02-04T00:09:26Z</updated>
+    <link href="https://arxiv.org/abs/2602.04095v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04095v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A number of studies have concluded that dreaming is mostly caused by randomly arriving internal signals because "dream contents are random impulses", and argued that dream sleep is unlikely to play an important part in our intellectual capacity. On the contrary, numerous functional studies have revealed that dream sleep does play an important role in our learning and other intellectual functions. Specifically, recent studies have suggested the importance of dream sleep in memory consolidation, following the findings of neural replaying of recent waking patterns in the hippocampus. The randomness has been the hurdle that divides dream theories into either functional or functionless. This study presents a cognitive and computational model of dream process. This model is simulated to perform the functions of learning and memory consolidation, which are two most popular dream functions that have been proposed. The simulations demonstrate that random signals may result in learning and memory consolidation. Thus, dreaming is proposed as a continuation of brain's waking activities that processes signals activated spontaneously and randomly from the hippocampus. The characteristics of the model are discussed and found in agreement with many characteristics concluded from various empirical studies.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T00:09:26Z</published>
+    <arxiv:comment>30 pages, 4 tables, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <arxiv:journal_ref>Cognitive System Research, 2009</arxiv:journal_ref>
+    <author>
+      <name>Qi Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/j.cogsys.2008.06.002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.cogsys.2008.06.002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.21814v1</id>
+    <title>Forward and reverse delay-driven hippocampal replay without symmetric plasticity</title>
+    <updated>2026-08-22T07:20:38Z</updated>
+    <link href="https://arxiv.org/abs/2608.21814v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.21814v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hippocampal replay is a phenomenon observed in mammals and songbirds where neural activation sequences experienced during wakeful periods are repeated during rest or sleep. This mechanism is believed to play a crucial role in episodic memory consolidation, retrieval, and planning. Interestingly, replay can occur in both forward and reverse temporal orders and across a wide range of increased speeds. The learning of activation sequences has traditionally been modeled by temporally asymmetric Hebbian plasticity rules, which explain replay as a chain of activity. The inability of such rules to strengthen backward connections has led to the widespread belief that they cannot account for bidirectional replay. Existing theoretical work therefore explains reverse replay through symmetric connections, which would be formed through symmetric plasticity rules. We propose a delay-coupled neural field model of CA3, where activity propagates as a wave in a ring, and replays occur both forwards and backwards at different speeds. Our model can learn bidirectional replay after a single noisy exposure to a stimulus with either symmetric or asymmetric plasticity. We derive a low-dimensional description of the dynamics and analyze the stability of possible replay speeds.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-22T07:20:38Z</published>
+    <arxiv:comment>15 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Georg Reich</name>
+    </author>
+    <author>
+      <name>Matthew Cook</name>
+    </author>
+    <author>
+      <name>Klaus Obermayer</name>
+    </author>
+    <author>
+      <name>Pau Vilimelis Aceituno</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.17523v1</id>
+    <title>Unsupervised sleep-like intra- and inter-layer plasticity categorizes and improves energy efficiency in a multilayer spiking network</title>
+    <updated>2026-01-24T16:49:36Z</updated>
+    <link href="https://arxiv.org/abs/2601.17523v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.17523v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sleep is thought to support memory consolidation and the recovery of optimal energetic regime by reorganizing synaptic connectivity, yet how plasticity across hierarchical brain circuits contributes to abstraction and energy efficiency remains unclear. Here we study a spiking multi-layer network alternating wake-like and deep-sleep-like states, with state-dependent dendritic integration and synaptic plasticity in a biologically inspired thalamo-cortical framework. During wakefulness, the model learns from few perceived examples, while during deep sleep it undergoes spontaneous replay driven by slow oscillations. Plasticity enabled not only within intra-layer connections, but also in inter-layer pathways, is critical for memory consolidation and energetic downshift. Compared to restricted plasticity, full inter-layer plasticity yields higher post-sleep visual classification accuracy and promotes the emergence of sharper class-specific associations. Furthermore, we introduce a biophysically grounded estimator of metabolic power expressing network energy consumption in ATP units, partitioned into baseline, synaptic maintenance, action potential, and transmission costs. We find that inter-layer plasticity in sleep leads to a larger reduction in firing rates, synaptic strength and synaptic activity, corresponding to a substantially larger decrease in power consumption. This work suggests promising elements to be integrated in neuromorphic/energy-efficient AI learning systems, supported by brain state-specific apical mechanisms.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-24T16:49:36Z</published>
+    <arxiv:comment>34 pages, 5 figures, plus supplementary material</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Leonardo Tonielli</name>
+    </author>
+    <author>
+      <name>Cosimo Lupo</name>
+    </author>
+    <author>
+      <name>Elena Pastorelli</name>
+    </author>
+    <author>
+      <name>Giulia De Bonis</name>
+    </author>
+    <author>
+      <name>Francesco Simula</name>
+    </author>
+    <author>
+      <name>Alessandro Lonardo</name>
+    </author>
+    <author>
+      <name>Pier Stanislao Paolucci</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.14081v1</id>
+    <title>Toward Lifelong Learning in Equilibrium Propagation: Sleep-like and Awake Rehearsal for Enhanced Stability</title>
+    <updated>2025-08-12T20:48:02Z</updated>
+    <link href="https://arxiv.org/abs/2508.14081v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.14081v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recurrent neural networks (RNNs) trained using Equilibrium Propagation (EP), a biologically plausible training algorithm, have demonstrated strong performance in various tasks such as image classification and reinforcement learning. However, these networks face a critical challenge in continuous learning: catastrophic forgetting, where previously acquired knowledge is overwritten when new tasks are learned. This limitation contrasts with the human brain's ability to retain and integrate both old and new knowledge, aided by processes like memory consolidation during sleep through the replay of learned information. To address this challenge in RNNs, here we propose a sleep-like replay consolidation (SRC) algorithm for EP-trained RNNs. We found that SRC significantly improves RNN's resilience to catastrophic forgetting in continuous learning scenarios. In class-incremental learning with SRC implemented after each new task training, the EP-trained multilayer RNN model (MRNN-EP) performed significantly better compared to feedforward networks incorporating several well-established regularization techniques. The MRNN-EP performed on par with MRNN trained using Backpropagation Through Time (BPTT) when both were equipped with SRC on MNIST data and surpassed BPTT-based models on the Fashion MNIST, Kuzushiji-MNIST, CIFAR10, and ImageNet datasets. Combining SRC with rehearsal, also known as "awake replay", further boosted the network's ability to retain long-term knowledge while continuing to learn new tasks. Our study reveals the applicability of sleep-like replay techniques to RNNs and highlights the potential for integrating human-like learning behaviors into artificial neural networks (ANNs).</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-12T20:48:02Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yoshimasa Kubo</name>
+    </author>
+    <author>
+      <name>Jean Erik Delanois</name>
+    </author>
+    <author>
+      <name>Maxim Bazhenov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.37139v1</id>
+    <title>Generative Replay for Equilibrium Propagation: Toward Edge-Friendly Continual Learning in Hopfield Networks</title>
+    <updated>2026-10-27T12:35:20Z</updated>
+    <link href="https://arxiv.org/abs/2610.37139v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.37139v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Equilibrium Propagation (EqProp) offers a biologically grounded and hardware-aligned alternative to backpropagation for training Hopfield Networks. However, its behavior in continual learning settings remains largely unexplored. This work confronts catastrophic forgetting in EqProp-trained Hopfield Networks from the inside out, eliminating the need for external data buffers or architectural overhead that standard Experience Replay \textbf{(ER)} and Generative Replay \textbf{(Gen-Replay)} inevitably require. We introduce an Energy-Based Generative Replay strategy \textbf{(EB-Gen)} which exploits the intrinsic generative dynamics of Hopfield Networks, allowing a single model to act as both classifier and replay samples generator. Samples capturing past task knowledge are generated by relaxing a frozen copy of the network, enabling rehearsal solely through internally generated pseudo-data. We evaluate the proposed method in the Class-Incremental setting, using the split versions of the MNIST and CIFAR10 benchmarks and compare it with FineTune, Experience Replay, Generative Replay, Sleep-Like Replay Consolidation (SRC) and Joint training. Our results show that EB-Gen significantly improves stability while preserving plasticity, achieving a 75\% and 64\% average accuracy on Split MNIST and Split CIFAR10 respectively. These findings show that Equilibrium Propagation can be adapted to alleviate catastrophic forgetting without forgoing the traits which made it compelling in the first place.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-27T12:35:20Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Victor Cook</name>
+      <arxiv:affiliation>LIRMM | ADAC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gilles Sassatelli</name>
+      <arxiv:affiliation>LIRMM | ADAC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Thierry Gil</name>
+      <arxiv:affiliation>LIRMM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mohamed Watfa</name>
+      <arxiv:affiliation>LIRMM | ADAC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marina Reyboz</name>
+      <arxiv:affiliation>CEA-LETI</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.04362v1</id>
+    <title>Phasor Agents: Oscillatory Graphs with Three-Factor Plasticity and Sleep-Staged Learning</title>
+    <updated>2026-01-07T19:57:02Z</updated>
+    <link href="https://arxiv.org/abs/2601.04362v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.04362v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Phasor Agents are dynamical systems whose internal state is a Phasor Graph: a weighted graph of coupled Stuart-Landau oscillators. A Stuart-Landau oscillator is a minimal stable "rhythm generator" (the normal form near a Hopf bifurcation); each oscillator is treated as an abstract computational unit (inspired by, but not claiming to model, biological oscillatory populations). In this interpretation, oscillator phase tracks relative timing (coherence), while amplitude tracks local gain or activity. Relative phase structure serves as a representational medium; coupling weights are learned via three-factor local plasticity - eligibility traces gated by sparse global modulators and oscillation-timed write windows - without backpropagation.
+  A central challenge in oscillatory substrates is stability: online weight updates can drive the network into unwanted regimes (e.g., global synchrony), collapsing representational diversity. We therefore separate wake tagging from offline consolidation, inspired by synaptic tagging-and-capture and sleep-stage dynamics: deep-sleep-like gated capture commits tagged changes safely, while REM-like replay reconstructs and perturbs experience for planning.
+  A staged experiment suite validates each mechanism with ablations and falsifiers: eligibility traces preserve credit under delayed modulation; compression-progress signals pass timestamp-shuffle controls; phase-coherent retrieval reaches 4x diffusive baselines under noise; wake/sleep separation expands stable learning by 67 percent under matched weight-norm budgets; REM replay improves maze success rate by +45.5 percentage points; and a Tolman-style latent-learning signature - immediate competence and detour advantage after unrewarded exploration, consistent with an internal model - emerges from replay (Tolman, 1948).
+  The codebase and all artifacts are open-source.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-07T19:57:02Z</published>
+    <arxiv:comment>22 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rodja Trappe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.19514v2</id>
+    <title>In Two Minds about Lifelong Learning: Exploring Hemispheric Redundancy and Specialisation in Neural Models</title>
+    <updated>2026-09-27T02:40:07Z</updated>
+    <link href="https://arxiv.org/abs/2608.19514v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.19514v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Persistent intelligent systems require the ability to learn continually, but current machine learning approaches face significant challenges in this area compared to biological learning systems. Machine learning algorithms typically trade off retention of previously learned information and adaptation to new or changing data patterns. When continual learning capabilities are absent, algorithms must undergo retraining using the entire data set, an approach that becomes impractical when original training data are unavailable due to storage constraints, financial or computational costs, or privacy restrictions. However, biological animals can learn continually, without experiencing catastrophic forgetting. This paper attempts to build a high-level framework for how animals learn and preserve knowledge by modelling neural components and states that are known to be related to memory consolidation. We focus on three concepts: experience replay, REM sleep, and bilaterality. We propose 4MAS (4 Module Awake/Sleep), a novel macroarchitecture demonstrating how machine learning models might benefit from asymmetric hemispheres, each with their own long- and short-term memory mechanisms, and how a period of sleep between incremental learning tasks might benefit memory consolidation. Finally, we present results showing that our architecture achieves statistical improvements over established generative replay baselines on Split-MNIST (98.3%) and Split-Fashion-MNIST (84.9%), while reducing forgetting by more than half relative to the strongest replay baseline and demonstrating monotonic capacity scaling on Split-CIFAR-100 (29.29%).</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-20T00:15:18Z</published>
+    <arxiv:comment>21 pages before references/appendix, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Benjamin Smith</name>
+    </author>
+    <author>
+      <name>Levin Kuhlmann</name>
+    </author>
+    <author>
+      <name>Kaushik Roy</name>
+    </author>
+    <author>
+      <name>Gideon Kowadlo</name>
+    </author>
+  </entry>
+</feed>

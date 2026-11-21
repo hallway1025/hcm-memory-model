@@ -1,0 +1,552 @@
+{
+ "n_rows": 96,
+ "cells": {
+  "david": {
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "deficit_sup_on": {
+    "n": 12,
+    "mean": -0.1567,
+    "sd": 0.0637,
+    "t": -8.517,
+    "ci": [
+     -0.1917,
+     -0.1233
+    ]
+   },
+   "deficit_cos_on": {
+    "n": 12,
+    "mean": -0.1567,
+    "sd": 0.0637,
+    "t": -8.517,
+    "ci": [
+     -0.1917,
+     -0.1233
+    ]
+   },
+   "deficit_cos_off": {
+    "n": 12,
+    "mean": -0.15,
+    "sd": 0.0413,
+    "t": -12.569,
+    "ci": [
+     -0.1717,
+     -0.1267
+    ]
+   },
+   "recovered": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "hit_nrp_on": {
+    "n": 12,
+    "mean": 0.8433,
+    "sd": 0.0637,
+    "t": 45.845,
+    "ci": [
+     0.8083,
+     0.8767
+    ]
+   },
+   "hit_nrp_off": {
+    "n": 12,
+    "mean": 0.85,
+    "sd": 0.0413,
+    "t": 71.224,
+    "ci": [
+     0.8283,
+     0.8733
+    ]
+   },
+   "hit_rp_sup_on": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "hit_rp_cos_on": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "hit_rp_cos_off": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "delta_cos_on_minus_off": {
+    "n": 12,
+    "mean": -0.0067,
+    "sd": 0.0811,
+    "t": -0.285,
+    "ci": [
+     -0.05,
+     0.0367
+    ]
+   }
+  },
+  "syn_o0.3": {
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "deficit_sup_on": {
+    "n": 12,
+    "mean": 0.0,
+    "sd": 0.0,
+    "t": null,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "deficit_cos_on": {
+    "n": 12,
+    "mean": 0.0,
+    "sd": 0.0,
+    "t": null,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "deficit_cos_off": {
+    "n": 12,
+    "mean": 0.0,
+    "sd": 0.0,
+    "t": null,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "recovered": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "hit_nrp_on": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "hit_nrp_off": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "hit_rp_sup_on": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "hit_rp_cos_on": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "hit_rp_cos_off": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "delta_cos_on_minus_off": {
+    "n": 12,
+    "mean": 0.0,
+    "sd": 0.0,
+    "t": null,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "syn_o0.6": {
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "deficit_sup_on": {
+    "n": 12,
+    "mean": 0.0,
+    "sd": 0.0,
+    "t": null,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "deficit_cos_on": {
+    "n": 12,
+    "mean": 0.0,
+    "sd": 0.0,
+    "t": null,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "deficit_cos_off": {
+    "n": 12,
+    "mean": 0.0,
+    "sd": 0.0,
+    "t": null,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "recovered": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "hit_nrp_on": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "hit_nrp_off": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "hit_rp_sup_on": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "hit_rp_cos_on": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "hit_rp_cos_off": {
+    "n": 12,
+    "mean": 1.0,
+    "sd": 0.0,
+    "t": Infinity,
+    "ci": [
+     1.0,
+     1.0
+    ]
+   },
+   "delta_cos_on_minus_off": {
+    "n": 12,
+    "mean": 0.0,
+    "sd": 0.0,
+    "t": null,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "syn_o0.9": {
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "deficit_sup_on": {
+    "n": 12,
+    "mean": 0.0117,
+    "sd": 0.0872,
+    "t": 0.464,
+    "ci": [
+     -0.035,
+     0.0583
+    ]
+   },
+   "deficit_cos_on": {
+    "n": 12,
+    "mean": -0.0067,
+    "sd": 0.0892,
+    "t": -0.259,
+    "ci": [
+     -0.0533,
+     0.0417
+    ]
+   },
+   "deficit_cos_off": {
+    "n": 12,
+    "mean": 0.0167,
+    "sd": 0.0826,
+    "t": 0.699,
+    "ci": [
+     -0.0267,
+     0.0633
+    ]
+   },
+   "recovered": {
+    "n": 12,
+    "mean": 0.3317,
+    "sd": 0.3231,
+    "t": 3.556,
+    "ci": [
+     0.1667,
+     0.5233
+    ]
+   },
+   "hit_nrp_on": {
+    "n": 12,
+    "mean": 0.3433,
+    "sd": 0.3562,
+    "t": 3.339,
+    "ci": [
+     0.165,
+     0.55
+    ]
+   },
+   "hit_nrp_off": {
+    "n": 12,
+    "mean": 0.3617,
+    "sd": 0.3288,
+    "t": 3.81,
+    "ci": [
+     0.1933,
+     0.5517
+    ]
+   },
+   "hit_rp_sup_on": {
+    "n": 12,
+    "mean": 0.3317,
+    "sd": 0.3231,
+    "t": 3.556,
+    "ci": [
+     0.1667,
+     0.5233
+    ]
+   },
+   "hit_rp_cos_on": {
+    "n": 12,
+    "mean": 0.35,
+    "sd": 0.3303,
+    "t": 3.67,
+    "ci": [
+     0.18,
+     0.5433
+    ]
+   },
+   "hit_rp_cos_off": {
+    "n": 12,
+    "mean": 0.345,
+    "sd": 0.338,
+    "t": 3.536,
+    "ci": [
+     0.1783,
+     0.5434
+    ]
+   },
+   "delta_cos_on_minus_off": {
+    "n": 12,
+    "mean": -0.0233,
+    "sd": 0.096,
+    "t": -0.842,
+    "ci": [
+     -0.0733,
+     0.0317
+    ]
+   }
+  }
+ },
+ "gates": {
+  "david": {
+   "gA_on": {
+    "passed": false,
+    "mean": -0.1567,
+    "ci": [
+     -0.1917,
+     -0.1233
+    ]
+   },
+   "gA_off_placebo": {
+    "passed": true,
+    "mean": -0.15
+   },
+   "gB": {
+    "passed": true,
+    "mean": 1.0
+   },
+   "G-A": "FAIL",
+   "G-B": "PASS"
+  },
+  "syn_o0.3": {
+   "gA_on": {
+    "passed": false,
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "gA_off_placebo": {
+    "passed": true,
+    "mean": 0.0
+   },
+   "gB": {
+    "passed": true,
+    "mean": 1.0
+   },
+   "G-A": "FAIL",
+   "G-B": "PASS"
+  },
+  "syn_o0.6": {
+   "gA_on": {
+    "passed": false,
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "gA_off_placebo": {
+    "passed": true,
+    "mean": 0.0
+   },
+   "gB": {
+    "passed": true,
+    "mean": 1.0
+   },
+   "G-A": "FAIL",
+   "G-B": "PASS"
+  },
+  "syn_o0.9": {
+   "gA_on": {
+    "passed": false,
+    "mean": 0.0117,
+    "ci": [
+     -0.035,
+     0.0583
+    ]
+   },
+   "gA_off_placebo": {
+    "passed": true,
+    "mean": 0.0167
+   },
+   "gB": {
+    "passed": false,
+    "mean": 0.3317
+   },
+   "G-A": "FAIL",
+   "G-B": "FAIL"
+  }
+ },
+ "G-C": "NEGATIVE-HONEST"
+}

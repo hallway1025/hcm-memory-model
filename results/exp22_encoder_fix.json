@@ -1,0 +1,125 @@
+{
+ "meta": {
+  "sess": "peer-01",
+  "N": 8844,
+  "d": 512
+ },
+ "arms": [
+  {
+   "arm": "A0_theta0",
+   "stats": {
+    "nnz": 82.0,
+    "code_cos": 0.03615419194102287,
+    "selfcos_deg30": 0.6265,
+    "othercos": 0.0397,
+    "dprime": 5.29
+   },
+   "write_s": 124.2,
+   "rows": [
+    {
+     "level": 0.3,
+     "top1": 1,
+     "abstain": 0
+    },
+    {
+     "level": 0.5,
+     "top1": 1,
+     "abstain": 0
+    },
+    {
+     "level": 0.7,
+     "top1": 1,
+     "abstain": 0
+    }
+   ],
+   "synthetic_exact": "40/40"
+  },
+  {
+   "arm": "A1_develop",
+   "stats": {
+    "nnz": 82.0,
+    "code_cos": 0.045048605650663376,
+    "selfcos_deg30": 0.6064,
+    "othercos": 0.0472,
+    "dprime": 5.07
+   },
+   "write_s": 152.4,
+   "rows": [
+    {
+     "level": 0.3,
+     "top1": 0,
+     "abstain": 0
+    },
+    {
+     "level": 0.5,
+     "top1": 0,
+     "abstain": 0
+    },
+    {
+     "level": 0.7,
+     "top1": 0,
+     "abstain": 0
+    }
+   ],
+   "synthetic_exact": "0/40"
+  },
+  {
+   "arm": "A2_develop_rel.2",
+   "stats": {
+    "nnz": 82.0,
+    "code_cos": 0.04628349840641022,
+    "selfcos_deg30": 0.6088,
+    "othercos": 0.0488,
+    "dprime": 5.09
+   },
+   "write_s": 141.8,
+   "rows": [
+    {
+     "level": 0.3,
+     "top1": 0,
+     "abstain": 0
+    },
+    {
+     "level": 0.5,
+     "top1": 0,
+     "abstain": 0
+    },
+    {
+     "level": 0.7,
+     "top1": 0,
+     "abstain": 0
+    }
+   ],
+   "synthetic_exact": "0/40"
+  },
+  {
+   "arm": "A3_develop_k328",
+   "stats": {
+    "nnz": 328.0,
+    "code_cos": 0.7053724527359009,
+    "selfcos_deg30": 0.8771,
+    "othercos": 0.7083,
+    "dprime": 4.38
+   },
+   "write_s": 178.5,
+   "rows": [
+    {
+     "level": 0.3,
+     "top1": 0,
+     "abstain": 0
+    },
+    {
+     "level": 0.5,
+     "top1": 0,
+     "abstain": 0
+    },
+    {
+     "level": 0.7,
+     "top1": 0,
+     "abstain": 0
+    }
+   ],
+   "synthetic_exact": "1/40"
+  }
+ ]
+}

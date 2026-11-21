@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/P19xTurdjgRnyxw5UMpZ7NjHDew</id>
+  <title>arXiv Query: search_query=all:Benna AND all:Fusi AND all:consolidation&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:44:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Benna+AND+(all:Fusi+AND+all:consolidation)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.15045v1</id>
+    <title>Emulating Complex Synapses Using Interlinked Proton Conductors</title>
+    <updated>2024-01-26T18:16:06Z</updated>
+    <link href="https://arxiv.org/abs/2401.15045v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.15045v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In terms of energy efficiency and computational speed, neuromorphic electronics based on non-volatile memory devices is expected to be one of most promising hardware candidates for future artificial intelligence (AI). However, catastrophic forgetting, networks rapidly overwriting previously learned weights when learning new tasks, remains as a pivotal hurdle in either digital or analog AI chips for unleashing the true power of brain-like computing. To address catastrophic forgetting in the context of online memory storage, a complex synapse model (the Benna-Fusi model) has been proposed recently[1], whose synaptic weight and internal variables evolve following a diffusion dynamics. In this work, by designing a proton transistor with a series of charge-diffusion-controlled storage components, we have experimentally realized the Benna-Fusi artificial complex synapse. The memory consolidation from coupled storage components is revealed by both numerical simulations and experimental observations. Different memory timescales for the complex synapse are engineered by the diffusion length of charge carriers, the capacity and number of coupled storage components. The advantage of the demonstrated complex synapse in both memory capacity and memory consolidation is revealed by neural network simulations of face familiarity detection. Our experimental realization of the complex synapse suggests a promising approach to enhance memory capacity and to enable continual learning.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-26T18:16:06Z</published>
+    <arxiv:comment>6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Lifu Zhang</name>
+    </author>
+    <author>
+      <name>Ji-An Li</name>
+    </author>
+    <author>
+      <name>Yang Hu</name>
+    </author>
+    <author>
+      <name>Jie Jiang</name>
+    </author>
+    <author>
+      <name>Rongjie Lai</name>
+    </author>
+    <author>
+      <name>Marcus K. Benna</name>
+    </author>
+    <author>
+      <name>Jian Shi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.05097v3</id>
+    <title>Continual Knowledge Updating in LLM Systems: Learning Through Multi-Timescale Memory Dynamics</title>
+    <updated>2026-06-24T08:06:06Z</updated>
+    <link href="https://arxiv.org/abs/2605.05097v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.05097v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLMs are trained once, then deployed into a world that never stops changing. External memory compensates for this, but most systems manage it explicitly rather than letting it adapt on its own. Biological memory works differently: coupled multi-timescale dynamics make new associations immediately usable, strengthen what repetition confirms, and let the rest fade. We argue that external memory should follow a similar principle. In Memini, this view takes the form of an associative memory that organizes knowledge as a directed graph. Each edge carries two coupled internal variables, one fast and one slow, following the Benna-Fusi model of synaptic consolidation. From this coupling, episodic sensitivity, gradual consolidation, and selective forgetting are expected to emerge as facets of a single mechanism, reframing external memory as a learning substrate that reorganizes through its own dynamics. This workshop article describes an early-stage conceptual design without experimental evaluation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-06T16:33:42Z</published>
+    <arxiv:comment>Accepted as a poster at the ICML 2026 Workshop "Continual Adaptation at Scale: Towards Sustainable AI" (CATS@ICML 2026). 9 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andreas Pattichis</name>
+    </author>
+    <author>
+      <name>Constantine Dovrolis</name>
+    </author>
+  </entry>
+</feed>

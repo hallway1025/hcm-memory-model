@@ -1,0 +1,686 @@
+id	area	score	title
+S1076	J_llm_memory	24.0	MemGPT: Towards LLMs as Operating Systems
+S907	J_llm_memory	21.5	Evaluating Very Long-Term Conversational Memory of LLM Agents
+S985	E_wm	21.5	Effects of high-frequency transcranial magnetic stimulation on theta-gamma oscillations and coupling in the prefrontal cortex of rats during working m
+S1081	J_llm_memory	21.0	Zep: A Temporal Knowledge Graph Architecture for Agent Memory
+S376	D_consolidation	20.0	Promoting memory consolidation during sleep: A meta-analysis of targeted memory reactivation.
+S883	J_llm_memory	20.0	A Survey of Context Engineering for Large Language Models
+S1082	J_llm_memory	19.0	HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models
+S1098	J_llm_memory	19.0	From RAG to Memory: Non-Parametric Continual Learning for Large Language Models
+S414	E_wm	19.0	Boosting working memory in the elderly: driving prefrontal theta–gamma coupling via repeated neuromodulation
+S881	J_llm_memory	19.0	An In-depth Survey of Large Language Model-based Artificial Intelligence Agents
+S899	J_llm_memory	19.0	Empowering Working Memory for Large Language Model Agents
+S418	E_wm	18.5	Increases of theta–low gamma coupling in rat medial prefrontal cortex during working memory task
+S902	J_llm_memory	18.5	TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA
+S1087	J_llm_memory	18.0	DimMem: Dimensional Structuring for Efficient Long-Term Agent Memory
+S880	J_llm_memory	18.0	Generalizability of Large Language Model-Based Agents: A Comprehensive Survey
+S884	J_llm_memory	18.0	MemInsight: Autonomous Memory Augmentation for LLM Agents
+S982	E_wm	18.0	Impaired theta-gamma coupling during working memory performance in schizophrenia
+S1080	J_llm_memory	17.5	Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory
+S406	E_wm	17.5	Theta-gamma phase-phase coupling during working memory maintenance in the human hippocampus
+S409	E_wm	17.5	Theta-Gamma Coupling and Working Memory in Alzheimer’s Dementia and Mild Cognitive Impairment
+S979	E_wm	17.5	Frontoparietal theta-gamma interactions track working memory enhancement with training and tDCS
+S1094	J_llm_memory	17.0	Beyond Memory Construction: Rethinking Memory Access for LLM-based Conversational Agents
+S367	D_consolidation	17.0	Shaping memory consolidation via targeted memory reactivation during sleep
+S417	E_wm	17.0	Endogenous Theta as a Function of Task Load and Working Memory Capacity: Revisiting the Role of Slower Frequencies in Theta–Gamma Coupling
+S425	E_wm	17.0	Theta-gamma-coupling as predictor of working memory performance in young and elderly healthy people
+S877	J_llm_memory	17.0	A Survey on the Memory Mechanism of Large Language Model based Agents
+S878	J_llm_memory	17.0	A Survey on Agentic Multimodal Large Language Models
+S879	J_llm_memory	17.0	A Survey on Large Language Model-Based Game Agents
+S891	J_llm_memory	17.0	Memory-Augmented State Machine Prompting: A Novel LLM Agent Framework for Real-Time Strategy Games
+S893	J_llm_memory	17.0	Large Language Models Prompting With Episodic Memory
+S336	D_consolidation	16.5	Sleep spindles mediate hippocampal-neocortical coupling during long-duration ripples
+S370	D_consolidation	16.5	Sleep Facilitates Problem Solving With No Additional Gain Through Targeted Memory Reactivation
+S408	E_wm	16.5	Hippocampal-prefrontal theta-gamma coupling during performance of a spatial working memory task
+S894	J_llm_memory	16.5	Echo: A Large Language Model with Temporal Episodic Memory
+S900	J_llm_memory	16.5	Needle in the Haystack for Memory Based Large Language Models
+S1083	J_llm_memory	16.0	A-MEM: Agentic Memory for LLM Agents
+S1089	J_llm_memory	16.0	MemOS: An Operating System for Memory-Augmented Generation (MAG) in Large Language Models
+S1093	J_llm_memory	16.0	Rethinking Memory in LLM based Agents: Representations, Operations, and Emerging Topics
+S248	C_neuro	16.0	Decision making, the P3, and the locus coeruleus--norepinephrine system.
+S302	D_consolidation	16.0	Offline neuronal activity and synaptic plasticity during sleep and memory consolidation
+S887	J_llm_memory	16.0	Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization
+S906	J_llm_memory	16.0	Toward Conversational Agents with Context and Time Sensitive Long-term Memory
+S374	D_consolidation	15.5	How Targeted Memory Reactivation Promotes the Selective Strengthening of Memories in Sleep
+S410	E_wm	15.5	The Effects of Theta and Gamma tACS on Working Memory and Electrophysiology
+S404	E_wm	15.0	Theta–gamma coupling during a working memory task as compared to a simple vigilance task
+S411	E_wm	15.0	The Functional Interactions between Cortical Regions through Theta-Gamma Coupling during Resting-State and a Visual Working Memory Task
+S890	J_llm_memory	15.0	Evaluating Memory Structure in LLM Agents
+S976	E_wm	15.0	Theta–gamma phase synchronization during memory matching in visual working memory
+S980	E_wm	15.0	Theta-gamma phase-amplitude coupling in psychosis and healthy controls: Predicting working memory capacity across different tasks
+S983	E_wm	15.0	Theta-gamma coupling in hippocampus during working memory deficits induced by low frequency electromagnetic field exposure
+S1096	J_llm_memory	14.5	MemoryBank: Enhancing Large Language Models with Long-Term Memory
+S373	D_consolidation	14.5	Sleep-based memory processing facilitates grammatical generalization: Evidence from targeted memory reactivation
+S897	J_llm_memory	14.5	DYNA : Dynamic Episodic Memory Networks for Augmenting Large Language Models with Temporal Knowledge Graphs in Continuous Learning
+S240	C_neuro	14.0	Alterations of norepinephrine metabolism in rat locus coeruleus neurons in response to axonal injury
+S368	D_consolidation	14.0	Effects of targeted memory reactivation during sleep at home depend on sleep disturbances and habituation
+S371	D_consolidation	14.0	An update on recent advances in targeted memory reactivation during sleep
+S412	E_wm	14.0	Is Cortical Theta-Gamma Phase-Amplitude Coupling Memory-Specific?
+S895	J_llm_memory	14.0	Episodic Memories Generation and Evaluation Benchmark for Large Language Models
+S991	F_capacity	14.0	Origin of non-zero overlap in Hopfield neural networks beyond storage capacity
+S1085	J_llm_memory	13.5	Memory Shot for Long-Term Dialogue
+S305	D_consolidation	13.5	The Roles of Cortical Slow Waves in Synaptic Plasticity and Memory Consolidation
+S321	D_consolidation	13.5	The two tales of hippocampal sharp-wave ripple content: The rigid and the plastic
+S903	J_llm_memory	13.0	KARMA: Augmenting Embodied AI Agents with Long-and-short Term Memory Systems
+S905	J_llm_memory	13.0	MemFit: Efficient Long-Term Agentic Memory
+S110	B_forget	12.5	Retrieval-induced versus restudy-induced forgetting in serial order memory
+S274	C_neuro	12.5	Dopamine and norepinephrine receptors participate in methylphenidate enhancement of in vivo hippocampal synaptic plasticity
+S317	D_consolidation	12.5	Hippocampal Sharp Wave/Ripples during Sleep for Consolidation of Associative Memory
+S340	D_consolidation	12.5	Awake reactivation of emotional memory traces through hippocampal–neocortical interactions
+S889	J_llm_memory	12.5	LLM-Empowered Embodied Agent for Memory-Augmented Task Planning in Household Robotics
+S896	J_llm_memory	12.5	Larimar: Large Language Models with Episodic Memory Control
+S097	B_forget	12.0	Retrieval-Induced Forgetting in a Pentylenetetrazole-Induced Epilepsy Model in the Rat
+S103	B_forget	12.0	Noncompetitive retrieval practice causes retrieval-induced forgetting in cued recall but not in recognition
+S1046	B_forget	12.0	Catastrophic Forgetting is Low-Rank: A Function-Space Theory for Continual Adaptation
+S109	B_forget	12.0	Retrieval-induced forgetting in a social context: Do the same mechanisms underlie forgetting in speakers and listeners?
+S237	C_neuro	12.0	Axoplasmic transport of norepinephrine in the locus coeruleus-hypothalamic system in the rat
+S245	C_neuro	12.0	Norepinephrine transporter sites are decreased in the locus coeruleus in Alzheimer's disease
+S246	C_neuro	12.0	Insulin reduces norepinephrine transporter mRNA in vivo in rat locus coeruleus
+S316	D_consolidation	12.0	Sharp Wave-Ripples in Human Amygdala and Their Coordination with Hippocampus during NREM Sleep
+S415	E_wm	12.0	Theta-gamma coupling: nonlinearity as a universal cross-frequency coupling mechanism
+S419	E_wm	12.0	The role of theta and gamma oscillations in working memory
+S421	E_wm	12.0	Perturbation of theta-gamma coupling at the temporal lobe hinders verbal declarative memory
+S422	E_wm	12.0	Sub-second dynamics of theta-gamma coupling in hippocampal CA1
+S423	E_wm	12.0	Theta power and theta‐gamma coupling support long‐term spatial memory retrieval
+S823	B_forget	12.0	Meta-learnt priors slow down catastrophic forgetting in neural networks
+S885	J_llm_memory	12.0	GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs
+S892	J_llm_memory	12.0	Personalizing LLM Agent Memory Using Biometrics
+S904	J_llm_memory	12.0	CoreMem: Riemannian Retrieval and Fisher-Guided Distillation for Long-Term Memory in Dialogue Agents
+S908	J_llm_memory	12.0	Accurate and Efficient Long-Term Memory for LLM Agents
+S977	E_wm	12.0	Theta-gamma coupling binds visual perceptual features in an associative memory task
+S978	E_wm	12.0	Memory entrainment by visually evoked theta-gamma coupling
+S990	F_capacity	12.0	Optical Hopfield neural networks with enhanced storage capacity
+S304	D_consolidation	11.5	BDNF function in adult synaptic plasticity: The synaptic consolidation hypothesis
+S372	D_consolidation	11.5	Targeted memory reactivation with sleep disruption does not weaken week-old memories
+S562	F_capacity	11.5	On the Maximum Storage Capacity of the Hopfield Model
+S578	F_capacity	11.5	Beyond the Maximum Storage Capacity Limit in Hopfield Recurrent Neural Networks
+S579	F_capacity	11.5	A Feed-Forward Neural Network for Increasing the Hopfield-Network Storage Capacity
+S974	D_consolidation	11.5	Role of the hippocampus in systems consolidation of remote fear memory
+S1091	J_llm_memory	11.0	Dynamic Long Context Reasoning over Compressed Memory via End-to-End Reinforcement Learning
+S276	C_neuro	11.0	A silent eligibility trace enables dopamine‐dependent synaptic plasticity for reinforcement learning in the mouse striatum
+S300	D_consolidation	11.0	Optimal Stimulation Protocol in a Bistable Synaptic Consolidation Model
+S350	D_consolidation	11.0	The content of hippocampal “replay”
+S841	F_capacity	11.0	Oscillator-Based Associative Memory with Exponential Capacity: Theory, Algorithms, and Hardware Implementation
+S901	J_llm_memory	11.0	Learning User-Aware Recall: Personalized Retrieval in Long-Term Conversational Memory
+S1078	J_llm_memory	10.5	Retrieval-Augmented Simulacra: Generative Agents for Up-to-date and Knowledge-Adaptive Simulations
+S401	E_wm	10.5	Theta coupling in the human electroencephalogram during a working memory task
+S854	H_scale	10.5	Dimensionality-Reduction Techniques for Approximate Nearest Neighbor Search: A Survey and Evaluation
+S886	J_llm_memory	10.5	Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents
+S965	D_consolidation	10.5	Synaptic consolidation: an approach to long-term learning
+S973	D_consolidation	10.5	Memory consolidation in sleep disorders
+S099	B_forget	10.0	Episodic generation can cause semantic forgetting: Retrieval-induced forgetting of false memories
+S101	B_forget	10.0	Less we forget: Retrieval cues and release from retrieval-induced forgetting
+S104	B_forget	10.0	Forgetting our personal past: Socially shared retrieval-induced forgetting of autobiographical memories.
+S1041	B_forget	10.0	CORE: Mitigating Catastrophic Forgetting in Continual Learning through Cognitive Replay
+S1043	B_forget	10.0	Mitigating Catastrophic Forgetting in Streaming Generative and Predictive Learning via Stateful Replay
+S1047	B_forget	10.0	Sequencing to Mitigate Catastrophic Forgetting in Continual Learning
+S105	B_forget	10.0	Retrieval-induced versus context-induced forgetting: Does retrieval-induced forgetting depend on context shifts?
+S106	B_forget	10.0	Retrieval-induced forgetting is retrieval-modality specific: Evidence from motor memory
+S1072	I_confidence	10.0	Fact-Level Confidence Calibration and Self-Correction
+S1073	J_llm_memory	10.0	LLM Agents for Time-Series: A Survey
+S111	B_forget	10.0	Retrieval-induced forgetting in Alzheimer's disease
+S112	B_forget	10.0	Affective State Influences Retrieval-Induced Forgetting for Integrated Knowledge
+S1127	J_llm_memory	10.0	MemAgent: Learning to Manage Heterogeneous Memory Providers for LLM Agents
+S1128	A_timescale	10.0	State Space Models Naturally Produce Time Cell and Oscillatory Behaviors and Scale to Abstract Cognitive Functions
+S113	B_forget	10.0	On the reliability of retrieval-induced forgetting
+S114	B_forget	10.0	Finding retrieval-induced forgetting in recognition tests: a case for baseline memory strength
+S115	B_forget	10.0	Initial retrieval shields against retrieval-induced forgetting
+S120	B_forget	10.0	When stereotype knowledge prevents retrieval-induced forgetting
+S176	B_forget	10.0	Retrieval-Induced Forgetting as Motivated Cognition
+S186	B_forget	10.0	Sleep-like unsupervised replay reduces catastrophic forgetting in artificial neural networks
+S194	B_forget	10.0	Diffusion-based neuromodulation can eliminate catastrophic forgetting in simple neural networks
+S226	C_neuro	10.0	Impaired Learning and Decreased Cortical Norepinephrine after Bilateral Locus Coeruleus Lesions
+S233	C_neuro	10.0	Fluid intelligence and the locus coeruleus–norepinephrine system
+S235	C_neuro	10.0	Testing locus coeruleus-norepinephrine accounts of working memory, attention control, and fluid intelligence
+S239	C_neuro	10.0	Visual afferents to norepinephrine-containing neurons in cat locus coeruleus
+S247	C_neuro	10.0	The locus coeruleus, norepinephrine, and memory in newborns
+S249	C_neuro	10.0	Corticotropin-Releasing Factor in the Norepinephrine Nucleus, Locus Coeruleus, Facilitates Behavioral Flexibility
+S250	C_neuro	10.0	Organization of the Locus Coeruleus-Norepinephrine System
+S252	C_neuro	10.0	Midbrain Dopamine Neurons Encode a Quantitative Reward Prediction Error Signal
+S255	C_neuro	10.0	Dopamine reward prediction error coding
+S267	C_neuro	10.0	Axiomatic methods, dopamine and reward prediction error
+S269	C_neuro	10.0	Dopamine, Updated: Reward Prediction Error and Beyond
+S326	D_consolidation	10.0	Parvalbumin-expressing interneurons coordinate hippocampal network dynamics required for memory consolidation
+S335	D_consolidation	10.0	Adult hippocampal neurogenesis for systems consolidation of memory
+S375	D_consolidation	10.0	Supplemental Material for Promoting Memory Consolidation During Sleep: A Meta-Analysis of Targeted Memory Reactivation
+S402	E_wm	10.0	The relationship between theta-gamma coupling and spatial memory ability in older adults
+S413	E_wm	10.0	Out of Rhythm: Compromised Precision of Theta-Gamma Coupling Impairs Associative Memory in Old Age
+S416	E_wm	10.0	Theta-gamma phase-amplitude coupling in the prefrontal-hippocampal- medial septal circuit: Mechanisms of cross-regional coordination and working memor
+S455	E_wm	10.0	Interplay between persistent activity and activity-silent dynamics in the prefrontal cortex underlies serial biases in working memory
+S566	F_capacity	10.0	A finite-size scaling investigation for Q-state Hopfield models: storage capacity and basins of attraction
+S803	I_confidence	10.0	Range of Confidence Scale and Consumer Knowledge Calibration
+S852	H_scale	10.0	Survey of Filtered Approximate Nearest Neighbor Search over the Vector-Scalar Hybrid Data
+S853	H_scale	10.0	A Comprehensive Survey and Experimental Comparison of Graph-Based Approximate Nearest Neighbor Search
+S856	H_scale	10.0	Filtered Approximate Nearest Neighbor Search: A Unified Benchmark and Systematic Experimental Study [Experiment, Analysis & Benchmark]
+S888	J_llm_memory	10.0	State Contamination in Memory-Augmented LLM Agents
+S937	C_neuro	10.0	Locus Coeruleus and Dopamine-Dependent Memory Consolidation
+S023	A_timescale	9.5	Memory out of context: Spacing effects and decontextualization in a computational model of the medial temporal lobe.
+S1037	I_confidence	9.5	The posterior parietal cortex and subjectively perceived confidence during memory retrieval
+S822	B_forget	9.5	Human-like Forgetting Curves in Deep Neural Networks
+S972	D_consolidation	9.5	A computational model of systems memory consolidation and reconsolidation
+S994	G_structure	9.5	The Human Hippocampus: Cognitive Maps or Relational Memory?
+S1075	J_llm_memory	9.0	OCR-Agent: Agentic OCR with Capability and Memory Reflection
+S1077	J_llm_memory	9.0	Generative Agents: Interactive Simulacra of Human Behavior
+S1084	J_llm_memory	9.0	LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory
+S1097	J_llm_memory	9.0	Memory in the Age of AI Agents
+S236	C_neuro	9.0	Serial changes in norepinephrine and dopamine in rat brain after locus coeruleus lesions
+S322	D_consolidation	9.0	Sleep Slow-Wave–Spindle Coupling for Age-Group Classification
+S334	D_consolidation	9.0	The Yin and Yang of Memory Consolidation: Hippocampal and Neocortical
+S378	D_consolidation	9.0	Emotional arousal modulates oscillatory correlates of targeted memory reactivation during NREM, but not REM sleep
+S420	E_wm	9.0	363. Theta-Gamma Coupling and Working Memory in Alzheimer׳s Dementia and Mild Cognitive Impairment
+S577	F_capacity	9.0	Scaling laws of compliant elements for high energy storage capacity in robotics
+S586	F_capacity	9.0	Delay for the capacity-simplicity dilemma in associative memory attractor networks
+S714	H_scale	9.0	Falconn++: A Locality-Sensitive Filtering Approach for Approximate Nearest Neighbor Search
+S933	C_neuro	9.0	The projections of locus coeruleus neurons to the spinal cord
+S968	D_consolidation	9.0	Active and effective replay: systems consolidation reconsidered again
+S969	D_consolidation	9.0	Reply to ‘Active and effective replay: systems consolidation reconsidered again’
+S981	E_wm	9.0	Disturbed theta and gamma coupling as a potential mechanism for visuospatial working memory dysfunction in people with schizophrenia
+S030	A_timescale	8.5	Neural temporal context reinstatement of event structure during memory recall.
+S264	C_neuro	8.5	Dopamine D1/D5 Receptors Mediate Informational Saliency that Promotes Persistent Hippocampal Long-Term Plasticity
+S313	D_consolidation	8.5	Sleep sharp wave ripple and its functions in memory and synaptic plasticity
+S839	F_capacity	8.5	Effects of Feature Correlations on Associative Memory Capacity
+S048	A_timescale	8.0	Complex dynamics induced by multiple timescales in a Wilson–Cowan model with homeostatic plasticity
+S1095	J_llm_memory	8.0	MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent
+S174	B_forget	8.0	Neural mechanisms of motivated forgetting
+S241	C_neuro	8.0	Action of norepinephrine in the dentate gyrus. I. Stimulation of locus coeruleus
+S254	C_neuro	8.0	Understanding dopamine and reinforcement learning: The dopamine reward prediction error hypothesis
+S265	C_neuro	8.0	Dopamine Reward Prediction Error Responses Reflect Marginal Utility
+S327	D_consolidation	8.0	Sleep-dependent memory consolidation in the light of rapid neocortical plasticity
+S377	D_consolidation	8.0	Targeted memory reactivation in human REM sleep elicits detectable reactivation
+S380	D_consolidation	8.0	Targeted memory reactivation of newly learned words during sleep triggers REM-mediated integration of new memories and existing knowledge
+S424	E_wm	8.0	Cortical theta–gamma coupling governs the adaptive control of motor commands
+S454	E_wm	8.0	Between persistently active and activity‐silent frameworks: novel vistas on the cellular basis of working memory
+S487	E_wm	8.0	A working memory model based on fast Hebbian learning
+S550	F_capacity	8.0	A modified Hopfield auto-associative memory with improved capacity
+S573	F_capacity	8.0	Storage Capacity of the Hopfield Network Associative Memory
+S702	H_scale	8.0	Efficent Sparse Reconstruction Based Hashing for Large Scale Approximate Nearest Neighbor Search
+S798	I_confidence	8.0	Aging, metamemory, and high-confidence errors: A misrecollection account.
+S843	F_capacity	8.0	Capacity of the Hebbian-Hopfield network associative memory
+S855	H_scale	8.0	Approximate Nearest Neighbor Search in High Dimensions
+S1051	F_capacity	7.5	Modern Hopfield Networks with Continuous-Time Memories
+S1062	H_scale	7.5	Efficient Vector Search on Disaggregated Memory with d-HNSW
+S242	C_neuro	7.5	Angiotensin II and the locus coeruleus
+S776	I_confidence	7.5	On the role of individual items in recognition memory and metacognition: Challenges for signal detection theory.
+S844	F_capacity	7.5	The Exponential Capacity of Dense Associative Memories
+S1045	B_forget	7.0	FOREVER: Forgetting Curve-Inspired Memory Replay for Language Model Continual Learning
+S1070	I_confidence	7.0	Evaluating Confidence-Gated Retrieval with Matched Trajectory Replay
+S1071	I_confidence	7.0	Towards Confidence-aware Calibrated Recommendation
+S1103	I_confidence	7.0	Tip-of-the-Tongue and Feeling-of-Knowing Experiences Enhance Metacognitive Sensitivity of Confidence Evaluation of Semantic Memory
+S1124	J_llm_memory	7.0	MemoryTax: The Bitter Lesson of Agent Memory
+S128	B_forget	7.0	When Forgetting Benefits Motor Retention
+S187	B_forget	7.0	Bayesian continual learning and forgetting in neural networks
+S195	B_forget	7.0	Effect of Pruning on Catastrophic Forgetting in Growing Dual Memory Networks
+S234	C_neuro	7.0	The locus coeruleus as a regulator of memory linking
+S251	C_neuro	7.0	Dopamine Neurons Can Represent Context-Dependent Prediction Error
+S260	C_neuro	7.0	Prediction error in dopamine neurons during associative learning
+S278	C_neuro	7.0	Eligibility traces as a synaptic substrate for learning
+S338	D_consolidation	7.0	Memory trace reactivation in hippocampal and neocortical neuronal ensembles
+S349	D_consolidation	7.0	Prioritized memory access explains planning and hippocampal replay
+S369	D_consolidation	7.0	Corrigendum: Targeted Memory Reactivation During Sleep Improves Next-Day Problem Solving
+S379	D_consolidation	7.0	Prior knowledge is essential for the beneficial effect of targeted memory reactivation during sleep
+S381	D_consolidation	7.0	Losing memories during sleep after targeted memory reactivation
+S482	E_wm	7.0	Effective Visual Working Memory Capacity: An Emergent Effect from the Neural Dynamics in an Attractor Network
+S506	F_capacity	7.0	The modified unlearning procedure for enhancing storage capacity in Hopfield network
+S509	F_capacity	7.0	Storage capacity of the Hopfield neural network
+S561	F_capacity	7.0	Increased Storage Capacity in Hopfield Networks by Small-World Topology
+S563	F_capacity	7.0	Quantum Hopfield Neural Networks: A New Approach and Its Storage Capacity
+S564	F_capacity	7.0	Rigorous bounds on the storage capacity of the dilute Hopfield model
+S565	F_capacity	7.0	On the Storage Capacity of the Hopfield Model
+S567	F_capacity	7.0	On the storage capacity of Hopfield models with correlated patterns
+S568	F_capacity	7.0	On the storage capacity of the Hopfield model with biased patterns
+S569	F_capacity	7.0	STORAGE CAPACITY OF EXTREMELY DILUTED HOPFIELD MODEL
+S575	F_capacity	7.0	Storage capacity of rotor Hopfield neural networks
+S576	F_capacity	7.0	Storage capacity of hyperbolic Hopfield neural networks
+S580	F_capacity	7.0	Optimal storage capacity of quantum Hopfield neural networks
+S585	F_capacity	7.0	On the storage capacity of an associative memory with randomly distributed storage elements
+S595	F_capacity	7.0	Associative Memory Synthesis, Performance, Storage Capacity And Updating: New Heteroassociative Memory Results
+S600	F_capacity	7.0	On fuzzy associative memory with multiple-rule storage capacity
+S701	H_scale	7.0	Reference-Vector Removed Product Quantization for Approximate Nearest Neighbor Search
+S703	H_scale	7.0	Pyramid Product Quantization for Approximate Nearest Neighbor Search
+S708	H_scale	7.0	Optimized Product Quantization for Approximate Nearest Neighbor Search
+S709	H_scale	7.0	Locally Optimized Product Quantization for Approximate Nearest Neighbor Search
+S710	H_scale	7.0	Joint K-Means quantization for Approximate Nearest Neighbor Search
+S711	H_scale	7.0	Graph regularized nonnegative sparse coding using incoherent dictionary for approximate nearest neighbor search
+S715	H_scale	7.0	SOAR: Improved Indexing for Approximate Nearest Neighbor Search
+S733	H_scale	7.0	A conditional probability interpretation of Kanerva's sparse distributed memory
+S763	I_confidence	7.0	Modeling confidence and response time in recognition memory.
+S768	I_confidence	7.0	Extreme-value signal detection theory for recognition memory: The parametric road not taken.
+S786	I_confidence	7.0	Optimal Group Decision: A Matter of Confidence Calibration
+S840	F_capacity	7.0	A Geometry-Based Capacity Theory for Finite-Feature Associative Memory
+S875	I_confidence	7.0	Uncertainty-Aware Hybrid Retrieval for Long-Document RAG
+S932	C_neuro	7.0	Responses of locus coeruleus neurons to neuropeptides
+S986	F_capacity	7.0	An Analysis of the Local Optima Storage Capacity of Hopfield Network Based Fitness Function Models
+S992	F_capacity	7.0	Effect of Hamming distance of patterns on storage capacity of Hopfield network
+S017	A_timescale	6.5	Orbito-frontal Cortex is Necessary for Temporal Context Memory
+S021	A_timescale	6.5	Changing temporal context in human temporal lobe promotes memory of distinct episodes
+S029	A_timescale	6.5	A temporal context repetition effect in rats during a novel object recognition memory task
+S1048	F_capacity	6.5	Accuracy and capacity of Modern Hopfield networks with synaptic noise
+S1052	F_capacity	6.5	The Capacity of Modern Hopfield Networks under the Data Manifold Hypothesis
+S1056	G_structure	6.5	Ensemble Successor Representations for Task Generalization in Offline-to-Online Reinforcement Learning
+S294	C_neuro	6.5	Facilitation of fear extinction by novelty is modulated by β-adrenergic and 5-HT1A serotoninergic receptors in hippocampus
+S301	D_consolidation	6.5	Synaptic plasticity during systems memory consolidation
+S303	D_consolidation	6.5	Simplified calcium signaling cascade for synaptic plasticity
+S332	D_consolidation	6.5	Absence of systems consolidation of fear memories after dorsal, ventral, or complete hippocampal damage
+S439	E_wm	6.5	Visual working memory is better characterized as a distributed resource rather than discrete slots
+S461	E_wm	6.5	Prefrontal activity associated with working memory and episodic long-term memory
+S501	F_capacity	6.5	The asymptotic memory capacity of the generalized Hopfield network
+S617	G_structure	6.5	The successor representation subserves hierarchical abstraction for goal-directed behavior
+S732	H_scale	6.5	Sparse distributed memory: understanding the speed and robustness of expert memory
+S736	H_scale	6.5	Integer sparse distributed memory: Analysis and results
+S821	A_timescale	6.5	Spatio-Temporal Context Modeling for Road Obstacle Detection
+S995	G_structure	6.5	Drug-induced amnesia impairs implicit relational memory
+S996	G_structure	6.5	Event-related Potential Signatures of Relational Memory
+S997	G_structure	6.5	Development of relational memory processes in monkeys
+S041	A_timescale	6.0	Synaptic consolidation across multiple timescales
+S096	B_forget	6.0	Age-Related Effects In Retrieval-Induced Forgetting
+S098	B_forget	6.0	INTERMANUAL TRANSFER OF RETRIEVAL-INDUCED FORGETTING IN MOTOR SEQUENCE LEARNING
+S100	B_forget	6.0	Retrieval-induced forgetting and clinical depression
+S107	B_forget	6.0	Recognition-induced forgetting and retrieval-induced forgetting are differentially affected by direct-current stimulation
+S108	B_forget	6.0	Retrieval priming in product verification: Evidence from retrieval-induced forgetting
+S116	B_forget	6.0	Retrieval-Induced Remembering and Forgetting
+S118	B_forget	6.0	Retrieval-induced forgetting of emotional and unemotional autobiographical memories
+S119	B_forget	6.0	Retrieval-induced forgetting: The unintended consequences of unintended forgetting
+S173	B_forget	6.0	Motivated Forgetting
+S175	B_forget	6.0	Motivated Forgetting in Early Mathematics: A Proof-of-Concept Study
+S177	B_forget	6.0	Motivated forgetting and the study of repression
+S183	B_forget	6.0	Motivated Forgetting: Forgetting What we Want to Forget
+S185	B_forget	6.0	A Study on Catastrophic Forgetting in Deep LSTM Networks
+S189	B_forget	6.0	EVOLVING NEURAL NETWORKS THAT SUFFER MINIMAL CATASTROPHIC FORGETTING
+S193	B_forget	6.0	Mitigation of catastrophic forgetting in recurrent neural networks using a Fixed Expansion Layer
+S196	B_forget	6.0	Understanding Catastrophic Forgetting of Gated Linear Networks in Continual Learning
+S198	B_forget	6.0	DiF3CON: Diffusion Forgetting via Continual Unlearning
+S199	B_forget	6.0	Catastrophic forgetting in neural networks: the role of rehearsal mechanisms
+S202	B_forget	6.0	Adaptation of Artificial Neural Networks Avoiding Catastrophic Forgetting
+S203	B_forget	6.0	Unsupervised neuron selection for mitigating catastrophic forgetting in neural networks
+S227	C_neuro	6.0	II. New evidence for a locus coeruleus-norepinephrine connection with anxiety
+S228	C_neuro	6.0	Locus Coeruleus and Norepinephrine in Parkinson's Disease
+S231	C_neuro	6.0	Norepinephrine from the Locus Coeruleus Regulates Microglia Dynamics During Wakefulness
+S232	C_neuro	6.0	Stress-Induced Increases in Locus Coeruleus Norepinephrine Underlie Extinction Learning Deficits
+S238	C_neuro	6.0	Evidence for norepinephrine-mediated collateral inhibition of locus coeruleus neurons
+S261	C_neuro	6.0	The dopamine reward prediction error signal
+S270	C_neuro	6.0	Dopamine, Reward Prediction Error, and Economics<sup>*</sup>
+S296	D_consolidation	6.0	mRNA at Synapses, Synaptic Plasticity, and Memory Consolidation
+S298	D_consolidation	6.0	Synaptic Consolidation
+S318	D_consolidation	6.0	Sleep Spindle Symposium-Introduction
+S403	E_wm	6.0	Inverted theta-gamma coupling in a model of temporal lobe epilepsy
+S405	E_wm	6.0	Theta, Gamma, and Cross-Frequency Coupling in the Hippocampus
+S407	E_wm	6.0	Hippocampus, Theta, Gamma, and Cross-Frequency Coupling
+S451	E_wm	6.0	‘Activity-silent’ working memory in prefrontal cortex: a dynamic coding framework
+S572	F_capacity	6.0	Enabling Data Footprint Reduction: Storage Capacity Optimization
+S616	G_structure	6.0	Associative Learning of an Unnormalized Successor Representation
+S636	G_structure	6.0	FraudLens: Graph Structural Learning for Bitcoin Illicit Activity Identification
+S697	H_scale	6.0	Approximate nearest neighbor search using self-organizing map clustering for face recognition system
+S699	H_scale	6.0	Associative Memories to Accelerate Approximate Nearest Neighbor Search
+S700	H_scale	6.0	Exploiting lower bounds to accelerate approximate nearest neighbor search on high-dimensional data
+S707	H_scale	6.0	Transform coding for fast approximate nearest neighbor search in high dimensions
+S712	H_scale	6.0	Efficient Large-Scale Approximate Nearest Neighbor Search on OpenCL FPGA
+S713	H_scale	6.0	A Multilabel Classification Framework for Approximate Nearest Neighbor Search
+S716	H_scale	6.0	Worst-case Performance of Popular Approximate Nearest Neighbor Search Implementations: Guarantees and Limitations
+S770	I_confidence	6.0	A familiarity-based account of confidence–accuracy inversions in recognition memory.
+S787	I_confidence	6.0	Confidence Region for Calibration Function Coefficients
+S789	I_confidence	6.0	Confidence Calibration of Classifiers with Many Classes
+S790	I_confidence	6.0	Conformalized confidence calibration for multi-view 3D reconstruction
+S791	I_confidence	6.0	Simultaneous confidence procedures in multivariate calibration problems
+S793	I_confidence	6.0	Confidence Regions in Multivariate Calibration
+S795	I_confidence	6.0	Conservative confidence regions in multivariate calibration
+S796	I_confidence	6.0	Evaluation of reliable confidence bounds for sensor calibration curves
+S799	I_confidence	6.0	Semantic confidence calibration for spoken dialog applications
+S800	I_confidence	6.0	The metamemory approach to confidence: A test using semantic memory
+S801	I_confidence	6.0	Calibration and confidence: Where to next?
+S802	I_confidence	6.0	Confidence calibration measures to improve speech recognition
+S845	F_capacity	6.0	Neuron-Astrocyte Associative Memory
+S967	D_consolidation	6.0	Systems consolidation and hippocampus: two views
+S970	D_consolidation	6.0	Replay-Based Consolidation Governs Enduring Memory Storage
+S975	D_consolidation	6.0	Impact of aversive stimuli on spatial memory consolidation during sleep in the hippocampus-amygdala network
+S984	E_wm	6.0	Is Theta-Gamma Coupling Memory Specific?
+S002	A_timescale	5.5	Time cells in the hippocampus: a new dimension for mapping memories
+S009	A_timescale	5.5	Time cells in the retrosplenial cortex
+S1050	F_capacity	5.5	Modern Hopfield Networks and Attention for Immune Repertoire Classification
+S1053	F_capacity	5.5	Simplicial Hopfield networks
+S1058	G_structure	5.5	Hierarchical Successor Representation for Robust Transfer
+S1060	G_structure	5.5	Graph-based Agent Memory: Taxonomy, Techniques, and Applications
+S1063	H_scale	5.5	d-HNSW: A High-performance Vector Search Engine on Disaggregated Memory
+S148	B_forget	5.5	Forgetting in Reinforcement Learning Links Sustained Dopamine Signals to Motivation
+S253	C_neuro	5.5	Dopamine D<sub>1</sub>Receptor Modulates Hippocampal Representation Plasticity to Spatial Novelty
+S266	C_neuro	5.5	Enhanced Dopamine-Dependent Hippocampal Plasticity after Single MK-801 Application
+S314	D_consolidation	5.5	A hippocampal ‘sharp-wave sleep’ state that is dissociable from cortical sleep
+S529	F_capacity	5.5	Development sculpts dense neural circuits to enhance memory capacity
+S546	F_capacity	5.5	Notions of Associative Memory and Sparse Coding
+S614	G_structure	5.5	The Successor Representation and Temporal Context
+S764	I_confidence	5.5	Signal detection with criterion noise: Applications to recognition memory.
+S777	I_confidence	5.5	Common and specific brain regions in high- versus low-confidence recognition memory
+S778	I_confidence	5.5	Relating the content and confidence of recognition judgments.
+S780	I_confidence	5.5	Bias effects in a two-stage recognition paradigm: A challenge for “pure” threshold and signal detection models.
+S782	I_confidence	5.5	On why we lack confidence in some signal-detection-based analyses of confidence
+S827	D_consolidation	5.5	Prioritized Experience Replay
+S829	D_consolidation	5.5	Prioritized Sequence Experience Replay
+S847	F_capacity	5.5	Associative Memory by Recurrent Neural Networks with Delay Elements
+S850	G_structure	5.5	Video Object Segmentation with Episodic Graph Memory Networks
+S971	D_consolidation	5.5	Consolidation of memory
+S043	A_timescale	5.0	Multiple Mechanistically Distinct Timescales of Neocortical Plasticity Occur During Habituation
+S070	A_timescale	5.0	Scale-free networks versus evolutionary drift
+S1002	G_structure	5.0	A cognitive map for object memory in the hippocampus
+S1033	I_confidence	5.0	Predicting Accuracy in Eyewitness Testimonies With Memory Retrieval Effort and Confidence
+S1036	I_confidence	5.0	Confidence in accuracy moderates the benefits of retrieval practice
+S1038	B_forget	5.0	Can Agents Truly Forget? Explore Machine Unlearning for LLM Agents
+S1039	B_forget	5.0	Agentic Unlearning: When LLM Agent Meets Machine Unlearning
+S1044	B_forget	5.0	Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning
+S1054	G_structure	5.0	Successor Representation Active Inference
+S1057	G_structure	5.0	A Distributional Analogue to the Successor Representation
+S1061	G_structure	5.0	Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents
+S1069	I_confidence	5.0	Confidence-Calibrated Ensemble Dense Phrase Retrieval
+S1074	J_llm_memory	5.0	ParamMem: Augmenting Language Agents with Parametric Reflective Memory
+S1126	J_llm_memory	5.0	BMAM: Brain-inspired Multi-Agent Memory Framework
+S1129	B_forget	5.0	"Forgetting" in Machine Learning and Beyond: A Survey
+S124	B_forget	5.0	Stimulus generalization, context change, and forgetting.
+S125	B_forget	5.0	Directed forgetting benefits motor sequence encoding
+S130	B_forget	5.0	Temporal generalization and diffusion in forgetting
+S131	B_forget	5.0	Intentional forgetting benefits from thought substitution
+S169	B_forget	5.0	Directed forgetting in schizophrenia
+S180	B_forget	5.0	A grand memory for forgetting: Directed forgetting across contextual changes
+S182	B_forget	5.0	The role of forgetting cues in directed forgetting: Ceasing maintenance rehearsal
+S197	B_forget	5.0	Forgetting memristor based STDP learning circuit for neural networks
+S204	C_neuro	5.0	Hippocampal acetylcholine and habituation learning
+S219	C_neuro	5.0	Septohippocampal acetylcholine and theta oscillations can modulate memory encoding and retrieval: Insights from a neural masses network
+S243	C_neuro	5.0	Afferent effects on locus coeruleus in opiate withdrawal
+S256	C_neuro	5.0	Dopamine reward prediction-error signalling: a two-component response
+S268	C_neuro	5.0	The Dopamine Prediction Error: Contributions to Associative Models of Reward Learning
+S311	D_consolidation	5.0	The hippocampal sharp wave–ripple in memory retrieval for immediate use and consolidation
+S351	D_consolidation	5.0	Prioritized experience replay based on dynamics priority
+S357	D_consolidation	5.0	A divided and prioritized experience replay approach for streaming regression
+S365	D_consolidation	5.0	Risk-Prioritized Experience Replay for Stable In-Hand Manipulation
+S390	D_consolidation	5.0	Experience Replay Using Transition Sequences
+S427	E_wm	5.0	Age differences in visual working memory capacity: not based on encoding limitations
+S429	E_wm	5.0	Roles of working memory capacity and long-term working memory skill in complex task performance
+S430	E_wm	5.0	Working memory capacity and controlled serial memory search
+S431	E_wm	5.0	Working Memory Capacity Limits Memory for Bindings
+S432	E_wm	5.0	Individual Differences in Working Memory Capacity: More Evidence for a General Capacity Theory
+S437	E_wm	5.0	Examining variation in working memory capacity and retrieval in cued recall
+S440	E_wm	5.0	Working through the pain: Working memory capacity and differences in processing and storage under pain
+S448	E_wm	5.0	The Nature of Haptic Working Memory Capacity and Its Relation to Visual Working Memory
+S453	E_wm	5.0	Probing the limits of activity-silent non-conscious working memory
+S456	E_wm	5.0	Is Activity Silent Working Memory Simply Episodic Memory?
+S457	E_wm	5.0	Is There an Activity-silent Working Memory?
+S459	E_wm	5.0	A functional spiking-neuron model of activity-silent working memory in humans based on calcium-mediated short-term synaptic plasticity
+S460	E_wm	5.0	Reactivating and reorganizing activity-silent working memory: two distinct mechanisms underlying pinging the brain
+S479	E_wm	5.0	Sequence structure organizes items in varied latent states of working memory neural network
+S560	F_capacity	5.0	On the capacity of the Hopfield associative memory
+S594	F_capacity	5.0	The capacity of the Hopfield associative memory
+S604	G_structure	5.0	The successor representation in human reinforcement learning
+S605	G_structure	5.0	The Successor Representation: Its Computational Logic and Neural Substrates
+S607	G_structure	5.0	Rigid reduced successor representation as a potential mechanism for addiction
+S610	G_structure	5.0	A probabilistic successor representation for context-dependent learning.
+S619	G_structure	5.0	Toward the biological model of the hippocampus as the successor representation agent
+S622	G_structure	5.0	SSEL: spike-based structural entropic learning for spiking graph neural networks
+S627	G_structure	5.0	Structural learning and the hippocampus
+S634	G_structure	5.0	Dual-Structural Bipartite Graph Learning for Multiview Clustering
+S635	G_structure	5.0	Hippocampus-centered structural covariance network reorganization in Alzheimer’s disease: An individualized graph-based biomarker validated by machine
+S765	I_confidence	5.0	On the measurement of criterion noise in signal detection theory: The case of recognition memory.
+S766	I_confidence	5.0	Testing the foundations of signal detection theory in recognition memory.
+S775	I_confidence	5.0	Investigating strength and frequency effects in recognition memory using type-2 signal detection theory.
+S779	I_confidence	5.0	Memory conformity for high-confidence recognition of faces
+S817	I_confidence	5.0	An Uncertainty-Aware Approach for Exploratory Microblog Retrieval
+S828	D_consolidation	5.0	Uncertainty Prioritized Experience Replay
+S830	D_consolidation	5.0	Reliability-Adjusted Prioritized Experience Replay
+S831	D_consolidation	5.0	Distributed Prioritized Experience Replay
+S832	D_consolidation	5.0	Attention Loss Adjusted Prioritized Experience Replay
+S833	D_consolidation	5.0	Revisiting Prioritized Experience Replay: A Value Perspective
+S836	E_wm	5.0	Cross-Frequency Coupling Increases Memory Capacity in Oscillatory Neural Networks
+S868	I_confidence	5.0	SUNAR: Semantic Uncertainty based Neighborhood Aware Retrieval for Complex QA
+S869	I_confidence	5.0	Uncertainty-Aware Cross-Modal Remote Sensing Image-Text Retrieval via Evidential Learning
+S870	I_confidence	5.0	Distributional Approximate Nearest Neighbour Search for Uncertainty-Aware Retrieval
+S871	I_confidence	5.0	Uncertainty-aware sign language video retrieval with probability distribution modeling
+S872	I_confidence	5.0	Uncertainty Quantification for Multimodal Retrieval Augmented Generation
+S873	I_confidence	5.0	Hyp-UML: Hyperbolic Image Retrieval with Uncertainty-aware Metric Learning
+S874	I_confidence	5.0	Ranking-aware Uncertainty for Text-guided Image Retrieval
+S876	I_confidence	5.0	GMMFormer v2: An Uncertainty-aware Framework for Partially Relevant Video Retrieval
+S942	C_neuro	5.0	Acetylcholine‐sensitive control of long‐term synaptic potentiation in hippocampal <scp>CA3</scp> neurons
+S026	A_timescale	4.5	Evaluating the temporal context of episodic memory: The role of CA3 and CA1
+S035	A_timescale	4.5	Temporal context-guided memory capabilities in rodents
+S014	A_timescale	4.0	The temporal context of spatial memory
+S016	A_timescale	4.0	Chapter 3.4 Spatio-temporal context and object recognition memory in rodents
+S018	A_timescale	4.0	Delayed Synapses: An LSM Model for Studying Aspects of Temporal Context in Memory
+S020	A_timescale	4.0	High Resolution Image Classification Based on Spatio-Temporal Context Model of CRF
+S022	A_timescale	4.0	Temporal Context in Serial Order of Short-Term Memory
+S024	A_timescale	4.0	Hippocampal Function and Memory for Temporal Context
+S025	A_timescale	4.0	Scaling behavior in the temporal context model
+S027	A_timescale	4.0	Reduced memory for the spatial and temporal context of unpleasant words
+S031	A_timescale	4.0	A Generalized Temporal Context Model for Semantic Scene Classification
+S033	A_timescale	4.0	Neural basis of temporal context memory: A functional MRI study
+S036	A_timescale	4.0	TEMPORAL CONTEXT AND MEMORY FOR NOTES STORED IN THE COMPUTER
+S075	A_timescale	4.0	A temporal context model for boosting video annotation
+S077	A_timescale	4.0	Temporal Context in Love and Science: The Weave of Temporal Sensitivity (Model 5)
+S078	A_timescale	4.0	A generalized temporal context model for classifying image collections
+S079	A_timescale	4.0	A RDF and OWL-Based Temporal Context Reasoning Model for Smart Home
+S080	A_timescale	4.0	Improved codebook model based on spatio-temporal context
+S082	A_timescale	4.0	Target tracking for mobile robot based on Spatio-Temporal Context model
+S085	A_timescale	4.0	Temporal Context
+S086	A_timescale	4.0	Object tracking based on adaptive updating of a spatial-temporal context model
+S087	A_timescale	4.0	Long-term Tracking Based on Spatio-Temporal Context Model
+S089	A_timescale	4.0	A Novel Model for Temporal Context-Aware Recommendation
+S1003	H_scale	4.0	VLSI architectures of sparse distributed memory
+S1007	H_scale	4.0	Assigning meaning to data: Using sparse distributed memory for multilevel cognitive tasks
+S1010	H_scale	4.0	Sparse distributed memory for ‘conscious’ software agents
+S1011	H_scale	4.0	AI and memory: Studies towards equipping a robot with a sparse distributed memory
+S1012	H_scale	4.0	Robot navigation using a sparse distributed memory
+S1014	H_scale	4.0	Large-Scale Distributed Locality-Sensitive Hashing for General Metric Data
+S1018	H_scale	4.0	Parallel set similarity join on big data based on Locality-Sensitive Hashing
+S1019	H_scale	4.0	Fast Locality-Sensitive Hashing Frameworks for Approximate Near Neighbor Search
+S1021	H_scale	4.0	On the Problem of $$p_1^{-1}$$ in Locality-Sensitive Hashing
+S1022	H_scale	4.0	Improving Locality Sensitive Hashing by Efficiently Finding Projected Nearest Neighbors
+S1049	F_capacity	4.0	Minimum Description Length Hopfield Networks
+S297	D_consolidation	4.0	MAPK cascade signalling and synaptic plasticity
+S331	D_consolidation	4.0	Hippocampal-neocortical interaction: A hierarchy of associativity
+S483	E_wm	4.0	Correction: Effective Visual Working Memory Capacity: An Emergent Effect from the Neural Dynamics in an Attractor Network
+S491	F_capacity	4.0	Increasing the capacity of a hopfield network without sacrificing functionality
+S492	F_capacity	4.0	Image Watermarking Capacity Analysis Using Hopfield Neural Network
+S504	F_capacity	4.0	High capacity for the Hopfield neural networks
+S505	F_capacity	4.0	Enhanced Memory Capacity Of A Hopfield Neural Network
+S514	F_capacity	4.0	Study on the Capacity of Hopfield Neural Networks
+S516	F_capacity	4.0	The capacity and attractor basins of associative memory models
+S517	F_capacity	4.0	High capacity, small world associative memory models
+S518	F_capacity	4.0	Efficient architectures for sparsely-connected high capacity associative memory models
+S519	F_capacity	4.0	Capacity of bidirectional associative memory
+S526	F_capacity	4.0	Binary associative memory networks: A review of mathematical framework and capacity analysis
+S531	F_capacity	4.0	Provably Optimal Memory Capacity for  Modern Hopfield Models:   Transformer-Compatible   Dense Associative Memories as Spherical Codes
+S542	F_capacity	4.0	The capacity of k-gridgraphs as associative memory
+S544	F_capacity	4.0	Capacity of associative memory using a nonmonotonic neuron model
+S549	F_capacity	4.0	The capacity of the Boolean associative memory
+S555	F_capacity	4.0	Quantum associative memory with exponential capacity
+S558	F_capacity	4.0	The Hamming associative memory and its relation to the exponential capacity DAM
+S559	F_capacity	4.0	Towards a high capacity fuzzy associative memory model
+S588	F_capacity	4.0	Capacity of the associative memory using the Boltzmann machine learning
+S590	F_capacity	4.0	New results of Quick Learning for Bidirectional Associative Memory having high capacity
+S596	F_capacity	4.0	The capacity of the Kanerva associative memory
+S599	F_capacity	4.0	A low-cost high-capacity associative memory design using cellular automata
+S734	H_scale	4.0	ASDM-a novel neural network model based on sparse distributed memory
+S735	H_scale	4.0	Temporal Sparse Distributed Memory: Identifying Temporal Patterns via Homeomorphic Contractions of Memory
+S737	H_scale	4.0	Genetic sparse distributed memory
+S738	H_scale	4.0	An adaptive sparse distributed memory
+S739	H_scale	4.0	Convergence in a sparse distributed memory
+S740	H_scale	4.0	Sparse distributed memory for multivalued patterns
+S741	H_scale	4.0	ATM call admission control using sparse distributed memory
+S742	H_scale	4.0	Some results on activation and scaling of sparse distributed memory
+S743	H_scale	4.0	Sparse distributed memory implementations on tree shape parallel neurocomputer
+S744	H_scale	4.0	2D sparse distributed memory-optical neural network for pattern recognition
+S746	H_scale	4.0	Sparse distributed memory
+S771	I_confidence	4.0	Decision rules for recognition memory confidence judgments.
+S842	F_capacity	4.0	Quantum Associative Memory
+S846	F_capacity	4.0	A Massively Parallel Associative Memory Based on Sparse Neural Networks
+S909	J_llm_memory	4.0	EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory
+S988	F_capacity	4.0	Continuous Proteretic Hopfield Neural Network in Walsh-based Distributed Storage
+S989	F_capacity	4.0	Implementation of Hopfield Neural Network for its Capacity with Finger Print Images
+S998	G_structure	4.0	Representational learning in forming relational memory
+S015	A_timescale	3.5	A temporal ratio model of memory.
+S1016	H_scale	3.5	MapReduce Based Personalized Locality Sensitive Hashing for Similarity Joins on Large Scale Data
+S1079	J_llm_memory	3.5	EducaSim: Interactive Simulacra for CS1 Instructional Practice
+S299	D_consolidation	3.5	Computational principles of synaptic memory consolidation
+S329	D_consolidation	3.5	Neuromuscular blockade: The effects on two hippocampal RSA (theta) systems and neocortical desynchronization
+S640	G_structure	3.5	Optimal Quadratic Binding for Relational Reasoning in Vector Symbolic Neural Architectures
+S678	G_structure	3.5	Building up and wearing down episodic memory: Mnemonic discrimination and relational binding.
+S774	I_confidence	3.5	On the nature of the decision axis in signal-detection-based models of recognition memory.
+S857	H_scale	3.5	Hashing for Similarity Search: A Survey
+S940	C_neuro	3.5	Muscarinic acetylcholine receptor subtypes in cerebral cortex and hippocampus
+S963	D_consolidation	3.5	Reversal and consolidation of activity-induced synaptic modifications
+S1001	G_structure	3.0	The Place Cells—Cognitive Map or Memory System?
+S102	B_forget	3.0	Attentional Control and Retrieval Induced Forgetting Self-regulation Perspective
+S1023	I_confidence	3.0	Perceptual metacognition beyond confidence
+S1024	I_confidence	3.0	Familiarity and the Retrieval of Memory Traces
+S1030	I_confidence	3.0	The underconfidence-with-practice effect in action memory: The contribution of retrieval practice to metacognitive monitoring
+S1031	I_confidence	3.0	On the confidence-accuracy relationship in memory: inferential, direct access, or indirect access?
+S1032	I_confidence	3.0	Confidence and metacognition
+S1035	I_confidence	3.0	Single Neuron Markers of Memory Retrieval Confidence
+S1100	I_confidence	3.0	What Feeling Is the “Feeling of Knowing?”
+S1102	I_confidence	3.0	In the Mind but Not on the Tongue: Feeling of Knowing in an Anomic Patient
+S1104	I_confidence	3.0	Graded recall success: an event-related fMRI comparison of tip of the tongue and feeling of knowing
+S1105	I_confidence	3.0	Tip of the Tongue and Feeling of Knowing Experiences: A Developmental Study of Memory Monitoring
+S117	B_forget	3.0	Retrieval‐induced forgetting in eyewitness memory: forgetting as a consequence of remembering
+S136	B_forget	3.0	The Danger of Forgetting the Social Benefits of Higher Education
+S138	B_forget	3.0	FORGETTING WITHOUT OBLIVION
+S139	B_forget	3.0	Forgetting: An Introduction
+S150	B_forget	3.0	Dynamics of structural learning with an adaptive forgetting rate
+S151	B_forget	3.0	Density-Adaptive Learning and Forgetting
+S158	B_forget	3.0	Instruction for reinforcement learning agent based on sub-rewards and forgetting
+S170	B_forget	3.0	Directed forgetting of unpleasant and neutral pictures? – An ERP study
+S171	B_forget	3.0	EEG studies of list method directed forgetting for emotional and neutral words
+S172	B_forget	3.0	Directed Forgetting
+S178	B_forget	3.0	Mechanisms of Directed Forgetting
+S179	B_forget	3.0	Directed forgetting versus directed remembering in visual working memory
+S181	B_forget	3.0	Directed forgetting during pregnancy
+S184	B_forget	3.0	Neural networks: learning and forgetting
+S188	B_forget	3.0	Learning and forgetting on asymmetric, diluted neural networks
+S200	B_forget	3.0	Acquisition of fuzzy rules using fuzzy neural networks with forgetting
+S201	B_forget	3.0	SPIN Learning and Forgetting Surface Classifications with Dynamic Neural Networks
+S206	C_neuro	3.0	Role of neuromodulators in regulating Hippocampal encoding and retrieval in anxiety disorders
+S214	C_neuro	3.0	High acetylcholine levels set circuit dynamics for attention and encoding and low acetylcholine levels set dynamics for consolidation
+S229	C_neuro	3.0	Locus coeruleus-amygdala network for memory consolidation and retrieval
+S230	C_neuro	3.0	Locus coeruleus activity during sleep for off-line memory consolidation
+S244	C_neuro	3.0	Norepinephrine effects on spinal motoneurons
+S257	C_neuro	3.0	Dopamine prediction error responses update demand
+S258	C_neuro	3.0	Dopamine and hippocampal synaptic plasticity
+S259	C_neuro	3.0	Dopamine Prediction Error Responses Reflect Economic Utility
+S275	C_neuro	3.0	Dopamine ramping as a prediction error signal in the presence of dynamic sensory cues
+S280	C_neuro	3.0	Eligibility traces through colored noises
+S284	C_neuro	3.0	Cortical plasticity induced by conversion of synaptic eligibility traces in vivo
+S306	D_consolidation	3.0	Molecular Mechanisms Underlying Synaptic Tagging and Consolidation
+S320	D_consolidation	3.0	The Stuff of Memories: Sharp Wave Ripple Memory Consolidation in Epilepsy
+S348	D_consolidation	3.0	A spiking-neuron model of memory encoding and replay in hippocampus
+S352	D_consolidation	3.0	Memory Replay in the Hippocampus
+S353	D_consolidation	3.0	Prioritized experience replay for learning in the rat hippocampus
+S354	D_consolidation	3.0	Double Prioritized State Recycled Experience Replay
+S355	D_consolidation	3.0	Prioritized Experience Replay for Continual Learning
+S356	D_consolidation	3.0	Prioritized Experience Replay Method Based on Experience Reward
+S358	D_consolidation	3.0	Ddper: Decentralized Distributed Prioritized Experience Replay
+S359	D_consolidation	3.0	Balanced Prioritized Experience Replay
+S360	D_consolidation	3.0	Prioritized Experience Replay based on Multi-armed Bandit
+S361	D_consolidation	3.0	Informed Sampling of Prioritized Experience Replay
+S362	D_consolidation	3.0	Actor Prioritized Experience Replay
+S363	D_consolidation	3.0	InPTR: Integration Prioritized Trajectory Replay
+S364	D_consolidation	3.0	Actor Prioritized Experience Replay (Abstract Reprint)
+S366	D_consolidation	3.0	Rollout-Level Advantage-Prioritized Experience Replay for GRPO
+S383	D_consolidation	3.0	The role of experience in prioritizing hippocampal replay
+S385	D_consolidation	3.0	Accelerating Experience Replay for Deep Q-Networks with Reduced Target Computation
+S386	D_consolidation	3.0	Synthetic Experience Replay
+S389	D_consolidation	3.0	Q-learning with experience replay in a dynamic environment
+S391	D_consolidation	3.0	Hindsight Experience Replay With Experience Ranking
+S393	D_consolidation	3.0	Combining Experience Replay with Exploration by Random Network Distillation
+S394	D_consolidation	3.0	XCSF with Experience Replay for Automatic Test Case Prioritization
+S395	D_consolidation	3.0	Bias-reduced hindsight experience replay with virtual goal prioritization
+S396	D_consolidation	3.0	Interpolated Experience Replay for Continuous Environments
+S397	D_consolidation	3.0	Batch RL, Experience-Replay, DQN, LSPI, Gradient TD
+S398	D_consolidation	3.0	Diverse Memory for Experience Replay in Continual Learning
+S399	D_consolidation	3.0	AccMER: Accelerating Multi-Agent Experience Replay with Cache Locality-Aware Prioritization
+S400	D_consolidation	3.0	Phased Optimal Experience Replay Method
+S401	D_consolidation	3.0	AdaER: An adaptive experience replay approach for continual lifelong learning
+S426	E_wm	3.0	What do estimates of working memory capacity tell us?
+S428	E_wm	3.0	Working Memory and Retrieval: An Inhibition-Resource Approach
+S433	E_wm	3.0	A critique of the working memory model
+S434	E_wm	3.0	The working memory model in adult aging research
+S435	E_wm	3.0	Working Memory and Mathematical Cognitive Development: Limitations of Limited-Capacity Resource Models
+S436	E_wm	3.0	Individual Differences in Working Memory Capacity and Reasoning Ability
+S438	E_wm	3.0	Working memory capacity: Attention control, secondary memory, or both? A direct test of the dual-component model
+S441	E_wm	3.0	The Working Memory Model
+S442	E_wm	3.0	Working Memory Capacity and Musical Skill
+S443	E_wm	3.0	Individual Differences in Visual Working Memory Capacity
+S444	E_wm	3.0	14. Working Memory Capacity, Cognitive Complexity and L2 Recasts in Online Language Teaching
+S445	E_wm	3.0	Mixed-Up Samples: A Model of Visual Working Memory With Neither Capacity Nor Resource Limits
+S446	E_wm	3.0	Correlation Between Single Working Memory Capacity and Average Working Memory
+S447	E_wm	3.0	Working Memory Capacity
+S449	E_wm	3.0	Short-Term and Working Memory Capacity and the Language Device
+S450	E_wm	3.0	Working Memory Capacity, Mental Fatigue, and Human Performance
+S452	E_wm	3.0	Economic “Activity-Silent” Synaptic Mechanisms of Working Memory
+S458	E_wm	3.0	Effects of Structured Physical Activity Training on Working Memory among School Students
+S462	E_wm	3.0	Neural working memory
+S463	E_wm	3.0	An introduction to working memory
+S464	E_wm	3.0	WORKING MEMORY
+S465	E_wm	3.0	Neuroimaging working memory
+S466	E_wm	3.0	Working memory in context
+S467	E_wm	3.0	Working memory in autism
+S468	E_wm	3.0	Working memory in dyslexia
+S469	E_wm	3.0	Training Working Memory
+S470	E_wm	3.0	The Evolution of Working Memory
+S477	E_wm	3.0	Neural activity predicts individual differences in visual working memory capacity
+S481	E_wm	3.0	Replay, Working Memory and Action Selection in Temporal Credit Assignment - a Simple Neural Network Model
+S488	E_wm	3.0	Working memory capacity and allocation reflect noise in neural storage
+S489	E_wm	3.0	How networked brain changes when working memory load reaches the capacity?
+S490	E_wm	3.0	ON THE CELLULAR MECHANISMS UNDERLYING WORKING MEMORY CAPACITY IN HUMANS
+S491	E_wm	3.0	Multifaceted pattern of neural efficiency in working memory capacity
+S574	F_capacity	3.0	Adaptive Capacity
+S587	F_capacity	3.0	Working-Memory Capacity Limits in a Theoretical Context
+S597	F_capacity	3.0	Information capacity of associative memories
+S598	F_capacity	3.0	On the capacity of associative memories with linear threshold functions
+S603	G_structure	3.0	SUCCESSOR REPRESENTATION – A THEORETICAL APPROACH IN THE LIGHT OF THE NEW CIVIL CODE
+S608	G_structure	3.0	Measuring Behavioral Arbitration of the Successor Representation
+S618	G_structure	3.0	Count-Based Exploration with the Successor Representation
+S620	G_structure	3.0	AKF-SR: Adaptive Kalman filtering-based successor representation
+S623	G_structure	3.0	Structural Statistical Software Testing with Active Learning in a Graph
+S629	G_structure	3.0	Learning Exact Graph Edit Distance
+S632	G_structure	3.0	Uncovering the Structural Fairness in Graph Contrastive Learning
+S637	G_structure	3.0	Enhancing graph learning with quantum structural encoding
+S677	G_structure	3.0	Event Congruency Enhances Episodic Memory Encoding through Semantic Elaboration and Relational Binding
+S690	G_structure	3.0	Sensory-perceptual episodic memory and its context: autobiographical memory
+S698	H_scale	3.0	A Survey on Nearest Neighbor Search with Keywords
+S704	H_scale	3.0	Nearest Neighbor Queries
+S705	H_scale	3.0	Analysis of Nearest Neighbor Queries
+S706	H_scale	3.0	Nearest Neighbor Queries in Moving Objects
+S761	I_confidence	3.0	Recognition memory and signal detection analyses.
+S769	I_confidence	3.0	Long-term memory in amnesia: Cued recall, recognition memory, and confidence ratings.
+S773	I_confidence	3.0	ROC curves and confidence judgments in recognition memory.
+S781	I_confidence	3.0	Confidence Estimation for Object Detection in Document Images
+S783	I_confidence	3.0	Signal Detection Theory
+S784	I_confidence	3.0	Confidence-weighted support vector machine with bimodal sensor fusion for efficient fall detection
+S785	I_confidence	3.0	Recognition Memory After Head Injury: A Signal Detection Analysis
+S804	I_confidence	3.0	teen Metamemory
+S805	I_confidence	3.0	Metamemory
+S807	I_confidence	3.0	Uncertainty-aware evidential learning for legal case retrieval with noisy correspondence
+S808	I_confidence	3.0	Fusion of Forecasting and Retrieval for Uncertainty Aware Soil Moisture estimation
+S809	I_confidence	3.0	UML: uncertainty-aware and mutual learning for noise-robust cross-lingual cross-modal retrieval
+S810	I_confidence	3.0	Uncertainty-Aware Alignment  Network  for Cross-Domain Video-Text Retrieval
+S811	I_confidence	3.0	UA-JEPA: Uncertainty-aware joint-embedding predictive learning for remote sensing image retrieval
+S815	I_confidence	3.0	An uncertainty-aware query selection model for evaluation of IR systems
+S819	I_confidence	3.0	Uncertainty-Aware Cross-Modal Transfer Network for Sketch-Based 3D Shape Retrieval
+S820	I_confidence	3.0	UU-Mamba: Uncertainty-aware U-Mamba for Cardiac Image Segmentation
+S835	E_wm	3.0	A theory of sequence indexing and working memory in recurrent neural networks
+S909	B_forget	3.0	MACHINE UNLEARNING FOR BIAS REMOVAL
+S910	B_forget	3.0	Vershachi Unlearning: A Framework for Machine Unlearning
+S911	B_forget	3.0	Coded Machine Unlearning
+S912	B_forget	3.0	Machine unlearning
+S913	B_forget	3.0	Efficient Machine Unlearning using Mislabel Unlearning
+S914	B_forget	3.0	Contrastive Unlearning: A Contrastive Approach to Machine Unlearning
+S915	B_forget	3.0	AGU: Adaptive gradient unlearning for efficient machine unlearning
+S916	B_forget	3.0	Exact Machine Unlearning
+S917	B_forget	3.0	Auditing Machine Unlearning
+S918	B_forget	3.0	Approximate Machine Unlearning
+S919	B_forget	3.0	Background of Machine Unlearning
+S920	B_forget	3.0	Introduction to Machine Unlearning
+S921	B_forget	3.0	Introduction of Machine Unlearning
+S922	B_forget	3.0	Applications of Machine Unlearning
+S923	B_forget	3.0	Exact Machine Unlearning Techniques
+S934	C_neuro	3.0	Locus Coeruleus in Learning and Memory Retrieval
+S935	C_neuro	3.0	The locus coeruleus: Its possible role in memory consolidation
+S936	C_neuro	3.0	Selective Attention, Memory, and the Locus Coeruleus
+S938	C_neuro	3.0	Acetylcholine release from rat hippocampus
+S964	D_consolidation	3.0	Batch Model Consolidation: A Multi-Task Model Consolidation Framework
+S966	D_consolidation	3.0	A model consolidation regime?
+S993	G_structure	3.0	Beyond the Cognitive Map: From Place Cells to Episodic Memory by A. David Redish
+S999	G_structure	3.0	Hippocampus: cognitive map or working memory?

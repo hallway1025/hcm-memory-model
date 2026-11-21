@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4L/JG4LuyxiST1Kahed4dvGxopY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.20465&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T12:19:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.20465" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20465v1</id>
+    <title>BMAM: Brain-inspired Multi-Agent Memory Framework</title>
+    <updated>2026-01-28T10:36:03Z</updated>
+    <link href="https://arxiv.org/abs/2601.20465v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20465v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language-model-based agents operating over extended interaction horizons face persistent challenges in preserving temporally grounded information and maintaining behavioral consistency across sessions, a failure mode we term soul erosion. We present BMAM (Brain-inspired Multi-Agent Memory), a general-purpose memory architecture that models agent memory as a set of functionally specialized subsystems rather than a single unstructured store. Inspired by cognitive memory systems, BMAM decomposes memory into episodic, semantic, salience-aware, and control-oriented components that operate at complementary time scales. To support long-horizon reasoning, BMAM organizes episodic memories along explicit timelines and retrieves evidence by fusing multiple complementary signals. Experiments on the LoCoMo benchmark show that BMAM achieves 78.45 percent accuracy under the standard long-horizon evaluation setting, and ablation analyses confirm that the hippocampus-inspired episodic memory subsystem plays a critical role in temporal reasoning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T10:36:03Z</published>
+    <arxiv:comment>Submitted to ACL (ARR 2026 January submission); non-anonymous preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yang Li</name>
+    </author>
+    <author>
+      <name>Jiaxiang Liu</name>
+    </author>
+    <author>
+      <name>Yusong Wang</name>
+    </author>
+    <author>
+      <name>Yujie Wu</name>
+    </author>
+    <author>
+      <name>Mingkun Xu</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/K1sWIsUKAUGz+Abk3+D/gDeqJks</id>
+  <title>arXiv Query: search_query=&amp;id_list=2605.31163&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T12:21:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2605.31163" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2605.31163v5</id>
+    <title>Memory by Design: Bayesian Layers for Sequence Modeling</title>
+    <updated>2026-10-14T01:01:27Z</updated>
+    <link href="https://arxiv.org/abs/2605.31163v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.31163v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the \emph{design-model framework}: a way to derive efficient recurrent sequence maps from explicit assumptions about memory. A design model writes evidence into memory by exact Bayesian filtering; a query- dependent readout produces a predictive distribution whose mean is the layer output. In our linear-Gaussian instantiation, the \emph{Bayesian Layer} propagates both a mean and a covariance: the covariance tracks uncertainty over stored associations, steering writes toward uncertain directions, attenuating gains as evidence accumulates, and preserving confident memories. The same framework unifies several sub-quadratic recurrences: linear attention, GLA, and Mamba-2/SSD are exact filters under a latent-input design model, whereas DeltaNet and related Delta-rule models are covariance-reset reductions of the Bayesian Layer's design model. Restoring covariance propagation yields closed-form predictions for retrieval dynamics, which we verify empirically, and improves robustness beyond the training regime in controlled collision studies, learned associative recall, and the Zoology MQAR benchmark. Training from scratch on WikiText-103 under matched state budgets lowers perplexity on associative-recall hits. Distilling Bayesian Layers into a pretrained 340M Gated DeltaNet improves RULER long-context retrieval over a matched-compute control, at a 2.5--2.7\% held-out perplexity cost.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-29T11:13:00Z</published>
+    <arxiv:comment>Preprint, in submission</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Matthew Dowling</name>
+    </author>
+    <author>
+      <name>Hyungju Jeon</name>
+    </author>
+    <author>
+      <name>Cristina Savin</name>
+    </author>
+    <author>
+      <name>Il Memming Park</name>
+    </author>
+  </entry>
+</feed>

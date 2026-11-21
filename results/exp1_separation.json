@@ -1,0 +1,181 @@
+{
+ "rows": [
+  {
+   "overlap": 0.0,
+   "resid": false,
+   "L": 0,
+   "written": 30,
+   "code_cos": 0.02,
+   "n0": 30,
+   "n20": 30,
+   "n35": 30,
+   "N": 30
+  },
+  {
+   "overlap": 0.0,
+   "resid": false,
+   "L": 3,
+   "written": 30,
+   "code_cos": 0.02,
+   "n0": 30,
+   "n20": 30,
+   "n35": 30,
+   "N": 30
+  },
+  {
+   "overlap": 0.0,
+   "resid": true,
+   "L": 0,
+   "written": 30,
+   "code_cos": 0.016,
+   "n0": 30,
+   "n20": 30,
+   "n35": 30,
+   "N": 30
+  },
+  {
+   "overlap": 0.0,
+   "resid": true,
+   "L": 3,
+   "written": 30,
+   "code_cos": 0.016,
+   "n0": 30,
+   "n20": 30,
+   "n35": 30,
+   "N": 30
+  },
+  {
+   "overlap": 0.5,
+   "resid": false,
+   "L": 0,
+   "written": 30,
+   "code_cos": 0.131,
+   "n0": 29,
+   "n20": 29,
+   "n35": 28,
+   "N": 30
+  },
+  {
+   "overlap": 0.5,
+   "resid": false,
+   "L": 3,
+   "written": 30,
+   "code_cos": 0.131,
+   "n0": 30,
+   "n20": 30,
+   "n35": 30,
+   "N": 30
+  },
+  {
+   "overlap": 0.5,
+   "resid": true,
+   "L": 0,
+   "written": 30,
+   "code_cos": 0.027,
+   "n0": 30,
+   "n20": 30,
+   "n35": 30,
+   "N": 30
+  },
+  {
+   "overlap": 0.5,
+   "resid": true,
+   "L": 3,
+   "written": 30,
+   "code_cos": 0.027,
+   "n0": 30,
+   "n20": 30,
+   "n35": 30,
+   "N": 30
+  },
+  {
+   "overlap": 0.75,
+   "resid": false,
+   "L": 0,
+   "written": 30,
+   "code_cos": 0.581,
+   "n0": 3,
+   "n20": 3,
+   "n35": 2,
+   "N": 30
+  },
+  {
+   "overlap": 0.75,
+   "resid": false,
+   "L": 3,
+   "written": 30,
+   "code_cos": 0.581,
+   "n0": 1,
+   "n20": 1,
+   "n35": 1,
+   "N": 30
+  },
+  {
+   "overlap": 0.75,
+   "resid": true,
+   "L": 0,
+   "written": 30,
+   "code_cos": 0.084,
+   "n0": 30,
+   "n20": 17,
+   "n35": 6,
+   "N": 30
+  },
+  {
+   "overlap": 0.75,
+   "resid": true,
+   "L": 3,
+   "written": 30,
+   "code_cos": 0.084,
+   "n0": 30,
+   "n20": 17,
+   "n35": 4,
+   "N": 30
+  },
+  {
+   "overlap": 0.9,
+   "resid": false,
+   "L": 0,
+   "written": 18,
+   "code_cos": 0.872,
+   "n0": 1,
+   "n20": 0,
+   "n35": 0,
+   "N": 30
+  },
+  {
+   "overlap": 0.9,
+   "resid": false,
+   "L": 3,
+   "written": 18,
+   "code_cos": 0.872,
+   "n0": 1,
+   "n20": 1,
+   "n35": 1,
+   "N": 30
+  },
+  {
+   "overlap": 0.9,
+   "resid": true,
+   "L": 0,
+   "written": 30,
+   "code_cos": 0.308,
+   "n0": 25,
+   "n20": 0,
+   "n35": 0,
+   "N": 30
+  },
+  {
+   "overlap": 0.9,
+   "resid": true,
+   "L": 3,
+   "written": 30,
+   "code_cos": 0.308,
+   "n0": 20,
+   "n20": 0,
+   "n35": 0,
+   "N": 30
+  }
+ ],
+ "dedup_writes": 1
+}

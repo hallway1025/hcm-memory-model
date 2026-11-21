@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/x4iyy20NXnLQq72ihHr9RkJzjpc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2102.08942&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:30:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2102.08942" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2102.08942v1</id>
+    <title>A Survey on Locality Sensitive Hashing Algorithms and their Applications</title>
+    <updated>2021-02-17T18:56:03Z</updated>
+    <link href="https://arxiv.org/abs/2102.08942v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.08942v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Finding nearest neighbors in high-dimensional spaces is a fundamental operation in many diverse application domains. Locality Sensitive Hashing (LSH) is one of the most popular techniques for finding approximate nearest neighbor searches in high-dimensional spaces. The main benefits of LSH are its sub-linear query performance and theoretical guarantees on the query accuracy. In this survey paper, we provide a review of state-of-the-art LSH and Distributed LSH techniques. Most importantly, unlike any other prior survey, we present how Locality Sensitive Hashing is utilized in different application domains.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-17T18:56:03Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Omid Jafari</name>
+    </author>
+    <author>
+      <name>Preeti Maurya</name>
+    </author>
+    <author>
+      <name>Parth Nagarkar</name>
+    </author>
+    <author>
+      <name>Khandker Mushfiqul Islam</name>
+    </author>
+    <author>
+      <name>Chidambaram Crushev</name>
+    </author>
+  </entry>
+</feed>

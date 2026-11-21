@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sKrHej+csLio6goeZETm2dsZWnA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.07789&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T12:14:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.07789" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.07789v1</id>
+    <title>Filtered Approximate Nearest Neighbor Search: A Unified Benchmark and Systematic Experimental Study [Experiment, Analysis &amp; Benchmark]</title>
+    <updated>2025-09-09T14:23:30Z</updated>
+    <link href="https://arxiv.org/abs/2509.07789v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.07789v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a given dataset $\mathcal{D}$ and structured label $f$, the goal of Filtered Approximate Nearest Neighbor Search (FANNS) algorithms is to find top-$k$ points closest to a query that satisfy label constraints, while ensuring both recall and QPS (Queries Per Second). In recent years, many FANNS algorithms have been proposed. However, the lack of a systematic investigation makes it difficult to understand their relative strengths and weaknesses. Additionally, we found that: (1) FANNS algorithms have coupled, dataset-dependent parameters, leading to biased comparisons. (2) Key impact factors are rarely analyzed systematically, leaving unclear when each algorithm performs well. (3) Disparate datasets, workloads, and biased experiment designs make cross-algorithm comparisons unreliable. Thus, a comprehensive survey and benchmark for FANNS is crucial to achieve the following goals: designing a fair evaluation and clarifying the classification of algorithms, conducting in-depth analysis of their performance, and establishing a unified benchmark. First, we propose a taxonomy (dividing methods into \textit{filter-then-search}, \textit{search-then-filter}, \textit{hybrid-search}) and a systematic evaluation framework, integrating unified parameter tuning and standardized filtering across algorithms to reduce implementation-induced performance variations and reflect core trade-offs. Then, we conduct a comprehensive empirical study to analyze how query difficulty and dataset properties impact performance, evaluating robustness under pressures like filter selectivity, Recall@k, and scalability to clarify each method's strengths. Finally, we establish a standardized benchmark with real-world datasets and open-source related resources to ensure reproducible future research.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-09T14:23:30Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Jiayang Shi</name>
+    </author>
+    <author>
+      <name>Yuzheng Cai</name>
+    </author>
+    <author>
+      <name>Weiguo Zheng</name>
+    </author>
+  </entry>
+</feed>

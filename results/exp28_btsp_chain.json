@@ -1,0 +1,102 @@
+{
+ "config": {
+  "session": "\u738b\u9a8f\u542f0414",
+  "n_msgs": 9033,
+  "n_written": 6361,
+  "d_x": 256,
+  "pairs": 200,
+  "judge": "obs_of",
+  "beta": 100.0,
+  "mechanism": "replay one-shot links Wl[j,i]+=1, a2=softmax(beta*(scores+w*Wl^T a1))"
+ },
+ "rows": {
+  "w0_deg0": {
+   "pairs": 200,
+   "self_hit1": 200,
+   "self_rate": 1.0,
+   "next_hit1": 0,
+   "next_rate1": 0.0,
+   "next_hit5": 3,
+   "next_rate5": 0.015,
+   "joint_self1_next1": 0,
+   "joint_rate": 0.0
+  },
+  "w0_deg30": {
+   "pairs": 200,
+   "self_hit1": 200,
+   "self_rate": 1.0,
+   "next_hit1": 0,
+   "next_rate1": 0.0,
+   "next_hit5": 1,
+   "next_rate5": 0.005,
+   "joint_self1_next1": 0,
+   "joint_rate": 0.0
+  },
+  "w0.5_deg0": {
+   "pairs": 200,
+   "self_hit1": 200,
+   "self_rate": 1.0,
+   "next_hit1": 0,
+   "next_rate1": 0.0,
+   "next_hit5": 194,
+   "next_rate5": 0.97,
+   "joint_self1_next1": 0,
+   "joint_rate": 0.0
+  },
+  "w0.5_deg30": {
+   "pairs": 200,
+   "self_hit1": 200,
+   "self_rate": 1.0,
+   "next_hit1": 115,
+   "next_rate1": 0.575,
+   "next_hit5": 198,
+   "next_rate5": 0.99,
+   "joint_self1_next1": 115,
+   "joint_rate": 0.575
+  },
+  "w1_deg0": {
+   "pairs": 200,
+   "self_hit1": 200,
+   "self_rate": 1.0,
+   "next_hit1": 200,
+   "next_rate1": 1.0,
+   "next_hit5": 200,
+   "next_rate5": 1.0,
+   "joint_self1_next1": 200,
+   "joint_rate": 1.0
+  },
+  "w1_deg30": {
+   "pairs": 200,
+   "self_hit1": 200,
+   "self_rate": 1.0,
+   "next_hit1": 200,
+   "next_rate1": 1.0,
+   "next_hit5": 200,
+   "next_rate5": 1.0,
+   "joint_self1_next1": 200,
+   "joint_rate": 1.0
+  },
+  "w2_deg0": {
+   "pairs": 200,
+   "self_hit1": 200,
+   "self_rate": 1.0,
+   "next_hit1": 200,
+   "next_rate1": 1.0,
+   "next_hit5": 200,
+   "next_rate5": 1.0,
+   "joint_self1_next1": 200,
+   "joint_rate": 1.0
+  },
+  "w2_deg30": {
+   "pairs": 200,
+   "self_hit1": 200,
+   "self_rate": 1.0,
+   "next_hit1": 200,
+   "next_rate1": 1.0,
+   "next_hit5": 200,
+   "next_rate5": 1.0,
+   "joint_self1_next1": 200,
+   "joint_rate": 1.0
+  }
+ }
+}

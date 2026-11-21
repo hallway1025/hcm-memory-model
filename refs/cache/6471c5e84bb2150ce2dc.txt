@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/b1p0BZlgHP1FS30YVUXb5HKkHYc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2505.06501&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T12:14:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2505.06501" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.06501v1</id>
+    <title>Survey of Filtered Approximate Nearest Neighbor Search over the Vector-Scalar Hybrid Data</title>
+    <updated>2025-05-10T04:02:14Z</updated>
+    <link href="https://arxiv.org/abs/2505.06501v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.06501v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Filtered approximate nearest neighbor search (FANNS), an extension of approximate nearest neighbor search (ANNS) that incorporates scalar filters, has been widely applied to constrained retrieval of vector data. Despite its growing importance, no dedicated survey on FANNS over the vector-scalar hybrid data currently exists, and the field has several problems, including inconsistent definitions of the search problem, insufficient framework for algorithm classification, and incomplete analysis of query difficulty. This survey paper formally defines the concepts of hybrid dataset and hybrid query, as well as the corresponding evaluation metrics. Based on these, a pruning-focused framework is proposed to classify and summarize existing algorithms, providing a broader and finer-grained classification framework compared to the existing ones. In addition, a review is conducted on representative hybrid datasets, followed by an analysis on the difficulty of hybrid queries from the perspective of distribution relationships between data and queries. This paper aims to establish a structured foundation for FANNS over the vector-scalar hybrid data, facilitate more meaningful comparisons between FANNS algorithms, and offer practical recommendations for practitioners. The code used for downloading hybrid datasets and analyzing query difficulty is available at https://github.com/lyj-fdu/FANNS</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-10T04:02:14Z</published>
+    <arxiv:comment>This manuscript was submitted to The VLDB Journal for review</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Yanjun Lin</name>
+    </author>
+    <author>
+      <name>Kai Zhang</name>
+    </author>
+    <author>
+      <name>Zhenying He</name>
+    </author>
+    <author>
+      <name>Yinan Jing</name>
+    </author>
+    <author>
+      <name>X. Sean Wang</name>
+    </author>
+  </entry>
+</feed>

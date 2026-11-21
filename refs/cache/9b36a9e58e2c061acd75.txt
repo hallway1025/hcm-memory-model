@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["25859189"],"translationset":[],"querytranslation":"\"10 3389 fnsys 2015 00042\"[Publisher ID]"}}

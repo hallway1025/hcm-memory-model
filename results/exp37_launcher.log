@@ -1,0 +1,11 @@
+START N100000 F_b100 s0 pid=2479 queue=9 running=1
+START N100000 F_b100 s1 pid=2482 queue=8 running=2
+START N100000 F_b100 s2 pid=2483 queue=7 running=3
+START N100000 T_b100 s0 pid=2484 queue=6 running=4
+START N100000 T_b100 s1 pid=2487 queue=5 running=5
+START N200000 F_b100 s0 pid=2488 queue=4 running=6
+START N200000 F_b100 s1 pid=2491 queue=3 running=7
+EXIT  N200000 ['/root/miniconda3/bin/python', 'bench/exp37_l2_scalelaw.py'] rc=-9 running=6
+EXIT  N200000 ['/root/miniconda3/bin/python', 'bench/exp37_l2_scalelaw.py'] rc=-9 running=5
+START N200000 T_b100 s0 pid=21957 queue=2 running=6
+START N200000 T_b100 s1 pid=21960 queue=1 running=7

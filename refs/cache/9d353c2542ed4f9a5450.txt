@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/o+NuhhSy063hS8e1ZsQLZFYflm4</id>
+  <title>arXiv Query: search_query=all:differentiable AND all:memory AND all:network&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T14:08:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:differentiable+AND+(all:memory+AND+all:network)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>905</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2211.02987v1</id>
+    <title>Differentiable Neural Computers with Memory Demon</title>
+    <updated>2022-11-05T22:24:47Z</updated>
+    <link href="https://arxiv.org/abs/2211.02987v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.02987v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A Differentiable Neural Computer (DNC) is a neural network with an external memory which allows for iterative content modification via read, write and delete operations.
+  We show that information theoretic properties of the memory contents play an important role in the performance of such architectures. We introduce a novel concept of memory demon to DNC architectures which modifies the memory contents implicitly via additive input encoding. The goal of the memory demon is to maximize the expected sum of mutual information of the consecutive external memory contents.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-05T22:24:47Z</published>
+    <arxiv:comment>NeurIPS 2022 Workshop On Memory in Artificial and Real Intelligence</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ari Azarafrooz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.19708v3</id>
+    <title>A Differentiable Approach to Multi-scale Brain Modeling</title>
+    <updated>2024-09-25T11:56:29Z</updated>
+    <link href="https://arxiv.org/abs/2406.19708v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.19708v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a multi-scale differentiable brain modeling workflow utilizing BrainPy, a unique differentiable brain simulator that combines accurate brain simulation with powerful gradient-based optimization. We leverage this capability of BrainPy across different brain scales. At the single-neuron level, we implement differentiable neuron models and employ gradient methods to optimize their fit to electrophysiological data. On the network level, we incorporate connectomic data to construct biologically constrained network models. Finally, to replicate animal behavior, we train these models on cognitive tasks using gradient-based learning rules. Experiments demonstrate that our approach achieves superior performance and speed in fitting generalized leaky integrate-and-fire and Hodgkin-Huxley single neuron models. Additionally, training a biologically-informed network of excitatory and inhibitory spiking neurons on working memory tasks successfully replicates observed neural activity and synaptic weight distributions. Overall, our differentiable multi-scale simulation approach offers a promising tool to bridge neuroscience data across electrophysiological, anatomical, and behavioral scales.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-28T07:41:31Z</published>
+    <arxiv:comment>2nd Differentiable Almost Everything Workshop at ICML 2024. https://github.com/chaoming0625/differentiable-brain-modeling-workflow</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Chaoming Wang</name>
+    </author>
+    <author>
+      <name>Muyang Lyu</name>
+    </author>
+    <author>
+      <name>Tianqiu Zhang</name>
+    </author>
+    <author>
+      <name>Sichao He</name>
+    </author>
+    <author>
+      <name>Si Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.07759v2</id>
+    <title>IDKM: Memory Efficient Neural Network Quantization via Implicit, Differentiable k-Means</title>
+    <updated>2023-12-15T21:46:10Z</updated>
+    <link href="https://arxiv.org/abs/2312.07759v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.07759v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Compressing large neural networks with minimal performance loss is crucial to enabling their deployment on edge devices. (Cho et al., 2022) proposed a weight quantization method that uses an attention-based clustering algorithm called differentiable $k$-means (DKM). Despite achieving state-of-the-art results, DKM's performance is constrained by its heavy memory dependency. We propose an implicit, differentiable $k$-means algorithm (IDKM), which eliminates the major memory restriction of DKM. Let $t$ be the number of $k$-means iterations, $m$ be the number of weight-vectors, and $b$ be the number of bits per cluster address. IDKM reduces the overall memory complexity of a single $k$-means layer from $\mathcal{O}(t \cdot m \cdot 2^b)$ to $\mathcal{O}( m \cdot 2^b)$. We also introduce a variant, IDKM with Jacobian-Free-Backpropagation (IDKM-JFB), for which the time complexity of the gradient calculation is independent of $t$ as well. We provide a proof of concept of our methods by showing that, under the same settings, IDKM achieves comparable performance to DKM with less compute time and less memory. We also use IDKM and IDKM-JFB to quantize a large neural network, Resnet18, on hardware where DKM cannot train at all.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-12T22:02:57Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sean Jaffe</name>
+    </author>
+    <author>
+      <name>Ambuj K. Singh</name>
+    </author>
+    <author>
+      <name>Francesco Bullo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.09295v1</id>
+    <title>A network model for clonal differentiation and immune memory</title>
+    <updated>2017-07-11T21:55:48Z</updated>
+    <link href="https://arxiv.org/abs/1707.09295v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.09295v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A model of bit-strings, that uses the technique of multi-spin coding, was previously used to study the time evolution of B-cell clone repertoire, in a paper by Lagreca, Almeida and Santos. In this work we extend that simplified model to include independently the role of the populations of antibodies, in the control of the immune response, producing mechanisms of differentiation and regulation in a more complete way. Although the antibodies have the same molecular shape of the B-cells receptors (BCR), they should present a different time evolution and thus should be treated separately. We have also studied a possible model for the network immune memory, suggesting a random memory regeneration, which is self-perpetuating.</summary>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-11T21:55:48Z</published>
+    <arxiv:comment>19 pages</arxiv:comment>
+    <arxiv:primary_category term="q-bio.PE"/>
+    <arxiv:journal_ref>Physica A: Statistical Mechanics and its Applications, Vol. 355(15). pp. 408-426 (2005)</arxiv:journal_ref>
+    <author>
+      <name>Alexandre de Castro</name>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2005.03.036</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2005.03.036" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.00791v1</id>
+    <title>Partial Connection Based on Channel Attention for Differentiable Neural Architecture Search</title>
+    <updated>2022-08-01T12:05:55Z</updated>
+    <link href="https://arxiv.org/abs/2208.00791v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.00791v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Differentiable neural architecture search (DARTS), as a gradient-guided search method, greatly reduces the cost of computation and speeds up the search. In DARTS, the architecture parameters are introduced to the candidate operations, but the parameters of some weight-equipped operations may not be trained well in the initial stage, which causes unfair competition between candidate operations. The weight-free operations appear in large numbers which results in the phenomenon of performance crash. Besides, a lot of memory will be occupied during training supernet which causes the memory utilization to be low. In this paper, a partial channel connection based on channel attention for differentiable neural architecture search (ADARTS) is proposed. Some channels with higher weights are selected through the attention mechanism and sent into the operation space while the other channels are directly contacted with the processed channels. Selecting a few channels with higher attention weights can better transmit important feature information into the search space and greatly improve search efficiency and memory utilization. The instability of network structure caused by random selection can also be avoided. The experimental results show that ADARTS achieved 2.46% and 17.06% classification error rates on CIFAR-10 and CIFAR-100, respectively. ADARTS can effectively solve the problem that too many skip connections appear in the search process and obtain network structures with better performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-01T12:05:55Z</published>
+    <arxiv:comment>10 pages, 10 figures Y. Xue and J. Qin, "Partial Connection Based on Channel Attention for Differentiable Neural Architecture Search," in IEEE Transactions on Industrial Informatics, 2022, doi: 10.1109/TII.2022.3184700</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yu Xue</name>
+    </author>
+    <author>
+      <name>Jiafeng Qin</name>
+    </author>
+    <arxiv:doi>10.1109/TII.2022.3184700</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TII.2022.3184700" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.03474v1</id>
+    <title>Differentiable Random Access Memory using Lattices</title>
+    <updated>2021-07-07T20:55:42Z</updated>
+    <link href="https://arxiv.org/abs/2107.03474v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.03474v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a differentiable random access memory module with $O(1)$ performance regardless of size, scaling to billions of entries. The design stores entries on points of a chosen lattice to calculate nearest neighbours of arbitrary points efficiently by exploiting symmetries. Augmenting a standard neural network architecture with a single memory layer based on this, we can scale the parameter count up to memory limits with negligible computational overhead, giving better accuracy at similar cost. On large language modelling tasks, these enhanced models with larger capacity significantly outperform the unmodified transformer baseline. We found continued scaling with memory size up to the limits tested.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-07T20:55:42Z</published>
+    <arxiv:comment>11 pages, 3 figures, submitted to NeurIPS 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Adam P. Goucher</name>
+    </author>
+    <author>
+      <name>Rajan Troll</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.15540v2</id>
+    <title>Differentiable Product Quantization for Memory Efficient Camera Relocalization</title>
+    <updated>2024-07-23T18:34:55Z</updated>
+    <link href="https://arxiv.org/abs/2407.15540v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.15540v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Camera relocalization relies on 3D models of the scene with a large memory footprint that is incompatible with the memory budget of several applications. One solution to reduce the scene memory size is map compression by removing certain 3D points and descriptor quantization. This achieves high compression but leads to performance drop due to information loss. To address the memory performance trade-off, we train a light-weight scene-specific auto-encoder network that performs descriptor quantization-dequantization in an end-to-end differentiable manner updating both product quantization centroids and network parameters through back-propagation. In addition to optimizing the network for descriptor reconstruction, we encourage it to preserve the descriptor-matching performance with margin-based metric loss functions. Results show that for a local descriptor memory of only 1MB, the synergistic combination of the proposed network and map compression achieves the best performance on the Aachen Day-Night compared to existing compression methods.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-22T11:05:58Z</published>
+    <arxiv:comment>Accepted to the European Conference on Computer Vision (ECCV) 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zakaria Laskar</name>
+    </author>
+    <author>
+      <name>Iaroslav Melekhov</name>
+    </author>
+    <author>
+      <name>Assia Benbihi</name>
+    </author>
+    <author>
+      <name>Shuzhe Wang</name>
+    </author>
+    <author>
+      <name>Juho Kannala</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.09089v2</id>
+    <title>Kitsune: An Ensemble of Autoencoders for Online Network Intrusion Detection</title>
+    <updated>2018-05-27T09:50:10Z</updated>
+    <link href="https://arxiv.org/abs/1802.09089v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.09089v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural networks have become an increasingly popular solution for network intrusion detection systems (NIDS). Their capability of learning complex patterns and behaviors make them a suitable solution for differentiating between normal traffic and network attacks. However, a drawback of neural networks is the amount of resources needed to train them. Many network gateways and routers devices, which could potentially host an NIDS, simply do not have the memory or processing power to train and sometimes even execute such models. More importantly, the existing neural network solutions are trained in a supervised manner. Meaning that an expert must label the network traffic and update the model manually from time to time.
+  In this paper, we present Kitsune: a plug and play NIDS which can learn to detect attacks on the local network, without supervision, and in an efficient online manner. Kitsune's core algorithm (KitNET) uses an ensemble of neural networks called autoencoders to collectively differentiate between normal and abnormal traffic patterns. KitNET is supported by a feature extraction framework which efficiently tracks the patterns of every network channel. Our evaluations show that Kitsune can detect various attacks with a performance comparable to offline anomaly detectors, even on a Raspberry PI. This demonstrates that Kitsune can be a practical and economic NIDS.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-25T21:42:56Z</published>
+    <arxiv:comment>Appears in Network and Distributed Systems Security Symposium (NDSS) 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yisroel Mirsky</name>
+    </author>
+    <author>
+      <name>Tomer Doitshman</name>
+    </author>
+    <author>
+      <name>Yuval Elovici</name>
+    </author>
+    <author>
+      <name>Asaf Shabtai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.02528v1</id>
+    <title>In-Memory and Error-Immune Differential RRAM Implementation of Binarized Deep Neural Networks</title>
+    <updated>2019-02-07T09:02:45Z</updated>
+    <link href="https://arxiv.org/abs/1902.02528v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.02528v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>RRAM-based in-Memory Computing is an exciting road for implementing highly energy efficient neural networks. This vision is however challenged by RRAM variability, as the efficient implementation of in-memory computing does not allow error correction. In this work, we fabricated and tested a differential HfO2-based memory structure and its associated sense circuitry, which are ideal for in-memory computing. For the first time, we show that our approach achieves the same reliability benefits as error correction, but without any CMOS overhead. We show, also for the first time, that it can naturally implement Binarized Deep Neural Networks, a very recent development of Artificial Intelligence, with extreme energy efficiency, and that the system is fully satisfactory for image recognition applications. Finally, we evidence how the extra reliability provided by the differential memory allows programming the devices in low voltage conditions, where they feature high endurance of billions of cycles.</summary>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-07T09:02:45Z</published>
+    <arxiv:primary_category term="cs.ET"/>
+    <author>
+      <name>Marc Bocquet</name>
+    </author>
+    <author>
+      <name>Tifenn Hirztlin</name>
+    </author>
+    <author>
+      <name>Jacques-Olivier Klein</name>
+    </author>
+    <author>
+      <name>Etienne Nowak</name>
+    </author>
+    <author>
+      <name>Elisa Vianello</name>
+    </author>
+    <author>
+      <name>Jean-Michel Portal</name>
+    </author>
+    <author>
+      <name>Damien Querlioz</name>
+    </author>
+    <arxiv:doi>10.1109/iedm.2018.8614639</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/iedm.2018.8614639" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.10778v1</id>
+    <title>Nesting Forward Automatic Differentiation for Memory-Efficient Deep Neural Network Training</title>
+    <updated>2022-09-22T04:48:48Z</updated>
+    <link href="https://arxiv.org/abs/2209.10778v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.10778v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An activation function is an element-wise mathematical function and plays a crucial role in deep neural networks (DNN). Many novel and sophisticated activation functions have been proposed to improve the DNN accuracy but also consume massive memory in the training process with back-propagation. In this study, we propose the nested forward automatic differentiation (Forward-AD), specifically for the element-wise activation function for memory-efficient DNN training. We deploy nested Forward-AD in two widely-used deep learning frameworks, TensorFlow and PyTorch, which support the static and dynamic computation graph, respectively. Our evaluation shows that nested Forward-AD reduces the memory footprint by up to 1.97x than the baseline model and outperforms the recomputation by 20% under the same memory reduction ratio.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-22T04:48:48Z</published>
+    <arxiv:comment>8 pages, ICCD 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Cong Guo</name>
+    </author>
+    <author>
+      <name>Yuxian Qiu</name>
+    </author>
+    <author>
+      <name>Jingwen Leng</name>
+    </author>
+    <author>
+      <name>Chen Zhang</name>
+    </author>
+    <author>
+      <name>Ying Cao</name>
+    </author>
+    <author>
+      <name>Quanlu Zhang</name>
+    </author>
+    <author>
+      <name>Yunxin Liu</name>
+    </author>
+    <author>
+      <name>Fan Yang</name>
+    </author>
+    <author>
+      <name>Minyi Guo</name>
+    </author>
+  </entry>
+</feed>

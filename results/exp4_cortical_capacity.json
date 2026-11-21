@@ -1,0 +1,146 @@
+[
+ {
+  "dz": 8,
+  "eta": 0.05,
+  "arm": "noreplay",
+  "A_before": 1,
+  "A_after": 2,
+  "B_after": 1
+ },
+ {
+  "dz": 8,
+  "eta": 0.05,
+  "arm": "priority",
+  "A_before": 1,
+  "A_after": 0,
+  "B_after": 1
+ },
+ {
+  "dz": 8,
+  "eta": 0.05,
+  "arm": "uniform",
+  "A_before": 2,
+  "A_after": 2,
+  "B_after": 0
+ },
+ {
+  "dz": 8,
+  "eta": 0.2,
+  "arm": "noreplay",
+  "A_before": 9,
+  "A_after": 13,
+  "B_after": 2
+ },
+ {
+  "dz": 8,
+  "eta": 0.2,
+  "arm": "priority",
+  "A_before": 9,
+  "A_after": 6,
+  "B_after": 2
+ },
+ {
+  "dz": 8,
+  "eta": 0.2,
+  "arm": "uniform",
+  "A_before": 12,
+  "A_after": 12,
+  "B_after": 1
+ },
+ {
+  "dz": 16,
+  "eta": 0.05,
+  "arm": "noreplay",
+  "A_before": 3,
+  "A_after": 2,
+  "B_after": 1
+ },
+ {
+  "dz": 16,
+  "eta": 0.05,
+  "arm": "priority",
+  "A_before": 3,
+  "A_after": 1,
+  "B_after": 0
+ },
+ {
+  "dz": 16,
+  "eta": 0.05,
+  "arm": "uniform",
+  "A_before": 2,
+  "A_after": 2,
+  "B_after": 2
+ },
+ {
+  "dz": 16,
+  "eta": 0.2,
+  "arm": "noreplay",
+  "A_before": 19,
+  "A_after": 19,
+  "B_after": 1
+ },
+ {
+  "dz": 16,
+  "eta": 0.2,
+  "arm": "priority",
+  "A_before": 19,
+  "A_after": 16,
+  "B_after": 1
+ },
+ {
+  "dz": 16,
+  "eta": 0.2,
+  "arm": "uniform",
+  "A_before": 18,
+  "A_after": 18,
+  "B_after": 2
+ },
+ {
+  "dz": 32,
+  "eta": 0.05,
+  "arm": "noreplay",
+  "A_before": 7,
+  "A_after": 8,
+  "B_after": 3
+ },
+ {
+  "dz": 32,
+  "eta": 0.05,
+  "arm": "priority",
+  "A_before": 7,
+  "A_after": 9,
+  "B_after": 2
+ },
+ {
+  "dz": 32,
+  "eta": 0.05,
+  "arm": "uniform",
+  "A_before": 6,
+  "A_after": 8,
+  "B_after": 2
+ },
+ {
+  "dz": 32,
+  "eta": 0.2,
+  "arm": "noreplay",
+  "A_before": 20,
+  "A_after": 20,
+  "B_after": 1
+ },
+ {
+  "dz": 32,
+  "eta": 0.2,
+  "arm": "priority",
+  "A_before": 20,
+  "A_after": 20,
+  "B_after": 2
+ },
+ {
+  "dz": 32,
+  "eta": 0.2,
+  "arm": "uniform",
+  "A_before": 20,
+  "A_after": 20,
+  "B_after": 1
+ }
+]

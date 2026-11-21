@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ObKe1Zbhp6lHW5dZyI3ge4FQYRg</id>
+  <title>arXiv Query: search_query=all:LongMemEval AND all:long-term AND all:interactive AND all:memory&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-07T11:45:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:LongMemEval+AND+(all:long-term+AND+(all:interactive+AND+all:memory))&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>37</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.10813v2</id>
+    <title>LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory</title>
+    <updated>2025-03-04T22:19:41Z</updated>
+    <link href="https://arxiv.org/abs/2410.10813v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.10813v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent large language model (LLM)-driven chat assistant systems have integrated memory components to track user-assistant chat histories, enabling more accurate and personalized responses. However, their long-term memory capabilities in sustained interactions remain underexplored. We introduce LongMemEval, a comprehensive benchmark designed to evaluate five core long-term memory abilities of chat assistants: information extraction, multi-session reasoning, temporal reasoning, knowledge updates, and abstention. With 500 meticulously curated questions embedded within freely scalable user-assistant chat histories, LongMemEval presents a significant challenge to existing long-term memory systems, with commercial chat assistants and long-context LLMs showing a 30% accuracy drop on memorizing information across sustained interactions. We then present a unified framework that breaks down the long-term memory design into three stages: indexing, retrieval, and reading. Built upon key experimental insights, we propose several memory design optimizations including session decomposition for value granularity, fact-augmented key expansion for indexing, and time-aware query expansion for refining the search scope. Extensive experiments show that these optimizations greatly improve both memory recall and downstream question answering on LongMemEval. Overall, our study provides valuable resources and guidance for advancing the long-term memory capabilities of LLM-based chat assistants, paving the way toward more personalized and reliable conversational AI. Our benchmark and code are publicly available at https://github.com/xiaowu0162/LongMemEval.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-14T17:59:44Z</published>
+    <arxiv:comment>ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Di Wu</name>
+    </author>
+    <author>
+      <name>Hongwei Wang</name>
+    </author>
+    <author>
+      <name>Wenhao Yu</name>
+    </author>
+    <author>
+      <name>Yuwei Zhang</name>
+    </author>
+    <author>
+      <name>Kai-Wei Chang</name>
+    </author>
+    <author>
+      <name>Dong Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.28338v1</id>
+    <title>Memory Shot for Long-Term Dialogue</title>
+    <updated>2026-05-30T01:59:52Z</updated>
+    <link href="https://arxiv.org/abs/2606.28338v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.28338v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have demonstrated strong capabilities in general conversation, instruction following, and complex reasoning. However, in long-term dialogue settings, they often struggle to locate and utilize historical information most relevant to the current query. Existing approaches address this issue by constructing structured text-centered memory units through compressing and reorganizing user interaction history. However, these systems often rely on brute-force extraction of crucial evidence to associate episodes across dialogue sessions, causing substantial computational overhead and weakening structural cues such as speaker transitions, turn boundaries, and local contextual relationships. To avoid fragile text-based memory representations, we propose MemShot, which leverages dialogue structuring for long-term dialogue modeling and relies on the model's internal visual reasoning capabilities to associate key episodes. Specifically, MemShot renders local contiguous dialogue spans into structured visual memory units, preserving meta-information and chronological dialogue turns while avoiding heavy-weight textual memory construction. Experimental results show that MemShot achieves stable and competitive performance on both LoCoMo and LongMemEval, while substantially shortening the memory construction pipeline and delivering 70$\times$ speedup. Further analysis reveals that MemShot enhances the localization and utilization of historical evidence by directing memory processing toward structured local dialogue cues rather than surface-level lexical matching in a flat text stream. All codes are released on https://github.com/NEUIR/MemShot.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-30T01:59:52Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Chunyi Peng</name>
+    </author>
+    <author>
+      <name>Haidong Xin</name>
+    </author>
+    <author>
+      <name>Xuanshuo Sheng</name>
+    </author>
+    <author>
+      <name>Xin Dai</name>
+    </author>
+    <author>
+      <name>Zhenghao Liu</name>
+    </author>
+    <author>
+      <name>Shuo Wang</name>
+    </author>
+    <author>
+      <name>Yukun Yan</name>
+    </author>
+    <author>
+      <name>Zulong Chen</name>
+    </author>
+    <author>
+      <name>Yu Gu</name>
+    </author>
+    <author>
+      <name>Ge Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.16053v1</id>
+    <title>Retrieval-Driven Memory Reconsolidation for Long-Term LLM Agents</title>
+    <updated>2026-09-13T05:17:37Z</updated>
+    <link href="https://arxiv.org/abs/2609.16053v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.16053v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term memory is essential for LLM-based agents operating over extended interactions. Existing memory systems primarily update memory when new information arrives, treating retrieval as the endpoint of memory access rather than a driver of memory evolution. Consequently, retrieval feedback is rarely exploited to reorganize memory for future access continuously. Moreover, most existing approaches rely on predefined memory structures together with fixed retrieval pipelines, limiting the agent's ability to organize and evolve its own memory autonomously. Inspired by memory reconsolidation in cognitive neuroscience, we propose \textbf{REALM}, a \textbf{r}econsolidation-\textbf{e}volution \textbf{a}gentic \textbf{l}ong-term \textbf{m}emory framework. It models long-term memory as a continual lifecycle by autonomously organizing memories into a heterogeneous cognitive graph, retrieving evidence via adaptively composed graph-search atoms, and continually reconsolidating memories based on retrieval feedback. REALM achieves an average accuracy of 75.97\% on LoCoMo and 65.11\% on LongMemEval, outperforming the strongest baselines by 7.17 and 1.31 points respectively. Ablation studies confirm that memory reconsolidation consistently boosts performance, with further analyses revealing that it progressively reorganizes related memory units into more coherent local structures for collective evidence recall and utilization during reasoning. These results suggest that retrieval-driven memory reconsolidation provides an effective mechanism for continually evolving long-term memory in LLM agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-13T05:17:37Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuanyi Song</name>
+    </author>
+    <author>
+      <name>Yukai Wang</name>
+    </author>
+    <author>
+      <name>Xinbei Ma</name>
+    </author>
+    <author>
+      <name>Zhihui Fu</name>
+    </author>
+    <author>
+      <name>Jianghao Lin</name>
+    </author>
+    <author>
+      <name>Weiwen Liu</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+    <author>
+      <name>Huarong Deng</name>
+    </author>
+    <author>
+      <name>Yong Yu</name>
+    </author>
+    <author>
+      <name>Weinan Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.27700v1</id>
+    <title>Memory as Code: Declarative Retrieval over Codified Long-Term Memory</title>
+    <updated>2026-10-20T06:17:51Z</updated>
+    <link href="https://arxiv.org/abs/2610.27700v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.27700v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In long-term memory systems, memories are constructed from interaction histories and retrieved in response to queries, enhancing the reasoning ability of LLM agents. In complex scenarios, facts are scattered across sessions and their relationships evolve over time, making it difficult for existing memory systems to compose them to adapt to diverse queries. Motivated by the modularity and composability of code, we propose Memory as Code (MaC), a unified memory framework that jointly designs memory construction and retrieval through a shared code abstraction. MaC couples codified construction, which establishes executable memory abstractions, with declarative retrieval, which translates queries into structured retrieval programs. Specifically, codified construction builds a three-layer executable memory structure that progresses from an atomic function layer, through a relational layer, to a modular composition layer. Declarative retrieval recasts retrieval from relevance-based fact selection into declarative query processing over memory. Experiments on LoCoMo and LongMemEval show relative gains of up to 15.91% in overall LLM-judge accuracy over the strongest baseline in each setting, while substantially reducing token consumption, highlighting the effectiveness of memory as code for long-horizon memory tasks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-20T06:17:51Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Aoting Zeng</name>
+    </author>
+    <author>
+      <name>Yuxin Du</name>
+    </author>
+    <author>
+      <name>Jianwei Wang</name>
+    </author>
+    <author>
+      <name>Yizhang He</name>
+    </author>
+    <author>
+      <name>Shan Jiang</name>
+    </author>
+    <author>
+      <name>Xuemin Lin</name>
+    </author>
+    <author>
+      <name>Kai Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.15759v3</id>
+    <title>DimMem: Dimensional Structuring for Efficient Long-Term Agent Memory</title>
+    <updated>2026-05-24T06:45:11Z</updated>
+    <link href="https://arxiv.org/abs/2605.15759v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.15759v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents require long-term memory to leverage information from past interactions. However, existing memory systems often face a fidelity--efficiency trade-off: raw dialogue histories are expensive, while flat facts or summaries may discard the structure needed for precise recall. We propose \textbf{DimMem}, a lightweight dimensional memory framework that represents each memory as an atomic, typed, and self-contained unit with explicit fields such as time, location, reason, purpose, and keywords. This representation exposes the structure needed for dimension-aware retrieval, memory update, and selective assistant-context recall without storing full histories in the model context. Across LoCoMo-10 and LongMemEval-S, DimMem achieves \textbf{81.43\%} and \textbf{78.20\%} overall accuracy, respectively, outperforming existing lightweight memory systems while reducing LoCoMo per-query token cost by \textbf{24\%}. We further show that dimensional memory extraction is learnable by compact models: after fine-tuning on the DimMem schema, a Qwen3-4B extractor surpasses LightMem with GPT-4.1-mini on both benchmarks and reaches performance comparable to, or better than, much larger extractors in key settings. These results suggest that explicit dimensional structuring is an effective and efficient foundation for long-term memory in LLM agents. Code is available at https://github.com/ChowRunFa/DimMem.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-15T09:20:31Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wentao Qiu</name>
+    </author>
+    <author>
+      <name>Haotian Hu</name>
+    </author>
+    <author>
+      <name>Fanyi Wang</name>
+    </author>
+    <author>
+      <name>Jinwei Kong</name>
+    </author>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+  </entry>
+</feed>

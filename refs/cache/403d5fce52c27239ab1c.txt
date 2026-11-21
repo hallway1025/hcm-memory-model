@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["30984087"],"translationset":[],"querytranslation":"\"10 3389 fpsyg 2019 00703\"[Publisher ID]"}}

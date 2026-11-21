@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/94I6GoIkcDaUOGrcQ26m4rxJKFw</id>
+  <title>arXiv Query: search_query=all:graph AND all:structured AND all:memory AND all:agent&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:44:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:graph+AND+(all:structured+AND+(all:memory+AND+all:agent))&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>375</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2608.11017v1</id>
+    <title>R4DSG: Relative 4D Scene Graph Memory for Object-Centric Question Answering in Long Egocentric Video</title>
+    <updated>2026-08-11T15:00:15Z</updated>
+    <link href="https://arxiv.org/abs/2608.11017v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.11017v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-horizon egocentric video is a rich substrate for wearable AI assistants, but object-centric questions such as where an item was moved, when it last changed state, or why it was relocated remain difficult because caption- and transcript-based memories rarely preserve persistent object identity or structured spatial change. Existing long-video QA methods mainly emphasize temporal grounding and clip retrieval, while prior 3D scene-graph methods typically assume stronger geometry than free-motion wearable RGB video provides, including point clouds, RGB-D input, posed views, sparse reconstruction, or reconstructed scenes. R4DSG introduces a relative 4D scene graph memory for long egocentric video. Instead of storing raw graph sequences, R4DSG converts video into compact queryable memory entries indexed by time, place, persistent objects, anchor-relative change, and local interaction context. The main idea is to separate stable anchors from dynamic objects, maintain persistent object identity across frames, and represent object state through anchor-relative transitions rather than a globally aligned world model. Built on recent RGB-only advances in promptable video segmentation, temporal propagation, and relative 3D lifting, the method produces a retrieval-ready memory directly usable for long-horizon question answering. Evaluation on a 255-question object-related subset from EgoLifeQA shows, under question-only retrieval, a 6.7-point overall gain over EgoRAG-Text and a 12.5-point gain on when questions, which highlights the value of temporally organized object memory. These results position relative 4D scene graphs as a practical memory substrate for wearable assistants, AR systems, and embodied multimedia agents. GitHub Page: https://dualtransparency.github.io/R4DSG/.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-11T15:00:15Z</published>
+    <arxiv:comment>10 pages, 3 figures, ACM Multimedia 2026, egocentric video; 3D scene graph; temporal memory; graph retrieval; object-state reasoning; multimodal question answering</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ke Ma</name>
+    </author>
+    <author>
+      <name>Yamin Mao</name>
+    </author>
+    <author>
+      <name>Weiming Li</name>
+    </author>
+    <author>
+      <name>Shuai Tan</name>
+    </author>
+    <author>
+      <name>Yijie Zhong</name>
+    </author>
+    <author>
+      <name>Hao Chen</name>
+    </author>
+    <author>
+      <name>Haofen Wang</name>
+    </author>
+    <author>
+      <name>Meng Wang</name>
+    </author>
+    <arxiv:doi>10.1145/3767308.3835995</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3767308.3835995" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.18104v1</id>
+    <title>Self-Evolving Agents as Dynamic Graph Transformation: A Survey and New Perspective</title>
+    <updated>2026-06-10T10:22:56Z</updated>
+    <link href="https://arxiv.org/abs/2608.18104v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.18104v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM)-based agents are increasingly becoming self-evolving systems that persist across interactions, maintain memories, use tools, acquire skills, refine workflows, and coordinate with other agents. These capabilities make agent states structural and dynamic: entities, relations, attributes, dependencies, and execution structures change with new evidence, feedback, and environmental conditions. Existing graph-agent surveys typically treat graphs as support structures for agent functions rather than as evolving substrates, while self-evolving-agent surveys focus on agent-level mechanisms and rarely discuss graph topology evolution. Thus, the coupling between evolving agent state and dynamic graph topology remains underexplored. This survey connects these two research lines by framing \textit{agent evolution as dynamic graph transformation}. We model agent state as a dynamic graph, where memories, tools, skills, workflows, and inter-agent relations are represented as typed nodes, edges, and subgraphs updated through schema-constrained rewrites. Based on this formulation, we organize existing dynamic-graph-based methods for self-evolving agents into four taxonomies: node/feature evolution, edge/topology evolution, subgraph activation, and cross-component co-evolution. Building on this taxonomy, we propose dynamic graph learning as reusable infrastructure for self-evolving agents and map nine dynamic-graph-learning subfields to agent-evolution capabilities, discussing their adaptations and possible failure modes. Finally, we discuss five types of graph-aware evaluation and governance protocols from a dynamic-graph perspective, which complement end-task evaluation. The goal is to provide a compact structural lens for designing and governing self-evolving agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-10T10:22:56Z</published>
+    <arxiv:comment>Project: https://github.com/LuckyGirl-XU/Awesome-Agent-Dynamic-Graphs.git</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuanyuan Xu</name>
+    </author>
+    <author>
+      <name>Wenjie Zhang</name>
+    </author>
+    <author>
+      <name>Yin Chen</name>
+    </author>
+    <author>
+      <name>Xuemin Lin</name>
+    </author>
+    <author>
+      <name>Ying Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.15642v1</id>
+    <title>CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems</title>
+    <updated>2026-03-03T14:00:58Z</updated>
+    <link href="https://arxiv.org/abs/2603.15642v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.15642v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents are increasingly deployed in long running workflows, where they must preserve user and task state across many turns. Many existing agent memory systems behave like external databases with ad hoc read/write rules, which can yield unstable retention, limited consolidation, and vulnerability to distractor content. We present CraniMem, a neurocognitively motivated, gated and bounded multi-stage memory design for agentic systems. CraniMem couples goal conditioned gating and utility tagging with a bounded episodic buffer for near term continuity and a structured long-term knowledge graph for durable semantic recall. A scheduled consolidation loop replays high utility traces into the graph while pruning low utility items, keeping memory growth in check and reducing interference. On long horizon benchmarks evaluated under both clean inputs and injected noise, CraniMem is more robust than a Vanilla RAG and Mem0 baseline and exhibits smaller performance drops under distraction. Our code is available at https://github.com/PearlMody05/Cranimem and the accompanying PyPI package at https://pypi.org/project/cranimem.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-03T14:00:58Z</published>
+    <arxiv:comment>International Conference on Learning Representations 2026 Workshop on Memory for LLM-Based Agentic Systems (MemAgents)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Pearl Mody</name>
+    </author>
+    <author>
+      <name>Mihir Panchal</name>
+    </author>
+    <author>
+      <name>Rishit Kar</name>
+    </author>
+    <author>
+      <name>Kiran Bhowmick</name>
+    </author>
+    <author>
+      <name>Ruhina Karani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.12061v2</id>
+    <title>SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory</title>
+    <updated>2026-09-22T12:34:27Z</updated>
+    <link href="https://arxiv.org/abs/2605.12061v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.12061v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term memory is becoming a central bottleneck for language agents. Exsting RAG and GraphRAG systems largely treat memory graphs as static retrieval middleware, which limits their ability to recover complete evidence chains from partial cues, exploit reusable graph-structrual roles, and improve the memory itself through downstream feedback. We introduce SAGE, a Self-evolving Agentic Graph-memory Engine that models graph memory as a dynamic long-term memory substrate. SAGE couples two roles: a memory writer that incrementally constucts structured graph memory from interaction histories, and a Graph Foundation Model-based memory reader to perform retrieval and provide feedback to the memory writer. We provide rigorooous theoretical annalyses supporting the framework. Across multi-hop QA, open-domain retireval, domain-specific review QA, and long-term agent-memory benchmarks, SAGE improves evidence recovery, answer grounding, and retrieval efficiency: after two self-evolution rounds, it achieves the best average rank on multi-hop QA; in zero-shot open-domain transfer, it reaches 82.5/91.6 Recall@2/5 on NQ. Further results on LongMemEval and HaluMem show that traning and reader-writer feedback improve multiple long-term memory and hallucination-diagnostic metrics, suggesting that self-evolving, structure-aware graph memory is a promising foundation for robust long-horizon language agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-12T12:47:43Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Juntong Wang</name>
+    </author>
+    <author>
+      <name>Haoyue Zhao</name>
+    </author>
+    <author>
+      <name>guanghui Pan</name>
+    </author>
+    <author>
+      <name>Xiyuan Wang</name>
+    </author>
+    <author>
+      <name>Yanbo Wang</name>
+    </author>
+    <author>
+      <name>Qiyan Deng</name>
+    </author>
+    <author>
+      <name>Muhan Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05665v1</id>
+    <title>Graph-based Agent Memory: Taxonomy, Techniques, and Applications</title>
+    <updated>2026-02-05T13:49:05Z</updated>
+    <link href="https://arxiv.org/abs/2602.05665v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05665v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory emerges as the core module in the Large Language Model (LLM)-based agents for long-horizon complex tasks (e.g., multi-turn dialogue, game playing, scientific discovery), where memory can enable knowledge accumulation, iterative reasoning and self-evolution. Among diverse paradigms, graph stands out as a powerful structure for agent memory due to the intrinsic capabilities to model relational dependencies, organize hierarchical information, and support efficient retrieval. This survey presents a comprehensive review of agent memory from the graph-based perspective. First, we introduce a taxonomy of agent memory, including short-term vs. long-term memory, knowledge vs. experience memory, non-structural vs. structural memory, with an implementation view of graph-based memory. Second, according to the life cycle of agent memory, we systematically analyze the key techniques in graph-based agent memory, covering memory extraction for transforming the data into the contents, storage for organizing the data efficiently, retrieval for retrieving the relevant contents from memory to support reasoning, and evolution for updating the contents in the memory. Third, we summarize the open-sourced libraries and benchmarks that support the development and evaluation of self-evolving agent memory. We also explore diverse application scenarios. Finally, we identify critical challenges and future research directions. This survey aims to offer actionable insights to advance the development of more efficient and reliable graph-based agent memory systems. All the related resources, including research papers, open-source data, and projects, are collected for the community in https://github.com/DEEP-PolyU/Awesome-GraphMemory.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T13:49:05Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chang Yang</name>
+    </author>
+    <author>
+      <name>Chuang Zhou</name>
+    </author>
+    <author>
+      <name>Yilin Xiao</name>
+    </author>
+    <author>
+      <name>Su Dong</name>
+    </author>
+    <author>
+      <name>Luyao Zhuang</name>
+    </author>
+    <author>
+      <name>Yujing Zhang</name>
+    </author>
+    <author>
+      <name>Zhu Wang</name>
+    </author>
+    <author>
+      <name>Zijin Hong</name>
+    </author>
+    <author>
+      <name>Zheng Yuan</name>
+    </author>
+    <author>
+      <name>Zhishang Xiang</name>
+    </author>
+    <author>
+      <name>Shengyuan Chen</name>
+    </author>
+    <author>
+      <name>Huachi Zhou</name>
+    </author>
+    <author>
+      <name>Qinggang Zhang</name>
+    </author>
+    <author>
+      <name>Ninghao Liu</name>
+    </author>
+    <author>
+      <name>Jinsong Su</name>
+    </author>
+    <author>
+      <name>Xinrun Wang</name>
+    </author>
+    <author>
+      <name>Yi Chang</name>
+    </author>
+    <author>
+      <name>Xiao Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.06036v1</id>
+    <title>Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents</title>
+    <updated>2026-06-04T11:29:46Z</updated>
+    <link href="https://arxiv.org/abs/2606.06036v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.06036v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite recent progress, LLM agents still struggle with reasoning over long interaction histories. While current memory-augmented agents rely on a static retrieve-then-reason paradigm, this rigid pipeline design prevents them from dynamically adapting memory access to intermediate evidence discovered during inference. To bridge this gap, we propose MRAgent, a framework that combines an associative memory graph with an active reconstruction mechanism. We represent memory as a Cue-Tag-Content graph, where associative tags serve as semantic bridges connecting fine-grained cues to memory contents. Operating on this structure, our active reconstruction mechanism integrates LLM reasoning directly into memory access, allowing the agent to iteratively explore and prune retrieval paths based on accumulated evidence. This ensures that memory retrieval is dynamically adapted to the reasoning context while avoiding combinatorial explosion caused by unconstrained expansion. Experiments on the LoCoMo benchmark and LongMemEval benchmark demonstrate significant improvements over strong baselines (up to 23%), while substantially reducing token and runtime cost, highlighting the effectiveness of active and associative reconstruction for long-horizon memory reasoning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-04T11:29:46Z</published>
+    <arxiv:comment>Accepted at ICML 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shuo Ji</name>
+    </author>
+    <author>
+      <name>Yibo Li</name>
+    </author>
+    <author>
+      <name>Bryan Hooi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.08525v4</id>
+    <title>Task Memory Engine (TME): Enhancing State Awareness for Multi-Step LLM Agent Tasks</title>
+    <updated>2025-08-22T20:14:44Z</updated>
+    <link href="https://arxiv.org/abs/2504.08525v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.08525v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly used as autonomous agents for multi-step tasks. However, most existing frameworks fail to maintain a structured understanding of the task state, often relying on linear prompt concatenation or shallow memory buffers. This leads to brittle performance, frequent hallucinations, and poor long-range coherence. In this work, we propose the Task Memory Engine (TME), a lightweight and structured memory module that tracks task execution using a hierarchical Task Memory Tree (TMT). Each node in the tree corresponds to a task step, storing relevant input, output, status, and sub-task relationships. We introduce a prompt synthesis method that dynamically generates LLM prompts based on the active node path, significantly improving execution consistency and contextual grounding. Through case studies and comparative experiments on multi-step agent tasks, we demonstrate that TME leads to better task completion accuracy and more interpretable behavior with minimal implementation overhead. A reference implementation of the core TME components is available at https://github.com/biubiutomato/TME-Agent, including basic examples and structured memory integration. While the current implementation uses a tree-based structure, TME is designed to be graph-aware, supporting reusable substeps, converging task paths, and shared dependencies. This lays the groundwork for future DAG-based memory architectures.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-11T13:38:36Z</published>
+    <arxiv:comment>14 pages, 5 figures. Preprint prepared for future submission. Includes implementation and token-efficiency analysis. Code at https://github.com/biubiutomato/TME-Agent</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ye Ye</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.09033v3</id>
+    <title>ShadowMerge: A Novel Poisoning Attack on Graph-Based Agent Memory via Relation-Channel Conflicts</title>
+    <updated>2026-05-15T08:27:09Z</updated>
+    <link href="https://arxiv.org/abs/2605.09033v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.09033v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph-based agent memory is increasingly used in LLM agents to support structured long-term recall and multi-hop reasoning, but it also creates a new poisoning surface: an attacker can inject a crafted relation into graph memory so that it is later retrieved and influences agent behavior. Existing agent-memory poisoning attacks mainly target flat textual records and are ineffective in graph-based memory because malicious relations often fail to be extracted, merged into the target anchor neighborhood, or retrieved for the victim query.
+  We present SHADOWMERGE, a poisoning attack against graph-based agent memory that exploits relation-channel conflicts. Its key insight is that a poisoned relation can share the same query-activated anchor and canonicalized relation channel as benign evidence while carrying a conflicting value. To realize this, we design AIR, a pipeline that converts the conflict into an ordinary interaction that can be extracted, merged, and retrieved by the graph-memory system. We evaluate SHADOWMERGE on Mem0 and three public real-world datasets: PubMedQA, WebShop, and ToolEmu. SHADOWMERGE achieves 93.8% average attack success rate, improving the best baseline by 50.3 absolute points, while having negligible impact on unrelated benign tasks. Mechanism studies show that SHADOWMERGE overcomes the three key limitations of existing agent-memory poisoning attacks, and defense analysis shows that representative input-side defenses are insufficient to mitigate it. We have responsibly disclosed our findings to affected graph-memory vendors and open sourced SHADOWMERGE.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-09T16:16:41Z</published>
+    <arxiv:comment>Preprint. Corresponding authors: Zifeng Kang and Tiantian Ji. Code is available at https://anonymous.4open.science/status/ShadowMerge-033C</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yang Luo</name>
+    </author>
+    <author>
+      <name>Zifeng Kang</name>
+    </author>
+    <author>
+      <name>Tiantian Ji</name>
+    </author>
+    <author>
+      <name>Xinran Liu</name>
+    </author>
+    <author>
+      <name>Yong Liu</name>
+    </author>
+    <author>
+      <name>Shuyu Li</name>
+    </author>
+    <author>
+      <name>Lingyun Peng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.15701v1</id>
+    <title>H-Mem: A Novel Memory Mechanism for Evolving and Retrieving Agent Memory via a Hybrid Structure</title>
+    <updated>2026-05-15T07:46:38Z</updated>
+    <link href="https://arxiv.org/abs/2605.15701v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.15701v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory data are ubiquitous in Large Language Model (LLM)-based agents (e.g., OpenClaw and Manus). A few recent works have attempted to exploit agents'memory for improving their performance on the question-answering (QA) task, but they lack a principled mechanism for effectively modeling how memory data evolves over time and retrieving memory data effectively, leading to poor performance in memory utilization. To fill this gap, we present H-Mem, a novel memory mechanism via a hybrid structure that can not only effectively model the evolution of agent memory over a long period of time, but also provide an efficient memory retrieval approach. Particularly, H-Mem builds a temporal and semantic tree structure that allows the short-term memory data to evolve progressively into long-term memory data, where the latter provides summarized information about the former, while simultaneously constructing a knowledge graph to capture the relationships between entities in memory. Moreover, it offers an effective memory retrieval approach by exploiting the hybrid structure of the tree and graph structures. Extensive experiments on three agent memory benchmarks show that H-Mem achieves state-of-the-art performance on the QA task.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-15T07:46:38Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jiawei Yu</name>
+    </author>
+    <author>
+      <name>Yixiang Fang</name>
+    </author>
+    <author>
+      <name>Xilin Liu</name>
+    </author>
+    <author>
+      <name>Yuchi Ma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.07800v1</id>
+    <title>From Experience to Strategy: Empowering LLM Agents with Trainable Graph Memory</title>
+    <updated>2025-11-11T03:36:33Z</updated>
+    <link href="https://arxiv.org/abs/2511.07800v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.07800v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) based agents have demonstrated remarkable potential in autonomous task-solving across complex, open-ended environments. A promising approach for improving the reasoning capabilities of LLM agents is to better utilize prior experiences in guiding current decisions. However, LLMs acquire experience either through implicit memory via training, which suffers from catastrophic forgetting and limited interpretability, or explicit memory via prompting, which lacks adaptability. In this paper, we introduce a novel agent-centric, trainable, multi-layered graph memory framework and evaluate how context memory enhances the ability of LLMs to utilize parametric information. The graph abstracts raw agent trajectories into structured decision paths in a state machine and further distills them into high-level, human-interpretable strategic meta-cognition. In order to make memory adaptable, we propose a reinforcement-based weight optimization procedure that estimates the empirical utility of each meta-cognition based on reward feedback from downstream tasks. These optimized strategies are then dynamically integrated into the LLM agent's training loop through meta-cognitive prompting. Empirically, the learnable graph memory delivers robust generalization, improves LLM agents' strategic reasoning performance, and provides consistent benefits during Reinforcement Learning (RL) training.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-11T03:36:33Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Siyu Xia</name>
+    </author>
+    <author>
+      <name>Zekun Xu</name>
+    </author>
+    <author>
+      <name>Jiajun Chai</name>
+    </author>
+    <author>
+      <name>Wentian Fan</name>
+    </author>
+    <author>
+      <name>Yan Song</name>
+    </author>
+    <author>
+      <name>Xiaohan Wang</name>
+    </author>
+    <author>
+      <name>Guojun Yin</name>
+    </author>
+    <author>
+      <name>Wei Lin</name>
+    </author>
+    <author>
+      <name>Haifeng Zhang</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+  </entry>
+</feed>

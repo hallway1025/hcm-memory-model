@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dUKMNZRl0A+Pi4jZLoXdtHhiySk</id>
+  <title>arXiv Query: search_query=all:MemOS AND all:memory AND all:operating AND all:system&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-07T11:46:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:MemOS+AND+(all:memory+AND+(all:operating+AND+all:system))&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1703.07725v1</id>
+    <title>Memos: Revisiting Hybrid Memory Management in Modern Operating System</title>
+    <updated>2017-03-22T16:07:11Z</updated>
+    <link href="https://arxiv.org/abs/1703.07725v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.07725v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The emerging hybrid DRAM-NVM architecture is challenging the existing memory management mechanism in operating system. In this paper, we introduce memos, which can schedule memory resources over the entire memory hierarchy including cache, channels, main memory comprising DRAM and NVM simultaneously. Powered by our newly designed kernel-level monitoring module and page migration engine, memos can dynamically optimize the data placement at the memory hierarchy in terms of the on-line memory patterns, current resource utilization and feature of memory medium. Our experimental results show that memos can achieve high memory utilization, contributing to system throughput by 19.1% and QoS by 23.6% on average. Moreover, memos can reduce the NVM side memory latency by 3~83.3%, energy consumption by 25.1~99%, and benefit the NVM lifetime significantly (40X improvement on average).</summary>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-22T16:07:11Z</published>
+    <arxiv:primary_category term="cs.OS"/>
+    <author>
+      <name>Lei Liu</name>
+    </author>
+    <author>
+      <name>Mengyao Xie</name>
+    </author>
+    <author>
+      <name>Hao Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.22101v1</id>
+    <title>MemOS: An Operating System for Memory-Augmented Generation (MAG) in Large Language Models</title>
+    <updated>2025-05-28T08:27:12Z</updated>
+    <link href="https://arxiv.org/abs/2505.22101v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.22101v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have emerged as foundational infrastructure in the pursuit of Artificial General Intelligence (AGI). Despite their remarkable capabilities in language perception and generation, current LLMs fundamentally lack a unified and structured architecture for handling memory. They primarily rely on parametric memory (knowledge encoded in model weights) and ephemeral activation memory (context-limited runtime states). While emerging methods like Retrieval-Augmented Generation (RAG) incorporate plaintext memory, they lack lifecycle management and multi-modal integration, limiting their capacity for long-term knowledge evolution. To address this, we introduce MemOS, a memory operating system designed for LLMs that, for the first time, elevates memory to a first-class operational resource. It builds unified mechanisms for representation, organization, and governance across three core memory types: parametric, activation, and plaintext. At its core is the MemCube, a standardized memory abstraction that enables tracking, fusion, and migration of heterogeneous memory, while offering structured, traceable access across tasks and contexts. MemOS establishes a memory-centric execution framework with strong controllability, adaptability, and evolvability. It fills a critical gap in current LLM infrastructure and lays the groundwork for continual adaptation, personalized intelligence, and cross-platform coordination in next-generation intelligent systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-28T08:27:12Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhiyu Li</name>
+    </author>
+    <author>
+      <name>Shichao Song</name>
+    </author>
+    <author>
+      <name>Hanyu Wang</name>
+    </author>
+    <author>
+      <name>Simin Niu</name>
+    </author>
+    <author>
+      <name>Ding Chen</name>
+    </author>
+    <author>
+      <name>Jiawei Yang</name>
+    </author>
+    <author>
+      <name>Chenyang Xi</name>
+    </author>
+    <author>
+      <name>Huayi Lai</name>
+    </author>
+    <author>
+      <name>Jihao Zhao</name>
+    </author>
+    <author>
+      <name>Yezhaohui Wang</name>
+    </author>
+    <author>
+      <name>Junpeng Ren</name>
+    </author>
+    <author>
+      <name>Zehao Lin</name>
+    </author>
+    <author>
+      <name>Jiahao Huo</name>
+    </author>
+    <author>
+      <name>Tianyi Chen</name>
+    </author>
+    <author>
+      <name>Kai Chen</name>
+    </author>
+    <author>
+      <name>Kehang Li</name>
+    </author>
+    <author>
+      <name>Zhiqiang Yin</name>
+    </author>
+    <author>
+      <name>Qingchen Yu</name>
+    </author>
+    <author>
+      <name>Bo Tang</name>
+    </author>
+    <author>
+      <name>Hongkang Yang</name>
+    </author>
+    <author>
+      <name>Zhi-Qin John Xu</name>
+    </author>
+    <author>
+      <name>Feiyu Xiong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.03724v4</id>
+    <title>MemOS: A Memory OS for AI System</title>
+    <updated>2025-12-03T03:19:27Z</updated>
+    <link href="https://arxiv.org/abs/2507.03724v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.03724v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have become an essential infrastructure for Artificial General Intelligence (AGI), yet their lack of well-defined memory management systems hinders the development of long-context reasoning, continual personalization, and knowledge consistency.Existing models mainly rely on static parameters and short-lived contextual states, limiting their ability to track user preferences or update knowledge over extended periods.While Retrieval-Augmented Generation (RAG) introduces external knowledge in plain text, it remains a stateless workaround without lifecycle control or integration with persistent representations.Recent work has modeled the training and inference cost of LLMs from a memory hierarchy perspective, showing that introducing an explicit memory layer between parameter memory and external retrieval can substantially reduce these costs by externalizing specific knowledge. Beyond computational efficiency, LLMs face broader challenges arising from how information is distributed over time and context, requiring systems capable of managing heterogeneous knowledge spanning different temporal scales and sources. To address this challenge, we propose MemOS, a memory operating system that treats memory as a manageable system resource. It unifies the representation, scheduling, and evolution of plaintext, activation-based, and parameter-level memories, enabling cost-efficient storage and retrieval. As the basic unit, a MemCube encapsulates both memory content and metadata such as provenance and versioning. MemCubes can be composed, migrated, and fused over time, enabling flexible transitions between memory types and bridging retrieval with parameter-based learning. MemOS establishes a memory-centric system framework that brings controllability, plasticity, and evolvability to LLMs, laying the foundation for continual learning and personalized modeling.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-04T17:21:46Z</published>
+    <arxiv:comment>36 pages, 10 figures, 5 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhiyu Li</name>
+    </author>
+    <author>
+      <name>Chenyang Xi</name>
+    </author>
+    <author>
+      <name>Chunyu Li</name>
+    </author>
+    <author>
+      <name>Ding Chen</name>
+    </author>
+    <author>
+      <name>Boyu Chen</name>
+    </author>
+    <author>
+      <name>Shichao Song</name>
+    </author>
+    <author>
+      <name>Simin Niu</name>
+    </author>
+    <author>
+      <name>Hanyu Wang</name>
+    </author>
+    <author>
+      <name>Jiawei Yang</name>
+    </author>
+    <author>
+      <name>Chen Tang</name>
+    </author>
+    <author>
+      <name>Qingchen Yu</name>
+    </author>
+    <author>
+      <name>Jihao Zhao</name>
+    </author>
+    <author>
+      <name>Yezhaohui Wang</name>
+    </author>
+    <author>
+      <name>Peng Liu</name>
+    </author>
+    <author>
+      <name>Zehao Lin</name>
+    </author>
+    <author>
+      <name>Pengyuan Wang</name>
+    </author>
+    <author>
+      <name>Jiahao Huo</name>
+    </author>
+    <author>
+      <name>Tianyi Chen</name>
+    </author>
+    <author>
+      <name>Kai Chen</name>
+    </author>
+    <author>
+      <name>Kehang Li</name>
+    </author>
+    <author>
+      <name>Zhen Tao</name>
+    </author>
+    <author>
+      <name>Huayi Lai</name>
+    </author>
+    <author>
+      <name>Hao Wu</name>
+    </author>
+    <author>
+      <name>Bo Tang</name>
+    </author>
+    <author>
+      <name>Zhengren Wang</name>
+    </author>
+    <author>
+      <name>Zhaoxin Fan</name>
+    </author>
+    <author>
+      <name>Ningyu Zhang</name>
+    </author>
+    <author>
+      <name>Linfeng Zhang</name>
+    </author>
+    <author>
+      <name>Junchi Yan</name>
+    </author>
+    <author>
+      <name>Mingchuan Yang</name>
+    </author>
+    <author>
+      <name>Tong Xu</name>
+    </author>
+    <author>
+      <name>Wei Xu</name>
+    </author>
+    <author>
+      <name>Huajun Chen</name>
+    </author>
+    <author>
+      <name>Haofen Wang</name>
+    </author>
+    <author>
+      <name>Hongkang Yang</name>
+    </author>
+    <author>
+      <name>Wentao Zhang</name>
+    </author>
+    <author>
+      <name>Zhi-Qin John Xu</name>
+    </author>
+    <author>
+      <name>Siheng Chen</name>
+    </author>
+    <author>
+      <name>Feiyu Xiong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.12034v1</id>
+    <title>Memory as Metabolism: A Design for Companion Knowledge Systems</title>
+    <updated>2026-04-13T20:22:53Z</updated>
+    <link href="https://arxiv.org/abs/2604.12034v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.12034v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-Augmented Generation remains the dominant pattern for giving LLMs persistent memory, but a visible cluster of personal wiki-style memory architectures emerged in April 2026 -- design proposals from Karpathy, MemPalace, and LLM Wiki v2 that compile knowledge into an interlinked artifact for long-term use by a single user. They sit alongside production memory systems that the major labs have shipped for over a year, and an active academic lineage including MemGPT, Generative Agents, Mem0, Zep, A-Mem, MemMachine, SleepGate, and Second Me. Within a 2026 landscape of emerging governance frameworks for agent context and memory -- including Context Cartography and MemOS -- this paper proposes a companion-specific governance profile: a set of normative obligations, a time-structured procedural rule, and testable conformance invariants for the specific failure mode of entrenchment under user-coupled drift in single-user knowledge wikis built on the LLM wiki pattern.
+  The design principle is that personal LLM memory is a companion system: its job is to mirror the user on operational dimensions (working vocabulary, load-bearing structure, continuity of context) and compensate on epistemic failure modes (entrenchment, suppression of contradicting evidence, Kuhnian ossification). Five operations implement this split -- TRIAGE, DECAY, CONTEXTUALIZE, CONSOLIDATE, AUDIT -- supported by memory gravity and minority-hypothesis retention. The sharpest prediction: accumulated contradictory evidence should have a structural path to updating a centrality-protected dominant interpretation through multi-cycle buffer pressure accumulation, a failure mode no existing benchmark captures. The safety story at the single-agent level is partial, and the paper is explicit about what it does and does not solve.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-13T20:22:53Z</published>
+    <arxiv:comment>41 pages, 1 table. Preprint v3.642. Concept DOI: 10.5281/zenodo.19501651</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Stefan Miteski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.22196v1</id>
+    <title>Hy-Memory-30B-A3B: Attributed Reinforcement Learning for Long-Term Memory Writing</title>
+    <updated>2026-10-15T16:46:47Z</updated>
+    <link href="https://arxiv.org/abs/2610.22196v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.22196v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>External-memory systems extend language-model applications beyond a context window, but their quality depends critically on the model executing the write path: deciding what to retain, how precisely to represent it, and how new evidence should update persistent state. Existing frameworks typically place a general-purpose large language model behind framework-specific prompts. This raises serving cost, and a writer specialized for one protocol does not transfer directly to another; a unified model that can operate across established memory frameworks remains largely unexplored. We present Hy-Memory-30B-A3B, a compact long-term-memory writer trained across Mem0, MemOS, and Hy-Memory. Memory On-Policy Distillation teaches framework-specific write protocols on student-generated states; Memory RL then optimizes downstream answerability using dense per-chunk probes, attributed cross-chunk rewards, over-storage controls, and chunk-level GRPO. Carrying policy-written banks across windows keeps training aligned with deployment. On fixed 20% benchmark subsamples, Hy-Memory-30B-A3B ranks first on all four evaluated harnesses, including held-out EverMemOS, with a 55.49% macro average versus 54.62% for Claude Opus 5.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-15T16:46:47Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tianxiang Fei</name>
+    </author>
+    <author>
+      <name>Jiazheng Kang</name>
+    </author>
+    <author>
+      <name>Mao Zheng</name>
+    </author>
+    <author>
+      <name>Xingyan He</name>
+    </author>
+    <author>
+      <name>Xiang Yu</name>
+    </author>
+  </entry>
+</feed>

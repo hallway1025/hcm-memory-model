@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["38429566"],"translationset":[],"querytranslation":"\"10 1007 s10071 024 01835 z\"[Publisher ID]"}}

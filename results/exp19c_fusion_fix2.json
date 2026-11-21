@@ -1,0 +1,184 @@
+[
+ {
+  "seed": 0,
+  "arm": "DEFAULT",
+  "level": 0.25,
+  "top1": 8,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "arm": "L3raw",
+  "level": 0.1,
+  "top1": 39,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "arm": "L3raw",
+  "level": 0.25,
+  "top1": 8,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "arm": "L3raw",
+  "level": 0.35,
+  "top1": 0,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "arm": "L3raw_lam1",
+  "level": 0.1,
+  "top1": 40,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "arm": "L3raw_lam1",
+  "level": 0.25,
+  "top1": 19,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "arm": "L3raw_lam1",
+  "level": 0.35,
+  "top1": 0,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "arm": "L0raw",
+  "level": 0.1,
+  "top1": 39,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "arm": "L0raw",
+  "level": 0.25,
+  "top1": 8,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "arm": "L0raw",
+  "level": 0.35,
+  "top1": 0,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "arm": "L0raw_lam1",
+  "level": 0.1,
+  "top1": 40,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "arm": "L0raw_lam1",
+  "level": 0.25,
+  "top1": 19,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "arm": "L0raw_lam1",
+  "level": 0.35,
+  "top1": 0,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "DEFAULT",
+  "level": 0.25,
+  "top1": 12,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "L3raw",
+  "level": 0.1,
+  "top1": 39,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "L3raw",
+  "level": 0.25,
+  "top1": 12,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "L3raw",
+  "level": 0.35,
+  "top1": 0,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "L3raw_lam1",
+  "level": 0.1,
+  "top1": 40,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "L3raw_lam1",
+  "level": 0.25,
+  "top1": 19,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "L3raw_lam1",
+  "level": 0.35,
+  "top1": 4,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "L0raw",
+  "level": 0.1,
+  "top1": 39,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "L0raw",
+  "level": 0.25,
+  "top1": 12,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "L0raw",
+  "level": 0.35,
+  "top1": 0,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "L0raw_lam1",
+  "level": 0.1,
+  "top1": 40,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "L0raw_lam1",
+  "level": 0.25,
+  "top1": 19,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "arm": "L0raw_lam1",
+  "level": 0.35,
+  "top1": 4,
+  "n_probes": 40
+ }
+]

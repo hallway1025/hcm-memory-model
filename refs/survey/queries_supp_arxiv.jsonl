@@ -1,0 +1,27 @@
+{"area":"B_forget","query":"machine unlearning LLM agents","channel":"arxiv","n":15,"year_from":2024,"module":"B_forget","role":"survey"}
+{"area":"B_forget","query":"catastrophic forgetting replay continual learning","channel":"arxiv","n":10,"year_from":2024,"module":"B_forget","role":"survey"}
+{"area":"C_neuro","query":"eligibility traces learning synapse","channel":"arxiv","n":10,"module":"C_neuro","role":"survey"}
+{"area":"C_neuro","query":"neuromodulation gating consolidation","channel":"arxiv","n":10,"module":"C_neuro","role":"survey"}
+{"area":"A_timescale","query":"state space models time cells","channel":"arxiv","n":10,"year_from":2024,"module":"A_timescale","role":"survey"}
+{"area":"A_timescale","query":"multi-timescale memory hierarchy","channel":"arxiv","n":10,"module":"A_timescale","role":"survey"}
+{"area":"D_consolidation","query":"Benna Fusi consolidation","channel":"arxiv","n":10,"module":"D_consolidation","role":"survey"}
+{"area":"D_consolidation","query":"sleep replay consolidation model","channel":"arxiv","n":10,"year_from":2024,"module":"D_consolidation","role":"survey"}
+{"area":"E_wm","query":"theta gamma nested oscillation memory","channel":"arxiv","n":10,"module":"E_wm","role":"survey"}
+{"area":"F_capacity","query":"modern Hopfield network capacity","channel":"arxiv","n":10,"module":"F_capacity","role":"survey"}
+{"area":"G_structure","query":"successor representation generalization","channel":"arxiv","n":10,"module":"G_structure","role":"survey"}
+{"area":"G_structure","query":"graph structured memory agent","channel":"arxiv","n":10,"module":"G_structure","role":"survey"}
+{"area":"H_scale","query":"HNSW vector search","channel":"arxiv","n":10,"module":"H_scale","role":"survey"}
+{"area":"H_scale","query":"sparse associative memory retrieval","channel":"arxiv","n":10,"module":"H_scale","role":"survey"}
+{"area":"I_confidence","query":"confidence calibrated retrieval","channel":"arxiv","n":10,"module":"I_confidence","role":"survey"}
+{"area":"J_llm_memory","query":"agent memory survey","channel":"arxiv","n":15,"year_from":2024,"module":"J_llm_memory","role":"survey"}
+{"area":"J_llm_memory","query":"generative agents memory reflection","channel":"arxiv","n":10,"year_from":2023,"module":"J_llm_memory","role":"survey"}
+{"area":"J_llm_memory","query":"MemGPT LLM operating system","channel":"arxiv","n":5,"module":"J_llm_memory","role":"survey"}
+{"area":"J_llm_memory","query":"generative agents interactive simulacra","channel":"arxiv","n":5,"module":"J_llm_memory","role":"survey"}
+{"area":"J_llm_memory","query":"Mem0 scalable long-term memory","channel":"arxiv","n":5,"module":"J_llm_memory","role":"survey"}
+{"area":"J_llm_memory","query":"Zep temporal knowledge graph","channel":"arxiv","n":5,"module":"J_llm_memory","role":"survey"}
+{"area":"J_llm_memory","query":"HippoRAG neurobiologically inspired long-term","channel":"arxiv","n":5,"module":"J_llm_memory","role":"survey"}
+{"area":"J_llm_memory","query":"A-MEM agentic memory Zettelkasten","channel":"arxiv","n":5,"module":"J_llm_memory","role":"survey"}
+{"area":"J_llm_memory","query":"LongMemEval long-term interactive memory","channel":"arxiv","n":5,"module":"J_llm_memory","role":"survey"}
+{"area":"J_llm_memory","query":"Larimar episodic memory control","channel":"arxiv","n":5,"module":"J_llm_memory","role":"survey"}
+{"area":"J_llm_memory","query":"MemOS memory operating system","channel":"arxiv","n":5,"module":"J_llm_memory","role":"survey"}
+{"area":"J_llm_memory","query":"MemAgent long-context reinforcement","channel":"arxiv","n":5,"module":"J_llm_memory","role":"survey"}

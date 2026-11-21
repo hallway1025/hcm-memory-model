@@ -1,0 +1,41 @@
+{
+ "part2": {
+  "part": "part2",
+  "N": 100000,
+  "d_h": 16384,
+  "k": 328,
+  "gen_s": 17.2,
+  "M_dense_mb": 6250.6,
+  "write": {
+   "index_total_s": 811.7,
+   "index_per_write_ms": 8.117,
+   "dense_per_write_s": 0.4102,
+   "speedup": 50.5,
+   "block_agree": "1000/1000",
+   "block_hard_mismatch": 0,
+   "rejections_index": 900,
+   "rejections_dense_block": 100,
+   "row_cap": 4096,
+   "index_mb": 512.0
+  },
+  "f32_chain_max_da_n2000": 0.0,
+  "f32_chain_equiv_ok": true,
+  "csr_build_s": 0.47,
+  "csr_mb": 372.0,
+  "retrieve_postings_L3_f64_s": 8.477,
+  "retrieve_postings_L3_f32_s": 5.332,
+  "dense_mtv_s": 0.938,
+  "dense_mtcols_s": 14.03,
+  "dense_gemv_plus_softmax_s": 1.177,
+  "retrieve_dense_f32_L3_s": 4.277,
+  "retrieve_postings_L3_s": 5.332,
+  "retrieval_matrix": {
+   "postings_f64": 8.477,
+   "postings_f32": 5.332,
+   "dense_f32": 4.277
+  },
+  "retrieve_speedup_vs_8gemv": 1.4,
+  "peak_rss_mb": -1.0,
+  "total_s": 1103.9
+ }
+}

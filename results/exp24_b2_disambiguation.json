@@ -1,0 +1,58 @@
+{
+ "phrase": "OK",
+ "K": 40,
+ "diag": {
+  "code_pairwise_cos": {
+   "mean": 1.0,
+   "frac_ge_0.95": 1.0
+  },
+  "cue_slow_pairwise_cos": 0.6716,
+  "cue_fast_pairwise_cos": 0.9203,
+  "n_occurrences": 155,
+  "n_written": 40
+ },
+ "arms": {
+  "B_no_ctx": {
+   "hit": 0,
+   "n": 40,
+   "rate": 0.0,
+   "pick_hist_top": {
+    "-1": 40
+   }
+  },
+  "A_slow_cue": {
+   "hit": 40,
+   "n": 40,
+   "rate": 1.0,
+   "pick_hist_top": {
+    "0": 1,
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1
+   }
+  },
+  "A_partial_cue": {
+   "hit": 6,
+   "n": 40,
+   "rate": 0.15
+  },
+  "A_tau": {
+   "hit": 38,
+   "n": 40,
+   "rate": 0.95,
+   "pick_hist_top": {
+    "2": 2,
+    "37": 2,
+    "0": 1,
+    "1": 1,
+    "3": 1
+   }
+  },
+  "C_wrong_cue_slow": {
+   "cued_rate": 1.0,
+   "target_rate": 0.0,
+   "n": 40
+  }
+ }
+}

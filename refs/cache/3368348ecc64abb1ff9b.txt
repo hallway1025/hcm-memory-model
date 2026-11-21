@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/I+VX/0xFJ1DukJAQZZSHcA/Rvhw</id>
+  <title>arXiv Query: search_query=&amp;id_list=0902.2206&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:32:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=0902.2206" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0902.2206v5</id>
+    <title>Feature Hashing for Large Scale Multitask Learning</title>
+    <updated>2010-02-27T15:32:35Z</updated>
+    <link href="https://arxiv.org/abs/0902.2206v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.2206v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Empirical evidence suggests that hashing is an effective strategy for dimensionality reduction and practical nonparametric estimation. In this paper we provide exponential tail bounds for feature hashing and show that the interaction between random subspaces is negligible with high probability. We demonstrate the feasibility of this approach with experimental results for a new use case -- multitask learning with hundreds of thousands of tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-12T20:06:36Z</published>
+    <arxiv:comment>Fixed broken theorem</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kilian Weinberger</name>
+    </author>
+    <author>
+      <name>Anirban Dasgupta</name>
+    </author>
+    <author>
+      <name>Josh Attenberg</name>
+    </author>
+    <author>
+      <name>John Langford</name>
+    </author>
+    <author>
+      <name>Alex Smola</name>
+    </author>
+  </entry>
+</feed>

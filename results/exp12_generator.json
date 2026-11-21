@@ -1,0 +1,130 @@
+[
+ {
+  "share": 0.8,
+  "input_cos": 0.9326,
+  "resid_off": {
+   "code_cos": 0.698,
+   "recall": 1,
+   "written": 30,
+   "distinct_supports": 30
+  },
+  "resid_on": {
+   "code_cos": 0.122,
+   "recall": 30,
+   "written": 30,
+   "distinct_supports": 30
+  }
+ },
+ {
+  "share": 0.85,
+  "input_cos": 0.9654,
+  "resid_off": {
+   "code_cos": 0.804,
+   "recall": 1,
+   "written": 29,
+   "distinct_supports": 29
+  },
+  "resid_on": {
+   "code_cos": 0.181,
+   "recall": 30,
+   "written": 30,
+   "distinct_supports": 30
+  }
+ },
+ {
+  "share": 0.9,
+  "input_cos": 0.9861,
+  "resid_off": {
+   "code_cos": 0.872,
+   "recall": 1,
+   "written": 18,
+   "distinct_supports": 18
+  },
+  "resid_on": {
+   "code_cos": 0.308,
+   "recall": 25,
+   "written": 30,
+   "distinct_supports": 30
+  }
+ },
+ {
+  "share": 0.92,
+  "input_cos": 0.9914,
+  "resid_off": {
+   "code_cos": 0.886,
+   "recall": 1,
+   "written": 13,
+   "distinct_supports": 13
+  },
+  "resid_on": {
+   "code_cos": 0.361,
+   "recall": 0,
+   "written": 29,
+   "distinct_supports": 29
+  }
+ },
+ {
+  "share": 0.95,
+  "input_cos": 0.9969,
+  "resid_off": {
+   "code_cos": 0.919,
+   "recall": 1,
+   "written": 6,
+   "distinct_supports": 6
+  },
+  "resid_on": {
+   "code_cos": 0.515,
+   "recall": 0,
+   "written": 27,
+   "distinct_supports": 27
+  }
+ },
+ {
+  "share": 0.98,
+  "input_cos": 0.9995,
+  "resid_off": {
+   "code_cos": 0.929,
+   "recall": 1,
+   "written": 3,
+   "distinct_supports": 3
+  },
+  "resid_on": {
+   "code_cos": 0.764,
+   "recall": 1,
+   "written": 18,
+   "distinct_supports": 18
+  }
+ },
+ {
+  "share": 0.99,
+  "input_cos": 0.9999,
+  "resid_off": {
+   "code_cos": 0.0,
+   "recall": 1,
+   "written": 1,
+   "distinct_supports": 1
+  },
+  "resid_on": {
+   "code_cos": 0.873,
+   "recall": 1,
+   "written": 12,
+   "distinct_supports": 12
+  }
+ },
+ {
+  "share": 0.999,
+  "input_cos": 1.0,
+  "resid_off": {
+   "code_cos": 0.0,
+   "recall": 1,
+   "written": 1,
+   "distinct_supports": 1
+  },
+  "resid_on": {
+   "code_cos": 0.0,
+   "recall": 1,
+   "written": 1,
+   "distinct_supports": 1
+  }
+ }
+]

@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+t1p7EOPFxLGluEMXgiVcHXGA0Y</id>
+  <title>arXiv Query: search_query=all:hybrid AND all:lexical AND all:dense AND all:retrieval&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-11-07T14:10:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hybrid+AND+(all:lexical+AND+(all:dense+AND+all:retrieval))&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>72</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2106.08433v2</id>
+    <title>Combining Lexical and Dense Retrieval for Computationally Efficient Multi-hop Question Answering</title>
+    <updated>2021-09-22T08:16:39Z</updated>
+    <link href="https://arxiv.org/abs/2106.08433v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.08433v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In simple open-domain question answering (QA), dense retrieval has become one of the standard approaches for retrieving the relevant passages to infer an answer. Recently, dense retrieval also achieved state-of-the-art results in multi-hop QA, where aggregating information from multiple pieces of information and reasoning over them is required. Despite their success, dense retrieval methods are computationally intensive, requiring multiple GPUs to train. In this work, we introduce a hybrid (lexical and dense) retrieval approach that is highly competitive with the state-of-the-art dense retrieval models, while requiring substantially less computational resources. Additionally, we provide an in-depth evaluation of dense retrieval methods on limited computational resource settings, something that is missing from the current literature.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-15T20:52:58Z</published>
+    <arxiv:comment>Accepted at the 2nd Workshop on Simple and Efficient Natural Language Processing (SustaiNLP 2021)</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Georgios Sidiropoulos</name>
+    </author>
+    <author>
+      <name>Nikos Voskarides</name>
+    </author>
+    <author>
+      <name>Svitlana Vakulenko</name>
+    </author>
+    <author>
+      <name>Evangelos Kanoulas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.09912v2</id>
+    <title>A Dense Representation Framework for Lexical and Semantic Matching</title>
+    <updated>2023-02-25T02:58:18Z</updated>
+    <link href="https://arxiv.org/abs/2206.09912v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.09912v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Lexical and semantic matching capture different successful approaches to text retrieval and the fusion of their results has proven to be more effective and robust than either alone. Prior work performs hybrid retrieval by conducting lexical and semantic matching using different systems (e.g., Lucene and Faiss, respectively) and then fusing their model outputs. In contrast, our work integrates lexical representations with dense semantic representations by densifying high-dimensional lexical representations into what we call low-dimensional dense lexical representations (DLRs). Our experiments show that DLRs can effectively approximate the original lexical representations, preserving effectiveness while improving query latency. Furthermore, we can combine dense lexical and semantic representations to generate dense hybrid representations (DHRs) that are more flexible and yield faster retrieval compared to existing hybrid techniques. In addition, we explore it jointly training lexical and semantic representations in a single model and empirically show that the resulting DHRs are able to combine the advantages of the individual components. Our best DHR model is competitive with state-of-the-art single-vector and multi-vector dense retrievers in both in-domain and zero-shot evaluation settings. Furthermore, our model is both faster and requires smaller indexes, making our dense representation framework an attractive approach to text retrieval. Our code is available at https://github.com/castorini/dhr.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-20T17:29:42Z</published>
+    <arxiv:comment>Published in ACM Transactions on Information Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Sheng-Chieh Lin</name>
+    </author>
+    <author>
+      <name>Jimmy Lin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.05521v3</id>
+    <title>Hybrid Inverted Index Is a Robust Accelerator for Dense Retrieval</title>
+    <updated>2023-10-17T07:25:38Z</updated>
+    <link href="https://arxiv.org/abs/2210.05521v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.05521v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inverted file structure is a common technique for accelerating dense retrieval. It clusters documents based on their embeddings; during searching, it probes nearby clusters w.r.t. an input query and only evaluates documents within them by subsequent codecs, thus avoiding the expensive cost of exhaustive traversal. However, the clustering is always lossy, which results in the miss of relevant documents in the probed clusters and hence degrades retrieval quality. In contrast, lexical matching, such as overlaps of salient terms, tends to be strong feature for identifying relevant documents. In this work, we present the Hybrid Inverted Index (HI$^2$), where the embedding clusters and salient terms work collaboratively to accelerate dense retrieval. To make best of both effectiveness and efficiency, we devise a cluster selector and a term selector, to construct compact inverted lists and efficiently searching through them. Moreover, we leverage simple unsupervised algorithms as well as end-to-end knowledge distillation to learn these two modules, with the latter further boosting the effectiveness. Based on comprehensive experiments on popular retrieval benchmarks, we verify that clusters and terms indeed complement each other, enabling HI$^2$ to achieve lossless retrieval quality with competitive efficiency across various index settings. Our code and checkpoint are publicly available at https://github.com/namespace-Pt/Adon/tree/HI2.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-11T15:12:41Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Peitian Zhang</name>
+    </author>
+    <author>
+      <name>Zheng Liu</name>
+    </author>
+    <author>
+      <name>Shitao Xiao</name>
+    </author>
+    <author>
+      <name>Zhicheng Dou</name>
+    </author>
+    <author>
+      <name>Jing Yao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.30612v1</id>
+    <title>The Fusion Tax: A Diagnostic Analysis of When Hybrid Retrieval Hurts</title>
+    <updated>2026-10-22T02:24:08Z</updated>
+    <link href="https://arxiv.org/abs/2610.30612v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.30612v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hybrid retrieval, which fuses a sparse lexical retriever with a dense neural one, is widely recommended in the software documentation surveyed in September 2026, usually with reciprocal rank fusion (RRF), on the strength of aggregate gains. We ask what fusion costs on individual queries, treating "do not fuse" as a first-class outcome, in the setting in which hybrid retrieval is deployed: a standard Anserini BM25, five dense encoders spanning 22M-596M parameters and three model generations, a learned-sparse (SPLADE) alternative, and a cross-encoder second stage, on seven BEIR datasets and three fusion functions. Even the best method, dense-weighted score interpolation, ranks relevant documents below the better of its two components on 13-48% of queries and below the deployable dense-only retriever on 8-21% (14-48% and 11-25% at a weight selected under leave-one-corpus-out validation), while beating dense-only in aggregate on every corpus with the primary encoder; the downside is significant under loss-averse risk-sensitive evaluation on six of the seven corpora. We call this loss the fusion tax. It is mostly a ranking effect that preserves recall in aggregate, it is most likely on the queries that only one retriever covers, and it persists across the encoder ladder and the SPLADE substitution. RRF carries the higher tax wherever the dense retriever is clearly stronger and only beats dense-only where the two components are balanced. Fusion failure is weakly predictable within a corpus but transfers unreliably across corpora, because the features that predict it change sign with the sparse-dense balance. A cross-encoder recovers part of the tax only where it is itself reliable. We distill these findings into guidance that keys the fusion decision to the measured sparse-dense balance of the target corpus.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-22T02:24:08Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <arxiv:journal_ref>IEEE Access, vol. 14, pp. 159620-159637, 2026</arxiv:journal_ref>
+    <author>
+      <name>Aaditya Chauhan</name>
+    </author>
+    <author>
+      <name>Arun Agarwal</name>
+    </author>
+    <arxiv:doi>10.1109/ACCESS.2026.3743502</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ACCESS.2026.3743502" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.16394v1</id>
+    <title>A Reference Architecture for Agentic Hybrid Retrieval in Dataset Search</title>
+    <updated>2026-03-28T22:56:57Z</updated>
+    <link href="https://arxiv.org/abs/2604.16394v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.16394v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ad hoc dataset search requires matching underspecified natural-language queries against sparse, heterogeneous metadata records, a task where typical lexical or dense retrieval alone falls short. We reposition dataset search as a software-architecture problem and propose a bounded, auditable reference architecture for agentic hybrid retrieval that combines BM25 lexical search with dense-embedding retrieval via reciprocal rank fusion (RRF), orchestrated by a large language model (LLM) agent that repeatedly plans queries, evaluates the sufficiency of results, and reranks candidates. To reduce the vocabulary mismatch between user intent and provider-authored metadata, we introduce an offline metadata augmentation step in which an LLM generates pseudo-queries for each dataset record, augmenting both retrieval indexes before query time. Two architectural styles are examined: a single ReAct agent and a multi-agent horizontal architecture with Feedback Control. Their quality-attribute tradeoffs are analyzed with respect to modifiability, observability, performance, and governance. An evaluation framework comprising seven system variants is defined to isolate the contribution of each architectural decision. The architecture is presented as an extensible reference design for the software architecture community, incorporating explicit governance tactics to bound and audit nondeterministic LLM components.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-28T22:56:57Z</published>
+    <arxiv:comment>7 pages, 3 figures, accepted at SAML 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Riccardo Terrenzi</name>
+    </author>
+    <author>
+      <name>Phongsakon Mark Konrad</name>
+    </author>
+    <author>
+      <name>Tim Lukas Adam</name>
+    </author>
+    <author>
+      <name>Serkan Ayvaz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.01450v1</id>
+    <title>Real-Time Hybrid Retrieval in Hyperbolic Space for Retrieval-Augmented Generation on Edge Devices</title>
+    <updated>2026-08-02T19:14:59Z</updated>
+    <link href="https://arxiv.org/abs/2608.01450v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.01450v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a hybrid document retrieval system designed for retrieval-augmented generation (RAG) that operates entirely within the Lorentz model of hyperbolic geometry. Unlike conventional dense retrievers confined to Euclidean space, this system projects pretrained word embeddings into hyperbolic space through a learned HyTE-H transformation, whose exponential volume growth suits the hierarchical organization of natural language. Documents are segmented into overlapping chunks, indexed by their Lorentz embeddings, and retrieved through a two-stage pipeline that first applies BM25 lexical scoring, then re-ranks candidates using Lorentzian inner-product similarity. A tunable parameter $α$ blends the BM25 score with the hyperbolic similarity score. The system was evaluated on five datasets from the BEIR benchmark suite, SciFact, NFCorpus, ArguAna, SciDocs, and FiQA, achieving NDCG@10 scores of 0.654, 0.304, 0.342, 0.150, and 0.217 respectively with word embeddings alone, without fine-tuned neural encoders or cross-attention rerankers. The system supports real-time indexing of user-supplied documents and resource-efficient querying over tens of thousands of moderately sized documents, so hyperbolic retrieval can run on edge devices at interactive latencies.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-02T19:14:59Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Aradhya Chakrabarti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.00049v1</id>
+    <title>Rethinking Hybrid Retrieval: When Small Embeddings and LLM Re-ranking Beat Bigger Models</title>
+    <updated>2025-05-28T18:39:40Z</updated>
+    <link href="https://arxiv.org/abs/2506.00049v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.00049v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a comparison of embedding models in tri-modal hybrid retrieval for Retrieval-Augmented Generation (RAG) systems. We investigate the fusion of dense semantic, sparse lexical, and graph-based embeddings, focusing on the performance of the MiniLM-v6 and BGE-Large architectures. Contrary to conventional assumptions, our results show that the compact MiniLM-v6 outperforms the larger BGE-Large when integrated with LLM-based re-ranking within our tri-modal hybrid framework. Experiments conducted on the SciFact, FIQA, and NFCorpus datasets demonstrate significant improvements in retrieval quality with the MiniLM-v6 configuration. The performance difference is particularly pronounced in agentic re-ranking scenarios, indicating better alignment between MiniLM-v6's embedding space and LLM reasoning. Our findings suggest that embedding model selection for RAG systems should prioritize compatibility with multi-signal fusion and LLM alignment, rather than relying solely on larger models. This approach may reduce computational requirements while improving retrieval accuracy and efficiency.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-28T18:39:40Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Arjun Rao</name>
+    </author>
+    <author>
+      <name>Hanieh Alipour</name>
+    </author>
+    <author>
+      <name>Nick Pendar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.23250v2</id>
+    <title>Deep Retrieval at CheckThat! 2025: Identifying Scientific Papers from Implicit Social Media Mentions via Hybrid Retrieval and Re-Ranking</title>
+    <updated>2025-07-04T08:06:20Z</updated>
+    <link href="https://arxiv.org/abs/2505.23250v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.23250v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the methodology and results of the Deep Retrieval team for subtask 4b of the CLEF CheckThat! 2025 competition, which focuses on retrieving relevant scientific literature for given social media posts. To address this task, we propose a hybrid retrieval pipeline that combines lexical precision, semantic generalization, and deep contextual re-ranking, enabling robust retrieval that bridges the informal-to-formal language gap. Specifically, we combine BM25-based keyword matching with a FAISS vector store using a fine-tuned INF-Retriever-v1 model for dense semantic retrieval. BM25 returns the top 30 candidates, and semantic search yields 100 candidates, which are then merged and re-ranked via a large language model (LLM)-based cross-encoder.
+  Our approach achieves a mean reciprocal rank at 5 (MRR@5) of 76.46% on the development set and 66.43% on the hidden test set, securing the 1st position on the development leaderboard and ranking 3rd on the test leaderboard (out of 31 teams), with a relative performance gap of only 2 percentage points compared to the top-ranked system. We achieve this strong performance by running open-source models locally and without external training data, highlighting the effectiveness of a carefully designed and fine-tuned retrieval pipeline.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-29T08:55:39Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Pascal J. Sager</name>
+    </author>
+    <author>
+      <name>Ashwini Kamaraj</name>
+    </author>
+    <author>
+      <name>Benjamin F. Grewe</name>
+    </author>
+    <author>
+      <name>Thilo Stadelmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.36326v2</id>
+    <title>PILLAR: Private Inverted-Index Lexical Lookup for Augmented Retrieval</title>
+    <updated>2026-09-30T14:14:55Z</updated>
+    <link href="https://arxiv.org/abs/2609.36326v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.36326v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-augmented generation (RAG) hands the user's query to whoever hosts the corpus. We propose PILLAR, a Privacy-Preserving RAG (PPRAG) system based on Private Information Retrieval (PIR) in which a client utilizes the k documents most similar to their query from a server-held and publicly known corpus to respond to their query, while the server learns nothing about the query, either its terms or its access pattern. Prior PPRAG constructions rely on dense retrieval alone, translating approximate nearest-neighbor search into many query-dependent rounds of PIR, and pay for it in both latency and retrieval quality. PILLAR instead performs private hybrid retrieval in two stages. A sparse stage issues a small, fixed number of PIR queries against a carefully designed index of precomputed BM25 scores, filtering the corpus down to candidates that share terms with the query without the server ever seeing which terms these are. A dense stage then fetches only those candidates' document embeddings and re-ranks them locally, avoiding the many costly PIR queries that private dense retrieval typically requires. We instantiate PILLAR with two protocols that trade latency against retrieval quality, each built on a different private rendering of lexical search. PILLAR-Bin bins posting lists into a hash table and is a single-round design that achieves lower latency than state-of-the-art private retrieval schemes. PILLAR-Tree turns block-max pruning into an oblivious tree traversal combined with cuckoo hash tables and achieves the highest retrieval quality at lower latency than state-of-the-art schemes.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-28T21:59:04Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Truong Son Nguyen</name>
+    </author>
+    <author>
+      <name>Daniel Blackley</name>
+    </author>
+    <author>
+      <name>Ni Trieu</name>
+    </author>
+    <author>
+      <name>Evgenios M. Kornaropoulos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.18248v1</id>
+    <title>Quanta: A Self-Contained Python Library for Hybrid Retrieval over Quantised Embeddings, Lexical Indexes, and Knowledge Graphs</title>
+    <updated>2026-09-16T07:27:19Z</updated>
+    <link href="https://arxiv.org/abs/2609.18248v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.18248v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An advanced retrieval-augmented generation pipeline is typically assembled from three or four independently operated systems: an approximate nearest-neighbour index, a full-text search engine, a graph database, and a relational document store. Each contributes its own deployment surface, configuration model, and failure modes, and the integration logic that binds them is written anew in every project. In this work, we present \textsc{Quanta}, an open-source Python library, which unifies dense vector search over 4-bit quantised embeddings, BM25 full-text retrieval, and knowledge-graph traversal behind a single retrieval API. Quanta makes two design commitments, which distinguish it from existing hybrid retrieval stacks. First, signals are combined by \emph{weighted reciprocal rank fusion} rather than by normalising heterogeneous scores onto a shared range, which we argue is ill-posed because such normalisations are query-dependent. Second, the graph is a \emph{candidate expander and not a relevance scorer}: traversal widens the candidate pool, and the newly admitted documents are re-scored by the dense indexes under an identifier allowlist, so structural adjacency determines what is considered while content evidence determines how it ranks.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-16T07:27:19Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Ioannis E. Livieris</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.20990v5</id>
+    <title>What Tracks Hard-Negative Transfer? A Study of Lexical and Semantic Signals</title>
+    <updated>2026-10-14T10:06:02Z</updated>
+    <link href="https://arxiv.org/abs/2603.20990v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.20990v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Which properties of hard-negative supervision track dense-retriever transfer before training? We compare lexical noncoverage, frozenencoder similarity statistics, hardness proxies, and combinations of these signals across BM25, dense, LLM-generated, and hybrid sources for MS MARCO training. Evaluation uses three retriever backbones and eleven BEIR datasets. Mean lexical residuality, an IDF-weighted measure of query-token noncoverage, reproduces the aggregate transfer ordering in all six backbone and setting blocks. The individual semantic statistics recover none of the complete orderings, and combining them with the lexical signal does not improve the observed rank agreement. After approximately matching BM25, dense, and LLM diagnostic samples for lexical residuality, none of the tested semantic statistics recovers the observed LLM &gt; Dense &gt; BM25 transfer ordering across three backbones, three matching resolutions, and 100 repetitions. Constructed controls further show that unrelated and false-negative-shaped passages can exhibit favorable lexical and semantic statistics. The findings identify a simple lexical association in this setting while distinguishing source level transfer agreement from the reliability of individual negatives.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-22T00:21:05Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Aarush Sinha</name>
+    </author>
+    <author>
+      <name>Rahul Seetharaman</name>
+    </author>
+    <author>
+      <name>Aman Bansal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.13550v1</id>
+    <title>Uncertainty-Aware Hybrid Retrieval for Long-Document RAG</title>
+    <updated>2026-06-11T16:30:45Z</updated>
+    <link href="https://arxiv.org/abs/2606.13550v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.13550v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval augmented generation (RAG) depends critically on the quality and granularity of retrieved evidence. Large retrieval units preserve context but often introduce irrelevant content, which can dilute answer bearing evidence and worsen long context utilization. Fine-grained units are more compact, but they may be difficult to retrieve reliably because short chunks can lack semantic, lexical, or bridging cues needed to match the query. We propose Uncertainty-aware Multi-Granularity RAG (UMG-RAG), a training-free hybrid retrieval framework that treats chunk granularity as query-specific reliability estimation. Instead of training a new retriever or modifying the generator, UMG-RAG uses existing dense and sparse retrievers as complementary experts across multiple chunk granularities. For each query, it converts each expert-granularity score list into an evidence distribution, estimates reliability from distribution entropy, and fuses candidates according to query-specific semantic, lexical, and granularity confidence. We further introduce UMGP-RAG, a parent promotion variant that uses fine-grained hits to locate relevant evidence while returning broader non-redundant parent chunks for local coherence. Experiments on question answering benchmarks show that uncertainty-aware fusion and parent promotion improve generation quality while maintaining a lightweight, plug-and-play retrieval pipeline.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-11T16:30:45Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hoin Jung</name>
+    </author>
+    <author>
+      <name>Xiaoqian Wang</name>
+    </author>
+  </entry>
+</feed>

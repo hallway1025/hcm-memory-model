@@ -1,0 +1,367 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Manual"><PMID Version="1">22492751</PMID><DateCompleted><Year>2012</Year><Month>09</Month><Day>04</Day></DateCompleted><DateRevised><Year>2022</Year><Month>04</Month><Day>08</Day></DateRevised><Article PubModel="Print"><Journal><ISSN IssnType="Electronic">1471-2970</ISSN><JournalIssue CitedMedium="Internet"><Volume>367</Volume><Issue>1594</Issue><PubDate><Year>2012</Year><Month>May</Month><Day>19</Day></PubDate></JournalIssue><Title>Philosophical transactions of the Royal Society of London. Series B, Biological sciences</Title><ISOAbbreviation>Philos Trans R Soc Lond B Biol Sci</ISOAbbreviation></Journal><ArticleTitle>The neural basis of metacognitive ability.</ArticleTitle><Pagination><StartPage>1338</StartPage><EndPage>1349</EndPage><MedlinePgn>1338-49</MedlinePgn></Pagination><ELocationID EIdType="doi" ValidYN="Y">10.1098/rstb.2011.0417</ELocationID><Abstract><AbstractText>Ability in various cognitive domains is often assessed by measuring task performance, such as the accuracy of a perceptual categorization. A similar analysis can be applied to metacognitive reports about a task to quantify the degree to which an individual is aware of his or her success or failure. Here, we review the psychological and neural underpinnings of metacognitive accuracy, drawing on research in memory and decision-making. These data show that metacognitive accuracy is dissociable from task performance and varies across individuals. Convergent evidence indicates that the function of the rostral and dorsal aspect of the lateral prefrontal cortex (PFC) is important for the accuracy of retrospective judgements of performance. In contrast, prospective judgements of performance may depend upon medial PFC. We close with a discussion of how metacognitive processes relate to concepts of cognitive control, and propose a neural synthesis in which dorsolateral and anterior prefrontal cortical subregions interact with interoceptive cortices (cingulate and insula) to promote accurate judgements of performance.</AbstractText></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Fleming</LastName><ForeName>Stephen M</ForeName><Initials>SM</Initials><AffiliationInfo><Affiliation>Center for Neural Science, New York University, 6 Washington Place, Room 809, New York, NY 10003, USA. fleming.sm@gmail.com</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Dolan</LastName><ForeName>Raymond J</ForeName><Initials>RJ</Initials></Author></AuthorList><Language>eng</Language><GrantList CompleteYN="Y"><Grant><GrantID>091593</GrantID><Acronym>WT_</Acronym><Agency>Wellcome Trust</Agency><Country>United Kingdom</Country></Grant><Grant><GrantID>078865/Z/05/Z</GrantID><Acronym>WT_</Acronym><Agency>Wellcome Trust</Agency><Country>United Kingdom</Country></Grant></GrantList><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType><PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType><PublicationType UI="D016454">Review</PublicationType></PublicationTypeList></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>Philos Trans R Soc Lond B Biol Sci</MedlineTA><NlmUniqueID>7503623</NlmUniqueID><ISSNLinking>0962-8436</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D003071" MajorTopicYN="N">Cognition</DescriptorName><QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI="D003657" MajorTopicYN="N">Decision Making</DescriptorName><QualifierName UI="Q000502" MajorTopicYN="N">physiology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D008568" MajorTopicYN="N">Memory</DescriptorName><QualifierName UI="Q000502" MajorTopicYN="N">physiology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI="D009434" MajorTopicYN="N">Neural Pathways</DescriptorName><QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI="D017397" MajorTopicYN="N">Prefrontal Cortex</DescriptorName><QualifierName UI="Q000502" MajorTopicYN="Y">physiology</QualifierName></MeshHeading></MeshHeadingList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="entrez"><Year>2012</Year><Month>4</Month><Day>12</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2012</Year><Month>4</Month><Day>12</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="medline"><Year>2012</Year><Month>9</Month><Day>5</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="pmc-release"><Year>2012</Year><Month>5</Month><Day>19</Day></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">22492751</ArticleId><ArticleId IdType="pmc">PMC3318765</ArticleId><ArticleId IdType="doi">10.1098/rstb.2011.0417</ArticleId><ArticleId IdType="pii">rstb.2011.0417</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Carruthers P. 2011. The opacity of mind: an integrative theory of self-knowledge. New York, NY: Oxford University Press</Citation></Reference><Reference><Citation>Nisbett R. E., Wilson T. D.
+1977. 
+Telling more than we can know: verbal reports on mental processes. Psychol. Rev.
+84, 231. 10.1037/0033-295X.84.3.231 (doi:10.1037/0033-295X.84.3.231)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-295X.84.3.231</ArticleId></ArticleIdList></Reference><Reference><Citation>Wilson T. D., Dunn E. W.
+2004. 
+Self-knowledge: its limits, value, and potential for improvement. Ann. Rev. Psychol.
+55, 493&#x2013;518 10.1146/annurev.psych.55.090902.141954 (doi:10.1146/annurev.psych.55.090902.141954)</Citation><ArticleIdList><ArticleId IdType="doi">10.1146/annurev.psych.55.090902.141954</ArticleId><ArticleId IdType="pubmed">14744224</ArticleId></ArticleIdList></Reference><Reference><Citation>Johansson P., Hall L., Sikstr&#xf6;m S., Olsson A.
+2005. 
+Failure to detect mismatches between intention and outcome in a simple decision task. Science
+310, 116&#x2013;119 10.1126/science.1111709 (doi:10.1126/science.1111709)</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1111709</ArticleId><ArticleId IdType="pubmed">16210542</ArticleId></ArticleIdList></Reference><Reference><Citation>Hall L., Johansson P., T&#xe4;rning B., Sikstr&#xf6;m S., Deutgen T.
+2010. 
+Magic at the marketplace: choice blindness for the taste of jam and the smell of tea. Cognition
+117, 54&#x2013;61 10.1016/j.cognition.2010.06.010 (doi:10.1016/j.cognition.2010.06.010)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cognition.2010.06.010</ArticleId><ArticleId IdType="pubmed">20637455</ArticleId></ArticleIdList></Reference><Reference><Citation>Pronin E.
+2007. 
+Perception and misperception of bias in human judgment. Trends Cogn. Sci.
+11, 37&#x2013;43 10.1016/j.tics.2006.11.001 (doi:10.1016/j.tics.2006.11.001)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tics.2006.11.001</ArticleId><ArticleId IdType="pubmed">17129749</ArticleId></ArticleIdList></Reference><Reference><Citation>Boring E.
+1953. 
+A history of introspection. Psychol. Bull.
+50, 169&#x2013;189 10.1037/h0090793 (doi:10.1037/h0090793)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/h0090793</ArticleId><ArticleId IdType="pubmed">13056096</ArticleId></ArticleIdList></Reference><Reference><Citation>James W. 1950. The principles of psychology, vol. 1 New York, NY: Dover Publications</Citation></Reference><Reference><Citation>Friston K.
+2005. 
+A theory of cortical responses. Phil. Trans. R. Soc. B
+360, 815&#x2013;836 10.1098/rstb.2005.1622 (doi:10.1098/rstb.2005.1622)</Citation><ArticleIdList><ArticleId IdType="doi">10.1098/rstb.2005.1622</ArticleId><ArticleId IdType="pmc">PMC1569488</ArticleId><ArticleId IdType="pubmed">15937014</ArticleId></ArticleIdList></Reference><Reference><Citation>Koechlin E., Hyafil A.
+2007. 
+Anterior prefrontal function and the limits of human decision-making. Science
+318, 594&#x2013;598 10.1126/science.1142995 (doi:10.1126/science.1142995)</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1142995</ArticleId><ArticleId IdType="pubmed">17962551</ArticleId></ArticleIdList></Reference><Reference><Citation>Schmitz T. W., Rowley H. A., Kawahara T. N., Johnson S. C.
+2006. 
+Neural correlates of self-evaluative accuracy after traumatic brain injury. Neuropsychologia
+44, 762&#x2013;773 10.1016/j.neuropsychologia.2005.07.012 (doi:10.1016/j.neuropsychologia.2005.07.012)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuropsychologia.2005.07.012</ArticleId><ArticleId IdType="pubmed">16154166</ArticleId></ArticleIdList></Reference><Reference><Citation>Metcalfe J., Van Snellenberg J. X., DeRosse P., Balsam P., Malhotra A. K.
+2012. 
+Judgments of agency in schizophrenia: an impairment in autonoetic metacognition. Phil. Trans. R. Soc. B
+367, 1391&#x2013;1400 10.1098/rstb.2012.0006 (doi:10.1098/rstb.2012.0006)</Citation><ArticleIdList><ArticleId IdType="doi">10.1098/rstb.2012.0006</ArticleId><ArticleId IdType="pmc">PMC3318770</ArticleId><ArticleId IdType="pubmed">22492755</ArticleId></ArticleIdList></Reference><Reference><Citation>Flavell J.
+1979. 
+Metacognition and cognitive monitoring: a new area of cognitive-developmental inquiry. Am. Psychol.
+34, 906&#x2013;911 10.1037/0003-066X.34.10.906 (doi:10.1037/0003-066X.34.10.906)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0003-066X.34.10.906</ArticleId></ArticleIdList></Reference><Reference><Citation>Ericsson K., Simon H.
+1980. 
+Verbal reports as data. Psychol. Rev.
+87, 215&#x2013;251 10.1037/0033-295X.87.3.215 (doi:10.1037/0033-295X.87.3.215)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-295X.87.3.215</ArticleId></ArticleIdList></Reference><Reference><Citation>Nelson T.
+1984. 
+A comparison of current measures of the accuracy of feeling-of-knowing predictions. Psychol. Bull.
+95, 109&#x2013;133 10.1037/0033-2909.95.1.109 (doi:10.1037/0033-2909.95.1.109)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-2909.95.1.109</ArticleId><ArticleId IdType="pubmed">6544431</ArticleId></ArticleIdList></Reference><Reference><Citation>Shimamura A. P. 2008. A neurocognitive approach to metacognitive monitoring and control. In Handbook of memory and metamemory: essays in honor of Thomas O. Nelson (eds Dunlosky J., Bjork R.), pp. 373&#x2013;390 New York, NY: Psychology Press</Citation></Reference><Reference><Citation>Nelson T. O., Narens L.
+1990. 
+Metamemory: a theoretical framework and new findings. Psychol. Learn. Motivation: Adv. Res. Theory
+26, 125&#x2013;173 10.1016/S0079-7421(08)60053-5 (doi:10.1016/S0079-7421(08)60053-5)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0079-7421(08)60053-5</ArticleId></ArticleIdList></Reference><Reference><Citation>Shallice T., Burgess P.
+1996. 
+The domain of supervisory processes and temporal organization of behaviour. Phil. Trans. R. Soc. B
+351, 1405&#x2013;1411; discussion 1411&#x2013;1412 10.1098/rstb.1996.0124 (doi:10.1098/rstb.1996.0124)</Citation><ArticleIdList><ArticleId IdType="doi">10.1098/rstb.1996.0124</ArticleId><ArticleId IdType="pubmed">8941952</ArticleId></ArticleIdList></Reference><Reference><Citation>Del Cul A., Dehaene S., Reyes P., Bravo E., Slachevsky A.
+2009. 
+Causal role of prefrontal cortex in the threshold for access to consciousness. Brain
+132, 2531. 10.1093/brain/awp111 (doi:10.1093/brain/awp111)</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/brain/awp111</ArticleId><ArticleId IdType="pubmed">19433438</ArticleId></ArticleIdList></Reference><Reference><Citation>Rounis E., Maniscalco B., Rothwell J., Passingham R., Lau H.
+2010. 
+Theta-burst transcranial magnetic stimulation to the prefrontal cortex impairs metacognitive visual awareness. Cogn. Neurosci.
+1, 165&#x2013;175 10.1080/17588921003632529 (doi:10.1080/17588921003632529)</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/17588921003632529</ArticleId><ArticleId IdType="pubmed">24168333</ArticleId></ArticleIdList></Reference><Reference><Citation>Fleming S. M., Weil R. S., Nagy Z., Dolan R. J., Rees G.
+2010. 
+Relating introspective accuracy to individual differences in brain structure. Science
+329, 1541&#x2013;1543 10.1126/science.1191883 (doi:10.1126/science.1191883)</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1191883</ArticleId><ArticleId IdType="pmc">PMC3173849</ArticleId><ArticleId IdType="pubmed">20847276</ArticleId></ArticleIdList></Reference><Reference><Citation>Marti S., Sackur J., Sigman M., Dehaene S.
+2010. 
+Mapping introspection's blind spot: reconstruction of dual-task phenomenology using quantified introspection. Cognition
+115, 303&#x2013;313 10.1016/j.cognition.2010.01.003 (doi:10.1016/j.cognition.2010.01.003)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cognition.2010.01.003</ArticleId><ArticleId IdType="pubmed">20129603</ArticleId></ArticleIdList></Reference><Reference><Citation>Morsella E., Wilson L. E., Berger C. C., Honhongva M., Gazzaley A., Bargh J. A.
+2009. 
+Subjective aspects of cognitive control at different stages of processing. Atten. Percept. Psychophys.
+71, 1807&#x2013;1824 10.3758/APP.71.8.1807 (doi:10.3758/APP.71.8.1807)</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/APP.71.8.1807</ArticleId><ArticleId IdType="pmc">PMC2784665</ArticleId><ArticleId IdType="pubmed">19933564</ArticleId></ArticleIdList></Reference><Reference><Citation>Dienes Z.
+2008. 
+Subjective measures of unconscious knowledge. Prog. Brain Res.
+168, 49&#x2013;64 10.1016/S0079-6123(07)68005-4 (doi:10.1016/S0079-6123(07)68005-4)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0079-6123(07)68005-4</ArticleId><ArticleId IdType="pubmed">18166385</ArticleId></ArticleIdList></Reference><Reference><Citation>Schooler J. W.
+2002. 
+Re-representing consciousness: dissociations between experience and meta-consciousness. Trends Cogn. Sci.
+6, 339&#x2013;344 10.1016/S1364-6613(02)01949-6 (doi:10.1016/S1364-6613(02)01949-6)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S1364-6613(02)01949-6</ArticleId><ArticleId IdType="pubmed">12140084</ArticleId></ArticleIdList></Reference><Reference><Citation>Schwartz B., Bacon E. 2008. Metacognitive neuroscience. In Handbook of memory and metamemory: essays in honor of Thomas O. Nelson (eds Dunlosky J., Bjork R.), pp. 355&#x2013;371 New York, NY: Psychology Press</Citation></Reference><Reference><Citation>Arbuckle T.
+1969. 
+Discrimination of item strength at time of presentation. J. Exp. Psych.
+8, 126&#x2013;131 10.1037/h0027455 (doi:10.1037/h0027455)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/h0027455</ArticleId></ArticleIdList></Reference><Reference><Citation>Hart J.
+1965. 
+Memory and the feeling-of-knowing experience. J. Educ. Psychol.
+56, 208&#x2013;216 10.1037/h0022263 (doi:10.1037/h0022263)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/h0022263</ArticleId><ArticleId IdType="pubmed">5825050</ArticleId></ArticleIdList></Reference><Reference><Citation>Brown A. S.
+1991. 
+A review of the tip-of-the-tongue experience. Psychol. Bull.
+109, 204&#x2013;223 10.1037/0033-2909.109.2.204 (doi:10.1037/0033-2909.109.2.204)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-2909.109.2.204</ArticleId><ArticleId IdType="pubmed">2034750</ArticleId></ArticleIdList></Reference><Reference><Citation>Peirce C. S., Jastrow J. 1885. On small differences in sensation. Memoir. Natl Acad. Sci. 3, 73&#x2013;83</Citation></Reference><Reference><Citation>Vickers D. 1979. Decision processes in visual perception. New York, NY: Academic Press</Citation></Reference><Reference><Citation>Eriksen C. W.
+1960. 
+Discrimination and learning without awareness: a methodological survey and evaluation. Psychol. Rev.
+67, 279&#x2013;300 10.1037/h0041622 (doi:10.1037/h0041622)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/h0041622</ArticleId><ArticleId IdType="pubmed">13697142</ArticleId></ArticleIdList></Reference><Reference><Citation>Kunimoto C.
+2001. 
+Confidence and accuracy of near-threshold discrimination responses. Conscious. Cogn.
+10, 294&#x2013;340 10.1006/ccog.2000.0494 (doi:10.1006/ccog.2000.0494)</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/ccog.2000.0494</ArticleId><ArticleId IdType="pubmed">11697867</ArticleId></ArticleIdList></Reference><Reference><Citation>Persaud N., McLeod P., Cowey A.
+2007. 
+Post-decision wagering objectively measures awareness. Nat. Neurosci.
+10, 257&#x2013;261 10.1038/nn1840 (doi:10.1038/nn1840)</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn1840</ArticleId><ArticleId IdType="pubmed">17237774</ArticleId></ArticleIdList></Reference><Reference><Citation>Hollard G., Massoni S., Vergnaud J. C. 2010. Subjective belief formation and elicitation rules: experimental evidence. Working paper no. 10088, Centre d'Economie, Universit&#xe9; Panth&#xe9;on-Sorbonne, Paris, France</Citation></Reference><Reference><Citation>Becker G. M., DeGroot M. H., Marschak J.
+1964. 
+Measuring utility by a single-response sequential method. Behav. Sci.
+9, 226&#x2013;232 10.1002/bs.3830090304 (doi:10.1002/bs.3830090304)</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/bs.3830090304</ArticleId><ArticleId IdType="pubmed">5888778</ArticleId></ArticleIdList></Reference><Reference><Citation>Dienes Z., Altmann G., Kwan L.
+1995. 
+Unconscious knowledge of artificial grammars is applied strategically. J. Exp. Psychol. Learn. Mem. Cogn.
+21, 1322&#x2013;1338 10.1037/0278-7393.21.5.1322 (doi:10.1037/0278-7393.21.5.1322)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0278-7393.21.5.1322</ArticleId></ArticleIdList></Reference><Reference><Citation>Macmillan N., Creelman C. 2005. Detection theory: a user's guide. New York, NY: Lawrence Erlbaum</Citation></Reference><Reference><Citation>Green D., Swets J. 1966. Signal detection theory and psychophysics. New York, NY: Wiley</Citation></Reference><Reference><Citation>Clarke F., Birdsall T., Tanner W.
+1959. 
+Two types of ROC curves and definition of parameters. J. Acoust. Soc. Am.
+31, 629&#x2013;630 10.1121/1.1907764 (doi:10.1121/1.1907764)</Citation><ArticleIdList><ArticleId IdType="doi">10.1121/1.1907764</ArticleId></ArticleIdList></Reference><Reference><Citation>Galvin S. J., Podd J. V., Drga V., Whitmore J.
+2003. 
+Type 2 tasks in the theory of signal detectability: discrimination between correct and incorrect decisions. Psychol. Bull. Rev.
+10, 843&#x2013;876 10.3758/BF03196546 (doi:10.3758/BF03196546)</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03196546</ArticleId><ArticleId IdType="pubmed">15000533</ArticleId></ArticleIdList></Reference><Reference><Citation>Evans S., Azzopardi P.
+2007. 
+Evaluation of a &#x2018;bias-free&#x2019; measure of awareness. Spatial Vision
+20, 61&#x2013;77 10.1163/156856807779369742 (doi:10.1163/156856807779369742)</Citation><ArticleIdList><ArticleId IdType="doi">10.1163/156856807779369742</ArticleId><ArticleId IdType="pubmed">17357716</ArticleId></ArticleIdList></Reference><Reference><Citation>Fleming S. M., Dolan R. J.
+2010. 
+Effects of loss aversion on post-decision wagering: implications for measures of awareness. Conscious. Cogn.
+19, 352&#x2013;363 10.1016/j.concog.2009.11.002 (doi:10.1016/j.concog.2009.11.002)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.concog.2009.11.002</ArticleId><ArticleId IdType="pmc">PMC2842936</ArticleId><ArticleId IdType="pubmed">20005133</ArticleId></ArticleIdList></Reference><Reference><Citation>Maniscalco B., Lau H. In press A signal detection theoretic approach for estimating metacognitive sensitivity from confidence ratings. Conscious. Cogn.</Citation><ArticleIdList><ArticleId IdType="pubmed">22071269</ArticleId></ArticleIdList></Reference><Reference><Citation>Kersten D., Mamassian P., Yuille A.
+2004. 
+Object perception as Bayesian inference. Ann. Rev. Psychol.
+55, 271&#x2013;304 10.1146/annurev.psych.55.090902.142005 (doi:10.1146/annurev.psych.55.090902.142005)</Citation><ArticleIdList><ArticleId IdType="doi">10.1146/annurev.psych.55.090902.142005</ArticleId><ArticleId IdType="pubmed">14744217</ArticleId></ArticleIdList></Reference><Reference><Citation>Kording K.
+2007. 
+Decision theory: what &#x2018;should&#x2019; the nervous system do?
+Science
+318, 606&#x2013;610 10.1126/science.1142998 (doi:10.1126/science.1142998)</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1142998</ArticleId><ArticleId IdType="pubmed">17962554</ArticleId></ArticleIdList></Reference><Reference><Citation>Barthelm&#xe9; S., Mamassian P.
+2009. 
+Evaluation of objective uncertainty in the visual system. PLoS Comput. Biol.
+5, e1000504 (doi:10.1371/journal.pcbi.1000504</Citation><ArticleIdList><ArticleId IdType="doi">10.1371/journal.pcbi.1000504</ArticleId><ArticleId IdType="pmc">PMC2730538</ArticleId><ArticleId IdType="pubmed">19750003</ArticleId></ArticleIdList></Reference><Reference><Citation>Landy M., Goutcher R., Trommersh&#xe4;user J., Mamassian P.
+2007. 
+Visual estimation under risk. J. Vis.
+7, 4. 10.1167/7.6.4 (doi:10.1167/7.6.4)</Citation><ArticleIdList><ArticleId IdType="doi">10.1167/7.6.4</ArticleId><ArticleId IdType="pmc">PMC2638507</ArticleId><ArticleId IdType="pubmed">17685787</ArticleId></ArticleIdList></Reference><Reference><Citation>Whiteley L., Sahani M.
+2008. 
+Implicit knowledge of visual uncertainty guides decisions with asymmetric outcomes. J. Vis.
+8, 2. 10.1167/8.3.2 (doi:10.1167/8.3.2)</Citation><ArticleIdList><ArticleId IdType="doi">10.1167/8.3.2</ArticleId><ArticleId IdType="pmc">PMC2515365</ArticleId><ArticleId IdType="pubmed">18484808</ArticleId></ArticleIdList></Reference><Reference><Citation>Trommershauser J., Maloney L., Landy M.
+2003. 
+Statistical decision theory and trade-offs in the control of motor response. Spatial Vision
+16, 255&#x2013;275 10.1163/156856803322467527 (doi:10.1163/156856803322467527)</Citation><ArticleIdList><ArticleId IdType="doi">10.1163/156856803322467527</ArticleId><ArticleId IdType="pubmed">12858951</ArticleId></ArticleIdList></Reference><Reference><Citation>Smith J. D., Couchman J. J., Beran M. J.
+2012. 
+The highs and lows of theoretical interpretation in animal-metacognition research. Phil. Trans. R. Soc. B
+367, 1297&#x2013;1309 10.1098/rstb.2011.0366 (doi:10.1098/rstb.2011.0366)</Citation><ArticleIdList><ArticleId IdType="doi">10.1098/rstb.2011.0366</ArticleId><ArticleId IdType="pmc">PMC3318761</ArticleId><ArticleId IdType="pubmed">22492748</ArticleId></ArticleIdList></Reference><Reference><Citation>Kepecs A., Uchida N., Mainen H. A., Zariwala Z. F.
+2008. 
+Neural correlates, computation and behavioural impact of decision confidence. Nature
+455, 227&#x2013;231 10.1038/nature07200 (doi:10.1038/nature07200)</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nature07200</ArticleId><ArticleId IdType="pubmed">18690210</ArticleId></ArticleIdList></Reference><Reference><Citation>Kiani R., Shadlen M.
+2009. 
+Representation of confidence associated with a decision by neurons in the parietal cortex. Science
+324, 759&#x2013;764 10.1126/science.1169405 (doi:10.1126/science.1169405)</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1169405</ArticleId><ArticleId IdType="pmc">PMC2738936</ArticleId><ArticleId IdType="pubmed">19423820</ArticleId></ArticleIdList></Reference><Reference><Citation>Kepecs A., Mainen Z. F.
+2012. 
+A computational framework for the study of confidence in humans and animals.
+Phil. Trans. R. Soc. B
+367, 1322&#x2013;1337 10.1098/rstb.2012.0037 (doi:10.1098/rstb.2012.0037)</Citation><ArticleIdList><ArticleId IdType="doi">10.1098/rstb.2012.0037</ArticleId><ArticleId IdType="pmc">PMC3318772</ArticleId><ArticleId IdType="pubmed">22492750</ArticleId></ArticleIdList></Reference><Reference><Citation>Schwartz B., Metcalfe J. 1996. Methodological problems and pitfalls in the study of human metacognition. In Metacognition: knowing about knowing (eds Metcalfe J., Shimamura A.). Cambridge, MA: MIT Press</Citation></Reference><Reference><Citation>Koriat A.
+1997. 
+Monitoring one's own knowledge during study: a cue-utilization approach to judgments of learning. J. Exp. Psych. Gen.
+126, 349&#x2013;370 10.1037/0096-3445.126.4.349 (doi:10.1037/0096-3445.126.4.349)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0096-3445.126.4.349</ArticleId></ArticleIdList></Reference><Reference><Citation>Koriat A. 2007. Metacognition and consciousness. In The Cambridge handbook of consciousness (eds Zelazo P. D., Moscovitch M., Thompson E.), pp. 289&#x2013;325, Cambridge, UK: Cambridge University Press</Citation></Reference><Reference><Citation>Alter A. L., Oppenheimer D. M.
+2009. 
+Uniting the tribes of fluency to form a metacognitive nation. Personality Soc. Psychol. Rev.
+13, 219&#x2013;235 10.1177/1088868309341564 (doi:10.1177/1088868309341564)</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/1088868309341564</ArticleId><ArticleId IdType="pubmed">19638628</ArticleId></ArticleIdList></Reference><Reference><Citation>Busey T. A., Tunnicliff J., Loftus G. R., Loftus E. F.
+2000. 
+Accounts of the confidence-accuracy relation in recognition memory. Psychol. Bull. Rev.
+7, 26&#x2013;48 10.3758/BF03210724 (doi:10.3758/BF03210724)</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03210724</ArticleId><ArticleId IdType="pubmed">10780019</ArticleId></ArticleIdList></Reference><Reference><Citation>Koriat A.
+1993. 
+How do we know that we know? The accessibility model of the feeling of knowing. Psychol. Rev.
+100, 609&#x2013;639 10.1037/0033-295X.100.4.609 (doi:10.1037/0033-295X.100.4.609)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-295X.100.4.609</ArticleId><ArticleId IdType="pubmed">8255951</ArticleId></ArticleIdList></Reference><Reference><Citation>Baranski J. V., Petrusic W. M.
+1998. 
+Probing the locus of confidence judgments: experiments on the time to determine confidence. J. Exp. Psych. Hum. Percept. Perform.
+24, 929&#x2013;945 10.1037/0096-1523.24.3.929 (doi:10.1037/0096-1523.24.3.929)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0096-1523.24.3.929</ArticleId><ArticleId IdType="pubmed">9627426</ArticleId></ArticleIdList></Reference><Reference><Citation>Clifford C., Arabzadeh E., Harris J.
+2008. 
+Getting technical about awareness. Trends Cogn. Sci.
+12, 54&#x2013;58 10.1016/j.tics.2007.11.009 (doi:10.1016/j.tics.2007.11.009)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tics.2007.11.009</ArticleId><ArticleId IdType="pubmed">18178511</ArticleId></ArticleIdList></Reference><Reference><Citation>Insabato A., Pannunzi M., Rolls E. T., Deco G.
+2010. 
+Confidence-related decision making. J. Neurophys.
+104, 539&#x2013;547 10.1152/jn.01068.2009 (doi:10.1152/jn.01068.2009)</Citation><ArticleIdList><ArticleId IdType="doi">10.1152/jn.01068.2009</ArticleId><ArticleId IdType="pubmed">20393062</ArticleId></ArticleIdList></Reference><Reference><Citation>Rolls E. T., Grabenhorst F., Deco G.
+2010. 
+Choice, difficulty, and confidence in the brain. NeuroImage
+53, 694&#x2013;706 10.1016/j.neuroimage.2010.06.073 (doi:10.1016/j.neuroimage.2010.06.073)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2010.06.073</ArticleId><ArticleId IdType="pubmed">20615471</ArticleId></ArticleIdList></Reference><Reference><Citation>Higham P. A., Perfect T. J., Bruno D.
+2009. 
+Investigating strength and frequency effects in recognition memory using type-2 signal detection theory. J. Exp. Psychol. Learn. Mem. Cogn.
+35, 57&#x2013;80 10.1037/a0013865 (doi:10.1037/a0013865)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0013865</ArticleId><ArticleId IdType="pubmed">19210081</ArticleId></ArticleIdList></Reference><Reference><Citation>Busey T. A., Arici A.
+2009. 
+On the role of individual items in recognition memory and metacognition: challenges for signal detection theory. J. Exp. Psychol. Learn. Mem. Cogn.
+35, 1123&#x2013;1136 10.1037/a0016646 (doi:10.1037/a0016646)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0016646</ArticleId><ArticleId IdType="pubmed">19686009</ArticleId></ArticleIdList></Reference><Reference><Citation>Lau H. C., Passingham R. E.
+2006. 
+Relative blindsight in normal observers and the neural correlate of visual consciousness. Proc. Natl Acad. Sci. USA
+103, 18 763&#x2013;18 768 10.1073/pnas.0607716103 (doi:10.1073/pnas.0607716103)</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.0607716103</ArticleId><ArticleId IdType="pmc">PMC1693736</ArticleId><ArticleId IdType="pubmed">17124173</ArticleId></ArticleIdList></Reference><Reference><Citation>Wilimzig C., Tsuchiya N., Fahle M., Einh&#xe4;user W., Koch C.
+2008. 
+Spatial attention increases performance but not subjective confidence in a discrimination task. J. Vis.
+8, 7.1&#x2013;10 10.1167/8.5.7 (doi:10.1167/8.5.7)</Citation><ArticleIdList><ArticleId IdType="doi">10.1167/8.5.7</ArticleId><ArticleId IdType="pubmed">18842078</ArticleId></ArticleIdList></Reference><Reference><Citation>Izaute M., Bacon E.
+2005. 
+Specific effects of an amnesic drug: effect of lorazepam on study time allocation and on judgment of learning. Neuropsychopharmacology
+30, 196&#x2013;204 10.1038/sj.npp.1300564 (doi:10.1038/sj.npp.1300564)</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/sj.npp.1300564</ArticleId><ArticleId IdType="pubmed">15483562</ArticleId></ArticleIdList></Reference><Reference><Citation>Song C., Kanai R., Fleming S. M., Weil R. S., Schwarzkopf D. S., Rees G.
+2011. 
+Relating inter-individual differences in metacognitive performance on different perceptual tasks. Conscious. Cogn.
+20, 1787&#x2013;1792 10.1016/j.concog.2010.12.011 (doi:10.1016/j.concog.2010.12.011)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.concog.2010.12.011</ArticleId><ArticleId IdType="pmc">PMC3203218</ArticleId><ArticleId IdType="pubmed">21256051</ArticleId></ArticleIdList></Reference><Reference><Citation>Yeung N., Summerfield C.
+2012. 
+Metacognition in human decision-making: confidence and error monitoring. Phil. Trans. R. Soc. B
+367, 1310&#x2013;1321 10.1098/rstb.2011.0416 (doi:10.1098/rstb.2011.0416)</Citation><ArticleIdList><ArticleId IdType="doi">10.1098/rstb.2011.0416</ArticleId><ArticleId IdType="pmc">PMC3318764</ArticleId><ArticleId IdType="pubmed">22492749</ArticleId></ArticleIdList></Reference><Reference><Citation>Pleskac T. J., Busemeyer J. R.
+2010. 
+Two-stage dynamic signal detection: a theory of choice, decision time, and confidence. Psychol. Rev.
+117, 864&#x2013;901 10.1037/a0019737 (doi:10.1037/a0019737)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0019737</ArticleId><ArticleId IdType="pubmed">20658856</ArticleId></ArticleIdList></Reference><Reference><Citation>Ratcliff R., Starns J. J.
+2009. 
+Modeling confidence and response time in recognition memory. Psychol. Rev.
+116, 59&#x2013;83 10.1037/a0014086 (doi:10.1037/a0014086)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0014086</ArticleId><ArticleId IdType="pmc">PMC2693899</ArticleId><ArticleId IdType="pubmed">19159148</ArticleId></ArticleIdList></Reference><Reference><Citation>Maniscalco B., Lau H.
+2009. 
+Evaluating signal detection models of perceptual decision confidence. Front. Syst. Neurosci. Conf. Abstract: Computational and systems neuroscience, 2009. 10.3389/conf.neuro.06.2009.03.335 (doi:10.3389/conf.neuro.06.2009.03.335)</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/conf.neuro.06.2009.03.335</ArticleId></ArticleIdList></Reference><Reference><Citation>Gold J., Shadlen M.
+2007. 
+The neural basis of decision making. Ann. Rev. Neurosci.
+30, 535&#x2013;574 10.1146/annurev.neuro.29.051605.113038 (doi:10.1146/annurev.neuro.29.051605.113038)</Citation><ArticleIdList><ArticleId IdType="doi">10.1146/annurev.neuro.29.051605.113038</ArticleId><ArticleId IdType="pubmed">17600525</ArticleId></ArticleIdList></Reference><Reference><Citation>Middlebrooks P. G., Sommer M. A.
+2011. 
+Metacognition in monkeys during an oculomotor task. J. Exp. Psychol. Learn. Mem. Cogn.
+37, 325&#x2013;337 10.1037/a0021611 (doi:10.1037/a0021611)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0021611</ArticleId><ArticleId IdType="pmc">PMC3649877</ArticleId><ArticleId IdType="pubmed">21171807</ArticleId></ArticleIdList></Reference><Reference><Citation>Kruger J., Dunning D. 1999. Unskilled and unaware of it: how difficulties in recognizing one's own incompetence lead to inflated self-assessments. J. Pers. Soc. Psychol. 77, 1121&#x2013;1134</Citation><ArticleIdList><ArticleId IdType="pubmed">10626367</ArticleId></ArticleIdList></Reference><Reference><Citation>Kao Y. C., Davis E. S., Gabrieli J. D. E.
+2005. 
+Neural correlates of actual and predicted memory formation. Nat. Neurosci.
+8, 1776&#x2013;1783 10.1038/nn1595 (doi:10.1038/nn1595)</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn1595</ArticleId><ArticleId IdType="pubmed">16286927</ArticleId></ArticleIdList></Reference><Reference><Citation>Modirrousta M., Fellows L. K.
+2008. 
+Medial prefrontal cortex plays a critical and selective role in &#x2018;feeling of knowing&#x2019; meta-memory judgments. Neuropsychologia
+46, 2958&#x2013;2965 10.1016/j.neuropsychologia.2008.06.011 (doi:10.1016/j.neuropsychologia.2008.06.011)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuropsychologia.2008.06.011</ArticleId><ArticleId IdType="pubmed">18606176</ArticleId></ArticleIdList></Reference><Reference><Citation>Morgan M., Mason A.
+1997. 
+Blindsight in normal subjects?
+Nature
+385, 401&#x2013;402 10.1038/385401b0 (doi:10.1038/385401b0)</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/385401b0</ArticleId><ArticleId IdType="pubmed">9009187</ArticleId></ArticleIdList></Reference><Reference><Citation>Lau H. 2010. Are we studying consciousness yet? In Frontiers of consciousness: Chichele lectures (eds Weiskrantz L., Davies M.). Oxford, UK: Oxford University Press</Citation></Reference><Reference><Citation>Shimamura A. P.
+2000. 
+Toward a cognitive neuroscience of metacognition. Conscious. Cogn.
+9, 313&#x2013;323 10.1006/ccog.2000.0450 (doi:10.1006/ccog.2000.0450)</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/ccog.2000.0450</ArticleId><ArticleId IdType="pubmed">10924251</ArticleId></ArticleIdList></Reference><Reference><Citation>Hirst W.
+1982. 
+The amnesic syndrome: descriptions and explanations. Psychol. Bull.
+91, 435&#x2013;460 10.1037/0033-2909.91.3.435 (doi:10.1037/0033-2909.91.3.435)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-2909.91.3.435</ArticleId><ArticleId IdType="pubmed">7051076</ArticleId></ArticleIdList></Reference><Reference><Citation>Zahr N., Kaufman K.
+2011. 
+Clinical and pathological features of alcohol-related brain damage. Nat. Rev. Neurol.
+7, 284&#x2013;294 10.1038/nrneurol.2011.42 (doi:10.1038/nrneurol.2011.42)</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrneurol.2011.42</ArticleId><ArticleId IdType="pmc">PMC8121189</ArticleId><ArticleId IdType="pubmed">21487421</ArticleId></ArticleIdList></Reference><Reference><Citation>Shimamura A. P., Squire L. R.
+1986. 
+Memory and metamemory: a study of the feeling-of-knowing phenomenon in amnesic patients. J. Exp. Psychol. Learn. Mem. Cogn.
+12, 452&#x2013;460 10.1037/0278-7393.12.3.452 (doi:10.1037/0278-7393.12.3.452)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0278-7393.12.3.452</ArticleId><ArticleId IdType="pubmed">2942629</ArticleId></ArticleIdList></Reference><Reference><Citation>Janowsky J. S., Shimamura A. P., Kritchevsky M., Squire L. R.
+1989. 
+Cognitive impairment following frontal lobe damage and its relevance to human amnesia. Behav. Neurosci.
+103, 548. 10.1037/0735-7044.103.3.548 (doi:10.1037/0735-7044.103.3.548)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0735-7044.103.3.548</ArticleId><ArticleId IdType="pubmed">2736069</ArticleId></ArticleIdList></Reference><Reference><Citation>Pannu J., Kaszniak A.
+2005. 
+Metamemory experiments in neurological populations: a review. Neuropsychol. Rev.
+15, 105&#x2013;130 10.1007/s11065-005-7091-6 (doi:10.1007/s11065-005-7091-6)</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11065-005-7091-6</ArticleId><ArticleId IdType="pubmed">16328731</ArticleId></ArticleIdList></Reference><Reference><Citation>Schnyer D. M., Verfaellie M., Alexander M. P., LaFleche G., Nicholls L., Kaszniak A. W.
+2004. 
+A role for right medial prefontal cortex in accurate feeling-of-knowing judgements: evidence from patients with lesions to frontal cortex. Neuropsychologia
+42, 957&#x2013;966 10.1016/j.neuropsychologia.2003.11.020 (doi:10.1016/j.neuropsychologia.2003.11.020)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuropsychologia.2003.11.020</ArticleId><ArticleId IdType="pubmed">14998710</ArticleId></ArticleIdList></Reference><Reference><Citation>Pannu J., Kaszniak A., Rapcsak S. 2005. Metamemory for faces following frontal lobe damage. J. Int. Neuropsychol. Soc. 11, 668&#x2013;676</Citation><ArticleIdList><ArticleId IdType="pubmed">16248902</ArticleId></ArticleIdList></Reference><Reference><Citation>Kikyo H., Ohki K., Miyashita Y.
+2002. 
+Neural correlates for feeling-of-knowing. Neuron
+36, 177&#x2013;186 10.1016/S0896-6273(02)00939-X (doi:10.1016/S0896-6273(02)00939-X)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S0896-6273(02)00939-X</ArticleId><ArticleId IdType="pubmed">12367516</ArticleId></ArticleIdList></Reference><Reference><Citation>Chua E. F., Schacter D. L., Rand-Giovannetti E., Sperling R. A.
+2006. 
+Understanding metamemory: neural correlates of the cognitive process and subjective level of confidence in recognition memory. NeuroImage
+29, 1150&#x2013;1160 10.1016/j.neuroimage.2005.09.058 (doi:10.1016/j.neuroimage.2005.09.058)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2005.09.058</ArticleId><ArticleId IdType="pubmed">16303318</ArticleId></ArticleIdList></Reference><Reference><Citation>Chua E. F., Schacter D. L., Sperling R. A.
+2009. 
+Neural correlates of metamemory: a comparison of feeling-of-knowing and retrospective confidence judgments. J. Cogn. Neurosci.
+21, 1751&#x2013;1765 10.1162/jocn.2009.21123 (doi:10.1162/jocn.2009.21123)</Citation><ArticleIdList><ArticleId IdType="doi">10.1162/jocn.2009.21123</ArticleId><ArticleId IdType="pmc">PMC2709699</ArticleId><ArticleId IdType="pubmed">18823230</ArticleId></ArticleIdList></Reference><Reference><Citation>Kim H., Cabeza R.
+2007. 
+Trusting our memories: dissociating the neural correlates of confidence in veridical versus illusory memories. J. Neurosci.
+27, 12190. 10.1523/JNEUROSCI.3408-07.2007 (doi:10.1523/JNEUROSCI.3408-07.2007)</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.3408-07.2007</ArticleId><ArticleId IdType="pmc">PMC6673246</ArticleId><ArticleId IdType="pubmed">17989285</ArticleId></ArticleIdList></Reference><Reference><Citation>Moritz S., Gl&#xe4;scher J., Sommer T., B&#xfc;chel C., Braus D. F.
+2006. 
+Neural correlates of memory confidence. NeuroImage
+33, 1188&#x2013;1193 10.1016/j.neuroimage.2006.08.003 (doi:10.1016/j.neuroimage.2006.08.003)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2006.08.003</ArticleId><ArticleId IdType="pubmed">17029986</ArticleId></ArticleIdList></Reference><Reference><Citation>Schnyer D. M., Nicholls L., Verfaellie M.
+2005. 
+The role of VMPC in metamemorial judgments of content retrievability. J. Cogn. Neurosci.
+17, 832&#x2013;846 10.1162/0898929053747694 (doi:10.1162/0898929053747694)</Citation><ArticleIdList><ArticleId IdType="doi">10.1162/0898929053747694</ArticleId><ArticleId IdType="pmc">PMC1193651</ArticleId><ArticleId IdType="pubmed">15904549</ArticleId></ArticleIdList></Reference><Reference><Citation>Yokoyama O., et al. 
+2010. 
+Right frontopolar cortex activity correlates with reliability of retrospective rating of confidence in short-term recognition memory performance. Neurosci. Res.
+68, 199&#x2013;206 10.1016/j.neures.2010.07.2041 (doi:10.1016/j.neures.2010.07.2041)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neures.2010.07.2041</ArticleId><ArticleId IdType="pubmed">20688112</ArticleId></ArticleIdList></Reference><Reference><Citation>Park H. J., Kim J. J., Lee S. K., Seok J. H., Chun J., Kim D. I., Lee J. D.
+2008. 
+Corpus callosal connection mapping using cortical gray matter parcellation and DT-MRI. Hum. Brain Mapping
+29, 503&#x2013;516 10.1002/hbm.20314 (doi:10.1002/hbm.20314)</Citation><ArticleIdList><ArticleId IdType="doi">10.1002/hbm.20314</ArticleId><ArticleId IdType="pmc">PMC6870924</ArticleId><ArticleId IdType="pubmed">17133394</ArticleId></ArticleIdList></Reference><Reference><Citation>Kanai R., Rees G.
+2011. 
+The structural basis of inter-individual differences in human behaviour and cognition. Nat. Rev. Neurosci.
+12, 231&#x2013;242 10.1038/nrn3000 (doi:10.1038/nrn3000)</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn3000</ArticleId><ArticleId IdType="pubmed">21407245</ArticleId></ArticleIdList></Reference><Reference><Citation>Ramnani N., Owen A. M.
+2004. 
+Anterior prefrontal cortex: insights into function from anatomy and neuroimaging. Nat. Rev. Neurosci.
+5, 184&#x2013;194 10.1038/nrn1343 (doi:10.1038/nrn1343)</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nrn1343</ArticleId><ArticleId IdType="pubmed">14976518</ArticleId></ArticleIdList></Reference><Reference><Citation>Semendeferi K., Teffer K., Buxhoeveden D. P., Park M. S., Bludau S., Amunts K., Travis K., Buckwalter J.
+2011. 
+Spatial organization of neurons in the frontal pole sets humans apart from Great Apes. Cereb. Cortex
+21, 1485&#x2013;1497 10.1093/cercor/bhq191 (doi:10.1093/cercor/bhq191)</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/bhq191</ArticleId><ArticleId IdType="pubmed">21098620</ArticleId></ArticleIdList></Reference><Reference><Citation>Simons J. S., Henson R. N. A., Gilbert S. J., Fletcher P. C.
+2008. 
+Separable forms of reality monitoring supported by anterior prefrontal cortex. J. Cogn. Neurosci.
+20, 447&#x2013;457 10.1162/jocn.2008.20036 (doi:10.1162/jocn.2008.20036)</Citation><ArticleIdList><ArticleId IdType="doi">10.1162/jocn.2008.20036</ArticleId><ArticleId IdType="pmc">PMC2292823</ArticleId><ArticleId IdType="pubmed">18004946</ArticleId></ArticleIdList></Reference><Reference><Citation>Yoshida W., Ishii S.
+2006. 
+Resolution of uncertainty in prefrontal cortex. Neuron
+50, 781&#x2013;789 10.1016/j.neuron.2006.05.006 (doi:10.1016/j.neuron.2006.05.006)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuron.2006.05.006</ArticleId><ArticleId IdType="pubmed">16731515</ArticleId></ArticleIdList></Reference><Reference><Citation>Gilbert S. J., Spengler S., Simons J. S., Frith C. D., Burgess P. W.
+2006. 
+Differential functions of lateral and medial rostral prefrontal cortex (area 10) revealed by brain-behavior associations. Cereb. Cortex
+16, 1783&#x2013;1789 10.1093/cercor/bhj113 (doi:10.1093/cercor/bhj113)</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/bhj113</ArticleId><ArticleId IdType="pubmed">16421331</ArticleId></ArticleIdList></Reference><Reference><Citation>Buda M., Fornito A., Bergstr&#xf6;m Z. M., Simons J. S.
+2011. 
+A specific brain structural basis for individual differences in reality monitoring. J. Neurosci.
+31, 14 308&#x2013;14 313 10.1523/JNEUROSCI.3595-11.2011 (doi:10.1523/JNEUROSCI.3595-11.2011)</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.3595-11.2011</ArticleId><ArticleId IdType="pmc">PMC3190297</ArticleId><ArticleId IdType="pubmed">21976516</ArticleId></ArticleIdList></Reference><Reference><Citation>Curtis C., D'Esposito M.
+2003. 
+Persistent activity in the prefrontal cortex during working memory. Trends Cogn. Sci.
+7, 415&#x2013;423 10.1016/S1364-6613(03)00197-9 (doi:10.1016/S1364-6613(03)00197-9)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/S1364-6613(03)00197-9</ArticleId><ArticleId IdType="pubmed">12963473</ArticleId></ArticleIdList></Reference><Reference><Citation>Sakai K., Rowe J. B., Passingham R. E.
+2002. 
+Active maintenance in prefrontal area 46 creates distractor-resistant memory. Nat. Neurosci.
+5, 479&#x2013;484 10.1038/nn846 (doi:10.1038/nn846)</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn846</ArticleId><ArticleId IdType="pubmed">11953754</ArticleId></ArticleIdList></Reference><Reference><Citation>Scheperjans F., Hermann K., Eickhoff S. B., Amunts K., Schleicher A., Zilles K.
+2008. 
+Observer-independent cytoarchitectonic mapping of the human superior parietal cortex. Cereb. Cortex
+18, 846&#x2013;867 10.1093/cercor/bhm116 (doi:10.1093/cercor/bhm116)</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/bhm116</ArticleId><ArticleId IdType="pubmed">17644831</ArticleId></ArticleIdList></Reference><Reference><Citation>John J. P., Yashavantha B. S., Gado M., Veena R., Jain S., Ravishankar S., Csernansky J. G.
+2007. 
+A proposal for MRI-based parcellation of the frontal pole. Brain Struct. Funct.
+212, 245&#x2013;253 10.1007/s00429-007-0157-x (doi:10.1007/s00429-007-0157-x)</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s00429-007-0157-x</ArticleId><ArticleId IdType="pubmed">17929054</ArticleId></ArticleIdList></Reference><Reference><Citation>Fleming S. M., Huijgen J., Dolan R. J. Submitted Prefrontal mechanisms for awareness of task performance.</Citation></Reference><Reference><Citation>Smith R., Keramatian K., Christoff K.
+2007. 
+Localizing the rostrolateral prefrontal cortex at the individual level. NeuroImage
+36, 1387&#x2013;1396 10.1016/j.neuroimage.2007.04.032 (doi:10.1016/j.neuroimage.2007.04.032)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuroimage.2007.04.032</ArticleId><ArticleId IdType="pubmed">17532648</ArticleId></ArticleIdList></Reference><Reference><Citation>Thompson W. B., Mason S. E.
+1996. 
+Instability of individual differences in the association between confidence judgments and memory performance. Mem. Cogn.
+24, 226&#x2013;234 10.3758/BF03200883 (doi:10.3758/BF03200883)</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03200883</ArticleId><ArticleId IdType="pubmed">8881325</ArticleId></ArticleIdList></Reference><Reference><Citation>Kelemen W. L., Frost P. J., Weaver C. A.
+2000. 
+Individual differences in metacognition: evidence against a general metacognitive ability. Mem. Cogn.
+28, 92&#x2013;107 10.3758/BF03211579 (doi:10.3758/BF03211579)</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03211579</ArticleId><ArticleId IdType="pubmed">10714142</ArticleId></ArticleIdList></Reference><Reference><Citation>Fleck M. S., Daselaar S. M., Dobbins I. G., Cabeza R.
+2006. 
+Role of prefrontal and anterior cingulate regions in decision-making processes shared by memory and nonmemory tasks. Cereb. Cortex
+16, 1623&#x2013;1630 10.1093/cercor/bhj097 (doi:10.1093/cercor/bhj097)</Citation><ArticleIdList><ArticleId IdType="doi">10.1093/cercor/bhj097</ArticleId><ArticleId IdType="pubmed">16400154</ArticleId></ArticleIdList></Reference><Reference><Citation>Sharot T., Riccardi A., Raio C.
+2007. 
+Neural mechanisms mediating optimism bias. Nature
+450, 102&#x2013;105 10.1038/nature06280 (doi:10.1038/nature06280)</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nature06280</ArticleId><ArticleId IdType="pubmed">17960136</ArticleId></ArticleIdList></Reference><Reference><Citation>Hassabis D., Maguire E.
+2007. 
+Deconstructing episodic memory with construction. Trends Cogn. Sci.
+11, 299&#x2013;306 10.1016/j.tics.2007.05.001 (doi:10.1016/j.tics.2007.05.001)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tics.2007.05.001</ArticleId><ArticleId IdType="pubmed">17548229</ArticleId></ArticleIdList></Reference><Reference><Citation>Botvinick M. M., Braver T. S., Barch D. M., Carter C. S., Cohen J. D.
+2001. 
+Conflict monitoring and cognitive control. Psychol. Rev.
+108, 624&#x2013;652 10.1037/0033-295X.108.3.624 (doi:10.1037/0033-295X.108.3.624)</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-295X.108.3.624</ArticleId><ArticleId IdType="pubmed">11488380</ArticleId></ArticleIdList></Reference><Reference><Citation>Ridderinkhof K. R., Ullsperger M., Crone E. A., Nieuwenhuis S.
+2004. 
+The role of the medial frontal cortex in cognitive control. Science
+306, 443&#x2013;447 10.1126/science.1100301 (doi:10.1126/science.1100301)</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1100301</ArticleId><ArticleId IdType="pubmed">15486290</ArticleId></ArticleIdList></Reference><Reference><Citation>Ullsperger M., Harsay H. A., Wessel J. R., Ridderinkhof K. R.
+2010. 
+Conscious perception of errors and its relation to the anterior insula. Brain Struct. Funct.
+214, 629&#x2013;643 10.1007/s00429-010-0261-1 (doi:10.1007/s00429-010-0261-1)</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s00429-010-0261-1</ArticleId><ArticleId IdType="pmc">PMC2886909</ArticleId><ArticleId IdType="pubmed">20512371</ArticleId></ArticleIdList></Reference><Reference><Citation>MacDonald A. W., Cohen J. D., Stenger V. A., Carter C. S.
+2000. 
+Dissociating the role of the dorsolateral prefrontal and anterior cingulate cortex in cognitive control. Science
+288, 1835&#x2013;1838 10.1126/science.288.5472.1835 (doi:10.1126/science.288.5472.1835)</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.288.5472.1835</ArticleId><ArticleId IdType="pubmed">10846167</ArticleId></ArticleIdList></Reference><Reference><Citation>Kerns J. G., Cohen J. D., MacDonald A. W., Cho R. Y., Stenger V. A., Carter C. S.
+2004. 
+Anterior cingulate conflict monitoring and adjustments in control. Science
+303, 1023&#x2013;1026 10.1126/science.1089910 (doi:10.1126/science.1089910)</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1089910</ArticleId><ArticleId IdType="pubmed">14963333</ArticleId></ArticleIdList></Reference><Reference><Citation>Fernandez-Duque D., Baird J. A., Posner M. I.
+2000. 
+Executive attention and metacognitive regulation. Conscious. Cogn.
+9, 288&#x2013;307 10.1006/ccog.2000.0447 (doi:10.1006/ccog.2000.0447)</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/ccog.2000.0447</ArticleId><ArticleId IdType="pubmed">10924249</ArticleId></ArticleIdList></Reference><Reference><Citation>Arango-Mu&#xf1;oz S.
+2010. 
+Two levels of metacognition. Philosophia
+39, 71&#x2013;82 10.1007/s11406-010-9279-0 (doi:10.1007/s11406-010-9279-0)</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11406-010-9279-0</ArticleId></ArticleIdList></Reference><Reference><Citation>Carruthers P.
+2009. 
+How we know our own minds: the relationship between mindreading and metacognition. Behav. Brain Sci.
+32, 121&#x2013;138 10.1017/S0140525X09000545 (doi:10.1017/S0140525X09000545)</Citation><ArticleIdList><ArticleId IdType="doi">10.1017/S0140525X09000545</ArticleId><ArticleId IdType="pubmed">19386144</ArticleId></ArticleIdList></Reference><Reference><Citation>Proust J.
+2007. 
+Metacognition and metarepresentation: is a self-directed theory of mind a precondition for metacognition?
+Syntheses
+159, 271&#x2013;295 10.1007/s11229-007-9208-3 (doi:10.1007/s11229-007-9208-3)</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s11229-007-9208-3</ArticleId></ArticleIdList></Reference><Reference><Citation>Evans J.
+2008. 
+Dual-processing accounts of reasoning, judgment, and social cognition. Annu. Rev. Psychol.
+59, 255&#x2013;278 10.1146/annurev.psych.59.103006.093629 (doi:10.1146/annurev.psych.59.103006.093629)</Citation><ArticleIdList><ArticleId IdType="doi">10.1146/annurev.psych.59.103006.093629</ArticleId><ArticleId IdType="pubmed">18154502</ArticleId></ArticleIdList></Reference><Reference><Citation>Shea N., Heyes C.
+2010. 
+Metamemory as evidence of animal consciousness: the type that does the trick. Biol. Philos.
+25, 95&#x2013;110 10.1007/s10539-009-9171-0 (doi:10.1007/s10539-009-9171-0)</Citation><ArticleIdList><ArticleId IdType="doi">10.1007/s10539-009-9171-0</ArticleId><ArticleId IdType="pmc">PMC2837231</ArticleId><ArticleId IdType="pubmed">20234826</ArticleId></ArticleIdList></Reference><Reference><Citation>Logan G. D., Crump M. J. C.
+2010. 
+Cognitive illusions of authorship reveal hierarchical error detection in skilled typists. Science
+330, 683&#x2013;686 10.1126/science.1190483 (doi:10.1126/science.1190483)</Citation><ArticleIdList><ArticleId IdType="doi">10.1126/science.1190483</ArticleId><ArticleId IdType="pubmed">21030660</ArticleId></ArticleIdList></Reference><Reference><Citation>Wenke D., Fleming S. M., Haggard P.
+2010. 
+Subliminal priming of actions influences sense of control over effects of action. Cognition
+115, 26&#x2013;38 10.1016/j.cognition.2009.10.016 (doi:10.1016/j.cognition.2009.10.016)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.cognition.2009.10.016</ArticleId><ArticleId IdType="pubmed">19945697</ArticleId></ArticleIdList></Reference><Reference><Citation>Medalla M., Barbas H.
+2010. 
+Anterior cingulate synapses in prefrontal areas 10 and 46 suggest differential influence in cognitive control. J. Neurosci.
+30, 16 068&#x2013;16 081 10.1523/JNEUROSCI.1773-10.2010 (doi:10.1523/JNEUROSCI.1773-10.2010)</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.1773-10.2010</ArticleId><ArticleId IdType="pmc">PMC3064955</ArticleId><ArticleId IdType="pubmed">21123554</ArticleId></ArticleIdList></Reference><Reference><Citation>Naccache L., Dehaene S., Cohen L., Habert M.-O., Guichart-Gomez E., Galanaud D., Willer J.-C.
+2005. 
+Effortless control: executive attention and conscious feeling of mental effort are dissociable. Neuropsychologia
+43, 1318&#x2013;1328 10.1016/j.neuropsychologia.2004.11.024 (doi:10.1016/j.neuropsychologia.2004.11.024)</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuropsychologia.2004.11.024</ArticleId><ArticleId IdType="pubmed">15949516</ArticleId></ArticleIdList></Reference><Reference><Citation>McGuire J. T., Botvinick M. M.
+2010. 
+Prefrontal cortex, cognitive control, and the registration of decision costs. Proc. Natl Acad. Sci. USA
+107, 7922&#x2013;7926 10.1073/pnas.0910662107 (doi:10.1073/pnas.0910662107)</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.0910662107</ArticleId><ArticleId IdType="pmc">PMC2867898</ArticleId><ArticleId IdType="pubmed">20385798</ArticleId></ArticleIdList></Reference><Reference><Citation>Nieuwenhuis S., Ridderinkhof K. R., Blom J., Band G. P. H., Kok A.
+2001. 
+Error-related brain potentials are differentially related to awareness of response errors: evidence from an antisaccade task. Psychophysiology
+38, 752&#x2013;760 10.1111/1469-8986.3850752 (doi:10.1111/1469-8986.3850752)</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/1469-8986.3850752</ArticleId><ArticleId IdType="pubmed">11577898</ArticleId></ArticleIdList></Reference><Reference><Citation>Freedman D. J., Assad J. A.
+2011. 
+A proposed common neural mechanism for categorization and perceptual decisions. Nat. Neurosci.
+14, 143&#x2013;146 10.1038/nn.2740 (doi:10.1038/nn.2740)</Citation><ArticleIdList><ArticleId IdType="doi">10.1038/nn.2740</ArticleId><ArticleId IdType="pubmed">21270782</ArticleId></ArticleIdList></Reference><Reference><Citation>Heekeren H., Marrett S., Ruff D., Bandettini P., Ungerleider L.
+2006. 
+Involvement of human left dorsolateral prefrontal cortex in perceptual decision making is independent of response modality. Proc. Natl Acad. Sci. USA
+103, 10 023&#x2013;10 028 10.1073/pnas.0603949103 (doi:10.1073/pnas.0603949103)</Citation><ArticleIdList><ArticleId IdType="doi">10.1073/pnas.0603949103</ArticleId><ArticleId IdType="pmc">PMC1479865</ArticleId><ArticleId IdType="pubmed">16785427</ArticleId></ArticleIdList></Reference><Reference><Citation>Ho T. C., Brown S., Serences J. T.
+2009. 
+Domain general mechanisms of perceptual decision making in human cortex. J. Neurosci.
+29, 8675&#x2013;8687 10.1523/JNEUROSCI.5984-08.2009 (doi:10.1523/JNEUROSCI.5984-08.2009)</Citation><ArticleIdList><ArticleId IdType="doi">10.1523/JNEUROSCI.5984-08.2009</ArticleId><ArticleId IdType="pmc">PMC2719543</ArticleId><ArticleId IdType="pubmed">19587274</ArticleId></ArticleIdList></Reference><Reference><Citation>David A. S., Bedford N., Wiffen B., Gilleen J.
+2012. 
+Failures of metacognition and lack of insight in neuropsychiatric disorders. Phil. Trans. R. Soc. B
+367, 1379&#x2013;1390 10.1098/rstb.2012.0002 (doi:10.1098/rstb.2012.0002)</Citation><ArticleIdList><ArticleId IdType="doi">10.1098/rstb.2012.0002</ArticleId><ArticleId IdType="pmc">PMC3318769</ArticleId><ArticleId IdType="pubmed">22492754</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>

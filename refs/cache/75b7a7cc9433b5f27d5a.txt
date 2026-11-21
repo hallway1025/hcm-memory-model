@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["25570532"],"translationset":[],"querytranslation":"\"10 1109 embc 2014 6944164\"[Publisher ID]"}}

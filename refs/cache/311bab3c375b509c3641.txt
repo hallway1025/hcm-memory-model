@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/l2mFRlEvFUaRi2z3J+Vvz1La2uk</id>
+  <title>arXiv Query: search_query=all:temporal AND all:context AND all:model&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-11-07T11:33:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:temporal+AND+(all:context+AND+all:model)&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>5894</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1912.03612v1</id>
+    <title>Learning Sparse 2D Temporal Adjacent Networks for Temporal Action Localization</title>
+    <updated>2019-12-08T04:16:28Z</updated>
+    <link href="https://arxiv.org/abs/1912.03612v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.03612v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this report, we introduce the Winner method for HACS Temporal Action Localization Challenge 2019. Temporal action localization is challenging since a target proposal may be related to several other candidate proposals in an untrimmed video. Existing methods cannot tackle this challenge well since temporal proposals are considered individually and their temporal dependencies are neglected. To address this issue, we propose sparse 2D temporal adjacent networks to model the temporal relationship between candidate proposals. This method is built upon the recent proposed 2D-TAN approach. The sampling strategy in 2D-TAN introduces the unbalanced context problem, where short proposals can perceive more context than long proposals. Therefore, we further propose a Sparse 2D Temporal Adjacent Network (S-2D-TAN). It is capable of involving more context information for long proposals and further learning discriminative features from them. By combining our S-2D-TAN with a simple action classifier, our method achieves a mAP of 23.49 on the test set, which win the first place in the HACS challenge.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-08T04:16:28Z</published>
+    <arxiv:comment>This is our winner solution for the HACS Temporal Action Localization Challenge at ICCV 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Songyang Zhang</name>
+    </author>
+    <author>
+      <name>Houwen Peng</name>
+    </author>
+    <author>
+      <name>Le Yang</name>
+    </author>
+    <author>
+      <name>Jianlong Fu</name>
+    </author>
+    <author>
+      <name>Jiebo Luo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.17929v1</id>
+    <title>ASTER: Adaptive Spatio-Temporal Early Decision Model for Dynamic Resource Allocation</title>
+    <updated>2025-06-22T07:49:37Z</updated>
+    <link href="https://arxiv.org/abs/2506.17929v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.17929v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Supporting decision-making has long been a central vision in the field of spatio-temporal intelligence. While prior work has improved the timeliness and accuracy of spatio-temporal forecasting, converting these forecasts into actionable strategies remains a key challenge. A main limitation is the decoupling of the prediction and the downstream decision phases, which can significantly degrade the downstream efficiency. For example, in emergency response, the priority is successful resource allocation and intervention, not just incident prediction. To this end, it is essential to propose an Adaptive Spatio-Temporal Early Decision model (ASTER) that reforms the forecasting paradigm from event anticipation to actionable decision support. This framework ensures that information is directly used for decision-making, thereby maximizing overall effectiveness. Specifically, ASTER introduces a new Resource-aware Spatio-Temporal interaction module (RaST) that adaptively captures long- and short-term dependencies under dynamic resource conditions, producing context-aware spatiotemporal representations. To directly generate actionable decisions, we further design a Preference-oriented decision agent (Poda) based on multi-objective reinforcement learning, which transforms predictive signals into resource-efficient intervention strategies by deriving optimal actions under specific preferences and dynamic constraints. Experimental results on four benchmark datasets demonstrate the state-of-the-art performance of ASTER in improving both early prediction accuracy and resource allocation outcomes across six downstream metrics.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-22T07:49:37Z</published>
+    <arxiv:comment>ASTER: Adaptive Spatio-Temporal Early Decision Model for Dynamic Resource Allocation</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shulun Chen</name>
+    </author>
+    <author>
+      <name>Wei Shao</name>
+    </author>
+    <author>
+      <name>Flora D. Salim</name>
+    </author>
+    <author>
+      <name>Hao Xue</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.07791v2</id>
+    <title>A Simple But Powerful Graph Encoder for Temporal Knowledge Graph Completion</title>
+    <updated>2022-12-13T13:16:34Z</updated>
+    <link href="https://arxiv.org/abs/2112.07791v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.07791v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge graphs contain rich knowledge about various entities and the relational information among them, while temporal knowledge graphs (TKGs) describe and model the interactions of the entities over time. In this context, automatic temporal knowledge graph completion (TKGC) has gained great interest. Recent TKGC methods integrate advanced deep learning techniques, e.g., Transformers, and achieve superior model performance. However, this also introduces a large number of excessive parameters, which brings a heavier burden for parameter optimization. In this paper, we propose a simple but powerful graph encoder for TKGC, called TARGCN. TARGCN is parameter-efficient, and it extensively explores every entity's temporal context for learning contextualized representations. We find that instead of adopting various kinds of complex modules, it is more beneficial to efficiently capture the temporal contexts of entities. We experiment TARGCN on three benchmark datasets. Our model can achieve a more than 46% relative improvement on the GDELT dataset compared with state-of-the-art TKGC models. Meanwhile, it outperforms the strongest baseline on the ICEWS05-15 dataset with around 18% fewer parameters.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-14T23:30:42Z</published>
+    <arxiv:comment>NeurIPS 2022 Temporal Graph Learning Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zifeng Ding</name>
+    </author>
+    <author>
+      <name>Yunpu Ma</name>
+    </author>
+    <author>
+      <name>Bailan He</name>
+    </author>
+    <author>
+      <name>Volker Tresp</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.00741v1</id>
+    <title>Déjà vu: A Contextualized Temporal Attention Mechanism for Sequential Recommendation</title>
+    <updated>2020-01-29T20:27:42Z</updated>
+    <link href="https://arxiv.org/abs/2002.00741v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.00741v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Predicting users' preferences based on their sequential behaviors in history is challenging and crucial for modern recommender systems. Most existing sequential recommendation algorithms focus on transitional structure among the sequential actions, but largely ignore the temporal and context information, when modeling the influence of a historical event to current prediction.
+  In this paper, we argue that the influence from the past events on a user's current action should vary over the course of time and under different context. Thus, we propose a Contextualized Temporal Attention Mechanism that learns to weigh historical actions' influence on not only what action it is, but also when and how the action took place. More specifically, to dynamically calibrate the relative input dependence from the self-attention mechanism, we deploy multiple parameterized kernel functions to learn various temporal dynamics, and then use the context information to determine which of these reweighing kernels to follow for each input. In empirical evaluations on two large public recommendation datasets, our model consistently outperformed an extensive set of state-of-the-art sequential recommendation methods.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-29T20:27:42Z</published>
+    <arxiv:comment>Key Words: Sequential Recommendation, Self-attention mechanism, Temporal Recommendation</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Jibang Wu</name>
+    </author>
+    <author>
+      <name>Renqin Cai</name>
+    </author>
+    <author>
+      <name>Hongning Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.04802v3</id>
+    <title>CPMR: Context-Aware Incremental Sequential Recommendation with Pseudo-Multi-Task Learning</title>
+    <updated>2023-09-16T08:52:00Z</updated>
+    <link href="https://arxiv.org/abs/2309.04802v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.04802v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The motivations of users to make interactions can be divided into static preference and dynamic interest. To accurately model user representations over time, recent studies in sequential recommendation utilize information propagation and evolution to mine from batches of arriving interactions. However, they ignore the fact that people are easily influenced by the recent actions of other users in the contextual scenario, and applying evolution across all historical interactions dilutes the importance of recent ones, thus failing to model the evolution of dynamic interest accurately. To address this issue, we propose a Context-Aware Pseudo-Multi-Task Recommender System (CPMR) to model the evolution in both historical and contextual scenarios by creating three representations for each user and item under different dynamics: static embedding, historical temporal states, and contextual temporal states. To dually improve the performance of temporal states evolution and incremental recommendation, we design a Pseudo-Multi-Task Learning (PMTL) paradigm by stacking the incremental single-target recommendations into one multi-target task for joint optimization. Within the PMTL paradigm, CPMR employs a shared-bottom network to conduct the evolution of temporal states across historical and contextual scenarios, as well as the fusion of them at the user-item level. In addition, CPMR incorporates one real tower for incremental predictions, and two pseudo towers dedicated to updating the respective temporal states based on new batches of interactions. Experimental results on four benchmark recommendation datasets show that CPMR consistently outperforms state-of-the-art baselines and achieves significant gains on three of them. The code is available at: https://github.com/DiMarzioBian/CPMR.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-09T14:07:11Z</published>
+    <arxiv:comment>Accepted by CIKM 2023. Alias: "Modeling Context-Aware Temporal Dynamics via Pseudo-Multi-Task Learning"</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <arxiv:journal_ref>ACM International Conference on Information and Knowledge Management(CIKM '23), October 21-25,2023,Birmingham,United Kingdom</arxiv:journal_ref>
+    <author>
+      <name>Qingtian Bian</name>
+    </author>
+    <author>
+      <name>Jiaxing Xu</name>
+    </author>
+    <author>
+      <name>Hui Fang</name>
+    </author>
+    <author>
+      <name>Yiping Ke</name>
+    </author>
+    <arxiv:doi>10.1145/3583780.3615512</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3583780.3615512" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.3532v1</id>
+    <title>Temporal networks of face-to-face human interactions</title>
+    <updated>2013-05-15T16:18:24Z</updated>
+    <link href="https://arxiv.org/abs/1305.3532v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.3532v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ever increasing adoption of mobile technologies and ubiquitous services allows to sense human behavior at unprecedented levels of details and scale. Wearable sensors are opening up a new window on human mobility and proximity at the finest resolution of face-to-face proximity. As a consequence, empirical data describing social and behavioral networks are acquiring a longitudinal dimension that brings forth new challenges for analysis and modeling. Here we review recent work on the representation and analysis of temporal networks of face-to-face human proximity, based on large-scale datasets collected in the context of the SocioPatterns collaboration. We show that the raw behavioral data can be studied at various levels of coarse-graining, which turn out to be complementary to one another, with each level exposing different features of the underlying system. We briefly review a generative model of temporal contact networks that reproduces some statistical observables. Then, we shift our focus from surface statistical features to dynamical processes on empirical temporal networks. We discuss how simple dynamical processes can be used as probes to expose important features of the interaction patterns, such as burstiness and causal constraints. We show that simulating dynamical processes on empirical temporal networks can unveil differences between datasets that would otherwise look statistically similar. Moreover, we argue that, due to the temporal heterogeneity of human dynamics, in order to investigate the temporal properties of spreading processes it may be necessary to abandon the notion of wall-clock time in favour of an intrinsic notion of time for each individual node, defined in terms of its activity level. We conclude highlighting several open research questions raised by the nature of the data at hand.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-15T16:18:24Z</published>
+    <arxiv:comment>Chapter of the book "Temporal Networks", Springer, 2013. Series: Understanding Complex Systems. Holme, Petter; Saramäki, Jari (Eds.)</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Alain Barrat</name>
+    </author>
+    <author>
+      <name>Ciro Cattuto</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-642-36461-7_10</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-642-36461-7_10" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.13372v1</id>
+    <title>Affective Processes: stochastic modelling of temporal context for emotion and facial expression recognition</title>
+    <updated>2021-03-24T17:48:19Z</updated>
+    <link href="https://arxiv.org/abs/2103.13372v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.13372v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temporal context is key to the recognition of expressions of emotion. Existing methods, that rely on recurrent or self-attention models to enforce temporal consistency, work on the feature level, ignoring the task-specific temporal dependencies, and fail to model context uncertainty. To alleviate these issues, we build upon the framework of Neural Processes to propose a method for apparent emotion recognition with three key novel components: (a) probabilistic contextual representation with a global latent variable model; (b) temporal context modelling using task-specific predictions in addition to features; and (c) smart temporal context selection. We validate our approach on four databases, two for Valence and Arousal estimation (SEWA and AffWild2), and two for Action Unit intensity estimation (DISFA and BP4D). Results show a consistent improvement over a series of strong baselines as well as over state-of-the-art methods.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-24T17:48:19Z</published>
+    <arxiv:comment>Accepted at CVPR 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Enrique Sanchez</name>
+    </author>
+    <author>
+      <name>Mani Kumar Tellamekala</name>
+    </author>
+    <author>
+      <name>Michel Valstar</name>
+    </author>
+    <author>
+      <name>Georgios Tzimiropoulos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.09561v2</id>
+    <title>Learning Long-Context Diffusion Policies via Past-Token Prediction</title>
+    <updated>2025-05-19T20:37:41Z</updated>
+    <link href="https://arxiv.org/abs/2505.09561v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.09561v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning over long sequences of observations and actions is essential for many robotic tasks. Yet, learning effective long-context policies from demonstrations remains challenging. As context length increases, training becomes increasingly expensive due to rising memory demands, and policy performance often degrades as a result of spurious correlations. Recent methods typically sidestep these issues by truncating context length, discarding historical information that may be critical for subsequent decisions. In this paper, we propose an alternative approach that explicitly regularizes the retention of past information. We first revisit the copycat problem in imitation learning and identify an opposite challenge in recent diffusion policies: rather than over-relying on prior actions, they often fail to capture essential dependencies between past and future actions. To address this, we introduce Past-Token Prediction (PTP), an auxiliary task in which the policy learns to predict past action tokens alongside future ones. This regularization significantly improves temporal modeling in the policy head, with minimal reliance on visual representations. Building on this observation, we further introduce a multistage training strategy: pre-train the visual encoder with short contexts, and fine-tune the policy head using cached long-context embeddings. This strategy preserves the benefits of PTP while greatly reducing memory and computational overhead. Finally, we extend PTP into a self-verification mechanism at test time, enabling the policy to score and select candidates consistent with past actions during inference. Experiments across four real-world and six simulated tasks demonstrate that our proposed method improves the performance of long-context diffusion policies by 3x and accelerates policy training by more than 10x.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-14T17:00:47Z</published>
+    <arxiv:comment>Videos are available at https://long-context-dp.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Marcel Torne</name>
+    </author>
+    <author>
+      <name>Andy Tang</name>
+    </author>
+    <author>
+      <name>Yuejiang Liu</name>
+    </author>
+    <author>
+      <name>Chelsea Finn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.08978v3</id>
+    <title>Modeling Online Behavior in Recommender Systems: The Importance of Temporal Context</title>
+    <updated>2021-09-05T16:06:40Z</updated>
+    <link href="https://arxiv.org/abs/2009.08978v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.08978v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recommender systems research tends to evaluate model performance offline and on randomly sampled targets, yet the same systems are later used to predict user behavior sequentially from a fixed point in time. Simulating online recommender system performance is notoriously difficult and the discrepancy between online and offline behaviors is typically not accounted for in offline evaluations. This disparity permits weaknesses to go unnoticed until the model is deployed in a production setting. In this paper, we first demonstrate how omitting temporal context when evaluating recommender system performance leads to false confidence. To overcome this, we postulate that offline evaluation protocols can only model real-life use-cases if they account for temporal context. Next, we propose a training procedure to further embed the temporal context in existing models. We use a multi-objective approach to introduce temporal context into traditionally time-unaware recommender systems and confirm its advantage via the proposed evaluation protocol. Finally, we validate that the Pareto Fronts obtained with the added objective dominate those produced by state-of-the-art models that are only optimized for accuracy on three real-world publicly available datasets. The results show that including our temporal objective can improve recall@20 by up to 20%.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-19T19:36:43Z</published>
+    <arxiv:comment>11 pages, 3 figures, 2 tables, accepted at RecSys 2021 - Workshop on Perspectives on the Evaluation of Recommender Systems (PERSPECTIVES)</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Milena Filipovic</name>
+    </author>
+    <author>
+      <name>Blagoj Mitrevski</name>
+    </author>
+    <author>
+      <name>Diego Antognini</name>
+    </author>
+    <author>
+      <name>Emma Lejal Glaude</name>
+    </author>
+    <author>
+      <name>Boi Faltings</name>
+    </author>
+    <author>
+      <name>Claudiu Musat</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.10443v1</id>
+    <title>Multimodal Long Video Modeling Based on Temporal Dynamic Context</title>
+    <updated>2025-04-14T17:34:06Z</updated>
+    <link href="https://arxiv.org/abs/2504.10443v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.10443v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in Large Language Models (LLMs) have led to significant breakthroughs in video understanding. However, existing models still struggle with long video processing due to the context length constraint of LLMs and the vast amount of information within the video. Although some recent methods are designed for long video understanding, they often lose crucial information during token compression and struggle with additional modality like audio. In this work, we propose a dynamic long video encoding method utilizing the temporal relationship between frames, named Temporal Dynamic Context (TDC). Firstly, we segment the video into semantically consistent scenes based on inter-frame similarities, then encode each frame into tokens using visual-audio encoders. Secondly, we propose a novel temporal context compressor to reduce the number of tokens within each segment. Specifically, we employ a query-based Transformer to aggregate video, audio, and instruction text tokens into a limited set of temporal context tokens. Finally, we feed the static frame tokens and the temporal context tokens into the LLM for video understanding. Furthermore, to handle extremely long videos, we propose a training-free chain-of-thought strategy that progressively extracts answers from multiple video segments. These intermediate answers serve as part of the reasoning process and contribute to the final answer. We conduct extensive experiments on general video understanding and audio-video understanding benchmarks, where our method demonstrates strong performance. The code and models are available at https://github.com/Hoar012/TDC-Video.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-14T17:34:06Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haoran Hao</name>
+    </author>
+    <author>
+      <name>Jiaming Han</name>
+    </author>
+    <author>
+      <name>Yiyuan Zhang</name>
+    </author>
+    <author>
+      <name>Xiangyu Yue</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.16911v1</id>
+    <title>Evaluating the Influence of Temporal Context on Automatic Mouse Sleep Staging through the Application of Human Models</title>
+    <updated>2024-06-06T10:07:19Z</updated>
+    <link href="https://arxiv.org/abs/2406.16911v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.16911v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In human sleep staging models, augmenting the temporal context of the input to the range of tens of minutes has recently demonstrated performance improvement. In contrast, the temporal context of mouse sleep staging models is typically in the order of tens of seconds. While long-term time patterns are less clear in mouse sleep, increasing the temporal context further than that of the current mouse sleep staging models might still result in a performance increase, given that the current methods only model very short term patterns. In this study, we examine the influence of increasing the temporal context in mouse sleep staging up to 15 minutes in three mouse cohorts using two recent and high-performing human sleep staging models that account for long-term dependencies. These are compared to two prominent mouse sleep staging models that use a local context of 12 s and 20 s, respectively. An increase in context up to 28 s is observed to have a positive impact on sleep stage classification performance, especially in REM sleep. However, the impact is limited for longer context windows. One of the human sleep scoring models, L-SeqSleepNet, outperforms both mouse models in all cohorts. This suggests that mouse sleep staging can benefit from more temporal context than currently used.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-06T10:07:19Z</published>
+    <arxiv:comment>Accepted for publication in the 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (2024)</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Javier García Ciudad</name>
+    </author>
+    <author>
+      <name>Morten Mørup</name>
+    </author>
+    <author>
+      <name>Birgitte Rahbek Kornum</name>
+    </author>
+    <author>
+      <name>Alexander Neergaard Zahid</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.22575v1</id>
+    <title>Temporal Context Reinstatement Drives Episodic-Like Order Memory in Long-Context Language Models</title>
+    <updated>2026-06-05T14:19:10Z</updated>
+    <link href="https://arxiv.org/abs/2607.22575v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.22575v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human episodic memory supports the retrieval of experiences that unfold over extended timescales, yet the computational mechanisms underlying this ability remain debated due to the limited mechanistic accessibility in long-term memory experiments in humans. Long-context LLMs may offer promising ways to reveal plausible computational mechanisms that drive this type of retrieval. Here, we investigate whether and how LLMs capture the core behavioral signatures of episodic memory via a temporal order memory task. Using a new dataset of human behavior based on memory of a full-length novel, we show that models exhibit the same characteristic distance effect observed in humans on this task. We next apply long-context mechanistic interpretability analyses to uncover how models solve this task, and find that model performance relies on a one-dimensional temporal code that is reinstated during retrieval by a single time-reinstatement attention head. These findings support temporal context reinstatement as an important mechanism for episodic-like temporal-order memory in LLMs, offering new insights into how temporal aspects of long-term episodic memory may be instantiated in both artificial and biological systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-05T14:19:10Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mathis Pink</name>
+    </author>
+    <author>
+      <name>Vy Ai Vo</name>
+    </author>
+    <author>
+      <name>Qinyuan Wu</name>
+    </author>
+    <author>
+      <name>Jianing Mu</name>
+    </author>
+    <author>
+      <name>Javier Turek</name>
+    </author>
+    <author>
+      <name>Uri Hasson</name>
+    </author>
+    <author>
+      <name>Kenneth A. Norman</name>
+    </author>
+    <author>
+      <name>Sebastian Michelmann</name>
+    </author>
+    <author>
+      <name>Alexander Huth</name>
+    </author>
+    <author>
+      <name>Mariya Toneva</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.11358v2</id>
+    <title>How Much Temporal Long-Term Context is Needed for Action Segmentation?</title>
+    <updated>2023-09-25T14:58:59Z</updated>
+    <link href="https://arxiv.org/abs/2308.11358v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.11358v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modeling long-term context in videos is crucial for many fine-grained tasks including temporal action segmentation. An interesting question that is still open is how much long-term temporal context is needed for optimal performance. While transformers can model the long-term context of a video, this becomes computationally prohibitive for long videos. Recent works on temporal action segmentation thus combine temporal convolutional networks with self-attentions that are computed only for a local temporal window. While these approaches show good results, their performance is limited by their inability to capture the full context of a video. In this work, we try to answer how much long-term temporal context is required for temporal action segmentation by introducing a transformer-based model that leverages sparse attention to capture the full context of a video. We compare our model with the current state of the art on three datasets for temporal action segmentation, namely 50Salads, Breakfast, and Assembly101. Our experiments show that modeling the full context of a video is necessary to obtain the best performance for temporal action segmentation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-22T11:20:40Z</published>
+    <arxiv:comment>ICCV 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Emad Bahrami</name>
+    </author>
+    <author>
+      <name>Gianpiero Francesca</name>
+    </author>
+    <author>
+      <name>Juergen Gall</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.06179v1</id>
+    <title>Exploiting Feature Diversity for Make-up Temporal Video Grounding</title>
+    <updated>2022-08-12T09:03:25Z</updated>
+    <link href="https://arxiv.org/abs/2208.06179v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.06179v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This technical report presents the 3rd winning solution for MTVG, a new task introduced in the 4-th Person in Context (PIC) Challenge at ACM MM 2022. MTVG aims at localizing the temporal boundary of the step in an untrimmed video based on a textual description. The biggest challenge of this task is the fi ne-grained video-text semantics of make-up steps. However, current methods mainly extract video features using action-based pre-trained models. As actions are more coarse-grained than make-up steps, action-based features are not sufficient to provide fi ne-grained cues. To address this issue,we propose to achieve fi ne-grained representation via exploiting feature diversities. Specifically, we proposed a series of methods from feature extraction, network optimization, to model ensemble. As a result, we achieved 3rd place in the MTVG competition.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-12T09:03:25Z</published>
+    <arxiv:comment>3st Place in PIC Makeup Temporal Video Grounding (MTVG) Challenge in ACM-MM 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiujun Shu</name>
+    </author>
+    <author>
+      <name>Wei Wen</name>
+    </author>
+    <author>
+      <name>Taian Guo</name>
+    </author>
+    <author>
+      <name>Sunan He</name>
+    </author>
+    <author>
+      <name>Chen Wu</name>
+    </author>
+    <author>
+      <name>Ruizhi Qiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.07921v1</id>
+    <title>Spatio-Temporal Context Modeling for Road Obstacle Detection</title>
+    <updated>2023-01-19T07:06:35Z</updated>
+    <link href="https://arxiv.org/abs/2301.07921v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.07921v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Road obstacle detection is an important problem for vehicle driving safety. In this paper, we aim to obtain robust road obstacle detection based on spatio-temporal context modeling. Firstly, a data-driven spatial context model of the driving scene is constructed with the layouts of the training data. Then, obstacles in the input image are detected via the state-of-the-art object detection algorithms, and the results are combined with the generated scene layout. In addition, to further improve the performance and robustness, temporal information in the image sequence is taken into consideration, and the optical flow is obtained in the vicinity of the detected objects to track the obstacles across neighboring frames. Qualitative and quantitative experiments were conducted on the Small Obstacle Detection (SOD) dataset and the Lost and Found dataset. The results indicate that our method with spatio-temporal context modeling is superior to existing methods for road obstacle detection.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-19T07:06:35Z</published>
+    <arxiv:comment>Paper accepted by the 4th International Conference on Machine Learning for Cyber Security (ML4CS 2022), Guangzhou, China</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiuen Wu</name>
+    </author>
+    <author>
+      <name>Tao Wang</name>
+    </author>
+    <author>
+      <name>Lingyu Liang</name>
+    </author>
+    <author>
+      <name>Zuoyong Li</name>
+    </author>
+    <author>
+      <name>Fum Yew Ching</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-031-20096-0_17</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-031-20096-0_17" title="doi"/>
+  </entry>
+</feed>

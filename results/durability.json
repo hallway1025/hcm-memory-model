@@ -1,0 +1,78 @@
+[
+ {
+  "exp": "rif",
+  "rho_rif": 0.0,
+  "base": 30,
+  "after": 30,
+  "n": 30,
+  "drop": 0
+ },
+ {
+  "exp": "rif",
+  "rho_rif": 0.15,
+  "base": 30,
+  "after": 30,
+  "n": 30,
+  "drop": 0
+ },
+ {
+  "exp": "rif",
+  "rho_rif": 0.3,
+  "base": 30,
+  "after": 30,
+  "n": 30,
+  "drop": 0
+ },
+ {
+  "exp": "rif",
+  "rho_rif": 0.5,
+  "base": 30,
+  "after": 30,
+  "n": 30,
+  "drop": 0
+ },
+ {
+  "exp": "rif",
+  "rho_rif": 0.7,
+  "base": 30,
+  "after": 30,
+  "n": 30,
+  "drop": 0
+ },
+ {
+  "exp": "gate",
+  "theta_write": 0.5,
+  "g_bg": 0.917,
+  "g_ev": 0.992,
+  "written": 80,
+  "recall": 20,
+  "n_ev": 20
+ },
+ {
+  "exp": "gate",
+  "theta_write": 0.7,
+  "g_bg": 0.917,
+  "g_ev": 0.992,
+  "written": 79,
+  "recall": 20,
+  "n_ev": 20
+ },
+ {
+  "exp": "gate",
+  "theta_write": 0.8,
+  "g_bg": 0.917,
+  "g_ev": 0.992,
+  "written": 79,
+  "recall": 20,
+  "n_ev": 20
+ },
+ {
+  "exp": "gate",
+  "theta_write": 0.9,
+  "g_bg": 0.915,
+  "g_ev": 0.991,
+  "written": 68,
+  "recall": 20,
+  "n_ev": 20
+ }
+]

@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JecrgR2iHYE5O+nJR8hGZx4E53o</id>
+  <title>arXiv Query: search_query=all:retrieval AND all:decision AND all:reinforcement&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T14:10:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:retrieval+AND+(all:decision+AND+all:reinforcement)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>412</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2606.16316v2</id>
+    <title>RL-Index: Reinforcement Learning for Retrieval Index Reasoning</title>
+    <updated>2026-08-14T02:38:58Z</updated>
+    <link href="https://arxiv.org/abs/2606.16316v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.16316v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieving external knowledge is crucial for real-world tasks but remains difficult when queries and relevant knowledge are linked by implicit reasoning (e.g., shared theorems or coding logic). Existing methods rely mainly on query-side reasoning, leading to high online latency and underutilizing the reasoning semantics within the knowledge corpus. In this paper, we propose $\textbf{RL-Index}$, an indexing framework that formulates retrieval index reasoning as a reinforcement learning problem. Instead of performing reasoning at query time, RL-Index shifts reasoning to the indexing stage by augmenting documents with LLM-generated rationales that explicitly encode the latent query-knowledge relationship. To optimize the quality of these rationales, we employ Group Relative Policy Optimization (GRPO) and use retrieval similarity as a proxy reward signal, enabling direct optimization of indexing decisions for retrieval effectiveness. Extensive experiments on the BRIGHT benchmark demonstrate that RL-Index consistently improves both retrieval and downstream question-answering performance, while significantly reducing online inference latency. Moreover, the learned rationale augmentation generalizes across diverse retrievers and generators, highlighting its robustness as a plug-and-play indexing strategy across different retrieval systems.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-15T07:22:36Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Yongjia Lei</name>
+    </author>
+    <author>
+      <name>Nedim Lipka</name>
+    </author>
+    <author>
+      <name>Zhisheng Qi</name>
+    </author>
+    <author>
+      <name>Utkarsh Sahu</name>
+    </author>
+    <author>
+      <name>Yuchen Zhuang</name>
+    </author>
+    <author>
+      <name>Wenqi Shi</name>
+    </author>
+    <author>
+      <name>Koustava Goswami</name>
+    </author>
+    <author>
+      <name>Franck Dernoncourt</name>
+    </author>
+    <author>
+      <name>Ryan A. Rossi</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.19528v1</id>
+    <title>Retrieve What Helps, Only When It Helps: Agentic Reinforcement Learning for Selective Retrieval-Augmented Machine Translation</title>
+    <updated>2026-10-14T03:45:40Z</updated>
+    <link href="https://arxiv.org/abs/2610.19528v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.19528v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieving external knowledge can improve large language model (LLM) translation by providing supplementary information such as idiom interpretations and terminology. However, existing retrieval-augmented machine translation systems typically apply predefined retrieval strategies uniformly across all inputs. We argue that translation operates in a partial-evidence regime: LLM's parametric knowledge suffices for many inputs, while external evidence benefits a subset and usually supports rather than directly provides the desired translation. This creates two challenges: deciding when to retrieve and what evidence to acquire. We introduce Selective Retrieval-Augmented Translation (SRAT), an agentic reinforcement learning framework that learns when to translate directly or retrieve, what to retrieve, and how to integrate these decisions by optimizing final translation quality. To align evidence retrieval with downstream translation quality rather than simple semantic similarity, we further develop joint Plackett--Luce optimization and translation-quality contrastive training for retriever-training. Experiments on idiom, knowledge-intensive, and document-level translation with offline or online retrieval show that SRAT consistently outperforms never- and always-retrieve baselines, and quality-aligned retriever training provides further gains when similarity-based retrieval is insufficient. The results demonstrate the benefit of treating retrieval as a learnable translation action rather than fixed preprocessing.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-14T03:45:40Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shijun Li</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Najmeh Sadoughi</name>
+    </author>
+    <author>
+      <name>Dongmei Wang</name>
+    </author>
+    <author>
+      <name>Xinjie Li</name>
+    </author>
+    <author>
+      <name>Zhu Liu</name>
+    </author>
+    <author>
+      <name>Rohith Mysore Vijaya Kumar</name>
+    </author>
+    <author>
+      <name>Yuzong Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.02372v1</id>
+    <title>Reinforcement Learning-driven Information Seeking: A Quantum Probabilistic Approach</title>
+    <updated>2020-08-05T21:33:51Z</updated>
+    <link href="https://arxiv.org/abs/2008.02372v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.02372v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding an information forager's actions during interaction is very important for the study of interactive information retrieval. Although information spread in uncertain information space is substantially complex due to the high entanglement of users interacting with information objects~(text, image, etc.). However, an information forager, in general, accompanies a piece of information (information diet) while searching (or foraging) alternative contents, typically subject to decisive uncertainty. Such types of uncertainty are analogous to measurements in quantum mechanics which follow the uncertainty principle. In this paper, we discuss information seeking as a reinforcement learning task. We then present a reinforcement learning-based framework to model forager exploration that treats the information forager as an agent to guide their behaviour. Also, our framework incorporates the inherent uncertainty of the foragers' action using the mathematical formalism of quantum mechanics.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-05T21:33:51Z</published>
+    <arxiv:comment>Accepted in Proceedings of Bridging the Gap between Information Science, Information Retrieval and Data Science (BIRDS) at SIGIR 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Amit Kumar Jaiswal</name>
+    </author>
+    <author>
+      <name>Haiming Liu</name>
+    </author>
+    <author>
+      <name>Ingo Frommholz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.24854v1</id>
+    <title>Learning to Program Retrievals: Composing Search Primitives via Reinforcement Learning</title>
+    <updated>2026-10-17T20:03:09Z</updated>
+    <link href="https://arxiv.org/abs/2610.24854v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.24854v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-augmented language models increasingly use multi-step search to solve knowledge-intensive tasks, yet existing systems typically expose retrieval through fixed pipelines or collections of atomic tools. We introduce Retrieval Program Learning (RPL), a programmable search framework that allows a policy to compose search primitives into executable programs with local state and control flow. This enables adaptive search that can retrieve broadly, process intermediate results, and selectively construct model context without tying retrieval breadth to context consumption. However, the resulting flexibility creates a difficult exploration problem: useful programs may require several coordinated decisions, while reinforcement learning often supplies only sparse feedback. To address this challenge, we propose program mutation, a grammar-constrained and execution-verified procedure that generates local variants of suboptimal programs sampled during RL, converts them into training trajectories, and distills them back into the policy. We evaluate RPL on open-domain question answering and corpus-level reasoning tasks, comparing it with a range of retrieval and reasoning baselines. RPL consistently improves open-domain QA performance across model sizes and in- and out-of-domain benchmarks, with particularly large gains on multi-hop tasks. Notably, a 4B model trained with RPL outperforms all 8B model baselines. On corpus-level reasoning, RPL achieves the highest answer F1 and document-coverage F1 for both model sizes while substantially reducing context consumption and retrieval turns. Our results show that programmable search expands the retrieval strategies that agents can learn, while program mutation provides an effective mechanism for exploring useful program structures beyond direct on-policy sampling.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-17T20:03:09Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kyuyoung Kim</name>
+    </author>
+    <author>
+      <name>Zilin Xiao</name>
+    </author>
+    <author>
+      <name>Zhiyuan Wang</name>
+    </author>
+    <author>
+      <name>Avinash Atreya</name>
+    </author>
+    <author>
+      <name>Ke Yang</name>
+    </author>
+    <author>
+      <name>Jinwoo Shin</name>
+    </author>
+    <author>
+      <name>Kecheng Hao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.04452v1</id>
+    <title>High Quality Related Search Query Suggestions using Deep Reinforcement Learning</title>
+    <updated>2021-08-10T05:22:32Z</updated>
+    <link href="https://arxiv.org/abs/2108.04452v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.04452v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>"High Quality Related Search Query Suggestions" task aims at recommending search queries which are real, accurate, diverse, relevant and engaging. Obtaining large amounts of query-quality human annotations is expensive. Prior work on supervised query suggestion models suffered from selection and exposure bias, and relied on sparse and noisy immediate user-feedback (e.g., clicks), leading to low quality suggestions. Reinforcement Learning techniques employed to reformulate a query using terms from search results, have limited scalability to large-scale industry applications. To recommend high quality related search queries, we train a Deep Reinforcement Learning model to predict the query a user would enter next. The reward signal is composed of long-term session-based user feedback, syntactic relatedness and estimated naturalness of generated query. Over the baseline supervised model, our proposed approach achieves a significant relative improvement in terms of recommendation diversity (3%), down-stream user-engagement (4.2%) and per-sentence word repetitions (82%).</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-10T05:22:32Z</published>
+    <arxiv:comment>Multi-Armed Bandits and Reinforcement Learning: Advancing Decision Making in E-Commerce and Beyond at KDD 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Praveen Kumar Bodigutla</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.10698v6</id>
+    <title>Deep Reinforcement Learning with Task-Adaptive Retrieval via Hypernetwork</title>
+    <updated>2024-03-06T15:08:16Z</updated>
+    <link href="https://arxiv.org/abs/2306.10698v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.10698v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep reinforcement learning algorithms are usually impeded by sampling inefficiency, heavily depending on multiple interactions with the environment to acquire accurate decision-making capabilities. In contrast, humans rely on their hippocampus to retrieve relevant information from past experiences of relevant tasks, which guides their decision-making when learning a new task, rather than exclusively depending on environmental interactions. Nevertheless, designing a hippocampus-like module for an agent to incorporate past experiences into established reinforcement learning algorithms presents two challenges. The first challenge involves selecting the most relevant past experiences for the current task, and the second challenge is integrating such experiences into the decision network. To address these challenges, we propose a novel method that utilizes a retrieval network based on task-conditioned hypernetwork, which adapts the retrieval network's parameters depending on the task. At the same time, a dynamic modification mechanism enhances the collaborative efforts between the retrieval and decision networks. We evaluate the proposed method across various tasks within a multitask scenario in the Minigrid environment. The experimental results demonstrate that our proposed method significantly outperforms strong baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-19T04:48:36Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yonggang Jin</name>
+    </author>
+    <author>
+      <name>Chenxu Wang</name>
+    </author>
+    <author>
+      <name>Tianyu Zheng</name>
+    </author>
+    <author>
+      <name>Liuyu Xiang</name>
+    </author>
+    <author>
+      <name>Yaodong Yang</name>
+    </author>
+    <author>
+      <name>Junge Zhang</name>
+    </author>
+    <author>
+      <name>Jie Fu</name>
+    </author>
+    <author>
+      <name>Zhaofeng He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.12049v2</id>
+    <title>Token-Level Credit Assignment Optimization for Generative Document Retrieval</title>
+    <updated>2026-08-24T12:05:09Z</updated>
+    <link href="https://arxiv.org/abs/2608.12049v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.12049v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative retrieval models perform document retrieval by autoregressively generating document identifiers (DocIDs). This process naturally forms a sequential decision problem, i.e., the model makes a sequence of token-level decisions, selecting a DocID token at each decoding step, with the resulting complete sequence identifying the retrieved document. However, relevance feedback is available only after the complete DocID has been generated and mapped to a document, resulting in a granularity mismatch between token-level generation decisions and document-level retrieval supervision. Consequently, existing reinforcement learning methods for generative retrieval rely on sequence-level rewards, assigning the same document-level relevance signal to every decoding step. Such uniform credit assignment obscures the contribution of individual token decisions, making it difficult to identify which decisions contribute to retrieval success or failure. In this paper, we propose Token-Level Credit Assignment for Generative Retrieval (TCA), a fine-grained reinforcement learning framework that aligns the granularity of credit assignment with that of autoregressive DocID generation. Unlike assigning a single reward to an entire generated DocID, TCA derives fine-grained rewards by comparing the hidden-state trajectory of each generated DocID with the gold DocID trajectory obtained from a frozen reference model. These trajectory-based rewards provide differentiated feedback across decoding steps, allowing the policy to reinforce generation paths that remain aligned with the target DocID. Moreover, TCA decouples token-level credit assignment from policy optimization and can be instantiated with both GRPO and PPO. Experiments on benchmarks show that our method consistently outperforms baselines, demonstrating the effectiveness of fine-grained supervision for aligning DocID generation.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-12T13:28:56Z</published>
+    <arxiv:comment>accepted by CIKM 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Xinpeng Zhao</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Ran Chen</name>
+    </author>
+    <author>
+      <name>Xinyu Ma</name>
+    </author>
+    <author>
+      <name>Daiting Shi</name>
+    </author>
+    <author>
+      <name>Pengjie Ren</name>
+    </author>
+    <author>
+      <name>Zhumin Chen</name>
+    </author>
+    <author>
+      <name>Zhaochun Ren</name>
+    </author>
+    <author>
+      <name>Xin Xin</name>
+    </author>
+    <arxiv:doi>10.1145/3799682.3840833</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3799682.3840833" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03645v1</id>
+    <title>Reinforcement Fine-Tuning for History-Aware Dense Retriever in RAG</title>
+    <updated>2026-02-03T15:30:14Z</updated>
+    <link href="https://arxiv.org/abs/2602.03645v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03645v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-augmented generation (RAG) enables large language models (LLMs) to produce evidence-based responses, and its performance hinges on the matching between the retriever and LLMs. Retriever optimization has emerged as an efficient alternative to fine-tuning LLMs. However, existing solutions suffer from objective mismatch between retriever optimization and the goal of RAG pipeline. Reinforcement learning (RL) provides a promising solution to address this limitation, yet applying RL to retriever optimization introduces two fundamental challenges: 1) the deterministic retrieval is incompatible with RL formulations, and 2) state aliasing arises from query-only retrieval in multi-hop reasoning. To address these challenges, we replace deterministic retrieval with stochastic sampling and formulate RAG as a Markov decision process, making retriever optimizable by RL. Further, we incorporate retrieval history into the state at each retrieval step to mitigate state aliasing. Extensive experiments across diverse RAG pipelines, datasets, and retriever scales demonstrate consistent improvements of our approach in RAG performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T15:30:14Z</published>
+    <arxiv:comment>On going work. Codes are released at https://github.com/zyc140345/HARR</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yicheng Zhang</name>
+    </author>
+    <author>
+      <name>Zhen Qin</name>
+    </author>
+    <author>
+      <name>Zhaomin Wu</name>
+    </author>
+    <author>
+      <name>Wenqi Zhang</name>
+    </author>
+    <author>
+      <name>Shuiguang Deng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.02818v2</id>
+    <title>Session-Level Optimization for Large-Scale Retrieval using REINFORCE with Multi-Step Off-Policy Correction</title>
+    <updated>2026-07-27T07:35:55Z</updated>
+    <link href="https://arxiv.org/abs/2607.02818v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.02818v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two-tower models are a widely used paradigm for large-scale retrieval in recommendation. However, they are typically trained with myopic supervised objectives, such as next-item prediction, that do not directly optimize long-term user satisfaction.
+  In this work, we formulate recommendation as a session-level sequential decision-making problem and train a two-tower retriever autoregressively with off-policy REINFORCE on pre-collected data. Unlike the one-step off-policy correction used in prior work, we propose a multi-step approximation of importance weights enabled by the autoregressive formulation.
+  To support offline evaluation, we train a user feedback model that simulates user responses to generated recommendations. This lets us adapt doubly robust off-policy evaluation for sequential decision-making to recommendation, a setting that has received limited attention. We further introduce a feedback-model-based test-time scaling procedure that simulates future responses and selects the recommendation with the highest predicted long-term return.
+  Experiments on the public large-scale Yambda-5B dataset show that our RL agent achieves higher off-policy estimates of cumulative session reward than next-item and next-positive prediction baselines, while remaining competitive on conventional retrieval metrics. Moreover, allocating more inference-time compute to simulating future responses yields higher model-based long-term returns without updating the policy.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-02T23:13:36Z</published>
+    <arxiv:comment>Accepted at the 5th Workshop on End-End Customer Journey Optimization at KDD 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Artem Matveev</name>
+    </author>
+    <author>
+      <name>Sergei Makeev</name>
+    </author>
+    <author>
+      <name>Aleksei Krasilnikov</name>
+    </author>
+    <author>
+      <name>Vladimir Baikalov</name>
+    </author>
+    <author>
+      <name>Sergei Liamaev</name>
+    </author>
+    <author>
+      <name>Kirill Khrylchenko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.05314v2</id>
+    <title>Large-Scale Retrieval for Reinforcement Learning</title>
+    <updated>2022-12-17T01:36:01Z</updated>
+    <link href="https://arxiv.org/abs/2206.05314v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.05314v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective decision making involves flexibly relating past experiences and relevant contextual information to a novel situation. In deep reinforcement learning (RL), the dominant paradigm is for an agent to amortise information that helps decision making into its network weights via gradient descent on training losses. Here, we pursue an alternative approach in which agents can utilise large-scale context sensitive database lookups to support their parametric computations. This allows agents to directly learn in an end-to-end manner to utilise relevant information to inform their outputs. In addition, new information can be attended to by the agent, without retraining, by simply augmenting the retrieval dataset. We study this approach for offline RL in 9x9 Go, a challenging game for which the vast combinatorial state space privileges generalisation over direct matching to past experiences. We leverage fast, approximate nearest neighbor techniques in order to retrieve relevant data from a set of tens of millions of expert demonstration states. Attending to this information provides a significant boost to prediction accuracy and game-play performance over simply using these demonstrations as training trajectories, providing a compelling demonstration of the value of large-scale retrieval in offline RL agents.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-10T18:25:30Z</published>
+    <arxiv:comment>Thirty-sixth Annual Conference on Neural Information Processing Systems (NeurIPS 2022), 16 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Peter C. Humphreys</name>
+    </author>
+    <author>
+      <name>Arthur Guez</name>
+    </author>
+    <author>
+      <name>Olivier Tieleman</name>
+    </author>
+    <author>
+      <name>Laurent Sifre</name>
+    </author>
+    <author>
+      <name>Théophane Weber</name>
+    </author>
+    <author>
+      <name>Timothy Lillicrap</name>
+    </author>
+  </entry>
+</feed>

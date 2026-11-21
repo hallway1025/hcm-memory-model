@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["34416502"],"translationset":[],"querytranslation":"\"10 1016 j actpsy 2021 103395\"[Publisher ID]"}}

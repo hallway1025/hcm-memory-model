@@ -1,0 +1,85 @@
+{
+ "pre_registered": "ledger exp48 row (analysis-only, no gate)",
+ "alpha": 0.05,
+ "power": 0.8,
+ "rows": [
+  {
+   "exp": "exp15 priority-vs-uniform",
+   "kind": "paired",
+   "n": 20,
+   "mde_dz": 0.626,
+   "tost_eps": 0.438,
+   "observed_dz": -0.239,
+   "p": 0.323,
+   "note": "seed-level pairing (20 seeds x 24 probes); probe-level pool would give n=480 MDE=0.128"
+  },
+  {
+   "exp": "exp29-B1 semantic full-library",
+   "kind": "paired",
+   "n": 300,
+   "mde_dz": 0.162,
+   "tost_eps": 0.113,
+   "observed_dz": 0.002,
+   "p": 0.648,
+   "note": "pooled Delta=-0.01 t=-0.457 n=300; equivalence |dz|<0.10 declarable"
+  },
+  {
+   "exp": "exp39 residual boundary (per cell)",
+   "kind": "two_prop",
+   "n_per_arm": 100,
+   "p_bar": 0.24,
+   "mde_absdiff": 0.169,
+   "observed_advantages": [
+    -3,
+    -3,
+    -1,
+    -1,
+    -2,
+    -2,
+    -2,
+    -3,
+    -2,
+    -2,
+    -1,
+    -1
+   ],
+   "note": "12/12 cells |advantage|<=3pp << MDE 16.9pp; no-detectable-benefit honest"
+  },
+  {
+   "exp": "exp42 forgetting benefit",
+   "kind": "paired",
+   "n": 5,
+   "mde_dz": 1.253,
+   "tost_eps": 0.877,
+   "observed_dz": 0.0,
+   "p": null,
+   "note": "recall_rewarded identical across arms (0.333); n=5 seeds -> MDE 1.25 = powerless, verdict structural"
+  },
+  {
+   "exp": "exp40-GP3 abstention AUC",
+   "kind": "auc",
+   "n": 100,
+   "mde_auc": 0.14,
+   "observed_auc": [
+    0.335,
+    0.063
+   ],
+   "note": "0.335 is -2.3 sigma below 0.5 -> reversal significant; unusable on homogeneous corpus (honest FAIL)"
+  },
+  {
+   "exp": "exp41 M7 gate redundancy",
+   "kind": "structural",
+   "note": "writes=1 vs 10 identical g_hist -> mechanism identity, MDE N/A"
+  },
+  {
+   "exp": "exp44 online tag primary",
+   "kind": "paired",
+   "n": 1600,
+   "mde_dz": 0.07,
+   "tost_eps": 0.049,
+   "observed_dz": "pending-tonight",
+   "p": null,
+   "note": "200 probes x 8 seeds pooled; MDE 0.070 = design well-powered"
+  }
+ ]
+}

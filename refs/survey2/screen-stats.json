@@ -1,0 +1,50 @@
+{
+ "threshold": 2.0,
+ "areas": {
+  "K1_sparse_encoder": {
+   "total": 96,
+   "coarse": 73,
+   "fine": 68
+  },
+  "K2_episodic_store": {
+   "total": 95,
+   "coarse": 53,
+   "fine": 46
+  },
+  "K3_temporal_links": {
+   "total": 90,
+   "coarse": 63,
+   "fine": 51
+  },
+  "K4_consolidation_sched": {
+   "total": 93,
+   "coarse": 73,
+   "fine": 72
+  },
+  "K5_semantic_slow": {
+   "total": 107,
+   "coarse": 73,
+   "fine": 44
+  },
+  "K6_working_memory": {
+   "total": 68,
+   "coarse": 43,
+   "fine": 34
+  },
+  "K7_meta_control": {
+   "total": 110,
+   "coarse": 51,
+   "fine": 51
+  },
+  "K8_event_layer": {
+   "total": 98,
+   "coarse": 72,
+   "fine": 40
+  },
+  "K9_text_frontend": {
+   "total": 86,
+   "coarse": 49,
+   "fine": 34
+  }
+ }
+}

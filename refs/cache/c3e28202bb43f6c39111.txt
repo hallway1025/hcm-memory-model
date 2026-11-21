@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DMJOK1qOKCKdag1htz+F0qETRl0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2507.13638&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T11:57:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2507.13638" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.13638v4</id>
+    <title>State Space Models Naturally Produce Time Cell and Oscillatory Behaviors and Scale to Abstract Cognitive Functions</title>
+    <updated>2026-10-14T12:48:42Z</updated>
+    <link href="https://arxiv.org/abs/2507.13638v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.13638v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A grand challenge in modern neuroscience is bridging the gap between the microscale neural circuits and cognitive functions. While extensive knowledge exists about neuronal connectivity and biophysics, how low-level phenomena give rise to abstract behaviors remains largely unresolved. Here, we propose that a mathematical framework based on State Space Models offers mathematical sufficiency and computational plausibility to generate response profiles that resemble time cells, ramping activity, and oscillatory responses. Our results suggest that such behaviors can emerge from a structured multi-timescale complex rotational basis, which enables optimized history compression and naturally generates structured temporal dynamics even prior to training, mirroring recent findings in biological circuits. Learning exploits and adapts to the pre-existing temporal basis for specific tasks. We show that the model can readily scale to abstract cognitive functions such as event counting, supporting its use as a computationally tractable framework for understanding neural activities.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-18T03:53:16Z</published>
+    <arxiv:comment>Sen Lu and Xiaoyu Zhang contributed equally. Wei D. Lu is the corresponding author. 5 figures are included in 15 pages</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Sen Lu</name>
+    </author>
+    <author>
+      <name>Xiaoyu Zhang</name>
+    </author>
+    <author>
+      <name>Mingtao Hu</name>
+    </author>
+    <author>
+      <name>Eric Yeu-Jer Lee</name>
+    </author>
+    <author>
+      <name>Soohyeon Kim</name>
+    </author>
+    <author>
+      <name>Wei D. Lu</name>
+    </author>
+  </entry>
+</feed>

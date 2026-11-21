@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hEiZz09wewZcnWWcqD52h9TwGKU</id>
+  <title>arXiv Query: search_query=&amp;id_list=1805.01087&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:32:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=1805.01087" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1805.01087v1</id>
+    <title>Stack-Pointer Networks for Dependency Parsing</title>
+    <updated>2018-05-03T02:23:28Z</updated>
+    <link href="https://arxiv.org/abs/1805.01087v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.01087v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a novel architecture for dependency parsing: \emph{stack-pointer networks} (\textbf{\textsc{StackPtr}}). Combining pointer networks~\citep{vinyals2015pointer} with an internal stack, the proposed model first reads and encodes the whole sentence, then builds the dependency tree top-down (from root-to-leaf) in a depth-first fashion. The stack tracks the status of the depth-first search and the pointer networks select one child for the word at the top of the stack at each step. The \textsc{StackPtr} parser benefits from the information of the whole sentence and all previously derived subtree structures, and removes the left-to-right restriction in classical transition-based parsers. Yet, the number of steps for building any (including non-projective) parse tree is linear in the length of the sentence just as other transition-based parsers, yielding an efficient decoding algorithm with $O(n^2)$ time complexity. We evaluate our model on 29 treebanks spanning 20 languages and different dependency annotation schemas, and achieve state-of-the-art performance on 21 of them.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-03T02:23:28Z</published>
+    <arxiv:comment>Accepted by ACL-2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xuezhe Ma</name>
+    </author>
+    <author>
+      <name>Zecong Hu</name>
+    </author>
+    <author>
+      <name>Jingzhou Liu</name>
+    </author>
+    <author>
+      <name>Nanyun Peng</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+    <author>
+      <name>Eduard Hovy</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J/4yu6EvZylmK2txpch2VuthuIw</id>
+  <title>arXiv Query: search_query=all:LoRA AND all:low AND all:rank AND all:adaptation&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-11-07T13:51:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:LoRA+AND+(all:low+AND+(all:rank+AND+all:adaptation))&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>2160</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.17730v1</id>
+    <title>DT-LoRA: Reaching Beyond the Tangent Space of Low-Rank Adaptation</title>
+    <updated>2026-10-13T05:09:17Z</updated>
+    <link href="https://arxiv.org/abs/2610.17730v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.17730v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-rank adaptation (LoRA) often underperforms full fine-tuning. We investigate this performance gap through a tangent-space lens: factorized updates are confined to the tangent space of the current low-rank factors, leaving gradient components outside this space unexploited. An analysis of ten representative LoRA variants reveals that these residual components account for most of the gradient energy and exhibit strong spectral concentration. Motivated by this finding, we propose Dynamic Tangent LoRA (DT-LoRA), which partitions a fixed rank budget into a stable branch and a dynamic branch to capture the principal residual gradient directions. We show that these directions define the optimal update of a local quadratic model under orthogonal-complement and rank constraints. Matrix-free randomized SVD recovers them without materializing the residual gradient, while controlled write-back preserves accumulated updates and stabilizes training within the allocated rank. DT-LoRA adds no trainable parameters or inference cost over LoRA. Experiments across computer vision and natural language processing tasks demonstrate consistent improvements over LoRA and its variants. Moreover, despite being a general-purpose adaptation method, DT-LoRA outperforms task-specific approaches to open-vocabulary domain generalization for semantic segmentation, achieving state-of-the-art results. Code is available at https://github.com/Snipine/DT-LoRA.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-13T05:09:17Z</published>
+    <arxiv:comment>16 pages, 2 figures, 11 tables. Code: https://github.com/Snipine/DT-LoRA</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yangming Zhang</name>
+    </author>
+    <author>
+      <name>Ling Yi</name>
+    </author>
+    <author>
+      <name>Datong Li</name>
+    </author>
+    <author>
+      <name>Jinliang Ding</name>
+    </author>
+    <author>
+      <name>Xiaojie Wang</name>
+    </author>
+    <author>
+      <name>Tiecheng Song</name>
+    </author>
+    <author>
+      <name>Zhaolong Ning</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.28222v1</id>
+    <title>Analyzing Quality-Latency-Resource Trade-offs in a Technical Documentation RAG Assistant Using LoRA Adaptation</title>
+    <updated>2026-05-27T09:37:55Z</updated>
+    <link href="https://arxiv.org/abs/2605.28222v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.28222v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study quality-latency-resource trade-offs in a documentation-grounded retrieval-augmented generation (RAG) system that uses Low-Rank Adaptation (LoRA) of the generator. We build a manually verified benchmark of 5,144 question-answer pairs over the official Kubernetes documentation and combine it with a fixed hybrid-retrieval pipeline (BGE-M3 dense, BGE-M3 native sparse, Reciprocal Rank Fusion, cross-encoder reranking). Over this benchmark we ablate 20 LoRA configurations on Llama-3.2-3B-Instruct and Llama-3.1-8B-Instruct across rank and target-module choices, and evaluate each on token-level F1, LLM-judged groundedness and correctness (pass@4), inference latency, inference memory, and training cost, all reported with bootstrap 95% confidence intervals. Pareto analysis shows that LoRA adapters acting only on the q and v attention projections consistently dominate the front, while the 3B/8B choice mainly defines operating regime. A param-matched control comparison further indicates that the q/v advantage is structural rather than purely parametric. The benchmark, selected adapters, and code are available at https://github.com/EugPal/rag-lora-tradeoffs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-27T09:37:55Z</published>
+    <arxiv:comment>13-page main body plus extended appendix; 6 figures; benchmark, LoRA adapters, and code at https://github.com/EugPal/rag-lora-tradeoffs</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Evgenii Palnikov</name>
+    </author>
+    <author>
+      <name>Elizaveta Gavrilova</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.14961v3</id>
+    <title>LoRA-FAIR: Federated LoRA Fine-Tuning with Aggregation and Initialization Refinement</title>
+    <updated>2025-10-12T17:37:47Z</updated>
+    <link href="https://arxiv.org/abs/2411.14961v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.14961v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Foundation models (FMs) achieve strong performance across diverse tasks with task-specific fine-tuning, yet full parameter fine-tuning is often computationally prohibitive for large models. Parameter-efficient fine-tuning (PEFT) methods like Low-Rank Adaptation (LoRA) reduce this cost by introducing low-rank matrices for tuning fewer parameters. While LoRA allows for efficient fine-tuning, it requires significant data for adaptation, making Federated Learning (FL) an appealing solution due to its privacy-preserving collaborative framework. However, combining LoRA with FL introduces two key challenges: the \textbf{Server-Side Aggregation Bias}, where server-side averaging of LoRA matrices diverges from the ideal global update, and the \textbf{Client-Side Initialization Lag}, emphasizing the need for consistent initialization across rounds. Existing approaches address these challenges individually, limiting their effectiveness. We propose LoRA-FAIR, a novel method that tackles both issues by introducing a correction term on the server, enhancing aggregation efficiency and accuracy. LoRA-FAIR maintains computational and communication efficiency, yielding superior performance over state-of-the-art methods. Experimental results on ViT and MLP-Mixer models across large-scale datasets demonstrate that LoRA-FAIR consistently achieves performance improvements in FL settings.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-22T14:19:01Z</published>
+    <arxiv:comment>ICCV 2025, Code is available: https://github.com/jmbian/LoRA-FAIR</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jieming Bian</name>
+    </author>
+    <author>
+      <name>Lei Wang</name>
+    </author>
+    <author>
+      <name>Letian Zhang</name>
+    </author>
+    <author>
+      <name>Jie Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.12354v2</id>
+    <title>LoRA+: Efficient Low Rank Adaptation of Large Models</title>
+    <updated>2024-07-04T18:33:00Z</updated>
+    <link href="https://arxiv.org/abs/2402.12354v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.12354v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we show that Low Rank Adaptation (LoRA) as originally introduced in Hu et al. (2021) leads to suboptimal finetuning of models with large width (embedding dimension). This is due to the fact that adapter matrices A and B in LoRA are updated with the same learning rate. Using scaling arguments for large width networks, we demonstrate that using the same learning rate for A and B does not allow efficient feature learning. We then show that this suboptimality of LoRA can be corrected simply by setting different learning rates for the LoRA adapter matrices A and B with a well-chosen ratio. We call this proposed algorithm LoRA$+$. In our extensive experiments, LoRA$+$ improves performance (1-2 $\%$ improvements) and finetuning speed (up to $\sim$ 2X SpeedUp), at the same computational cost as LoRA.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-19T18:33:49Z</published>
+    <arxiv:comment>27 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Soufiane Hayou</name>
+    </author>
+    <author>
+      <name>Nikhil Ghosh</name>
+    </author>
+    <author>
+      <name>Bin Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.15233v2</id>
+    <title>Null-LoRA: Low-Rank Adaptation on Null Space</title>
+    <updated>2025-12-18T07:45:14Z</updated>
+    <link href="https://arxiv.org/abs/2512.15233v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.15233v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Parameter-efficient fine-tuning methods have gained considerable popularity for adapting large-scale models to downstream tasks, particularly LoRA and its variants. Existing methods perform low-rank adaptation over the full parameter space. However, fine-tuning within a subspace can achieve comparable effectiveness. Inspired by the observation that pre-trained models possess non-trivial null spaces, we propose Null-space based Low-Rank Adaptation (Null-LoRA). Null-LoRA effectively reduces redundancy and enhances effective rank by freezing portions of the low-rank matrices. To further improve parameter efficiency, Null-LoRA constrains the entire incremental update within the null space, maximizing the utilization of incremental updates to adapt to new task paradigms. Null-LoRA surpasses the state of the art with fewer parameters in extensive experiments across image-text retrieval and visual question answering tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-17T09:32:19Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+    <author>
+      <name>Yulei Kang</name>
+    </author>
+    <author>
+      <name>Haoxuan Chen</name>
+    </author>
+    <author>
+      <name>Jinxuan Li</name>
+    </author>
+    <author>
+      <name>Jian-Fang Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.03723v1</id>
+    <title>Compress then Merge: From Multiple LoRAs into One Low-Rank Adapter</title>
+    <updated>2026-06-02T14:42:46Z</updated>
+    <link href="https://arxiv.org/abs/2606.03723v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.03723v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-rank adaptation (LoRA) enables parameter-efficient specialization of foundation models, but the proliferation of task-specific adapters fragments capabilities across many adapters, complicating reuse and deployment. We study the problem of merging $T$ LoRAs into a single rank-$r$ LoRA, thereby preserving the benefits of low-rank structure. Existing Merge-then-Compress pipelines treat the rank constraint as an afterthought: they merge adapters in the full parameter space, then compress the merged result to rank $r$ via truncated SVD. However, full-parameter merging may destroy the low-rank structure, making it difficult for subsequent compression to recover an effective rank-$r$ LoRA. We propose Compress-then-Merge (CtM), a reversed pipeline that enforces the rank-$r$ bottleneck before merging: CtM computes shared $r$-dimensional subspaces using only the LoRA weights to capture cross-adapter common structure, projects each adapter into the shared subspaces to obtain $r\times r$ coordinates, and then applies standard merging rules in this reduced space. CtM guarantees a rank-$r$ LoRA by construction, avoiding post-hoc truncation, and enables efficient computation in the core space spanned by concatenated LoRA factors. Experiments across multiple models and tasks show that CtM consistently outperforms existing single-LoRA-output baselines while narrowing the performance gap to full-parameter merging methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-02T14:42:46Z</published>
+    <arxiv:comment>Accepted to ICML 2026. Code: https://github.com/ZhengbaoHe/compress-then-merge</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhengbao He</name>
+    </author>
+    <author>
+      <name>Ruiqi Ding</name>
+    </author>
+    <author>
+      <name>Zhehao Huang</name>
+    </author>
+    <author>
+      <name>Ruikai Yang</name>
+    </author>
+    <author>
+      <name>Tao Li</name>
+    </author>
+    <author>
+      <name>Xiaolin Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.11940v1</id>
+    <title>CARE-LoRA: Compressed Activation REconstruction for Memory-Efficient LoRA</title>
+    <updated>2026-07-11T09:04:58Z</updated>
+    <link href="https://arxiv.org/abs/2607.11940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.11940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As the scale of large pre-trained models continues to grow, fine-tuning them under limited memory budgets has become increasingly challenging. Low-Rank Adaptation (LoRA), currently one of the most widely adopted parameter-efficient fine-tuning (PEFT) methods, mitigates this challenge by optimizing only low-rank adaptation matrices, thereby greatly reducing the number of trainable parameters. With the parameter overhead substantially reduced, the activations retained for backpropagation have emerged as the primary remaining memory bottleneck during LoRA fine-tuning. To address this, we propose CARE-LoRA, a data-aware Compressed Activation REconstruction framework. By exploiting the inherent projection structure of LoRA, CARE-LoRA replaces the full input activation with the low-rank compressed activation naturally produced by the LoRA branch. It further computes a lightweight reconstruction matrix during the forward pass with negligible additional computation cost, which is used during backpropagation to reconstruct the gradient signal, thereby keeping LoRA matrices fully trainable. Extensive experiments across diverse models and downstream tasks demonstrate that, while substantially reducing the overall memory footprint, CARE-LoRA achieves competitive or even superior performance compared with standard LoRA and representative LoRA variants. Our code is publicly available at https://github.com/fishandyu/CARE-LoRA .</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-11T09:04:58Z</published>
+    <arxiv:comment>15 pages, 2 figures, 12 tables. Code available at https://github.com/fishandyu/CARE-LoRA</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Gengyu Zhang</name>
+    </author>
+    <author>
+      <name>Haiyin Ran</name>
+    </author>
+    <author>
+      <name>Zhengbao He</name>
+    </author>
+    <author>
+      <name>Yuhang Liu</name>
+    </author>
+    <author>
+      <name>Hanling Tian</name>
+    </author>
+    <author>
+      <name>Zhehao Huang</name>
+    </author>
+    <author>
+      <name>Xiaolin Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.20629v1</id>
+    <title>PLoP: Precise LoRA Placement for Efficient Finetuning of Large Models</title>
+    <updated>2025-06-25T17:25:02Z</updated>
+    <link href="https://arxiv.org/abs/2506.20629v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.20629v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-Rank Adaptation (LoRA) is a widely used finetuning method for large models. Its small memory footprint allows practitioners to adapt large models to specific tasks at a fraction of the cost of full finetuning. Different modifications have been proposed to enhance its efficiency by, for example, setting the learning rate, the rank, and the initialization. Another improvement axis is adapter placement strategy: when using LoRA, practitioners usually pick module types to adapt with LoRA, such as Query and Key modules. Few works have studied the problem of adapter placement, with nonconclusive results: original LoRA paper suggested placing adapters in attention modules, while other works suggested placing them in the MLP modules. Through an intuitive theoretical analysis, we introduce PLoP (Precise LoRA Placement), a lightweight method that allows automatic identification of module types where LoRA adapters should be placed, given a pretrained model and a finetuning task. We demonstrate that PLoP consistently outperforms, and in the worst case competes, with commonly used placement strategies through comprehensive experiments on supervised finetuning and reinforcement learning for reasoning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-25T17:25:02Z</published>
+    <arxiv:comment>TD,LR: A lightweight module type selection method for LoRA finetuning. PLoP gives precise placements for LoRA adapters for improved performance</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Soufiane Hayou</name>
+    </author>
+    <author>
+      <name>Nikhil Ghosh</name>
+    </author>
+    <author>
+      <name>Bin Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.09827v1</id>
+    <title>Low-Rank Adaptation with Task-Relevant Feature Enhancement for Fine-tuning Language Models</title>
+    <updated>2024-12-13T03:38:49Z</updated>
+    <link href="https://arxiv.org/abs/2412.09827v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.09827v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fine-tuning pre-trained large language models in a parameter-efficient manner is widely studied for its effectiveness and efficiency. LoRA is one of the most widely used methods, which assumes that the optimization process is essentially low dimensional. Although LoRA has demonstrated commendable performance, there remains a significant performance gap between LoRA and full fine-tuning when learning new tasks. In this work, we propose Low-Rank Adaptation with Task-Relevant Feature Enhancement(LoRATRF) for enhancing task-relevant features from the perspective of editing neural network representations. To prioritize task-relevant features, a task-aware filter that selectively extracts valuable knowledge from hidden representations for the target or current task is designed. As the experiments on a vareity of datasets including NLU, commonsense reasoning and mathematical reasoning tasks demonstrates, our method reduces 33.71% parameters and achieves better performance on a variety of datasets in comparison with SOTA low-rank methods.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-13T03:38:49Z</published>
+    <arxiv:comment>6 Pages, 3 figures accepted by AAAI 2025 CoLoRAI - Connecting Low-Rank Representations in AI Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Changqun Li</name>
+    </author>
+    <author>
+      <name>Chaofan Ding</name>
+    </author>
+    <author>
+      <name>Kexin Luan</name>
+    </author>
+    <author>
+      <name>Xinhan Di</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.16454v3</id>
+    <title>SDS-LoRA: Overcoming Anisotropic Gradient Scaling in Low-Rank Adaptation</title>
+    <updated>2026-10-22T11:25:52Z</updated>
+    <link href="https://arxiv.org/abs/2606.16454v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.16454v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-Rank Adaptation (LoRA) enables efficient adaptation of large pretrained models to downstream tasks by parameterizing weight updates with low-rank matrices. In this paper, we investigate the limitations of the LoRA parameterization from a geometric perspective. Specifically, we show that when a full fine-tuning gradient is backpropagated to the low-rank matrices, it undergoes anisotropic scaling driven by their singular values. We argue that this phenomenon is undesirable because it distorts the full fine-tuning gradient by skewing it toward dominant singular directions while suppressing others. Our analyses demonstrate that anisotropic gradient scaling reduces the effective rank of the low-rank matrices' gradients and fails to provide the best possible alignment between the full fine-tuning gradient and its low-rank approximation in LoRA for arbitrary gradients, thereby exacerbating the gap to full fine-tuning. To address these limitations, we propose a new low-rank parameterization, SDS-LoRA, which Structurally Decouples Singular values from the backward pass. Our method ensures that the full fine-tuning gradient backpropagates only through the orthonormal bases of the low-rank matrices' subspaces, independent of their scales. Convergence analysis demonstrates that while LoRA's convergence rate degrades with the condition number of the low-rank matrices, that of SDS-LoRA remains independent of it. Experimental results across natural language and vision benchmarks show that SDS-LoRA improves loss convergence and reduces the gap to full fine-tuning, significantly enhancing adaptation performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-15T09:27:50Z</published>
+    <arxiv:comment>Accepted at NeurIPS2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Junghun Oh</name>
+    </author>
+    <author>
+      <name>Sungyong Baik</name>
+    </author>
+    <author>
+      <name>Kyoung Mu Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.18242v3</id>
+    <title>LoRA-Pro: Are Low-Rank Adapters Properly Optimized?</title>
+    <updated>2025-03-22T09:29:15Z</updated>
+    <link href="https://arxiv.org/abs/2407.18242v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.18242v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-rank adaptation, also known as LoRA, has emerged as a prominent method for parameter-efficient fine-tuning of foundation models. Despite its computational efficiency, LoRA still yields inferior performance compared to full fine-tuning. In this paper, we first uncover a fundamental connection between the optimization processes of LoRA and full fine-tuning: using LoRA for optimization is mathematically equivalent to full fine-tuning using a low-rank gradient for parameter updates. And this low-rank gradient can be expressed in terms of the gradients of the two low-rank matrices in LoRA. Leveraging this insight, we introduce LoRA-Pro, a method that enhances LoRA's performance by strategically adjusting the gradients of these low-rank matrices. This adjustment allows the low-rank gradient to more accurately approximate the full fine-tuning gradient, thereby narrowing the performance gap between LoRA and full fine-tuning. Furthermore, we theoretically derive the optimal solutions for adjusting the gradients of the low-rank matrices, applying them during fine-tuning in LoRA-Pro. We conduct extensive experiments across natural language understanding, dialogue generation, mathematical reasoning, code generation, and image classification tasks, demonstrating that LoRA-Pro substantially improves LoRA's performance, effectively narrowing the gap with full fine-tuning. Code is publicly available at https://github.com/mrflogs/LoRA-Pro.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-25T17:57:12Z</published>
+    <arxiv:comment>Camera-Ready Version for ICLR 2025; technical corrections to previous version</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhengbo Wang</name>
+    </author>
+    <author>
+      <name>Jian Liang</name>
+    </author>
+    <author>
+      <name>Ran He</name>
+    </author>
+    <author>
+      <name>Zilei Wang</name>
+    </author>
+    <author>
+      <name>Tieniu Tan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.04306v1</id>
+    <title>SAD-LoRA: Spectral Alignment for Low-Rank Knowledge Distillation</title>
+    <updated>2026-07-05T13:44:37Z</updated>
+    <link href="https://arxiv.org/abs/2607.04306v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.04306v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Distilling a fine-tuned teacher into a LoRA-adapted student is a standard recipe for parameter-efficient compression, but output-level KD does not explicitly control which rank-$r$ weight subspace the adapter occupies. We propose \textbf{SAD-LoRA} (\textbf{S}pectral \textbf{A}lignment \textbf{D}istillation), which selects this subspace from the data-weighted student-space reference update $\DWT\Sigx^{1/2}$ and maintains it during training via a differentiable principal-angle loss on $\colspan(B)$. We show that the data-weighted distillation error decomposes exactly into subspace misalignment, within-subspace coefficient mismatch, and irreducible rank residual; standard KD can affect the first term only indirectly through output gradients. On controlled synthetic problems with a flat teacher spectrum, SAD-LoRA reduces the subspace-misalignment term from $51\%$ to nearly zero and lifts final subspace alignment from $0.49$ to $1.00$. On RoBERTa-large to RoBERTa-base distillation across six GLUE tasks, SAD-LoRA improves rank efficiency: at $r{=}4$, it matches or beats the strongest included spectral baseline on five of six tasks, and at $r{=}8$ it gives the best result on SST-2 and CoLA. Ablations identify subspace alignment as the load-bearing component, while coefficient matching is auxiliary.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-05T13:44:37Z</published>
+    <arxiv:comment>ICML'26 workshop on CoLoRAI - The 2nd Workshop on Connecting Low-rank Representations in AI, 15 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Omer Tariq</name>
+    </author>
+    <author>
+      <name>Syed Muhammad Raza</name>
+    </author>
+    <author>
+      <name>Jeongbae Son</name>
+    </author>
+  </entry>
+</feed>

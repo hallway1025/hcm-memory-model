@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ejb2QmqiQg/lFYCSszViEuKlgys</id>
+  <title>arXiv Query: search_query=all:multi-timescale AND all:memory AND all:hierarchy&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:44:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:multi-timescale+AND+(all:memory+AND+all:hierarchy)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.17206v1</id>
+    <title>Energy Consumption Optimization, Response Time Differences and Indicators in Cortical Working Memory Revealed by Nonequilibrium</title>
+    <updated>2024-11-26T08:23:13Z</updated>
+    <link href="https://arxiv.org/abs/2411.17206v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.17206v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The neocortex, a complex system driving multi-region interactions, remains a core puzzle in neuroscience. Despite quantitative insights across brain scales, understanding the mechanisms underlying neural activities is challenging. Advances from Hopfield networks to large-scale cortical models have deepened neural network theory, yet these models often fall short of capturing global brain functions. In large-scale cortical networks, an intriguing hierarchy of timescales reflects diverse information processing speeds across spatial regions. As a non-equilibrium system, the brain incurs significant energy costs, with long-distance connectivity suggesting an evolutionary spatial organization. To explore these complexities, we introduce a nonequilibrium landscape flux approach to analyze cortical networks. This allows us to quantify potential landscapes and principal transition paths, uncovering dynamical characteristics across timescales. We examine whether temporal hierarchies correlate with stimuli distribution and how hierarchical networks exhibit differential responses. Furthermore, our analysis quantifies the thermodynamic cost of sustaining cognition, highlighting a link to network connectivity. These findings provide insights into energy consumption during cognitive processes and emphasize the spatial benefits for working memory tasks. Experimental validation is challenging due to evolutionary variability, making our theoretical approach valuable for quantifying complex dynamics. By assessing time irreversibility and critical slowdown, we gain predictive insights into network bifurcations and state transitions, offering practical tools for identifying cortical state changes. These results advance our understanding of cortical dynamics.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-26T08:23:13Z</published>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Xiaochen Wang</name>
+    </author>
+    <author>
+      <name>Yuxuan Wu</name>
+    </author>
+    <author>
+      <name>Feng Zhang</name>
+    </author>
+    <author>
+      <name>Jin Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.19144v1</id>
+    <title>Human-AI Coevolution Dynamics: A Formal Theory of Social Intelligence Emergence Through Long-Term Interaction</title>
+    <updated>2026-06-17T14:47:59Z</updated>
+    <link href="https://arxiv.org/abs/2606.19144v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.19144v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current conversational AI systems have made significant progress in language generation, personalization, and long-context interaction. However, most existing methods model social behavior through isolated components such as emotion modeling, memory retrieval, or persona conditioning, lacking a unified framework to explain the emergence of stable social relationships and social intelligence in long-term human-AI interaction.To address this, we propose the Human-AI Coevolution Dynamics Framework (HACD-H), a formal model of human-AI interaction as a self-organizing social cognitive system. HACD-H integrates emotional adaptation, relational organization, social memory, and personality consistency into a unified dynamical framework and introduces principles including multi-timescale social cognition, relational attractors, trust basins, developmental phase transitions, and social cognitive energy dynamics.We construct a conversational dataset with approximately 14,700 interaction turns and develop a theory-driven empirical evaluation framework. Results reveal a hierarchy of temporal persistence in social cognition, stable relational attractors, phase-transition-like developmental patterns, and a structured social cognitive energy landscape. Social intelligence shows a significant negative correlation with social cognitive energy (r = -0.391, p &lt; 0.001), and interaction trajectories exhibit progressive energy reduction over time.These findings suggest that social intelligence emerges from long-term social cognitive coevolution rather than isolated conversational capabilities. HACD-H provides a unified theoretical foundation for modeling adaptive human-AI social interaction and developing socially intelligent AI systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-17T14:47:59Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jingyi Zhou</name>
+    </author>
+    <author>
+      <name>Senlin Luo</name>
+    </author>
+    <author>
+      <name>Haofan Chen</name>
+    </author>
+  </entry>
+</feed>

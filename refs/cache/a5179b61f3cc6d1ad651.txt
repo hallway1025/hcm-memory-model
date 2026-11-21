@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mKMWCt2EoQxHxTL4hWOnCK2M9k0</id>
+  <title>arXiv Query: search_query=all:conformal AND all:prediction&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-11-07T14:09:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:conformal+AND+all:prediction&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>5701</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2608.09166v1</id>
+    <title>Particle-Based Conformal Prediction for Contact-Aware Uncertainty Calibration in Stratified Configuration Spaces</title>
+    <updated>2026-08-10T06:22:10Z</updated>
+    <link href="https://arxiv.org/abs/2608.09166v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.09166v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reliable uncertainty representation is essential for deploying autonomous systems that interact with their environment, as robots must reason about how uncertainty arising from both stochasticity and model mismatch is impacted by contacts with obstacles (e.g., when navigating through a cluttered environment or inserting a part into an assembly). We propose Calibrated Particle-sets for Trans-dimensional Uncertainty Representation (CaPTURe), a geometry-aware, conformal prediction-based algorithm that generates probabilistically valid prediction regions of the unknown future system configuration using particle-based models of arbitrary fidelity. While calibrated uncertainty predictions are essential for safe and efficient planning, analytical or learned motion models are often inaccurate - due to limited data, simplifying assumptions, unmodeled effects, etc. - which can lead to unsafe executions or task failure. Additionally, when a robot contacts an obstacle, the distribution of its future configurations can become multimodal or disjoint, or lie along manifolds of lower intrinsic dimension than the space of possible robot configurations. Our method uses a calibration dataset of system transitions to locally calibrate motion uncertainty estimates, constructing regions guaranteed to contain the future robot configuration at a user-set probability. Our calibration procedure captures how motion uncertainty varies between contact-rich and contactless motions, leading to sufficient coverage in both cases. We evaluate our method on two simulated planning tasks: controlling a marble around a labyrinth and performing tight-tolerance peg-in-hole insertion with a manipulator. Compared to relevant baselines, CaPTURe achieves the user-specified coverage requirement both in and out of contact and achieves up to a 30% absolute improvement in task success rate over the best baseline.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-10T06:22:10Z</published>
+    <arxiv:comment>31 pages, 10 figures, 5 tables. Accepted at COPA 2026 (Conformal and Probabilistic Prediction with Applications). Project page: https://um-arm-lab.github.io/capture/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <arxiv:journal_ref>Proceedings of the Fifteenth Symposium on Conformal and Probabilistic Prediction with Applications, PMLR 329:813-843 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Luís Marques</name>
+    </author>
+    <author>
+      <name>Kristian Popov</name>
+    </author>
+    <author>
+      <name>Dmitry Berenson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.13744v3</id>
+    <title>Conformal Prediction Sets Improve Human Decision Making</title>
+    <updated>2024-06-10T01:12:10Z</updated>
+    <link href="https://arxiv.org/abs/2401.13744v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.13744v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In response to everyday queries, humans explicitly signal uncertainty and offer alternative answers when they are unsure. Machine learning models that output calibrated prediction sets through conformal prediction mimic this human behaviour; larger sets signal greater uncertainty while providing alternatives. In this work, we study the usefulness of conformal prediction sets as an aid for human decision making by conducting a pre-registered randomized controlled trial with conformal prediction sets provided to human subjects. With statistical significance, we find that when humans are given conformal prediction sets their accuracy on tasks improves compared to fixed-size prediction sets with the same coverage guarantee. The results show that quantifying model uncertainty with conformal prediction is helpful for human-in-the-loop decision making and human-AI teams.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-24T19:01:22Z</published>
+    <arxiv:comment>Published at ICML 2024. Code available at https://github.com/layer6ai-labs/hitl-conformal-prediction</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jesse C. Cresswell</name>
+    </author>
+    <author>
+      <name>Yi Sui</name>
+    </author>
+    <author>
+      <name>Bhargava Kumar</name>
+    </author>
+    <author>
+      <name>Noël Vouitsis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.08460v2</id>
+    <title>Localized Conformal Prediction: A Generalized Inference Framework for Conformal Prediction</title>
+    <updated>2022-02-28T22:49:42Z</updated>
+    <link href="https://arxiv.org/abs/2106.08460v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.08460v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new inference framework called localized conformal prediction. It generalizes the framework of conformal prediction by offering a single-test-sample adaptive construction that emphasizes a local region around this test sample, and can be combined with different conformal score constructions. The proposed framework enjoys an assumption-free finite sample marginal coverage guarantee, and it also offers additional local coverage guarantees under suitable assumptions. We demonstrate how to change from conformal prediction to localized conformal prediction using several conformal scores, and we illustrate a potential gain via numerical examples.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-15T22:10:43Z</published>
+    <arxiv:comment>This paper is based on the results on localized conformal prediction under the i.i.d settings from arXiv:1908.08558, with strengthened theoretical results, new and more efficient algorithms, and additional empirical studies</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Leying Guan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.01549v1</id>
+    <title>Evaluating Machine Translation Quality with Conformal Predictive Distributions</title>
+    <updated>2023-06-02T13:56:30Z</updated>
+    <link href="https://arxiv.org/abs/2306.01549v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.01549v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a new approach for assessing uncertainty in machine translation by simultaneously evaluating translation quality and providing a reliable confidence score. Our approach utilizes conformal predictive distributions to produce prediction intervals with guaranteed coverage, meaning that for any given significance level $ε$, we can expect the true quality score of a translation to fall out of the interval at a rate of $1-ε$. In this paper, we demonstrate how our method outperforms a simple, but effective baseline on six different language pairs in terms of coverage and sharpness. Furthermore, we validate that our approach requires the data exchangeability assumption to hold for optimal performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-02T13:56:30Z</published>
+    <arxiv:comment>Accepted at the 12th Symposium on Conformal and Probabilistic Prediction with Applications, COPA 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Patrizio Giovannotti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.12749v2</id>
+    <title>Conformal Prediction of Classifiers with Many Classes based on Noisy Labels</title>
+    <updated>2025-08-13T16:54:25Z</updated>
+    <link href="https://arxiv.org/abs/2501.12749v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.12749v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conformal Prediction (CP) controls the prediction uncertainty of classification systems by producing a small prediction set, ensuring a predetermined probability that the true class lies within this set. This is commonly done by defining a score, based on the model predictions, and setting a threshold on this score using a validation set. In this study, we address the problem of CP calibration when we only have access to a calibration set with noisy labels. We show how we can estimate the noise-free conformal threshold based on the noisy labeled data. We derive a finite sample coverage guarantee for uniform noise that remains effective even in tasks with a large number of classes. We dub our approach Noise-Aware Conformal Prediction (NACP). We illustrate the performance of the proposed results on several standard image classification datasets with a large number of classes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-22T09:35:58Z</published>
+    <arxiv:comment>Accepted by COPA 2025. Proceedings of Machine Learning Research 26, 2025 Conformal and Probabilistic Prediction with Applications</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Coby Penso</name>
+    </author>
+    <author>
+      <name>Jacob Goldberger</name>
+    </author>
+    <author>
+      <name>Ethan Fetaya</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.15018v2</id>
+    <title>Conformal Predictive Systems Under Covariate Shift</title>
+    <updated>2024-09-16T10:32:28Z</updated>
+    <link href="https://arxiv.org/abs/2404.15018v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.15018v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conformal Predictive Systems (CPS) offer a versatile framework for constructing predictive distributions, allowing for calibrated inference and informative decision-making. However, their applicability has been limited to scenarios adhering to the Independent and Identically Distributed (IID) model assumption. This paper extends CPS to accommodate scenarios characterized by covariate shifts. We therefore propose Weighted CPS (WCPS), akin to Weighted Conformal Prediction (WCP), leveraging likelihood ratios between training and testing covariate distributions. This extension enables the construction of nonparametric predictive distributions capable of handling covariate shifts. We present theoretical underpinnings and conjectures regarding the validity and efficacy of WCPS and demonstrate its utility through empirical evaluations on both synthetic and real-world datasets. Our simulation experiments indicate that WCPS are probabilistically calibrated under covariate shift.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-23T13:23:27Z</published>
+    <arxiv:comment>Accepted at the 13th Symposium on Conformal and Probabilistic Prediction with Applications (COPA), 9-11 September 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jef Jonkers</name>
+    </author>
+    <author>
+      <name>Glenn Van Wallendael</name>
+    </author>
+    <author>
+      <name>Luc Duchateau</name>
+    </author>
+    <author>
+      <name>Sofie Van Hoecke</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.03114v3</id>
+    <title>Efficient Conformal Prediction via Cascaded Inference with Expanded Admission</title>
+    <updated>2021-02-02T06:29:04Z</updated>
+    <link href="https://arxiv.org/abs/2007.03114v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.03114v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we present a novel approach for conformal prediction (CP), in which we aim to identify a set of promising prediction candidates -- in place of a single prediction. This set is guaranteed to contain a correct answer with high probability, and is well-suited for many open-ended classification tasks. In the standard CP paradigm, the predicted set can often be unusably large and also costly to obtain. This is particularly pervasive in settings where the correct answer is not unique, and the number of total possible answers is high. We first expand the CP correctness criterion to allow for additional, inferred "admissible" answers, which can substantially reduce the size of the predicted set while still providing valid performance guarantees. Second, we amortize costs by conformalizing prediction cascades, in which we aggressively prune implausible labels early on by using progressively stronger classifiers -- again, while still providing valid performance guarantees. We demonstrate the empirical effectiveness of our approach for multiple applications in natural language processing and computational chemistry for drug discovery.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-06T23:13:07Z</published>
+    <arxiv:comment>ICLR 2021. Revision of "Relaxed Conformal Prediction Cascades for Efficient Inference Over Many Labels"</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Adam Fisch</name>
+    </author>
+    <author>
+      <name>Tal Schuster</name>
+    </author>
+    <author>
+      <name>Tommi Jaakkola</name>
+    </author>
+    <author>
+      <name>Regina Barzilay</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.16610v2</id>
+    <title>Distribution-free Conformal Prediction for Ordinal Classification</title>
+    <updated>2024-11-02T05:33:27Z</updated>
+    <link href="https://arxiv.org/abs/2404.16610v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.16610v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conformal prediction is a general distribution-free approach for constructing prediction sets combined with any machine learning algorithm that achieve valid marginal or conditional coverage in finite samples. Ordinal classification is common in real applications where the target variable has natural ordering among the class labels. In this paper, we discuss constructing distribution-free prediction sets for such ordinal classification problems by leveraging the ideas of conformal prediction and multiple testing with FWER control. Newer conformal prediction methods are developed for constructing contiguous and non-contiguous prediction sets based on marginal and conditional (class-specific) conformal $p$-values, respectively. Theoretically, we prove that the proposed methods respectively achieve satisfactory levels of marginal and class-specific conditional coverages. Through simulation study and real data analysis, these proposed methods show promising performance compared to the existing conformal method.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-25T13:49:59Z</published>
+    <arxiv:comment>13 pages, 4 figures; 3 supplementary pages</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <arxiv:journal_ref>In COPA 2024 : 13th Symposium on Conformal and Probabilistic Prediction with Applications, PMLR 230:120-139</arxiv:journal_ref>
+    <author>
+      <name>Subhrasish Chakraborty</name>
+    </author>
+    <author>
+      <name>Chhavi Tyagi</name>
+    </author>
+    <author>
+      <name>Haiyan Qiao</name>
+    </author>
+    <author>
+      <name>Wenge Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.07307v3</id>
+    <title>Self-Calibrating Conformal Prediction</title>
+    <updated>2024-10-31T16:39:11Z</updated>
+    <link href="https://arxiv.org/abs/2402.07307v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.07307v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In machine learning, model calibration and predictive inference are essential for producing reliable predictions and quantifying uncertainty to support decision-making. Recognizing the complementary roles of point and interval predictions, we introduce Self-Calibrating Conformal Prediction, a method that combines Venn-Abers calibration and conformal prediction to deliver calibrated point predictions alongside prediction intervals with finite-sample validity conditional on these predictions. To achieve this, we extend the original Venn-Abers procedure from binary classification to regression. Our theoretical framework supports analyzing conformal prediction methods that involve calibrating model predictions and subsequently constructing conditionally valid prediction intervals on the same data, where the conditioning set or conformity scores may depend on the calibrated predictions. Real-data experiments show that our method improves interval efficiency through model calibration and offers a practical alternative to feature-conditional validity.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-11T21:12:21Z</published>
+    <arxiv:comment>Accepted to Neurips 2024. Preprint previously titled Self-Consistent Conformal Prediction. https://openreview.net/forum?id=BJ6HkT7qIk&amp;referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions)</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Lars van der Laan</name>
+    </author>
+    <author>
+      <name>Ahmed M. Alaa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.19472v1</id>
+    <title>Multi-label Classification under Uncertainty: A Tree-based Conformal Prediction Approach</title>
+    <updated>2024-04-30T11:37:33Z</updated>
+    <link href="https://arxiv.org/abs/2404.19472v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.19472v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-label classification is a common challenge in various machine learning applications, where a single data instance can be associated with multiple classes simultaneously. The current paper proposes a novel tree-based method for multi-label classification using conformal prediction and multiple hypothesis testing. The proposed method employs hierarchical clustering with labelsets to develop a hierarchical tree, which is then formulated as a multiple-testing problem with a hierarchical structure. The split-conformal prediction method is used to obtain marginal conformal $p$-values for each tested hypothesis, and two \textit{hierarchical testing procedures} are developed based on marginal conformal $p$-values, including a hierarchical Bonferroni procedure and its modification for controlling the family-wise error rate. The prediction sets are thus formed based on the testing outcomes of these two procedures. We establish a theoretical guarantee of valid coverage for the prediction sets through proven family-wise error rate control of those two procedures. We demonstrate the effectiveness of our method in a simulation study and two real data analysis compared to other conformal methods for multi-label classification.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-30T11:37:33Z</published>
+    <arxiv:comment>21 pages, 7 figures; 3 supplementary pages</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <arxiv:journal_ref>In COPA 2023 : 12th Symposium on Conformal and Probabilistic Prediction with Applications</arxiv:journal_ref>
+    <author>
+      <name>Chhavi Tyagi</name>
+    </author>
+    <author>
+      <name>Wenge Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.07511v6</id>
+    <title>A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification</title>
+    <updated>2022-12-07T05:08:01Z</updated>
+    <link href="https://arxiv.org/abs/2107.07511v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.07511v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Black-box machine learning models are now routinely used in high-risk settings, like medical diagnostics, which demand uncertainty quantification to avoid consequential model failures. Conformal prediction is a user-friendly paradigm for creating statistically rigorous uncertainty sets/intervals for the predictions of such models. Critically, the sets are valid in a distribution-free sense: they possess explicit, non-asymptotic guarantees even without distributional assumptions or model assumptions. One can use conformal prediction with any pre-trained model, such as a neural network, to produce sets that are guaranteed to contain the ground truth with a user-specified probability, such as 90%. It is easy-to-understand, easy-to-use, and general, applying naturally to problems arising in the fields of computer vision, natural language processing, deep reinforcement learning, and so on.
+  This hands-on introduction is aimed to provide the reader a working understanding of conformal prediction and related distribution-free uncertainty quantification techniques with one self-contained document. We lead the reader through practical theory for and examples of conformal prediction and describe its extensions to complex machine learning tasks involving structured outputs, distribution shift, time-series, outliers, models that abstain, and more. Throughout, there are many explanatory illustrations, examples, and code samples in Python. With each code sample comes a Jupyter notebook implementing the method on a real-data example; the notebooks can be accessed and easily run using our codebase.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-15T17:59:50Z</published>
+    <arxiv:comment>Blog and tutorial video at http://angelopoulos.ai/blog/posts/gentle-intro/ ; Code is available at https://github.com/aangelopoulos/conformal-prediction</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anastasios N. Angelopoulos</name>
+    </author>
+    <author>
+      <name>Stephen Bates</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.15721v2</id>
+    <title>Privacy-Preserving Conformal Prediction Under Local Differential Privacy</title>
+    <updated>2025-12-05T00:37:10Z</updated>
+    <link href="https://arxiv.org/abs/2505.15721v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.15721v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conformal prediction (CP) provides sets of candidate classes with a guaranteed probability of containing the true class. However, it typically relies on a calibration set with clean labels. We address privacy-sensitive scenarios where the aggregator is untrusted and can only access a perturbed version of the true labels. We propose two complementary approaches under local differential privacy (LDP). In the first approach, users do not access the model but instead provide their input features and a perturbed label using a k-ary randomized response. In the second approach, which enforces stricter privacy constraints, users add noise to their conformity score by binary search response. This method requires access to the classification model but preserves both data and label privacy. Both approaches compute the conformal threshold directly from noisy data without accessing the true labels. We prove finite-sample coverage guarantees and demonstrate robust coverage even under severe randomization. This approach unifies strong local privacy with predictive uncertainty control, making it well-suited for sensitive applications such as medical imaging or large language model queries, regardless of whether users can (or are willing to) compute their own scores.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-21T16:29:44Z</published>
+    <arxiv:comment>Accepted by COPA 2025. Proceedings of Machine Learning Research 26, 2025 Conformal and Probabilistic Prediction with Applications</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Coby Penso</name>
+    </author>
+    <author>
+      <name>Bar Mahpud</name>
+    </author>
+    <author>
+      <name>Jacob Goldberger</name>
+    </author>
+    <author>
+      <name>Or Sheffet</name>
+    </author>
+  </entry>
+</feed>

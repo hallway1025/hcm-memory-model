@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Sc9NiBElDYqNA412J1cVGpdFEqY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2403.04782&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:31:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2403.04782" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.04782v1</id>
+    <title>A Survey on Temporal Knowledge Graph: Representation Learning and Applications</title>
+    <updated>2024-03-02T16:21:45Z</updated>
+    <link href="https://arxiv.org/abs/2403.04782v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.04782v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge graphs have garnered significant research attention and are widely used to enhance downstream applications. However, most current studies mainly focus on static knowledge graphs, whose facts do not change with time, and disregard their dynamic evolution over time. As a result, temporal knowledge graphs have attracted more attention because a large amount of structured knowledge exists only within a specific period. Knowledge graph representation learning aims to learn low-dimensional vector embeddings for entities and relations in a knowledge graph. The representation learning of temporal knowledge graphs incorporates time information into the standard knowledge graph framework and can model the dynamics of entities and relations over time. In this paper, we conduct a comprehensive survey of temporal knowledge graph representation learning and its applications. We begin with an introduction to the definitions, datasets, and evaluation metrics for temporal knowledge graph representation learning. Next, we propose a taxonomy based on the core technologies of temporal knowledge graph representation learning methods, and provide an in-depth analysis of different methods in each category. Finally, we present various downstream applications related to the temporal knowledge graphs. In the end, we conclude the paper and have an outlook on the future research directions in this area.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-02T16:21:45Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Li Cai</name>
+    </author>
+    <author>
+      <name>Xin Mao</name>
+    </author>
+    <author>
+      <name>Yuhao Zhou</name>
+    </author>
+    <author>
+      <name>Zhaoguang Long</name>
+    </author>
+    <author>
+      <name>Changxu Wu</name>
+    </author>
+    <author>
+      <name>Man Lan</name>
+    </author>
+  </entry>
+</feed>

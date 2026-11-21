@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/i4kzdcu9X+wnrtrb41sKN4mpFTY</id>
+  <title>arXiv Query: search_query=all:pointer AND all:networks&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T13:51:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:pointer+AND+all:networks&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>367</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2307.05641v4</id>
+    <title>Point to the Hidden: Exposing Speech Audio Splicing via Signal Pointer Nets</title>
+    <updated>2024-05-03T15:26:07Z</updated>
+    <link href="https://arxiv.org/abs/2307.05641v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.05641v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Verifying the integrity of voice recording evidence for criminal investigations is an integral part of an audio forensic analyst's work. Here, one focus is on detecting deletion or insertion operations, so called audio splicing. While this is a rather easy approach to alter spoken statements, careful editing can yield quite convincing results. For difficult cases or big amounts of data, automated tools can support in detecting potential editing locations. To this end, several analytical and deep learning methods have been proposed by now. Still, few address unconstrained splicing scenarios as expected in practice. With SigPointer, we propose a pointer network framework for continuous input that uncovers splice locations naturally and more efficiently than existing works. Extensive experiments on forensically challenging data like strongly compressed and noisy signals quantify the benefit of the pointer mechanism with performance increases between about 6 to 10 percentage points.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-11T10:14:59Z</published>
+    <arxiv:comment>published at Interspeech 2023 - Code: https://faui1-gitlab.cs.fau.de/mmsec/exposing-speech-audio-splicing-via-signal-pointer-nets</arxiv:comment>
+    <arxiv:primary_category term="eess.AS"/>
+    <arxiv:journal_ref>Proc. INTERSPEECH 2023, 5057-5061 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Denise Moussa</name>
+    </author>
+    <author>
+      <name>Germans Hirsch</name>
+    </author>
+    <author>
+      <name>Sebastian Wankerl</name>
+    </author>
+    <author>
+      <name>Christian Riess</name>
+    </author>
+    <arxiv:doi>10.21437/Interspeech.2023-996</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21437/Interspeech.2023-996" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.11295v1</id>
+    <title>Concept Extraction Using Pointer-Generator Networks</title>
+    <updated>2020-08-25T22:28:14Z</updated>
+    <link href="https://arxiv.org/abs/2008.11295v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.11295v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Concept extraction is crucial for a number of downstream applications. However, surprisingly enough, straightforward single token/nominal chunk-concept alignment or dictionary lookup techniques such as DBpedia Spotlight still prevail. We propose a generic open-domain OOV-oriented extractive model that is based on distant supervision of a pointer-generator network leveraging bidirectional LSTMs and a copy mechanism. The model has been trained on a large annotated corpus compiled specifically for this task from 250K Wikipedia pages, and tested on regular pages, where the pointers to other pages are considered as ground truth concepts. The outcome of the experiments shows that our model significantly outperforms standard techniques and, when used on top of DBpedia Spotlight, further improves its performance. The experiments furthermore show that the model can be readily ported to other datasets on which it equally achieves a state-of-the-art performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-25T22:28:14Z</published>
+    <arxiv:comment>Contribution to the Proceedings of the 22nd International Conference on Knowledge Engineering and Knowledge Management (EKAW 2020). A link to the final authenticated publication will be added once it is available online. Keywords: Open-domain discourse texts, Concept extraction, Pointer-generator neural network, Distant supervision</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Alexander Shvets</name>
+    </author>
+    <author>
+      <name>Leo Wanner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.03104v2</id>
+    <title>Hybrid Pointer Networks for Traveling Salesman Problems Optimization</title>
+    <updated>2021-10-13T23:46:52Z</updated>
+    <link href="https://arxiv.org/abs/2110.03104v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.03104v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, a novel idea is presented for combinatorial optimization problems, a hybrid network, which results in a superior outcome. We applied this method to graph pointer networks [1], expanding its capabilities to a higher level. We proposed a hybrid pointer network (HPN) to solve the travelling salesman problem trained by reinforcement learning. Furthermore, HPN builds upon graph pointer networks which is an extension of pointer networks with an additional graph embedding layer. HPN outperforms the graph pointer network in solution quality due to the hybrid encoder, which provides our model with a verity encoding type, allowing our model to converge to a better policy. Our network significantly outperforms the original graph pointer network for small and large-scale problems increasing its performance for TSP50 from 5.959 to 5.706 without utilizing 2opt, Pointer networks, Attention model, and a wide range of models, producing results comparable to highly tuned and specialized algorithms. We make our data, models, and code publicly available [2].</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-06T23:35:04Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ahmed Stohy</name>
+    </author>
+    <author>
+      <name>Heba-Tullah Abdelhakam</name>
+    </author>
+    <author>
+      <name>Sayed Ali</name>
+    </author>
+    <author>
+      <name>Mohammed Elhenawy</name>
+    </author>
+    <author>
+      <name>Abdallah A Hassan</name>
+    </author>
+    <author>
+      <name>Mahmoud Masoud</name>
+    </author>
+    <author>
+      <name>Sebastien Glaser</name>
+    </author>
+    <author>
+      <name>Andry Rakotonirainy</name>
+    </author>
+    <arxiv:doi>10.1371/journal.pone.0260995</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1371/journal.pone.0260995" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.09225v1</id>
+    <title>On the Capabilities of Pointer Networks for Deep Deductive Reasoning</title>
+    <updated>2021-06-17T03:25:20Z</updated>
+    <link href="https://arxiv.org/abs/2106.09225v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.09225v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The importance of building neural networks that can learn to reason has been well recognized in the neuro-symbolic community. In this paper, we apply neural pointer networks for conducting reasoning over symbolic knowledge bases. In doing so, we explore the benefits and limitations of encoder-decoder architectures in general and pointer networks in particular for developing accurate, generalizable and robust neuro-symbolic reasoners. Based on our experimental results, pointer networks performs remarkably well across multiple reasoning tasks while outperforming the previously reported state of the art by a significant margin. We observe that the Pointer Networks preserve their performance even when challenged with knowledge graphs of the domain/vocabulary it has never encountered before. To the best of our knowledge, this is the first study on neuro-symbolic reasoning using Pointer Networks. We hope our impressive results on these reasoning problems will encourage broader exploration of pointer networks' capabilities for reasoning over more complex logics and for other neuro-symbolic problems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-17T03:25:20Z</published>
+    <arxiv:comment>14 pages, 1 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Monireh Ebrahimi</name>
+    </author>
+    <author>
+      <name>Aaron Eberhart</name>
+    </author>
+    <author>
+      <name>Pascal Hitzler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.09573v2</id>
+    <title>Code Completion with Neural Attention and Pointer Networks</title>
+    <updated>2018-05-14T15:04:18Z</updated>
+    <link href="https://arxiv.org/abs/1711.09573v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.09573v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Intelligent code completion has become an essential research task to accelerate modern software development. To facilitate effective code completion for dynamically-typed programming languages, we apply neural language models by learning from large codebases, and develop a tailored attention mechanism for code completion. However, standard neural language models even with attention mechanism cannot correctly predict the out-of-vocabulary (OoV) words that restrict the code completion performance. In this paper, inspired by the prevalence of locally repeated terms in program source code, and the recently proposed pointer copy mechanism, we propose a pointer mixture network for better predicting OoV words in code completion. Based on the context, the pointer mixture network learns to either generate a within-vocabulary word through an RNN component, or regenerate an OoV word from local context through a pointer component. Experiments on two benchmarked datasets demonstrate the effectiveness of our attention mechanism and pointer mixture network on the code completion task.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-27T08:17:16Z</published>
+    <arxiv:comment>Accepted in IJCAI 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jian Li</name>
+    </author>
+    <author>
+      <name>Yue Wang</name>
+    </author>
+    <author>
+      <name>Michael R. Lyu</name>
+    </author>
+    <author>
+      <name>Irwin King</name>
+    </author>
+    <arxiv:doi>10.24963/ijcai.2018/578</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.24963/ijcai.2018/578" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.06380v2</id>
+    <title>Pointer Graph Networks</title>
+    <updated>2020-10-18T20:00:59Z</updated>
+    <link href="https://arxiv.org/abs/2006.06380v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.06380v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph neural networks (GNNs) are typically applied to static graphs that are assumed to be known upfront. This static input structure is often informed purely by insight of the machine learning practitioner, and might not be optimal for the actual task the GNN is solving. In absence of reliable domain expertise, one might resort to inferring the latent graph structure, which is often difficult due to the vast search space of possible graphs. Here we introduce Pointer Graph Networks (PGNs) which augment sets or graphs with additional inferred edges for improved model generalisation ability. PGNs allow each node to dynamically point to another node, followed by message passing over these pointers. The sparsity of this adaptable graph structure makes learning tractable while still being sufficiently expressive to simulate complex algorithms. Critically, the pointing mechanism is directly supervised to model long-term sequences of operations on classical data structures, incorporating useful structural inductive biases from theoretical computer science. Qualitatively, we demonstrate that PGNs can learn parallelisable variants of pointer-based data structures, namely disjoint set unions and link/cut trees. PGNs generalise out-of-distribution to 5x larger test inputs on dynamic graph connectivity tasks, outperforming unrestricted GNNs and Deep Sets.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-11T12:52:31Z</published>
+    <arxiv:comment>To appear at NeurIPS 2020 (Spotlight talk)</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Petar Veličković</name>
+    </author>
+    <author>
+      <name>Lars Buesing</name>
+    </author>
+    <author>
+      <name>Matthew C. Overlan</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Oriol Vinyals</name>
+    </author>
+    <author>
+      <name>Charles Blundell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.01824v1</id>
+    <title>Discontinuous Constituent Parsing with Pointer Networks</title>
+    <updated>2020-02-05T15:12:03Z</updated>
+    <link href="https://arxiv.org/abs/2002.01824v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.01824v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the most complex syntactic representations used in computational linguistics and NLP are discontinuous constituent trees, crucial for representing all grammatical phenomena of languages such as German. Recent advances in dependency parsing have shown that Pointer Networks excel in efficiently parsing syntactic relations between words in a sentence. This kind of sequence-to-sequence models achieve outstanding accuracies in building non-projective dependency trees, but its potential has not been proved yet on a more difficult task. We propose a novel neural network architecture that, by means of Pointer Networks, is able to generate the most accurate discontinuous constituent representations to date, even without the need of Part-of-Speech tagging information. To do so, we internally model discontinuous constituent structures as augmented non-projective dependency structures. The proposed approach achieves state-of-the-art results on the two widely-used NEGRA and TIGER benchmarks, outperforming previous work by a wide margin.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-05T15:12:03Z</published>
+    <arxiv:comment>Proceedings of AAAI 2020. 8 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Daniel Fernández-González</name>
+    </author>
+    <author>
+      <name>Carlos Gómez-Rodríguez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.00973v2</id>
+    <title>Graph Pointer Neural Networks</title>
+    <updated>2022-01-03T08:40:43Z</updated>
+    <link href="https://arxiv.org/abs/2110.00973v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.00973v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph Neural Networks (GNNs) have shown advantages in various graph-based applications. Most existing GNNs assume strong homophily of graph structure and apply permutation-invariant local aggregation of neighbors to learn a representation for each node. However, they fail to generalize to heterophilic graphs, where most neighboring nodes have different labels or features, and the relevant nodes are distant. Few recent studies attempt to address this problem by combining multiple hops of hidden representations of central nodes (i.e., multi-hop-based approaches) or sorting the neighboring nodes based on attention scores (i.e., ranking-based approaches). As a result, these approaches have some apparent limitations. On the one hand, multi-hop-based approaches do not explicitly distinguish relevant nodes from a large number of multi-hop neighborhoods, leading to a severe over-smoothing problem. On the other hand, ranking-based models do not joint-optimize node ranking with end tasks and result in sub-optimal solutions. In this work, we present Graph Pointer Neural Networks (GPNN) to tackle the challenges mentioned above. We leverage a pointer network to select the most relevant nodes from a large amount of multi-hop neighborhoods, which constructs an ordered sequence according to the relationship with the central node. 1D convolution is then applied to extract high-level features from the node sequence. The pointer-network-based ranker in GPNN is joint-optimized with other parts in an end-to-end manner. Extensive experiments are conducted on six public node classification datasets with heterophilic graphs. The results show that GPNN significantly improves the classification performance of state-of-the-art methods. In addition, analyses also reveal the privilege of the proposed GPNN in filtering out irrelevant neighbors and reducing over-smoothing.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-03T10:18:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tianmeng Yang</name>
+    </author>
+    <author>
+      <name>Yujing Wang</name>
+    </author>
+    <author>
+      <name>Zhihan Yue</name>
+    </author>
+    <author>
+      <name>Yaming Yang</name>
+    </author>
+    <author>
+      <name>Yunhai Tong</name>
+    </author>
+    <author>
+      <name>Jing Bai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.09611v2</id>
+    <title>Dependency Parsing with Bottom-up Hierarchical Pointer Networks</title>
+    <updated>2022-10-25T18:54:23Z</updated>
+    <link href="https://arxiv.org/abs/2105.09611v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.09611v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dependency parsing is a crucial step towards deep language understanding and, therefore, widely demanded by numerous Natural Language Processing applications. In particular, left-to-right and top-down transition-based algorithms that rely on Pointer Networks are among the most accurate approaches for performing dependency parsing. Additionally, it has been observed for the top-down algorithm that Pointer Networks' sequential decoding can be improved by implementing a hierarchical variant, more adequate to model dependency structures. Considering all this, we develop a bottom-up-oriented Hierarchical Pointer Network for the left-to-right parser and propose two novel transition-based alternatives: an approach that parses a sentence in right-to-left order and a variant that does it from the outside in. We empirically test the proposed neural architecture with the different algorithms on a wide variety of languages, outperforming the original approach in practically all of them and setting new state-of-the-art results on the English and Chinese Penn Treebanks for non-contextualized and BERT-based embeddings.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-20T09:10:42Z</published>
+    <arxiv:comment>Final peer-reviewed manuscript accepted for publication in Information Fusion</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Daniel Fernández-González</name>
+    </author>
+    <author>
+      <name>Carlos Gómez-Rodríguez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.01087v1</id>
+    <title>Stack-Pointer Networks for Dependency Parsing</title>
+    <updated>2018-05-03T02:23:28Z</updated>
+    <link href="https://arxiv.org/abs/1805.01087v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.01087v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a novel architecture for dependency parsing: \emph{stack-pointer networks} (\textbf{\textsc{StackPtr}}). Combining pointer networks~\citep{vinyals2015pointer} with an internal stack, the proposed model first reads and encodes the whole sentence, then builds the dependency tree top-down (from root-to-leaf) in a depth-first fashion. The stack tracks the status of the depth-first search and the pointer networks select one child for the word at the top of the stack at each step. The \textsc{StackPtr} parser benefits from the information of the whole sentence and all previously derived subtree structures, and removes the left-to-right restriction in classical transition-based parsers. Yet, the number of steps for building any (including non-projective) parse tree is linear in the length of the sentence just as other transition-based parsers, yielding an efficient decoding algorithm with $O(n^2)$ time complexity. We evaluate our model on 29 treebanks spanning 20 languages and different dependency annotation schemas, and achieve state-of-the-art performance on 21 of them.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-03T02:23:28Z</published>
+    <arxiv:comment>Accepted by ACL-2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xuezhe Ma</name>
+    </author>
+    <author>
+      <name>Zecong Hu</name>
+    </author>
+    <author>
+      <name>Jingzhou Liu</name>
+    </author>
+    <author>
+      <name>Nanyun Peng</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+    <author>
+      <name>Eduard Hovy</name>
+    </author>
+  </entry>
+</feed>

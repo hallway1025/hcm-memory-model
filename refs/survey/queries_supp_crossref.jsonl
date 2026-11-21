@@ -1,0 +1,16 @@
+{"area":"B_forget","query":"machine unlearning","channel":"crossref","n":15,"module":"B_forget","role":"survey"}
+{"area":"B_forget","query":"fuzzy trace theory gist verbatim","channel":"crossref","n":10,"module":"B_forget","role":"survey"}
+{"area":"C_neuro","query":"eligibility traces synaptic plasticity","channel":"crossref","n":10,"module":"C_neuro","role":"survey"}
+{"area":"C_neuro","query":"locus coeruleus novelty memory","channel":"crossref","n":10,"module":"C_neuro","role":"survey"}
+{"area":"C_neuro","query":"acetylcholine forgetting consolidation hippocampus","channel":"crossref","n":10,"module":"C_neuro","role":"survey"}
+{"area":"A_timescale","query":"temporal receptive fields hippocampus sequence","channel":"crossref","n":10,"module":"A_timescale","role":"survey"}
+{"area":"A_timescale","query":"multiple time scales neural dynamics memory","channel":"crossref","n":10,"module":"A_timescale","role":"survey"}
+{"area":"D_consolidation","query":"synaptic consolidation cascade model","channel":"crossref","n":10,"module":"D_consolidation","role":"survey"}
+{"area":"D_consolidation","query":"systems consolidation sleep replay hippocampus","channel":"crossref","n":15,"module":"D_consolidation","role":"survey"}
+{"area":"E_wm","query":"theta gamma coupling working memory","channel":"crossref","n":10,"module":"E_wm","role":"survey"}
+{"area":"F_capacity","query":"Hopfield network storage capacity","channel":"crossref","n":10,"module":"F_capacity","role":"survey"}
+{"area":"G_structure","query":"successor representation hippocampus","channel":"crossref","n":10,"module":"G_structure","role":"survey"}
+{"area":"G_structure","query":"cognitive map relational memory","channel":"crossref","n":10,"module":"G_structure","role":"survey"}
+{"area":"H_scale","query":"sparse distributed memory","channel":"crossref","n":10,"module":"H_scale","role":"survey"}
+{"area":"H_scale","query":"locality sensitive hashing similarity search","channel":"crossref","n":10,"module":"H_scale","role":"survey"}
+{"area":"I_confidence","query":"confidence memory retrieval metacognition","channel":"crossref","n":15,"module":"I_confidence","role":"survey"}

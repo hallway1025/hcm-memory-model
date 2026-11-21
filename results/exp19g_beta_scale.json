@@ -1,0 +1,218 @@
+[
+ {
+  "seed": 0,
+  "beta": 20.0,
+  "level": 0.1,
+  "top1": 39,
+  "abstain": 0,
+  "m1_mean": 0.769,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "beta": 20.0,
+  "level": 0.25,
+  "top1": 8,
+  "abstain": 0,
+  "m1_mean": 0.4606,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "beta": 20.0,
+  "level": 0.35,
+  "top1": 0,
+  "abstain": 0,
+  "m1_mean": 0.3929,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "beta": 100.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7788,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "beta": 100.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7734,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "beta": 100.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7874,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "beta": 500.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7788,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "beta": 500.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7734,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "beta": 500.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7874,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "beta": 2500.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7788,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "beta": 2500.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7734,
+  "n_probes": 40
+ },
+ {
+  "seed": 0,
+  "beta": 2500.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7874,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "beta": 20.0,
+  "level": 0.1,
+  "top1": 39,
+  "abstain": 0,
+  "m1_mean": 0.788,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "beta": 20.0,
+  "level": 0.25,
+  "top1": 12,
+  "abstain": 0,
+  "m1_mean": 0.5132,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "beta": 20.0,
+  "level": 0.35,
+  "top1": 0,
+  "abstain": 0,
+  "m1_mean": 0.3924,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "beta": 100.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7951,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "beta": 100.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7837,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "beta": 100.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.797,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "beta": 500.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7951,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "beta": 500.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7837,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "beta": 500.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.797,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "beta": 2500.0,
+  "level": 0.1,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7951,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "beta": 2500.0,
+  "level": 0.25,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.7837,
+  "n_probes": 40
+ },
+ {
+  "seed": 1,
+  "beta": 2500.0,
+  "level": 0.35,
+  "top1": 40,
+  "abstain": 0,
+  "m1_mean": 0.797,
+  "n_probes": 40
+ }
+]

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8jPD8XrL8dOsZJj/FG+Jq03GFYE</id>
+  <title>arXiv Query: search_query=&amp;id_list=1806.00588&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:30:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=1806.00588" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1806.00588v1</id>
+    <title>Fast Locality Sensitive Hashing for Beam Search on GPU</title>
+    <updated>2018-06-02T06:18:15Z</updated>
+    <link href="https://arxiv.org/abs/1806.00588v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.00588v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a GPU-based Locality Sensitive Hashing (LSH) algorithm to speed up beam search for sequence models. We utilize the winner-take-all (WTA) hash, which is based on relative ranking order of hidden dimensions and thus resilient to perturbations in numerical values. Our algorithm is designed by fully considering the underling architecture of CUDA-enabled GPUs (Algorithm/Architecture Co-design): 1) A parallel Cuckoo hash table is applied for LSH code lookup (guaranteed O(1) lookup time); 2) Candidate lists are shared across beams to maximize the parallelism; 3) Top frequent words are merged into candidate lists to improve performance. Experiments on 4 large-scale neural machine translation models demonstrate that our algorithm can achieve up to 4x speedup on softmax module, and 2x overall speedup without hurting BLEU on GPU.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-02T06:18:15Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xing Shi</name>
+    </author>
+    <author>
+      <name>Shizhen Xu</name>
+    </author>
+    <author>
+      <name>Kevin Knight</name>
+    </author>
+  </entry>
+</feed>

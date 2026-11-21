@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jpQTmYejuU70cyT+YZenFIzmfSE</id>
+  <title>arXiv Query: search_query=all:byte-level AND all:embedding&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T14:11:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:byte-level+AND+all:embedding&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>72</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2106.13302v1</id>
+    <title>byteSteady: Fast Classification Using Byte-Level n-Gram Embeddings</title>
+    <updated>2021-06-24T20:14:48Z</updated>
+    <link href="https://arxiv.org/abs/2106.13302v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.13302v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article introduces byteSteady -- a fast model for classification using byte-level n-gram embeddings. byteSteady assumes that each input comes as a sequence of bytes. A representation vector is produced using the averaged embedding vectors of byte-level n-grams, with a pre-defined set of n. The hashing trick is used to reduce the number of embedding vectors. This input representation vector is then fed into a linear classifier. A straightforward application of byteSteady is text classification. We also apply byteSteady to one type of non-language data -- DNA sequences for gene classification. For both problems we achieved competitive classification results against strong baselines, suggesting that byteSteady can be applied to both language and non-language data. Furthermore, we find that simple compression using Huffman coding does not significantly impact the results, which offers an accuracy-speed trade-off previously unexplored in machine learning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-24T20:14:48Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiang Zhang</name>
+    </author>
+    <author>
+      <name>Alexandre Drouin</name>
+    </author>
+    <author>
+      <name>Raymond Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.29459v1</id>
+    <title>Kronecker Embeddings: Byte-Level Structured Token Representations for Parameter-Efficient Language Models</title>
+    <updated>2026-05-28T06:53:18Z</updated>
+    <link href="https://arxiv.org/abs/2605.29459v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.29459v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models route every input through a learned embedding table of shape |V| x d_model, consuming hundreds of millions to billions of trainable parameters at frontier scale. We introduce Kronecker Embeddings, a deterministic byte-level character-position factorization that replaces this table with a fixed encoder and a single learned projection, compatible with standard BPE tokenizers, eliminating 91--94% of input-side trainable parameters at frontier scale. We provide five contributions. First, a cross-model probe across six LMs (135M-671B parameters) shows trained input embeddings cluster typographic variants of the probe word far more than morphological relatives; Kronecker escapes this clustering at the embedding layer. Second, a controlled three-seed comparison on nanoGPT GPT-2 124M over 2.5B tokens of FineWeb-Edu shows Kronecker reaching 2.5 +- 0.2% lower validation loss than the BPE-tied baseline (gap 0.083 +- 0.007 nats, ~9% lower perplexity), needing ~1.43x fewer steps to reach BPE's converged loss. Third, a spelling-robustness probe over 110 clean/typo pairs shows Kronecker preserves the top-1 prediction on 55.5% of pairs vs. 47.3% for BPE (+8.2 pp) and lowers KL by 7.6%, winning or tying in 10 of 11 categories; a generation probe shows Kronecker echoes byte-novel strings and typos through generation where BPE forgets them. Fourth, BPE embedding norm drifts during training while Kronecker projection norm stays near 1.0, consistent with a stable representational target. Fifth, an on-the-fly runtime variant reconstructs embeddings from a 4.5 MB byte buffer rather than a 2.15 GB table at vocabulary 131,072, with 0.01--0.24% step-time overhead. Byte-level locality has a tradeoff: byte-similar but semantically distant pairs (compute/commute, nation/notion) cluster together, shifting disambiguation to early attention layers.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T06:53:18Z</published>
+    <arxiv:comment>28 pages, 16 tables. Reference implementation: https://github.com/theschoolofai/kronecker-embeddings</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rohan Shravan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.03341v2</id>
+    <title>Neural Machine Translation with Byte-Level Subwords</title>
+    <updated>2019-12-05T19:29:29Z</updated>
+    <link href="https://arxiv.org/abs/1909.03341v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.03341v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Almost all existing machine translation models are built on top of character-based vocabularies: characters, subwords or words. Rare characters from noisy text or character-rich languages such as Japanese and Chinese however can unnecessarily take up vocabulary slots and limit its compactness. Representing text at the level of bytes and using the 256 byte set as vocabulary is a potential solution to this issue. High computational cost has however prevented it from being widely deployed or used in practice. In this paper, we investigate byte-level subwords, specifically byte-level BPE (BBPE), which is compacter than character vocabulary and has no out-of-vocabulary tokens, but is more efficient than using pure bytes only is. We claim that contextualizing BBPE embeddings is necessary, which can be implemented by a convolutional or recurrent layer. Our experiments show that BBPE has comparable performance to BPE while its size is only 1/8 of that for BPE. In the multilingual setting, BBPE maximizes vocabulary sharing across many languages and achieves better translation quality. Moreover, we show that BBPE enables transferring models between languages with non-overlapping character sets.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-07T21:29:46Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Changhan Wang</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Jiatao Gu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01007v2</id>
+    <title>Distilling Token-Trained Models into Byte-Level Models</title>
+    <updated>2026-10-05T03:59:26Z</updated>
+    <link href="https://arxiv.org/abs/2602.01007v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01007v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Byte Language Models (BLMs) have emerged as a promising direction for scaling language models beyond tokenization. However, existing BLMs typically require training from scratch on trillions of bytes, making them prohibitively expensive. In this paper, we propose an efficient distillation recipe that converts existing token-trained LLMs into BLMs while retaining comparable capabilities. Our recipe follows a two-stage curriculum: (1) Progressive Knowledge Distillation, which aligns byte-level representations with the embeddings of the token-trained teacher model; and (2) Byte-Level Supervised Fine-Tuning, which enables end-to-end generation entirely in the byte space. We validate our approach across multiple model families, including Llama, Qwen, and OLMo, and demonstrate that the distilled BLMs retain most of the teacher models' performance using only approximately 125B bytes.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T04:16:49Z</published>
+    <arxiv:comment>17 pages, 3 figures, 13 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zishuo Bao</name>
+    </author>
+    <author>
+      <name>Jiaqi Leng</name>
+    </author>
+    <author>
+      <name>Junxiong Wang</name>
+    </author>
+    <author>
+      <name>Bowen Peng</name>
+    </author>
+    <author>
+      <name>Yucheng Lu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.27658v1</id>
+    <title>When Tokenizers Fail: Byte-Level Chunking for Zero-Shot Transfer to Low-Resource Languages</title>
+    <updated>2026-08-27T19:45:54Z</updated>
+    <link href="https://arxiv.org/abs/2608.27658v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.27658v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Subword tokenization hinders low-resource language processing by imposing frequency patterns from dominant languages onto script-sharing variants. Byte-level models bypass this issue by processing raw UTF-8 characters, yet they create a granularity mismatch for word-level tasks in non-Latin scripts. Hierarchical byte-level architectures address this mismatch by grouping bytes into word-aligned chunks. However, these architectures require massive training data and suffer from representational misalignment when paired with frozen subword-based language models. In this paper, we propose an adapted hierarchical network framework that bridges this modality gap without extensive training. Our method initializes byte embeddings directly from the subword representations of a frozen base model. We apply a chunk alignment loss to project dynamically grouped byte chunks toward precomputed subword targets, and interleave lightweight part-of-speech (POS) supervision to guide boundary detection. Experiments across six languages demonstrate that our tokenizer-free approach improves performance for word-level morphological tasks, yielding up to a 13.3% improvement on POS tagging.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-27T19:45:54Z</published>
+    <arxiv:comment>Accepted to EMNLP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sanjeev Kumar</name>
+    </author>
+    <author>
+      <name>Atsuki Yamaguchi</name>
+    </author>
+    <author>
+      <name>Nikolaos Aletras</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.00582v1</id>
+    <title>Writing-System-Level Tokenizer Adaptation for Byte-Level BPE</title>
+    <updated>2026-08-01T10:38:23Z</updated>
+    <link href="https://arxiv.org/abs/2608.00582v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.00582v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pretrained byte-level BPE tokenizers can segment underrepresented languages inefficiently. Replacing a tokenizer changes the meaning of nearly every token ID, while vocabulary expansion enlarges the model's embedding and output matrices. We study post-hoc adaptation that keeps the model-vocabulary size fixed and preserves most existing token-to-ID assignments as a construction-time compatibility property. Directly transferring tokens from a language-specific tokenizer does not guarantee derivability through the target BPE merge graph: an inserted entry can conflict with the target's greedy merge ranks. We formalize this failure as the merge ordering problem and introduce BPE-guided insertion, which builds each transferred token through a target-reachable decomposition. Our pipeline uses script-aware row selection to limit collateral fragmentation, reconstructs target-script byte-level prerequisites, and applies guided insertion to maintain merge-graph reachability. On Ukrainian adaptations of Nemotron and GPT-OSS, it reduces token counts by 33.5% and 36.6%, keeps changes on English and the evaluated four-language European aggregate within 0.05%, and retains 78.5%/77.3% of original model-vocabulary rows at the same IDs. Constraint-matched global and frequency-based removal achieve similar Ukrainian compression but increase English/European token counts by 0.7-2.2%; fresh same-size retraining compresses Ukrainian slightly more but retains effectively no same-ID rows and increases English token counts by 7.6-8.6%. The reallocation increases token counts on the evaluated three-language Cyrillic micro-aggregate by 6.7%/10.1%. Structural audits find all 28,134/45,398 inserted BPE nodes reachable under ordinary rank-ordered merging and no retained same-ID model-vocabulary entry newly broken. We release all tokenizers and code.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-01T10:38:23Z</published>
+    <arxiv:comment>15 pages. Accepted for poster presentation at the Second Tokenization Workshop (TokShop) at COLM 2026 (non-archival)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Bohdan Didenko</name>
+      <arxiv:affiliation>Lviv Polytechnic National University</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.14658v1</id>
+    <title>pico-type: A 1.5M-Parameter Byte-Level Multi-Head Content Classifier</title>
+    <updated>2026-07-31T12:20:03Z</updated>
+    <link href="https://arxiv.org/abs/2608.14658v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.14658v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce pico-type, a byte-level multi-head content classifier with approximately 1.5 million parameters that simultaneously predicts seven content properties from raw UTF-8 bytes in a single forward pass. Operating directly at the byte level -- no tokenizer, no subword vocabulary, no pretrained embeddings -- pico-type classifies coarse type (12 classes), modality (8), subtype (24), code language (62), text language (30), file MIME type (90), and risk flags (6-label multi-label: API keys, JWTs, passwords, emails, phone numbers, SSH keys). The architecture combines a learned byte embedding, three convolutional blocks with growing receptive fields, two bidirectional attention layers with rotary position encodings, and a statistical pooling layer feeding seven Matryoshka-style classification heads. Four tiered variants (tiny/small/base/pro) share the same trunk with sliced representations from 16 to 576 dimensions, yielding ONNX exports under 210 KB and CPU inference under 10 ms. Trained on a mixture of synthetic templates and real-world data (8709 GitHub code samples, 5000 Wikipedia articles), pico-type achieves 60.3 percent code language accuracy on The Heap benchmark (24 languages) and 98.2 percent text language accuracy on Wikipedia (30 languages) -- improvements of +57 and +79 percentage points respectively over the synthetic-only baseline. Format-based heads (coarse, modality, subtype, file_mime, risk) maintain 100 percent accuracy on synthetic benchmarks. The model, code, and pretrained weights are released under Apache 2.0.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-31T12:20:03Z</published>
+    <arxiv:comment>14 pages, 1 figure, 8 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Gautam Kishore</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.16987v1</id>
+    <title>Back to Bytes: Revisiting Tokenization Through UTF-8</title>
+    <updated>2025-10-19T20:06:12Z</updated>
+    <link href="https://arxiv.org/abs/2510.16987v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.16987v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present UTF8Tokenizer, a minimalist byte-level tokenizer that maps text exactly to IDs corresponding to the bytes underlying the text's UTF-8 encoding (e.g., byte x09 is token ID 9). Unlike prior byte-level approaches (Xue et al., 2021; Pagnoni et al., 2025), our implementation never introduces out-of-range IDs (i.e. there is no token ID 256) or auxiliary tokens: all special behavior (e.g., padding, boundaries, conversation structure, attention segments, tool calling, "thinking" spans, etc.) is encoded using C0 control bytes - just as ASCII was originally designed to embed control information alongside printable text. These design principles yield practical benefits: (1) faster tokenization (14x) and significantly lower host-device transfer (8x less than int64); (2) simple, shareable 256*d embedding tables that can be aligned across models; and (3) a training-time enhancement via bit-biased embeddings, which exposes per-byte bit structure and can be added to the embedding table post-training, removing inference costs. Our HuggingFace-compatible implementation improves language modeling convergence.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-19T20:06:12Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Amit Moryossef</name>
+    </author>
+    <author>
+      <name>Clara Meister</name>
+    </author>
+    <author>
+      <name>Pavel Stepachev</name>
+    </author>
+    <author>
+      <name>Desmond Elliott</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.11035v2</id>
+    <title>MonoByte: A Pool of Monolingual Byte-level Language Models</title>
+    <updated>2022-09-27T11:55:33Z</updated>
+    <link href="https://arxiv.org/abs/2209.11035v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.11035v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The zero-shot cross-lingual ability of models pretrained on multilingual and even monolingual corpora has spurred many hypotheses to explain this intriguing empirical result. However, due to the costs of pretraining, most research uses public models whose pretraining methodology, such as the choice of tokenization, corpus size, and computational budget, might differ drastically. When researchers pretrain their own models, they often do so under a constrained budget, and the resulting models might underperform significantly compared to SOTA models. These experimental differences led to various inconsistent conclusions about the nature of the cross-lingual ability of these models. To help further research on the topic, we released 10 monolingual byte-level models rigorously pretrained under the same configuration with a large compute budget (equivalent to 420 days on a V100) and corpora that are 4 times larger than the original BERT's. Because they are tokenizer-free, the problem of unseen token embeddings is eliminated, thus allowing researchers to try a wider range of cross-lingual experiments in languages with different scripts. Additionally, we release two models pretrained on non-natural language texts that can be used in sanity-check experiments. Experiments on QA and NLI tasks show that our monolingual models achieve competitive performance to the multilingual one, and hence can be served to strengthen our understanding of cross-lingual transferability in language models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-22T14:32:48Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hugo Abonizio</name>
+    </author>
+    <author>
+      <name>Leandro Rodrigues de Souza</name>
+    </author>
+    <author>
+      <name>Roberto Lotufo</name>
+    </author>
+    <author>
+      <name>Rodrigo Nogueira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.28151v1</id>
+    <title>Nested Byte-Level Vocabularies Are Cheap to Deploy and Expensive to Share: A Pre-Registered Negative Result</title>
+    <updated>2026-08-28T10:13:32Z</updated>
+    <link href="https://arxiv.org/abs/2608.28151v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.28151v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A byte-level BPE tokenizer is an ordered list of merge rules, so applying only a prefix yields a vocabulary whose token identifiers are the first rows of the full vocabulary. This prefix nesting allows one language model to operate at several vocabulary sizes, use a control token to indicate the active size, and be deployed at any trained size by slicing its embedding and output head. We pre-registered five claims, including margins, seeds, contrasts, and a stop rule, and trained 30 models with 3.1M- and 10.6M-parameter bodies on 200M tokens each. Slicing is numerically exact: across 76 checks, a sliced model reproduces the restricted full model's logits bit for bit and removes 66% of deployed weights without changing latency. However, the shared model trails a fixed-cap specialist by 3.64% bits per byte at 32k against a 1% margin, and by 2.96% at 8k against a 2% margin. A 2x2 ablation separating the control token from output restriction finds that the token changes performance by +0.07% to +0.13%, with all intervals crossing zero, while output restriction costs +0.47% to +1.19%; the factors are substitutes rather than complements. Multi-cap training nevertheless improves robustness: under typographical noise, the same checkpoint degrades 12.5--15.4 points less in its fine mode and outperforms each fixed-cap specialist at that specialist's vocabulary size. A control with neither cap token nor output restriction is equally robust, attributing this benefit to multi-granularity training rather than conditioning. The per-cap penalty tracks each cap's share of training rows, yielding a falsifiable prediction for future work.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-28T10:13:32Z</published>
+    <arxiv:comment>5 pages, 2 figures, 4 tables. Pre-registered study. Code and reproducibility materials: https://github.com/unseen1980/captok</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Christos Koutsiaris</name>
+    </author>
+  </entry>
+</feed>

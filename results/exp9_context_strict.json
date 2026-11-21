@@ -1,0 +1,42 @@
+[
+ {
+  "use_ctx": false,
+  "kappa": 0.0,
+  "nA": 8,
+  "nB": 7,
+  "A": 8,
+  "B": 7,
+  "totA": 8,
+  "totB": 7
+ },
+ {
+  "use_ctx": true,
+  "kappa": 0.0,
+  "nA": 8,
+  "nB": 7,
+  "A": 8,
+  "B": 7,
+  "totA": 8,
+  "totB": 7
+ },
+ {
+  "use_ctx": true,
+  "kappa": 1.0,
+  "nA": 8,
+  "nB": 7,
+  "A": 8,
+  "B": 7,
+  "totA": 8,
+  "totB": 7
+ },
+ {
+  "use_ctx": true,
+  "kappa": 3.0,
+  "nA": 8,
+  "nB": 7,
+  "A": 8,
+  "B": 7,
+  "totA": 8,
+  "totB": 7
+ }
+]

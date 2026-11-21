@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["33333316"],"translationset":[],"querytranslation":"\"10 1016 j nlm 2020 107362\"[Publisher ID]"}}

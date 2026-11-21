@@ -1,0 +1,13 @@
+refs=435 with_pmid=266
+  50/266 ok=48 flag=2 nohit=0
+  100/266 ok=97 flag=3 nohit=0
+  150/266 ok=147 flag=3 nohit=0
+  200/266 ok=197 flag=3 nohit=0
+  250/266 ok=244 flag=6 nohit=0
+DONE checked=266 ok=260 flag=6 no_hit=0 -> <user-home>\Desktop\Deepseek Harmness测试区\brain-memory-model\audit\pmid-crossface-report.json
+FLAG {"ref": "R047", "pmid": "8136062", "issue": "DOI_MISMATCH", "ratio": 1.0, "doi_ok": false, "bank_title": "Lack of a temporal gradient of retrograde amnesia in rats with amygdala lesions assessed with the fe", "epmc_title
+FLAG {"ref": "R052", "pmid": "42964273", "issue": "TITLE_MISMATCH", "ratio": 0.192, "doi_ok": false, "bank_title": "Emergent collective computational abilities in interacting particle systems", "epmc_title": "Sleep and Cognit
+FLAG {"ref": "R113", "pmid": "28118817", "issue": "TITLE_MISMATCH", "ratio": 0.125, "doi_ok": false, "bank_title": "Is Dreaming Related to Sleep-Dependent Memory Consolidation?", "epmc_title": "Multiple triangulation and coll
+FLAG {"ref": "R309", "pmid": "42980810", "issue": "TITLE_MISMATCH", "ratio": 0.24, "doi_ok": false, "bank_title": "Magical Number Seven Plus or Minus Two: Syntactic Structure Recognition in Japanese and English Sent", "epmc_t
+FLAG {"ref": "R319", "pmid": "7931095", "issue": "DOI_MISMATCH", "ratio": 1.0, "doi_ok": false, "bank_title": "Remembering can cause forgetting: Retrieval dynamics in long-term memory.", "epmc_title": "Remembering can cause f
+FLAG {"ref": "R382", "pmid": "15683132", "issue": "TITLE_MISMATCH", "ratio": 0.488, "doi_ok": true, "bank_title": "Dissecting Sleep-Dependent Learning and Memory Consolidation", "epmc_title": "Dissecting sleep-dependent learn

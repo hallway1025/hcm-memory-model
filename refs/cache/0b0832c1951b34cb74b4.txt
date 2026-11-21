@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mKcvV5Ebg7Ij6LGmhJ+jvQ8Pyig</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.14709&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:32:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.14709" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.14709v1</id>
+    <title>Attention as Binding: A Vector-Symbolic Perspective on Transformer Reasoning</title>
+    <updated>2025-12-08T05:38:24Z</updated>
+    <link href="https://arxiv.org/abs/2512.14709v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.14709v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformer-based language models display impressive reasoning-like behavior, yet remain brittle on tasks that require stable symbolic manipulation. This paper develops a unified perspective on these phenomena by interpreting self-attention and residual streams as implementing an approximate Vector Symbolic Architecture (VSA). In this view, queries and keys define role spaces, values encode fillers, attention weights perform soft unbinding, and residual connections realize superposition of many bound structures. We use this algebraic lens to relate transformer internals to chain-of-thought traces, program-based reasoning, and memory-augmented tool use, and to explain characteristic failure modes such as variable confusion and inconsistency across logically related prompts. Building on this perspective, we propose VSA-inspired architectural biases, including explicit binding/unbinding heads and hyperdimensional memory layers, and training objectives that promote role-filler separation and robust superposition. Finally, we outline metrics for measuring "VSA-likeness" and logical compositionality, and pose theoretical and architectural open problems. Overall, the paper argues that viewing attention as soft vector-symbolic computation offers a principled route toward more interpretable and logically reliable reasoning systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-08T05:38:24Z</published>
+    <arxiv:comment>12 pages with references. Submitted to 'Logical and Symbolic Reasoning in Language Models @ AAAI 2026' conference and is under review</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sahil Rajesh Dhayalkar</name>
+    </author>
+  </entry>
+</feed>

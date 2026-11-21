@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UpskfM+9dfzxbXMKrXcgq8P+RG0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2507.13638,2609.00358,2209.10627,2605.31163,2610.29823,2601.20465,2609.32521&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:52:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2507.13638,2609.00358,2209.10627,2605.31163,2610.29823,2601.20465,2609.32521" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.00358v1</id>
+    <title>Where Should Experience Live? Hierarchical Hebbian Memory for Continual Vision Transformers</title>
+    <updated>2026-08-31T20:51:51Z</updated>
+    <link href="https://arxiv.org/abs/2609.00358v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.00358v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision Transformers provide strong visual representations but typically rely on slowly updated parameters, limiting their ability to organize newly acquired information across different memory timescales. This work proposes \textit{Hierarchical Hebbian Memory}, a three-level memory architecture composed of rapid Working Memory, persistent Routed Episodic Memory, and slower Semantic Memory. A learned controller regulates memory contribution, read and write routing, plasticity, retention, and consolidation. A causal read-before-write lifecycle ensures that the current outcome cannot influence the prediction it supervises. The architecture is evaluated on Omniglot 5-way 1-shot recognition and CORe50 continual object recognition. With Swin-Tiny, the hierarchical model reaches 97.39\% accuracy on Omniglot and 95.37\% final accuracy on CORe50 when combined with experience replay. Learned multi-bank retrieval reaches 47.50\% delayed-association accuracy, compared with 24.17\% for a single persistent bank and 25.00\% without memory. After intervening distractors, Episodic Memory retains approximately 0.96 cosine similarity with stored associations, while Working Memory falls to approximately 0.05. These results show that Hebbian association and learned memory routing can jointly organize online visual experience across rapid, persistent, and consolidated memory timescales within Vision Transformers.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-31T20:51:51Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mohammed Yusuf Mujawar</name>
+    </author>
+    <author>
+      <name>Noorbakhsh Amiri Golilarz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.31163v5</id>
+    <title>Memory by Design: Bayesian Layers for Sequence Modeling</title>
+    <updated>2026-10-14T01:01:27Z</updated>
+    <link href="https://arxiv.org/abs/2605.31163v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.31163v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the \emph{design-model framework}: a way to derive efficient recurrent sequence maps from explicit assumptions about memory. A design model writes evidence into memory by exact Bayesian filtering; a query- dependent readout produces a predictive distribution whose mean is the layer output. In our linear-Gaussian instantiation, the \emph{Bayesian Layer} propagates both a mean and a covariance: the covariance tracks uncertainty over stored associations, steering writes toward uncertain directions, attenuating gains as evidence accumulates, and preserving confident memories. The same framework unifies several sub-quadratic recurrences: linear attention, GLA, and Mamba-2/SSD are exact filters under a latent-input design model, whereas DeltaNet and related Delta-rule models are covariance-reset reductions of the Bayesian Layer's design model. Restoring covariance propagation yields closed-form predictions for retrieval dynamics, which we verify empirically, and improves robustness beyond the training regime in controlled collision studies, learned associative recall, and the Zoology MQAR benchmark. Training from scratch on WikiText-103 under matched state budgets lowers perplexity on associative-recall hits. Distilling Bayesian Layers into a pretrained 340M Gated DeltaNet improves RULER long-context retrieval over a matched-compute control, at a 2.5--2.7\% held-out perplexity cost.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-29T11:13:00Z</published>
+    <arxiv:comment>Preprint, in submission</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Matthew Dowling</name>
+    </author>
+    <author>
+      <name>Hyungju Jeon</name>
+    </author>
+    <author>
+      <name>Cristina Savin</name>
+    </author>
+    <author>
+      <name>Il Memming Park</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.29823v1</id>
+    <title>MemoryTax: The Bitter Lesson of Agent Memory</title>
+    <updated>2026-10-21T14:46:27Z</updated>
+    <link href="https://arxiv.org/abs/2610.29823v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.29823v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agent memory systems such as Mem0 and Zep decide what to keep before any question arrives; coding agents keep the raw history and let the model search it with its own tools. We ask whether designed memory still helps once the model is strong enough to search for itself. On one LoCoMo conversation (419 turns, 152 questions), we run four memory methods (full context, BM25, Mem0, Zep) and three coding agents (Pi, Codex, Claude Code), each with GPT-4o-mini, GPT-6 Luna and Claude Opus 5.5, and record what every rollout costs. This is a short empirical study, with one conversation and one run per cell. Agent memory is a costly patch for a weak model: Mem0 beats full context only with GPT-4o-mini, and its build alone costs more than a whole full-context rollout. Agent memory also has a ceiling, set by the model that writes it: a stronger reader does not recover what a weaker writer left out. With Claude Opus 5.5, Pi tops the cost-accuracy frontier, scoring 99% for less than half the cost of full context; its one miss is a wrong answer key. Part of that lead comes from photo captions that only the agents could read: on the 88 questions whose evidence has no photo, Pi and full context differ by one answer.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-21T14:46:27Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zedong Peng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.10627v1</id>
+    <title>Seen to Unseen: When Fuzzy Inference System Predicts IoT Device Positioning Labels That Had Not Appeared in Training Phase</title>
+    <updated>2022-09-21T19:51:11Z</updated>
+    <link href="https://arxiv.org/abs/2209.10627v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.10627v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Situating at the core of Artificial Intelligence (AI), Machine Learning (ML), and more specifically, Deep Learning (DL) have embraced great success in the past two decades. However, unseen class label prediction is far less explored due to missing classes being invisible in training ML or DL models. In this work, we propose a fuzzy inference system to cope with such a challenge by adopting TSK+ fuzzy inference engine in conjunction with the Curvature-based Feature Selection (CFS) method. The practical feasibility of our system has been evaluated by predicting the positioning labels of networking devices within the realm of the Internet of Things (IoT). Competitive prediction performance confirms the efficiency and efficacy of our system, especially when a large number of continuous class labels are unseen during the model training stage.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-21T19:51:11Z</published>
+    <arxiv:comment>Accepted by International Conference on Internet of Things, Big Data and Security (IoTBDS) 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Han Xu</name>
+    </author>
+    <author>
+      <name>Zheming Zuo</name>
+    </author>
+    <author>
+      <name>Jie Li</name>
+    </author>
+    <author>
+      <name>Victor Chang</name>
+    </author>
+    <arxiv:doi>10.5220/0011102800003194</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5220/0011102800003194" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20465v1</id>
+    <title>BMAM: Brain-inspired Multi-Agent Memory Framework</title>
+    <updated>2026-01-28T10:36:03Z</updated>
+    <link href="https://arxiv.org/abs/2601.20465v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20465v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language-model-based agents operating over extended interaction horizons face persistent challenges in preserving temporally grounded information and maintaining behavioral consistency across sessions, a failure mode we term soul erosion. We present BMAM (Brain-inspired Multi-Agent Memory), a general-purpose memory architecture that models agent memory as a set of functionally specialized subsystems rather than a single unstructured store. Inspired by cognitive memory systems, BMAM decomposes memory into episodic, semantic, salience-aware, and control-oriented components that operate at complementary time scales. To support long-horizon reasoning, BMAM organizes episodic memories along explicit timelines and retrieves evidence by fusing multiple complementary signals. Experiments on the LoCoMo benchmark show that BMAM achieves 78.45 percent accuracy under the standard long-horizon evaluation setting, and ablation analyses confirm that the hippocampus-inspired episodic memory subsystem plays a critical role in temporal reasoning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T10:36:03Z</published>
+    <arxiv:comment>Submitted to ACL (ARR 2026 January submission); non-anonymous preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yang Li</name>
+    </author>
+    <author>
+      <name>Jiaxiang Liu</name>
+    </author>
+    <author>
+      <name>Yusong Wang</name>
+    </author>
+    <author>
+      <name>Yujie Wu</name>
+    </author>
+    <author>
+      <name>Mingkun Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.32521v1</id>
+    <title>MemAgent: Learning to Manage Heterogeneous Memory Providers for LLM Agents</title>
+    <updated>2026-09-26T12:04:31Z</updated>
+    <link href="https://arxiv.org/abs/2609.32521v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.32521v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current agents remain largely stateless across tasks, limiting their ability to continually improve from prior interactions and making memory essential for long-horizon agentic behavior. Existing memory methods seek to reuse past experience, but most rely on a single memory representation (e.g., trajectories, reflections, skills, structured knowledge) whose effectiveness varies across task distributions. Rethinking this design space, we evaluate 13 memory methods and find that no single method generalizes across benchmarks, revealing the potential of managing heterogeneous memory providers. We formulate agent memory as a routing problem in which a memory agent decides which memory provider to retrieve from, whether to inject short-term memory, and which providers should store the resulting experience. Based on this perspective, we propose MemAgent, featuring a content-aware routing architecture and a training-data synthesis pipeline. The routing architecture combines content-aware probing before retrieval, short-term memory gating during execution, and selective multi-provider storage, while the training pipeline synthesizes phase-specific supervision for routing decisions. Across GAIA, WebWalkerQA, and xBench-DS, MemAgent improves average accuracy by 10.0% and outperforms every individual memory method across all three benchmarks. These gains come with less than 0.3% routing overhead and a 12% reduction in average task steps.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-26T12:04:31Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yongxian Wei</name>
+    </author>
+    <author>
+      <name>Yilin Zhao</name>
+    </author>
+    <author>
+      <name>Runxi Cheng</name>
+    </author>
+    <author>
+      <name>Xinrui Chen</name>
+    </author>
+    <author>
+      <name>Chun Yuan</name>
+    </author>
+    <author>
+      <name>Yaoru Wang</name>
+    </author>
+    <author>
+      <name>Jiahong Yan</name>
+    </author>
+    <author>
+      <name>Dian Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.13638v4</id>
+    <title>State Space Models Naturally Produce Time Cell and Oscillatory Behaviors and Scale to Abstract Cognitive Functions</title>
+    <updated>2026-10-14T12:48:42Z</updated>
+    <link href="https://arxiv.org/abs/2507.13638v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.13638v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A grand challenge in modern neuroscience is bridging the gap between the microscale neural circuits and cognitive functions. While extensive knowledge exists about neuronal connectivity and biophysics, how low-level phenomena give rise to abstract behaviors remains largely unresolved. Here, we propose that a mathematical framework based on State Space Models offers mathematical sufficiency and computational plausibility to generate response profiles that resemble time cells, ramping activity, and oscillatory responses. Our results suggest that such behaviors can emerge from a structured multi-timescale complex rotational basis, which enables optimized history compression and naturally generates structured temporal dynamics even prior to training, mirroring recent findings in biological circuits. Learning exploits and adapts to the pre-existing temporal basis for specific tasks. We show that the model can readily scale to abstract cognitive functions such as event counting, supporting its use as a computationally tractable framework for understanding neural activities.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-18T03:53:16Z</published>
+    <arxiv:comment>Sen Lu and Xiaoyu Zhang contributed equally. Wei D. Lu is the corresponding author. 5 figures are included in 15 pages</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Sen Lu</name>
+    </author>
+    <author>
+      <name>Xiaoyu Zhang</name>
+    </author>
+    <author>
+      <name>Mingtao Hu</name>
+    </author>
+    <author>
+      <name>Eric Yeu-Jer Lee</name>
+    </author>
+    <author>
+      <name>Soohyeon Kim</name>
+    </author>
+    <author>
+      <name>Wei D. Lu</name>
+    </author>
+  </entry>
+</feed>

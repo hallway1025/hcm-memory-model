@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AxpSn1t/YXoyCjazVUkmRr4+sW8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2106.13302&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:33:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2106.13302" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2106.13302v1</id>
+    <title>byteSteady: Fast Classification Using Byte-Level n-Gram Embeddings</title>
+    <updated>2021-06-24T20:14:48Z</updated>
+    <link href="https://arxiv.org/abs/2106.13302v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.13302v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article introduces byteSteady -- a fast model for classification using byte-level n-gram embeddings. byteSteady assumes that each input comes as a sequence of bytes. A representation vector is produced using the averaged embedding vectors of byte-level n-grams, with a pre-defined set of n. The hashing trick is used to reduce the number of embedding vectors. This input representation vector is then fed into a linear classifier. A straightforward application of byteSteady is text classification. We also apply byteSteady to one type of non-language data -- DNA sequences for gene classification. For both problems we achieved competitive classification results against strong baselines, suggesting that byteSteady can be applied to both language and non-language data. Furthermore, we find that simple compression using Huffman coding does not significantly impact the results, which offers an accuracy-speed trade-off previously unexplored in machine learning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-24T20:14:48Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiang Zhang</name>
+    </author>
+    <author>
+      <name>Alexandre Drouin</name>
+    </author>
+    <author>
+      <name>Raymond Li</name>
+    </author>
+  </entry>
+</feed>

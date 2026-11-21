@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["37304449"],"translationset":[],"querytranslation":"\"10 3389 fpsyt 2023 1162800\"[Publisher ID]"}}

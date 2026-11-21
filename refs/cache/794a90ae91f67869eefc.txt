@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/820Ohd//QZcQPRi+Met9za9+tsE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2609.00358&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T11:57:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2609.00358" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.00358v1</id>
+    <title>Where Should Experience Live? Hierarchical Hebbian Memory for Continual Vision Transformers</title>
+    <updated>2026-08-31T20:51:51Z</updated>
+    <link href="https://arxiv.org/abs/2609.00358v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.00358v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision Transformers provide strong visual representations but typically rely on slowly updated parameters, limiting their ability to organize newly acquired information across different memory timescales. This work proposes \textit{Hierarchical Hebbian Memory}, a three-level memory architecture composed of rapid Working Memory, persistent Routed Episodic Memory, and slower Semantic Memory. A learned controller regulates memory contribution, read and write routing, plasticity, retention, and consolidation. A causal read-before-write lifecycle ensures that the current outcome cannot influence the prediction it supervises. The architecture is evaluated on Omniglot 5-way 1-shot recognition and CORe50 continual object recognition. With Swin-Tiny, the hierarchical model reaches 97.39\% accuracy on Omniglot and 95.37\% final accuracy on CORe50 when combined with experience replay. Learned multi-bank retrieval reaches 47.50\% delayed-association accuracy, compared with 24.17\% for a single persistent bank and 25.00\% without memory. After intervening distractors, Episodic Memory retains approximately 0.96 cosine similarity with stored associations, while Working Memory falls to approximately 0.05. These results show that Hebbian association and learned memory routing can jointly organize online visual experience across rapid, persistent, and consolidated memory timescales within Vision Transformers.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-31T20:51:51Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mohammed Yusuf Mujawar</name>
+    </author>
+    <author>
+      <name>Noorbakhsh Amiri Golilarz</name>
+    </author>
+  </entry>
+</feed>

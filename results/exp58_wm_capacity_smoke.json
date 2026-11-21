@@ -1,0 +1,136 @@
+{
+ "exp": "exp58",
+ "standalone": true,
+ "pre_registered": "ledger exp58 row (this commit)",
+ "d_h": 256,
+ "k": 5,
+ "C_values": [
+  2,
+  4
+ ],
+ "seeds": [
+  0
+ ],
+ "cue_frac": 0.25,
+ "cells": [
+  {
+   "C": 2,
+   "seed": 0,
+   "L": 6,
+   "slot_of": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "dedupe_absorbed": 0,
+   "hits_by_pos": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "hits_by_recency": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sims_by_pos": [
+    0.2187,
+    0.264,
+    0.2164,
+    0.0,
+    0.8866,
+    0.8942
+   ],
+   "probe_agreement": 6
+  },
+  {
+   "C": 4,
+   "seed": 0,
+   "L": 10,
+   "slot_of": [
+    0,
+    1,
+    2,
+    3,
+    0,
+    1,
+    2,
+    3,
+    0,
+    1
+   ],
+   "dedupe_absorbed": 0,
+   "hits_by_pos": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "hits_by_recency": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sims_by_pos": [
+    0.2098,
+    0.0,
+    0.2289,
+    0.0,
+    0.0,
+    0.0,
+    0.8458,
+    0.8528,
+    0.9233,
+    0.9109
+   ],
+   "probe_agreement": 10
+  }
+ ],
+ "per_C": {
+  "2": {
+   "hit_within": 1.0,
+   "n_within": 2,
+   "hit_beyond": 0.0,
+   "n_beyond": 4,
+   "step_Cm1_to_C": 1.0
+  },
+  "4": {
+   "hit_within": 1.0,
+   "n_within": 4,
+   "hit_beyond": 0.0,
+   "n_beyond": 6,
+   "step_Cm1_to_C": 1.0
+  }
+ },
+ "gates": {
+  "G0_dedupe_silent": true,
+  "G1_fidelity_within_capacity": true,
+  "G2_ladder_step_beyond": true,
+  "G3_dose_boundary_tracks_C": false
+ },
+ "verdict": "GATE_FAIL",
+ "smoke": true,
+ "elapsed_s": 0.0
+}

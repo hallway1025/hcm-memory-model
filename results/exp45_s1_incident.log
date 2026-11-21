@@ -1,0 +1,33 @@
+  [char s1] ckpt 1 N=8657 wrote=8657 rates={'20': 0.0, '100': 0.875, '500': 0.891, '2500': 0.891} beta*=500 350s
+  [char s1] ckpt 2 N=18274 wrote=18274 rates={'20': 0.0, '100': 0.938, '500': 0.938, '2500': 0.938} beta*=100 1160s
+  [char s1] ckpt 3 N=27757 wrote=27757 rates={'20': 0.0, '100': 0.859, '500': 0.875, '2500': 0.875} beta*=500 2426s
+  [char s1] ckpt 4 N=37012 wrote=37012 rates={'20': 0.0, '100': 0.906, '500': 0.938, '2500': 0.938} beta*=500 4137s
+  [char s1] ckpt 5 N=46029 wrote=46029 rates={'20': 0.0, '100': 0.891, '500': 0.922, '2500': 0.922} beta*=500 6305s
+  [char s1] ckpt 6 N=54801 wrote=54801 rates={'20': 0.0, '100': 0.781, '500': 0.828, '2500': 0.828} beta*=500 8884s
+  [char s1] ckpt 7 N=63555 wrote=63555 rates={'20': 0.0, '100': 0.891, '500': 0.891, '2500': 0.891} beta*=100 11999s
+  [char s1] ckpt 8 N=72557 wrote=72557 rates={'20': 0.0, '100': 0.766, '500': 0.781, '2500': 0.781} beta*=500 15525s
+  [char s1] ckpt 9 N=81546 wrote=81546 rates={'20': 0.0, '100': 0.797, '500': 0.812, '2500': 0.828} beta*=2500 19518s
+  [char s1] ckpt 10 N=90595 wrote=90595 rates={'20': 0.0, '100': 0.938, '500': 0.938, '2500': 0.938} beta*=100 23957s
+  [char s1] ckpt 11 N=92815 wrote=92815 rates={'20': 0.0, '100': 0.891, '500': 0.906, '2500': 0.906} beta*=500 27328s
+  [sem s1] ckpt 1 N=9919 wrote=9919 rates={'20': 0.125, '100': 0.766, '500': 0.766, '2500': 0.766} beta*=100 396s
+  [sem s1] ckpt 2 N=19817 wrote=19817 rates={'20': 0.047, '100': 0.828, '500': 0.828, '2500': 0.828} beta*=100 1285s
+  [sem s1] ckpt 3 N=29420 wrote=29420 rates={'20': 0.0, '100': 0.719, '500': 0.719, '2500': 0.719} beta*=100 2673s
+  [sem s1] ckpt 4 N=38830 wrote=38830 rates={'20': 0.0, '100': 0.75, '500': 0.75, '2500': 0.75} beta*=100 4513s
+  [sem s1] ckpt 5 N=47920 wrote=47920 rates={'20': 0.0, '100': 0.75, '500': 0.766, '2500': 0.766} beta*=500 6798s
+  [sem s1] ckpt 6 N=56740 wrote=56740 rates={'20': 0.016, '100': 0.891, '500': 0.906, '2500': 0.906} beta*=500 9521s
+  [sem s1] ckpt 7 N=65520 wrote=65520 rates={'20': 0.0, '100': 0.734, '500': 0.797, '2500': 0.797} beta*=500 12693s
+  [sem s1] ckpt 8 N=74532 wrote=74532 rates={'20': 0.0, '100': 0.875, '500': 0.891, '2500': 0.891} beta*=500 16437s
+  [sem s1] ckpt 9 N=83554 wrote=83554 rates={'20': 0.0, '100': 0.797, '500': 0.812, '2500': 0.812} beta*=500 20544s
+  [sem s1] ckpt 10 N=92918 wrote=92918 rates={'20': 0.0, '100': 0.781, '500': 0.797, '2500': 0.797} beta*=500 25025s
+  [sem s1] ckpt 11 N=95370 wrote=95370 rates={'20': 0.0, '100': 0.781, '500': 0.812, '2500': 0.828} beta*=2500 28472s
+  [transfer s1] ckpt 0 beta*=500 rate=0.766 reused
+  [transfer s1] ckpt 1 beta*=100 rate=0.828 reused
+  [transfer s1] ckpt 2 beta*=500 rate=0.719 reused
+  [transfer s1] ckpt 3 beta*=500 rate=0.750 reused
+  [transfer s1] ckpt 4 beta*=500 rate=0.766 reused
+  [transfer s1] ckpt 5 beta*=500 rate=0.906 reused
+  [transfer s1] ckpt 6 beta*=100 rate=0.734 reused
+  [transfer s1] ckpt 7 beta*=500 rate=0.891 reused
+  [transfer s1] ckpt 8 beta*=2500 rate=0.812 reused
+  [transfer s1] ckpt 9 beta*=100 rate=0.781 reused
+  [transfer s1] ckpt 10 beta*=500 rate=0.812 reused

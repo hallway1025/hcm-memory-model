@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yT1U3iPyBOXCTjvu30jSFkU6L5g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2502.14075&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:30:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2502.14075" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.14075v2</id>
+    <title>Towards Vector Optimization on Low-Dimensional Vector Symbolic Architecture</title>
+    <updated>2025-03-16T03:06:09Z</updated>
+    <link href="https://arxiv.org/abs/2502.14075v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.14075v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vector Symbolic Architecture (VSA) is emerging in machine learning due to its efficiency, but they are hindered by issues of hyperdimensionality and accuracy. As a promising mitigation, the Low-Dimensional Computing (LDC) method significantly reduces the vector dimension by ~100 times while maintaining accuracy, by employing a gradient-based optimization. Despite its potential, LDC optimization for VSA is still underexplored. Our investigation into vector updates underscores the importance of stable, adaptive dynamics in LDC training. We also reveal the overlooked yet critical roles of batch normalization (BN) and knowledge distillation (KD) in standard approaches. Besides the accuracy boost, BN does not add computational overhead during inference, and KD significantly enhances inference confidence. Through extensive experiments and ablation studies across multiple benchmarks, we provide a thorough evaluation of our approach and extend the interpretability of binary neural network optimization similar to LDC, previously unaddressed in BNN literature.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-19T20:00:32Z</published>
+    <arxiv:comment>10 pages, 2 figures. Accepted in CPAL 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shijin Duan</name>
+    </author>
+    <author>
+      <name>Yejia Liu</name>
+    </author>
+    <author>
+      <name>Gaowen Liu</name>
+    </author>
+    <author>
+      <name>Ramana Rao Kompella</name>
+    </author>
+    <author>
+      <name>Shaolei Ren</name>
+    </author>
+    <author>
+      <name>Xiaolin Xu</name>
+    </author>
+  </entry>
+</feed>

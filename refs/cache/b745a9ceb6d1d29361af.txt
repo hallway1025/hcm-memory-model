@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1153","retmax":"3","retstart":"0","idlist":["42977802","42931558","42931512"],"translationset":[],"querytranslation":"\"421\"[Publisher ID]","errorlist":{"phrasesnotfound":["10.24963","/","ijcai.2022"],"fieldsnotfound":[]}}}

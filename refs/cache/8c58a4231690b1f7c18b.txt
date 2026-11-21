@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/umJQOdGoMtPeqLrbIMCLIf3P7LE</id>
+  <title>arXiv Query: search_query=all:uncertainty AND all:calibration&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-11-07T14:09:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:uncertainty+AND+all:calibration&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>7782</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1012.2631v2</id>
+    <title>Monte Carlo uncertainty estimation for wavelength calibration</title>
+    <updated>2010-12-14T02:43:40Z</updated>
+    <link href="https://arxiv.org/abs/1012.2631v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.2631v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>CIPM published the Supplement I for GUM in 2008 as not only an alternative approach to estimate the uncertainty for a given calibration measurement but also as a proper uncertainty estimation one, whenever any of the conditions imposed in GUM which must be satisfied does not hold [1, 2]. Before the introduction of the new approach in the Supplement I, namely Monte Carlo (MC) method, the GUM rules have been always applied even if in cases where the mentioned conditions were not fulfilled. After or even before the official introduction of this MC method, a number of published papers in uncertainty estimation by using MC method had been shown up, giving more insight for the ways the uncertainties estimated and also for the specific calibration measurements under investigation themselves [3 - 16]. However, in most of those published papers, the application conditions required before a method selection should be analyzed, in fact, has been ignored. In our uncertainty study for wavelength calibration by using beat frequency technique, the application conditions have not been ignored but analyzed carefully and it was found that a GUM application condition was unsatisfactory. However, all the MC method conditions for this calibration problem have been well fulfilled. A computer program was then coded [17] following the steps in the Supplement I. The resultant outputs showed difference in statistical nature and suggested to replace the MC method to the GUM one as soon as possible for this case.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-13T05:14:36Z</published>
+    <arxiv:comment>Monte Carlo, uncertainty, wavelength calibration, VMI</arxiv:comment>
+    <arxiv:primary_category term="physics.data-an"/>
+    <author>
+      <name>Thang H. L.</name>
+      <arxiv:affiliation>Vietnam metrology institute</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nguyen D. D.</name>
+      <arxiv:affiliation>Vietnam metrology institute</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dung D. N.</name>
+      <arxiv:affiliation>Vietnam metrology institute</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.09126v2</id>
+    <title>Propagation of Linear Uncertainties through Multiline Thru-Reflect-Line Calibration</title>
+    <updated>2023-07-02T11:29:28Z</updated>
+    <link href="https://arxiv.org/abs/2301.09126v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.09126v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study proposes a linear approach for propagating uncertainties in the multiline thru-reflect-line (TRL) calibration method for vector network analyzers. The multiline TRL formulation we are proposing applies the law of uncertainty propagation as outlined in the ISO Guide to the Expression of Uncertainty in Measurement (GUM) to both measurement and model uncertainties. In addition, we conducted a Monte Carlo analysis using a combination of measured and synthetic data to model various uncertainties, such as additive noise, reflect asymmetry, line mismatch, and line length offset. The results of our linear uncertainty formulation demonstrate agreement with the Monte Carlo method and provide a more efficient means of assessing the uncertainty budget of the multiline TRL calibration.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-22T13:47:56Z</published>
+    <arxiv:comment>GitHub: https://github.com/ZiadHatab/uncertainty-multiline-trl-calibration</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Ziad Hatab</name>
+    </author>
+    <author>
+      <name>Michael Ernst Gadringer</name>
+    </author>
+    <author>
+      <name>Wolfgang Bösch</name>
+    </author>
+    <arxiv:doi>10.1109/TIM.2023.3296123</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIM.2023.3296123" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.02622v1</id>
+    <title>Uncertainty Calibration and its Application to Object Detection</title>
+    <updated>2023-02-06T08:41:07Z</updated>
+    <link href="https://arxiv.org/abs/2302.02622v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.02622v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Image-based environment perception is an important component especially for driver assistance systems or autonomous driving. In this scope, modern neuronal networks are used to identify multiple objects as well as the according position and size information within a single frame. The performance of such an object detection model is important for the overall performance of the whole system. However, a detection model might also predict these objects under a certain degree of uncertainty. [...]
+  In this work, we examine the semantic uncertainty (which object type?) as well as the spatial uncertainty (where is the object and how large is it?). We evaluate if the predicted uncertainties of an object detection model match with the observed error that is achieved on real-world data. In the first part of this work, we introduce the definition for confidence calibration of the semantic uncertainty in the context of object detection, instance segmentation, and semantic segmentation. We integrate additional position information in our examinations to evaluate the effect of the object's position on the semantic calibration properties. Besides measuring calibration, it is also possible to perform a post-hoc recalibration of semantic uncertainty that might have turned out to be miscalibrated. [...]
+  The second part of this work deals with the spatial uncertainty obtained by a probabilistic detection model. [...] We review and extend common calibration methods so that it is possible to obtain parametric uncertainty distributions for the position information in a more flexible way.
+  In the last part, we demonstrate a possible use-case for our derived calibration methods in the context of object tracking. [...] We integrate our previously proposed calibration techniques and demonstrate the usefulness of semantic and spatial uncertainty calibration in a subsequent process. [...]</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-06T08:41:07Z</published>
+    <arxiv:comment>PhD thesis at University of Wuppertal, cite by: 'Fabian Küppers. "Uncertainty Calibration and its Application to Object Detection." PhD Thesis, University of Wuppertal, January 2023'</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Fabian Küppers</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.10209v2</id>
+    <title>Propagation of Measurement and Model Uncertainties through Multiline TRL Calibration</title>
+    <updated>2022-06-30T08:35:22Z</updated>
+    <link href="https://arxiv.org/abs/2206.10209v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.10209v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we present a linear uncertainty (LU) propagation treatment of measurement and model uncertainties in multiline thru-reflect-line (TRL) calibration. The proposed method is in accordance with the ISO Guide to the Expression of Uncertainty in Measurement (GUM). We demonstrate with numerical simulation based on the Monte Carlo (MC) method that our proposed LU method delivers identical uncertainty as the MC method but in a more efficient way.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-21T09:16:41Z</published>
+    <arxiv:comment>Software implementation available online with additional examples, https://github.com/ZiadHatab/uncertainty-multiline-trl-calibration</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Ziad Hatab</name>
+    </author>
+    <author>
+      <name>Michael Gadringer</name>
+    </author>
+    <author>
+      <name>Wolfgang Bösch</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.27149v1</id>
+    <title>ConformaDecompose: Explaining Uncertainty via Calibration Localization</title>
+    <updated>2026-04-29T19:58:15Z</updated>
+    <link href="https://arxiv.org/abs/2604.27149v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.27149v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conformal Prediction provides distribution-free prediction intervals with guaranteed coverage, but its reliance on a single global calibration threshold obscures the sources of uncertainty at the instance level. In particular, it conflates irreducible noise with uncertainty induced by heterogeneous training data (aleatoric), model limitations, or calibration mismatch (epistemic), offering little insight into why an interval is wide or whether it could be reduced. We introduce an uncertainty-aware explainability framework that analyses the reducibility of calibration-induced epistemic conformal uncertainty via progressive calibration localisation for regression tasks. The approach is diagnostic rather than causal: it does not estimate true aleatoric or epistemic uncertainty, but explains how conformal intervals contract and stabilise as calibration support is localised around a test instance. Across benchmarks and real-world data, absolute reducible uncertainty aligns with epistemic proxies, while its relative contribution varies by task, revealing regimes hidden by interval width. This instance-level view complements conformal uncertainty, enhancing interpretability without altering the predictor or coverage.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-29T19:58:15Z</published>
+    <arxiv:comment>This is the accepted author version of a paper to appear in the proceedings of the World Explainable AI Conference (Springer). The final version will be available via Springer. This manuscript introduces ConformaDecompose, a framework for instance-wise uncertainty explainability via calibration localisation</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Fatima Rabia Yapicioglu</name>
+    </author>
+    <author>
+      <name>Meltem Aksoy</name>
+    </author>
+    <author>
+      <name>Alberto Rigenti</name>
+    </author>
+    <author>
+      <name>Tuwe Löfström-Cavallin</name>
+    </author>
+    <author>
+      <name>Helena Löfström-Cavallin</name>
+    </author>
+    <author>
+      <name>Seyda Yoncaci</name>
+    </author>
+    <author>
+      <name>Luca Longo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.01242v2</id>
+    <title>Parametric and Multivariate Uncertainty Calibration for Regression and Object Detection</title>
+    <updated>2022-08-19T08:39:03Z</updated>
+    <link href="https://arxiv.org/abs/2207.01242v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.01242v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reliable spatial uncertainty evaluation of object detection models is of special interest and has been subject of recent work. In this work, we review the existing definitions for uncertainty calibration of probabilistic regression tasks. We inspect the calibration properties of common detection networks and extend state-of-the-art recalibration methods. Our methods use a Gaussian process (GP) recalibration scheme that yields parametric distributions as output (e.g. Gaussian or Cauchy). The usage of GP recalibration allows for a local (conditional) uncertainty calibration by capturing dependencies between neighboring samples. The use of parametric distributions such as as Gaussian allows for a simplified adaption of calibration in subsequent processes, e.g., for Kalman filtering in the scope of object tracking.
+  In addition, we use the GP recalibration scheme to perform covariance estimation which allows for post-hoc introduction of local correlations between the output quantities, e.g., position, width, or height in object detection. To measure the joint calibration of multivariate and possibly correlated data, we introduce the quantile calibration error which is based on the Mahalanobis distance between the predicted distribution and the ground truth to determine whether the ground truth is within a predicted quantile.
+  Our experiments show that common detection models overestimate the spatial uncertainty in comparison to the observed error. We show that the simple Isotonic Regression recalibration method is sufficient to achieve a good uncertainty quantification in terms of calibrated quantiles. In contrast, if normal distributions are required for subsequent processes, our GP-Normal recalibration method yields the best results. Finally, we show that our covariance estimation method is able to achieve best calibration results for joint multivariate calibration.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-04T08:00:20Z</published>
+    <arxiv:comment>Accepted to SAIAD 2022 Workshop at ECCV. Source code at https://github.com/EFS-OpenSource/calibration-framework</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Fabian Küppers</name>
+    </author>
+    <author>
+      <name>Jonas Schneider</name>
+    </author>
+    <author>
+      <name>Anselm Haselhoff</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.12496v6</id>
+    <title>CRUDE: Calibrating Regression Uncertainty Distributions Empirically</title>
+    <updated>2021-03-15T02:30:18Z</updated>
+    <link href="https://arxiv.org/abs/2005.12496v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.12496v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Calibrated uncertainty estimates in machine learning are crucial to many fields such as autonomous vehicles, medicine, and weather and climate forecasting. While there is extensive literature on uncertainty calibration for classification, the classification findings do not always translate to regression. As a result, modern models for predicting uncertainty in regression settings typically produce uncalibrated and overconfident estimates. To address these gaps, we present a calibration method for regression settings that does not assume a particular uncertainty distribution over the error: Calibrating Regression Uncertainty Distributions Empirically (CRUDE). CRUDE makes the weaker assumption that error distributions have a constant arbitrary shape across the output space, shifted by predicted mean and scaled by predicted standard deviation. We detail a theoretical connection between CRUDE and conformal inference. Across an extensive set of regression tasks, CRUDE demonstrates consistently sharper, better calibrated, and more accurate uncertainty estimates than state-of-the-art techniques.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-26T03:08:43Z</published>
+    <arxiv:comment>ICML 2020 Workshop on Uncertainty &amp; Robustness in Deep Learning</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Eric Zelikman</name>
+    </author>
+    <author>
+      <name>Christopher Healy</name>
+    </author>
+    <author>
+      <name>Sharon Zhou</name>
+    </author>
+    <author>
+      <name>Anand Avati</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.00976v2</id>
+    <title>Calibration Method and Uncertainty for the Primordial Inflation Explorer (PIXIE)</title>
+    <updated>2021-03-04T20:58:21Z</updated>
+    <link href="https://arxiv.org/abs/2002.00976v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.00976v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Primordial Inflation Explorer (PIXIE) is an Explorer-class mission concept to measure cosmological signals from both linear polarization of the cosmic microwave background and spectral distortions from a perfect blackbody. The targeted measurement sensitivity is 2--4 orders of magnitude below competing astrophysical foregrounds, placing stringent requirements on instrument calibration. An on-board blackbody calibrator presents a polarizing Fourier transform spectrometer with a known signal to enable conversion of the sampled interference fringe patterns from telemetry units to physical units. We describe the instrumentation and operations needed to calibrate PIXIE, derive the expected uncertainty for the intensity, polarization, and frequency scales, and show the effect of calibration uncertainty in the derived cosmological signals. In-flight calibration is expected to be accurate to a few parts in $10^6$ at frequencies dominated by the CMB, and a few parts in $10^4$ at higher frequencies dominated by the diffuse dust foreground.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-03T19:00:13Z</published>
+    <arxiv:comment>18 pages including 8 figures. Added material on frequency calibration, matches final published version</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>A. Kogut</name>
+    </author>
+    <author>
+      <name>D. J. Fixsen</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2020/05/041</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2020/05/041" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.10988v2</id>
+    <title>Post-hoc Uncertainty Calibration for Domain Drift Scenarios</title>
+    <updated>2021-06-23T15:01:51Z</updated>
+    <link href="https://arxiv.org/abs/2012.10988v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.10988v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We address the problem of uncertainty calibration. While standard deep neural networks typically yield uncalibrated predictions, calibrated confidence scores that are representative of the true likelihood of a prediction can be achieved using post-hoc calibration methods. However, to date the focus of these approaches has been on in-domain calibration. Our contribution is two-fold. First, we show that existing post-hoc calibration methods yield highly over-confident predictions under domain shift. Second, we introduce a simple strategy where perturbations are applied to samples in the validation set before performing the post-hoc calibration step. In extensive experiments, we demonstrate that this perturbation step results in substantially better calibration under domain shift on a wide range of architectures and modelling tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-20T18:21:13Z</published>
+    <arxiv:comment>In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021. Code available at https://github.com/tochris/calibration-domain-drift</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Christian Tomani</name>
+    </author>
+    <author>
+      <name>Sebastian Gruber</name>
+    </author>
+    <author>
+      <name>Muhammed Ebrar Erdem</name>
+    </author>
+    <author>
+      <name>Daniel Cremers</name>
+    </author>
+    <author>
+      <name>Florian Buettner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.11942v1</id>
+    <title>Evaluating and Calibrating Diffusion Model-derived Uncertainty for Quantitative MRI Mapping</title>
+    <updated>2026-08-12T11:30:31Z</updated>
+    <link href="https://arxiv.org/abs/2608.11942v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.11942v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantitative MRI (qMRI) provides standardised tissue parameter maps, but the reliability of deep learning-based qMRI mapping methods is often not explicitly characterised. In this work we systematically evaluate uncertainty maps for quantitative MRI derived from multiple inferences of a data-consistent diffusion model-based qMRI framework. Evaluation on synthetic test data assessed error-awareness, high-error detection, selective prediction, and Gaussian interval calibration. Diffusion model-derived uncertainty was positively associated with the mapping error, while risk-coverage analysis showed that excluding high-uncertainty voxels reduced the retained error. However, the raw uncertainty was poorly calibrated for quantitative interval interpretation. Calibration was substantially improved using a post-hoc procedure combining prediction-value-dependent bias correction with scalar uncertainty scaling. Qualitative evaluation on a healthy volunteer showed spatially meaningful uncertainty patterns. These results indicate that diffusion model-derived uncertainty is informative for reliability assessment and selective prediction, but requires calibration for quantitative interval interpretation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-12T11:30:31Z</published>
+    <arxiv:comment>11 pages, 6 figures. Accepted at the MICCAI 2026 Workshop on Uncertainty for Safe Utilization of Machine Learning in Medical Imaging (UNSURE 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shishuai Wang</name>
+    </author>
+    <author>
+      <name>Stefan Klein</name>
+    </author>
+    <author>
+      <name>Juan A. Hernandez-Tamames</name>
+    </author>
+    <author>
+      <name>Dirk H. J. Poot</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.09215v4</id>
+    <title>Calibrated Top-1 Uncertainty estimates for classification by score based models</title>
+    <updated>2020-06-16T13:02:58Z</updated>
+    <link href="https://arxiv.org/abs/1903.09215v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.09215v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While the accuracy of modern deep learning models has significantly improved in recent years, the ability of these models to generate uncertainty estimates has not progressed to the same degree. Uncertainty methods are designed to provide an estimate of class probabilities when predicting class assignment.
+  While there are a number of proposed methods for estimating uncertainty, they all suffer from a lack of calibration: predicted probabilities can be off from empirical ones by a few percent or more. By restricting the scope of our predictions to only the probability of Top-1 error, we can decrease the calibration error of existing methods to less than one percent. As a result, the scores of the methods also improve significantly over benchmarks.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-21T19:48:45Z</published>
+    <arxiv:comment>12 pages, 5 figures, 6 tables (major revision, new benchmark allows us to show model calibration is better)</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Adam M. Oberman</name>
+    </author>
+    <author>
+      <name>Chris Finlay</name>
+    </author>
+    <author>
+      <name>Alexander Iannantuono</name>
+    </author>
+    <author>
+      <name>Tiago Salvador</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.07160v1</id>
+    <title>Evaluating Uncertainty Calibration for Open-Set Recognition</title>
+    <updated>2022-05-15T02:08:35Z</updated>
+    <link href="https://arxiv.org/abs/2205.07160v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.07160v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite achieving enormous success in predictive accuracy for visual classification problems, deep neural networks (DNNs) suffer from providing overconfident probabilities on out-of-distribution (OOD) data. Yet, accurate uncertainty estimation is crucial for safe and reliable robot autonomy. In this paper, we evaluate popular calibration techniques for open-set conditions in a way that is distinctly different from the conventional evaluation of calibration methods on OOD data. Our results show that closed-set DNN calibration approaches are much less effective for open-set recognition, which highlights the need to develop new DNN calibration methods to address this problem.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-15T02:08:35Z</published>
+    <arxiv:comment>To be presented at the 2022 IEEE International Conference on Robotics and Automation (ICRA) Workshop on Safe and Reliable Robot Autonomy under Uncertainty</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zongyao Lyu</name>
+    </author>
+    <author>
+      <name>Nolan B. Gutierrez</name>
+    </author>
+    <author>
+      <name>William J. Beksi</name>
+    </author>
+  </entry>
+</feed>

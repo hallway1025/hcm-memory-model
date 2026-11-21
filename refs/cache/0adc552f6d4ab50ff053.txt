@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SKMtOaGJjr8gdKqBaPaF3QrhTEU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2609.07757&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:30:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2609.07757" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.07757v1</id>
+    <title>A Bifurcation Theory for the Equilibria of Modern Hopfield Networks</title>
+    <updated>2026-09-07T17:00:48Z</updated>
+    <link href="https://arxiv.org/abs/2609.07757v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.07757v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern Hopfield networks provide a unifying framework for associative memory, transformer attention, diffusion-based generative models, and biological attractor dynamics, linking these systems through a common energy-based dynamics in which states are updated toward weighted combinations of stored patterns. Across these settings, network dynamics is determined by the organization of the energy landscape and the bifurcations of its fixed points. Despite their central role, a general theory of these bifurcations has remained unavailable beyond specific architectures and idealized pattern ensembles. Here we derive stability and bifurcation criteria for the fixed points of general convex-dual Modern Hopfield networks for a general statistics of the stored patterns. Applying this framework to random, block-correlated, and infinitely hierarchical pattern ensembles, we show how memory correlations systematically organize the emergence of hierarchical attractors through successive bifurcations. We further demonstrate that these predictions quantitatively describe retrieval bifurcations in MHNs storing patterns sampled from MNIST, and recapitulate the hierarchical organization of hematopoietic cell identities. Our results establish a general bifurcation theory for Modern Hopfield networks and identify the organization of fixed points as a unifying principle underlying their computational and biological behavior.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-07T17:00:48Z</published>
+    <arxiv:comment>21 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Vincenzo Maria Schimmenti</name>
+    </author>
+    <author>
+      <name>Matteo Ciarchi</name>
+    </author>
+  </entry>
+</feed>

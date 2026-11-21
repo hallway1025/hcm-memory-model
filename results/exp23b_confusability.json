@@ -1,0 +1,139 @@
+{
+ "R256": {
+  "hit@0.3": "200/200",
+  "fails_deg0.3": [],
+  "hit@0.5": "196/200",
+  "top2sim_mean": 0.7174,
+  "top2sim_p90": 1.0,
+  "top2sim_frac_gt_0.2": 0.9975
+ },
+ "S256": {
+  "hit@0.3": "124/200",
+  "fails_deg0.3": [
+   {
+    "probe": 35,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 57,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 60,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 71,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 74,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 79,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 100,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 109,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 114,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 157,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 160,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 175,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 183,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 192,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   },
+   {
+    "probe": 202,
+    "top1": -1,
+    "incos_top1": null,
+    "hcos_true": 0.0,
+    "m1": 1.0,
+    "abst": 0
+   }
+  ],
+  "hit@0.5": "122/200",
+  "top2sim_mean": 0.6817,
+  "top2sim_p90": 1.0,
+  "top2sim_frac_gt_0.2": 0.8775
+ }
+}

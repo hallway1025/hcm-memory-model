@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/13vvAz2o5TT9ncWMxlXGp825duM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2607.19195&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:33:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2607.19195" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.19195v3</id>
+    <title>Free energy landscape of Dense Associative Memory</title>
+    <updated>2026-10-30T04:49:58Z</updated>
+    <link href="https://arxiv.org/abs/2607.19195v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.19195v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using large deviations theory, we solve and obtain a general expression for the free energy functional for a broad class of associative memories, including dense associative memories. We illustrate the method by reproducing classical results for the Hopfield model. For a finite number of patterns, we derive the temperature-dependent free energy functional for dense associative memories featuring polynomial interactions and Log-Sum-Exponential (LSE) activation. We also obtain the disorder-averaged ground-state energy landscape of these systems in the extensive limit. Our analytical framework reveals how memory retrieval depends on the initial state in higher-order dense networks, and gives the exact error-free threshold for the LSE model. This method provides a systematic procedure for analyzing diverse, complex architectures in associative memory.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-21T15:30:53Z</published>
+    <arxiv:comment>6 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name> Sumedha</name>
+    </author>
+    <author>
+      <name>Abhishek Singh</name>
+    </author>
+  </entry>
+</feed>

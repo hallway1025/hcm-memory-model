@@ -1,0 +1,712 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zNFZ7yjGVVXD9D+5Gph5l6CPDqQ</id>
+  <title>arXiv Query: search_query=all:memory AND all:augmented AND all:LLM AND all:agent AND submittedDate:"202301010000 TO 202612312359"&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-11-07T11:35:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:memory+AND+(all:augmented+AND+(all:LLM+AND+(all:agent+AND+submittedDate:%22202301010000+TO+202612312359%22)))&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>472</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.05960v2</id>
+    <title>Distilling Feedback into Memory-as-a-Tool</title>
+    <updated>2026-03-17T18:50:47Z</updated>
+    <link href="https://arxiv.org/abs/2601.05960v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.05960v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a framework that amortizes the cost of inference-time reasoning by converting transient critiques into retrievable guidelines, through a file-based memory system and agent-controlled tool calls. We evaluate this method on the Rubric Feedback Bench, a novel dataset for rubric-based learning. Experiments demonstrate that our augmented LLMs rapidly match the performance of test-time refinement pipelines while drastically reducing inference cost.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-09T17:26:52Z</published>
+    <arxiv:comment>Code: https://github.com/vicgalle/feedback-memory-as-a-tool Data: https://huggingface.co/datasets/vicgalle/rubric-feedback-bench</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems</arxiv:journal_ref>
+    <author>
+      <name>Víctor Gallego</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.24775v1</id>
+    <title>Are We Ready For An Agent-Native Memory System?</title>
+    <updated>2026-06-23T16:34:55Z</updated>
+    <link href="https://arxiv.org/abs/2606.24775v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.24775v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory for large language model (LLM) agents has rapidly evolved from simple retrieval-augmented mechanisms into a data management system that supports persistent information storage, retrieval, update, consolidation, and dynamic lifecycle governance throughout agent execution. Despite this evolution, existing evaluations still benchmark agent memory mainly through end-to-end task success metrics (e.g., F1, BLEU), while treating the underlying system as a monolithic black box. As a result, critical system-level concerns, including operational costs, architectural trade-offs across memory modules, and robustness under dynamic knowledge updates, remain insufficiently explored. In this paper, we present a systematic experimental study of agent memory from a data management perspective. We propose an analytical framework that decomposes agent memory into four core modules: memory representation and storage, extraction, retrieval and routing, and maintenance. Under this framework, we evaluate 12 representative memory systems and two reference baselines across five benchmark workloads spanning 11 datasets. Our extensive end-to-end evaluation shows that no single architecture dominates across all scenarios; instead, effectiveness depends heavily on how well the memory structure aligns with the workload bottleneck. Furthermore, through fine-grained ablation studies, we quantify their individual effects on representation fidelity, retrieval precision, update correctness, and long-horizon stability. Finally, we reveal cost-performance trade-offs under realistic workloads, showing localized maintenance is more cost-efficient than global reorganization. Based on these findings, we identify promising directions towards building truly agent-native memory systems. The code is publicly available at https://github.com/OpenDataBox/MemoryData.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-23T16:34:55Z</published>
+    <arxiv:comment>Paper list available at: https://github.com/OpenDataBox/awesome-agent-memory. Source code available at: https://github.com/OpenDataBox/MemoryData</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wei Zhou</name>
+    </author>
+    <author>
+      <name>Xuanhe Zhou</name>
+    </author>
+    <author>
+      <name>Shaokun Han</name>
+    </author>
+    <author>
+      <name>Hongming Xu</name>
+    </author>
+    <author>
+      <name>Guoliang Li</name>
+    </author>
+    <author>
+      <name>Zhiyu Li</name>
+    </author>
+    <author>
+      <name>Feiyu Xiong</name>
+    </author>
+    <author>
+      <name>Fan Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06052v4</id>
+    <title>A Survey of Agent Memory in the Second Half: Towards Self-Evolving and Long-Horizon Agents</title>
+    <updated>2026-08-04T20:54:45Z</updated>
+    <link href="https://arxiv.org/abs/2602.06052v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06052v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Research in artificial intelligence is shifting from model innovations and benchmark scores towards problem definition and rigorous real-world evaluation. As the field enters the "second half," the central challenge becomes real utility in long-horizon, dynamic, and user-dependent settings such as agentic coding, deep research, and computer use, where LLM-based agents face context explosion beyond fixed context windows and must continuously accumulate, manage, and selectively reuse information across extended interactions. Memory, with hundreds of papers released in 2025, therefore emerges as the critical solution to fill this utility gap. Beyond passive storage, memory is increasingly the substrate through which agents self-evolve: short-term memory gates which experiences are perceived and abstracted during execution, while long-term memory consolidates them into reusable knowledge and skills, forming the loop through which agents improve from their own experience. In this survey, we provide a unified view of foundation agent memory along three dimensions: memory substrate (internal parametric state and external retrieval-augmented stores), cognitive mechanism (sensory, working, episodic, semantic, and procedural), and memory subject (user-centric personalization and agent-centric experience). We then analyze how memory is operated under single- and multi-agent topologies and highlight learning policies over memory operations, showing how memory management itself is becoming a trainable capability spanning reinforcement-learned context curation, experience consolidation at decision time, and the emerging ecosystem of portable, shareable agent skills. Finally, we review evaluation benchmarks and metrics for memory utility, and outline open challenges and future directions.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-14T07:38:38Z</published>
+    <arxiv:comment>Accepted at Transactions on Machine Learning Research (TMLR) with Survey Certification. Project page: https://github.com/AgentMemoryWorld/Awesome-Agent-Memory</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wei-Chieh Huang</name>
+    </author>
+    <author>
+      <name>Weizhi Zhang</name>
+    </author>
+    <author>
+      <name>Yueqing Liang</name>
+    </author>
+    <author>
+      <name>Yuanchen Bei</name>
+    </author>
+    <author>
+      <name>Yankai Chen</name>
+    </author>
+    <author>
+      <name>Tao Feng</name>
+    </author>
+    <author>
+      <name>Xinyu Pan</name>
+    </author>
+    <author>
+      <name>Zhen Tan</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Tianxin Wei</name>
+    </author>
+    <author>
+      <name>Shanglin Wu</name>
+    </author>
+    <author>
+      <name>Ruiyao Xu</name>
+    </author>
+    <author>
+      <name>Liangwei Yang</name>
+    </author>
+    <author>
+      <name>Rui Yang</name>
+    </author>
+    <author>
+      <name>Wooseong Yang</name>
+    </author>
+    <author>
+      <name>Chin-Yuan Yeh</name>
+    </author>
+    <author>
+      <name>Hanrong Zhang</name>
+    </author>
+    <author>
+      <name>Haozhen Zhang</name>
+    </author>
+    <author>
+      <name>Siqi Zhu</name>
+    </author>
+    <author>
+      <name>Henry Peng Zou</name>
+    </author>
+    <author>
+      <name>Wanjia Zhao</name>
+    </author>
+    <author>
+      <name>Song Wang</name>
+    </author>
+    <author>
+      <name>Wujiang Xu</name>
+    </author>
+    <author>
+      <name>Zixuan Ke</name>
+    </author>
+    <author>
+      <name>Zheng Hui</name>
+    </author>
+    <author>
+      <name>Dawei Li</name>
+    </author>
+    <author>
+      <name>Yaozu Wu</name>
+    </author>
+    <author>
+      <name>Langzhou He</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Xiongxiao Xu</name>
+    </author>
+    <author>
+      <name>Baixiang Huang</name>
+    </author>
+    <author>
+      <name>Juntao Tan</name>
+    </author>
+    <author>
+      <name>Shelby Heinecke</name>
+    </author>
+    <author>
+      <name>Huan Wang</name>
+    </author>
+    <author>
+      <name>Caiming Xiong</name>
+    </author>
+    <author>
+      <name>Ahmed A. Metwally</name>
+    </author>
+    <author>
+      <name>Jun Yan</name>
+    </author>
+    <author>
+      <name>Chen-Yu Lee</name>
+    </author>
+    <author>
+      <name>Hanqing Zeng</name>
+    </author>
+    <author>
+      <name>Yinglong Xia</name>
+    </author>
+    <author>
+      <name>Xiaokai Wei</name>
+    </author>
+    <author>
+      <name>Ali Payani</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Haitong Ma</name>
+    </author>
+    <author>
+      <name>Wenya Wang</name>
+    </author>
+    <author>
+      <name>Chenguang Wang</name>
+    </author>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+    <author>
+      <name>Xin Eric Wang</name>
+    </author>
+    <author>
+      <name>Yongfeng Zhang</name>
+    </author>
+    <author>
+      <name>Jiaxuan You</name>
+    </author>
+    <author>
+      <name>Hanghang Tong</name>
+    </author>
+    <author>
+      <name>Xiao Luo</name>
+    </author>
+    <author>
+      <name>Xue Liu</name>
+    </author>
+    <author>
+      <name>Yizhou Sun</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+    <author>
+      <name>Julian McAuley</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+    <author>
+      <name>Jiawei Han</name>
+    </author>
+    <author>
+      <name>Philip S. Yu</name>
+    </author>
+    <author>
+      <name>Kai Shu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.19065v1</id>
+    <title>HELPER-X: A Unified Instructable Embodied Agent to Tackle Four Interactive Vision-Language Domains with Memory-Augmented Language Models</title>
+    <updated>2024-04-29T19:12:42Z</updated>
+    <link href="https://arxiv.org/abs/2404.19065v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.19065v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research on instructable agents has used memory-augmented Large Language Models (LLMs) as task planners, a technique that retrieves language-program examples relevant to the input instruction and uses them as in-context examples in the LLM prompt to improve the performance of the LLM in inferring the correct action and task plans. In this technical report, we extend the capabilities of HELPER, by expanding its memory with a wider array of examples and prompts, and by integrating additional APIs for asking questions. This simple expansion of HELPER into a shared memory enables the agent to work across the domains of executing plans from dialogue, natural language instruction following, active question asking, and commonsense room reorganization. We evaluate the agent on four diverse interactive visual-language embodied agent benchmarks: ALFRED, TEACh, DialFRED, and the Tidy Task. HELPER-X achieves few-shot, state-of-the-art performance across these benchmarks using a single agent, without requiring in-domain training, and remains competitive with agents that have undergone in-domain training.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-29T19:12:42Z</published>
+    <arxiv:comment>Videos and code https://helper-agent-llm.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Gabriel Sarch</name>
+    </author>
+    <author>
+      <name>Sahil Somani</name>
+    </author>
+    <author>
+      <name>Raghav Kapoor</name>
+    </author>
+    <author>
+      <name>Michael J. Tarr</name>
+    </author>
+    <author>
+      <name>Katerina Fragkiadaki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.21760v2</id>
+    <title>MemInsight: Autonomous Memory Augmentation for LLM Agents</title>
+    <updated>2025-07-31T23:26:12Z</updated>
+    <link href="https://arxiv.org/abs/2503.21760v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.21760v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents have evolved to intelligently process information, make decisions, and interact with users or tools. A key capability is the integration of long-term memory capabilities, enabling these agents to draw upon historical interactions and knowledge. However, the growing memory size and need for semantic structuring pose significant challenges. In this work, we propose an autonomous memory augmentation approach, MemInsight, to enhance semantic data representation and retrieval mechanisms. By leveraging autonomous augmentation to historical interactions, LLM agents are shown to deliver more accurate and contextualized responses. We empirically validate the efficacy of our proposed approach in three task scenarios; conversational recommendation, question answering and event summarization. On the LLM-REDIAL dataset, MemInsight boosts persuasiveness of recommendations by up to 14%. Moreover, it outperforms a RAG baseline by 34% in recall for LoCoMo retrieval. Our empirical results show the potential of MemInsight to enhance the contextual performance of LLM agents across multiple tasks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-27T17:57:28Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rana Salama</name>
+    </author>
+    <author>
+      <name>Jason Cai</name>
+    </author>
+    <author>
+      <name>Michelle Yuan</name>
+    </author>
+    <author>
+      <name>Anna Currey</name>
+    </author>
+    <author>
+      <name>Monica Sunkara</name>
+    </author>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+    <author>
+      <name>Yassine Benajiba</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.15658v1</id>
+    <title>Did You Check the Right Pocket? Cost-Sensitive Store Routing for Memory-Augmented Agents</title>
+    <updated>2026-03-08T09:12:30Z</updated>
+    <link href="https://arxiv.org/abs/2603.15658v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.15658v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory-augmented agents maintain multiple specialized stores, yet most systems retrieve from all stores for every query, increasing cost and introducing irrelevant context. We formulate memory retrieval as a store-routing problem and evaluate it using coverage, exact match, and token efficiency metrics. On downstream question answering, an oracle router achieves higher accuracy while using substantially fewer context tokens compared to uniform retrieval, demonstrating that selective retrieval improves both efficiency and performance. Our results show that routing decisions are a first-class component of memory-augmented agent design and motivate learned routing mechanisms for scalable multi-store systems. We additionally formalize store selection as a cost-sensitive decision problem that trades answer accuracy against retrieval cost, providing a principled interpretation of routing policies.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-08T09:12:30Z</published>
+    <arxiv:comment>accepted in ICLR 2026 Workshop on Memory for LLM-Based Agentic Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Madhava Gaikwad</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.23626v1</id>
+    <title>GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs</title>
+    <updated>2026-04-26T09:38:32Z</updated>
+    <link href="https://arxiv.org/abs/2604.23626v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.23626v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM routing has achieved promising results in integrating the strengths of diverse models while balancing efficiency and performance. However, to support more realistic and challenging applications, routing must extend into agentic LLM settings, where task planning, multi-round cooperation among heterogeneous agents, and memory utilization are indispensable. To address this gap, we propose GraphPlanner, a heterogeneous graph memory-augmented agentic router for multi-agent LLMs that generates routing workflows for each query and supports both inductive and transductive inference. GraphPlanner formulates workflow generation as a Markov Decision Process (MDP), where at each step it selects both the LLM backbone and the agent role, including Planner, Executor, and Summarizer. By leveraging a heterogeneous graph, denoted as GARNet, to capture interaction memories among queries, agents, and responses, GraphPlanner integrates historical memory and workflow memory into richer state representations. The entire pipeline is optimized with reinforcement learning, jointly improving task-specific performance and computational efficiency. We evaluate GraphPlanner across 14 diverse LLM tasks and demonstrate that: (1) GraphPlanner outperforms strong single-round and multi-round routers, improving accuracy by up to 9.3% while reducing GPU cost from 186.26 GiB to 1.04 GiB; (2) GraphPlanner generalizes robustly to unseen tasks and LLMs, exhibiting strong zero-shot capabilities; and (3) GraphPlanner effectively leverages historical memories, supporting both inductive and transductive inference for more adaptive routing. Our code for GraphPlanner is released at https://github.com/ulab-uiuc/GraphPlanner.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-26T09:38:32Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>ICLR 2026</arxiv:journal_ref>
+    <author>
+      <name>Tao Feng</name>
+    </author>
+    <author>
+      <name>Haozhen Zhang</name>
+    </author>
+    <author>
+      <name>Zijie Lei</name>
+    </author>
+    <author>
+      <name>Peixuan Han</name>
+    </author>
+    <author>
+      <name>Jiaxuan You</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.15790v1</id>
+    <title>Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures (XAMT)</title>
+    <updated>2025-12-15T23:04:48Z</updated>
+    <link href="https://arxiv.org/abs/2512.15790v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.15790v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The increasing operational reliance on complex Multi-Agent Systems (MAS) across safety-critical domains necessitates rigorous adversarial robustness assessment. Modern MAS are inherently heterogeneous, integrating conventional Multi-Agent Reinforcement Learning (MARL) with emerging Large Language Model (LLM) agent architectures utilizing Retrieval-Augmented Generation (RAG). A critical shared vulnerability is reliance on centralized memory components: the shared Experience Replay (ER) buffer in MARL and the external Knowledge Base (K) in RAG agents. This paper proposes XAMT (Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures), a novel framework that formalizes attack generation as a bilevel optimization problem. The Upper Level minimizes perturbation magnitude (delta) to enforce covertness while maximizing system behavior divergence toward an adversary-defined target (Lower Level). We provide rigorous mathematical instantiations for CTDE MARL algorithms and RAG-based LLM agents, demonstrating that bilevel optimization uniquely crafts stealthy, minimal-perturbation poisons evading detection heuristics. Comprehensive experimental protocols utilize SMAC and SafeRAG benchmarks to quantify effectiveness at sub-percent poison rates (less than or equal to 1 percent in MARL, less than or equal to 0.1 percent in RAG). XAMT defines a new unified class of training-time threats essential for developing intrinsically secure MAS, with implications for trust, formal verification, and defensive strategies prioritizing intrinsic safety over perimeter-based detection.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T23:04:48Z</published>
+    <arxiv:comment>10 pages, 5 figures, 4 tables. Conference-style paper (IEEEtran). Proposes unified bilevel optimization framework for covert memory poisoning attacks in heterogeneous multi-agent systems (MARL + RAG)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Akhil Sharma</name>
+    </author>
+    <author>
+      <name>Shaikh Yaser Arafat</name>
+    </author>
+    <author>
+      <name>Jai Kumar Sharma</name>
+    </author>
+    <author>
+      <name>Ken Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.15127v2</id>
+    <title>Open-Ended Instructable Embodied Agents with Memory-Augmented Large Language Models</title>
+    <updated>2023-11-20T18:51:29Z</updated>
+    <link href="https://arxiv.org/abs/2310.15127v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.15127v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pre-trained and frozen large language models (LLMs) can effectively map simple scene rearrangement instructions to programs over a robot's visuomotor functions through appropriate few-shot example prompting. To parse open-domain natural language and adapt to a user's idiosyncratic procedures, not known during prompt engineering time, fixed prompts fall short. In this paper, we introduce HELPER, an embodied agent equipped with an external memory of language-program pairs that parses free-form human-robot dialogue into action programs through retrieval-augmented LLM prompting: relevant memories are retrieved based on the current dialogue, instruction, correction, or VLM description, and used as in-context prompt examples for LLM querying. The memory is expanded during deployment to include pairs of user's language and action plans, to assist future inferences and personalize them to the user's language and routines. HELPER sets a new state-of-the-art in the TEACh benchmark in both Execution from Dialog History (EDH) and Trajectory from Dialogue (TfD), with a 1.7x improvement over the previous state-of-the-art for TfD. Our models, code, and video results can be found in our project's website: https://helper-agent-llm.github.io.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-23T17:31:55Z</published>
+    <arxiv:comment>Project page with code &amp; videos: https://helper-agent-llm.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Gabriel Sarch</name>
+    </author>
+    <author>
+      <name>Yue Wu</name>
+    </author>
+    <author>
+      <name>Michael J. Tarr</name>
+    </author>
+    <author>
+      <name>Katerina Fragkiadaki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15654v2</id>
+    <title>Zombie Agents: Persistent Control of Self-Evolving LLM Agents via Self-Reinforcing Injections</title>
+    <updated>2026-03-05T11:36:38Z</updated>
+    <link href="https://arxiv.org/abs/2602.15654v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15654v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-evolving LLM agents update their internal state across sessions, often by writing and reusing long-term memory. This design improves performance on long-horizon tasks but creates a security risk: untrusted external content observed during a benign session can be stored as memory and later treated as instruction. We study this risk and formalize a persistent attack we call a Zombie Agent, where an attacker covertly implants a payload that survives across sessions, effectively turning the agent into a puppet of the attacker.
+  We present a black-box attack framework that uses only indirect exposure through attacker-controlled web content. The attack has two phases. During infection, the agent reads a poisoned source while completing a benign task and writes the payload into long-term memory through its normal update process. During trigger, the payload is retrieved or carried forward and causes unauthorized tool behavior. We design mechanism-specific persistence strategies for common memory implementations, including sliding-window and retrieval-augmented memory, to resist truncation and relevance filtering. We evaluate the attack on representative agent setups and tasks, measuring both persistence over time and the ability to induce unauthorized actions while preserving benign task quality. Our results show that memory evolution can convert one-time indirect injection into persistent compromise, which suggests that defenses focused only on per-session prompt filtering are not sufficient for self-evolving agents.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T15:28:24Z</published>
+    <arxiv:comment>Published as a workshop paper in Lifelong Agent @ ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Xianglin Yang</name>
+    </author>
+    <author>
+      <name>Yufei He</name>
+    </author>
+    <author>
+      <name>Shuo Ji</name>
+    </author>
+    <author>
+      <name>Bryan Hooi</name>
+    </author>
+    <author>
+      <name>Jin Song Dong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.21768v1</id>
+    <title>Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents</title>
+    <updated>2026-05-20T22:02:00Z</updated>
+    <link href="https://arxiv.org/abs/2605.21768v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.21768v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory-augmented LLM agents enable interactions that extend beyond finite context windows by storing, updating, and reusing information across sessions. However, training such agents with reinforcement learning in multi-session environments is challenging because memory turns the agent's past actions into part of its future environment. Once different rollouts write, update, or delete different memories, they no longer share the same intermediate memory state, making trajectory-level comparisons fundamentally unfair. This violates a key assumption behind group-relative methods such as GRPO, where rollouts are compared as if they were sampled from the same effective environment. Consequently, trajectory-level rewards provide noisy or biased credit signals for long-horizon memory operations. To address this challenge, we introduce Memory-R2, a training framework for long-horizon memory-augmented LLM agents. Its core algorithm, LoGo-GRPO, combines local and global group-relative optimization. The global objective preserves end-to-end learning from long-horizon trajectory-level rewards, while local rerollouts compare different memory-operation outcomes from the same intermediate memory state, yielding fairer group comparisons and more precise supervision for memory construction. Beyond credit assignment, Memory-R2 jointly optimizes memory formation and memory evolution with a shared-parameter co-learning design, where a fact extractor and a memory manager are instantiated from the same LLM backbone through role-specific prompts. To stabilize multi-step RL over long memory horizons, we adopt a progressive curriculum that increases the training horizon from 8 to 16 to 32 sessions. Together, these components provide an effective training paradigm for memory-augmented LLM agents in long-horizon multi-session settings.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-20T22:02:00Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sikuan Yan</name>
+    </author>
+    <author>
+      <name>Ahmed Bahloul</name>
+    </author>
+    <author>
+      <name>Ercong Nie</name>
+    </author>
+    <author>
+      <name>Susanna Schwarzmann</name>
+    </author>
+    <author>
+      <name>Riccardo Trivisonno</name>
+    </author>
+    <author>
+      <name>Volker Tresp</name>
+    </author>
+    <author>
+      <name>Yunpu Ma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.23008v2</id>
+    <title>Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization</title>
+    <updated>2026-03-06T09:42:17Z</updated>
+    <link href="https://arxiv.org/abs/2602.23008v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.23008v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Exploration remains the key bottleneck for large language model agents trained with reinforcement learning. While prior methods exploit pretrained knowledge, they fail in environments requiring the discovery of novel states. We propose Exploratory Memory-Augmented On- and Off-Policy Optimization (EMPO$^2$), a hybrid RL framework that leverages memory for exploration and combines on- and off-policy updates to make LLMs perform well with memory while also ensuring robustness without it. On ScienceWorld and WebShop, EMPO$^2$ achieves 128.6% and 11.3% improvements over GRPO, respectively. Moreover, in out-of-distribution tests, EMPO$^2$ demonstrates superior adaptability to new tasks, requiring only a few trials with memory and no parameter updates. These results highlight EMPO$^2$ as a promising framework for building more exploratory and generalizable LLM-based agents.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-26T13:50:57Z</published>
+    <arxiv:comment>Accepted to ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zeyuan Liu</name>
+    </author>
+    <author>
+      <name>Jeonghye Kim</name>
+    </author>
+    <author>
+      <name>Xufang Luo</name>
+    </author>
+    <author>
+      <name>Dongsheng Li</name>
+    </author>
+    <author>
+      <name>Yuqing Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.16746v1</id>
+    <title>State Contamination in Memory-Augmented LLM Agents</title>
+    <updated>2026-05-16T01:55:06Z</updated>
+    <link href="https://arxiv.org/abs/2605.16746v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.16746v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents increasingly rely on persistent state, including transcripts, summaries, retrieved context, and memory buffers, to support long-horizon interaction. This makes safety depend not only on individual model outputs, but also on what an agent stores and later reuses. We study a failure mode we call memory laundering: toxic or adversarial context can be compressed into memory summaries that no longer appear toxic under standard detectors, while still preserving hostile framing or conflict structure that influences future generations. Using paired counterfactual multi-agent rollouts, we show that toxic-origin memory summaries can remain below common toxicity thresholds while nevertheless increasing downstream toxicity relative to matched neutral baselines. To measure this hidden influence, we introduce the sub-threshold propagation gap (SPG), which quantifies downstream behavioral differences conditioned on memory states that a deployed monitor would classify as safe. Our experiments show that toxicity propagates through distinct state channels: raw transcript reuse drives overt downstream toxicity, while compressed memory carries hidden sub-threshold influence. We further find that mitigation depends critically on intervention placement. Sanitizing toxic state before summarization substantially reduces the hidden propagation gap, whereas cleaning only the completed summary can leave laundered influence intact. These results suggest that safety in memory-augmented agents should be treated as a state-control problem over evolving context, with sanitization applied before unsafe information is compressed into persistent memory.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-16T01:55:06Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yian Wang</name>
+    </author>
+    <author>
+      <name>Agam Goyal</name>
+    </author>
+    <author>
+      <name>Yuen Chen</name>
+    </author>
+    <author>
+      <name>Hari Sundaram</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.19559v1</id>
+    <title>Uncertainty Decomposition for Clarification Seeking in LLM Agents</title>
+    <updated>2026-06-17T19:59:32Z</updated>
+    <link href="https://arxiv.org/abs/2606.19559v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.19559v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent position papers argue that the classical aleatoric/epistemic uncertainty framework is insufficient for interactive large language model (LLM) agents and call for underspecification-aware, decomposed, and communicable uncertainty representations that can unlock new agent capabilities such as proactive clarification seeking and shared mental-model building. Practical deployment constraints -- black-box APIs, interactive latency budgets, and the absence of labeled trajectories -- rule out logprob-based, multi-sampling, and training-based methods, leaving prompt-based estimation as the most viable family for surfacing such signals at deployment time. We answer this call with a simple prompt-based decomposition that separates action confidence from request uncertainty (u), enabling the agent to ask for clarification when the task specification is ambiguous. To evaluate it, we introduce two clarification-augmented benchmarks (WebShop-Clarification and ALFWorld-Clarification) in which 50% of tasks are deliberately underspecified, and systematically compare the proposed decomposition against ReAct+UE and Uncertainty-Aware Memory (UAM) across five LLM backbones (GPT-5.1, DeepSeek-v3.2-exp, GLM-4.7, Qwen3.5-35B, GPT-OSS-120B) on these variants together with the standard WebShop, ALFWorld, and REAL benchmarks for fault detection. Averaged across the five backbones, the proposed decomposition improves clarification F1 on ALFWorld-Clarification by 73% over ReAct+UE and by 36% over UAM, and leads clarification F1 on every backbone on WebShop-Clarification and on four of five backbones on ALFWorld-Clarification, indicating that the gains generalize beyond a single LLM.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-17T19:59:32Z</published>
+    <arxiv:comment>26 pages, 8 figures. Source code: https://github.com/PE51K/udcs-in-llm-agents</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Gregory Matsnev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.06036v1</id>
+    <title>Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents</title>
+    <updated>2026-06-04T11:29:46Z</updated>
+    <link href="https://arxiv.org/abs/2606.06036v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.06036v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite recent progress, LLM agents still struggle with reasoning over long interaction histories. While current memory-augmented agents rely on a static retrieve-then-reason paradigm, this rigid pipeline design prevents them from dynamically adapting memory access to intermediate evidence discovered during inference. To bridge this gap, we propose MRAgent, a framework that combines an associative memory graph with an active reconstruction mechanism. We represent memory as a Cue-Tag-Content graph, where associative tags serve as semantic bridges connecting fine-grained cues to memory contents. Operating on this structure, our active reconstruction mechanism integrates LLM reasoning directly into memory access, allowing the agent to iteratively explore and prune retrieval paths based on accumulated evidence. This ensures that memory retrieval is dynamically adapted to the reasoning context while avoiding combinatorial explosion caused by unconstrained expansion. Experiments on the LoCoMo benchmark and LongMemEval benchmark demonstrate significant improvements over strong baselines (up to 23%), while substantially reducing token and runtime cost, highlighting the effectiveness of active and associative reconstruction for long-horizon memory reasoning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-04T11:29:46Z</published>
+    <arxiv:comment>Accepted at ICML 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shuo Ji</name>
+    </author>
+    <author>
+      <name>Yibo Li</name>
+    </author>
+    <author>
+      <name>Bryan Hooi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.21716v1</id>
+    <title>LLM-Empowered Embodied Agent for Memory-Augmented Task Planning in Household Robotics</title>
+    <updated>2025-04-30T15:00:20Z</updated>
+    <link href="https://arxiv.org/abs/2504.21716v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.21716v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an embodied robotic system with an LLM-driven agent-orchestration architecture for autonomous household object management. The system integrates memory-augmented task planning, enabling robots to execute high-level user commands while tracking past actions. It employs three specialized agents: a routing agent, a task planning agent, and a knowledge base agent, each powered by task-specific LLMs. By leveraging in-context learning, our system avoids the need for explicit model training. RAG enables the system to retrieve context from past interactions, enhancing long-term object tracking. A combination of Grounded SAM and LLaMa3.2-Vision provides robust object detection, facilitating semantic scene understanding for task planning. Evaluation across three household scenarios demonstrates high task planning accuracy and an improvement in memory recall due to RAG. Specifically, Qwen2.5 yields best performance for specialized agents, while LLaMA3.1 excels in routing tasks. The source code is available at: https://github.com/marc1198/chat-hsr.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-30T15:00:20Z</published>
+    <arxiv:comment>Accepted at Austrian Robotics Workshop 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Marc Glocker</name>
+    </author>
+    <author>
+      <name>Peter Hönig</name>
+    </author>
+    <author>
+      <name>Matthias Hirschmanner</name>
+    </author>
+    <author>
+      <name>Markus Vincze</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.04363v3</id>
+    <title>AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents</title>
+    <updated>2025-05-15T10:57:51Z</updated>
+    <link href="https://arxiv.org/abs/2407.04363v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.04363v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advancements in the capabilities of Large Language Models (LLMs) have created a promising foundation for developing autonomous agents. With the right tools, these agents could learn to solve tasks in new environments by accumulating and updating their knowledge. Current LLM-based agents process past experiences using a full history of observations, summarization, retrieval augmentation. However, these unstructured memory representations do not facilitate the reasoning and planning essential for complex decision-making. In our study, we introduce AriGraph, a novel method wherein the agent constructs and updates a memory graph that integrates semantic and episodic memories while exploring the environment. We demonstrate that our Ariadne LLM agent, consisting of the proposed memory architecture augmented with planning and decision-making, effectively handles complex tasks within interactive text game environments difficult even for human players. Results show that our approach markedly outperforms other established memory methods and strong RL baselines in a range of problems of varying complexity. Additionally, AriGraph demonstrates competitive performance compared to dedicated knowledge graph-based methods in static multi-hop question-answering.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-05T09:06:47Z</published>
+    <arxiv:comment>Code for this work is avaliable at https://github.com/AIRI-Institute/AriGraph</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Petr Anokhin</name>
+    </author>
+    <author>
+      <name>Nikita Semenov</name>
+    </author>
+    <author>
+      <name>Artyom Sorokin</name>
+    </author>
+    <author>
+      <name>Dmitry Evseev</name>
+    </author>
+    <author>
+      <name>Andrey Kravchenko</name>
+    </author>
+    <author>
+      <name>Mikhail Burtsev</name>
+    </author>
+    <author>
+      <name>Evgeny Burnaev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11243v4</id>
+    <title>Evaluating Memory Structure in LLM Agents</title>
+    <updated>2026-10-01T10:38:13Z</updated>
+    <link href="https://arxiv.org/abs/2602.11243v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11243v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern LLM-based agents and chat assistants rely on long-term memory frameworks to store reusable knowledge, recall user preferences, and augment reasoning. As researchers create more complex memory architectures, it becomes increasingly difficult to analyze their capabilities and guide future memory designs. Most long-term memory benchmarks focus on simple fact retention, multi-hop recall, and time-based changes. While undoubtedly important, these capabilities can often be achieved with simple retrieval-augmented LLMs and do not test complex memory hierarchies. To bridge this gap, we propose StructMemEval - a benchmark that tests the agent's ability to organize its long-term memory, not just factual recall. We gather a suite of tasks that humans solve by organizing their knowledge in a specific structure: transaction ledgers, to-do lists, trees and others. Our initial experiments show that simple retrieval-augmented LLMs struggle with these tasks, whereas memory agents can reliably solve them if prompted how to organize their memory. However, we also find that modern LLMs do not always recognize the memory structure when not prompted to do so. This highlights an important direction for future improvements in both LLM training and memory frameworks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T17:32:23Z</published>
+    <arxiv:comment>Preprint, work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alina Shutova</name>
+    </author>
+    <author>
+      <name>Alexandra Olenina</name>
+    </author>
+    <author>
+      <name>Ivan Vinogradov</name>
+    </author>
+    <author>
+      <name>Anton Sinitsin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.18395v1</id>
+    <title>Memory-Augmented State Machine Prompting: A Novel LLM Agent Framework for Real-Time Strategy Games</title>
+    <updated>2025-10-21T08:15:04Z</updated>
+    <link href="https://arxiv.org/abs/2510.18395v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.18395v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes Memory-Augmented State Machine Prompting (MASMP), a novel framework for LLM agents in real-time strategy games. Addressing key challenges like hallucinations and fragmented decision-making in existing approaches, MASMP integrates state machine prompting with memory mechanisms to unify structured actions with long-term tactical coherence. The framework features: (1) a natural language-driven state machine architecture that guides LLMs to emulate finite state machines and behavior trees through prompts, and (2) a lightweight memory module preserving strategic variables (e.g., tactics, priority units) across decision cycles. Experiments in StarCraft II demonstrate MASMP's 60% win rate against the hardest built-in AI (Lv7), vastly outperforming baselines (0%). Case studies reveal the method retains LLMs' semantic comprehension while resolving the "Knowing-Doing Gap" through strict state-action mapping, achieving both interpretability and FSM-like reliability. This work establishes a new paradigm for combining neural and symbolic AI in complex decision-making.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-21T08:15:04Z</published>
+    <arxiv:comment>10 pages, 4 figures, 1 table, 1 algorithm. Submitted to conference</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Runnan Qi</name>
+    </author>
+    <author>
+      <name>Yanan Ni</name>
+    </author>
+    <author>
+      <name>Lumin Jiang</name>
+    </author>
+    <author>
+      <name>Zongyuan Li</name>
+    </author>
+    <author>
+      <name>Kuihua Huang</name>
+    </author>
+    <author>
+      <name>Xian Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.08558v1</id>
+    <title>Personalizing LLM Agent Memory Using Biometrics</title>
+    <updated>2026-09-08T10:46:12Z</updated>
+    <link href="https://arxiv.org/abs/2609.08558v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.08558v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Personalized memory helps LLM agents deliver stable, tailored assistance by storing and reusing user-specific data across interactions. In multi-user scenarios, however, retrieval must consider not only semantic similarity but also whether the current requester matches the identity associated with the stored memory. We propose Bio-Memory, a biometric-aware memory architecture that conditions memory retrieval on both semantic similarity and biometric matching. Built on top of A-Mem, Bio-Memory augments each atomic memory note with a biometric embedding and uses biometric matching to form the retrieval candidate pool before semantic ranking. We evaluate Bio-Memory on LoCoMo in a 10-user shared-agent setting over 7 face benchmarks and 10 palmprint protocols. Across datasets, Bio-Memory consistently separates owner and non-owner queries. Under face-based personalization, the largest average gap reaches 27.29% / 21.15% in F1 / BLEU-1 on CALFW; under palmprint-based personalization, the corresponding gap is 25.75% / 19.22% on MS_Blue. These results support biometrics as a practical control signal for personalized memory retrieval in shared environments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-08T10:46:12Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yanhong Qian</name>
+    </author>
+    <author>
+      <name>Qingguo Meng</name>
+    </author>
+    <author>
+      <name>Shihao Ding</name>
+    </author>
+    <author>
+      <name>Xingbo Dong</name>
+    </author>
+    <author>
+      <name>Zhe Jin</name>
+    </author>
+    <author>
+      <name>Hanrui Wang</name>
+    </author>
+    <author>
+      <name>Isao Echizen</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uFtS7Zk6GRCZIZ7OS0BJSLMWvLQ</id>
+  <title>arXiv Query: search_query=all:hippocampal AND all:time AND all:cell AND all:sequence AND all:memory&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-11-07T11:34:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hippocampal+AND+(all:time+AND+(all:cell+AND+(all:sequence+AND+all:memory)))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2611.07920v1</id>
+    <title>How Finite Brains Generalize Without Bound: Spatial Memory as a Universal Computer</title>
+    <updated>2026-11-05T12:30:06Z</updated>
+    <link href="https://arxiv.org/abs/2611.07920v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.07920v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A child who learns to add small numbers adds numbers of any length. LSTMs and Transformers trained on short sequences fail on longer ones. We trace the difference to what a learner reads when it decides. A position, a count or a time keeps taking new values as the input grows: it is a coordinate, and a learner that reads one meets in every long input values its experience never covered. Whether two things are the same has the same two answers at every size: it is a coincidence, and a learner that reads only coincidences finds in a long input nothing that short inputs lacked, so finite experience fixes its rule for every size. The memory carries the size of the input and the rule stays finite, and this determines the memory a generalizing brain can have: a memory that grows while what the learner reads of it stays finite has to look the same from every place, so it is made of cycles, and the past is reached by asking what happened when the cycles last stood where they stand now. The cycles are the grid modules, the cells that detect their return the place cells, the records the hippocampal index; a prefrontal controller moves the cycles and never sees them. Reading only coincidences costs no power: what finite experience fixes in such a learner is what Turing machines compute in step with their input, which is why a circuit that evolved to find the way home can learn arithmetic and grammar. In a network of neurons this machine of cycles is the dynamics seen through its symmetry, and symbols are its invariants. Trained on strings up to 40 symbols, the machine is at least 99% correct, on average over lengths 41 to 500, on nine of fifteen benchmark tasks, five of them tasks that no LSTM or Transformer solves; given new cycles after training it reverses strings of 15,015 symbols without error and fails beyond that on the curve the theory predicts; and its controllers run unchanged on neurons.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-05T12:30:06Z</published>
+    <arxiv:comment>57 pages, including appendices</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuhang He</name>
+    </author>
+    <author>
+      <name>Si Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.06692v1</id>
+    <title>An algebraic approach to spike-time neural codes in the hippocampus</title>
+    <updated>2022-11-12T15:45:18Z</updated>
+    <link href="https://arxiv.org/abs/2211.06692v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.06692v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although temporal coding through spike-time patterns has long been of interest in neuroscience, the specific structures that could be useful for spike-time codes remain highly unclear. Here, we introduce a new analytical approach, using techniques from discrete mathematics, to study spike-time codes. We focus on the phenomenon of ``phase precession'' in the rodent hippocampus. During navigation and learning on a physical track, specific cells in a rodent's brain form a highly structured pattern relative to the oscillation of local population activity. Studies of phase precession largely focus on its well established role in synaptic plasticity and memory formation. Comparatively less attention has been paid to the fact that phase precession represents one of the best candidates for a spike-time neural code. The precise nature of this code remains an open question. Here, we derive an analytical expression for an operator mapping points in physical space, through individual spike times, to complex numbers. The properties of this operator highlight a specific relationship between past and future in hippocampal spike patterns. Importantly, this approach generalizes beyond the specific phenomenon studied here, providing a new technique to study the neural codes within spike-time sequences found during sensory coding and motor behavior. We then introduce a novel spike-based decoding algorithm, based on this operator, that successfully decodes a simulated animal's trajectory using only the animal's initial position and a pattern of spike times. This decoder is robust to noise in spike times and works on a timescale almost an order of magnitude shorter than typically used with decoders that work on average firing rate. These results illustrate the utility of a discrete approach, based on the symmetries in spike patterns, to provide insight into the structure and function of neural systems.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-12T15:45:18Z</published>
+    <arxiv:comment>11 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Federico W. Pasini</name>
+    </author>
+    <author>
+      <name>Alexandra N. Busch</name>
+    </author>
+    <author>
+      <name>Ján Mináč</name>
+    </author>
+    <author>
+      <name>Krishnan Padmanabhan</name>
+    </author>
+    <author>
+      <name>Lyle Muller</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["25044248"],"translationset":[],"querytranslation":"\"10 1016 j cognition 2014 06 012\"[Publisher ID]"}}

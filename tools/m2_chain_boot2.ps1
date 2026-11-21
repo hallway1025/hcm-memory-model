@@ -1,0 +1,2 @@
+$r = Invoke-CimMethod -ClassName Win32_Process -MethodName Create -Arguments @{ CommandLine = 'powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:/Users/you/hcm/tools/m2_chain_runner.ps1' }
+Write-Output ('WMI_RET=' + $r.ReturnValue + ' PID=' + $r.ProcessId)

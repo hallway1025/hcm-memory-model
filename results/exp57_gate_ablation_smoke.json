@@ -1,0 +1,42 @@
+{
+ "exp": "exp57_gate_ablation",
+ "smoke": true,
+ "N": 300,
+ "D": 128,
+ "arms": [
+  "baseline",
+  "constant"
+ ],
+ "rows": [
+  {
+   "seed": 0,
+   "arm": "baseline",
+   "N": 300,
+   "n_written": 310,
+   "accept_rate": 1.0,
+   "g_mean": 0.882,
+   "dup_rewrite_rate": 0.0,
+   "dup_degraded_rate": 1.0,
+   "deg25": 40,
+   "n_probes": 40,
+   "abstain": 0,
+   "m1_mean": 0.7919,
+   "write_s": 1.0
+  },
+  {
+   "seed": 0,
+   "arm": "constant",
+   "N": 300,
+   "n_written": 310,
+   "accept_rate": 1.0,
+   "g_mean": 1.0,
+   "dup_rewrite_rate": 0.0,
+   "dup_degraded_rate": 1.0,
+   "deg25": 40,
+   "n_probes": 40,
+   "abstain": 0,
+   "m1_mean": 0.7919,
+   "write_s": 1.1
+  }
+ ]
+}

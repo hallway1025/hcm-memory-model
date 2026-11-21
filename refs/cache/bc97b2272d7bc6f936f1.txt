@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+Y1MScvOI1fCOel6OSRkHDqn10c</id>
+  <title>arXiv Query: search_query=all:temporal AND all:link AND all:prediction&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T13:50:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:temporal+AND+(all:link+AND+all:prediction)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>936</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2202.12713v1</id>
+    <title>HTGN-BTW: Heterogeneous Temporal Graph Network with Bi-Time-Window Training Strategy for Temporal Link Prediction</title>
+    <updated>2022-02-25T14:12:59Z</updated>
+    <link href="https://arxiv.org/abs/2202.12713v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.12713v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the development of temporal networks such as E-commerce networks and social networks, the issue of temporal link prediction has attracted increasing attention in recent years. The Temporal Link Prediction task of WSDM Cup 2022 expects a single model that can work well on two kinds of temporal graphs simultaneously, which have quite different characteristics and data properties, to predict whether a link of a given type will occur between two given nodes within a given time span. Our team, named as nothing here, regards this task as a link prediction task in heterogeneous temporal networks and proposes a generic model, i.e., Heterogeneous Temporal Graph Network (HTGN), to solve such temporal link prediction task with the unfixed time intervals and the diverse link types. That is, HTGN can adapt to the heterogeneity of links and the prediction with unfixed time intervals within an arbitrary given time period. To train the model, we design a Bi-Time-Window training strategy (BTW) which has two kinds of mini-batches from two kinds of time windows. As a result, for the final test, we achieved an AUC of 0.662482 on dataset A, an AUC of 0.906923 on dataset B, and won 2nd place with an Average T-scores of 0.628942.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-25T14:12:59Z</published>
+    <arxiv:comment>5 pages, Second Winner Award at Temporal Link Prediction task of WSDM Cup 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Chongjian Yue</name>
+    </author>
+    <author>
+      <name>Lun Du</name>
+    </author>
+    <author>
+      <name>Qiang Fu</name>
+    </author>
+    <author>
+      <name>Wendong Bi</name>
+    </author>
+    <author>
+      <name>Hengyu Liu</name>
+    </author>
+    <author>
+      <name>Yu Gu</name>
+    </author>
+    <author>
+      <name>Di Yao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.01820v1</id>
+    <title>An Effective Graph Learning based Approach for Temporal Link Prediction: The First Place of WSDM Cup 2022</title>
+    <updated>2022-03-01T03:55:19Z</updated>
+    <link href="https://arxiv.org/abs/2203.01820v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.01820v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temporal link prediction, as one of the most crucial work in temporal graphs, has attracted lots of attention from the research area. The WSDM Cup 2022 seeks for solutions that predict the existence probabilities of edges within time spans over temporal graph. This paper introduces the solution of AntGraph, which wins the 1st place in the competition. We first analysis the theoretical upper-bound of the performance by removing temporal information, which implies that only structure and attribute information on the graph could achieve great performance. Based on this hypothesis, then we introduce several well-designed features. Finally, experiments conducted on the competition datasets show the superiority of our proposal, which achieved AUC score of 0.666 on dataset A and 0.902 on dataset B, the ablation studies also prove the efficiency of each feature. Code is publicly available at https://github.com/im0qianqian/WSDM2022TGP-AntGraph.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-01T03:55:19Z</published>
+    <arxiv:comment>4 pages, the first place of WSDM Cup 2022 (Temporal Link Prediction)</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Qian Zhao</name>
+    </author>
+    <author>
+      <name>Shuo Yang</name>
+    </author>
+    <author>
+      <name>Binbin Hu</name>
+    </author>
+    <author>
+      <name>Zhiqiang Zhang</name>
+    </author>
+    <author>
+      <name>Yakun Wang</name>
+    </author>
+    <author>
+      <name>Yusong Chen</name>
+    </author>
+    <author>
+      <name>Jun Zhou</name>
+    </author>
+    <author>
+      <name>Chuan Shi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.04897v3</id>
+    <title>From Link Prediction to Forecasting: Addressing Challenges in Batch-based Temporal Graph Learning</title>
+    <updated>2026-02-05T10:21:15Z</updated>
+    <link href="https://arxiv.org/abs/2406.04897v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.04897v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dynamic link prediction is an important problem considered in many recent works that propose approaches for learning temporal edge patterns. To assess their efficacy, models are evaluated on continuous-time and discrete-time temporal graph datasets, typically using a traditional batch-oriented evaluation setup. However, as we show in this work, a batch-oriented evaluation is often unsuitable and can cause several issues. Grouping edges into fixed-sized batches regardless of their occurrence time leads to information loss or leakage, depending on the temporal granularity of the data. Furthermore, fixed-size batches create time windows with different durations, resulting in an inconsistent dynamic link prediction task. In this work, we empirically show how traditional batch-based evaluation leads to skewed model performance and hinders the fair comparison of methods. We mitigate this problem by reformulating dynamic link prediction as a link forecasting task that better accounts for temporal information present in the data.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-07T12:45:12Z</published>
+    <arxiv:comment>46 pages (12 pages main text), 19 figures. Published in Transactions on Machine Learning Research (2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Lampert, M., Blöcker, C. &amp; Scholtes, I., (2026). From Link Prediction to Forecasting: Addressing Challenges in Batch-based Temporal Graph Learning. Transactions on Machine Learning Research, February 2026</arxiv:journal_ref>
+    <author>
+      <name>Moritz Lampert</name>
+    </author>
+    <author>
+      <name>Christopher Blöcker</name>
+    </author>
+    <author>
+      <name>Ingo Scholtes</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.3675v3</id>
+    <title>Scalable Link Prediction in Dynamic Networks via Non-Negative Matrix Factorization</title>
+    <updated>2016-07-23T22:37:22Z</updated>
+    <link href="https://arxiv.org/abs/1411.3675v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.3675v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a scalable temporal latent space model for link prediction in dynamic social networks, where the goal is to predict links over time based on a sequence of previous graph snapshots. The model assumes that each user lies in an unobserved latent space and interactions are more likely to form between similar users in the latent space representation. In addition, the model allows each user to gradually move its position in the latent space as the network structure evolves over time. We present a global optimization algorithm to effectively infer the temporal latent space, with a quadratic convergence rate. Two alternative optimization algorithms with local and incremental updates are also proposed, allowing the model to scale to larger networks without compromising prediction accuracy. Empirically, we demonstrate that our model, when evaluated on a number of real-world dynamic networks, significantly outperforms existing approaches for temporal link prediction in terms of both scalability and predictive power.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-13T19:36:54Z</published>
+    <arxiv:comment>Technical report for paper "Scalable Temporal Latent Space Inference for Link Prediction in Dynamic Social Networks" that appears in IEEE Transactions on Knowledge and Data Engineering 2016</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Linhong Zhu</name>
+    </author>
+    <author>
+      <name>Dong Guo</name>
+    </author>
+    <author>
+      <name>Junming Yin</name>
+    </author>
+    <author>
+      <name>Greg Ver Steeg</name>
+    </author>
+    <author>
+      <name>Aram Galstyan</name>
+    </author>
+    <arxiv:doi>10.1109/TKDE.2016.2591009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TKDE.2016.2591009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.12255v2</id>
+    <title>Exploring Time Granularity on Temporal Graphs for Dynamic Link Prediction in Real-world Networks</title>
+    <updated>2023-11-22T19:44:10Z</updated>
+    <link href="https://arxiv.org/abs/2311.12255v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.12255v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dynamic Graph Neural Networks (DGNNs) have emerged as the predominant approach for processing dynamic graph-structured data. However, the influence of temporal information on model performance and robustness remains insufficiently explored, particularly regarding how models address prediction tasks with different time granularities. In this paper, we explore the impact of time granularity when training DGNNs on dynamic graphs through extensive experiments. We examine graphs derived from various domains and compare three different DGNNs to the baseline model across four varied time granularities. We mainly consider the interplay between time granularities, model architectures, and negative sampling strategies to obtain general conclusions. Our results reveal that a sophisticated memory mechanism and proper time granularity are crucial for a DGNN to deliver competitive and robust performance in the dynamic link prediction task. We also discuss drawbacks in considered models and datasets and propose promising directions for future research on the time granularity of temporal graphs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-21T00:34:53Z</published>
+    <arxiv:comment>Presented at the Temporal Graph Learning Workshop @ NeurIPS 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xiangjian Jiang</name>
+    </author>
+    <author>
+      <name>Yanyi Pu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.14326v1</id>
+    <title>Temporal link prediction methods based on behavioral synchrony</title>
+    <updated>2023-11-24T07:56:20Z</updated>
+    <link href="https://arxiv.org/abs/2311.14326v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.14326v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Link prediction -- to identify potential missing or spurious links in temporal network data -- has typically been based on local structures, ignoring long-term temporal effects. In this chapter, we propose link-prediction methods based on agents' behavioral synchrony. Since synchronous behavior signals similarity and similar agents are known to have a tendency to connect in the future, behavioral synchrony could function as a precursor of contacts and, thus, as a basis for link prediction. We use four data sets of different sizes to test the algorithm's accuracy. We compare the results with traditional link prediction models involving both static and temporal networks. Among our findings, we note that the proposed algorithm is superior to conventional methods, with the average accuracy improved by approximately 2% - 5%. We identify different evolution patterns of four network topologies -- a proximity network, a communication network, transportation data, and a collaboration network. We found that: (1) timescale similarity contributes more to the evolution of the human contact network and the human communication network; (2) such contribution is not observed through a transportation network whose evolution pattern is more dependent on network structure than on the behavior of regional agents; (3) both timescale similarity and local structural similarity contribute to the collaboration network.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-24T07:56:20Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Temporal Network Theory (2nd ed.), Petter Holme and Jari Saramaki, eds., (Springer, Cham, 2023), pp. 381-402</arxiv:journal_ref>
+    <author>
+      <name>Yueran Duan</name>
+    </author>
+    <author>
+      <name>Qing Guan</name>
+    </author>
+    <author>
+      <name>Petter Holme</name>
+    </author>
+    <author>
+      <name>Yacheng Yang</name>
+    </author>
+    <author>
+      <name>Wei Guan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.07516v1</id>
+    <title>Temporal Link Prediction Using Graph Embedding Dynamics</title>
+    <updated>2024-01-15T07:35:29Z</updated>
+    <link href="https://arxiv.org/abs/2401.07516v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.07516v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graphs are a powerful representation tool in machine learning applications, with link prediction being a key task in graph learning. Temporal link prediction in dynamic networks is of particular interest due to its potential for solving complex scientific and real-world problems. Traditional approaches to temporal link prediction have focused on finding the aggregation of dynamics of the network as a unified output. In this study, we propose a novel perspective on temporal link prediction by defining nodes as Newtonian objects and incorporating the concept of velocity to predict network dynamics. By computing more specific dynamics of each node, rather than overall dynamics, we improve both accuracy and explainability in predicting future connections. We demonstrate the effectiveness of our approach using two datasets, including 17 years of co-authorship data from PubMed. Experimental results show that our temporal graph embedding dynamics approach improves downstream classification models' ability to predict future collaboration efficacy in co-authorship networks by 17.34% (AUROC improvement relative to the baseline model). Furthermore, our approach offers an interpretable layer over traditional approaches to address the temporal link prediction problem.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-15T07:35:29Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sanaz Hasanzadeh Fard</name>
+    </author>
+    <author>
+      <name>Mohammad Ghassemi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.10925v2</id>
+    <title>Transfer Learning for Temporal Link Prediction</title>
+    <updated>2025-04-17T04:59:47Z</updated>
+    <link href="https://arxiv.org/abs/2504.10925v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.10925v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Link prediction on graphs has applications spanning from recommender systems to drug discovery. Temporal link prediction (TLP) refers to predicting future links in a temporally evolving graph and adds additional complexity related to the dynamic nature of graphs. State-of-the-art TLP models incorporate memory modules alongside graph neural networks to learn both the temporal mechanisms of incoming nodes and the evolving graph topology. However, memory modules only store information about nodes seen at train time, and hence such models cannot be directly transferred to entirely new graphs at test time and deployment. In this work, we study a new transfer learning task for temporal link prediction, and develop transfer-effective methods for memory-laden models. Specifically, motivated by work showing the informativeness of structural signals for the TLP task, we augment a structural mapping module to the existing TLP model architectures, which learns a mapping from graph structural (topological) features to memory embeddings. Our work paves the way for a memory-free foundation model for TLP.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-15T07:12:00Z</published>
+    <arxiv:comment>14 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ayan Chatterjee</name>
+    </author>
+    <author>
+      <name>Barbara Ikica</name>
+    </author>
+    <author>
+      <name>Babak Ravandi</name>
+    </author>
+    <author>
+      <name>John Palowitch</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.23577v1</id>
+    <title>TAMI: Taming Heterogeneity in Temporal Interactions for Temporal Graph Link Prediction</title>
+    <updated>2025-10-23T05:14:58Z</updated>
+    <link href="https://arxiv.org/abs/2510.23577v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.23577v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temporal graph link prediction aims to predict future interactions between nodes in a graph based on their historical interactions, which are encoded in node embeddings. We observe that heterogeneity naturally appears in temporal interactions, e.g., a few node pairs can make most interaction events, and interaction events happen at varying intervals. This leads to the problems of ineffective temporal information encoding and forgetting of past interactions for a pair of nodes that interact intermittently for their link prediction. Existing methods, however, do not consider such heterogeneity in their learning process, and thus their learned temporal node embeddings are less effective, especially when predicting the links for infrequently interacting node pairs. To cope with the heterogeneity, we propose a novel framework called TAMI, which contains two effective components, namely log time encoding function (LTE) and link history aggregation (LHA). LTE better encodes the temporal information through transforming interaction intervals into more balanced ones, and LHA prevents the historical interactions for each target node pair from being forgotten. State-of-the-art temporal graph neural networks can be seamlessly and readily integrated into TAMI to improve their effectiveness. Experiment results on 13 classic datasets and three newest temporal graph benchmark (TGB) datasets show that TAMI consistently improves the link prediction performance of the underlying models in both transductive and inductive settings. Our code is available at https://github.com/Alleinx/TAMI_temporal_graph.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-23T05:14:58Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhongyi Yu</name>
+    </author>
+    <author>
+      <name>Jianqiu Wu</name>
+    </author>
+    <author>
+      <name>Zhenghao Wu</name>
+    </author>
+    <author>
+      <name>Shuhan Zhong</name>
+    </author>
+    <author>
+      <name>Weifeng Su</name>
+    </author>
+    <author>
+      <name>Chul-Ho Lee</name>
+    </author>
+    <author>
+      <name>Weipeng Zhuo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.07199v1</id>
+    <title>Link-aware link prediction over temporal graph by pattern recognition</title>
+    <updated>2024-02-11T13:26:06Z</updated>
+    <link href="https://arxiv.org/abs/2402.07199v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.07199v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A temporal graph can be considered as a stream of links, each of which represents an interaction between two nodes at a certain time. On temporal graphs, link prediction is a common task, which aims to answer whether the query link is true or not. To do this task, previous methods usually focus on the learning of representations of the two nodes in the query link. We point out that the learned representation by their models may encode too much information with side effects for link prediction because they have not utilized the information of the query link, i.e., they are link-unaware. Based on this observation, we propose a link-aware model: historical links and the query link are input together into the following model layers to distinguish whether this input implies a reasonable pattern that ends with the query link. During this process, we focus on the modeling of link evolution patterns rather than node representations. Experiments on six datasets show that our model achieves strong performances compared with state-of-the-art baselines, and the results of link prediction are interpretable. The code and datasets are available on the project website: https://github.com/lbq8942/TGACN.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-11T13:26:06Z</published>
+    <arxiv:comment>12 pages, one column</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Bingqing Liu</name>
+    </author>
+    <author>
+      <name>Xikun Huang</name>
+    </author>
+  </entry>
+</feed>

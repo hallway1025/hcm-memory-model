@@ -1,0 +1,61 @@
+  [char s1] ckpt 1 N=8654 wrote=8654 rates={'20': 0.016, '100': 0.875, '500': 0.875, '2500': 0.875} beta*=100 206s
+  [char s1] ckpt 2 N=18272 wrote=18272 rates={'20': 0.0, '100': 0.906, '500': 0.906, '2500': 0.906} beta*=100 670s
+  [char s1] ckpt 3 N=27757 wrote=27757 rates={'20': 0.0, '100': 0.797, '500': 0.828, '2500': 0.828} beta*=500 1451s
+  [char s1] ckpt 4 N=37009 wrote=37009 rates={'20': 0.0, '100': 0.797, '500': 0.812, '2500': 0.812} beta*=500 2566s
+  [char s1] ckpt 5 N=46027 wrote=46027 rates={'20': 0.0, '100': 0.891, '500': 0.906, '2500': 0.906} beta*=500 3957s
+  [char s1] ckpt 6 N=54801 wrote=54801 rates={'20': 0.0, '100': 0.875, '500': 0.891, '2500': 0.891} beta*=500 5618s
+  [char s1] ckpt 7 N=63551 wrote=63551 rates={'20': 0.0, '100': 0.844, '500': 0.844, '2500': 0.844} beta*=100 7549s
+  [char s1] ckpt 8 N=72547 wrote=72547 rates={'20': 0.0, '100': 0.828, '500': 0.859, '2500': 0.859} beta*=500 9748s
+  [char s1] ckpt 9 N=81514 wrote=81514 rates={'20': 0.0, '100': 0.875, '500': 0.891, '2500': 0.891} beta*=500 12223s
+  [char s1] ckpt 10 N=90535 wrote=90535 rates={'20': 0.0, '100': 0.734, '500': 0.75, '2500': 0.75} beta*=500 14958s
+  [char s1] ckpt 11 N=92753 wrote=92753 rates={'20': 0.0, '100': 0.859, '500': 0.875, '2500': 0.875} beta*=500 16775s
+  [sem s1] ckpt 1 N=9919 wrote=9919 rates={'20': 0.125, '100': 0.766, '500': 0.766, '2500': 0.766} beta*=100 239s
+  [sem s1] ckpt 2 N=19817 wrote=19817 rates={'20': 0.047, '100': 0.828, '500': 0.828, '2500': 0.828} beta*=100 783s
+  [sem s1] ckpt 3 N=29420 wrote=29420 rates={'20': 0.0, '100': 0.719, '500': 0.719, '2500': 0.719} beta*=100 1635s
+  [sem s1] ckpt 4 N=38830 wrote=38830 rates={'20': 0.0, '100': 0.75, '500': 0.75, '2500': 0.75} beta*=100 2797s
+  [sem s1] ckpt 5 N=47920 wrote=47920 rates={'20': 0.0, '100': 0.75, '500': 0.766, '2500': 0.766} beta*=500 4240s
+  [sem s1] ckpt 6 N=56740 wrote=56740 rates={'20': 0.016, '100': 0.891, '500': 0.906, '2500': 0.906} beta*=500 5963s
+  [sem s1] ckpt 7 N=65520 wrote=65520 rates={'20': 0.0, '100': 0.734, '500': 0.797, '2500': 0.797} beta*=500 7940s
+  [sem s1] ckpt 8 N=74532 wrote=74532 rates={'20': 0.0, '100': 0.875, '500': 0.891, '2500': 0.891} beta*=500 10204s
+  [sem s1] ckpt 9 N=83554 wrote=83554 rates={'20': 0.0, '100': 0.797, '500': 0.812, '2500': 0.812} beta*=500 12736s
+  [sem s1] ckpt 10 N=92918 wrote=92918 rates={'20': 0.0, '100': 0.781, '500': 0.797, '2500': 0.797} beta*=500 15533s
+  [sem s1] ckpt 11 N=95370 wrote=95370 rates={'20': 0.0, '100': 0.781, '500': 0.812, '2500': 0.828} beta*=2500 17407s
+  [transfer s1] ckpt 0 beta*=100 rate=0.766 reused
+  [transfer s1] ckpt 1 beta*=100 rate=0.828 reused
+  [transfer s1] ckpt 2 beta*=500 rate=0.719 reused
+  [transfer s1] ckpt 3 beta*=500 rate=0.750 reused
+  [transfer s1] ckpt 4 beta*=500 rate=0.766 reused
+  [transfer s1] ckpt 5 beta*=500 rate=0.906 reused
+  [transfer s1] ckpt 6 beta*=100 rate=0.734 reused
+  [transfer s1] ckpt 7 beta*=500 rate=0.891 reused
+  [transfer s1] ckpt 8 beta*=500 rate=0.812 reused
+  [transfer s1] ckpt 9 beta*=500 rate=0.797 reused
+  [transfer s1] ckpt 10 beta*=500 rate=0.812 reused
+Traceback (most recent call last):
+  File "C:\Users\you\hcm\bench\exp45_online_beta.py", line 302, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\you\hcm\bench\exp45_online_beta.py", line 298, in main
+    run_seed(args.seed, out, smoke=args.smoke)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\you\hcm\bench\exp45_online_beta.py", line 257, in run_seed
+    evals[tag] = final_eval(tag, B, probes, group_qsrc,
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            char_final_beta=last_beta("beta_star", Bc),
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            hand_final_beta=float(hand_final), smoke=smoke)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\you\hcm\bench\exp45_online_beta.py", line 170, in final_eval
+    r, _pp = e29.evaluate_group(m, arm, qtexts, qclean, recs, lv,
+             ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                obs_of, slot_of_obs, B["X"])
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\you\hcm\bench\exp29_text_frontend.py", line 590, in evaluate_group
+    o = m.query(q, do_rif=False)
+  File "C:\Users\you\hcm\src\hcm\model.py", line 235, in query
+    q_star, a_hop = self.E.retrieve(q0, L=L, beta=c.beta, dense=s_pre, ebias=ebias)
+                    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\you\hcm\src\hcm\episodic.py", line 125, in retrieve
+    z = unit(Mn @ a)
+             ~~~^~~
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 1.46 GiB for an array with shape (2048, 95370) and data type float64

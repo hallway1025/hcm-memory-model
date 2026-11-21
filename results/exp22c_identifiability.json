@@ -1,0 +1,143 @@
+{
+ "N": 2000,
+ "n_probes": 200,
+ "family_confusions": 1,
+ "clean_subset": {
+  "n": 623,
+  "hit": 0
+ },
+ "dirty": {
+  "n": 142,
+  "ok": 0
+ },
+ "examples": [
+  {
+   "i": 0,
+   "true": "启子，你把李一帆妈妈电话，给我一下呗",
+   "winner": "那天我发的纯血大兵就是打的最猛的那个",
+   "ov": 0.07,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 10,
+   "true": "还没搞明白[捂脸]",
+   "winner": "换号了",
+   "ov": 0.0,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 60,
+   "true": "[旺柴]",
+   "winner": "打个卡丘比丘排位",
+   "ov": 0.0,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 100,
+   "true": "[旺柴]",
+   "winner": "打个卡丘比丘排位",
+   "ov": 0.0,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 160,
+   "true": "[强][强][强]",
+   "winner": "打个卡丘比丘排位",
+   "ov": 0.0,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 210,
+   "true": "[勾引]",
+   "winner": "打个卡丘比丘排位",
+   "ov": 0.0,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 240,
+   "true": "[捂脸][捂脸][捂脸]",
+   "winner": "打个卡丘比丘排位",
+   "ov": 0.0,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 250,
+   "true": "自己搜出来的那个非绑定的留着",
+   "winner": "今天下午出了两张20万的卡倒是",
+   "ov": 0.13,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 310,
+   "true": "继续和固排去绝航送钱去",
+   "winner": "在自习",
+   "ov": 0.0,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 320,
+   "true": "[握手]",
+   "winner": "打个卡丘比丘排位",
+   "ov": 0.0,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 370,
+   "true": "[苦涩]",
+   "winner": "打个卡丘比丘排位",
+   "ov": 0.0,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 420,
+   "true": "这两天更了两次了我",
+   "winner": "我刚下晚自习",
+   "ov": 0.17,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 470,
+   "true": "感觉建模不算太漂亮",
+   "winner": "[旺柴][旺柴][旺柴]",
+   "ov": 0.0,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 500,
+   "true": "正常在学校十一点半就睡了",
+   "winner": "8点结束",
+   "ov": 0.25,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 540,
+   "true": "刚才我也会打暗号了，遇到一个买小文",
+   "winner": "惨",
+   "ov": 0.0,
+   "isolated": true,
+   "ok": false
+  },
+  {
+   "i": 580,
+   "true": "晚自习去听讲座请假了",
+   "winner": "得吃",
+   "ov": 0.0,
+   "isolated": true,
+   "ok": false
+  }
+ ]
+}

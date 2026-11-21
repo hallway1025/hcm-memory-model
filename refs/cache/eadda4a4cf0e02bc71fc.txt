@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4aJ8ReD6mu6KTK/jKeqG52/GGhs</id>
+  <title>arXiv Query: search_query=all:episodic AND all:control&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T14:08:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:episodic+AND+all:control&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1566</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.07256v2</id>
+    <title>Finite-horizon Approximations and Episodic Equilibrium for Stochastic Games</title>
+    <updated>2024-04-13T13:06:42Z</updated>
+    <link href="https://arxiv.org/abs/2310.07256v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.07256v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes a finite-horizon approximation scheme and introduces episodic equilibrium as a solution concept for stochastic games (SGs), where agents strategize based on the current state and episode stage. The paper also establishes an upper bound on the approximation error that decays with the episode length for both discounted and time-averaged utilities. This approach bridges the gap in the analysis of finite and infinite-horizon SGs, and provides a unifying framework to address time-averaged and discounted utilities. To show the effectiveness of the scheme, the paper presents episodic, decentralized (i.e., payoff-based), and model-free learning dynamics proven to reach (near) episodic equilibrium in broad classes of SGs, including zero-sum, identical-interest and specific general-sum SGs with switching controllers for both time-averaged and discounted utilities.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-11T07:33:32Z</published>
+    <arxiv:comment>The working draft has gone through a major revision with a new formulation highlighting the finite-horizon approximation scheme and episodic equilibrium</arxiv:comment>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Muhammed O. Sayin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.06646v3</id>
+    <title>Model-Free Adaptive Optimal Control of Episodic Fixed-Horizon Manufacturing Processes using Reinforcement Learning</title>
+    <updated>2019-02-20T16:00:59Z</updated>
+    <link href="https://arxiv.org/abs/1809.06646v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.06646v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A self-learning optimal control algorithm for episodic fixed-horizon manufacturing processes with time-discrete control actions is proposed and evaluated on a simulated deep drawing process. The control model is built during consecutive process executions under optimal control via reinforcement learning, using the measured product quality as reward after each process execution. Prior model formulation, which is required by state-of-the-art algorithms from model predictive control and approximate dynamic programming, is therefore obsolete. This avoids several difficulties namely in system identification, accurate modelling, and runtime complexity, that arise when dealing with processes subject to nonlinear dynamics and stochastic influences. Instead of using pre-created process and observation models, value function-based reinforcement learning algorithms build functions of expected future reward, which are used to derive optimal process control decisions. The expectation functions are learned online, by interacting with the process. The proposed algorithm takes stochastic variations of the process conditions into account and is able to cope with partial observability. A Q-learning-based method for adaptive optimal control of partially observable episodic fixed-horizon manufacturing processes is developed and studied. The resulting algorithm is instantiated and evaluated by applying it to a simulated stochastic optimal control problem in metal sheet deep drawing.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-18T11:20:27Z</published>
+    <arxiv:comment>Journal preprint version</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <arxiv:journal_ref>International Journal of Control, Automation and Systems (2019)</arxiv:journal_ref>
+    <author>
+      <name>Johannes Dornheim</name>
+    </author>
+    <author>
+      <name>Norbert Link</name>
+    </author>
+    <author>
+      <name>Peter Gumbsch</name>
+    </author>
+    <arxiv:doi>10.1007/s12555-019-0120-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s12555-019-0120-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.08478v2</id>
+    <title>Episodic Bayesian Optimal Control with Unknown Randomness Distributions</title>
+    <updated>2025-05-30T04:49:24Z</updated>
+    <link href="https://arxiv.org/abs/2308.08478v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.08478v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stochastic optimal control with unknown randomness distributions has been studied for a long time, encompassing robust control, distributionally robust control, and adaptive control. We propose a new episodic Bayesian approach that incorporates Bayesian learning with optimal control. In each episode, the approach learns the randomness distribution with a Bayesian posterior and subsequently solves the corresponding Bayesian average estimate of the true problem. The resulting policy is exercised during the episode, while additional data/observations of the randomness are collected to update the Bayesian posterior for the next episode. We show that the resulting episodic value functions and policies converge almost surely to their optimal counterparts of the true problem if the parametrized model of the randomness distribution is correctly specified. We further show that the asymptotic convergence rate of the episodic value functions is of the order $O(N^{-1/2})$, where $N$ is the number of episodes given that only one data point is collected in each episode. We develop an efficient computational method based on stochastic dual dynamic programming (SDDP) for a class of problems that have convex cost functions and linear state dynamics. Our numerical results on a classical inventory control problem verify the theoretical convergence results, and numerical comparison with two other methods demonstrate the effectiveness of the proposed Bayesian approach.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-16T16:36:49Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Alexander Shapiro</name>
+    </author>
+    <author>
+      <name>Enlu Zhou</name>
+    </author>
+    <author>
+      <name>Yifan Lin</name>
+    </author>
+    <author>
+      <name>Yuhao Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.07183v2</id>
+    <title>Gaussian Process-based Min-norm Stabilizing Controller for Control-Affine Systems with Uncertain Input Effects and Dynamics</title>
+    <updated>2021-03-23T07:50:29Z</updated>
+    <link href="https://arxiv.org/abs/2011.07183v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.07183v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a method to design a min-norm Control Lyapunov Function (CLF)-based stabilizing controller for a control-affine system with uncertain dynamics using Gaussian Process (GP) regression. In order to estimate both state and input-dependent model uncertainty, we propose a novel compound kernel that captures the control-affine nature of the problem. Furthermore, by the use of GP Upper Confidence Bound analysis, we provide probabilistic bounds of the regression error, leading to the formulation of a CLF-based stability chance constraint which can be incorporated in a min-norm optimization problem. We show that this resulting optimization problem is convex, and we call it Gaussian Process-based Control Lyapunov Function Second-Order Cone Program (GP-CLF-SOCP). The data-collection process and the training of the GP regression model are carried out in an episodic learning fashion. We validate the proposed algorithm and controller in numerical simulations of an inverted pendulum and a kinematic bicycle model, resulting in stable trajectories which are very similar to the ones obtained if we actually knew the true plant dynamics.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-14T01:27:32Z</published>
+    <arxiv:comment>The first two authors contributed equally. To appear at the 2021 American Control Conference (ACC)</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Fernando Castañeda</name>
+    </author>
+    <author>
+      <name>Jason J. Choi</name>
+    </author>
+    <author>
+      <name>Bike Zhang</name>
+    </author>
+    <author>
+      <name>Claire J. Tomlin</name>
+    </author>
+    <author>
+      <name>Koushil Sreenath</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.01697v1</id>
+    <title>Episodic Learning for Safe Bipedal Locomotion with Control Barrier Functions and Projection-to-State Safety</title>
+    <updated>2021-05-04T18:33:28Z</updated>
+    <link href="https://arxiv.org/abs/2105.01697v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.01697v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper combines episodic learning and control barrier functions in the setting of bipedal locomotion. The safety guarantees that control barrier functions provide are only valid with perfect model knowledge; however, this assumption cannot be met on hardware platforms. To address this, we utilize the notion of projection-to-state safety paired with a machine learning framework in an attempt to learn the model uncertainty as it affects the barrier functions. The proposed approach is demonstrated both in simulation and on hardware for the AMBER-3M bipedal robot in the context of the stepping-stone problem, which requires precise foot placement while walking dynamically.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-04T18:33:28Z</published>
+    <arxiv:comment>13 pages, 4 figures, to appear at the Conference on Learning for Dynamics and Control 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Noel Csomay-Shanklin</name>
+    </author>
+    <author>
+      <name>Ryan K. Cosner</name>
+    </author>
+    <author>
+      <name>Min Dai</name>
+    </author>
+    <author>
+      <name>Andrew J. Taylor</name>
+    </author>
+    <author>
+      <name>Aaron D. Ames</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.15183v3</id>
+    <title>Continuous Episodic Control</title>
+    <updated>2023-04-23T09:21:14Z</updated>
+    <link href="https://arxiv.org/abs/2211.15183v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.15183v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Non-parametric episodic memory can be used to quickly latch onto high-rewarded experience in reinforcement learning tasks. In contrast to parametric deep reinforcement learning approaches in which reward signals need to be back-propagated slowly, these methods only need to discover the solution once, and may then repeatedly solve the task. However, episodic control solutions are stored in discrete tables, and this approach has so far only been applied to discrete action space problems. Therefore, this paper introduces Continuous Episodic Control (CEC), a novel non-parametric episodic memory algorithm for sequential decision making in problems with a continuous action space. Results on several sparse-reward continuous control environments show that our proposed method learns faster than state-of-the-art model-free RL and memory-augmented RL algorithms, while maintaining good long-run performance as well. In short, CEC can be a fast approach for learning in continuous control tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-28T09:48:42Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhao Yang</name>
+    </author>
+    <author>
+      <name>Thomas M. Moerland</name>
+    </author>
+    <author>
+      <name>Mike Preuss</name>
+    </author>
+    <author>
+      <name>Aske Plaat</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.06677v2</id>
+    <title>Is prioritized sweeping the better episodic control?</title>
+    <updated>2018-08-09T20:25:43Z</updated>
+    <link href="https://arxiv.org/abs/1711.06677v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.06677v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Episodic control has been proposed as a third approach to reinforcement learning, besides model-free and model-based control, by analogy with the three types of human memory. i.e. episodic, procedural and semantic memory. But the theoretical properties of episodic control are not well investigated. Here I show that in deterministic tree Markov decision processes, episodic control is equivalent to a form of prioritized sweeping in terms of sample efficiency as well as memory and computation demands. For general deterministic and stochastic environments, prioritized sweeping performs better even when memory and computation demands are restricted to be equal to those of episodic control. These results suggest generalizations of prioritized sweeping to partially observable environments, its combined use with function approximation and the search for possible implementations of prioritized sweeping in brains.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-20T07:47:12Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Johanni Brea</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.11490v3</id>
+    <title>Neural Episodic Control with State Abstraction</title>
+    <updated>2023-02-20T08:07:43Z</updated>
+    <link href="https://arxiv.org/abs/2301.11490v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.11490v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing Deep Reinforcement Learning (DRL) algorithms suffer from sample inefficiency. Generally, episodic control-based approaches are solutions that leverage highly-rewarded past experiences to improve sample efficiency of DRL algorithms. However, previous episodic control-based approaches fail to utilize the latent information from the historical behaviors (e.g., state transitions, topological similarities, etc.) and lack scalability during DRL training. This work introduces Neural Episodic Control with State Abstraction (NECSA), a simple but effective state abstraction-based episodic control containing a more comprehensive episodic memory, a novel state evaluation, and a multi-step state analysis. We evaluate our approach to the MuJoCo and Atari tasks in OpenAI gym domains. The experimental results indicate that NECSA achieves higher sample efficiency than the state-of-the-art episodic control-based approaches. Our data and code are available at the project website\footnote{\url{https://sites.google.com/view/drl-necsa}}.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-27T01:55:05Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhuo Li</name>
+    </author>
+    <author>
+      <name>Derui Zhu</name>
+    </author>
+    <author>
+      <name>Yujing Hu</name>
+    </author>
+    <author>
+      <name>Xiaofei Xie</name>
+    </author>
+    <author>
+      <name>Lei Ma</name>
+    </author>
+    <author>
+      <name>Yan Zheng</name>
+    </author>
+    <author>
+      <name>Yan Song</name>
+    </author>
+    <author>
+      <name>Yingfeng Chen</name>
+    </author>
+    <author>
+      <name>Jianjun Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.08832v1</id>
+    <title>Solving Continuous Control with Episodic Memory</title>
+    <updated>2021-06-16T14:51:39Z</updated>
+    <link href="https://arxiv.org/abs/2106.08832v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.08832v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Episodic memory lets reinforcement learning algorithms remember and exploit promising experience from the past to improve agent performance. Previous works on memory mechanisms show benefits of using episodic-based data structures for discrete action problems in terms of sample-efficiency. The application of episodic memory for continuous control with a large action space is not trivial. Our study aims to answer the question: can episodic memory be used to improve agent's performance in continuous control? Our proposed algorithm combines episodic memory with Actor-Critic architecture by modifying critic's objective. We further improve performance by introducing episodic-based replay buffer prioritization. We evaluate our algorithm on OpenAI gym domains and show greater sample-efficiency compared with the state-of-the art model-free off-policy algorithms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-16T14:51:39Z</published>
+    <arxiv:comment>To appear in the 30th International Joint Conference on Artificial Intelligence (IJCAI 2021)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Igor Kuznetsov</name>
+    </author>
+    <author>
+      <name>Andrey Filchenkov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.09685v1</id>
+    <title>Model-Free Episodic Control with State Aggregation</title>
+    <updated>2020-08-21T21:20:49Z</updated>
+    <link href="https://arxiv.org/abs/2008.09685v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.09685v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Episodic control provides a highly sample-efficient method for reinforcement learning while enforcing high memory and computational requirements. This work proposes a simple heuristic for reducing these requirements, and an application to Model-Free Episodic Control (MFEC) is presented. Experiments on Atari games show that this heuristic successfully reduces MFEC computational demands while producing no significant loss of performance when conservative choices of hyperparameters are used. Consequently, episodic control becomes a more feasible option when dealing with reinforcement learning tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-21T21:20:49Z</published>
+    <arxiv:comment>8 pages, 21 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rafael Pinto</name>
+    </author>
+  </entry>
+</feed>

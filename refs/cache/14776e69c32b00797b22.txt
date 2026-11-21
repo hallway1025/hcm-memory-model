@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mmrfwVfzmssyDq+gVg6zYnAdASM</id>
+  <title>arXiv Query: search_query=all:temporal AND all:knowledge AND all:graph AND all:event&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T13:52:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:temporal+AND+(all:knowledge+AND+(all:graph+AND+all:event))&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>229</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2007.01231v2</id>
+    <title>Software Engineering Event Modeling using Relative Time in Temporal Knowledge Graphs</title>
+    <updated>2020-07-13T01:07:23Z</updated>
+    <link href="https://arxiv.org/abs/2007.01231v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.01231v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a multi-relational temporal Knowledge Graph based on the daily interactions between artifacts in GitHub, one of the largest social coding platforms. Such representation enables posing many user-activity and project management questions as link prediction and time queries over the knowledge graph. In particular, we introduce two new datasets for i) interpolated time-conditioned link prediction and ii) extrapolated time-conditioned link/time prediction queries, each with distinguished properties. Our experiments on these datasets highlight the potential of adapting knowledge graphs to answer broad software engineering questions. Meanwhile, it also reveals the unsatisfactory performance of existing temporal models on extrapolated queries and time prediction queries in general. To overcome these shortcomings, we introduce an extension to current temporal models using relative temporal information with regards to past events.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-02T16:28:43Z</published>
+    <arxiv:comment>11 pages, 1 figure. 37th International Conference on Machine Learning (ICML 2020) - Workshop on Graph Representation Learning and Beyond</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kian Ahrabian</name>
+    </author>
+    <author>
+      <name>Daniel Tarlow</name>
+    </author>
+    <author>
+      <name>Hehuimin Cheng</name>
+    </author>
+    <author>
+      <name>Jin L. C. Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.14688v1</id>
+    <title>OEKG: The Open Event Knowledge Graph</title>
+    <updated>2023-02-28T15:58:28Z</updated>
+    <link href="https://arxiv.org/abs/2302.14688v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.14688v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accessing and understanding contemporary and historical events of global impact such as the US elections and the Olympic Games is a major prerequisite for cross-lingual event analytics that investigate event causes, perception and consequences across country borders. In this paper, we present the Open Event Knowledge Graph (OEKG), a multilingual, event-centric, temporal knowledge graph composed of seven different data sets from multiple application domains, including question answering, entity recommendation and named entity recognition. These data sets are all integrated through an easy-to-use and robust pipeline and by linking to the event-centric knowledge graph EventKG. We describe their common schema and demonstrate the use of the OEKG at the example of three use cases: type-specific image retrieval, hybrid question answering over knowledge graphs and news articles, as well as language-specific event recommendation. The OEKG and its query endpoint are publicly available.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-28T15:58:28Z</published>
+    <arxiv:comment>The definitive version of this work was published in the Proceedings of the 2nd International Workshop on Cross-lingual Event-centric Open Analytics co-located with the 30th The Web Conference (WWW 2021)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Simon Gottschalk</name>
+    </author>
+    <author>
+      <name>Endri Kacupaj</name>
+    </author>
+    <author>
+      <name>Sara Abdollahi</name>
+    </author>
+    <author>
+      <name>Diego Alves</name>
+    </author>
+    <author>
+      <name>Gabriel Amaral</name>
+    </author>
+    <author>
+      <name>Elisavet Koutsiana</name>
+    </author>
+    <author>
+      <name>Tin Kuculo</name>
+    </author>
+    <author>
+      <name>Daniela Major</name>
+    </author>
+    <author>
+      <name>Caio Mello</name>
+    </author>
+    <author>
+      <name>Gullal S. Cheema</name>
+    </author>
+    <author>
+      <name>Abdul Sittar</name>
+    </author>
+    <author>
+      <name> Swati</name>
+    </author>
+    <author>
+      <name>Golsa Tahmasebzadeh</name>
+    </author>
+    <author>
+      <name>Gaurish Thakkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.13432v3</id>
+    <title>Graph Hawkes Neural Network for Forecasting on Temporal Knowledge Graphs</title>
+    <updated>2020-06-14T21:48:23Z</updated>
+    <link href="https://arxiv.org/abs/2003.13432v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.13432v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Hawkes process has become a standard method for modeling self-exciting event sequences with different event types. A recent work has generalized the Hawkes process to a neurally self-modulating multivariate point process, which enables the capturing of more complex and realistic impacts of past events on future events. However, this approach is limited by the number of possible event types, making it impossible to model the dynamics of evolving graph sequences, where each possible link between two nodes can be considered as an event type. The number of event types increases even further when links are directional and labeled. To address this issue, we propose the Graph Hawkes Neural Network that can capture the dynamics of evolving graph sequences and can predict the occurrence of a fact in a future time instance. Extensive experiments on large-scale temporal multi-relational databases, such as temporal knowledge graphs, demonstrate the effectiveness of our approach.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-30T12:56:50Z</published>
+    <arxiv:comment>Automated Knowledge Base Construction 2020, conference paper</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhen Han</name>
+    </author>
+    <author>
+      <name>Yunpu Ma</name>
+    </author>
+    <author>
+      <name>Yuyi Wang</name>
+    </author>
+    <author>
+      <name>Stephan Günnemann</name>
+    </author>
+    <author>
+      <name>Volker Tresp</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.04526v1</id>
+    <title>EventKG: A Multilingual Event-Centric Temporal Knowledge Graph</title>
+    <updated>2018-04-12T14:12:48Z</updated>
+    <link href="https://arxiv.org/abs/1804.04526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.04526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the key requirements to facilitate semantic analytics of information regarding contemporary and historical events on the Web, in the news and in social media is the availability of reference knowledge repositories containing comprehensive representations of events and temporal relations. Existing knowledge graphs, with popular examples including DBpedia, YAGO and Wikidata, focus mostly on entity-centric information and are insufficient in terms of their coverage and completeness with respect to events and temporal relations. EventKG presented in this paper is a multilingual event-centric temporal knowledge graph that addresses this gap. EventKG incorporates over 690 thousand contemporary and historical events and over 2.3 million temporal relations extracted from several large-scale knowledge graphs and semi-structured sources and makes them available through a canonical representation.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-12T14:12:48Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Simon Gottschalk</name>
+    </author>
+    <author>
+      <name>Elena Demidova</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.19042v1</id>
+    <title>STK-Adapter: Incorporating Evolving Graph and Event Chain for Temporal Knowledge Graph Extrapolation</title>
+    <updated>2026-04-21T03:48:50Z</updated>
+    <link href="https://arxiv.org/abs/2604.19042v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.19042v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temporal Knowledge Graph (TKG) extrapolation aims to predict future events based on historical facts. Recent studies have attempted to enhance TKG extrapolation by integrating TKG's evolving structural representations and textual event chains into Large Language Models (LLMs). Yet, two main challenges limit these approaches: (1) The loss of essential spatial-temporal information due to shallow alignment between TKG's graph evolving structural representation and the LLM's semantic space, and (2) the progressive dilution of the TKG's evolving structural features during LLM fine-tuning. To address these challenges, we propose the Spatial-Temporal Knowledge Adapter (STK-Adapter), which flexibly integrates the evolving graph encoder and the LLM to facilitate TKG reasoning. In STK-Adapter, a Spatial-Temporal MoE is designed to capture spatial structures and temporal patterns inherent in TKGs. An Event-Aware MoE is employed to model intricate temporal semantics dependencies within event chains. In addition, a Cross-Modality Alignment MoE is proposed to facilitate deep cross-modality alignment by TKG-guided attention experts. Extensive experiments on benchmark datasets demonstrate that STK-Adapter significantly outperforms state-of-the-art methods and exhibits strong generalization capabilities in cross-dataset task. The code is available at https://github.com/Zhaoshuyuan0246/STK-Adapter.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-21T03:48:50Z</published>
+    <arxiv:comment>Accepted by ACL 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Shuyuan Zhao</name>
+    </author>
+    <author>
+      <name>Wei Chen</name>
+    </author>
+    <author>
+      <name>Weijie Zhang</name>
+    </author>
+    <author>
+      <name>Xinrui Hou</name>
+    </author>
+    <author>
+      <name>Junfeng Shen</name>
+    </author>
+    <author>
+      <name>Boyan Shi</name>
+    </author>
+    <author>
+      <name>Shengnan Guo</name>
+    </author>
+    <author>
+      <name>Youfang Lin</name>
+    </author>
+    <author>
+      <name>Huaiyu Wan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.07596v1</id>
+    <title>Transforming Object-Centric Event Logs to Temporal Event Knowledge Graphs (Extended Version)</title>
+    <updated>2024-06-11T14:27:39Z</updated>
+    <link href="https://arxiv.org/abs/2406.07596v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.07596v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Event logs play a fundamental role in enabling data-driven business process analysis. Traditionally, these logs track events related to a single object, known as the case, limiting the scope of analysis. Recent advancements, such as Object-Centric Event Logs (OCEL) and Event Knowledge Graphs (EKG), capture better how events relate to multiple objects. However, attributes of objects can change over time, which was not initially considered in OCEL or EKG. While OCEL 2.0 has addressed some of these limitations, there remains a research gap concerning how attribute changes should be accommodated in EKG and how OCEL 2.0 logs can be transformed into EKG. This paper fills this gap by introducing Temporal Event Knowledge Graphs (tEKG) and defining an algorithm to convert an OCEL 2.0 log to a tEKG.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-11T14:27:39Z</published>
+    <arxiv:comment>14 pages (incl. appendix)</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Shahrzad Khayatbashi</name>
+    </author>
+    <author>
+      <name>Olaf Hartig</name>
+    </author>
+    <author>
+      <name>Amin Jalali</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.05530v4</id>
+    <title>Recurrent Event Network: Autoregressive Structure Inference over Temporal Knowledge Graphs</title>
+    <updated>2020-10-06T18:40:59Z</updated>
+    <link href="https://arxiv.org/abs/1904.05530v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.05530v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge graph reasoning is a critical task in natural language processing. The task becomes more challenging on temporal knowledge graphs, where each fact is associated with a timestamp. Most existing methods focus on reasoning at past timestamps and they are not able to predict facts happening in the future. This paper proposes Recurrent Event Network (RE-NET), a novel autoregressive architecture for predicting future interactions. The occurrence of a fact (event) is modeled as a probability distribution conditioned on temporal sequences of past knowledge graphs. Specifically, our RE-NET employs a recurrent event encoder to encode past facts and uses a neighborhood aggregator to model the connection of facts at the same timestamp. Future facts can then be inferred in a sequential manner based on the two modules. We evaluate our proposed method via link prediction at future times on five public datasets. Through extensive experiments, we demonstrate the strength of RENET, especially on multi-step inference over future timestamps, and achieve state-of-the-art performance on all five datasets. Code and data can be found at https://github.com/INK-USC/RE-Net.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-11T04:45:42Z</published>
+    <arxiv:comment>15 pages, 8 figures, accepted at as full paper in EMNLP 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Woojeong Jin</name>
+    </author>
+    <author>
+      <name>Meng Qu</name>
+    </author>
+    <author>
+      <name>Xisen Jin</name>
+    </author>
+    <author>
+      <name>Xiang Ren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.10346v1</id>
+    <title>AMCEN: An Attention Masking-based Contrastive Event Network for Two-stage Temporal Knowledge Graph Reasoning</title>
+    <updated>2024-05-16T01:39:50Z</updated>
+    <link href="https://arxiv.org/abs/2405.10346v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.10346v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temporal knowledge graphs (TKGs) can effectively model the ever-evolving nature of real-world knowledge, and their completeness and enhancement can be achieved by reasoning new events from existing ones. However, reasoning accuracy is adversely impacted due to an imbalance between new and recurring events in the datasets. To achieve more accurate TKG reasoning, we propose an attention masking-based contrastive event network (AMCEN) with local-global temporal patterns for the two-stage prediction of future events. In the network, historical and non-historical attention mask vectors are designed to control the attention bias towards historical and non-historical entities, acting as the key to alleviating the imbalance. A local-global message-passing module is proposed to comprehensively consider and capture multi-hop structural dependencies and local-global temporal evolution for the in-depth exploration of latent impact factors of different event types. A contrastive event classifier is used to classify events more accurately by incorporating local-global temporal patterns into contrastive learning. Therefore, AMCEN refines the prediction scope with the results of the contrastive event classification, followed by utilizing attention masking-based decoders to finalize the specific outcomes. The results of our experiments on four benchmark datasets highlight the superiority of AMCEN. Especially, the considerable improvements in Hits@1 prove that AMCEN can make more precise predictions about future occurrences.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-16T01:39:50Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jing Yang</name>
+    </author>
+    <author>
+      <name>Xiao Wang</name>
+    </author>
+    <author>
+      <name>Yutong Wang</name>
+    </author>
+    <author>
+      <name>Jiawei Wang</name>
+    </author>
+    <author>
+      <name>Fei-Yue Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.11911v1</id>
+    <title>Integrate Temporal Graph Learning into LLM-based Temporal Knowledge Graph Model</title>
+    <updated>2025-01-21T06:12:49Z</updated>
+    <link href="https://arxiv.org/abs/2501.11911v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.11911v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temporal Knowledge Graph Forecasting (TKGF) aims to predict future events based on the observed events in history. Recently, Large Language Models (LLMs) have exhibited remarkable capabilities, generating significant research interest in their application for reasoning over temporal knowledge graphs (TKGs). Existing LLM-based methods have integrated retrieved historical facts or static graph representations into LLMs. Despite the notable performance of LLM-based methods, they are limited by the insufficient modeling of temporal patterns and ineffective cross-modal alignment between graph and language, hindering the ability of LLMs to fully grasp the temporal and structural information in TKGs. To tackle these issues, we propose a novel framework TGL-LLM to integrate temporal graph learning into LLM-based temporal knowledge graph model. Specifically, we introduce temporal graph learning to capture the temporal and relational patterns and obtain the historical graph embedding. Furthermore, we design a hybrid graph tokenization to sufficiently model the temporal patterns within LLMs. To achieve better alignment between graph and language, we employ a two-stage training paradigm to finetune LLMs on high-quality and diverse data, thereby resulting in better performance. Extensive experiments on three real-world datasets show that our approach outperforms a range of state-of-the-art (SOTA) methods.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-21T06:12:49Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>He Chang</name>
+    </author>
+    <author>
+      <name>Jie Wu</name>
+    </author>
+    <author>
+      <name>Zhulin Tao</name>
+    </author>
+    <author>
+      <name>Yunshan Ma</name>
+    </author>
+    <author>
+      <name>Xianglin Huang</name>
+    </author>
+    <author>
+      <name>Tat-Seng Chua</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.07648v2</id>
+    <title>EvoKG: Jointly Modeling Event Time and Network Structure for Reasoning over Temporal Knowledge Graphs</title>
+    <updated>2022-02-16T06:24:34Z</updated>
+    <link href="https://arxiv.org/abs/2202.07648v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.07648v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How can we perform knowledge reasoning over temporal knowledge graphs (TKGs)? TKGs represent facts about entities and their relations, where each fact is associated with a timestamp. Reasoning over TKGs, i.e., inferring new facts from time-evolving KGs, is crucial for many applications to provide intelligent services. However, despite the prevalence of real-world data that can be represented as TKGs, most methods focus on reasoning over static knowledge graphs, or cannot predict future events. In this paper, we present a problem formulation that unifies the two major problems that need to be addressed for an effective reasoning over TKGs, namely, modeling the event time and the evolving network structure. Our proposed method EvoKG jointly models both tasks in an effective framework, which captures the ever-changing structural and temporal dynamics in TKGs via recurrent event modeling, and models the interactions between entities based on the temporal neighborhood aggregation framework. Further, EvoKG achieves an accurate modeling of event time, using flexible and efficient mechanisms based on neural density estimation. Experiments show that EvoKG outperforms existing methods in terms of effectiveness (up to 77% and 116% more accurate time and link prediction) and efficiency.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-15T18:49:53Z</published>
+    <arxiv:comment>WSDM 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Namyong Park</name>
+    </author>
+    <author>
+      <name>Fuchen Liu</name>
+    </author>
+    <author>
+      <name>Purvanshi Mehta</name>
+    </author>
+    <author>
+      <name>Dana Cristofor</name>
+    </author>
+    <author>
+      <name>Christos Faloutsos</name>
+    </author>
+    <author>
+      <name>Yuxiao Dong</name>
+    </author>
+    <arxiv:doi>10.1145/3488560.3498451</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3488560.3498451" title="doi"/>
+  </entry>
+</feed>

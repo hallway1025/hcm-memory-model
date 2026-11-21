@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zX/PQYQHBivZ4i3uubP5rV57XM4</id>
+  <title>arXiv Query: search_query=all:vector AND all:symbolic AND all:architecture&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-11-07T13:50:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vector+AND+(all:symbolic+AND+all:architecture)&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>220</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.14709v1</id>
+    <title>Attention as Binding: A Vector-Symbolic Perspective on Transformer Reasoning</title>
+    <updated>2025-12-08T05:38:24Z</updated>
+    <link href="https://arxiv.org/abs/2512.14709v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.14709v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformer-based language models display impressive reasoning-like behavior, yet remain brittle on tasks that require stable symbolic manipulation. This paper develops a unified perspective on these phenomena by interpreting self-attention and residual streams as implementing an approximate Vector Symbolic Architecture (VSA). In this view, queries and keys define role spaces, values encode fillers, attention weights perform soft unbinding, and residual connections realize superposition of many bound structures. We use this algebraic lens to relate transformer internals to chain-of-thought traces, program-based reasoning, and memory-augmented tool use, and to explain characteristic failure modes such as variable confusion and inconsistency across logically related prompts. Building on this perspective, we propose VSA-inspired architectural biases, including explicit binding/unbinding heads and hyperdimensional memory layers, and training objectives that promote role-filler separation and robust superposition. Finally, we outline metrics for measuring "VSA-likeness" and logical compositionality, and pose theoretical and architectural open problems. Overall, the paper argues that viewing attention as soft vector-symbolic computation offers a principled route toward more interpretable and logically reliable reasoning systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-08T05:38:24Z</published>
+    <arxiv:comment>12 pages with references. Submitted to 'Logical and Symbolic Reasoning in Language Models @ AAAI 2026' conference and is under review</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sahil Rajesh Dhayalkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.17889v1</id>
+    <title>Hey Pentti, We Did It!: A Fully Vector-Symbolic Lisp</title>
+    <updated>2025-10-18T14:42:36Z</updated>
+    <link href="https://arxiv.org/abs/2510.17889v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.17889v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Kanerva (2014) suggested that it would be possible to construct a complete Lisp out of a vector-symbolic architecture. We present the general form of a vector-symbolic representation of the five Lisp elementary functions, lambda expressions, and other auxiliary functions, found in the Lisp 1.5 specification McCarthy (1960), which is near minimal and sufficient for Turing-completeness. Our specific implementation uses holographic reduced representations Plate (1995), with a lookup table cleanup memory. Lisp, as all Turing-complete languages, is a Cartesian closed category, unusual in its proximity to the mathematical abstraction. We discuss the mathematics, the purpose, and the significance of demonstrating vector-symbolic architectures' Cartesian-closure, as well as the importance of explicitly including cleanup memories in the specification of the architecture.</summary>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-18T14:42:36Z</published>
+    <arxiv:primary_category term="cs.PL"/>
+    <arxiv:journal_ref>Tomkins Flanagan, E., &amp; Kelly, M. A. (2024, July). Hey Pentti, We Did It!: A Fully Vector-Symbolic Lisp. Abstract published at MathPsych / ICCM 2024. Via mathpsych.org/presentation/1541</arxiv:journal_ref>
+    <author>
+      <name>Eilene Tomkins-Flanagan</name>
+      <arxiv:affiliation>Department of Cognitive Science, Carleton University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mary A. Kelly</name>
+      <arxiv:affiliation>Department of Cognitive Science, Carleton University</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.13218v1</id>
+    <title>Self-Attention Based Semantic Decomposition in Vector Symbolic Architectures</title>
+    <updated>2024-03-20T00:37:19Z</updated>
+    <link href="https://arxiv.org/abs/2403.13218v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.13218v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vector Symbolic Architectures (VSAs) have emerged as a novel framework for enabling interpretable machine learning algorithms equipped with the ability to reason and explain their decision processes. The basic idea is to represent discrete information through high dimensional random vectors. Complex data structures can be built up with operations over vectors such as the "binding" operation involving element-wise vector multiplication, which associates data together. The reverse task of decomposing the associated elements is a combinatorially hard task, with an exponentially large search space. The main algorithm for performing this search is the resonator network, inspired by Hopfield network-based memory search operations.
+  In this work, we introduce a new variant of the resonator network, based on self-attention based update rules in the iterative search problem. This update rule, based on the Hopfield network with log-sum-exp energy function and norm-bounded states, is shown to substantially improve the performance and rate of convergence. As a result, our algorithm enables a larger capacity for associative memory, enabling applications in many tasks like perception based pattern recognition, scene decomposition, and object reasoning. We substantiate our algorithm with a thorough evaluation and comparisons to baselines.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-20T00:37:19Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Calvin Yeung</name>
+    </author>
+    <author>
+      <name>Prathyush Poduval</name>
+    </author>
+    <author>
+      <name>Mohsen Imani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.08300v3</id>
+    <title>Vector-Symbolic Architecture for Event-Based Optical Flow</title>
+    <updated>2025-01-22T03:19:36Z</updated>
+    <link href="https://arxiv.org/abs/2405.08300v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.08300v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>From a perspective of feature matching, optical flow estimation for event cameras involves identifying event correspondences by comparing feature similarity across accompanying event frames. In this work, we introduces an effective and robust high-dimensional (HD) feature descriptor for event frames, utilizing Vector Symbolic Architectures (VSA). The topological similarity among neighboring variables within VSA contributes to the enhanced representation similarity of feature descriptors for flow-matching points, while its structured symbolic representation capacity facilitates feature fusion from both event polarities and multiple spatial scales. Based on this HD feature descriptor, we propose a novel feature matching framework for event-based optical flow, encompassing both model-based (VSA-Flow) and self-supervised learning (VSA-SM) methods. In VSA-Flow, accurate optical flow estimation validates the effectiveness of HD feature descriptors. In VSA-SM, a novel similarity maximization method based on the HD feature descriptor is proposed to learn optical flow in a self-supervised way from events alone, eliminating the need for auxiliary grayscale images. Evaluation results demonstrate that our VSA-based method achieves superior accuracy in comparison to both model-based and self-supervised learning methods on the DSEC benchmark, while remains competitive among both methods on the MVSEC benchmark. This contribution marks a significant advancement in event-based optical flow within the feature matching methodology.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-14T03:50:07Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Hongzhi You</name>
+    </author>
+    <author>
+      <name>Yijun Cao</name>
+    </author>
+    <author>
+      <name>Wei Yuan</name>
+    </author>
+    <author>
+      <name>Fanjun Wang</name>
+    </author>
+    <author>
+      <name>Ning Qiao</name>
+    </author>
+    <author>
+      <name>Yongjie Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.10352v2</id>
+    <title>Capacity Analysis of Vector Symbolic Architectures</title>
+    <updated>2023-02-14T20:50:04Z</updated>
+    <link href="https://arxiv.org/abs/2301.10352v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.10352v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hyperdimensional computing (HDC) is a biologically-inspired framework which represents symbols with high-dimensional vectors, and uses vector operations to manipulate them. The ensemble of a particular vector space and a prescribed set of vector operations (including one addition-like for "bundling" and one outer-product-like for "binding") form a *vector symbolic architecture* (VSA). While VSAs have been employed in numerous applications and have been studied empirically, many theoretical questions about VSAs remain open. We analyze the *representation capacities* of four common VSAs: MAP-I, MAP-B, and two VSAs based on sparse binary vectors. "Representation capacity' here refers to bounds on the dimensions of the VSA vectors required to perform certain symbolic tasks, such as testing for set membership $i \in S$ and estimating set intersection sizes $|X \cap Y|$ for two sets of symbols $X$ and $Y$, to a given degree of accuracy. We also analyze the ability of a novel variant of a Hopfield network (a simple model of associative memory) to perform some of the same tasks that are typically asked of VSAs. In addition to providing new bounds on VSA capacities, our analyses establish and leverage connections between VSAs, "sketching" (dimensionality reduction) algorithms, and Bloom filters.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-24T23:43:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kenneth L. Clarkson</name>
+    </author>
+    <author>
+      <name>Shashanka Ubaru</name>
+    </author>
+    <author>
+      <name>Elizabeth Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.05268v2</id>
+    <title>Vector Symbolic Architectures as a Computing Framework for Emerging Hardware</title>
+    <updated>2023-07-20T16:47:20Z</updated>
+    <link href="https://arxiv.org/abs/2106.05268v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.05268v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article reviews recent progress in the development of the computing framework vector symbolic architectures (VSA) (also known as hyperdimensional computing). This framework is well suited for implementation in stochastic, emerging hardware, and it naturally expresses the types of cognitive operations required for artificial intelligence (AI). We demonstrate in this article that the field-like algebraic structure of VSA offers simple but powerful operations on high-dimensional vectors that can support all data structures and manipulations relevant to modern computing. In addition, we illustrate the distinguishing feature of VSA, "computing in superposition," which sets it apart from conventional computing. It also opens the door to efficient solutions to the difficult combinatorial search problems inherent in AI applications. We sketch ways of demonstrating that VSA are computationally universal. We see them acting as a framework for computing with distributed representations that can play a role of an abstraction layer for emerging computing hardware. This article serves as a reference for computer architects by illustrating the philosophy behind VSA, techniques of distributed computing with them, and their relevance to emerging computing hardware, such as neuromorphic computing.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-09T23:38:39Z</published>
+    <arxiv:comment>31 pages, 15 figures, 4 Tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <arxiv:journal_ref>Proceedings of the IEEE (2022), vol. 110, no. 10</arxiv:journal_ref>
+    <author>
+      <name>Denis Kleyko</name>
+    </author>
+    <author>
+      <name>Mike Davies</name>
+    </author>
+    <author>
+      <name>E. Paxon Frady</name>
+    </author>
+    <author>
+      <name>Pentti Kanerva</name>
+    </author>
+    <author>
+      <name>Spencer J. Kent</name>
+    </author>
+    <author>
+      <name>Bruno A. Olshausen</name>
+    </author>
+    <author>
+      <name>Evgeny Osipov</name>
+    </author>
+    <author>
+      <name>Jan M. Rabaey</name>
+    </author>
+    <author>
+      <name>Dmitri A. Rachkovskij</name>
+    </author>
+    <author>
+      <name>Abbas Rahimi</name>
+    </author>
+    <author>
+      <name>Friedrich T. Sommer</name>
+    </author>
+    <arxiv:doi>10.1109/JPROC.2022.3209104</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/JPROC.2022.3209104" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.11797v4</id>
+    <title>A comparison of Vector Symbolic Architectures</title>
+    <updated>2021-12-16T09:28:06Z</updated>
+    <link href="https://arxiv.org/abs/2001.11797v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.11797v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vector Symbolic Architectures combine a high-dimensional vector space with a set of carefully designed operators in order to perform symbolic computations with large numerical vectors. Major goals are the exploitation of their representational power and ability to deal with fuzziness and ambiguity. Over the past years, several VSA implementations have been proposed. The available implementations differ in the underlying vector space and the particular implementations of the VSA operators. This paper provides an overview of eleven available VSA implementations and discusses their commonalities and differences in the underlying vector space and operators. We create a taxonomy of available binding operations and show an important ramification for non self-inverse binding operations using an example from analogical reasoning. A main contribution is the experimental comparison of the available implementations in order to evaluate (1) the capacity of bundles, (2) the approximation quality of non-exact unbinding operations, (3) the influence of combining binding and bundling operations on the query answering performance, and (4) the performance on two example applications: visual place- and language-recognition. We expect this comparison and systematization to be relevant for development of VSAs, and to support the selection of an appropriate VSA for a particular task. The implementations are available.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-31T12:42:38Z</published>
+    <arxiv:comment>32 pages, 11 figures, preprint - accepted journal version</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Artificial Intelligence Review (2021)</arxiv:journal_ref>
+    <author>
+      <name>Kenny Schlegel</name>
+    </author>
+    <author>
+      <name>Peer Neubert</name>
+    </author>
+    <author>
+      <name>Peter Protzel</name>
+    </author>
+    <arxiv:doi>10.1007/s10462-021-10110-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10462-021-10110-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.22669v1</id>
+    <title>A Walsh Hadamard Derived Linear Vector Symbolic Architecture</title>
+    <updated>2024-10-30T03:42:59Z</updated>
+    <link href="https://arxiv.org/abs/2410.22669v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.22669v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vector Symbolic Architectures (VSAs) are one approach to developing Neuro-symbolic AI, where two vectors in $\mathbb{R}^d$ are `bound' together to produce a new vector in the same space. VSAs support the commutativity and associativity of this binding operation, along with an inverse operation, allowing one to construct symbolic-style manipulations over real-valued vectors. Most VSAs were developed before deep learning and automatic differentiation became popular and instead focused on efficacy in hand-designed systems. In this work, we introduce the Hadamard-derived linear Binding (HLB), which is designed to have favorable computational efficiency, and efficacy in classic VSA tasks, and perform well in differentiable systems. Code is available at https://github.com/FutureComputing4AI/Hadamard-derived-Linear-Binding</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-30T03:42:59Z</published>
+    <arxiv:comment>To appear in the 38th Conference on Neural Information Processing Systems (NeurIPS 2024)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mohammad Mahmudul Alam</name>
+    </author>
+    <author>
+      <name>Alexander Oberle</name>
+    </author>
+    <author>
+      <name>Edward Raff</name>
+    </author>
+    <author>
+      <name>Stella Biderman</name>
+    </author>
+    <author>
+      <name>Tim Oates</name>
+    </author>
+    <author>
+      <name>James Holt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.07947v1</id>
+    <title>GPT-2 Through the Lens of Vector Symbolic Architectures</title>
+    <updated>2024-12-10T22:20:36Z</updated>
+    <link href="https://arxiv.org/abs/2412.07947v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.07947v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding the general priniciples behind transformer models remains a complex endeavor. Experiments with probing and disentangling features using sparse autoencoders (SAE) suggest that these models might manage linear features embedded as directions in the residual stream. This paper explores the resemblance between decoder-only transformer architecture and vector symbolic architectures (VSA) and presents experiments indicating that GPT-2 uses mechanisms involving nearly orthogonal vector bundling and binding operations similar to VSA for computation and communication between layers. It further shows that these principles help explain a significant portion of the actual neural weights.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-10T22:20:36Z</published>
+    <arxiv:comment>2nd Workshop on Attributing Model Behavior at Scale (ATTRIB) at NeurIPS 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Johannes Knittel</name>
+    </author>
+    <author>
+      <name>Tushaar Gangavarapu</name>
+    </author>
+    <author>
+      <name>Hendrik Strobelt</name>
+    </author>
+    <author>
+      <name>Hanspeter Pfister</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.14436v1</id>
+    <title>LARS-VSA: A Vector Symbolic Architecture For Learning with Abstract Rules</title>
+    <updated>2024-05-23T11:05:42Z</updated>
+    <link href="https://arxiv.org/abs/2405.14436v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.14436v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human cognition excels at symbolic reasoning, deducing abstract rules from limited samples. This has been explained using symbolic and connectionist approaches, inspiring the development of a neuro-symbolic architecture that combines both paradigms. In parallel, recent studies have proposed the use of a "relational bottleneck" that separates object-level features from abstract rules, allowing learning from limited amounts of data . While powerful, it is vulnerable to the curse of compositionality meaning that object representations with similar features tend to interfere with each other. In this paper, we leverage hyperdimensional computing, which is inherently robust to such interference to build a compositional architecture. We adapt the "relational bottleneck" strategy to a high-dimensional space, incorporating explicit vector binding operations between symbols and relational representations. Additionally, we design a novel high-dimensional attention mechanism that leverages this relational representation. Our system benefits from the low overhead of operations in hyperdimensional space, making it significantly more efficient than the state of the art when evaluated on a variety of test datasets, while maintaining higher or equal accuracy.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-23T11:05:42Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mohamed Mejri</name>
+    </author>
+    <author>
+      <name>Chandramouli Amarnath</name>
+    </author>
+    <author>
+      <name>Abhijit Chatterjee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.14075v2</id>
+    <title>Towards Vector Optimization on Low-Dimensional Vector Symbolic Architecture</title>
+    <updated>2025-03-16T03:06:09Z</updated>
+    <link href="https://arxiv.org/abs/2502.14075v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.14075v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vector Symbolic Architecture (VSA) is emerging in machine learning due to its efficiency, but they are hindered by issues of hyperdimensionality and accuracy. As a promising mitigation, the Low-Dimensional Computing (LDC) method significantly reduces the vector dimension by ~100 times while maintaining accuracy, by employing a gradient-based optimization. Despite its potential, LDC optimization for VSA is still underexplored. Our investigation into vector updates underscores the importance of stable, adaptive dynamics in LDC training. We also reveal the overlooked yet critical roles of batch normalization (BN) and knowledge distillation (KD) in standard approaches. Besides the accuracy boost, BN does not add computational overhead during inference, and KD significantly enhances inference confidence. Through extensive experiments and ablation studies across multiple benchmarks, we provide a thorough evaluation of our approach and extend the interpretability of binary neural network optimization similar to LDC, previously unaddressed in BNN literature.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-19T20:00:32Z</published>
+    <arxiv:comment>10 pages, 2 figures. Accepted in CPAL 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shijin Duan</name>
+    </author>
+    <author>
+      <name>Yejia Liu</name>
+    </author>
+    <author>
+      <name>Gaowen Liu</name>
+    </author>
+    <author>
+      <name>Ramana Rao Kompella</name>
+    </author>
+    <author>
+      <name>Shaolei Ren</name>
+    </author>
+    <author>
+      <name>Xiaolin Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.04571v2</id>
+    <title>A Neuro-vector-symbolic Architecture for Solving Raven's Progressive Matrices</title>
+    <updated>2023-03-03T14:09:50Z</updated>
+    <link href="https://arxiv.org/abs/2203.04571v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.04571v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neither deep neural networks nor symbolic AI alone has approached the kind of intelligence expressed in humans. This is mainly because neural networks are not able to decompose joint representations to obtain distinct objects (the so-called binding problem), while symbolic AI suffers from exhaustive rule searches, among other problems. These two problems are still pronounced in neuro-symbolic AI which aims to combine the best of the two paradigms. Here, we show that the two problems can be addressed with our proposed neuro-vector-symbolic architecture (NVSA) by exploiting its powerful operators on high-dimensional distributed representations that serve as a common language between neural networks and symbolic AI. The efficacy of NVSA is demonstrated by solving the Raven's progressive matrices datasets. Compared to state-of-the-art deep neural network and neuro-symbolic approaches, end-to-end training of NVSA achieves a new record of 87.7% average accuracy in RAVEN, and 88.1% in I-RAVEN datasets. Moreover, compared to the symbolic reasoning within the neuro-symbolic approaches, the probabilistic reasoning of NVSA with less expensive operations on the distributed representations is two orders of magnitude faster. Our code is available at https://github.com/IBM/neuro-vector-symbolic-architectures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-09T08:29:21Z</published>
+    <arxiv:comment>Updated version with additional NVSA end-to-end training, generalization experiments, and PGM experiments</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Michael Hersche</name>
+    </author>
+    <author>
+      <name>Mustafa Zeqiri</name>
+    </author>
+    <author>
+      <name>Luca Benini</name>
+    </author>
+    <author>
+      <name>Abu Sebastian</name>
+    </author>
+    <author>
+      <name>Abbas Rahimi</name>
+    </author>
+  </entry>
+</feed>

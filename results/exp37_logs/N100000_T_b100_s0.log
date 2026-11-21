@@ -1,0 +1,7 @@
+T_b100 s0 write 25000/100000 11907s rss=6108.3MB
+T_b100 s0 write 50000/100000 32589s rss=9440.9MB
+T_b100 s0 write 75000/100000 61432s rss=12774.0MB
+T_b100 s0 write 100000/100000 95969s rss=15972.4MB
+T_b100 s0 deg0: 60/60 abst=0 144.529s/q
+T_b100 s0 deg25: 60/60 abst=0 146.447s/q
+DONE {"N": 100000, "cell": "T_b100", "seed": 0, "write_s": 95968.6, "peak_rss_mb": 28222.9}

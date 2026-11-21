@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IFkvHTSwzRWfS1DlWS2WHcRdT50</id>
+  <title>arXiv Query: search_query=all:sparse AND all:associative AND all:memory AND all:retrieval&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:45:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:sparse+AND+(all:associative+AND+(all:memory+AND+all:retrieval))&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>66</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1711.08626v1</id>
+    <title>The sparse Blume-Emery-Griffiths model of associative memories</title>
+    <updated>2017-11-23T09:17:12Z</updated>
+    <link href="https://arxiv.org/abs/1711.08626v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.08626v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze the Blume-Emery-Griffiths (BEG) associative memory with sparse patterns and at zero temperature. We give bounds on its storage capacity provided that we want the stored patterns to be fixed points of the retrieval dynamics. We compare our results to that of other models of sparse neural networks and show that the BEG model has a superior performance compared to them.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-23T09:17:12Z</published>
+    <arxiv:comment>23 pp</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Judith Heusel</name>
+    </author>
+    <author>
+      <name>Matthias Löwe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.21096v1</id>
+    <title>Mixture of Chapters: Scaling Learnt Memory in Transformers</title>
+    <updated>2026-03-22T07:16:58Z</updated>
+    <link href="https://arxiv.org/abs/2603.21096v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.21096v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformers lack an explicit architectural mechanism for storing and organizing knowledge acquired during training. We introduce learnable sparse memory banks: a set of latent tokens, randomly initialized and trained end-to-end, that transformer layers query via cross-attention to retrieve stored knowledge. To scale memory capacity without prohibitive attention costs, we propose chapter-based routing inspired by Mixture-of-Experts architectures, partitioning the memory bank into chapters and training a router to select relevant subsets per input. This enables scaling to 262K memory tokens while maintaining tractable computation. We evaluate our approach against standard transformers (in iso-FLOP settings) on pre-training and instruction fine-tuning across relevant benchmarks. Our models surpass iso-FLOP baselines suggesting scope for a new axis of scaling, demonstrating that explicit associative memory provides complementary capacity to what is captured implicitly in model parameters. Additionally, we observe improved knowledge retention under continued training, with robustness to forgetting when transitioning between training phases (e.g., pretraining to instruction fine-tuning).</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-22T07:16:58Z</published>
+    <arxiv:comment>20 pages, 2 figures, 8 tables. Accepted at ICLR 2026 New Frontiers in Associative Memory Workshop. Code available at https://github.com/Tasmay-Tibrewal/Memory</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tasmay Pankaj Tibrewal</name>
+    </author>
+    <author>
+      <name>Pritish Saha</name>
+    </author>
+    <author>
+      <name>Ankit Meda</name>
+    </author>
+    <author>
+      <name>Kunal Singh</name>
+    </author>
+    <author>
+      <name>Pradeep Moturi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.08892v3</id>
+    <title>A Comparative Study of Sparse Associative Memories</title>
+    <updated>2016-06-24T08:33:55Z</updated>
+    <link href="https://arxiv.org/abs/1512.08892v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.08892v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study various models of associative memories with sparse information, i.e. a pattern to be stored is a random string of $0$s and $1$s with about $\log N$ $1$s, only. We compare different synaptic weights, architectures and retrieval mechanisms to shed light on the influence of the various parameters on the storage capacity.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-30T09:52:57Z</published>
+    <arxiv:comment>28 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Vincent Gripon</name>
+    </author>
+    <author>
+      <name>Judith Heusel</name>
+    </author>
+    <author>
+      <name>Matthias Löwe</name>
+    </author>
+    <author>
+      <name>Franck Vermet</name>
+    </author>
+    <arxiv:doi>10.1007/s10955-016-1530-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10955-016-1530-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.08590v5</id>
+    <title>Hopfield-Fenchel-Young Networks: A Unified Framework for Associative Memory Retrieval</title>
+    <updated>2025-10-26T20:02:18Z</updated>
+    <link href="https://arxiv.org/abs/2411.08590v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.08590v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Associative memory models, such as Hopfield networks and their modern variants, have garnered renewed interest due to advancements in memory capacity and connections with self-attention in transformers. In this work, we introduce a unified framework-Hopfield-Fenchel-Young networks-which generalizes these models to a broader family of energy functions. Our energies are formulated as the difference between two Fenchel-Young losses: one, parameterized by a generalized entropy, defines the Hopfield scoring mechanism, while the other applies a post-transformation to the Hopfield output. By utilizing Tsallis and norm entropies, we derive end-to-end differentiable update rules that enable sparse transformations, uncovering new connections between loss margins, sparsity, and exact retrieval of single memory patterns. We further extend this framework to structured Hopfield networks using the SparseMAP transformation, allowing the retrieval of pattern associations rather than a single pattern. Our framework unifies and extends traditional and modern Hopfield networks and provides an energy minimization perspective for widely used post-transformations like $\ell_2$-normalization and layer normalization-all through suitable choices of Fenchel-Young losses and by using convex analysis as a building block. Finally, we validate our Hopfield-Fenchel-Young networks on diverse memory recall tasks, including free and sequential recall. Experiments on simulated data, image retrieval, multiple instance learning, and text rationalization demonstrate the effectiveness of our approach.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-13T13:13:07Z</published>
+    <arxiv:comment>51 pages, 14 figures. arXiv admin note: text overlap with arXiv:2402.13725</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Saul Santos</name>
+    </author>
+    <author>
+      <name>Vlad Niculae</name>
+    </author>
+    <author>
+      <name>Daniel McNamee</name>
+    </author>
+    <author>
+      <name>André F. T. Martins</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.0808v1</id>
+    <title>Associative Memories Based on Multiple-Valued Sparse Clustered Networks</title>
+    <updated>2014-02-03T16:23:33Z</updated>
+    <link href="https://arxiv.org/abs/1402.0808v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.0808v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Associative memories are structures that store data patterns and retrieve them given partial inputs. Sparse Clustered Networks (SCNs) are recently-introduced binary-weighted associative memories that significantly improve the storage and retrieval capabilities over the prior state-of-the art. However, deleting or updating the data patterns result in a significant increase in the data retrieval error probability. In this paper, we propose an algorithm to address this problem by incorporating multiple-valued weights for the interconnections used in the network. The proposed algorithm lowers the error rate by an order of magnitude for our sample network with 60% deleted contents. We then investigate the advantages of the proposed algorithm for hardware implementations.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-03T16:23:33Z</published>
+    <arxiv:comment>6 pages, Accepted in IEEE ISMVL 2014 conference</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Hooman Jarollahi</name>
+    </author>
+    <author>
+      <name>Naoya Onizawa</name>
+    </author>
+    <author>
+      <name>Takahiro Hanyu</name>
+    </author>
+    <author>
+      <name>Warren J. Gross</name>
+    </author>
+    <arxiv:doi>10.1109/ISMVL.2014.44</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ISMVL.2014.44" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.01849v1</id>
+    <title>SSAKG 2.0: An Open-Source Package for Structural Associative Sequence Memory and Context-Based Retrieval</title>
+    <updated>2026-09-01T20:31:56Z</updated>
+    <link href="https://arxiv.org/abs/2609.01849v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.01849v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article presents SSAKG 2.0, an open-source software package for constructing and operating Structural Sequential Associative Knowledge Graphs (SSAKGs). An SSAKG represents objects as graph vertices and ordered sequences as structural patterns of graph connections. The resulting sparse graph is used as an associative memory in which complete sequences can be reconstructed from a partial, unordered context.
+  Version 2.0 introduces new algorithms that exploit individual bits of computer memory to efficiently search graph connections. The package is implemented in Python, while performance-critical graph operations are implemented in C and exposed through a Python interface. This hybrid implementation provides a flexible high-level programming environment while reducing the memory and computational overhead associated with large sparse graphs.
+  The algorithms were evaluated using randomly generated numerical sequences, sequences derived from sentences in the NLTK corpus, and mRNA sequences. The experiments demonstrate the ability of the package to store and reconstruct sequences from partial contexts and provide a basis for evaluating the effects of graph density, sequence length, and memory size on retrieval performance.
+  SSAKG 2.0 is distributed under the Apache 2.0 open-source license. The package includes documentation and reproducible examples and is publicly available through GitHub and the Python Package Index (PyPI).</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-01T20:31:56Z</published>
+    <arxiv:comment>15 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Przemysław Stokłosa</name>
+    </author>
+    <author>
+      <name>Janusz A. Starzyk</name>
+    </author>
+    <author>
+      <name>Paweł Raif</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.20333v4</id>
+    <title>Quantization robustness from dense representations of sparse functions in high-capacity kernel associative memory</title>
+    <updated>2026-09-17T09:16:58Z</updated>
+    <link href="https://arxiv.org/abs/2604.20333v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.20333v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-capacity associative memories based on Kernel Logistic Regression (KLR) achieve strong retrieval performance but typically require substantial computational resources. This paper investigates the compressibility of KLR Hopfield networks to clarify the geometric principles underlying their robust representations. We present a geometric interpretation based on spontaneous symmetry breaking and Walsh analysis, and examine it through compression experiments involving quantization and pruning. The experiments reveal a clear asymmetry: the network remains robust under low-precision quantization while exhibiting strong sensitivity to pruning. We interpret this behavior through a "sparse function, dense representation" principle, in which a sparse input mapping is implemented through a dense bimodal parameterization. These findings suggest a practical route toward hardware-efficient kernel associative memories and provide insight into the geometric principles underlying robust representation in neural systems.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-22T08:29:35Z</published>
+    <arxiv:comment>12 pages, 10 figures. Accepted by NOLTA, IEICE</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Akira Tamamori</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1308.6021v1</id>
+    <title>Selective Decoding in Associative Memories Based on Sparse-Clustered Networks</title>
+    <updated>2013-08-28T00:37:56Z</updated>
+    <link href="https://arxiv.org/abs/1308.6021v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1308.6021v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Associative memories are structures that can retrieve previously stored information given a partial input pattern instead of an explicit address as in indexed memories. A few hardware approaches have recently been introduced for a new family of associative memories based on Sparse-Clustered Networks (SCN) that show attractive features. These architectures are suitable for implementations with low retrieval latency, but are limited to small networks that store a few hundred data entries. In this paper, a new hardware architecture of SCNs is proposed that features a new data-storage technique as well as a method we refer to as Selective Decoding (SD-SCN). The SD-SCN has been implemented using a similar FPGA used in the previous efforts and achieves two orders of magnitude higher capacity, with no error-performance penalty but with the cost of few extra clock cycles per data access.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-08-28T00:37:56Z</published>
+    <arxiv:comment>4 pages, Accepted in IEEE Global SIP 2013 conference</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Hooman Jarollahi</name>
+    </author>
+    <author>
+      <name>Naoya Onizawa</name>
+    </author>
+    <author>
+      <name>Warren J. Gross</name>
+    </author>
+    <arxiv:doi>10.1109/GlobalSIP.2013.6737140</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/GlobalSIP.2013.6737140" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.03464v1</id>
+    <title>Graph Hopfield Networks: Energy-Based Node Classification with Associative Memory</title>
+    <updated>2026-03-03T19:21:05Z</updated>
+    <link href="https://arxiv.org/abs/2603.03464v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.03464v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Graph Hopfield Networks, whose energy function couples associative memory retrieval with graph Laplacian smoothing for node classification. Gradient descent on this joint energy yields an iterative update interleaving Hopfield retrieval with Laplacian propagation. Memory retrieval provides regime-dependent benefits: up to 2.0~pp on sparse citation networks and up to 5 pp additional robustness under feature masking; the iterative energy-descent architecture itself is a strong inductive bias, with all variants (including the memory-disabled NoMem ablation) outperforming standard baselines on Amazon co-purchase graphs. Tuning enables graph sharpening for heterophilous benchmarks without architectural changes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-03T19:21:05Z</published>
+    <arxiv:comment>10 Pages, 4 Figures, Acceptted at ICLR NFAM Workshop 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Abinav Rao</name>
+    </author>
+    <author>
+      <name>Alex Wa</name>
+    </author>
+    <author>
+      <name>Rishi Athavale</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.10435v1</id>
+    <title>Parallel Causal Associative Fields: Gated Sparse Memory for Long-Context Language Modeling</title>
+    <updated>2026-06-09T05:23:17Z</updated>
+    <link href="https://arxiv.org/abs/2606.10435v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.10435v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformers achieve strong language modeling performance by providing direct token-to-token communication paths, but causal self-attention scales quadratically with context length. Recurrent and state-space models reduce this cost, yet compress history into sequentially updated fixed-size states. This paper studies a third primitive: a parallel content-addressed memory over causal successor records. The proposed Parallel Causal Associative Field (PCAF) writes local records from a context window into hash buckets, retrieves a bounded candidate set for the current query, forms a sparse cache distribution over successor tokens, and mixes that cache with a parametric local language model through a learned gate. The resulting model maintains sparse long-context access while avoiding a single fixed recurrent state bottleneck. We evaluate PCAF under full autoregressive pretraining on WikiText-103 and PG-19 using a distributed Google Cloud TPU v4-32 pod. At 303M parameters and context length T = 2048, PCAF-semantic reaches 36.31 perplexity on WikiText-103 and 52.45 perplexity on PG-19, compared with 47.49 and 53.84 for a matched dense Transformer. PCAF-semantic simultaneously processes 0.61-0.62M tokens/s across the TPU pod, versus 0.43M tokens/s for dense and local attention baselines. Supporting 41M-parameter multi-seed sweeps and single-GPU component ablations show that the associative cache, retrieval capacity, and learned gate materially affect the speed-quality trade-off.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-09T05:23:17Z</published>
+    <arxiv:comment>17 pages, 5 figures, and 6 tables. Experiments on WikiText-103, PG-19, and WikiText-2 using TPU v4-32 and NVIDIA RTX 3060 hardware. Code: https://github.com/ahmed123hds/PCAF</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Muhammad Ahmed</name>
+    </author>
+  </entry>
+</feed>

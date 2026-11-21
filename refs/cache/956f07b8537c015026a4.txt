@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ypdvs7THrNbPhRE7OWQdhVHS7dg</id>
+  <title>arXiv Query: search_query=all:sublinear AND all:retrieval AND all:associative AND all:memory&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-11-07T11:34:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:sublinear+AND+(all:retrieval+AND+(all:associative+AND+all:memory))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1006.3514v1</id>
+    <title>Similarity Search and Locality Sensitive Hashing using TCAMs</title>
+    <updated>2010-06-17T16:51:51Z</updated>
+    <link href="https://arxiv.org/abs/1006.3514v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1006.3514v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Similarity search methods are widely used as kernels in various machine learning applications. Nearest neighbor search (NNS) algorithms are often used to retrieve similar entries, given a query. While there exist efficient techniques for exact query lookup using hashing, similarity search using exact nearest neighbors is known to be a hard problem and in high dimensions, best known solutions offer little improvement over a linear scan. Fast solutions to the approximate NNS problem include Locality Sensitive Hashing (LSH) based techniques, which need storage polynomial in $n$ with exponent greater than $1$, and query time sublinear, but still polynomial in $n$, where $n$ is the size of the database. In this work we present a new technique of solving the approximate NNS problem in Euclidean space using a Ternary Content Addressable Memory (TCAM), which needs near linear space and has O(1) query time. In fact, this method also works around the best known lower bounds in the cell probe model for the query time using a data structure near linear in the size of the data base. TCAMs are high performance associative memories widely used in networking applications such as access control lists. A TCAM can query for a bit vector within a database of ternary vectors, where every bit position represents $0$, $1$ or $*$. The $*$ is a wild card representing either a $0$ or a $1$. We leverage TCAMs to design a variant of LSH, called Ternary Locality Sensitive Hashing (TLSH) wherein we hash database entries represented by vectors in the Euclidean space into $\{0,1,*\}$. By using the added functionality of a TLSH scheme with respect to the $*$ character, we solve an instance of the approximate nearest neighbor problem with 1 TCAM access and storage nearly linear in the size of the database. We believe that this work can open new avenues in very high speed data mining.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-06-17T16:51:51Z</published>
+    <arxiv:comment>11 pages, in SIGMOD 2010</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Rajendra Shinde</name>
+    </author>
+    <author>
+      <name>Ashish Goel</name>
+    </author>
+    <author>
+      <name>Pankaj Gupta</name>
+    </author>
+    <author>
+      <name>Debojyoti Dutta</name>
+    </author>
+  </entry>
+</feed>

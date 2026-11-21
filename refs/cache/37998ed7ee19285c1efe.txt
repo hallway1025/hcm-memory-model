@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/feLyZ5TiTG7vo1KDTOD6ro5g2h4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2301.10352&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:30:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2301.10352" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2301.10352v2</id>
+    <title>Capacity Analysis of Vector Symbolic Architectures</title>
+    <updated>2023-02-14T20:50:04Z</updated>
+    <link href="https://arxiv.org/abs/2301.10352v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.10352v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hyperdimensional computing (HDC) is a biologically-inspired framework which represents symbols with high-dimensional vectors, and uses vector operations to manipulate them. The ensemble of a particular vector space and a prescribed set of vector operations (including one addition-like for "bundling" and one outer-product-like for "binding") form a *vector symbolic architecture* (VSA). While VSAs have been employed in numerous applications and have been studied empirically, many theoretical questions about VSAs remain open. We analyze the *representation capacities* of four common VSAs: MAP-I, MAP-B, and two VSAs based on sparse binary vectors. "Representation capacity' here refers to bounds on the dimensions of the VSA vectors required to perform certain symbolic tasks, such as testing for set membership $i \in S$ and estimating set intersection sizes $|X \cap Y|$ for two sets of symbols $X$ and $Y$, to a given degree of accuracy. We also analyze the ability of a novel variant of a Hopfield network (a simple model of associative memory) to perform some of the same tasks that are typically asked of VSAs. In addition to providing new bounds on VSA capacities, our analyses establish and leverage connections between VSAs, "sketching" (dimensionality reduction) algorithms, and Bloom filters.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-24T23:43:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kenneth L. Clarkson</name>
+    </author>
+    <author>
+      <name>Shashanka Ubaru</name>
+    </author>
+    <author>
+      <name>Elizabeth Yang</name>
+    </author>
+  </entry>
+</feed>

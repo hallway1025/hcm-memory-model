@@ -1,0 +1,30 @@
+[
+ {
+  "resid": false,
+  "exact_mean": 1.0,
+  "exact_ci": 0.0,
+  "deg25_mean": 0.25,
+  "deg25_ci": 0.04,
+  "write_s": 452.6,
+  "query_ms": 2457.2,
+  "rss_mb": 0.0,
+  "seeds": 4,
+  "N": 20000,
+  "d_x": 512,
+  "d_h": 4096
+ },
+ {
+  "resid": true,
+  "exact_mean": 0.994,
+  "exact_ci": 0.012,
+  "deg25_mean": 0.031,
+  "deg25_ci": 0.012,
+  "write_s": 448.7,
+  "query_ms": 2479.4,
+  "rss_mb": 0.0,
+  "seeds": 4,
+  "N": 20000,
+  "d_x": 512,
+  "d_h": 4096
+ }
+]

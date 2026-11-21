@@ -1,0 +1,48 @@
+{"area":"A_timescale","query":"time cells hippocampus","channel":"crossref","n":30,"year_from":2005}
+{"area":"A_timescale","query":"temporal context model memory","channel":"crossref","n":25,"year_from":1995}
+{"area":"A_timescale","query":"multiple timescales synaptic plasticity","channel":"crossref","n":25}
+{"area":"A_timescale","query":"scale-free temporal context drift","channel":"crossref","n":20}
+{"area":"A_timescale","query":"temporal context model","channel":"arxiv","n":15}
+{"area":"A_timescale","query":"hippocampal time cell sequence memory","channel":"arxiv","n":15}
+{"area":"B_forget","query":"retrieval-induced forgetting adaptive function","channel":"crossref","n":25}
+{"area":"B_forget","query":"forgetting benefits generalization flexibility","channel":"crossref","n":25}
+{"area":"B_forget","query":"adaptive forgetting reinforcement learning","channel":"crossref","n":25}
+{"area":"B_forget","query":"directed forgetting motivated neuroscience","channel":"crossref","n":20}
+{"area":"B_forget","query":"principled forgetting neural networks","channel":"arxiv","n":20}
+{"area":"C_neuro","query":"acetylcholine hippocampal encoding retrieval dynamics","channel":"crossref","n":25}
+{"area":"C_neuro","query":"norepinephrine locus coeruleus memory encoding","channel":"crossref","n":25}
+{"area":"C_neuro","query":"dopamine prediction error hippocampal plasticity","channel":"crossref","n":25}
+{"area":"C_neuro","query":"eligibility traces synaptic plasticity","channel":"crossref","n":20}
+{"area":"C_neuro","query":"novelty modulated encoding hippocampus","channel":"crossref","n":20}
+{"area":"D_consolidation","query":"Benna Fusi cascade synaptic consolidation","channel":"crossref","n":20}
+{"area":"D_consolidation","query":"sharp-wave ripple sleep spindle coordination","channel":"crossref","n":25}
+{"area":"D_consolidation","query":"systems consolidation hippocampal neocortical dynamics","channel":"crossref","n":25}
+{"area":"D_consolidation","query":"prioritized replay hippocampus","channel":"crossref","n":20}
+{"area":"D_consolidation","query":"targeted memory reactivation sleep","channel":"crossref","n":15}
+{"area":"D_consolidation","query":"experience replay prioritization","channel":"arxiv","n":20}
+{"area":"E_wm","query":"theta gamma coupling working memory","channel":"crossref","n":25}
+{"area":"E_wm","query":"working memory capacity slots resource model","channel":"crossref","n":25}
+{"area":"E_wm","query":"activity-silent working memory","channel":"crossref","n":20}
+{"area":"E_wm","query":"n-back computational model capacity","channel":"crossref","n":15}
+{"area":"E_wm","query":"working memory neural network capacity","channel":"arxiv","n":15}
+{"area":"F_capacity","query":"modern Hopfield network capacity","channel":"crossref","n":25}
+{"area":"F_capacity","query":"dense associative memory capacity","channel":"crossref","n":20}
+{"area":"F_capacity","query":"associative memory capacity sparse coding","channel":"crossref","n":25}
+{"area":"F_capacity","query":"Hopfield storage capacity scaling","channel":"crossref","n":20}
+{"area":"F_capacity","query":"associative memory capacity theory","channel":"arxiv","n":20}
+{"area":"G_structure","query":"successor representation hippocampus","channel":"crossref","n":25}
+{"area":"G_structure","query":"structural learning hippocampus graph","channel":"crossref","n":20}
+{"area":"G_structure","query":"vector symbolic architecture binding","channel":"crossref","n":25}
+{"area":"G_structure","query":"relational binding episodic memory","channel":"crossref","n":20}
+{"area":"G_structure","query":"structured episodic memory graph","channel":"arxiv","n":15}
+{"area":"H_scale","query":"approximate nearest neighbor search survey","channel":"arxiv","n":20}
+{"area":"H_scale","query":"sublinear retrieval associative memory","channel":"arxiv","n":15}
+{"area":"H_scale","query":"sparse distributed memory","channel":"crossref","n":15}
+{"area":"H_scale","query":"memory augmented neural network scaling","channel":"arxiv","n":15}
+{"area":"I_confidence","query":"confidence recognition memory signal detection","channel":"crossref","n":25}
+{"area":"I_confidence","query":"metamemory confidence calibration","channel":"crossref","n":20}
+{"area":"I_confidence","query":"uncertainty aware retrieval","channel":"arxiv","n":15}
+{"area":"J_llm_memory","query":"large language model agent memory survey","channel":"arxiv","n":20,"year_from":2023}
+{"area":"J_llm_memory","query":"memory augmented LLM agent","channel":"arxiv","n":20,"year_from":2023}
+{"area":"J_llm_memory","query":"episodic memory large language model","channel":"arxiv","n":15,"year_from":2023}
+{"area":"J_llm_memory","query":"retrieval augmented agent long-term memory","channel":"arxiv","n":15,"year_from":2023}

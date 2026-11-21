@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lv9LrXunKECGO19Lhhy5i257r+4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2302.14688&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:32:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2302.14688" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2302.14688v1</id>
+    <title>OEKG: The Open Event Knowledge Graph</title>
+    <updated>2023-02-28T15:58:28Z</updated>
+    <link href="https://arxiv.org/abs/2302.14688v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.14688v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accessing and understanding contemporary and historical events of global impact such as the US elections and the Olympic Games is a major prerequisite for cross-lingual event analytics that investigate event causes, perception and consequences across country borders. In this paper, we present the Open Event Knowledge Graph (OEKG), a multilingual, event-centric, temporal knowledge graph composed of seven different data sets from multiple application domains, including question answering, entity recommendation and named entity recognition. These data sets are all integrated through an easy-to-use and robust pipeline and by linking to the event-centric knowledge graph EventKG. We describe their common schema and demonstrate the use of the OEKG at the example of three use cases: type-specific image retrieval, hybrid question answering over knowledge graphs and news articles, as well as language-specific event recommendation. The OEKG and its query endpoint are publicly available.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-28T15:58:28Z</published>
+    <arxiv:comment>The definitive version of this work was published in the Proceedings of the 2nd International Workshop on Cross-lingual Event-centric Open Analytics co-located with the 30th The Web Conference (WWW 2021)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Simon Gottschalk</name>
+    </author>
+    <author>
+      <name>Endri Kacupaj</name>
+    </author>
+    <author>
+      <name>Sara Abdollahi</name>
+    </author>
+    <author>
+      <name>Diego Alves</name>
+    </author>
+    <author>
+      <name>Gabriel Amaral</name>
+    </author>
+    <author>
+      <name>Elisavet Koutsiana</name>
+    </author>
+    <author>
+      <name>Tin Kuculo</name>
+    </author>
+    <author>
+      <name>Daniela Major</name>
+    </author>
+    <author>
+      <name>Caio Mello</name>
+    </author>
+    <author>
+      <name>Gullal S. Cheema</name>
+    </author>
+    <author>
+      <name>Abdul Sittar</name>
+    </author>
+    <author>
+      <name> Swati</name>
+    </author>
+    <author>
+      <name>Golsa Tahmasebzadeh</name>
+    </author>
+    <author>
+      <name>Gaurish Thakkar</name>
+    </author>
+  </entry>
+</feed>

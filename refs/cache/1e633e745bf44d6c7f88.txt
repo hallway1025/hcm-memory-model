@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["36563928"],"translationset":[],"querytranslation":"\"10 1016 j pneurobio 2022 102396\"[Publisher ID]"}}

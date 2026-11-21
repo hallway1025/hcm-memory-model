@@ -1,0 +1,127 @@
+{
+ "config": {
+  "data": "DailyDialog train (CC BY 4.0)",
+  "n_train": 68994,
+  "n_test": 18176,
+  "probes": 100,
+  "deg_probe": "0.3/0.5",
+  "beta": 100.0,
+  "L": 3,
+  "a": 0.02,
+  "use_resid": false,
+  "judge": "obs_of (L-035)",
+  "smoke": false
+ },
+ "T1": [
+  {
+   "arm": "NEW256",
+   "N": 2000,
+   "written": 1925,
+   "write_s": 16.1,
+   "deg0.3": 3,
+   "deg0.5": 3
+  },
+  {
+   "arm": "R512",
+   "N": 2000,
+   "written": 1928,
+   "write_s": 47.2,
+   "deg0.3": 3,
+   "deg0.5": 2
+  },
+  {
+   "arm": "NEW256",
+   "N": 8000,
+   "written": 7437,
+   "write_s": 82.1,
+   "deg0.3": 14,
+   "deg0.5": 12
+  },
+  {
+   "arm": "R512",
+   "N": 8000,
+   "written": 7435,
+   "write_s": 184.2,
+   "deg0.3": 11,
+   "deg0.5": 9
+  },
+  {
+   "arm": "NEW256",
+   "N": 20000,
+   "written": 17651,
+   "write_s": 279.3,
+   "deg0.3": 27,
+   "deg0.5": 24
+  },
+  {
+   "arm": "R512",
+   "N": 20000,
+   "written": 17618,
+   "write_s": 491.5,
+   "deg0.3": 20,
+   "deg0.5": 17
+  }
+ ],
+ "T2": {
+  "NEW256": {
+   "pairs": 200,
+   "self_hit1": 134,
+   "next5": 1,
+   "next_rate": 0.005,
+   "ctrl5": 0,
+   "ctrl_rate": 0.0,
+   "next_rank_med": 2866.5,
+   "ctrl_rank_med": 4244.0,
+   "candidate_pairs": 200
+  },
+  "R512": {
+   "pairs": 200,
+   "self_hit1": 27,
+   "next5": 1,
+   "next_rate": 0.005,
+   "ctrl5": 0,
+   "ctrl_rate": 0.0,
+   "next_rank_med": 3186.0,
+   "ctrl_rank_med": 3307.0,
+   "candidate_pairs": 200
+  }
+ },
+ "T3": {
+  "NEW256": {
+   "auc": 0.3354,
+   "in_mean": 0.8572949525229455,
+   "out_mean": 0.8943637228163894,
+   "n_in": 100,
+   "n_out": 100
+  },
+  "R512": {
+   "auc": 0.0627,
+   "in_mean": 0.7675106049683994,
+   "out_mean": 0.9325705492676427,
+   "n_in": 100,
+   "n_out": 100
+  }
+ },
+ "gates": {
+  "G_P1": {
+   "new": 14,
+   "r512": 11,
+   "pass_": true
+  },
+  "G_P2": {
+   "rates": {
+    "NEW256": 0.005,
+    "R512": 0.005
+   },
+   "pass_": true
+  },
+  "G_P3": {
+   "aucs": {
+    "NEW256": 0.3354,
+    "R512": 0.0627
+   },
+   "pass_": false
+  }
+ },
+ "elapsed_s": 3056.6
+}

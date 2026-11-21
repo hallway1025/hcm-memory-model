@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM"><PMID Version="1">25324808</PMID><DateCompleted><Year>2014</Year><Month>10</Month><Day>17</Day></DateCompleted><DateRevised><Year>2021</Year><Month>10</Month><Day>21</Day></DateRevised><Article PubModel="Electronic-eCollection"><Journal><ISSN IssnType="Print">1664-1078</ISSN><JournalIssue CitedMedium="Print"><Volume>5</Volume><PubDate><Year>2014</Year></PubDate></JournalIssue><Title>Frontiers in psychology</Title><ISOAbbreviation>Front Psychol</ISOAbbreviation></Journal><ArticleTitle>Finding retrieval-induced forgetting in recognition tests: a case for baseline memory strength.</ArticleTitle><Pagination><StartPage>1102</StartPage><MedlinePgn>1102</MedlinePgn></Pagination><ELocationID EIdType="pii" ValidYN="Y">1102</ELocationID><ELocationID EIdType="doi" ValidYN="Y">10.3389/fpsyg.2014.01102</ELocationID><Abstract><AbstractText>Retrieval practice of previously studied material can impair subsequent memory for related unpracticed material. An emerging view holds that such retrieval-induced forgetting (RIF) may affect episodic recollection, but not the context-free familiarity of the affected items. Here, a survey of accruing recent findings of RIF in recognition tests shows that the impairment of unpracticed material depends vitally on baseline memory strength. Therein, the absence of RIF under specific conditions, previously taken as evidence for the immunity of familiarity, can be predicted on grounds of exceedingly low baseline levels. Similarly, differential RIF effects on the parameters of dual-process recognition models can be explained by baseline differences, suggesting that RIF might impair any sub-process that substantially contributes to overall recognition accuracy. By contrast, the strengthening of practiced material appears independent of baseline levels and does not predict the magnitude of RIF, in accordance with an inhibitory causation of the forgetting. In summary, the inventory presents RIF in recognition as a subtle proportional impairment, future illumination of which may demand increased attention to baseline memory levels.</AbstractText></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Spitzer</LastName><ForeName>Bernhard</ForeName><Initials>B</Initials><AffiliationInfo><Affiliation>Neurocomputation and Neuroimaging Unit, Department of Education and Psychology, Freie Universit&#xe4;t Berlin Berlin, Germany.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType="Electronic"><Year>2014</Year><Month>09</Month><Day>29</Day></ArticleDate></Article><MedlineJournalInfo><Country>Switzerland</Country><MedlineTA>Front Psychol</MedlineTA><NlmUniqueID>101550902</NlmUniqueID><ISSNLinking>1664-1078</ISSNLinking></MedlineJournalInfo><KeywordList Owner="NOTNLM"><Keyword MajorTopicYN="N">familiarity</Keyword><Keyword MajorTopicYN="N">recognition</Keyword><Keyword MajorTopicYN="N">recollection</Keyword><Keyword MajorTopicYN="N">retrieval-induced forgetting</Keyword><Keyword MajorTopicYN="N">signal detection</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="received"><Year>2014</Year><Month>4</Month><Day>21</Day></PubMedPubDate><PubMedPubDate PubStatus="accepted"><Year>2014</Year><Month>9</Month><Day>11</Day></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2014</Year><Month>10</Month><Day>18</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2014</Year><Month>10</Month><Day>18</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus="medline"><Year>2014</Year><Month>10</Month><Day>18</Day><Hour>6</Hour><Minute>1</Minute></PubMedPubDate><PubMedPubDate PubStatus="pmc-release"><Year>2014</Year><Month>9</Month><Day>29</Day></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">25324808</ArticleId><ArticleId IdType="pmc">PMC4179646</ArticleId><ArticleId IdType="doi">10.3389/fpsyg.2014.01102</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Anderson M. C. (2003). Rethinking interference theory: executive control and the mechanisms of forgetting.
+<i>J. Mem. Lang.</i>
+49
+415&#x2013;445
+10.1016/j.jml.2003.08.006</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.jml.2003.08.006</ArticleId></ArticleIdList></Reference><Reference><Citation>Anderson M. C., Bjork R. A., Bjork E. L. (1994). Remembering can cause forgetting: retrieval dynamics in long-term memory.
+<i>J. Exp. Psychol. Learn. Mem. Cogn.</i>
+20
+1063&#x2013;1087
+10.1037/0278-7393.20.5.1063</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0278-7393.20.5.1063</ArticleId><ArticleId IdType="pubmed">7931095</ArticleId></ArticleIdList></Reference><Reference><Citation>Anderson M. C., Spellman B. A. (1995). On the status of inhibitory mechanisms in cognition: memory retrieval as a model case.
+<i>Psychol. Rev.</i>
+102
+68&#x2013;100
+10.1037/0033-295X.102.1.68</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-295X.102.1.68</ArticleId><ArticleId IdType="pubmed">7878163</ArticleId></ArticleIdList></Reference><Reference><Citation>Aslan A., B&#xe4;uml K.-H. T. (2010). Retrieval-induced forgetting in young children.
+<i>Psychon. Bull. Rev.</i>
+17
+704&#x2013;709
+10.3758/PBR.17.5.704</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/PBR.17.5.704</ArticleId><ArticleId IdType="pubmed">21037170</ArticleId></ArticleIdList></Reference><Reference><Citation>Aslan A., B&#xe4;uml K.-H. T. (2011). Individual differences in working memory capacity predict retrieval-induced forgetting.
+<i>J. Exp. Psychol. Learn. Mem. Cogn.</i>
+37
+264&#x2013;269
+10.1037/a0021324</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0021324</ArticleId><ArticleId IdType="pubmed">21090906</ArticleId></ArticleIdList></Reference><Reference><Citation>Aslan A., B&#xe4;uml K.-H. T. (2012). Retrieval-induced forgetting in old and very old age.
+<i>Psychol. Aging</i>
+27
+1027&#x2013;1032
+10.1037/a0028379</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0028379</ArticleId><ArticleId IdType="pubmed">22563940</ArticleId></ArticleIdList></Reference><Reference><Citation>B&#xe4;uml K. (1998). Strong items get suppressed, weak items do not: the role of item strength in output interference.
+<i>Psychon. Bull. Rev.</i>
+5
+459&#x2013;463
+10.3758/BF03208822</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03208822</ArticleId></ArticleIdList></Reference><Reference><Citation>Dede A. J. O., Squire L. R., Wixted J. T. (2014). A novel approach to an old problem: analysis of systematic errors in two models of recognition memory.
+<i>Neuropsychologia</i>
+52
+51&#x2013;56
+10.1016/j.neuropsychologia.2013.10.012</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.neuropsychologia.2013.10.012</ArticleId><ArticleId IdType="pmc">PMC4079078</ArticleId><ArticleId IdType="pubmed">24184486</ArticleId></ArticleIdList></Reference><Reference><Citation>Dehli L., Brennen T. (2009). Does retrieval-induced forgetting occur for emotional stimuli?
+<i>Cogn. Emot.</i>
+23
+1056&#x2013;1068
+10.1080/02699930802285221</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/02699930802285221</ArticleId></ArticleIdList></Reference><Reference><Citation>Dobler I. M., B&#xe4;uml K.-H. T. (2013). Retrieval-induced forgetting: dynamic effects between retrieval and restudy trials when practice is mixed.
+<i>Mem. Cogn.</i>
+41
+547&#x2013;557
+10.3758/s13421-012-0282-5</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/s13421-012-0282-5</ArticleId><ArticleId IdType="pubmed">23283807</ArticleId></ArticleIdList></Reference><Reference><Citation>Erdman M. R., Chan J. C. K. (2013). Providing corrective feedback during retrieval practice does not increase retrieval-induced forgetting.
+<i>J. Cogn. Psychol.</i>
+25
+692&#x2013;703
+10.1080/20445911.2013.790389</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/20445911.2013.790389</ArticleId></ArticleIdList></Reference><Reference><Citation>Gardiner J. M. (1988). Functional aspects of recollective experience.
+<i>Mem. Cogn.</i>
+16
+309&#x2013;313
+10.3758/BF03197041</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03197041</ArticleId><ArticleId IdType="pubmed">3210971</ArticleId></ArticleIdList></Reference><Reference><Citation>G&#xf3;mez-Ariza C. J., Lechuga M. T., Pelegrina S., Bajo M. T. (2005). Retrieval-induced forgetting in recall and recognition of thematically related and unrelated sentences.
+<i>Mem. Cogn.</i>
+33
+1431&#x2013;1441
+10.3758/BF03193376</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03193376</ArticleId><ArticleId IdType="pubmed">16615391</ArticleId></ArticleIdList></Reference><Reference><Citation>Grundgeiger T. (2013). Noncompetitive retrieval practice causes retrieval-induced forgetting in cued recall but not in recognition.
+<i>Mem. Cogn.</i>
+42
+400&#x2013;408
+10.3758/s13421-013-0372-z</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/s13421-013-0372-z</ArticleId><ArticleId IdType="pubmed">24129441</ArticleId></ArticleIdList></Reference><Reference><Citation>Hicks J. L., Starns J. J. (2004). Retrieval-induced forgetting occurs in tests of item recognition.
+<i>Psychon. Bull. Rev.</i>
+11
+125&#x2013;130
+10.3758/BF03206471</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03206471</ArticleId><ArticleId IdType="pubmed">15116997</ArticleId></ArticleIdList></Reference><Reference><Citation>Hulbert J. C., Shivde G., Anderson M. C. (2012). Evidence against associative blocking as a cause of cue-independent retrieval-induced forgetting.
+<i>Exp. Psychol.</i>
+59
+11&#x2013;21
+10.1027/1618-3169/a000120</Citation><ArticleIdList><ArticleId IdType="doi">10.1027/1618-3169/a000120</ArticleId><ArticleId IdType="pubmed">21768070</ArticleId></ArticleIdList></Reference><Reference><Citation>Janczyk M., W&#xfc;hr P. (2012). Inhibition does not always cause emotional devaluation: no evidence for retrieval-induced devaluation.
+<i>Exp. Psychol.</i>
+59
+372&#x2013;378
+10.1027/1618-3169/a000168</Citation><ArticleIdList><ArticleId IdType="doi">10.1027/1618-3169/a000168</ArticleId><ArticleId IdType="pubmed">22851378</ArticleId></ArticleIdList></Reference><Reference><Citation>Jonker T. R., Seli P., MacLeod C. M. (2013). Putting retrieval-induced forgetting in context: an inhibition-free, context-based account.
+<i>Psychol. Rev.</i>
+120
+852&#x2013;872
+10.1037/a0034246</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0034246</ArticleId><ArticleId IdType="pubmed">24219851</ArticleId></ArticleIdList></Reference><Reference><Citation>Koutstaal W., Schacter D. L., Johnson M. K., Galluccio L. (1999). Facilitation and impairment of event memory produced by photograph review.
+<i>Mem. Cogn.</i>
+27
+478&#x2013;493
+10.3758/BF03211542</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03211542</ArticleId><ArticleId IdType="pubmed">10355237</ArticleId></ArticleIdList></Reference><Reference><Citation>Luna K., Mart&#xed;n-Luengo B. (2014). The subjective experience of retrieval-induced forgetting.
+<i>Memory</i>
+22
+813&#x2013;823
+10.1080/09658211.2013.832331</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/09658211.2013.832331</ArticleId><ArticleId IdType="pubmed">23998274</ArticleId></ArticleIdList></Reference><Reference><Citation>Ortega A., G&#xf3;mez-Ariza C. J., Rom&#xe1;n P., Bajo M. T. (2012). Memory inhibition, aging, and the executive deficit hypothesis.
+<i>J. Exp. Psychol. Learn. Mem. Cogn.</i>
+38
+178&#x2013;186
+10.1037/a0024510</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0024510</ArticleId><ArticleId IdType="pubmed">21767066</ArticleId></ArticleIdList></Reference><Reference><Citation>Ortega-Castro N., Vadillo M. A. (2013). Retrieval-induced forgetting and interference between cues: training a cue-outcome association attenuates retrieval by alternative cues.
+<i>Behav. Process.</i>
+94
+19&#x2013;25
+10.1016/j.beproc.2012.11.010</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.beproc.2012.11.010</ArticleId><ArticleId IdType="pubmed">23201373</ArticleId></ArticleIdList></Reference><Reference><Citation>Potts R., Law R., Golding J. F., Groome D. (2012). The reliability of retrieval-induced forgetting.
+<i>Eur. Psychol.</i>
+17
+1&#x2013;10
+10.1027/1016-9040/a000040</Citation><ArticleIdList><ArticleId IdType="doi">10.1027/1016-9040/a000040</ArticleId></ArticleIdList></Reference><Reference><Citation>Raaijmakers J. G. W., Jakab E. (2012). Retrieval-induced forgetting without competition: testing the retrieval specificity assumption of the inhibition theory.
+<i>Mem. Cogn.</i>
+40
+19&#x2013;27
+10.3758/s13421-011-0131-y</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/s13421-011-0131-y</ArticleId><ArticleId IdType="pmc">PMC3246582</ArticleId><ArticleId IdType="pubmed">21811888</ArticleId></ArticleIdList></Reference><Reference><Citation>Racsm&#xe1;ny M., Conway M. A., Garab E. A., Nagym&#xe1;t&#xe9; G. (2008). Memory awareness following episodic inhibition.
+<i>Q. J. Exp. Psychol.</i>
+61
+525&#x2013;534
+10.1080/17470210701728750</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/17470210701728750</ArticleId><ArticleId IdType="pubmed">18300184</ArticleId></ArticleIdList></Reference><Reference><Citation>Rom&#xe1;n P., Soriano M. F., G&#xf3;mez-Ariza C. J., Bajo M. T. (2009). Retrieval-induced forgetting and executive control.
+<i>Psychol. Sci.</i>
+20
+1053&#x2013;1058
+10.1111/j.1467-9280.2009.02415.x</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/j.1467-9280.2009.02415.x</ArticleId><ArticleId IdType="pubmed">19656337</ArticleId></ArticleIdList></Reference><Reference><Citation>Sadeh T., Ozubko J. D., Winocur G., Moscovitch M. (2014). How we forget may depend on how we remember.
+<i>Trends Cogn. Sci.</i>
+18
+26&#x2013;36
+10.1016/j.tics.2013.10.008</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.tics.2013.10.008</ArticleId><ArticleId IdType="pubmed">24246135</ArticleId></ArticleIdList></Reference><Reference><Citation>Saunders J., MacLeod M. D. (2002). New evidence on the suggestibility of memory: the role of retrieval-induced forgetting in misinformation effects.
+<i>J. Exp. Psychol. Appl.</i>
+8
+127&#x2013;142
+10.1037/1076-898X.8.2.127</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/1076-898X.8.2.127</ArticleId><ArticleId IdType="pubmed">12075691</ArticleId></ArticleIdList></Reference><Reference><Citation>Soriano M. F., Jim&#xe9;nez J. F., Rom&#xe1;n P., Bajo M. T. (2009). Inhibitory processes in memory are impaired in schizophrenia: evidence from retrieval induced forgetting.
+<i>Br. J. Psychol. Lond. Engl.</i>
+100
+661&#x2013;673
+10.1348/000712609X418912</Citation><ArticleIdList><ArticleId IdType="doi">10.1348/000712609X418912</ArticleId><ArticleId IdType="pubmed">19309536</ArticleId></ArticleIdList></Reference><Reference><Citation>Spitzer B., B&#xe4;uml K.-H. (2007). Retrieval-induced forgetting in item recognition: evidence for a reduction in general memory strength.
+<i>J. Exp. Psychol. Learn. Mem. Cogn.</i>
+33
+863&#x2013;875
+10.1037/0278-7393.33.5.863</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0278-7393.33.5.863</ArticleId><ArticleId IdType="pubmed">17723065</ArticleId></ArticleIdList></Reference><Reference><Citation>Spitzer B., B&#xe4;uml K.-H. (2009). Retrieval-induced forgetting in a category recognition task.
+<i>J. Exp. Psychol. Learn. Mem. Cogn.</i>
+35
+286&#x2013;291
+10.1037/a0014363</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/a0014363</ArticleId><ArticleId IdType="pubmed">19210100</ArticleId></ArticleIdList></Reference><Reference><Citation>Spitzer B., Hanslmayr S., Opitz B., Mecklinger A., B&#xe4;uml K.-H. (2009). Oscillatory correlates of retrieval-induced forgetting in recognition memory.
+<i>J. Cogn. Neurosci.</i>
+21
+976&#x2013;990
+10.1162/jocn.2009.21072</Citation><ArticleIdList><ArticleId IdType="doi">10.1162/jocn.2009.21072</ArticleId><ArticleId IdType="pubmed">18702597</ArticleId></ArticleIdList></Reference><Reference><Citation>Storm B. C., Levy B. J. (2012). A progress report on the inhibitory account of retrieval-induced forgetting.
+<i>Mem. Cogn.</i>
+40
+827&#x2013;843
+10.3758/s13421-012-0211-7</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/s13421-012-0211-7</ArticleId><ArticleId IdType="pubmed">22552992</ArticleId></ArticleIdList></Reference><Reference><Citation>Tulving E. (1985). Memory and consciousness.
+<i>Can. Psychol. Can.</i>
+26
+1&#x2013;12
+10.1037/h0080017</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/h0080017</ArticleId></ArticleIdList></Reference><Reference><Citation>Veling H., van Knippenberg A. (2004). Remembering can cause inhibition: retrieval-induced inhibition as cue independent process.
+<i>J. Exp. Psychol. Learn. Mem. Cogn.</i>
+30
+315&#x2013;318
+10.1037/0278-7393.30.2.315</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0278-7393.30.2.315</ArticleId><ArticleId IdType="pubmed">14979806</ArticleId></ArticleIdList></Reference><Reference><Citation>Verde M. F. (2004). The retrieval practice effect in associative recognition.
+<i>Mem. Cogn.</i>
+32
+1265&#x2013;1272
+10.3758/BF03206317</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/BF03206317</ArticleId><ArticleId IdType="pubmed">15900920</ArticleId></ArticleIdList></Reference><Reference><Citation>Verde M. F., Perfect T. J. (2011). Retrieval-induced forgetting in recognition is absent under time pressure.
+<i>Psychon. Bull. Rev.</i>
+18
+1166&#x2013;1171
+10.3758/s13423-011-0143-4</Citation><ArticleIdList><ArticleId IdType="doi">10.3758/s13423-011-0143-4</ArticleId><ArticleId IdType="pubmed">21811896</ArticleId></ArticleIdList></Reference><Reference><Citation>Wixted J. T. (2007). Dual-process theory and signal-detection theory of recognition memory.
+<i>Psychol. Rev.</i>
+114
+152&#x2013;176
+10.1037/0033-295X.114.1.152</Citation><ArticleIdList><ArticleId IdType="doi">10.1037/0033-295X.114.1.152</ArticleId><ArticleId IdType="pubmed">17227185</ArticleId></ArticleIdList></Reference><Reference><Citation>Yonelinas A. P. (2002). The nature of recollection and familiarity: a review of 30 years of research.
+<i>J. Mem. Lang.</i>
+46
+441&#x2013;517
+10.1006/jmla.2002.2864</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/jmla.2002.2864</ArticleId></ArticleIdList></Reference><Reference><Citation>Yonelinas A. P., Jacoby L. L. (1995). The relation between remembering and knowing as bases for recognition: effects of size congruency.
+<i>J. Mem. Lang.</i>
+34
+622&#x2013;643
+10.1006/jmla.1995.1028</Citation><ArticleIdList><ArticleId IdType="doi">10.1006/jmla.1995.1028</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>

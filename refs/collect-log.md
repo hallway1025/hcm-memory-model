@@ -1,0 +1,508 @@
+
+## 2026-11-05T18:34:21Z batch (+4)
+- \`M2_EPI\` 「Loss of recent memory after bilateral hippocampal lesions」 -> +1
+- \`M4_CON\` 「Reactivation of hippocampal ensemble memories during sleep」 -> +1
+- \`M5_SEM\` 「Why there are complementary learning systems in the hippocampus and neocortex a theory of learning」 -> +0
+- \`M6_WM\` 「Storage of 7 +/- 2 short-term memories in oscillatory subcycles」 -> +1
+- \`M4_CON\` 「Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and planning」 -> +1
+
+## 2026-11-05T19:57:04Z batch (+281)
+- [M2_EPI] 「Loss of recent memory after bilateral hippocampal lesions」 -> +1
+- [M4_CON] 「Reactivation of hippocampal ensemble memories during sleep」 -> +0
+- [M5_SEM] 「Why there are complementary learning systems in the hippocampus and neocortex a theory of learning」 -> +1
+- [M6_WM] 「Storage of 7 +/- 2 short-term memories in oscillatory subcycles」 -> +0
+- [M4_CON] 「Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and planning」 -> +1
+- [M1_SEP] 「dentate gyrus pattern separation computational」 -> +3
+- [M1_SEP] 「pattern separation in the dentate gyrus and CA3 of the hippocampus」 -> +3
+- [M1_SEP] 「mnemonic similarity task pattern separation aging」 -> +3
+- [M1_SEP] 「adult hippocampal neurogenesis pattern separation」 -> +3
+- [M1_SEP] 「sparse coding in the dentate gyrus」 -> +3
+- [M1_SEP] 「expansion recoding dentate gyrus granule cells」 -> +0
+- [M1_SEP] 「grid cells in the entorhinal cortex spatial coding」 -> +3
+- [M1_SEP] 「entorhinal cortex layer II input to the dentate gyrus」 -> +3
+- [M1_SEP] 「pattern separation and pattern completion in the human hippocampus high resolution fMRI」 -> +3
+- [M1_SEP] 「decorrelation of cortical inputs by the dentate gyrus」 -> +3
+- [M1_SEP] 「deep networks with sparse representations sharpen recalled memories dentist」 -> +3
+- [M1_SEP] 「theoretical models of pattern separation in the dentate gyrus」 -> +3
+- [M2_EPI] 「CA3 recurrent collateral network pattern completion」 -> +3
+- [M2_EPI] 「attractor neural network memory capacity hippocampus」 -> +3
+- [M2_EPI] 「hippocampal lesions retrograde amnesia temporal gradient」 -> +3
+- [M2_EPI] 「autoassociative memory CA3 attractor dynamics」 -> +3
+- [M2_EPI] 「neural networks and physical systems with emergent collective computational abilities」 -> +3
+- [M2_EPI] 「modern Hopfield networks attention memory capacity」 -> +3
+- [M2_EPI] 「pattern completion in the CA3 region computational model」 -> +3
+- [M2_EPI] 「CA3 lesions impair spatial memory pattern completion」 -> +3
+- [M2_EPI] 「reverberating attractor dynamics in hippocampal CA3」 -> +3
+- [M2_EPI] 「memory retrieval from partial cues hippocampal attractor」 -> +3
+- [M2_EPI] 「recurrent excitatory connections CA3 pyramidal cells」 -> +3
+- [M2_EPI] 「distinct roles of dentate gyrus and CA3 in pattern separation and completion」 -> +3
+- [M3_CTX] 「the temporal context model episodic memory」 -> +3
+- [M3_CTX] 「is memory search governed by universal principles context maintenance and retrieval」 -> +1
+- [M3_CTX] 「a context based theory of episodic memory encoding and retrieval」 -> +3
+- [M3_CTX] 「hippocampal time cells and the encoding of temporal context」 -> +3
+- [M3_CTX] 「time cells in the hippocampus of a virtual reality task」 -> +1
+- [M3_CTX] 「CA1 neurons code elapsed time during delay」 -> +3
+- [M3_CTX] 「contiguity effect free recall temporal clustering」 -> +3
+- [M3_CTX] 「entorhinal cortical input to CA1 encodes temporal associations」 -> +3
+- [M3_CTX] 「item and context binding in episodic memory hippocampal」 -> +3
+- [M3_CTX] 「temporal context drift hippocampal and memory elicitation」 -> +3
+- [M3_CTX] 「the hippocampus as a predictive map」 -> +3
+- [M3_CTX] 「time as a context dimension in episodic memory」 -> +1
+- [M4_CON] 「hippocampal sharp wave ripples replay and memory consolidation」 -> +3
+- [M4_CON] 「reverse replay of behavioural sequences in hippocampal place cells during awake」 -> +3
+- [M4_CON] 「sleep dependent memory consolidation」 -> +3
+- [M4_CON] 「catastrophic forgetting neural networks interleaved learning」 -> +3
+- [M4_CON] 「ripples slow oscillations networks of memory consolidation」 -> +3
+- [M4_CON] 「coordinated interactions between the hippocampus and neocortex during sleep」 -> +3
+- [M4_CON] 「sharp wave ripples reinstatement of memory in slow wave sleep」 -> +3
+- [M4_CON] 「prioritized experience replay reinforcement learning」 -> +2
+- [M4_CON] 「replay of remote memory in hippocampal cortical networks」 -> +0
+- [M4_CON] 「spindle ripple coupling memory consolidation」 -> +0
+- [M4_CON] 「hippocampal replay promotes efficient sequential learning」 -> +1
+- [M4_CON] 「offline replay and memory consolidation in the sleeping brain」 -> +3
+- [M5_SEM] 「a semantic hub and spoke framework of conceptual representation」 -> +3
+- [M5_SEM] 「schemas and memory consolidation」 -> +3
+- [M5_SEM] 「cascade models of synaptically stored memories」 -> +3
+- [M5_SEM] 「the memory function of sleep systems consolidation」 -> +2
+- [M5_SEM] 「systems consolidation of recent and remote memory」 -> +3
+- [M5_SEM] 「semantic memory consolidation and the hippocampus」 -> +3
+- [M5_SEM] 「complementary learning systems fast and slow learning in neocortex」 -> +1
+- [M5_SEM] 「memory consolidation and the medial temporal lobe a systems perspective」 -> +3
+- [M5_SEM] 「semantic memory and the human brain structure and representation」 -> +3
+- [M5_SEM] 「the role of the hippocampus in semantic memory」 -> +3
+- [M5_SEM] 「slow learning of cortical hierarchies and interference」 -> +2
+- [M5_SEM] 「semantic dementia and the organisation of semantic memory」 -> +3
+- [M6_WM] 「capacity limit of visual working memory in posterior parietal cortex」 -> +3
+- [M6_WM] 「the magical number 4 in visual working memory」 -> +3
+- [M6_WM] 「theta gamma coupling in working memory prefrontal」 -> +3
+- [M6_WM] 「persistent activity in the prefrontal cortex during delay」 -> +3
+- [M6_WM] 「working memory a review of the theoretical and empirical work」 -> +1
+- [M6_WM] 「prefrontal basal ganglia working memory gating PBWM」 -> +1
+- [M6_WM] 「gamma band synchronization and working memory load」 -> +3
+- [M6_WM] 「oscillatory interference model of verbal working memory」 -> +3
+- [M6_WM] 「discrete slots versus flexible resource in visual working memory」 -> +3
+- [M6_WM] 「recurrent prefrontal network maintains working memory online」 -> +3
+- [M6_WM] 「multi item working memory maintenance in continuous attractor networks」 -> +3
+- [M6_WM] 「working memory capacity four plus minus one chunks」 -> +3
+- [M7_NEU] 「dopamine novelty and exploration in the hippocampus」 -> +3
+- [M7_NEU] 「amygdala modulation of memory consolidation emotional arousal」 -> +3
+- [M7_NEU] 「locus coeruleus noradrenaline arousal and memory」 -> +1
+- [M7_NEU] 「a neural substrate of prediction and reward」 -> +3
+- [M7_NEU] 「novelty responses in the medial temporal lobe and dopamine」 -> +3
+- [M7_NEU] 「emotional arousal enhances memory consolidation amygdala noradrenergic」 -> +3
+- [M7_NEU] 「dopaminergic gating of hippocampal memory persistence」 -> +2
+- [M7_NEU] 「reward prediction error dopamine neurons」 -> +3
+- [M7_NEU] 「locus coeruleus pupil arousal and the reset of brain states」 -> +2
+- [M7_NEU] 「hippocampal novelty signal and salience detection」 -> +3
+- [M7_NEU] 「amygdala hippocampal interactions in emotional memory」 -> +3
+- [M7_NEU] 「VTA hippocampal loop dopamine memory encoding」 -> +3
+- [M8_FOR] 「retrieval induced forgetting a retrieval specific mechanism」 -> +2
+- [M8_FOR] 「active forgetting of memory in drosophila」 -> +3
+- [M8_FOR] 「reconsolidation and the dynamic nature of memory」 -> +2
+- [M8_FOR] 「persistent disruption of an established fear memory by reconsolidation blockade」 -> +3
+- [M8_FOR] 「interference and decay in short term memory」 -> +3
+- [M8_FOR] 「retrieval induced forgetting mechanism and consequences」 -> +0
+- [M8_FOR] 「memory reconsolidation update and interference」 -> +1
+- [M8_FOR] 「adaptive forgetting in humans」 -> +0
+- [M8_FOR] 「inter item interference and recognition memory retrieval」 -> +3
+- [M8_FOR] 「interference resolution during memory retrieval prefrontal control」 -> +3
+- [M8_FOR] 「the forgetting function of episodic memory over time」 -> +3
+- [M8_FOR] 「synaptic and systems mechanisms of active forgetting」 -> +3
+- [M0_META] 「prefrontal hippocampal interactions in memory retrieval」 -> +3
+- [M0_META] 「metamemory confidence judgments and recognition accuracy」 -> +3
+- [M0_META] 「cognitive control of memory retrieval strategy」 -> +3
+- [M0_META] 「model based and model free reinforcement learning arbitration」 -> +3
+- [M0_META] 「hippocampal prefrontal interaction episodic memory encoding」 -> +3
+- [M0_META] 「a model of metacognitive monitoring and control」 -> +3
+- [M0_META] 「metacognition in memory and decision making」 -> +0
+- [M0_META] 「frontal lobe contributions to memory retrieval strategy selection」 -> +3
+- [M0_META] 「ventrolateral prefrontal cortex retrieval output monitoring」 -> +3
+- [M0_META] 「episodic memory retrieval control network」 -> +3
+- [M0_META] 「uncertainty driven exploration and decision making」 -> +0
+- [M0_META] 「confidence aware memory retrieval computational model」 -> +3
+
+## 2026-11-05T23:40:12Z batch (+73)
+- [M5_SEM] 「Memory and the hippocampus: a synthesis from findings with rats, monkeys, and humans」 -> +3
+- [M5_SEM] 「What learning systems do intelligent agents need? Complementary learning systems theory updated」 -> +1
+- [M1_SEP] 「Pattern separation in the hippocampus Yassa Stark」 -> +3
+- [M4_CON] 「Two-stage model of memory trace formation: a role for noisy brain states」 -> +3
+- [M4_CON] 「Selective suppression of hippocampal ripples impairs spatial memory」 -> +3
+- [M4_CON] 「Mechanisms of systems memory consolidation during sleep」 -> +3
+- [M4_CON] 「The organization of recent and remote memories」 -> +3
+- [M4_CON] 「Memory transformation and systems consolidation」 -> +2
+- [M5_SEM] 「Computational principles of synaptic memory consolidation」 -> +3
+- [M6_WM] 「The magical number seven plus or minus two: some limits on our capacity for processing information」 -> +3
+- [M6_WM] 「The magical number 4 in short-term memory: a reconsideration of mental storage capacity」 -> +3
+- [M0_META] 「Overcoming catastrophic forgetting in neural networks」 -> +3
+- [M0_META] 「Catastrophic forgetting in connectionist networks」 -> +3
+- [M8_FOR] 「Remembering can cause forgetting: retrieval dynamics in long-term memory」 -> +2
+- [M3_CTX] 「Episodic memory: from mind to brain」 -> +3
+- [M5_SEM] 「Two cortical systems for memory-guided behaviour」 -> +3
+- [M4_CON] 「The hippocampus and related neocortical structures in memory transformation」 -> +3
+- [M4_CON] 「Memory consolidation, retrograde amnesia and the hippocampal complex」 -> +3
+- [M2_EPI] 「Requirement for hippocampal CA3 NMDA receptors in associative memory recall」 -> +3
+- [M0_META] 「The neural basis of metacognitive ability」 -> +3
+- [M0_META] 「The expected value of control: an integrative theory of anterior cingulate cortex function」 -> +3
+- [M5_SEM] 「A theory of cerebellar cortex Marr」 -> +3
+- [M3_CTX] 「On the integration of space, time, and memory」 -> +2
+- [M3_CTX] 「Deconstructing episodic memory with construction」 -> +3
+- [M7_NEU] 「Reward prediction error」 -> +0
+- [M7_NEU] 「Noradrenergic modulation of memory」 -> +3
+- [M7_NEU] 「Emotional arousal and memory consolidation amygdala」 -> +3
+
+## 2026-11-05T23:41:29Z batch (+9)
+- [M5_SEM] 「Memory transformation and systems consolidation」 -> +0
+- [M5_SEM] 「Overcoming catastrophic forgetting in neural networks」 -> +3
+- [M2_EPI] 「On a model of associative memory with huge storage capacity」 -> +3
+- [M2_EPI] 「Dense associative memory for pattern recognition」 -> +3
+
+## 2026-11-07T15:42:35Z batch (+35)
+- [M2_EPI] 「Loss of recent memory after bilateral hippocampal lesions」 -> +0
+- [M4_CON] 「Reactivation of hippocampal ensemble memories during sleep」 -> +0
+- [M5_SEM] 「Why there are complementary learning systems in the hippocampus and neocortex a theory of learning」 -> +0
+- [M6_WM] 「Storage of 7 +/- 2 short-term memories in oscillatory subcycles」 -> +0
+- [M4_CON] 「Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and planning」 -> +0
+- [M1_SEP] 「dentate gyrus pattern separation computational」 -> +2
+- [M1_SEP] 「pattern separation in the dentate gyrus and CA3 of the hippocampus」 -> +0
+- [M1_SEP] 「mnemonic similarity task pattern separation aging」 -> +0
+- [M1_SEP] 「adult hippocampal neurogenesis pattern separation」 -> +3
+- [M1_SEP] 「sparse coding in the dentate gyrus」 -> +2
+- [M1_SEP] 「expansion recoding dentate gyrus granule cells」 -> +0
+- [M1_SEP] 「grid cells in the entorhinal cortex spatial coding」 -> +1
+- [M1_SEP] 「entorhinal cortex layer II input to the dentate gyrus」 -> +0
+- [M1_SEP] 「pattern separation and pattern completion in the human hippocampus high resolution fMRI」 -> +0
+- [M1_SEP] 「decorrelation of cortical inputs by the dentate gyrus」 -> +0
+- [M1_SEP] 「deep networks with sparse representations sharpen recalled memories dentist」 -> +0
+- [M1_SEP] 「theoretical models of pattern separation in the dentate gyrus」 -> +0
+- [M2_EPI] 「CA3 recurrent collateral network pattern completion」 -> +0
+- [M2_EPI] 「attractor neural network memory capacity hippocampus」 -> +0
+- [M2_EPI] 「hippocampal lesions retrograde amnesia temporal gradient」 -> +0
+- [M2_EPI] 「autoassociative memory CA3 attractor dynamics」 -> +0
+- [M2_EPI] 「neural networks and physical systems with emergent collective computational abilities」 -> +1
+- [M2_EPI] 「modern Hopfield networks attention memory capacity」 -> +0
+- [M2_EPI] 「pattern completion in the CA3 region computational model」 -> +0
+- [M2_EPI] 「CA3 lesions impair spatial memory pattern completion」 -> +0
+- [M2_EPI] 「reverberating attractor dynamics in hippocampal CA3」 -> +0
+- [M2_EPI] 「memory retrieval from partial cues hippocampal attractor」 -> +0
+- [M2_EPI] 「recurrent excitatory connections CA3 pyramidal cells」 -> +0
+- [M2_EPI] 「distinct roles of dentate gyrus and CA3 in pattern separation and completion」 -> +0
+- [M3_CTX] 「the temporal context model episodic memory」 -> +0
+- [M3_CTX] 「is memory search governed by universal principles context maintenance and retrieval」 -> +0
+- [M3_CTX] 「a context based theory of episodic memory encoding and retrieval」 -> +1
+- [M3_CTX] 「hippocampal time cells and the encoding of temporal context」 -> +0
+- [M3_CTX] 「time cells in the hippocampus of a virtual reality task」 -> +0
+- [M3_CTX] 「CA1 neurons code elapsed time during delay」 -> +0
+- [M3_CTX] 「contiguity effect free recall temporal clustering」 -> +0
+- [M3_CTX] 「entorhinal cortical input to CA1 encodes temporal associations」 -> +0
+- [M3_CTX] 「item and context binding in episodic memory hippocampal」 -> +0
+- [M3_CTX] 「temporal context drift hippocampal and memory elicitation」 -> +0
+- [M3_CTX] 「the hippocampus as a predictive map」 -> +0
+- [M3_CTX] 「time as a context dimension in episodic memory」 -> +0
+- [M4_CON] 「hippocampal sharp wave ripples replay and memory consolidation」 -> +0
+- [M4_CON] 「reverse replay of behavioural sequences in hippocampal place cells during awake」 -> +0
+- [M4_CON] 「sleep dependent memory consolidation」 -> +3
+- [M4_CON] 「catastrophic forgetting neural networks interleaved learning」 -> +0
+- [M4_CON] 「ripples slow oscillations networks of memory consolidation」 -> +0
+- [M4_CON] 「coordinated interactions between the hippocampus and neocortex during sleep」 -> +0
+- [M4_CON] 「sharp wave ripples reinstatement of memory in slow wave sleep」 -> +0
+- [M4_CON] 「prioritized experience replay reinforcement learning」 -> +3
+- [M4_CON] 「replay of remote memory in hippocampal cortical networks」 -> +0
+- [M4_CON] 「spindle ripple coupling memory consolidation」 -> +1
+- [M4_CON] 「hippocampal replay promotes efficient sequential learning」 -> +0
+- [M4_CON] 「offline replay and memory consolidation in the sleeping brain」 -> +1
+- [M5_SEM] 「a semantic hub and spoke framework of conceptual representation」 -> +0
+- [M5_SEM] 「schemas and memory consolidation」 -> +0
+- [M5_SEM] 「cascade models of synaptically stored memories」 -> +0
+- [M5_SEM] 「the memory function of sleep systems consolidation」 -> +0
+- [M5_SEM] 「systems consolidation of recent and remote memory」 -> +1
+- [M5_SEM] 「semantic memory consolidation and the hippocampus」 -> +1
+- [M5_SEM] 「complementary learning systems fast and slow learning in neocortex」 -> +0
+- [M5_SEM] 「memory consolidation and the medial temporal lobe a systems perspective」 -> +0
+- [M5_SEM] 「semantic memory and the human brain structure and representation」 -> +0
+- [M5_SEM] 「the role of the hippocampus in semantic memory」 -> +0
+- [M5_SEM] 「slow learning of cortical hierarchies and interference」 -> +0
+- [M5_SEM] 「semantic dementia and the organisation of semantic memory」 -> +2
+- [M6_WM] 「capacity limit of visual working memory in posterior parietal cortex」 -> +0
+- [M6_WM] 「the magical number 4 in visual working memory」 -> +0
+- [M6_WM] 「theta gamma coupling in working memory prefrontal」 -> +2
+- [M6_WM] 「persistent activity in the prefrontal cortex during delay」 -> +0
+- [M6_WM] 「working memory a review of the theoretical and empirical work」 -> +0
+- [M6_WM] 「prefrontal basal ganglia working memory gating PBWM」 -> +0
+- [M6_WM] 「gamma band synchronization and working memory load」 -> +0
+- [M6_WM] 「oscillatory interference model of verbal working memory」 -> +0
+- [M6_WM] 「discrete slots versus flexible resource in visual working memory」 -> +0
+- [M6_WM] 「recurrent prefrontal network maintains working memory online」 -> +0
+- [M6_WM] 「multi item working memory maintenance in continuous attractor networks」 -> +0
+- [M6_WM] 「working memory capacity four plus minus one chunks」 -> +0
+- [M7_NEU] 「dopamine novelty and exploration in the hippocampus」 -> +0
+- [M7_NEU] 「amygdala modulation of memory consolidation emotional arousal」 -> +0
+- [M7_NEU] 「locus coeruleus noradrenaline arousal and memory」 -> +0
+- [M7_NEU] 「a neural substrate of prediction and reward」 -> +0
+- [M7_NEU] 「novelty responses in the medial temporal lobe and dopamine」 -> +0
+- [M7_NEU] 「emotional arousal enhances memory consolidation amygdala noradrenergic」 -> +0
+- [M7_NEU] 「dopaminergic gating of hippocampal memory persistence」 -> +0
+- [M7_NEU] 「reward prediction error dopamine neurons」 -> +3
+- [M7_NEU] 「locus coeruleus pupil arousal and the reset of brain states」 -> +0
+- [M7_NEU] 「hippocampal novelty signal and salience detection」 -> +0
+- [M7_NEU] 「amygdala hippocampal interactions in emotional memory」 -> +0
+- [M7_NEU] 「VTA hippocampal loop dopamine memory encoding」 -> +0
+- [M8_FOR] 「retrieval induced forgetting a retrieval specific mechanism」 -> +1
+- [M8_FOR] 「active forgetting of memory in drosophila」 -> +0
+- [M8_FOR] 「reconsolidation and the dynamic nature of memory」 -> +1
+- [M8_FOR] 「persistent disruption of an established fear memory by reconsolidation blockade」 -> +0
+- [M8_FOR] 「interference and decay in short term memory」 -> +3
+- [M8_FOR] 「retrieval induced forgetting mechanism and consequences」 -> +0
+- [M8_FOR] 「memory reconsolidation update and interference」 -> +0
+- [M8_FOR] 「adaptive forgetting in humans」 -> +0
+- [M8_FOR] 「inter item interference and recognition memory retrieval」 -> +0
+- [M8_FOR] 「interference resolution during memory retrieval prefrontal control」 -> +0
+- [M8_FOR] 「the forgetting function of episodic memory over time」 -> +0
+- [M8_FOR] 「synaptic and systems mechanisms of active forgetting」 -> +0
+- [M0_META] 「prefrontal hippocampal interactions in memory retrieval」 -> +0
+- [M0_META] 「metamemory confidence judgments and recognition accuracy」 -> +0
+- [M0_META] 「cognitive control of memory retrieval strategy」 -> +0
+- [M0_META] 「model based and model free reinforcement learning arbitration」 -> +2
+- [M0_META] 「hippocampal prefrontal interaction episodic memory encoding」 -> +0
+- [M0_META] 「a model of metacognitive monitoring and control」 -> +0
+- [M0_META] 「metacognition in memory and decision making」 -> +0
+- [M0_META] 「frontal lobe contributions to memory retrieval strategy selection」 -> +0
+- [M0_META] 「ventrolateral prefrontal cortex retrieval output monitoring」 -> +0
+- [M0_META] 「episodic memory retrieval control network」 -> +0
+- [M0_META] 「uncertainty driven exploration and decision making」 -> +0
+- [M0_META] 「confidence aware memory retrieval computational model」 -> +0
+- [M8_FOR] 「Suppressing unwanted memories by executive control」 -> +1
+
+## 2026-11-07T17:04:25Z batch (+9)
+- [M2_EPI] 「Loss of recent memory after bilateral hippocampal lesions」 -> +0
+- [M4_CON] 「Reactivation of hippocampal ensemble memories during sleep」 -> +0
+- [M5_SEM] 「Why there are complementary learning systems in the hippocampus and neocortex a theory of learning」 -> +0
+- [M6_WM] 「Storage of 7 +/- 2 short-term memories in oscillatory subcycles」 -> +0
+- [M4_CON] 「Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and planning」 -> +0
+- [M1_SEP] 「dentate gyrus pattern separation computational」 -> +0
+- [M1_SEP] 「pattern separation in the dentate gyrus and CA3 of the hippocampus」 -> +0
+- [M1_SEP] 「mnemonic similarity task pattern separation aging」 -> +0
+- [M1_SEP] 「adult hippocampal neurogenesis pattern separation」 -> +0
+- [M1_SEP] 「sparse coding in the dentate gyrus」 -> +0
+- [M1_SEP] 「expansion recoding dentate gyrus granule cells」 -> +0
+- [M1_SEP] 「grid cells in the entorhinal cortex spatial coding」 -> +0
+- [M1_SEP] 「entorhinal cortex layer II input to the dentate gyrus」 -> +0
+- [M1_SEP] 「pattern separation and pattern completion in the human hippocampus high resolution fMRI」 -> +0
+- [M1_SEP] 「decorrelation of cortical inputs by the dentate gyrus」 -> +0
+- [M1_SEP] 「deep networks with sparse representations sharpen recalled memories dentist」 -> +0
+- [M1_SEP] 「theoretical models of pattern separation in the dentate gyrus」 -> +0
+- [M2_EPI] 「CA3 recurrent collateral network pattern completion」 -> +0
+- [M2_EPI] 「attractor neural network memory capacity hippocampus」 -> +0
+- [M2_EPI] 「hippocampal lesions retrograde amnesia temporal gradient」 -> +0
+- [M2_EPI] 「autoassociative memory CA3 attractor dynamics」 -> +0
+- [M2_EPI] 「neural networks and physical systems with emergent collective computational abilities」 -> +0
+- [M2_EPI] 「modern Hopfield networks attention memory capacity」 -> +0
+- [M2_EPI] 「pattern completion in the CA3 region computational model」 -> +0
+- [M2_EPI] 「CA3 lesions impair spatial memory pattern completion」 -> +0
+- [M2_EPI] 「reverberating attractor dynamics in hippocampal CA3」 -> +0
+- [M2_EPI] 「memory retrieval from partial cues hippocampal attractor」 -> +0
+- [M2_EPI] 「recurrent excitatory connections CA3 pyramidal cells」 -> +0
+- [M2_EPI] 「distinct roles of dentate gyrus and CA3 in pattern separation and completion」 -> +0
+- [M3_CTX] 「the temporal context model episodic memory」 -> +0
+- [M3_CTX] 「is memory search governed by universal principles context maintenance and retrieval」 -> +0
+- [M3_CTX] 「a context based theory of episodic memory encoding and retrieval」 -> +0
+- [M3_CTX] 「hippocampal time cells and the encoding of temporal context」 -> +0
+- [M3_CTX] 「time cells in the hippocampus of a virtual reality task」 -> +0
+- [M3_CTX] 「CA1 neurons code elapsed time during delay」 -> +0
+- [M3_CTX] 「contiguity effect free recall temporal clustering」 -> +0
+- [M3_CTX] 「entorhinal cortical input to CA1 encodes temporal associations」 -> +0
+- [M3_CTX] 「item and context binding in episodic memory hippocampal」 -> +0
+- [M3_CTX] 「temporal context drift hippocampal and memory elicitation」 -> +0
+- [M3_CTX] 「the hippocampus as a predictive map」 -> +0
+- [M3_CTX] 「time as a context dimension in episodic memory」 -> +0
+- [M4_CON] 「hippocampal sharp wave ripples replay and memory consolidation」 -> +0
+- [M4_CON] 「reverse replay of behavioural sequences in hippocampal place cells during awake」 -> +0
+- [M4_CON] 「sleep dependent memory consolidation」 -> +2
+- [M4_CON] 「catastrophic forgetting neural networks interleaved learning」 -> +0
+- [M4_CON] 「ripples slow oscillations networks of memory consolidation」 -> +0
+- [M4_CON] 「coordinated interactions between the hippocampus and neocortex during sleep」 -> +0
+- [M4_CON] 「sharp wave ripples reinstatement of memory in slow wave sleep」 -> +0
+- [M4_CON] 「prioritized experience replay reinforcement learning」 -> +3
+- [M4_CON] 「replay of remote memory in hippocampal cortical networks」 -> +0
+- [M4_CON] 「spindle ripple coupling memory consolidation」 -> +0
+- [M4_CON] 「hippocampal replay promotes efficient sequential learning」 -> +0
+- [M4_CON] 「offline replay and memory consolidation in the sleeping brain」 -> +0
+- [M5_SEM] 「a semantic hub and spoke framework of conceptual representation」 -> +0
+- [M5_SEM] 「schemas and memory consolidation」 -> +0
+- [M5_SEM] 「cascade models of synaptically stored memories」 -> +0
+- [M5_SEM] 「the memory function of sleep systems consolidation」 -> +0
+- [M5_SEM] 「systems consolidation of recent and remote memory」 -> +0
+- [M5_SEM] 「semantic memory consolidation and the hippocampus」 -> +0
+- [M5_SEM] 「complementary learning systems fast and slow learning in neocortex」 -> +0
+- [M5_SEM] 「memory consolidation and the medial temporal lobe a systems perspective」 -> +0
+- [M5_SEM] 「semantic memory and the human brain structure and representation」 -> +0
+- [M5_SEM] 「the role of the hippocampus in semantic memory」 -> +0
+- [M5_SEM] 「slow learning of cortical hierarchies and interference」 -> +0
+- [M5_SEM] 「semantic dementia and the organisation of semantic memory」 -> +0
+- [M6_WM] 「capacity limit of visual working memory in posterior parietal cortex」 -> +0
+- [M6_WM] 「the magical number 4 in visual working memory」 -> +0
+- [M6_WM] 「theta gamma coupling in working memory prefrontal」 -> +0
+- [M6_WM] 「persistent activity in the prefrontal cortex during delay」 -> +0
+- [M6_WM] 「working memory a review of the theoretical and empirical work」 -> +0
+- [M6_WM] 「prefrontal basal ganglia working memory gating PBWM」 -> +0
+- [M6_WM] 「gamma band synchronization and working memory load」 -> +0
+- [M6_WM] 「oscillatory interference model of verbal working memory」 -> +0
+- [M6_WM] 「discrete slots versus flexible resource in visual working memory」 -> +0
+- [M6_WM] 「recurrent prefrontal network maintains working memory online」 -> +0
+- [M6_WM] 「multi item working memory maintenance in continuous attractor networks」 -> +0
+- [M6_WM] 「working memory capacity four plus minus one chunks」 -> +0
+- [M7_NEU] 「dopamine novelty and exploration in the hippocampus」 -> +0
+- [M7_NEU] 「amygdala modulation of memory consolidation emotional arousal」 -> +0
+- [M7_NEU] 「locus coeruleus noradrenaline arousal and memory」 -> +0
+- [M7_NEU] 「a neural substrate of prediction and reward」 -> +0
+- [M7_NEU] 「novelty responses in the medial temporal lobe and dopamine」 -> +0
+- [M7_NEU] 「emotional arousal enhances memory consolidation amygdala noradrenergic」 -> +0
+- [M7_NEU] 「dopaminergic gating of hippocampal memory persistence」 -> +0
+- [M7_NEU] 「reward prediction error dopamine neurons」 -> +1
+- [M7_NEU] 「locus coeruleus pupil arousal and the reset of brain states」 -> +0
+- [M7_NEU] 「hippocampal novelty signal and salience detection」 -> +0
+- [M7_NEU] 「amygdala hippocampal interactions in emotional memory」 -> +0
+- [M7_NEU] 「VTA hippocampal loop dopamine memory encoding」 -> +0
+- [M8_FOR] 「retrieval induced forgetting a retrieval specific mechanism」 -> +0
+- [M8_FOR] 「active forgetting of memory in drosophila」 -> +0
+- [M8_FOR] 「reconsolidation and the dynamic nature of memory」 -> +0
+- [M8_FOR] 「persistent disruption of an established fear memory by reconsolidation blockade」 -> +0
+- [M8_FOR] 「interference and decay in short term memory」 -> +2
+- [M8_FOR] 「retrieval induced forgetting mechanism and consequences」 -> +0
+- [M8_FOR] 「memory reconsolidation update and interference」 -> +0
+- [M8_FOR] 「adaptive forgetting in humans」 -> +0
+- [M8_FOR] 「inter item interference and recognition memory retrieval」 -> +0
+- [M8_FOR] 「interference resolution during memory retrieval prefrontal control」 -> +0
+- [M8_FOR] 「the forgetting function of episodic memory over time」 -> +0
+- [M8_FOR] 「synaptic and systems mechanisms of active forgetting」 -> +0
+- [M0_META] 「prefrontal hippocampal interactions in memory retrieval」 -> +0
+- [M0_META] 「metamemory confidence judgments and recognition accuracy」 -> +0
+- [M0_META] 「cognitive control of memory retrieval strategy」 -> +0
+- [M0_META] 「model based and model free reinforcement learning arbitration」 -> +0
+- [M0_META] 「hippocampal prefrontal interaction episodic memory encoding」 -> +0
+- [M0_META] 「a model of metacognitive monitoring and control」 -> +0
+- [M0_META] 「metacognition in memory and decision making」 -> +0
+- [M0_META] 「frontal lobe contributions to memory retrieval strategy selection」 -> +0
+- [M0_META] 「ventrolateral prefrontal cortex retrieval output monitoring」 -> +0
+- [M0_META] 「episodic memory retrieval control network」 -> +0
+- [M0_META] 「uncertainty driven exploration and decision making」 -> +0
+- [M0_META] 「confidence aware memory retrieval computational model」 -> +0
+- [M8_FOR] 「Suppressing unwanted memories by executive control」 -> +0
+- [M8_FOR] 「Activity-dependent scaling of quantal amplitude in neocortical neurons」 -> +1
+
+## 2026-11-07T23:21:02Z batch (+3)
+- [M2_EPI] 「Loss of recent memory after bilateral hippocampal lesions」 -> +0
+- [M4_CON] 「Reactivation of hippocampal ensemble memories during sleep」 -> +0
+- [M5_SEM] 「Why there are complementary learning systems in the hippocampus and neocortex a theory of learning」 -> +0
+- [M6_WM] 「Storage of 7 +/- 2 short-term memories in oscillatory subcycles」 -> +0
+- [M4_CON] 「Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and planning」 -> +0
+- [M1_SEP] 「dentate gyrus pattern separation computational」 -> +0
+- [M1_SEP] 「pattern separation in the dentate gyrus and CA3 of the hippocampus」 -> +0
+- [M1_SEP] 「mnemonic similarity task pattern separation aging」 -> +0
+- [M1_SEP] 「adult hippocampal neurogenesis pattern separation」 -> +0
+- [M1_SEP] 「sparse coding in the dentate gyrus」 -> +0
+- [M1_SEP] 「expansion recoding dentate gyrus granule cells」 -> +0
+- [M1_SEP] 「grid cells in the entorhinal cortex spatial coding」 -> +0
+- [M1_SEP] 「entorhinal cortex layer II input to the dentate gyrus」 -> +0
+- [M1_SEP] 「pattern separation and pattern completion in the human hippocampus high resolution fMRI」 -> +0
+- [M1_SEP] 「decorrelation of cortical inputs by the dentate gyrus」 -> +0
+- [M1_SEP] 「deep networks with sparse representations sharpen recalled memories dentist」 -> +0
+- [M1_SEP] 「theoretical models of pattern separation in the dentate gyrus」 -> +0
+- [M2_EPI] 「CA3 recurrent collateral network pattern completion」 -> +0
+- [M2_EPI] 「attractor neural network memory capacity hippocampus」 -> +0
+- [M2_EPI] 「hippocampal lesions retrograde amnesia temporal gradient」 -> +0
+- [M2_EPI] 「autoassociative memory CA3 attractor dynamics」 -> +0
+- [M2_EPI] 「neural networks and physical systems with emergent collective computational abilities」 -> +0
+- [M2_EPI] 「modern Hopfield networks attention memory capacity」 -> +0
+- [M2_EPI] 「pattern completion in the CA3 region computational model」 -> +0
+- [M2_EPI] 「CA3 lesions impair spatial memory pattern completion」 -> +0
+- [M2_EPI] 「reverberating attractor dynamics in hippocampal CA3」 -> +0
+- [M2_EPI] 「memory retrieval from partial cues hippocampal attractor」 -> +0
+- [M2_EPI] 「recurrent excitatory connections CA3 pyramidal cells」 -> +0
+- [M2_EPI] 「distinct roles of dentate gyrus and CA3 in pattern separation and completion」 -> +0
+- [M3_CTX] 「the temporal context model episodic memory」 -> +0
+- [M3_CTX] 「is memory search governed by universal principles context maintenance and retrieval」 -> +0
+- [M3_CTX] 「a context based theory of episodic memory encoding and retrieval」 -> +0
+- [M3_CTX] 「hippocampal time cells and the encoding of temporal context」 -> +0
+- [M3_CTX] 「time cells in the hippocampus of a virtual reality task」 -> +0
+- [M3_CTX] 「CA1 neurons code elapsed time during delay」 -> +0
+- [M3_CTX] 「contiguity effect free recall temporal clustering」 -> +0
+- [M3_CTX] 「entorhinal cortical input to CA1 encodes temporal associations」 -> +0
+- [M3_CTX] 「item and context binding in episodic memory hippocampal」 -> +0
+- [M3_CTX] 「temporal context drift hippocampal and memory elicitation」 -> +0
+- [M3_CTX] 「the hippocampus as a predictive map」 -> +0
+- [M3_CTX] 「time as a context dimension in episodic memory」 -> +0
+- [M4_CON] 「hippocampal sharp wave ripples replay and memory consolidation」 -> +0
+- [M4_CON] 「reverse replay of behavioural sequences in hippocampal place cells during awake」 -> +0
+- [M4_CON] 「sleep dependent memory consolidation」 -> +0
+- [M4_CON] 「catastrophic forgetting neural networks interleaved learning」 -> +0
+- [M4_CON] 「ripples slow oscillations networks of memory consolidation」 -> +0
+- [M4_CON] 「coordinated interactions between the hippocampus and neocortex during sleep」 -> +0
+- [M4_CON] 「sharp wave ripples reinstatement of memory in slow wave sleep」 -> +0
+- [M4_CON] 「prioritized experience replay reinforcement learning」 -> +3
+- [M4_CON] 「replay of remote memory in hippocampal cortical networks」 -> +0
+- [M4_CON] 「spindle ripple coupling memory consolidation」 -> +0
+- [M4_CON] 「hippocampal replay promotes efficient sequential learning」 -> +0
+- [M4_CON] 「offline replay and memory consolidation in the sleeping brain」 -> +0
+- [M5_SEM] 「a semantic hub and spoke framework of conceptual representation」 -> +0
+- [M5_SEM] 「schemas and memory consolidation」 -> +0
+- [M5_SEM] 「cascade models of synaptically stored memories」 -> +0
+- [M5_SEM] 「the memory function of sleep systems consolidation」 -> +0
+- [M5_SEM] 「systems consolidation of recent and remote memory」 -> +0
+- [M5_SEM] 「semantic memory consolidation and the hippocampus」 -> +0
+- [M5_SEM] 「complementary learning systems fast and slow learning in neocortex」 -> +0
+- [M5_SEM] 「memory consolidation and the medial temporal lobe a systems perspective」 -> +0
+- [M5_SEM] 「semantic memory and the human brain structure and representation」 -> +0
+- [M5_SEM] 「the role of the hippocampus in semantic memory」 -> +0
+- [M5_SEM] 「slow learning of cortical hierarchies and interference」 -> +0
+- [M5_SEM] 「semantic dementia and the organisation of semantic memory」 -> +0
+- [M6_WM] 「capacity limit of visual working memory in posterior parietal cortex」 -> +0
+- [M6_WM] 「the magical number 4 in visual working memory」 -> +0
+- [M6_WM] 「theta gamma coupling in working memory prefrontal」 -> +0
+- [M6_WM] 「persistent activity in the prefrontal cortex during delay」 -> +0
+- [M6_WM] 「working memory a review of the theoretical and empirical work」 -> +0
+- [M6_WM] 「prefrontal basal ganglia working memory gating PBWM」 -> +0
+- [M6_WM] 「gamma band synchronization and working memory load」 -> +0
+- [M6_WM] 「oscillatory interference model of verbal working memory」 -> +0
+- [M6_WM] 「discrete slots versus flexible resource in visual working memory」 -> +0
+- [M6_WM] 「recurrent prefrontal network maintains working memory online」 -> +0
+- [M6_WM] 「multi item working memory maintenance in continuous attractor networks」 -> +0
+- [M6_WM] 「working memory capacity four plus minus one chunks」 -> +0
+- [M7_NEU] 「dopamine novelty and exploration in the hippocampus」 -> +0
+- [M7_NEU] 「amygdala modulation of memory consolidation emotional arousal」 -> +0
+- [M7_NEU] 「locus coeruleus noradrenaline arousal and memory」 -> +0
+- [M7_NEU] 「a neural substrate of prediction and reward」 -> +0
+- [M7_NEU] 「novelty responses in the medial temporal lobe and dopamine」 -> +0
+- [M7_NEU] 「emotional arousal enhances memory consolidation amygdala noradrenergic」 -> +0
+- [M7_NEU] 「dopaminergic gating of hippocampal memory persistence」 -> +0
+- [M7_NEU] 「reward prediction error dopamine neurons」 -> +0
+- [M7_NEU] 「locus coeruleus pupil arousal and the reset of brain states」 -> +0
+- [M7_NEU] 「hippocampal novelty signal and salience detection」 -> +0
+- [M7_NEU] 「amygdala hippocampal interactions in emotional memory」 -> +0
+- [M7_NEU] 「VTA hippocampal loop dopamine memory encoding」 -> +0
+- [M8_FOR] 「retrieval induced forgetting a retrieval specific mechanism」 -> +0
+- [M8_FOR] 「active forgetting of memory in drosophila」 -> +0
+- [M8_FOR] 「reconsolidation and the dynamic nature of memory」 -> +0
+- [M8_FOR] 「persistent disruption of an established fear memory by reconsolidation blockade」 -> +0
+- [M8_FOR] 「interference and decay in short term memory」 -> +0
+- [M8_FOR] 「retrieval induced forgetting mechanism and consequences」 -> +0
+- [M8_FOR] 「memory reconsolidation update and interference」 -> +0
+- [M8_FOR] 「adaptive forgetting in humans」 -> +0
+- [M8_FOR] 「inter item interference and recognition memory retrieval」 -> +0
+- [M8_FOR] 「interference resolution during memory retrieval prefrontal control」 -> +0
+- [M8_FOR] 「the forgetting function of episodic memory over time」 -> +0
+- [M8_FOR] 「synaptic and systems mechanisms of active forgetting」 -> +0
+- [M0_META] 「prefrontal hippocampal interactions in memory retrieval」 -> +0
+- [M0_META] 「metamemory confidence judgments and recognition accuracy」 -> +0
+- [M0_META] 「cognitive control of memory retrieval strategy」 -> +0
+- [M0_META] 「model based and model free reinforcement learning arbitration」 -> +0
+- [M0_META] 「hippocampal prefrontal interaction episodic memory encoding」 -> +0
+- [M0_META] 「a model of metacognitive monitoring and control」 -> +0
+- [M0_META] 「metacognition in memory and decision making」 -> +0
+- [M0_META] 「frontal lobe contributions to memory retrieval strategy selection」 -> +0
+- [M0_META] 「ventrolateral prefrontal cortex retrieval output monitoring」 -> +0
+- [M0_META] 「episodic memory retrieval control network」 -> +0
+- [M0_META] 「uncertainty driven exploration and decision making」 -> +0
+- [M0_META] 「confidence aware memory retrieval computational model」 -> +0
+- [M8_FOR] 「Suppressing unwanted memories by executive control」 -> +0
+- [M8_FOR] 「Activity-dependent scaling of quantal amplitude in neocortical neurons」 -> +0
+- [M2_EPI] 「Sparse Distributed Memory Kanerva」 -> +0

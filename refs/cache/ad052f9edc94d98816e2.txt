@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/X9GL8vo4EG2MEOWcv/yZOtLo4pE</id>
+  <title>arXiv Query: search_query=all:locality AND all:sensitive AND all:hashing&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-11-07T13:50:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:locality+AND+(all:sensitive+AND+all:hashing)&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>480</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1407.3348v1</id>
+    <title>LV Barcoding: locality sensitive hashing-based tool for rapid species identification in DNA barcoding</title>
+    <updated>2014-07-12T06:05:29Z</updated>
+    <link href="https://arxiv.org/abs/1407.3348v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.3348v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>DNA barcoding has emerged as a cost-effective approach for species identification. However, the scarcity of tools used for searching the booming reference database becomes an obstacle, currently with BLAST as the only practical choice. Here, we propose a program - LV Barcoding - based on both the random hyperplane projection-based locality sensitive hashing method and the composition vector-based VIP Barcoding for fast species identification. The performance of LV Barcoding is assessed on the data release of BOLD. LV Barcoding has higher accuracy than BLAST, and is able to match a single query against ~114,000 reference barcodes within 10 seconds on a desktop computer. This program is available at http://msl.sls.cuhk.edu.hk/vipbarcoding/.</summary>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-12T06:05:29Z</published>
+    <arxiv:comment>10 pages, 4 figures, 1 table, DNA barcoding, Locality-sensitive hashing, Algorithm, Software</arxiv:comment>
+    <arxiv:primary_category term="q-bio.PE"/>
+    <author>
+      <name>Long Fan</name>
+    </author>
+    <author>
+      <name>Ka Hou Chu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.05898v1</id>
+    <title>Inexact Simplification of Symbolic Regression Expressions with Locality-sensitive Hashing</title>
+    <updated>2024-04-08T22:54:14Z</updated>
+    <link href="https://arxiv.org/abs/2404.05898v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.05898v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Symbolic regression (SR) searches for parametric models that accurately fit a dataset, prioritizing simplicity and interpretability. Despite this secondary objective, studies point out that the models are often overly complex due to redundant operations, introns, and bloat that arise during the iterative process, and can hinder the search with repeated exploration of bloated segments. Applying a fast heuristic algebraic simplification may not fully simplify the expression and exact methods can be infeasible depending on size or complexity of the expressions. We propose a novel agnostic simplification and bloat control for SR employing an efficient memoization with locality-sensitive hashing (LHS). The idea is that expressions and their sub-expressions traversed during the iterative simplification process are stored in a dictionary using LHS, enabling efficient retrieval of similar structures. We iterate through the expression, replacing subtrees with others of same hash if they result in a smaller expression. Empirical results shows that applying this simplification during evolution performs equal or better than without simplification in minimization of error, significantly reducing the number of nonlinear functions. This technique can learn simplification rules that work in general or for a specific problem, and improves convergence while reducing model complexity.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-08T22:54:14Z</published>
+    <arxiv:comment>9 pages, 10 figures, accepted to GECCO-24</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <arxiv:journal_ref>GSI Aldeia, FO de França, WG La Cava. 2024. Inexact Simplification of Symbolic Regression Expressions with Locality-sensitive Hashing. In Genetic and Evolutionary Computation Conference (GECCO '24)</arxiv:journal_ref>
+    <author>
+      <name>Guilherme Seidyo Imai Aldeia</name>
+      <arxiv:affiliation>Federal University of ABC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fabricio Olivetti de Franca</name>
+      <arxiv:affiliation>Federal University of ABC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>William G. La Cava</name>
+      <arxiv:affiliation>Boston Children's Hospital</arxiv:affiliation>
+      <arxiv:affiliation>Harvard Medical School</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1145/3638529.3654147</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3638529.3654147" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.14962v2</id>
+    <title>PSEUDo: Interactive Pattern Search in Multivariate Time Series with Locality-Sensitive Hashing and Relevance Feedback</title>
+    <updated>2021-05-10T15:04:52Z</updated>
+    <link href="https://arxiv.org/abs/2104.14962v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.14962v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present PSEUDo, an adaptive feature learning technique for exploring visual patterns in multi-track sequential data. Our approach is designed with the primary focus to overcome the uneconomic retraining requirements and inflexible representation learning in current deep learning-based systems. Multi-track time series data are generated on an unprecedented scale due to increased sensors and data storage. These datasets hold valuable patterns, like in neuromarketing, where researchers try to link patterns in multivariate sequential data from physiological sensors to the purchase behavior of products and services. But a lack of ground truth and high variance make automatic pattern detection unreliable. Our advancements are based on a novel query-aware locality-sensitive hashing technique to create a feature-based representation of multivariate time series windows. Most importantly, our algorithm features sub-linear training and inference time. We can even accomplish both the modeling and comparison of 10,000 different 64-track time series, each with 100 time steps (a typical EEG dataset) under 0.8 seconds. This performance gain allows for a rapid relevance feedback-driven adaption of the underlying pattern similarity model and enables the user to modify the speed-vs-accuracy trade-off gradually. We demonstrate superiority of PSEUDo in terms of efficiency, accuracy, and steerability through a quantitative performance comparison and a qualitative visual quality comparison to the state-of-the-art algorithms in the field. Moreover, we showcase the usability of PSEUDo through a case study demonstrating our visual pattern retrieval concepts in a large meteorological dataset. We find that our adaptive models can accurately capture the user's notion of similarity and allow for an understandable exploratory visual pattern retrieval in large multivariate time series datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-30T13:00:44Z</published>
+    <arxiv:comment>11 pages including 2 pages for references, 10 figures including 1 teaser figure, sumbitted to IEEE VIS 2021, gitlab repository https://git.science.uu.nl/vig/sublinear-algorithms-for-va/locality-sensitive-hashing-visual-analytics</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuncong Yu</name>
+    </author>
+    <author>
+      <name>Dylan Kruyff</name>
+    </author>
+    <author>
+      <name>Tim Becker</name>
+    </author>
+    <author>
+      <name>Michael Behrisch</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.08942v1</id>
+    <title>A Survey on Locality Sensitive Hashing Algorithms and their Applications</title>
+    <updated>2021-02-17T18:56:03Z</updated>
+    <link href="https://arxiv.org/abs/2102.08942v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.08942v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Finding nearest neighbors in high-dimensional spaces is a fundamental operation in many diverse application domains. Locality Sensitive Hashing (LSH) is one of the most popular techniques for finding approximate nearest neighbor searches in high-dimensional spaces. The main benefits of LSH are its sub-linear query performance and theoretical guarantees on the query accuracy. In this survey paper, we provide a review of state-of-the-art LSH and Distributed LSH techniques. Most importantly, unlike any other prior survey, we present how Locality Sensitive Hashing is utilized in different application domains.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-17T18:56:03Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Omid Jafari</name>
+    </author>
+    <author>
+      <name>Preeti Maurya</name>
+    </author>
+    <author>
+      <name>Parth Nagarkar</name>
+    </author>
+    <author>
+      <name>Khandker Mushfiqul Islam</name>
+    </author>
+    <author>
+      <name>Chidambaram Crushev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.11284v1</id>
+    <title>Improving Locality Sensitive Hashing by Efficiently Finding Projected Nearest Neighbors</title>
+    <updated>2020-06-19T17:46:30Z</updated>
+    <link href="https://arxiv.org/abs/2006.11284v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.11284v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Similarity search in high-dimensional spaces is an important task for many multimedia applications. Due to the notorious curse of dimensionality, approximate nearest neighbor techniques are preferred over exact searching techniques since they can return good enough results at a much better speed. Locality Sensitive Hashing (LSH) is a very popular random hashing technique for finding approximate nearest neighbors. Existing state-of-the-art Locality Sensitive Hashing techniques that focus on improving performance of the overall process, mainly focus on minimizing the total number of IOs while sacrificing the overall processing time. The main time-consuming process in LSH techniques is the process of finding neighboring points in projected spaces. We present a novel index structure called radius-optimized Locality Sensitive Hashing (roLSH). With the help of sampling techniques and Neural Networks, we present two techniques to find neighboring points in projected spaces efficiently, without sacrificing the accuracy of the results. Our extensive experimental analysis on real datasets shows the performance benefit of roLSH over existing state-of-the-art LSH techniques.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-19T17:46:30Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:2003.06415</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <arxiv:journal_ref>SISAP 2020. Lecture Notes in Computer Science, vol 12440. Springer, Cham</arxiv:journal_ref>
+    <author>
+      <name>Omid Jafari</name>
+    </author>
+    <author>
+      <name>Parth Nagarkar</name>
+    </author>
+    <author>
+      <name>Jonathan Montaño</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-60936-8_25</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-60936-8_25" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.19724v1</id>
+    <title>Locality Sensitive Hashing in Hyperbolic Space</title>
+    <updated>2026-03-20T08:07:39Z</updated>
+    <link href="https://arxiv.org/abs/2603.19724v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.19724v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a metric space $(X, d)$, a family $\mathcal{H}$ of locality sensitive hash functions is called $(r, cr, p_1, p_2)$ sensitive if a randomly chosen function $h\in \mathcal{H}$ has probability at least $p_1$ (at most $p_2$) to map any $a, b\in X$ in the same hash bucket if $d(a, b)\leq r$ (or $d(a, b)\geq cr$). Locality Sensitive Hashing (LSH) is one of the most popular techniques for approximate nearest-neighbor search in high-dimensional spaces, and has been studied extensively for Hamming, Euclidean, and spherical geometries. An $(r, cr, p_1, p_2)$-sensitive hash function enables approximate nearest neighbor search (i.e., returning a point within distance $cr$ from a query $q$ if there exists a point within distance $r$ from $q$) with space $O(n^{1+ρ})$ and query time $O(n^ρ)$ where $ρ=\frac{\log 1/p_1}{\log 1/p_2}$. But LSH for hyperbolic spaces $\mathbb{H}^d$ remains largely unexplored. In this work, we present the first LSH construction native to hyperbolic space. For the hyperbolic plane $(d=2)$, we show a construction achieving $ρ\leq 1/c$, based on the hyperplane rounding scheme. For general hyperbolic spaces $(d \geq 3)$, we use dimension reduction from $\mathbb{H}^d$ to $\mathbb{H}^2$ and the 2D hyperbolic LSH to get $ρ\leq 1.59/c$. On the lower bound side, we show that the lower bound on $ρ$ of Euclidean LSH extends to the hyperbolic setting via local isometry, therefore giving $ρ\geq 1/c^2$.</summary>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-20T08:07:39Z</published>
+    <arxiv:comment>22 pages, 8 figures, socg 2026 paper</arxiv:comment>
+    <arxiv:primary_category term="cs.CG"/>
+    <author>
+      <name>Chengyuan Deng</name>
+    </author>
+    <author>
+      <name>Jie Gao</name>
+    </author>
+    <author>
+      <name>Kevin Lu</name>
+    </author>
+    <author>
+      <name>Feng Luo</name>
+    </author>
+    <author>
+      <name>Cheng Xin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.02641v1</id>
+    <title>Randomised Relevance Model</title>
+    <updated>2016-07-09T18:10:06Z</updated>
+    <link href="https://arxiv.org/abs/1607.02641v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.02641v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Relevance Models are well-known retrieval models and capable of producing competitive results. However, because they use query expansion they can be very slow. We address this slowness by incorporating two variants of locality sensitive hashing (LSH) into the query expansion process. Results on two document collections suggest that we can obtain large reductions in the amount of work, with a small reduction in effectiveness. Our approach is shown to be additive when pruning query terms.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-09T18:10:06Z</published>
+    <arxiv:comment>Information Retrieval, Query Expansion, Locality Sensitive Hashing, Randomized Algorithm, Relevance Model</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Dominik Wurzer</name>
+    </author>
+    <author>
+      <name>Miles Osborne</name>
+    </author>
+    <author>
+      <name>Victor Lavrenko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.05455v2</id>
+    <title>Ranking Based Locality Sensitive Hashing Enabled Cancelable Biometrics: Index-of-Max Hashing</title>
+    <updated>2017-09-17T16:52:24Z</updated>
+    <link href="https://arxiv.org/abs/1703.05455v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.05455v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose a ranking based locality sensitive hashing inspired two-factor cancelable biometrics, dubbed "Index-of-Max" (IoM) hashing for biometric template protection. With externally generated random parameters, IoM hashing transforms a real-valued biometric feature vector into discrete index (max ranked) hashed code. We demonstrate two realizations from IoM hashing notion, namely Gaussian Random Projection based and Uniformly Random Permutation based hashing schemes. The discrete indices representation nature of IoM hashed codes enjoy serveral merits. Firstly, IoM hashing empowers strong concealment to the biometric information. This contributes to the solid ground of non-invertibility guarantee. Secondly, IoM hashing is insensitive to the features magnitude, hence is more robust against biometric features variation. Thirdly, the magnitude-independence trait of IoM hashing makes the hash codes being scale-invariant, which is critical for matching and feature alignment. The experimental results demonstrate favorable accuracy performance on benchmark FVC2002 and FVC2004 fingerprint databases. The analyses justify its resilience to the existing and newly introduced security and privacy attacks as well as satisfy the revocability and unlinkability criteria of cancelable biometrics.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-16T02:10:56Z</published>
+    <arxiv:comment>15 pages, 8 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zhe Jin</name>
+    </author>
+    <author>
+      <name>Yen-Lung Lai</name>
+    </author>
+    <author>
+      <name>Jung-Yeon Hwang</name>
+    </author>
+    <author>
+      <name>Soohyung Kim</name>
+    </author>
+    <author>
+      <name>Andrew Beng Jin Teoh</name>
+    </author>
+    <arxiv:doi>10.1109/TIFS.2017.2753172</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIFS.2017.2753172" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.06922v3</id>
+    <title>Fast Cross-Polytope Locality-Sensitive Hashing</title>
+    <updated>2016-09-20T23:46:21Z</updated>
+    <link href="https://arxiv.org/abs/1602.06922v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.06922v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide a variant of cross-polytope locality sensitive hashing with respect to angular distance which is provably optimal in asymptotic sensitivity and enjoys $\mathcal{O}(d \ln d )$ hash computation time. Building on a recent result (by Andoni, Indyk, Laarhoven, Razenshteyn, Schmidt, 2015), we show that optimal asymptotic sensitivity for cross-polytope LSH is retained even when the dense Gaussian matrix is replaced by a fast Johnson-Lindenstrauss transform followed by discrete pseudo-rotation, reducing the hash computation time from $\mathcal{O}(d^2)$ to $\mathcal{O}(d \ln d )$. Moreover, our scheme achieves the optimal rate of convergence for sensitivity. By incorporating a low-randomness Johnson-Lindenstrauss transform, our scheme can be modified to require only $\mathcal{O}(\ln^9(d))$ random bits</summary>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-22T20:24:03Z</published>
+    <arxiv:comment>14 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.DS"/>
+    <author>
+      <name>Christopher Kennedy</name>
+    </author>
+    <author>
+      <name>Rachel Ward</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.7057v1</id>
+    <title>Efficient Distributed Locality Sensitive Hashing</title>
+    <updated>2012-10-26T05:59:55Z</updated>
+    <link href="https://arxiv.org/abs/1210.7057v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.7057v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Distributed frameworks are gaining increasingly widespread use in applications that process large amounts of data. One important example application is large scale similarity search, for which Locality Sensitive Hashing (LSH) has emerged as the method of choice, specially when the data is high-dimensional. At its core, LSH is based on hashing the data points to a number of buckets such that similar points are more likely to map to the same buckets. To guarantee high search quality, the LSH scheme needs a rather large number of hash tables. This entails a large space requirement, and in the distributed setting, with each query requiring a network call per hash bucket look up, this also entails a big network load. The Entropy LSH scheme proposed by Panigrahy significantly reduces the number of required hash tables by looking up a number of query offsets in addition to the query itself. While this improves the LSH space requirement, it does not help with (and in fact worsens) the search network efficiency, as now each query offset requires a network call. In this paper, focusing on the Euclidian space under $l_2$ norm and building up on Entropy LSH, we propose the distributed Layered LSH scheme, and prove that it exponentially decreases the network cost, while maintaining a good load balance between different machines. Our experiments also verify that our scheme results in a significant network traffic reduction that brings about large runtime improvement in real world applications.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-26T05:59:55Z</published>
+    <arxiv:comment>A short version of this paper will appear in CIKM 2012</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Bahman Bahmani</name>
+    </author>
+    <author>
+      <name>Ashish Goel</name>
+    </author>
+    <author>
+      <name>Rajendra Shinde</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.2930v1</id>
+    <title>Density Sensitive Hashing</title>
+    <updated>2012-05-14T02:27:52Z</updated>
+    <link href="https://arxiv.org/abs/1205.2930v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.2930v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nearest neighbors search is a fundamental problem in various research fields like machine learning, data mining and pattern recognition. Recently, hashing-based approaches, e.g., Locality Sensitive Hashing (LSH), are proved to be effective for scalable high dimensional nearest neighbors search. Many hashing algorithms found their theoretic root in random projection. Since these algorithms generate the hash tables (projections) randomly, a large number of hash tables (i.e., long codewords) are required in order to achieve both high precision and recall. To address this limitation, we propose a novel hashing algorithm called {\em Density Sensitive Hashing} (DSH) in this paper. DSH can be regarded as an extension of LSH. By exploring the geometric structure of the data, DSH avoids the purely random projections selection and uses those projective functions which best agree with the distribution of the data. Extensive experimental results on real-world data sets have shown that the proposed method achieves better performance compared to the state-of-the-art hashing approaches.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-14T02:27:52Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Yue Lin</name>
+    </author>
+    <author>
+      <name>Deng Cai</name>
+    </author>
+    <author>
+      <name>Cheng Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.06505v3</id>
+    <title>Locality sensitive hashing via mechanical behavior</title>
+    <updated>2023-05-14T16:42:24Z</updated>
+    <link href="https://arxiv.org/abs/2304.06505v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.06505v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>From healing wounds to maintaining homeostasis in cyclically loaded tissue, living systems have a phenomenal ability to sense, store, and respond to mechanical stimuli. Broadly speaking, there is significant interest in designing engineered systems to recapitulate this incredible functionality. In engineered systems, we have seen significant recent computationally driven advances in sensing and control. And, there has been a growing interest - inspired in part by the incredible distributed and emergent functionality observed in the natural world - in exploring the ability of engineered systems to perform computation through mechanisms that are fundamentally driven by physical laws. In this work, we focus on a small segment of this broad and evolving field: locality sensitive hashing via mechanical behavior. Specifically, we will address the question: can mechanical information (i.e., loads) be transformed by mechanical systems (i.e., converted into sensor readouts) such that the mechanical system meets the requirements for a locality sensitive hash function? Overall, we not only find that mechanical systems are able to perform this function, but also that different mechanical systems vary widely in their efficacy at this task. Looking forward, we view this work as a starting point for significant future investigation into the design and optimization of mechanical systems for conveying mechanical information for downstream computing.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-09T02:28:22Z</published>
+    <arxiv:comment>22 pages, 12 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Emma Lejeune</name>
+    </author>
+    <author>
+      <name>Peerasait Prachaseree</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.18064v1</id>
+    <title>Neural Locality Sensitive Hashing for Entity Blocking</title>
+    <updated>2024-01-31T18:41:08Z</updated>
+    <link href="https://arxiv.org/abs/2401.18064v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.18064v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Locality-sensitive hashing (LSH) is a fundamental algorithmic technique widely employed in large-scale data processing applications, such as nearest-neighbor search, entity resolution, and clustering. However, its applicability in some real-world scenarios is limited due to the need for careful design of hashing functions that align with specific metrics. Existing LSH-based Entity Blocking solutions primarily rely on generic similarity metrics such as Jaccard similarity, whereas practical use cases often demand complex and customized similarity rules surpassing the capabilities of generic similarity metrics. Consequently, designing LSH functions for these customized similarity rules presents considerable challenges. In this research, we propose a neuralization approach to enhance locality-sensitive hashing by training deep neural networks to serve as hashing functions for complex metrics. We assess the effectiveness of this approach within the context of the entity resolution problem, which frequently involves the use of task-specific metrics in real-world applications. Specifically, we introduce NLSHBlock (Neural-LSH Block), a novel blocking methodology that leverages pre-trained language models, fine-tuned with a novel LSH-based loss function. Through extensive evaluations conducted on a diverse range of real-world datasets, we demonstrate the superiority of NLSHBlock over existing methods, exhibiting significant performance improvements. Furthermore, we showcase the efficacy of NLSHBlock in enhancing the performance of the entity matching phase, particularly within the semi-supervised setting.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-31T18:41:08Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Runhui Wang</name>
+    </author>
+    <author>
+      <name>Luyang Kong</name>
+    </author>
+    <author>
+      <name>Yefan Tao</name>
+    </author>
+    <author>
+      <name>Andrew Borthwick</name>
+    </author>
+    <author>
+      <name>Davor Golac</name>
+    </author>
+    <author>
+      <name>Henrik Johnson</name>
+    </author>
+    <author>
+      <name>Shadie Hijazi</name>
+    </author>
+    <author>
+      <name>Dong Deng</name>
+    </author>
+    <author>
+      <name>Yongfeng Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.00588v1</id>
+    <title>Fast Locality Sensitive Hashing for Beam Search on GPU</title>
+    <updated>2018-06-02T06:18:15Z</updated>
+    <link href="https://arxiv.org/abs/1806.00588v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.00588v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a GPU-based Locality Sensitive Hashing (LSH) algorithm to speed up beam search for sequence models. We utilize the winner-take-all (WTA) hash, which is based on relative ranking order of hidden dimensions and thus resilient to perturbations in numerical values. Our algorithm is designed by fully considering the underling architecture of CUDA-enabled GPUs (Algorithm/Architecture Co-design): 1) A parallel Cuckoo hash table is applied for LSH code lookup (guaranteed O(1) lookup time); 2) Candidate lists are shared across beams to maximize the parallelism; 3) Top frequent words are merged into candidate lists to improve performance. Experiments on 4 large-scale neural machine translation models demonstrate that our algorithm can achieve up to 4x speedup on softmax module, and 2x overall speedup without hurting BLEU on GPU.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-02T06:18:15Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xing Shi</name>
+    </author>
+    <author>
+      <name>Shizhen Xu</name>
+    </author>
+    <author>
+      <name>Kevin Knight</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1006.3514v1</id>
+    <title>Similarity Search and Locality Sensitive Hashing using TCAMs</title>
+    <updated>2010-06-17T16:51:51Z</updated>
+    <link href="https://arxiv.org/abs/1006.3514v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1006.3514v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Similarity search methods are widely used as kernels in various machine learning applications. Nearest neighbor search (NNS) algorithms are often used to retrieve similar entries, given a query. While there exist efficient techniques for exact query lookup using hashing, similarity search using exact nearest neighbors is known to be a hard problem and in high dimensions, best known solutions offer little improvement over a linear scan. Fast solutions to the approximate NNS problem include Locality Sensitive Hashing (LSH) based techniques, which need storage polynomial in $n$ with exponent greater than $1$, and query time sublinear, but still polynomial in $n$, where $n$ is the size of the database. In this work we present a new technique of solving the approximate NNS problem in Euclidean space using a Ternary Content Addressable Memory (TCAM), which needs near linear space and has O(1) query time. In fact, this method also works around the best known lower bounds in the cell probe model for the query time using a data structure near linear in the size of the data base. TCAMs are high performance associative memories widely used in networking applications such as access control lists. A TCAM can query for a bit vector within a database of ternary vectors, where every bit position represents $0$, $1$ or $*$. The $*$ is a wild card representing either a $0$ or a $1$. We leverage TCAMs to design a variant of LSH, called Ternary Locality Sensitive Hashing (TLSH) wherein we hash database entries represented by vectors in the Euclidean space into $\{0,1,*\}$. By using the added functionality of a TLSH scheme with respect to the $*$ character, we solve an instance of the approximate nearest neighbor problem with 1 TCAM access and storage nearly linear in the size of the database. We believe that this work can open new avenues in very high speed data mining.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-06-17T16:51:51Z</published>
+    <arxiv:comment>11 pages, in SIGMOD 2010</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Rajendra Shinde</name>
+    </author>
+    <author>
+      <name>Ashish Goel</name>
+    </author>
+    <author>
+      <name>Pankaj Gupta</name>
+    </author>
+    <author>
+      <name>Debojyoti Dutta</name>
+    </author>
+  </entry>
+</feed>

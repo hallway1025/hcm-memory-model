@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FBnNYZCW912O3YpNA+pPvl2jXfw</id>
+  <title>arXiv Query: search_query=all:temporal AND all:knowledge AND all:graph&amp;id_list=&amp;start=0&amp;max_results=12</title>
+  <updated>2026-11-07T13:50:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:temporal+AND+(all:knowledge+AND+all:graph)&amp;start=0&amp;max_results=12&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>12</opensearch:itemsPerPage>
+  <opensearch:totalResults>1121</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.07791v2</id>
+    <title>A Simple But Powerful Graph Encoder for Temporal Knowledge Graph Completion</title>
+    <updated>2022-12-13T13:16:34Z</updated>
+    <link href="https://arxiv.org/abs/2112.07791v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.07791v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge graphs contain rich knowledge about various entities and the relational information among them, while temporal knowledge graphs (TKGs) describe and model the interactions of the entities over time. In this context, automatic temporal knowledge graph completion (TKGC) has gained great interest. Recent TKGC methods integrate advanced deep learning techniques, e.g., Transformers, and achieve superior model performance. However, this also introduces a large number of excessive parameters, which brings a heavier burden for parameter optimization. In this paper, we propose a simple but powerful graph encoder for TKGC, called TARGCN. TARGCN is parameter-efficient, and it extensively explores every entity's temporal context for learning contextualized representations. We find that instead of adopting various kinds of complex modules, it is more beneficial to efficiently capture the temporal contexts of entities. We experiment TARGCN on three benchmark datasets. Our model can achieve a more than 46% relative improvement on the GDELT dataset compared with state-of-the-art TKGC models. Meanwhile, it outperforms the strongest baseline on the ICEWS05-15 dataset with around 18% fewer parameters.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-14T23:30:42Z</published>
+    <arxiv:comment>NeurIPS 2022 Temporal Graph Learning Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zifeng Ding</name>
+    </author>
+    <author>
+      <name>Yunpu Ma</name>
+    </author>
+    <author>
+      <name>Bailan He</name>
+    </author>
+    <author>
+      <name>Volker Tresp</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.06002v3</id>
+    <title>Deterministic Legal Agents: A Canonical Primitive API for Auditable Reasoning over Temporal Knowledge Graphs</title>
+    <updated>2026-04-28T19:28:13Z</updated>
+    <link href="https://arxiv.org/abs/2510.06002v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.06002v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In high-stakes legal domains, retrieval must preserve not only semantic relevance, but also the hierarchy, temporality, and causal provenance of legal norms. Standard Retrieval-Augmented Generation (RAG), based mainly on semantic similarity over text fragments, cannot reliably provide this level of control. Prior work on SAT-Graph RAG addressed the representation problem by modeling legal materials as structure-aware temporal knowledge graphs. This paper addresses the next problem: how an LLM-based reasoning agent can interact with such a graph without reintroducing unreliable retrieval behavior.
+  We specify the SAT-Graph API, a canonical primitive interface for auditable reasoning over temporal knowledge graphs, developed and illustrated in the legal domain. The API exposes typed, atomic, and composable primitives that mediate between a probabilistic language model and a deterministic symbolic substrate. Its design follows Probability Isolation: uncertainty is confined to intent translation, semantic anchoring, and final narrative synthesis, while structural, temporal, and causal graph traversals are executed through deterministic operations over canonical anchors.
+  The interface shifts legal RAG from single-shot Retrieve-then-Generate to active Reason-Act-Observe. An agent decomposes a legal question into an explicit execution plan, invokes primitives for point-in-time retrieval, context reconstruction, provenance tracing, and impact analysis, and produces an answer grounded in an auditable log of graph operations. The result is a formal architectural specification, not an empirical benchmark: a secure interaction protocol that decouples legal knowledge representation from agentic reasoning. Although illustrated in law, the primitive model is domain-portable to other temporally versioned, provenance-sensitive, and authority-governed knowledge bases.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-07T15:04:23Z</published>
+    <arxiv:comment>Substantially revised version consolidating the paper as a formal SAT-Graph API specification: clarifies Probability Isolation and post-anchoring determinism, broadens semantic anchoring to open and thematic legal queries, refines the data models and temporal primitives, and strengthens the use cases, limitations, and bibliography</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hudson de Martim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.13432v3</id>
+    <title>Graph Hawkes Neural Network for Forecasting on Temporal Knowledge Graphs</title>
+    <updated>2020-06-14T21:48:23Z</updated>
+    <link href="https://arxiv.org/abs/2003.13432v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.13432v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Hawkes process has become a standard method for modeling self-exciting event sequences with different event types. A recent work has generalized the Hawkes process to a neurally self-modulating multivariate point process, which enables the capturing of more complex and realistic impacts of past events on future events. However, this approach is limited by the number of possible event types, making it impossible to model the dynamics of evolving graph sequences, where each possible link between two nodes can be considered as an event type. The number of event types increases even further when links are directional and labeled. To address this issue, we propose the Graph Hawkes Neural Network that can capture the dynamics of evolving graph sequences and can predict the occurrence of a fact in a future time instance. Extensive experiments on large-scale temporal multi-relational databases, such as temporal knowledge graphs, demonstrate the effectiveness of our approach.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-30T12:56:50Z</published>
+    <arxiv:comment>Automated Knowledge Base Construction 2020, conference paper</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhen Han</name>
+    </author>
+    <author>
+      <name>Yunpu Ma</name>
+    </author>
+    <author>
+      <name>Yuyi Wang</name>
+    </author>
+    <author>
+      <name>Stephan Günnemann</name>
+    </author>
+    <author>
+      <name>Volker Tresp</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.11542v2</id>
+    <title>Question Answering Over Spatio-Temporal Knowledge Graph</title>
+    <updated>2025-12-16T07:25:59Z</updated>
+    <link href="https://arxiv.org/abs/2402.11542v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.11542v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spatio-temporal knowledge graphs (STKGs) enhance traditional KGs by integrating temporal and spatial annotations, enabling precise reasoning over questions with spatio-temporal dependencies. Despite their potential, research on spatio-temporal knowledge graph question answering (STKGQA) remains limited. This is primarily due to the lack of datasets that simultaneously contain spatio-temporal information, as well as methods capable of handling implicit spatio-temporal reasoning. To bridge this gap, we introduce the spatio-temporal question answering dataset (STQAD), the first comprehensive benchmark comprising 10,000 natural language questions that require both temporal and spatial reasoning. STQAD is constructed with real-world facts containing spatio-temporal information, ensuring that the dataset reflects practical scenarios. Furthermore, our experiments reveal that existing KGQA methods underperform on STQAD, primarily due to their inability to model spatio-temporal interactions. To address this, we propose the spatio-temporal complex question answering (STCQA) method, which jointly embeds temporal and spatial features into KG representations and dynamically filters answers through constraint-aware reasoning. STCQA achieves state-of-the-art performance, significantly outperforming existing baselines. Our work not only provides a valuable resource for future research but also advances the field by offering a robust baseline for answering complex spatio-temporal questions.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-18T10:44:48Z</published>
+    <arxiv:comment>34 pages, 10 figures. The paper has been accepted by Knowledge-Based Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Volume 329, Part A, 2025, 114314</arxiv:journal_ref>
+    <author>
+      <name>Xinbang Dai</name>
+    </author>
+    <author>
+      <name>Huiying Li</name>
+    </author>
+    <author>
+      <name>Nan Hu</name>
+    </author>
+    <author>
+      <name>Yongrui Chen</name>
+    </author>
+    <author>
+      <name>Rihui Jin</name>
+    </author>
+    <author>
+      <name>Huikang Hu</name>
+    </author>
+    <author>
+      <name>Guilin Qi</name>
+    </author>
+    <arxiv:doi>10.1016/j.knosys.2025.114314</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.knosys.2025.114314" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.01231v2</id>
+    <title>Software Engineering Event Modeling using Relative Time in Temporal Knowledge Graphs</title>
+    <updated>2020-07-13T01:07:23Z</updated>
+    <link href="https://arxiv.org/abs/2007.01231v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.01231v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a multi-relational temporal Knowledge Graph based on the daily interactions between artifacts in GitHub, one of the largest social coding platforms. Such representation enables posing many user-activity and project management questions as link prediction and time queries over the knowledge graph. In particular, we introduce two new datasets for i) interpolated time-conditioned link prediction and ii) extrapolated time-conditioned link/time prediction queries, each with distinguished properties. Our experiments on these datasets highlight the potential of adapting knowledge graphs to answer broad software engineering questions. Meanwhile, it also reveals the unsatisfactory performance of existing temporal models on extrapolated queries and time prediction queries in general. To overcome these shortcomings, we introduce an extension to current temporal models using relative temporal information with regards to past events.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-02T16:28:43Z</published>
+    <arxiv:comment>11 pages, 1 figure. 37th International Conference on Machine Learning (ICML 2020) - Workshop on Graph Representation Learning and Beyond</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kian Ahrabian</name>
+    </author>
+    <author>
+      <name>Daniel Tarlow</name>
+    </author>
+    <author>
+      <name>Hehuimin Cheng</name>
+    </author>
+    <author>
+      <name>Jin L. C. Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.08169v1</id>
+    <title>Few-Shot Inductive Learning on Temporal Knowledge Graphs using Concept-Aware Information</title>
+    <updated>2022-11-15T14:23:07Z</updated>
+    <link href="https://arxiv.org/abs/2211.08169v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.08169v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge graph completion (KGC) aims to predict the missing links among knowledge graph (KG) entities. Though various methods have been developed for KGC, most of them can only deal with the KG entities seen in the training set and cannot perform well in predicting links concerning novel entities in the test set. Similar problem exists in temporal knowledge graphs (TKGs), and no previous temporal knowledge graph completion (TKGC) method is developed for modeling newly-emerged entities. Compared to KGs, TKGs require temporal reasoning techniques for modeling, which naturally increases the difficulty in dealing with novel, yet unseen entities. In this work, we focus on the inductive learning of unseen entities' representations on TKGs. We propose a few-shot out-of-graph (OOG) link prediction task for TKGs, where we predict the missing entities from the links concerning unseen entities by employing a meta-learning framework and utilizing the meta-information provided by only few edges associated with each unseen entity. We construct three new datasets for TKG few-shot OOG link prediction, and we propose a model that mines the concept-aware information among entities. Experimental results show that our model achieves superior performance on all three datasets and our concept-aware modeling component demonstrates a strong effect.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-15T14:23:07Z</published>
+    <arxiv:comment>Automated Knowledge Base Construction 2022 Conference Paper, Honorable Mention</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zifeng Ding</name>
+    </author>
+    <author>
+      <name>Jingpei Wu</name>
+    </author>
+    <author>
+      <name>Bailan He</name>
+    </author>
+    <author>
+      <name>Yunpu Ma</name>
+    </author>
+    <author>
+      <name>Zhen Han</name>
+    </author>
+    <author>
+      <name>Volker Tresp</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.05635v1</id>
+    <title>Bending the Future: Autoregressive Modeling of Temporal Knowledge Graphs in Curvature-Variable Hyperbolic Spaces</title>
+    <updated>2022-09-12T22:07:14Z</updated>
+    <link href="https://arxiv.org/abs/2209.05635v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.05635v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently there is an increasing scholarly interest in time-varying knowledge graphs, or temporal knowledge graphs (TKG). Previous research suggests diverse approaches to TKG reasoning that uses historical information. However, less attention has been given to the hierarchies within such information at different timestamps. Given that TKG is a sequence of knowledge graphs based on time, the chronology in the sequence derives hierarchies between the graphs. Furthermore, each knowledge graph has its hierarchical level which may differ from one another. To address these hierarchical characteristics in TKG, we propose HyperVC, which utilizes hyperbolic space that better encodes the hierarchies than Euclidean space. The chronological hierarchies between knowledge graphs at different timestamps are represented by embedding the knowledge graphs as vectors in a common hyperbolic space. Additionally, diverse hierarchical levels of knowledge graphs are represented by adjusting the curvatures of hyperbolic embeddings of their entities and relations. Experiments on four benchmark datasets show substantial improvements, especially on the datasets with higher hierarchical levels.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-12T22:07:14Z</published>
+    <arxiv:comment>11 pages, 2 figures, In the 4th Conference on Automated Knowledge Base Construction (AKBC) 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jihoon Sohn</name>
+    </author>
+    <author>
+      <name>Mingyu Derek Ma</name>
+    </author>
+    <author>
+      <name>Muhao Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.24467v1</id>
+    <title>A Temporal Knowledge Graph for Music Festival Lineup Forecasting</title>
+    <updated>2026-09-21T12:09:57Z</updated>
+    <link href="https://arxiv.org/abs/2609.24467v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.24467v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Music festival lineups emerge from complex relationships among artists, genres, releases, labels, and past performances, making the prediction of future lineups a natural fit for temporal knowledge graph (TKG) forecasting. In this work, we present a TKG covering 380 festivals over 55 years, comprising more than 90K festival performance quadruples along with information on festivals, artist tours, and artist metadata, and release it as a resource for TKG forecasting evaluation. We formalize festival lineup forecasting as temporal link prediction between artists and festivals at future timestamps. We evaluate six TKG forecasting models on this task, analyze their capabilities and limitations, and compare them against Large Language Models applied zero-shot. Our resource complements existing TKG benchmarks by grounding evaluation in a concrete, real-world application domain.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-21T12:09:57Z</published>
+    <arxiv:comment>Accepted to 11th Workshop on Automated Knowledge Base Construction (AKBC) 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Julia Gastinger</name>
+    </author>
+    <author>
+      <name>Thilo Dieing</name>
+    </author>
+    <author>
+      <name>Christian Meilicke</name>
+    </author>
+    <author>
+      <name>Heiner Stuckenschmidt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.08236v1</id>
+    <title>Temporal Knowledge Graph Completion: A Survey</title>
+    <updated>2022-01-16T05:43:49Z</updated>
+    <link href="https://arxiv.org/abs/2201.08236v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.08236v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge graph completion (KGC) can predict missing links and is crucial for real-world knowledge graphs, which widely suffer from incompleteness. KGC methods assume a knowledge graph is static, but that may lead to inaccurate prediction results because many facts in the knowledge graphs change over time. Recently, emerging methods have shown improved predictive results by further incorporating the timestamps of facts; namely, temporal knowledge graph completion (TKGC). With this temporal information, TKGC methods can learn the dynamic evolution of the knowledge graph that KGC methods fail to capture. In this paper, for the first time, we summarize the recent advances in TKGC research. First, we detail the background of TKGC, including the problem definition, benchmark datasets, and evaluation metrics. Then, we summarize existing TKGC methods based on how timestamps of facts are used to capture the temporal dynamics. Finally, we conclude the paper and present future research directions of TKGC.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-16T05:43:49Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence (2023) 6545--6553</arxiv:journal_ref>
+    <author>
+      <name>Borui Cai</name>
+    </author>
+    <author>
+      <name>Yong Xiang</name>
+    </author>
+    <author>
+      <name>Longxiang Gao</name>
+    </author>
+    <author>
+      <name>He Zhang</name>
+    </author>
+    <author>
+      <name>Yunfeng Li</name>
+    </author>
+    <author>
+      <name>Jianxin Li</name>
+    </author>
+    <arxiv:doi>10.24963/ijcai.2023/734</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.24963/ijcai.2023/734" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.04782v1</id>
+    <title>A Survey on Temporal Knowledge Graph: Representation Learning and Applications</title>
+    <updated>2024-03-02T16:21:45Z</updated>
+    <link href="https://arxiv.org/abs/2403.04782v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.04782v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge graphs have garnered significant research attention and are widely used to enhance downstream applications. However, most current studies mainly focus on static knowledge graphs, whose facts do not change with time, and disregard their dynamic evolution over time. As a result, temporal knowledge graphs have attracted more attention because a large amount of structured knowledge exists only within a specific period. Knowledge graph representation learning aims to learn low-dimensional vector embeddings for entities and relations in a knowledge graph. The representation learning of temporal knowledge graphs incorporates time information into the standard knowledge graph framework and can model the dynamics of entities and relations over time. In this paper, we conduct a comprehensive survey of temporal knowledge graph representation learning and its applications. We begin with an introduction to the definitions, datasets, and evaluation metrics for temporal knowledge graph representation learning. Next, we propose a taxonomy based on the core technologies of temporal knowledge graph representation learning methods, and provide an in-depth analysis of different methods in each category. Finally, we present various downstream applications related to the temporal knowledge graphs. In the end, we conclude the paper and have an outlook on the future research directions in this area.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-02T16:21:45Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Li Cai</name>
+    </author>
+    <author>
+      <name>Xin Mao</name>
+    </author>
+    <author>
+      <name>Yuhao Zhou</name>
+    </author>
+    <author>
+      <name>Zhaoguang Long</name>
+    </author>
+    <author>
+      <name>Changxu Wu</name>
+    </author>
+    <author>
+      <name>Man Lan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.11911v1</id>
+    <title>Integrate Temporal Graph Learning into LLM-based Temporal Knowledge Graph Model</title>
+    <updated>2025-01-21T06:12:49Z</updated>
+    <link href="https://arxiv.org/abs/2501.11911v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.11911v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temporal Knowledge Graph Forecasting (TKGF) aims to predict future events based on the observed events in history. Recently, Large Language Models (LLMs) have exhibited remarkable capabilities, generating significant research interest in their application for reasoning over temporal knowledge graphs (TKGs). Existing LLM-based methods have integrated retrieved historical facts or static graph representations into LLMs. Despite the notable performance of LLM-based methods, they are limited by the insufficient modeling of temporal patterns and ineffective cross-modal alignment between graph and language, hindering the ability of LLMs to fully grasp the temporal and structural information in TKGs. To tackle these issues, we propose a novel framework TGL-LLM to integrate temporal graph learning into LLM-based temporal knowledge graph model. Specifically, we introduce temporal graph learning to capture the temporal and relational patterns and obtain the historical graph embedding. Furthermore, we design a hybrid graph tokenization to sufficiently model the temporal patterns within LLMs. To achieve better alignment between graph and language, we employ a two-stage training paradigm to finetune LLMs on high-quality and diverse data, thereby resulting in better performance. Extensive experiments on three real-world datasets show that our approach outperforms a range of state-of-the-art (SOTA) methods.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-21T06:12:49Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>He Chang</name>
+    </author>
+    <author>
+      <name>Jie Wu</name>
+    </author>
+    <author>
+      <name>Zhulin Tao</name>
+    </author>
+    <author>
+      <name>Yunshan Ma</name>
+    </author>
+    <author>
+      <name>Xianglin Huang</name>
+    </author>
+    <author>
+      <name>Tat-Seng Chua</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.05640v1</id>
+    <title>Meta-Learning Based Knowledge Extrapolation for Temporal Knowledge Graph</title>
+    <updated>2023-02-11T09:52:26Z</updated>
+    <link href="https://arxiv.org/abs/2302.05640v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.05640v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the last few years, the solution to Knowledge Graph (KG) completion via learning embeddings of entities and relations has attracted a surge of interest. Temporal KGs(TKGs) extend traditional Knowledge Graphs (KGs) by associating static triples with timestamps forming quadruples. Different from KGs and TKGs in the transductive setting, constantly emerging entities and relations in incomplete TKGs create demand to predict missing facts with unseen components, which is the extrapolation setting. Traditional temporal knowledge graph embedding (TKGE) methods are limited in the extrapolation setting since they are trained within a fixed set of components. In this paper, we propose a Meta-Learning based Temporal Knowledge Graph Extrapolation (MTKGE) model, which is trained on link prediction tasks sampled from the existing TKGs and tested in the emerging TKGs with unseen entities and relations. Specifically, we meta-train a GNN framework that captures relative position patterns and temporal sequence patterns between relations. The learned embeddings of patterns can be transferred to embed unseen components. Experimental results on two different TKG extrapolation datasets show that MTKGE consistently outperforms both the existing state-of-the-art models for knowledge graph extrapolation and specifically adapted KGE and TKGE baselines.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-11T09:52:26Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhongwu Chen</name>
+    </author>
+    <author>
+      <name>Chengjin Xu</name>
+    </author>
+    <author>
+      <name>Fenglong Su</name>
+    </author>
+    <author>
+      <name>Zhen Huang</name>
+    </author>
+    <author>
+      <name>You Dou</name>
+    </author>
+  </entry>
+</feed>

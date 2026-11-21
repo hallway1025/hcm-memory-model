@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["38377074"],"translationset":[],"querytranslation":"\"10 1371 journal pcbi 1011312\"[Publisher ID]"}}

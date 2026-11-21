@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SaN4XPMtzLyFAvxoYvR+j5RQlZA</id>
+  <title>arXiv Query: search_query=all:generative AND all:agents AND all:memory AND all:reflection AND submittedDate:"202301010000 TO 202612312359"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-07T11:45:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:generative+AND+(all:agents+AND+(all:memory+AND+(all:reflection+AND+submittedDate:%22202301010000+TO+202612312359%22)))&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>211</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.20158v1</id>
+    <title>Stateless Decision Memory for Enterprise AI Agents</title>
+    <updated>2026-04-22T03:51:52Z</updated>
+    <link href="https://arxiv.org/abs/2604.20158v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.20158v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Enterprise deployment of long-horizon decision agents in regulated domains (underwriting, claims adjudication, tax examination) is dominated by retrieval-augmented pipelines despite a decade of increasingly sophisticated stateful memory architectures. We argue this reflects a hidden requirement: regulated deployment is load-bearing on four systems properties (deterministic replay, auditable rationale, multi-tenant isolation, statelessness for horizontal scale), and stateful architectures violate them by construction. We propose Deterministic Projection Memory (DPM): an append-only event log plus one task-conditioned projection at decision time. On ten regulated decisioning cases at three memory budgets, DPM matches summarization-based memory at generous budgets and substantially outperforms it when the budget binds: at a 20x compression ratio, DPM improves factual precision by +0.52 (Cohen's h=1.17, p=0.0014) and reasoning coherence by +0.53 (h=1.13, p=0.0034), paired permutation, n=10. DPM is additionally 7-15x faster at binding budgets, making one LLM call at decision time instead of N. A determinism study of 10 replays per case at temperature zero shows both architectures inherit residual API-level nondeterminism, but the asymmetry is structural: DPM exposes one nondeterministic call; summarization exposes N compounding calls. The audit surface follows the same one-versus-N pattern: DPM logs two LLM calls per decision while summarization logs 83-97 on LongHorizon-Bench. We conclude with TAMS, a practitioner heuristic for architecture selection, and a failure analysis of stateful memory under enterprise operating conditions. The contribution is the argument that statelessness is the load-bearing property explaining enterprise's preference for weaker but replayable retrieval pipelines, and that DPM demonstrates this property is attainable without the decisioning penalty retrieval pays.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-22T03:51:52Z</published>
+    <arxiv:comment>16 pages, 4 figures, 4 tables. Companion paper to "Four-Axis Decision Alignment for Long-Horizon Enterprise AI Agents" (arXiv:TBD). Code and reproducibility artifacts at https://github.com/vasundras/stateless-decision-memory-enterprise-ai-agents</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Vasundra Srinivasan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.23320v2</id>
+    <title>ParamMem: Augmenting Language Agents with Parametric Reflective Memory</title>
+    <updated>2026-02-27T08:21:31Z</updated>
+    <link href="https://arxiv.org/abs/2602.23320v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.23320v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-reflection enables language agents to iteratively refine solutions, yet often produces repetitive outputs that limit reasoning performance. Recent studies have attempted to address this limitation through various approaches, among which increasing reflective diversity has shown promise. Our empirical analysis reveals a strong positive correlation between reflective diversity and task success, further motivating the need for diverse reflection signals. We introduce ParamMem, a parametric memory module that encodes cross-sample reflection patterns into model parameters, enabling diverse reflection generation through temperature-controlled sampling. Building on this module, we propose ParamAgent, a reflection-based agent framework that integrates parametric memory with episodic and cross-sample memory. Extensive experiments on code generation, mathematical reasoning, and multi-hop question answering demonstrate consistent improvements over state-of-the-art baselines. Further analysis reveals that ParamMem is sample-efficient, enables weak-to-strong transfer across model scales, and supports self-improvement without reliance on stronger external model, highlighting the potential of ParamMem as an effective component for enhancing language agents.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-26T18:28:04Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tianjun Yao</name>
+    </author>
+    <author>
+      <name>Yongqiang Chen</name>
+    </author>
+    <author>
+      <name>Yujia Zheng</name>
+    </author>
+    <author>
+      <name>Pan Li</name>
+    </author>
+    <author>
+      <name>Zhiqiang Shen</name>
+    </author>
+    <author>
+      <name>Kun Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.21053v1</id>
+    <title>OCR-Agent: Agentic OCR with Capability and Memory Reflection</title>
+    <updated>2026-02-24T16:10:27Z</updated>
+    <link href="https://arxiv.org/abs/2602.21053v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.21053v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Vision-Language Models (VLMs) have demonstrated significant potential on complex visual understanding tasks through iterative optimization methods.However, these models generally lack effective self-correction mechanisms, making it difficult for them to independently rectify cognitive biases. Consequently, during multi-turn revisions, they often fall into repetitive and ineffective attempts, failing to achieve stable improvements in answer quality.To address this issue, we propose a novel iterative self-correction framework that endows models with two key capabilities: Capability Reflection and Memory Reflection. This framework guides the model to first diagnose errors and generate a correction plan via Capability Reflection, then leverage Memory Reflection to review past attempts to avoid repetition and explore new solutions, and finally, optimize the answer through rigorous re-reasoning. Experiments on the challenging OCRBench v2 benchmark show that OCR-Agent outperforms the current open-source SOTA model InternVL3-8B by +2.0 on English and +1.2 on Chinese subsets, while achieving state-of-the-art results in Visual Understanding (79.9) and Reasoning (66.5) - surpassing even larger fine-tuned models. Our method demonstrates that structured, self-aware reflection can significantly enhance VLMs' reasoning robustness without additional training. Code: https://github.com/AIGeeksGroup/OCR-Agent.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-24T16:10:27Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shimin Wen</name>
+    </author>
+    <author>
+      <name>Zeyu Zhang</name>
+    </author>
+    <author>
+      <name>Xingdou Bian</name>
+    </author>
+    <author>
+      <name>Hongjie Zhu</name>
+    </author>
+    <author>
+      <name>Lulu He</name>
+    </author>
+    <author>
+      <name>Layi Shama</name>
+    </author>
+    <author>
+      <name>Daji Ergu</name>
+    </author>
+    <author>
+      <name>Ying Cai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.12818v1</id>
+    <title>Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects</title>
+    <updated>2025-12-14T19:47:23Z</updated>
+    <link href="https://arxiv.org/abs/2512.12818v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.12818v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agent memory has been touted as a dimension of growth for LLM-based applications, enabling agents that can accumulate experience, adapt across sessions, and move beyond single-shot question answering. The current generation of agent memory systems treats memory as an external layer that extracts salient snippets from conversations, stores them in vector or graph-based stores, and retrieves top-k items into the prompt of an otherwise stateless model. While these systems improve personalization and context carry-over, they still blur the line between evidence and inference, struggle to organize information over long horizons, and offer limited support for agents that must explain their reasoning. We present Hindsight, a memory architecture that treats agent memory as a structured, first-class substrate for reasoning by organizing it into four logical networks that distinguish world facts, agent experiences, synthesized entity summaries, and evolving beliefs. This framework supports three core operations -- retain, recall, and reflect -- that govern how information is added, accessed, and updated. Under this abstraction, a temporal, entity aware memory layer incrementally turns conversational streams into a structured, queryable memory bank, while a reflection layer reasons over this bank to produce answers and to update information in a traceable way. On key long-horizon conversational memory benchmarks like LongMemEval and LoCoMo, Hindsight with an open-source 20B model lifts overall accuracy from 39% to 83.6% over a full-context baseline with the same backbone and outperforms full context GPT-4o. Scaling the backbone further pushes Hindsight to 91.4% on LongMemEval and up to 89.61% on LoCoMo (vs. 75.78% for the strongest prior open system), consistently outperforming existing memory architectures on multi-session and open-domain questions.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-14T19:47:23Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chris Latimer</name>
+    </author>
+    <author>
+      <name>Nicoló Boschi</name>
+    </author>
+    <author>
+      <name>Andrew Neeser</name>
+    </author>
+    <author>
+      <name>Chris Bartholomew</name>
+    </author>
+    <author>
+      <name>Gaurav Srivastava</name>
+    </author>
+    <author>
+      <name>Xuan Wang</name>
+    </author>
+    <author>
+      <name>Naren Ramakrishnan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.27437v1</id>
+    <title>MGRetrieval: Memory-Guided Reflective Retrieval for Long-Term Dialogue Agents</title>
+    <updated>2026-05-22T14:41:56Z</updated>
+    <link href="https://arxiv.org/abs/2605.27437v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.27437v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have made significant progress in dialogue, yet redundant memory contexts severely limit their effectiveness in long-term dialogue agents. External memory systems have been proposed to improve memory maintenance. However, these systems mainly rely on one-shot retrieval, which limits their ability to retrieve sufficient and relevant evidence. Although recent methods introduce reflection into retrieval, their retrieval paths are generated by the LLM from limited evidence, leading to unstable retrieval and additional latency overhead. %These limitations highlight the need for effective retrieval mechanisms. To address these limitations, we propose MGRetrieval, a retrieval strategy that grounds reflective retrieval in the semantic structure of historical memories. Specifically, MGRetrieval consists of two steps: (1) It references the structure of historical memories to construct a more precise retrieval path. (2) The LLM retains critical memories and determines whether accumulated memories are sufficient to stop further iterative retrieval. This allows the retrieval process to follow semantically meaningful paths. Through memory-guided retrieval and critical memory propagation, MGRetrieval gradually constructs concise and sufficient memory contexts. Extensive experiments on LoCoMo show that MGRetrieval outperforms the strongest baseline by 8.91\% in F1 and 11.11\% in BLEU-1 on average across Qwen2.5-14B and Qwen3-14B, while maintaining practical token and latency costs. The code can be found in https://anonymous.4open.science/r/MGRetrieval.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-22T14:41:56Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Tan Wang</name>
+    </author>
+    <author>
+      <name>Yunwei Dong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11120v2</id>
+    <title>Towards Reliable Multi-Agent Systems for Marketing Applications via Reflection, Memory, and Planning</title>
+    <updated>2025-08-18T22:18:05Z</updated>
+    <link href="https://arxiv.org/abs/2508.11120v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11120v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in large language models (LLMs) enabled the development of AI agents that can plan and interact with tools to complete complex tasks. However, literature on their reliability in real-world applications remains limited. In this paper, we introduce a multi-agent framework for a marketing task: audience curation. To solve this, we introduce a framework called RAMP that iteratively plans, calls tools, verifies the output, and generates suggestions to improve the quality of the audience generated. Additionally, we equip the model with a long-term memory store, which is a knowledge base of client-specific facts and past queries. Overall, we demonstrate the use of LLM planning and memory, which increases accuracy by 28 percentage points on a set of 88 evaluation queries. Moreover, we show the impact of iterative verification and reflection on more ambiguous queries, showing progressively better recall (roughly +20 percentage points) with more verify/reflect iterations on a smaller challenge set, and higher user satisfaction. Our results provide practical insights for deploying reliable LLM-based systems in dynamic, industry-facing environments.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-14T23:52:39Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Lorenzo Jaime Yu Flores</name>
+    </author>
+    <author>
+      <name>Junyi Shen</name>
+    </author>
+    <author>
+      <name>Goodman Gu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.05370v1</id>
+    <title>Contextual Memory Intelligence -- A Foundational Paradigm for Human-AI Collaboration and Reflective Generative AI Systems</title>
+    <updated>2025-05-28T18:59:16Z</updated>
+    <link href="https://arxiv.org/abs/2506.05370v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.05370v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A critical challenge remains unresolved as generative AI systems are quickly implemented in various organizational settings. Despite significant advances in memory components such as RAG, vector stores, and LLM agents, these systems still have substantial memory limitations. Gen AI workflows rarely store or reflect on the full context in which decisions are made. This leads to repeated errors and a general lack of clarity. This paper introduces Contextual Memory Intelligence (CMI) as a new foundational paradigm for building intelligent systems. It repositions memory as an adaptive infrastructure necessary for longitudinal coherence, explainability, and responsible decision-making rather than passive data. Drawing on cognitive science, organizational theory, human-computer interaction, and AI governance, CMI formalizes the structured capture, inference, and regeneration of context as a fundamental system capability. The Insight Layer is presented in this paper to operationalize this vision. This modular architecture uses human-in-the-loop reflection, drift detection, and rationale preservation to incorporate contextual memory into systems. The paper argues that CMI allows systems to reason with data, history, judgment, and changing context, thereby addressing a foundational blind spot in current AI architectures and governance efforts. A framework for creating intelligent systems that are effective, reflective, auditable, and socially responsible is presented through CMI. This enhances human-AI collaboration, generative AI design, and the resilience of the institutions.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-28T18:59:16Z</published>
+    <arxiv:comment>32 pages, 9 tables, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kristy Wedel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.22716v3</id>
+    <title>Memento 2: Learning by Stateful Reflective Memory</title>
+    <updated>2026-01-29T13:49:34Z</updated>
+    <link href="https://arxiv.org/abs/2512.22716v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.22716v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a theoretical study of continual and experiential learning in large language model agents that combine episodic memory with reinforcement learning. We argue that the key mechanism for continual adaptation, without updating model parameters, is reflection: the agent's ability to use past experience to guide future actions. Empirical findings suggest that episodic, experience-driven reflection enables generalised adaptation across a wide range of open-ended, long-horizon tasks. This indicates that efficient learning can occur during deployment and weakens the traditional separation between training and testing. Motivated by this, we introduce the Stateful Reflective Decision Process, a formal model of reflective memory dynamics. In this abstraction, an agent maintains an episodic memory and performs two core operations. Writing stores interaction outcomes and plays the role of policy evaluation. Reading retrieves relevant past cases to inform decisions and plays the role of policy improvement. This perspective treats reflective memory as a control object that can be analysed using classical reinforcement learning tools. We then develop a read-write reflective learning framework by integrating retrieval into soft policy iteration and establish convergence guarantees. We show that as memory grows and provides denser coverage of the state space, the resulting composite policy converges to the optimal solution. Overall, this framework connects practical memory-based methods with principled reinforcement learning, providing a rigorous mathematical basis for building reflective, memory-embedded agents capable of continual general-purpose learning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-27T22:15:03Z</published>
+    <arxiv:comment>35 pages, four figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.03990v2</id>
+    <title>Meta-Policy Reflexion: Reusable Reflective Memory and Rule Admissibility for Resource-Efficient LLM Agent</title>
+    <updated>2025-09-08T07:40:58Z</updated>
+    <link href="https://arxiv.org/abs/2509.03990v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.03990v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents achieve impressive single-task performance but commonly exhibit repeated failures, inefficient exploration, and limited cross-task adaptability. Existing reflective strategies (e.g., Reflexion, ReAct) improve per-episode behavior but typically produce ephemeral, task-specific traces that are not reused across tasks. Reinforcement-learning based alternatives can produce transferable policies but require substantial parameter updates and compute. In this work we introduce Meta-Policy Reflexion (MPR): a hybrid framework that consolidates LLM-generated reflections into a structured, predicate-like Meta-Policy Memory (MPM) and applies that memory at inference time through two complementary mechanisms soft memory-guided decoding and hard rule admissibility checks(HAC). MPR (i) externalizes reusable corrective knowledge without model weight updates, (ii) enforces domain constraints to reduce unsafe or invalid actions, and (iii) retains the adaptability of language-based reflection. We formalize the MPM representation, present algorithms for update and decoding, and validate the approach in a text-based agent environment following the experimental protocol described in the provided implementation (AlfWorld-based). Empirical results reported in the supplied material indicate consistent gains in execution accuracy and robustness when compared to Reflexion baselines; rule admissibility further improves stability. We analyze mechanisms that explain these gains, discuss scalability and failure modes, and outline future directions for multimodal and multi-agent extensions.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-04T08:18:39Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chunlong Wu</name>
+    </author>
+    <author>
+      <name>Ye Luo</name>
+    </author>
+    <author>
+      <name>Zhibo Qu</name>
+    </author>
+    <author>
+      <name>Min Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.05257v4</id>
+    <title>Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions</title>
+    <updated>2026-06-28T17:25:01Z</updated>
+    <link href="https://arxiv.org/abs/2507.05257v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.05257v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent benchmarks for Large Language Model (LLM) agents primarily focus on evaluating reasoning, planning, and execution capabilities, while another critical component-memory, encompassing how agents memorize, update, and retrieve long-term information-is under-evaluated due to the lack of benchmarks. We term agents with memory mechanisms as memory agents. In this paper, based on classic theories from memory science and cognitive science, we identify four core competencies essential for memory agents: accurate retrieval, test-time learning, long-range understanding, and selective forgetting. Existing benchmarks either rely on limited context lengths or are tailored for static, long-context settings like book-based QA, which do not reflect the interactive, multi-turn nature of memory agents that incrementally accumulate information. Moreover, no existing benchmarks cover all four competencies. We introduce MemoryAgentBench, a new benchmark specifically designed for memory agents. Our benchmark transforms existing long-context datasets and incorporates newly constructed datasets into a multi-turn format, effectively simulating the incremental information processing characteristic of memory agents. By carefully selecting and curating datasets, our benchmark provides comprehensive coverage of the four core memory competencies outlined above, thereby offering a systematic and challenging testbed for assessing memory quality. We evaluate a diverse set of memory agents, ranging from simple context-based and retrieval-augmented generation (RAG) systems to advanced agents with external memory modules and tool integration. Empirical results reveal that current methods fall short of mastering all four competencies, underscoring the need for further research into comprehensive memory mechanisms for LLM agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-07T17:59:54Z</published>
+    <arxiv:comment>Y. Hu and Y. Wang contribute equally</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuanzhe Hu</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Julian McAuley</name>
+    </author>
+  </entry>
+</feed>

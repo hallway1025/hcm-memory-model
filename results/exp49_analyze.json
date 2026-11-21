@@ -1,0 +1,238 @@
+{
+ "exp": "exp49",
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "primary": {
+  "deg": "0.7",
+  "group": "intrain200",
+  "n_pooled": 600,
+  "mean_delta": 0.0,
+  "sd": 0.0,
+  "dz": 0.0,
+  "p_signflip": 1.0,
+  "per_seed": [
+   {
+    "seed": 0,
+    "n": 200,
+    "hit05": 66,
+    "hit10": 66,
+    "delta": 0
+   },
+   {
+    "seed": 1,
+    "n": 200,
+    "hit05": 53,
+    "hit10": 53,
+    "delta": 0
+   },
+   {
+    "seed": 2,
+    "n": 200,
+    "hit05": 66,
+    "hit10": 66,
+    "delta": 0
+   }
+  ]
+ },
+ "rows": [
+  {
+   "deg": "0.3",
+   "group": "intrain200",
+   "n_pooled": 600,
+   "mean_delta": 0.0,
+   "sd": 0.0,
+   "dz": 0.0,
+   "p_signflip": 1.0,
+   "per_seed": [
+    {
+     "seed": 0,
+     "n": 200,
+     "hit05": 138,
+     "hit10": 138,
+     "delta": 0
+    },
+    {
+     "seed": 1,
+     "n": 200,
+     "hit05": 136,
+     "hit10": 136,
+     "delta": 0
+    },
+    {
+     "seed": 2,
+     "n": 200,
+     "hit05": 138,
+     "hit10": 138,
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "deg": "0.3",
+   "group": "dup200",
+   "n_pooled": 600,
+   "mean_delta": 0.0,
+   "sd": 0.0,
+   "dz": 0.0,
+   "p_signflip": 1.0,
+   "per_seed": [
+    {
+     "seed": 0,
+     "n": 200,
+     "hit05": 144,
+     "hit10": 144,
+     "delta": 0
+    },
+    {
+     "seed": 1,
+     "n": 200,
+     "hit05": 146,
+     "hit10": 146,
+     "delta": 0
+    },
+    {
+     "seed": 2,
+     "n": 200,
+     "hit05": 146,
+     "hit10": 146,
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "deg": "0.5",
+   "group": "intrain200",
+   "n_pooled": 600,
+   "mean_delta": 0.0,
+   "sd": 0.0,
+   "dz": 0.0,
+   "p_signflip": 1.0,
+   "per_seed": [
+    {
+     "seed": 0,
+     "n": 200,
+     "hit05": 109,
+     "hit10": 109,
+     "delta": 0
+    },
+    {
+     "seed": 1,
+     "n": 200,
+     "hit05": 102,
+     "hit10": 102,
+     "delta": 0
+    },
+    {
+     "seed": 2,
+     "n": 200,
+     "hit05": 106,
+     "hit10": 106,
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "deg": "0.5",
+   "group": "dup200",
+   "n_pooled": 600,
+   "mean_delta": 0.0,
+   "sd": 0.0,
+   "dz": 0.0,
+   "p_signflip": 1.0,
+   "per_seed": [
+    {
+     "seed": 0,
+     "n": 200,
+     "hit05": 135,
+     "hit10": 135,
+     "delta": 0
+    },
+    {
+     "seed": 1,
+     "n": 200,
+     "hit05": 137,
+     "hit10": 137,
+     "delta": 0
+    },
+    {
+     "seed": 2,
+     "n": 200,
+     "hit05": 137,
+     "hit10": 137,
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "deg": "0.7",
+   "group": "intrain200",
+   "n_pooled": 600,
+   "mean_delta": 0.0,
+   "sd": 0.0,
+   "dz": 0.0,
+   "p_signflip": 1.0,
+   "per_seed": [
+    {
+     "seed": 0,
+     "n": 200,
+     "hit05": 66,
+     "hit10": 66,
+     "delta": 0
+    },
+    {
+     "seed": 1,
+     "n": 200,
+     "hit05": 53,
+     "hit10": 53,
+     "delta": 0
+    },
+    {
+     "seed": 2,
+     "n": 200,
+     "hit05": 66,
+     "hit10": 66,
+     "delta": 0
+    }
+   ]
+  },
+  {
+   "deg": "0.7",
+   "group": "dup200",
+   "n_pooled": 600,
+   "mean_delta": 0.0,
+   "sd": 0.0,
+   "dz": 0.0,
+   "p_signflip": 1.0,
+   "per_seed": [
+    {
+     "seed": 0,
+     "n": 200,
+     "hit05": 120,
+     "hit10": 120,
+     "delta": 0
+    },
+    {
+     "seed": 1,
+     "n": 200,
+     "hit05": 123,
+     "hit10": 123,
+     "delta": 0
+    },
+    {
+     "seed": 2,
+     "n": 200,
+     "hit05": 123,
+     "hit10": 123,
+     "delta": 0
+    }
+   ]
+  }
+ ],
+ "gate": "mean>0 AND p<0.05 -> POSITIVE else NEGATIVE (prereg D-068)",
+ "verdict": "NEGATIVE",
+ "note_neg": "semantic-channel retrieval gain unconfirmed (incl. damaged regime); Claim 2 wording unchanged",
+ "finished_at": "2026-11-12T17:32:24.724115"
+}

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/trRMH1QRI71pYy/wIgMpdX7dWjA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2409.14908&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T12:14:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2409.14908" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.14908v2</id>
+    <title>KARMA: Augmenting Embodied AI Agents with Long-and-short Term Memory Systems</title>
+    <updated>2025-03-21T01:58:00Z</updated>
+    <link href="https://arxiv.org/abs/2409.14908v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.14908v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embodied AI agents responsible for executing interconnected, long-sequence household tasks often face difficulties with in-context memory, leading to inefficiencies and errors in task execution. To address this issue, we introduce KARMA, an innovative memory system that integrates long-term and short-term memory modules, enhancing large language models (LLMs) for planning in embodied agents through memory-augmented prompting. KARMA distinguishes between long-term and short-term memory, with long-term memory capturing comprehensive 3D scene graphs as representations of the environment, while short-term memory dynamically records changes in objects' positions and states. This dual-memory structure allows agents to retrieve relevant past scene experiences, thereby improving the accuracy and efficiency of task planning. Short-term memory employs strategies for effective and adaptive memory replacement, ensuring the retention of critical information while discarding less pertinent data. Compared to state-of-the-art embodied agents enhanced with memory, our memory-augmented embodied AI agent improves success rates by 1.3x and 2.3x in Composite Tasks and Complex Tasks within the AI2-THOR simulator, respectively, and enhances task execution efficiency by 3.4x and 62.7x. Furthermore, we demonstrate that KARMA's plug-and-play capability allows for seamless deployment on real-world robotic systems, such as mobile manipulation platforms.Through this plug-and-play memory system, KARMA significantly enhances the ability of embodied agents to generate coherent and contextually appropriate plans, making the execution of complex household tasks more efficient. The experimental videos from the work can be found at https://youtu.be/4BT7fnw9ehs. Our code is available at https://github.com/WZX0Swarm0Robotics/KARMA/tree/master.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-23T11:02:46Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zixuan Wang</name>
+    </author>
+    <author>
+      <name>Bo Yu</name>
+    </author>
+    <author>
+      <name>Junzhe Zhao</name>
+    </author>
+    <author>
+      <name>Wenhao Sun</name>
+    </author>
+    <author>
+      <name>Sai Hou</name>
+    </author>
+    <author>
+      <name>Shuai Liang</name>
+    </author>
+    <author>
+      <name>Xing Hu</name>
+    </author>
+    <author>
+      <name>Yinhe Han</name>
+    </author>
+    <author>
+      <name>Yiming Gan</name>
+    </author>
+  </entry>
+</feed>

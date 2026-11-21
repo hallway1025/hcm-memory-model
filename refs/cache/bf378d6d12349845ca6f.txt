@@ -1,0 +1,1122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mxpo6IL3QdvF5ymShYyJRhO8jdg</id>
+  <title>arXiv Query: search_query=all:agent AND all:memory AND all:survey AND submittedDate:"202401010000 TO 202612312359"&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-11-07T11:45:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:agent+AND+(all:memory+AND+(all:survey+AND+submittedDate:%22202401010000+TO+202612312359%22))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>156</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06052v4</id>
+    <title>A Survey of Agent Memory in the Second Half: Towards Self-Evolving and Long-Horizon Agents</title>
+    <updated>2026-08-04T20:54:45Z</updated>
+    <link href="https://arxiv.org/abs/2602.06052v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06052v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Research in artificial intelligence is shifting from model innovations and benchmark scores towards problem definition and rigorous real-world evaluation. As the field enters the "second half," the central challenge becomes real utility in long-horizon, dynamic, and user-dependent settings such as agentic coding, deep research, and computer use, where LLM-based agents face context explosion beyond fixed context windows and must continuously accumulate, manage, and selectively reuse information across extended interactions. Memory, with hundreds of papers released in 2025, therefore emerges as the critical solution to fill this utility gap. Beyond passive storage, memory is increasingly the substrate through which agents self-evolve: short-term memory gates which experiences are perceived and abstracted during execution, while long-term memory consolidates them into reusable knowledge and skills, forming the loop through which agents improve from their own experience. In this survey, we provide a unified view of foundation agent memory along three dimensions: memory substrate (internal parametric state and external retrieval-augmented stores), cognitive mechanism (sensory, working, episodic, semantic, and procedural), and memory subject (user-centric personalization and agent-centric experience). We then analyze how memory is operated under single- and multi-agent topologies and highlight learning policies over memory operations, showing how memory management itself is becoming a trainable capability spanning reinforcement-learned context curation, experience consolidation at decision time, and the emerging ecosystem of portable, shareable agent skills. Finally, we review evaluation benchmarks and metrics for memory utility, and outline open challenges and future directions.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-14T07:38:38Z</published>
+    <arxiv:comment>Accepted at Transactions on Machine Learning Research (TMLR) with Survey Certification. Project page: https://github.com/AgentMemoryWorld/Awesome-Agent-Memory</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wei-Chieh Huang</name>
+    </author>
+    <author>
+      <name>Weizhi Zhang</name>
+    </author>
+    <author>
+      <name>Yueqing Liang</name>
+    </author>
+    <author>
+      <name>Yuanchen Bei</name>
+    </author>
+    <author>
+      <name>Yankai Chen</name>
+    </author>
+    <author>
+      <name>Tao Feng</name>
+    </author>
+    <author>
+      <name>Xinyu Pan</name>
+    </author>
+    <author>
+      <name>Zhen Tan</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Tianxin Wei</name>
+    </author>
+    <author>
+      <name>Shanglin Wu</name>
+    </author>
+    <author>
+      <name>Ruiyao Xu</name>
+    </author>
+    <author>
+      <name>Liangwei Yang</name>
+    </author>
+    <author>
+      <name>Rui Yang</name>
+    </author>
+    <author>
+      <name>Wooseong Yang</name>
+    </author>
+    <author>
+      <name>Chin-Yuan Yeh</name>
+    </author>
+    <author>
+      <name>Hanrong Zhang</name>
+    </author>
+    <author>
+      <name>Haozhen Zhang</name>
+    </author>
+    <author>
+      <name>Siqi Zhu</name>
+    </author>
+    <author>
+      <name>Henry Peng Zou</name>
+    </author>
+    <author>
+      <name>Wanjia Zhao</name>
+    </author>
+    <author>
+      <name>Song Wang</name>
+    </author>
+    <author>
+      <name>Wujiang Xu</name>
+    </author>
+    <author>
+      <name>Zixuan Ke</name>
+    </author>
+    <author>
+      <name>Zheng Hui</name>
+    </author>
+    <author>
+      <name>Dawei Li</name>
+    </author>
+    <author>
+      <name>Yaozu Wu</name>
+    </author>
+    <author>
+      <name>Langzhou He</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Xiongxiao Xu</name>
+    </author>
+    <author>
+      <name>Baixiang Huang</name>
+    </author>
+    <author>
+      <name>Juntao Tan</name>
+    </author>
+    <author>
+      <name>Shelby Heinecke</name>
+    </author>
+    <author>
+      <name>Huan Wang</name>
+    </author>
+    <author>
+      <name>Caiming Xiong</name>
+    </author>
+    <author>
+      <name>Ahmed A. Metwally</name>
+    </author>
+    <author>
+      <name>Jun Yan</name>
+    </author>
+    <author>
+      <name>Chen-Yu Lee</name>
+    </author>
+    <author>
+      <name>Hanqing Zeng</name>
+    </author>
+    <author>
+      <name>Yinglong Xia</name>
+    </author>
+    <author>
+      <name>Xiaokai Wei</name>
+    </author>
+    <author>
+      <name>Ali Payani</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Haitong Ma</name>
+    </author>
+    <author>
+      <name>Wenya Wang</name>
+    </author>
+    <author>
+      <name>Chenguang Wang</name>
+    </author>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+    <author>
+      <name>Xin Eric Wang</name>
+    </author>
+    <author>
+      <name>Yongfeng Zhang</name>
+    </author>
+    <author>
+      <name>Jiaxuan You</name>
+    </author>
+    <author>
+      <name>Hanghang Tong</name>
+    </author>
+    <author>
+      <name>Xiao Luo</name>
+    </author>
+    <author>
+      <name>Xue Liu</name>
+    </author>
+    <author>
+      <name>Yizhou Sun</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+    <author>
+      <name>Julian McAuley</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+    <author>
+      <name>Jiawei Han</name>
+    </author>
+    <author>
+      <name>Philip S. Yu</name>
+    </author>
+    <author>
+      <name>Kai Shu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.22458v3</id>
+    <title>Evaluating LLM-based Agents for Multi-Turn Conversations: A Survey</title>
+    <updated>2026-10-25T13:10:49Z</updated>
+    <link href="https://arxiv.org/abs/2503.22458v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.22458v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This survey examines evaluation methods for large language model (LLM)-based agents in multi-turn conversational settings. Using a PRISMA-inspired framework, we systematically reviewed nearly 250 scholarly sources, capturing the state of the art from various venues of publication, and establishing a solid foundation for our analysis. Our study offers a structured approach by developing two interrelated taxonomy systems: one that defines \emph{what to evaluate} and another that explains \emph{how to evaluate}. The first taxonomy identifies key components of LLM-based agents for multi-turn conversations and their evaluation dimensions, including task completion, response quality, user experience, memory and context retention, as well as planning and tool integration. These components ensure that the performance of conversational agents is assessed in a holistic and meaningful manner. The second taxonomy system focuses on the evaluation methodologies. It categorizes approaches into annotation-based evaluations, automated metrics, hybrid strategies that combine human assessments with quantitative measures, and self-judging methods utilizing LLMs. This framework not only captures traditional metrics derived from language understanding, such as BLEU and ROUGE scores, but also incorporates advanced techniques that reflect the dynamic, interactive nature of multi-turn dialogues.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-28T14:08:40Z</published>
+    <arxiv:comment>Companion repository: https://github.com/Damon-GSY/multi-turn-agent-evaluation-survey</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>ACM Transactions on Intelligent Systems and Technology 17(4), 1-40 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Shengyue Guan</name>
+    </author>
+    <author>
+      <name>Jindong Wang</name>
+    </author>
+    <author>
+      <name>Jiang Bian</name>
+    </author>
+    <author>
+      <name>Bin Zhu</name>
+    </author>
+    <author>
+      <name>Jian-guang Lou</name>
+    </author>
+    <author>
+      <name>Haoyi Xiong</name>
+    </author>
+    <arxiv:doi>10.1145/3793671</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3793671" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.00093v1</id>
+    <title>Safety in Self-Evolving Agents: A Survey</title>
+    <updated>2026-09-08T05:04:40Z</updated>
+    <link href="https://arxiv.org/abs/2610.00093v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.00093v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) exhibit strong general capabilities, yet their parameters typically remain fixed after deployment, limiting learning from new interactions. In open-ended environments, this motivates self-evolving agents that continually update reusable state-including model parameters, memories, tool definitions, skills, and workflows-from data, feedback, and accumulated experience. This shift changes the safety problem: once experience becomes reusable state, past events become future causes, and information harmless in one context may later influence decisions with greater persistence, authority, or scope. Self-evolving agent safety therefore asks not only whether a response is aligned or an action authorized, but whether safety properties survive the accumulation, generalization, and cross-context reuse of locally useful experience. We introduce SAVER, a transition-centered framework in which Substrate locates reusable influence, Adaptation captures how it changes, Violation identifies compromised safety attributes, Exposure marks where failures become observable, and Response assesses containment, repair, or revocation. Our survey reveals that failures need not originate from harmful information: legitimate state can become unsafe when adaptation expands its persistence, authority, or scope beyond the conditions under which it was valid. Existing work provides comparatively strong evidence for admission, retrieval, activation, exposure, and local containment, but much less for descendant repair and evaluation after adaptation resumes. We therefore argue for longitudinal evaluation that traces unsafe influence to its originating transition, verifies repair across descendants, and tests whether it can re-emerge under continued evolution.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-08T05:04:40Z</published>
+    <arxiv:comment>Survey paper; 80 pages, 6 figures, 13 tables. Project page: https://xaddwell.github.io/Awesome-Self-Evolving-Agent-Safety/</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jiahao Chen</name>
+    </author>
+    <author>
+      <name>Zhou Feng</name>
+    </author>
+    <author>
+      <name>Oubo Ma</name>
+    </author>
+    <author>
+      <name>Yichen Yan</name>
+    </author>
+    <author>
+      <name>Ruixiao Lin</name>
+    </author>
+    <author>
+      <name>Hangtao Zhang</name>
+    </author>
+    <author>
+      <name>Linkang Du</name>
+    </author>
+    <author>
+      <name>Hengyu An</name>
+    </author>
+    <author>
+      <name>Yong Yang</name>
+    </author>
+    <author>
+      <name>Jun Liu</name>
+    </author>
+    <author>
+      <name>Junhao Li</name>
+    </author>
+    <author>
+      <name>Naen Xu</name>
+    </author>
+    <author>
+      <name>Chunyi Zhou</name>
+    </author>
+    <author>
+      <name>Yuan Su</name>
+    </author>
+    <author>
+      <name>Zehao Jin</name>
+    </author>
+    <author>
+      <name>Qianli Ma</name>
+    </author>
+    <author>
+      <name>Leyi Qi</name>
+    </author>
+    <author>
+      <name>Yiming Wang</name>
+    </author>
+    <author>
+      <name>Zhe Ma</name>
+    </author>
+    <author>
+      <name>Yuwen Pu</name>
+    </author>
+    <author>
+      <name>Mengyao Du</name>
+    </author>
+    <author>
+      <name>Yuanyi Song</name>
+    </author>
+    <author>
+      <name>Enhao Huang</name>
+    </author>
+    <author>
+      <name>Zhihui Fu</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+    <author>
+      <name>Jinfeng Li</name>
+    </author>
+    <author>
+      <name>Yuefeng Chen</name>
+    </author>
+    <author>
+      <name>Hui Xue</name>
+    </author>
+    <author>
+      <name>Yiming Li</name>
+    </author>
+    <author>
+      <name>Tianyu Du</name>
+    </author>
+    <author>
+      <name>Shouling Ji</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.18104v1</id>
+    <title>Self-Evolving Agents as Dynamic Graph Transformation: A Survey and New Perspective</title>
+    <updated>2026-06-10T10:22:56Z</updated>
+    <link href="https://arxiv.org/abs/2608.18104v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.18104v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM)-based agents are increasingly becoming self-evolving systems that persist across interactions, maintain memories, use tools, acquire skills, refine workflows, and coordinate with other agents. These capabilities make agent states structural and dynamic: entities, relations, attributes, dependencies, and execution structures change with new evidence, feedback, and environmental conditions. Existing graph-agent surveys typically treat graphs as support structures for agent functions rather than as evolving substrates, while self-evolving-agent surveys focus on agent-level mechanisms and rarely discuss graph topology evolution. Thus, the coupling between evolving agent state and dynamic graph topology remains underexplored. This survey connects these two research lines by framing \textit{agent evolution as dynamic graph transformation}. We model agent state as a dynamic graph, where memories, tools, skills, workflows, and inter-agent relations are represented as typed nodes, edges, and subgraphs updated through schema-constrained rewrites. Based on this formulation, we organize existing dynamic-graph-based methods for self-evolving agents into four taxonomies: node/feature evolution, edge/topology evolution, subgraph activation, and cross-component co-evolution. Building on this taxonomy, we propose dynamic graph learning as reusable infrastructure for self-evolving agents and map nine dynamic-graph-learning subfields to agent-evolution capabilities, discussing their adaptations and possible failure modes. Finally, we discuss five types of graph-aware evaluation and governance protocols from a dynamic-graph perspective, which complement end-task evaluation. The goal is to provide a compact structural lens for designing and governing self-evolving agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-10T10:22:56Z</published>
+    <arxiv:comment>Project: https://github.com/LuckyGirl-XU/Awesome-Agent-Dynamic-Graphs.git</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuanyuan Xu</name>
+    </author>
+    <author>
+      <name>Wenjie Zhang</name>
+    </author>
+    <author>
+      <name>Yin Chen</name>
+    </author>
+    <author>
+      <name>Xuemin Lin</name>
+    </author>
+    <author>
+      <name>Ying Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.13104v1</id>
+    <title>Self-Improvements in Modern Agentic Systems: A Survey</title>
+    <updated>2026-07-14T09:12:57Z</updated>
+    <link href="https://arxiv.org/abs/2607.13104v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.13104v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-improving autonomous agents are moving from research prototypes to deployed systems. The primary goal is controllable evolution, or adaptation, from experience with minimal or even no human input. This survey frames modern self-improving agents as adaptive systems that convert experience into accumulated capability gains. We offer a system-level framework that represents a modern agent as a configuration coupling a foundation model with an operational scaffold of prompts, memory, tools, and control logic. Within this framework, self-improvement is formalized as a self-induced update operator that obtains and commits updates to model parameters or scaffold components. We organize prior work by update target and by the signals that drive change, then review applications and discuss evaluation, before closing with open problems and future directions. For convenience, we track technical updates on https://github.com/selfimproving-agent/awesome-Self-Improving-Agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-14T09:12:57Z</published>
+    <arxiv:comment>97 pages, 12 figures. Project page: https://selfimproving-agent.github.io/ Repository: https://github.com/selfimproving-agent/awesome-Self-Improving-Agents</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhe Ren</name>
+    </author>
+    <author>
+      <name>Yimeng Chen</name>
+    </author>
+    <author>
+      <name>Dandan Guo</name>
+    </author>
+    <author>
+      <name>Guowei Rong</name>
+    </author>
+    <author>
+      <name>Tonghui Li</name>
+    </author>
+    <author>
+      <name>R. B. Xiong</name>
+    </author>
+    <author>
+      <name>Qingfeng Lan</name>
+    </author>
+    <author>
+      <name>Wenyi Wang</name>
+    </author>
+    <author>
+      <name>Li Nanbo</name>
+    </author>
+    <author>
+      <name>Yibo Yang</name>
+    </author>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.16301v3</id>
+    <title>Adaptation of Agentic AI: A Survey of Post-Training, Memory, and Skills</title>
+    <updated>2026-03-09T07:39:08Z</updated>
+    <link href="https://arxiv.org/abs/2512.16301v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.16301v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents are moving beyond prompting alone. ChatGPT marked the rise of general-purpose LLM assistants, DeepSeek showed that on-policy reinforcement learning with verifiable rewards can improve reasoning and tool use, and OpenClaw highlights a newer direction in which agents accumulate persistent memory and reusable skills. Yet the research landscape remains fragmented across post-training, retrieval, memory, and skill systems. This survey studies these developments under a single notion of \emph{adaptation}: improving an agent, its tools, or their interaction after pretraining. We organize the field with a four-paradigm framework spanning agent adaptation and tool adaptation. On the agent side, A1 (tool-execution-signaled) and A2 (agent-output-signaled) improve the agent itself through supervised fine-tuning, preference optimization, and reinforcement learning with verifiable rewards. On the tool side, T1 (agent-agnostic) provides reusable pre-trained modules any agent can call, while T2 (agent-supervised) uses the agent's outputs to train memory systems, skill libraries, or lightweight subagents. Using this framework, we review post-training methods, adaptive memory architectures, and agent skills; compare their trade-offs in cost, flexibility, and generalization; and summarize evaluation practices across deep research, software development, computer use, and drug discovery. We conclude by outlining open problems in agent-tool co-adaptation, continual learning, safety, and efficient deployment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-18T08:38:51Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Pengcheng Jiang</name>
+    </author>
+    <author>
+      <name>Jiacheng Lin</name>
+    </author>
+    <author>
+      <name>Zhiyi Shi</name>
+    </author>
+    <author>
+      <name>Zifeng Wang</name>
+    </author>
+    <author>
+      <name>Luxi He</name>
+    </author>
+    <author>
+      <name>Yichen Wu</name>
+    </author>
+    <author>
+      <name>Ming Zhong</name>
+    </author>
+    <author>
+      <name>Peiyang Song</name>
+    </author>
+    <author>
+      <name>Qizheng Zhang</name>
+    </author>
+    <author>
+      <name>Heng Wang</name>
+    </author>
+    <author>
+      <name>Xueqiang Xu</name>
+    </author>
+    <author>
+      <name>Hanwen Xu</name>
+    </author>
+    <author>
+      <name>Pengrui Han</name>
+    </author>
+    <author>
+      <name>Dylan Zhang</name>
+    </author>
+    <author>
+      <name>Jiashuo Sun</name>
+    </author>
+    <author>
+      <name>Chaoqi Yang</name>
+    </author>
+    <author>
+      <name>Kun Qian</name>
+    </author>
+    <author>
+      <name>Tian Wang</name>
+    </author>
+    <author>
+      <name>Changran Hu</name>
+    </author>
+    <author>
+      <name>Manling Li</name>
+    </author>
+    <author>
+      <name>Quanzheng Li</name>
+    </author>
+    <author>
+      <name>Hao Peng</name>
+    </author>
+    <author>
+      <name>Sheng Wang</name>
+    </author>
+    <author>
+      <name>Jingbo Shang</name>
+    </author>
+    <author>
+      <name>Chao Zhang</name>
+    </author>
+    <author>
+      <name>Jiaxuan You</name>
+    </author>
+    <author>
+      <name>Liyuan Liu</name>
+    </author>
+    <author>
+      <name>Pan Lu</name>
+    </author>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+    <author>
+      <name>Heng Ji</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+    <author>
+      <name>Jimeng Sun</name>
+    </author>
+    <author>
+      <name>Jiawei Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.13501v1</id>
+    <title>A Survey on the Memory Mechanism of Large Language Model based Agents</title>
+    <updated>2024-04-21T01:49:46Z</updated>
+    <link href="https://arxiv.org/abs/2404.13501v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.13501v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) based agents have recently attracted much attention from the research and industry communities. Compared with original LLMs, LLM-based agents are featured in their self-evolving capability, which is the basis for solving real-world problems that need long-term and complex agent-environment interactions. The key component to support agent-environment interactions is the memory of the agents. While previous studies have proposed many promising memory mechanisms, they are scattered in different papers, and there lacks a systematical review to summarize and compare these works from a holistic perspective, failing to abstract common and effective designing patterns for inspiring future studies. To bridge this gap, in this paper, we propose a comprehensive survey on the memory mechanism of LLM-based agents. In specific, we first discuss ''what is'' and ''why do we need'' the memory in LLM-based agents. Then, we systematically review previous studies on how to design and evaluate the memory module. In addition, we also present many agent applications, where the memory module plays an important role. At last, we analyze the limitations of existing work and show important future directions. To keep up with the latest advances in this field, we create a repository at \url{https://github.com/nuster1128/LLM_Agent_Memory_Survey}.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-21T01:49:46Z</published>
+    <arxiv:comment>39 pages, 5 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zeyu Zhang</name>
+    </author>
+    <author>
+      <name>Xiaohe Bo</name>
+    </author>
+    <author>
+      <name>Chen Ma</name>
+    </author>
+    <author>
+      <name>Rui Li</name>
+    </author>
+    <author>
+      <name>Xu Chen</name>
+    </author>
+    <author>
+      <name>Quanyu Dai</name>
+    </author>
+    <author>
+      <name>Jieming Zhu</name>
+    </author>
+    <author>
+      <name>Zhenhua Dong</name>
+    </author>
+    <author>
+      <name>Ji-Rong Wen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.18747v1</id>
+    <title>Code as Agent Harness</title>
+    <updated>2026-05-18T17:59:03Z</updated>
+    <link href="https://arxiv.org/abs/2605.18747v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.18747v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent large language models (LLMs) have demonstrated strong capabilities in understanding and generating code, from competitive programming to repository-level software engineering. In emerging agentic systems, code is no longer only a target output. It increasingly serves as an operational substrate for agent reasoning, acting, environment modeling, and execution-based verification. We frame this shift through the lens of agent harnesses and introduce code as agent harness: a unified view that centers code as the basis for agent infrastructure. To systematically study this perspective, we organize the survey around three connected layers. First, we study the harness interface, where code connects agents to reasoning, action, and environment modeling. Second, we examine harness mechanisms: planning, memory, and tool use for long-horizon execution, together with feedback-driven control and optimization that make harness reliable and adaptive. Third, we discuss scaling the harness from single-agent systems to multi-agent settings, where shared code artifacts support multi-agent coordination, review, and verification. Across these layers, we summarize representative methods and practical applications of code as agent harness, spanning coding assistants, GUI/OS automation, embodied agents, scientific discovery, personalization and recommendation, DevOps, and enterprise workflows. We further outline open challenges for harness engineering, including evaluation beyond final task success, verification under incomplete feedback, regression-free harness improvement, consistent shared state across multiple agents, human oversight for safety-critical actions, and extensions to multimodal environments. By centering code as the harness of agentic AI, this survey provides a unified roadmap toward executable, verifiable, and stateful AI agent systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-18T17:59:03Z</published>
+    <arxiv:comment>GitHub: https://github.com/YennNing/Awesome-Code-as-Agent-Harness-Papers</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xuying Ning</name>
+    </author>
+    <author>
+      <name>Katherine Tieu</name>
+    </author>
+    <author>
+      <name>Dongqi Fu</name>
+    </author>
+    <author>
+      <name>Tianxin Wei</name>
+    </author>
+    <author>
+      <name>Zihao Li</name>
+    </author>
+    <author>
+      <name>Yuanchen Bei</name>
+    </author>
+    <author>
+      <name>Jiaru Zou</name>
+    </author>
+    <author>
+      <name>Mengting Ai</name>
+    </author>
+    <author>
+      <name>Zhining Liu</name>
+    </author>
+    <author>
+      <name>Ting-Wei Li</name>
+    </author>
+    <author>
+      <name>Lingjie Chen</name>
+    </author>
+    <author>
+      <name>Yanjun Zhao</name>
+    </author>
+    <author>
+      <name>Ke Yang</name>
+    </author>
+    <author>
+      <name>Bingxuan Li</name>
+    </author>
+    <author>
+      <name>Cheng Qian</name>
+    </author>
+    <author>
+      <name>Gaotang Li</name>
+    </author>
+    <author>
+      <name>Xiao Lin</name>
+    </author>
+    <author>
+      <name>Zhichen Zeng</name>
+    </author>
+    <author>
+      <name>Ruizhong Qiu</name>
+    </author>
+    <author>
+      <name>Sirui Chen</name>
+    </author>
+    <author>
+      <name>Yifan Sun</name>
+    </author>
+    <author>
+      <name>Xiyuan Yang</name>
+    </author>
+    <author>
+      <name>Ruida Wang</name>
+    </author>
+    <author>
+      <name>Rui Pan</name>
+    </author>
+    <author>
+      <name>Chenyuan Yang</name>
+    </author>
+    <author>
+      <name>Dylan Zhang</name>
+    </author>
+    <author>
+      <name>Liri Fang</name>
+    </author>
+    <author>
+      <name>Zikun Cui</name>
+    </author>
+    <author>
+      <name>Yang Cao</name>
+    </author>
+    <author>
+      <name>Pan Chen</name>
+    </author>
+    <author>
+      <name>Dorothy Sun</name>
+    </author>
+    <author>
+      <name>Ren Chen</name>
+    </author>
+    <author>
+      <name>Mahesh Srinivasan</name>
+    </author>
+    <author>
+      <name>Nipun Mathur</name>
+    </author>
+    <author>
+      <name>Yinglong Xia</name>
+    </author>
+    <author>
+      <name>Hong Li</name>
+    </author>
+    <author>
+      <name>Hong Yan</name>
+    </author>
+    <author>
+      <name>Pan Lu</name>
+    </author>
+    <author>
+      <name>Lingming Zhang</name>
+    </author>
+    <author>
+      <name>Tong Zhang</name>
+    </author>
+    <author>
+      <name>Hanghang Tong</name>
+    </author>
+    <author>
+      <name>Jingrui He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13564v2</id>
+    <title>Memory in the Age of AI Agents</title>
+    <updated>2026-01-13T09:33:57Z</updated>
+    <link href="https://arxiv.org/abs/2512.13564v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13564v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory has emerged, and will continue to remain, a core capability of foundation model-based agents. As research on agent memory rapidly expands and attracts unprecedented attention, the field has also become increasingly fragmented. Existing works that fall under the umbrella of agent memory often differ substantially in their motivations, implementations, and evaluation protocols, while the proliferation of loosely defined memory terminologies has further obscured conceptual clarity. Traditional taxonomies such as long/short-term memory have proven insufficient to capture the diversity of contemporary agent memory systems. This work aims to provide an up-to-date landscape of current agent memory research. We begin by clearly delineating the scope of agent memory and distinguishing it from related concepts such as LLM memory, retrieval augmented generation (RAG), and context engineering. We then examine agent memory through the unified lenses of forms, functions, and dynamics. From the perspective of forms, we identify three dominant realizations of agent memory, namely token-level, parametric, and latent memory. From the perspective of functions, we propose a finer-grained taxonomy that distinguishes factual, experiential, and working memory. From the perspective of dynamics, we analyze how memory is formed, evolved, and retrieved over time. To support practical development, we compile a comprehensive summary of memory benchmarks and open-source frameworks. Beyond consolidation, we articulate a forward-looking perspective on emerging research frontiers, including memory automation, reinforcement learning integration, multimodal memory, multi-agent memory, and trustworthiness issues. We hope this survey serves not only as a reference for existing work, but also as a conceptual foundation for rethinking memory as a first-class primitive in the design of future agentic intelligence.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T17:22:34Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuyang Hu</name>
+    </author>
+    <author>
+      <name>Shichun Liu</name>
+    </author>
+    <author>
+      <name>Yanwei Yue</name>
+    </author>
+    <author>
+      <name>Guibin Zhang</name>
+    </author>
+    <author>
+      <name>Boyang Liu</name>
+    </author>
+    <author>
+      <name>Fangyi Zhu</name>
+    </author>
+    <author>
+      <name>Jiahang Lin</name>
+    </author>
+    <author>
+      <name>Honglin Guo</name>
+    </author>
+    <author>
+      <name>Shihan Dou</name>
+    </author>
+    <author>
+      <name>Zhiheng Xi</name>
+    </author>
+    <author>
+      <name>Senjie Jin</name>
+    </author>
+    <author>
+      <name>Jiejun Tan</name>
+    </author>
+    <author>
+      <name>Yanbin Yin</name>
+    </author>
+    <author>
+      <name>Jiongnan Liu</name>
+    </author>
+    <author>
+      <name>Zeyu Zhang</name>
+    </author>
+    <author>
+      <name>Zhongxiang Sun</name>
+    </author>
+    <author>
+      <name>Yutao Zhu</name>
+    </author>
+    <author>
+      <name>Hao Sun</name>
+    </author>
+    <author>
+      <name>Boci Peng</name>
+    </author>
+    <author>
+      <name>Zhenrong Cheng</name>
+    </author>
+    <author>
+      <name>Xuanbo Fan</name>
+    </author>
+    <author>
+      <name>Jiaxin Guo</name>
+    </author>
+    <author>
+      <name>Xinlei Yu</name>
+    </author>
+    <author>
+      <name>Zhenhong Zhou</name>
+    </author>
+    <author>
+      <name>Zewen Hu</name>
+    </author>
+    <author>
+      <name>Jiahao Huo</name>
+    </author>
+    <author>
+      <name>Junhao Wang</name>
+    </author>
+    <author>
+      <name>Yuwei Niu</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Zhenfei Yin</name>
+    </author>
+    <author>
+      <name>Xiaobin Hu</name>
+    </author>
+    <author>
+      <name>Yue Liao</name>
+    </author>
+    <author>
+      <name>Qiankun Li</name>
+    </author>
+    <author>
+      <name>Kun Wang</name>
+    </author>
+    <author>
+      <name>Wangchunshu Zhou</name>
+    </author>
+    <author>
+      <name>Yixin Liu</name>
+    </author>
+    <author>
+      <name>Dawei Cheng</name>
+    </author>
+    <author>
+      <name>Qi Zhang</name>
+    </author>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Shirui Pan</name>
+    </author>
+    <author>
+      <name>Yan Zhang</name>
+    </author>
+    <author>
+      <name>Philip Torr</name>
+    </author>
+    <author>
+      <name>Zhicheng Dou</name>
+    </author>
+    <author>
+      <name>Ji-Rong Wen</name>
+    </author>
+    <author>
+      <name>Xuanjing Huang</name>
+    </author>
+    <author>
+      <name>Yu-Gang Jiang</name>
+    </author>
+    <author>
+      <name>Shuicheng Yan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.06716v1</id>
+    <title>From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms</title>
+    <updated>2026-05-07T03:38:48Z</updated>
+    <link href="https://arxiv.org/abs/2605.06716v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.06716v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM)-based agents have fundamentally reshaped artificial intelligence by integrating external tools and planning capabilities. While memory mechanisms have emerged as the architectural cornerstone of these systems, current research remains fragmented, oscillating between operating system engineering and cognitive science. This theoretical divide prevents a unified view of technological synthesis and a coherent evolutionary perspective. To bridge this gap, this survey proposes a novel evolutionary framework for LLM agent memory mechanisms, formalizing the development process into three stages: Storage (trajectory preservation), Reflection (trajectory refinement), and Experience (trajectory abstraction). We first formally define these three stages before analyzing the three core drivers of this evolution: the necessity for long-range consistency, the challenges in dynamic environments, and the ultimate goal of continual learning. Furthermore, we specifically explore two transformative mechanisms in the frontier Experience stage: proactive exploration and cross-trajectory abstraction. By synthesizing these disparate views, this work offers robust design principles and a clear roadmap for the development of next-generation LLM agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-07T03:38:48Z</published>
+    <arxiv:comment>Accepted by ACL 2026 Findings</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jinghao Luo</name>
+    </author>
+    <author>
+      <name>Yuchen Tian</name>
+    </author>
+    <author>
+      <name>Chuxue Cao</name>
+    </author>
+    <author>
+      <name>Ziyang Luo</name>
+    </author>
+    <author>
+      <name>Hongzhan Lin</name>
+    </author>
+    <author>
+      <name>Kaixin Li</name>
+    </author>
+    <author>
+      <name>Chuyi Kong</name>
+    </author>
+    <author>
+      <name>Ruichao Yang</name>
+    </author>
+    <author>
+      <name>Jing Ma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05665v1</id>
+    <title>Graph-based Agent Memory: Taxonomy, Techniques, and Applications</title>
+    <updated>2026-02-05T13:49:05Z</updated>
+    <link href="https://arxiv.org/abs/2602.05665v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05665v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory emerges as the core module in the Large Language Model (LLM)-based agents for long-horizon complex tasks (e.g., multi-turn dialogue, game playing, scientific discovery), where memory can enable knowledge accumulation, iterative reasoning and self-evolution. Among diverse paradigms, graph stands out as a powerful structure for agent memory due to the intrinsic capabilities to model relational dependencies, organize hierarchical information, and support efficient retrieval. This survey presents a comprehensive review of agent memory from the graph-based perspective. First, we introduce a taxonomy of agent memory, including short-term vs. long-term memory, knowledge vs. experience memory, non-structural vs. structural memory, with an implementation view of graph-based memory. Second, according to the life cycle of agent memory, we systematically analyze the key techniques in graph-based agent memory, covering memory extraction for transforming the data into the contents, storage for organizing the data efficiently, retrieval for retrieving the relevant contents from memory to support reasoning, and evolution for updating the contents in the memory. Third, we summarize the open-sourced libraries and benchmarks that support the development and evaluation of self-evolving agent memory. We also explore diverse application scenarios. Finally, we identify critical challenges and future research directions. This survey aims to offer actionable insights to advance the development of more efficient and reliable graph-based agent memory systems. All the related resources, including research papers, open-source data, and projects, are collected for the community in https://github.com/DEEP-PolyU/Awesome-GraphMemory.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T13:49:05Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chang Yang</name>
+    </author>
+    <author>
+      <name>Chuang Zhou</name>
+    </author>
+    <author>
+      <name>Yilin Xiao</name>
+    </author>
+    <author>
+      <name>Su Dong</name>
+    </author>
+    <author>
+      <name>Luyao Zhuang</name>
+    </author>
+    <author>
+      <name>Yujing Zhang</name>
+    </author>
+    <author>
+      <name>Zhu Wang</name>
+    </author>
+    <author>
+      <name>Zijin Hong</name>
+    </author>
+    <author>
+      <name>Zheng Yuan</name>
+    </author>
+    <author>
+      <name>Zhishang Xiang</name>
+    </author>
+    <author>
+      <name>Shengyuan Chen</name>
+    </author>
+    <author>
+      <name>Huachi Zhou</name>
+    </author>
+    <author>
+      <name>Qinggang Zhang</name>
+    </author>
+    <author>
+      <name>Ninghao Liu</name>
+    </author>
+    <author>
+      <name>Jinsong Su</name>
+    </author>
+    <author>
+      <name>Xinrun Wang</name>
+    </author>
+    <author>
+      <name>Yi Chang</name>
+    </author>
+    <author>
+      <name>Xiao Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.02309v1</id>
+    <title>Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization</title>
+    <updated>2026-09-02T08:54:58Z</updated>
+    <link href="https://arxiv.org/abs/2609.02309v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.02309v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>GUI agents increasingly operate across websites, mobile apps, and desktop environments, yet the field still reports progress primarily through task success. We argue that practical deployment depends equally on efficiency: how much context, computation, action budget, and runtime overhead an agent consumes while succeeding. This survey studies efficient GUI agents through an end-to-end systems lens that preserves the current technical axes of observation efficiency, context and memory efficiency, action efficiency, and planner-side/system efficiency. For each subsection, we expand the seed literature through targeted search plus backward and forward citation chaining, then synthesize the dominant mechanisms, reported efficiency signals, and new overheads they introduce. Across the literature, recent progress converges on a small set of recurring ideas: selective reading instead of full-context ingestion, global-to-local visual allocation, recoverable memory rather than raw history replay, verification-aware control, and hybrid runtimes that can switch between GUI and non-GUI execution. We conclude by identifying the main open problems, including honest accounting of verifier cost, cross-benchmark comparability, and co-design of observation, memory, and execution layers under real latency and privacy constraints.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-02T08:54:58Z</published>
+    <arxiv:comment>Accept at Grounding Language Models: Learning Faithfully and Efficiently @ EMNLP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Bizhe Bai</name>
+    </author>
+    <author>
+      <name>Jiakang Yuan</name>
+    </author>
+    <author>
+      <name>Hongming Wu</name>
+    </author>
+    <author>
+      <name>Xinyue Wang</name>
+    </author>
+    <author>
+      <name>Jie Ren</name>
+    </author>
+    <author>
+      <name>Siyao Chen</name>
+    </author>
+    <author>
+      <name>Yuchen Ya</name>
+    </author>
+    <author>
+      <name>Fan Bai</name>
+    </author>
+    <author>
+      <name>Pai Peng</name>
+    </author>
+    <author>
+      <name>Huafeng Qin</name>
+    </author>
+    <author>
+      <name>Tao Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.23989v1</id>
+    <title>Towards trustworthy agentic AI: a comprehensive survey of safety, robustness, privacy, and system security</title>
+    <updated>2026-05-17T10:26:37Z</updated>
+    <link href="https://arxiv.org/abs/2605.23989v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.23989v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic AI systems -- Large Language Models (LLMs) augmented with planning, tool use, memory, and long-horizon interactions -- can execute complex tasks autonomously, but their multi-step trajectories introduce new failure modes that challenge trustworthiness. This survey provides a focused examination of trustworthy agentic AI through two core dimensions that are critical for high-risk deployments: Safety and Robustness, and Privacy and System Security. For each dimension, we clarify key concepts, identify where risks emerge along the agent workflow, and summarize stage-targeted mitigation strategies. Other trustworthiness aspects (value alignment, transparency, fairness, and accountability) are discussed as relevant context rather than parallel chapters. To support consistent comparison and deployment decisions, we consolidate evaluation into a unified metrics-and-benchmarks hub, emphasizing both outcome and process signals (e.g., constraint violations, trace completeness, and adversarial success rates) and offering scenario-to-metric guidance for release gating. We conclude by outlining open challenges such as self-evolving agents, runtime monitoring and verification, privacy-preserving personalization, and the trust-utility trade-off, and present a case study of real-world security failures in open-source agentic systems. Our goal is to serve as a practical reference for researchers and practitioners building trustworthy agentic systems in high-stakes environments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-17T10:26:37Z</published>
+    <arxiv:comment>36 pages, 4 figures. Survey/review article on trustworthy agentic AI. Published in Academia AI and Applications, 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Academia AI and Applications, vol. 2, 2026</arxiv:journal_ref>
+    <author>
+      <name>Jinhu Qi</name>
+    </author>
+    <author>
+      <name>Muzhi Li</name>
+    </author>
+    <author>
+      <name>Jiahong Liu</name>
+    </author>
+    <author>
+      <name>Yuqin Shu</name>
+    </author>
+    <author>
+      <name>Dianzhi Yu</name>
+    </author>
+    <author>
+      <name>Shicheng Ma</name>
+    </author>
+    <author>
+      <name>Wenqian Cui</name>
+    </author>
+    <author>
+      <name>Yiyang Zhao</name>
+    </author>
+    <author>
+      <name>Yiyi Chen</name>
+    </author>
+    <author>
+      <name>Ruoxi Jiang</name>
+    </author>
+    <author>
+      <name>Irwin King</name>
+    </author>
+    <author>
+      <name>Zenglin Xu</name>
+    </author>
+    <arxiv:doi>10.20935/AcadAI8260</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.20935/AcadAI8260" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.08599v1</id>
+    <title>Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation</title>
+    <updated>2026-09-08T11:34:04Z</updated>
+    <link href="https://arxiv.org/abs/2609.08599v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.08599v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents are evolving from single-session tools toward long-term personal assistants that must adapt to individual users across tasks, contexts, and interactions. This shift makes memory a core requirement for personalization, since user preferences, goals, constraints, relationships, and past experiences are accumulated gradually and often change over time. Graph-based personalized memory provides a structured way to model such user information through explicit relations, temporal context, and evidence links. Such representations can model not only what an agent remembers about a user but also how memories are connected, revised, and retrieved to support personalized decisions. However, existing work remains fragmented across personalized agents and generic graph memory frameworks, making it difficult to understand the design space as a whole. This survey develops a lifecycle-oriented view of graph-based personalized memory for LLM agents. We organize existing studies around memory representation, memory evolution, memory retrieval, and memory evaluation. We further compare key design choices, discuss current evaluation practices, and open challenges in building reliable long-term personalized agents. This survey aims to clarify how graph-based memory can support adaptive, controllable, and user-centric LLM agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-08T11:34:04Z</published>
+    <arxiv:comment>Accepted by ICKG 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dac Duy Anh Nguyen</name>
+    </author>
+    <author>
+      <name>Zhangchi Qiu</name>
+    </author>
+    <author>
+      <name>Shigeng Chen</name>
+    </author>
+    <author>
+      <name>Alan Wee-Chung Liew</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.26226v1</id>
+    <title>LLM Agents for Time-Series: A Survey</title>
+    <updated>2026-08-26T15:48:35Z</updated>
+    <link href="https://arxiv.org/abs/2608.26226v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.26226v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-based agents are increasingly being developed for time-series problems, but their design choices vary substantially across task settings. This survey adopts a problem-driven taxonomy that organizes these systems by the time-series problems they address rather than by isolated technical components. We group existing systems into four categories: forecasting and reasoning, augmentation and synthesis, anomaly detection and diagnosis, and decision support. Within each category, we examine how task requirements shape agent architecture, tool use, and memory design. We further summarize representative datasets and environments, and compare reported model performance under shared or closely related settings. Overall, this survey offers a task-oriented guide to designing LLM-based agents for time-series problems and identifies open gaps for future work.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-26T15:48:35Z</published>
+    <arxiv:comment>Accepted to Findings of EMNLP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yilong Chen</name>
+    </author>
+    <author>
+      <name>Xiao Qin</name>
+    </author>
+    <author>
+      <name>Chenghao Liu</name>
+    </author>
+    <author>
+      <name>Liang Wu</name>
+    </author>
+    <author>
+      <name>Noelle I. Samia</name>
+    </author>
+    <author>
+      <name>Kaize Ding</name>
+    </author>
+  </entry>
+</feed>

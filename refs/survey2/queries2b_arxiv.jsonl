@@ -1,0 +1,20 @@
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"dense associative memory","channel":"arxiv","n":12}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"episodic control","channel":"arxiv","n":10}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"differentiable memory network","channel":"arxiv","n":10}
+{"area":"K2_episodic_store","module":"K2_episodic_store","role":"survey","query":"sparse associative memory","channel":"arxiv","n":10}
+{"area":"K3_temporal_links","module":"K3_temporal_links","role":"survey","query":"theta sequences replay","channel":"arxiv","n":10}
+{"area":"K3_temporal_links","module":"K3_temporal_links","role":"survey","query":"successor features transfer","channel":"arxiv","n":12}
+{"area":"K5_semantic_slow","module":"K5_semantic_slow","role":"survey","query":"weight interpolation forgetting","channel":"arxiv","n":12}
+{"area":"K5_semantic_slow","module":"K5_semantic_slow","role":"survey","query":"task arithmetic continual","channel":"arxiv","n":10}
+{"area":"K5_semantic_slow","module":"K5_semantic_slow","role":"survey","query":"hypernetwork continual learning","channel":"arxiv","n":10}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"bump attractor","channel":"arxiv","n":12}
+{"area":"K6_working_memory","module":"K6_working_memory","role":"survey","query":"working memory maintenance","channel":"arxiv","n":10}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"conformal prediction","channel":"arxiv","n":12}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"uncertainty calibration","channel":"arxiv","n":12}
+{"area":"K7_meta_control","module":"K7_meta_control","role":"survey","query":"retrieval decision reinforcement","channel":"arxiv","n":10}
+{"area":"K8_event_layer","module":"K8_event_layer","role":"survey","query":"narrative understanding events","channel":"arxiv","n":10}
+{"area":"K8_event_layer","module":"K8_event_layer","role":"survey","query":"temporal reasoning question answering","channel":"arxiv","n":12}
+{"area":"K8_event_layer","module":"K8_event_layer","role":"survey","query":"unsupervised event segmentation","channel":"arxiv","n":10}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"BM25 lexical retrieval","channel":"arxiv","n":10}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"hybrid lexical dense retrieval","channel":"arxiv","n":12}
+{"area":"K9_text_frontend","module":"K9_text_frontend","role":"survey","query":"byte-level embedding","channel":"arxiv","n":10}

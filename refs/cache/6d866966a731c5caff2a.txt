@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/E9Aj9X8JfETz7hqsQ3cUJnzJNiE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2304.06626&amp;start=0&amp;max_results=1</title>
+  <updated>2026-11-07T14:32:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2304.06626" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2304.06626v1</id>
+    <title>Hebbian fast plasticity and working memory</title>
+    <updated>2023-04-13T15:53:09Z</updated>
+    <link href="https://arxiv.org/abs/2304.06626v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.06626v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Theories and models of working memory (WM) were at least since the mid-1990s dominated by the persistent activity hypothesis. The past decade has seen rising concerns about the shortcomings of sustained activity as the mechanism for short-term maintenance of WM information in the light of accumulating experimental evidence for so-called activity-silent WM and the fundamental difficulty in explaining robust multi-item WM. In consequence, alternative theories are now explored mostly in the direction of fast synaptic plasticity as the underlying mechanism.The question of non-Hebbian vs Hebbian synaptic plasticity emerges naturally in this context. In this review we focus on fast Hebbian plasticity and trace the origins of WM theories and models building on this form of associative learning.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-13T15:53:09Z</published>
+    <arxiv:comment>12 pages, 2 figures, 1 box, submitted</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Anders Lansner</name>
+    </author>
+    <author>
+      <name>Florian Fiebig</name>
+    </author>
+    <author>
+      <name>Pawel Herman</name>
+    </author>
+  </entry>
+</feed>

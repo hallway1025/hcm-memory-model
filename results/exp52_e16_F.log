@@ -1,0 +1,17 @@
+exp52 scale N=1000000 cell=F_b100 seed=0 rss0=31.9MB
+SCALE s0 write 100000/1000000 1352s rss=9781.7MB s/w=0.0135
+SCALE s0 write 200000/1000000 2788s rss=17157.4MB s/w=0.0139
+SCALE s0 write 300000/1000000 4331s rss=24409.2MB s/w=0.0144
+SCALE s0 write 400000/1000000 5912s rss=31660.9MB s/w=0.0147
+SCALE s0 write 500000/1000000 7549s rss=38912.3MB s/w=0.0150
+SCALE s0 write 600000/1000000 9302s rss=46164.3MB s/w=0.0154
+SCALE s0 write 700000/1000000 11078s rss=53415.9MB s/w=0.0158
+SCALE s0 write 800000/1000000 13007s rss=60667.7MB s/w=0.0162
+SCALE s0 write 900000/1000000 15004s rss=67919.3MB s/w=0.0166
+SCALE s0 write 1000000/1000000 17108s rss=75170.3MB s/w=0.0170
+SCALE s0 written=1000000 write=17108s rss=75170.3MB (enc 12038.4s sc 3519.7s append 1226.3s)
+SCALE audit n=1000 bad_dup=0 g_fail=0
+SCALE csr=3753.7MB built 0.0s rss=75170.3MB
+F_b100 s0 postings deg0: 60/60 abst=0 166.744s/q
+F_b100 s0 postings deg25: 60/60 abst=0 158.812s/q
+DONE {"N": 1000000, "cell": "F_b100", "seed": 0, "write_s": 17107.6, "peak_rss_mb": 75170.3}

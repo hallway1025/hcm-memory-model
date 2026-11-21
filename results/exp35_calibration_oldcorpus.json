@@ -1,0 +1,58 @@
+{
+ "n": 539,
+ "tags": {
+  "in_clean": {
+   "n": 150,
+   "hit_rate": 0.8867
+  },
+  "in_deg30": {
+   "n": 150,
+   "hit_rate": 0.8067
+  },
+  "out": {
+   "n": 150,
+   "hit_rate": 0.0
+  },
+  "para": {
+   "n": 89,
+   "hit_rate": 0.382
+  }
+ },
+ "feature_sets": {
+  "A_raw": {
+   "auc_eval": 0.8325,
+   "ece_eval": 0.1178,
+   "brier_eval": 0.145,
+   "auc_all": 0.8401,
+   "n_dev": 270,
+   "n_eval": 269
+  },
+  "B_pert": {
+   "auc_eval": 0.81,
+   "ece_eval": 0.1051,
+   "brier_eval": 0.1431,
+   "auc_all": 0.8226,
+   "n_dev": 270,
+   "n_eval": 269
+  },
+  "C_cons": {
+   "auc_eval": 0.8868,
+   "ece_eval": 0.0586,
+   "brier_eval": 0.1234,
+   "auc_all": 0.8904,
+   "n_dev": 270,
+   "n_eval": 269
+  }
+ },
+ "g3_hard_auc": 0.8327,
+ "g3_hard_n": 389,
+ "elapsed_s": 1495.1,
+ "config": {
+  "d_x": 256,
+  "library_rows": 8844,
+  "written": 7207,
+  "n_probes": 539,
+  "smoke": false,
+  "judge": "obs_of_L-035"
+ }
+}

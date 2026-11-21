@@ -1,0 +1,55 @@
+{
+ "threshold": 3.0,
+ "areas": {
+  "A_timescale": {
+   "total": 120,
+   "coarse": 61,
+   "fine": 37
+  },
+  "B_forget": {
+   "total": 147,
+   "coarse": 95,
+   "fine": 95
+  },
+  "C_neuro": {
+   "total": 105,
+   "coarse": 66,
+   "fine": 63
+  },
+  "D_consolidation": {
+   "total": 126,
+   "coarse": 118,
+   "fine": 99
+  },
+  "E_wm": {
+   "total": 106,
+   "coarse": 92,
+   "fine": 92
+  },
+  "F_capacity": {
+   "total": 133,
+   "coarse": 124,
+   "fine": 75
+  },
+  "G_structure": {
+   "total": 119,
+   "coarse": 43,
+   "fine": 41
+  },
+  "H_scale": {
+   "total": 109,
+   "coarse": 70,
+   "fine": 53
+  },
+  "I_confidence": {
+   "total": 112,
+   "coarse": 78,
+   "fine": 74
+  },
+  "J_llm_memory": {
+   "total": 62,
+   "coarse": 55,
+   "fine": 56
+  }
+ }
+}

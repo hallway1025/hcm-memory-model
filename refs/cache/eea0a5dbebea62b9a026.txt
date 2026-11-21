@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["28085883"],"translationset":[],"querytranslation":"\"10 1371 journal pbio 2000531\"[Publisher ID]"}}
