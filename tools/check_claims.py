@@ -725,6 +725,25 @@ def check_numbers():
     expect_s("appx stage0 CN pool", paper_has("paper/PAPER_final.md", "检索池 132 条、中位 43 天"), True)
     expect_s("appx stage0 CN hits", paper_has("paper/PAPER_final.md", "11,171 次检索命中"), True)
 
+    # ---- G-R3b-prime dense sweep (v1.4, results/g3br_prime.json) ----
+    gp = J("g3br_prime.json")
+    gk = [r["beta_star"] for r in gp["rows"]]
+    expect("g3br knees seed0", gk[0], 20.0, 0)
+    expect("g3br knees seed1", round(gk[1], 4), 28.2843, 0.001)
+    expect("g3br knees seed2", round(gk[2], 4), 28.2843, 0.001)
+    expect("g3br recall at 14.1 all zero",
+           min(r["beta_rates"]["14.1421"]["rate"] for r in gp["rows"]), 0.0, 0)
+    expect("g3br recall at 28.3 all one",
+           min(r["beta_rates"]["28.2843"]["rate"] for r in gp["rows"]), 1.0, 0)
+    expect("g3br knee_x_gap seed0", gp["verdicts"][0]["knee_x_gap"], 1.0, 0.001)
+    expect("g3br knee_x_gap seed2", gp["verdicts"][2]["knee_x_gap"], 1.4142, 0.001)
+    expect("g3br ln N", gp["ln_N"], 7.6009, 0.001)
+    expect_s("g3br holds_all", gp["holds_all"], False)
+    expect_s("g3br CN appG paragraph", paper_has("paper/PAPER_final.md", "G-R3b′ 密扫（v1.4 补"), True)
+    expect_s("g3br CN pointer", paper_has("paper/PAPER_final.md", "knee·gap=1.0–1.41 < ln N=7.60"), True)
+    expect_s("g3br EN appG paragraph", paper_has("paper/PAPER_EN_final.md", "G-R3b-prime dense sweep (added in v1.4"), True)
+    expect_s("g3br EN pointer", paper_has("paper/PAPER_EN_final.md", "knee·gap = 1.0–1.41 < ln N = 7.60"), True)
+
     return problems, checked
 
 
