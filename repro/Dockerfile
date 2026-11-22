@@ -1,4 +1,4 @@
-﻿# HCM v1.2 一键复现容器（外部实验室：docker build -t hcm-v13 repro/ && docker run --rm hcm-v13）
+# HCM v1.4 一键复现容器（外部实验室：docker build -t hcm-v14 repro/ && docker run --rm hcm-v14）
 # 本机未装 docker，此路径未在本机实测；构建与验收在外部实验室首次执行时自证。
 FROM python:3.14-slim
 WORKDIR /hcm

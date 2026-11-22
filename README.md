@@ -73,7 +73,7 @@ m.forget()                       # 遗忘：剪枝 + 抑制
 
 ```
 src/hcm/     模型参考实现（12 个模块，纯 NumPy，无深度学习框架依赖）
-bench/       实验脚本（exp1–exp55）与 reproduce_all.py 一键入口
+bench/       实验脚本（exp1–exp59）与 reproduce_all.py 一键入口
 results/     每个实验的 JSON 结果（含全部条件与随机种子）
 repro/       一键环境（setup + run_repro + 四道验收守卫）
 refs/        448 条引文库与机器核验元数据

@@ -1,4 +1,4 @@
-﻿# HCM v1.3 一键复现环境
+# HCM v1.4 一键复现环境
 
 **目标**（主人批准件 3 的底线）：外部实验室拿到仓库后，**一条命令**重建环境、跑完全部实验与守卫，得到与本机一致的全绿 verdict。
 
@@ -18,8 +18,8 @@ bash repro/run_repro.sh    # 一键：25 步全流程 + 三守卫 + 哈希对账
 
 **C. 容器（Docker）**
 ```bash
-docker build -t hcm-v13 repro/
-docker run --rm hcm-v13
+docker build -t hcm-v14 repro/
+docker run --rm hcm-v14
 ```
 容器路径本机无 docker、未实测，外部实验室首次构建时自证。
 
@@ -29,7 +29,7 @@ docker run --rm hcm-v13
 |---|---|---|
 | G1 claims | tools/check_claims.py | 457/457 PASS（三向比对全绿） |
 | G2 citations | tools/verify_citations.py verify | n=448 gate PASS（T1+T2=79.5%） |
-| G3 closure | tools/update_cited_ids.py | entries=69 mapped=69 unmatched=[] |
+| G3 closure | tools/update_cited_ids.py | entries=57 mapped=57 unmatched=[] |
 | G4 sha256 | audit/SHA256SUMS.txt 对账 | 全部条目哈希一致、无缺失 |
 
 ## 依赖（repro/requirements.txt，版本钉死）

@@ -1,12 +1,12 @@
 # HCM deliverables SHA256 manifest
-# generated: 2026-11-22T19:17:23+00:00
+# generated: 2026-11-22T20:37:02+00:00
 # files: 681
 # scope: project deliverables only (src/bench/results/tools/refs/tests/docs/repro/paper/audit/notes + README.md);
 #        third-party virtualenvs and OS caches are excluded by construction
 # 用途：替代缺失的 git 提交哈希。核验方式：
 #   python -c "import hashlib,sys;print(hashlib.sha256(open(sys.argv[1],'rb').read()).hexdigest())" <file>
 
-99b06c0cca1ff9f071522559035a104c8cdea3f356efa797a50bfd9f593ed8f0  README.md
+f0cc07fbe3a328e4dd727f40da88cc459d74daca0dc86b6494d0dac66340097a  README.md
 7a62128ba73726d2a029ea1dfbbaa407e9c918f04779690034c81f77c696d56f  audit/AUDIT-REPORT.md
 d8b830949a3a4797f52f5c3bd6255f52772b2de6588f0e366a1024a77579e7a2  audit/CLAIM-STATUS.md
 94df5f8509d542fb0dab16eb04b3447ef250f6b1a550b7020a7d46632cd2d940  audit/REVIEW-GPT6ASTRA.md
@@ -206,8 +206,8 @@ c0387caddaebaf1a2eea5b1e7d3ebc9a17653e3f277c27e873116006a101ef2f  notes/lit/SURV
 9962b16874b22037679e57dcc4377d944f07ad013b971a66288e6a3b0522657b  notes/lit/llm-memory-systems-routes.md
 8331dc238286b82c45db9963108960d4edf0f8c3f91e1cc75101e07343a45bff  notes/section417-draft.md
 ebefbca4f97ad795ead2938dd4c44799c50a7bbc05140cf77f5bff6572eeb220  notes/section418-draft.md
-a19822aa27cc286c8be0c0cdbb30c740482cfef9ba01925e176df0dffb2ccc84  paper/PAPER.md
-af883dab8c973bad72d5f415c2ac53110d0ead171981fa03ff97d68ba2bcf6a8  paper/PAPER_EN.md
+e660301f7a6a281d7b7db97cc6594026986d637411d288cd37dc3457afb711ea  paper/PAPER.md
+b3421275cb6d9002ddad1e95b31f82bc878607f25920ff319f1c1e2c6f47836a  paper/PAPER_EN.md
 eec6f7fe400dddaced5da059ae6ac6756a0f6993618a32b2681adaab99c82d80  paper/figures/fig1_architecture.png
 9f3df480af33eb9ea752014e1f0a3a18e32d555574ee064b3f210b3d3622fccc  paper/figures/fig1_architecture.tif
 ce4a44617d0ec91fc7f8329e665b64c53309328197e233f0c449ee918962dfc0  paper/figures/fig2_separation.png
@@ -268,8 +268,8 @@ e388ebb24757b2b87b8dfad5db379c3da4c52484875c587a381fb7f85e33d29e  refs/survey/sc
 5f4044dc2368c2c863fa29ce533af74615d87e3bf0c973a4494dee9d698fa24d  refs/survey/verify-report.md
 3a6d9e71b0e7e09cf1c5c4409ec3b0695c4bd5d38988ac35e2caa43d40524068  refs/survey/verify_survey.py
 33e9a703da3dd34033cd91b5886c0ddbd3c58165b3cde9ad8cf532c83869bb54  refs/tier_justifications.md
-60fa1baf6acaa036db2f5ac4b1ef075117874bc930211b8b57c3e42beb06e338  repro/Dockerfile
-1b645792f9ea78a8327e92a4fea58a9d6265fa93d887a65a88da6400a302e1e8  repro/README.md
+db0f55d6378434ca5a1f10fc57c7f4ccc494b7b3af85590034de5b2dd390fa6b  repro/Dockerfile
+b1a239e73980992f193bd54616b9b7c1b182c3b7cd28d54fcec4e1b072af18ed  repro/README.md
 ea606357490c50748f47241d6ec86cab25d8ea24a5a0d8ed1e9a208418e1f5c2  repro/requirements.txt
 73e02941d28f7965c72949af37fda8a54182de7cf5ba9e49568e51a3f8b999ac  repro/run_guards.py
 c7e84189742a96e652142f34b55a796124721feec53d2619867d490e5e1b9dd3  repro/run_repro.ps1
