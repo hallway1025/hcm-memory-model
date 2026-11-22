@@ -34,15 +34,17 @@ The difference from prior work is not a novel learning rule, but the composition
 
 **Softmax sharpness under growing item counts.** Veličković et al. show theoretically that a fixed-temperature softmax cannot robustly approximate sharp functions as the number of test-time items grows, and that learned circuits must therefore disperse [15]; §4.12 and Appendix F provide the associative-memory empirical counterpart — a dose–response with β*(N) ≈ log N, a verified operating point (β=100 full-pass at N=10⁵, §7), and a carrier localisation (shared gist rows).
 
-**Systems consolidation and replay.** Sequence reactivation inside sharp-wave ripples (SWRs) during sleep is central to systems consolidation [16] [17]; replay runs both forward and in reverse [18] [19]; suppressing ripples impairs spatial memory [20]; the macroscopic time course of systems consolidation is reviewed in [21] [22]; for memory "transformation" rather than "copying" see [23] [24]. We test these claims computationally: the role of replay is **interleaving**, while "picking by importance" yields no extra benefit on our benchmark.
+**Extreme-value interference and retrieval-contrast degradation (prior-theory alignment).** Ghaffari et al. formalise "evidence degradation as distractors accumulate" as extreme-value interference in attention: the decisive-evidence score is upper-bounded while the maximum score among effective distractors grows with their number; under a softmax retrieval abstraction, maintaining a fixed accuracy target requires the evidence margin to scale as $\Omega(\sqrt{\log N})$ (with $N$ the effective distractor count) [16]. That work (public 2026-08-12, three months before our measurements) and this report's Sec. 4.12 / Appendix E share the **same phenomenon domain, the same extreme-value statistical core, and a scaling law of the same family**; the differing exponents (a worst-case $\Omega(\sqrt{\log N})$ lower bound vs the measured compensating $\beta^*(N)\approx\log N$ on structured sparse corpora) reflect different boundary conditions, not a contradiction. The division of labour: the prior work answers the degradation side (how fast retrieval degrades); this report answers the compensation side (how much to adjust) — the measured $\beta^*(N)$ compensation curve, the score-gap online instrument, and cross-session transfer (Sec. 4.22). Our experimental timeline postdates that publication; this section is a retroactive addition, stated to avoid any priority misunderstanding.
 
-**Timing decisions for writing and retrieval (priority alignment).** This model treats “whether to write” as an explicit decision, and two lines of prior work must be put side by side. Lu, Hasson and Norman train a recurrent network to explicitly learn *when to retrieve and when to encode* episodic memories [25] — the nearest neighbour that treats writing/retrieval as controlled decisions rather than passive registration. Spens and Burgess’s generative model of memory uses error-gated storage and itself acknowledges a trade-off between write flexibility and capacity [26]. Our increment is not “having a gate” but three things: the gate is an **event-level multi-channel** decision (novelty/reward/salience/activation, four channels synthesised, §3.6, not a single error signal); channel contributions are **ablated item by item and reported honestly** (including the functional-redundancy verdict between gating and write deduplication, §4.8); and the whole write decision is tested **end-to-end on a real corpus against public baselines** (§4.13, §4.19).
+**Systems consolidation and replay.** Sequence reactivation inside sharp-wave ripples (SWRs) during sleep is central to systems consolidation [17] [18]; replay runs both forward and in reverse [19] [20]; suppressing ripples impairs spatial memory [21]; the macroscopic time course of systems consolidation is reviewed in [22] [23]; for memory "transformation" rather than "copying" see [24] [25]. We test these claims computationally: the role of replay is **interleaving**, while "picking by importance" yields no extra benefit on our benchmark.
 
-**Continual learning.** Catastrophic forgetting was named by McCloskey and Cohen and reviewed by French [27]; engineering countermeasures include regularisation (EWC [28]), replay, and architectural isolation. Our results agree that replay works, but stress that its efficacy depends on **whether the target representations share coordinates** — a point often ignored in the machine-learning literature. Similarity-weighted interleaved learning trains cross-coupled architectures to interleave new with similar old items [29]; our interleaving verdict (§4.4) is consistent with that line and extends it to the memory-system level.
+**Timing decisions for writing and retrieval (priority alignment).** This model treats “whether to write” as an explicit decision, and two lines of prior work must be put side by side. Lu, Hasson and Norman train a recurrent network to explicitly learn *when to retrieve and when to encode* episodic memories [26] — the nearest neighbour that treats writing/retrieval as controlled decisions rather than passive registration. Spens and Burgess’s generative model of memory uses error-gated storage and itself acknowledges a trade-off between write flexibility and capacity [27]. Our increment is not “having a gate” but three things: the gate is an **event-level multi-channel** decision (novelty/reward/salience/activation, four channels synthesised, §3.6, not a single error signal); channel contributions are **ablated item by item and reported honestly** (including the functional-redundancy verdict between gating and write deduplication, §4.8); and the whole write decision is tested **end-to-end on a real corpus against public baselines** (§4.13, §4.19).
 
-**Working memory and metacognition.** The dispute between the 7±2 [30] and 4±1 [31] capacity estimates is reconciled by the theta–gamma nested-oscillation model: each gamma cycle carries one item, the theta cycle sets the number of slots [32]. On metacognition, expected-value-of-control theory casts "whether to invest cognitive resources" as cost minimisation [33], and the neural basis of metacognitive ability is reviewed in [34]. Our meta-controller inherits cost minimisation and reports the measured discriminability of its confidence signal (Sec. 4.6).
+**Continual learning.** Catastrophic forgetting was named by McCloskey and Cohen and reviewed by French [28]; engineering countermeasures include regularisation (EWC [29]), replay, and architectural isolation. Our results agree that replay works, but stress that its efficacy depends on **whether the target representations share coordinates** — a point often ignored in the machine-learning literature. Similarity-weighted interleaved learning trains cross-coupled architectures to interleave new with similar old items [30]; our interleaving verdict (§4.4) is consistent with that line and extends it to the memory-system level.
 
-**LLM memory systems (system identification).** Since 2023 a family of engineering systems named "memory" has appeared around LLM agents; they are the application-facing competitors of this model, and we identify them at the related-work level (per the citation-policy revision of 2026-11-07, such entries are tagged [system identification] and are not used as evidence for scientific claims). Six routes emerge. (1) Context paging — MemGPT ports the OS virtual-memory metaphor into conversation, with the LLM calling tools to page between the main context and external storage [35]. (2) Experience stream plus reflection — Generative Agents store all natural-language experiences, retrieve by recency x importance x relevance, and periodically reflect to synthesise higher-level memories [36]. (3) Memory CRUD — Mem0 lets an LLM extract candidate facts, compare them to a vector store, and decide add/update/delete [37]. (4) Temporal knowledge graphs — Zep maintains event time and ingestion time as two timelines, with edge invalidation acting as "forgetting" [38]. (5) Hippocampal-indexing-inspired retrieval — HippoRAG uses an LLM-extracted knowledge graph as the index and Personalized PageRank as pattern completion, the most recent bio-inspired academic competitor [39]; its successor generalises the framework to non-parametric continual learning [40]. (6) Card box — A-MEM organises memories as Zettelkasten notes with neighbour-triggered evolution [41]. A survey of this engineering-agent memory line is given in [42].
+**Working memory and metacognition.** The dispute between the 7±2 [31] and 4±1 [32] capacity estimates is reconciled by the theta–gamma nested-oscillation model: each gamma cycle carries one item, the theta cycle sets the number of slots [33]. On metacognition, expected-value-of-control theory casts "whether to invest cognitive resources" as cost minimisation [34], and the neural basis of metacognitive ability is reviewed in [35]. Our meta-controller inherits cost minimisation and reports the measured discriminability of its confidence signal (Sec. 4.6).
+
+**LLM memory systems (system identification).** Since 2023 a family of engineering systems named "memory" has appeared around LLM agents; they are the application-facing competitors of this model, and we identify them at the related-work level (per the citation-policy revision of 2026-11-07, such entries are tagged [system identification] and are not used as evidence for scientific claims). Six routes emerge. (1) Context paging — MemGPT ports the OS virtual-memory metaphor into conversation, with the LLM calling tools to page between the main context and external storage [36]. (2) Experience stream plus reflection — Generative Agents store all natural-language experiences, retrieve by recency x importance x relevance, and periodically reflect to synthesise higher-level memories [37]. (3) Memory CRUD — Mem0 lets an LLM extract candidate facts, compare them to a vector store, and decide add/update/delete [38]. (4) Temporal knowledge graphs — Zep maintains event time and ingestion time as two timelines, with edge invalidation acting as "forgetting" [39]. (5) Hippocampal-indexing-inspired retrieval — HippoRAG uses an LLM-extracted knowledge graph as the index and Personalized PageRank as pattern completion, the most recent bio-inspired academic competitor [40]; its successor generalises the framework to non-parametric continual learning [41]. (6) Card box — A-MEM organises memories as Zettelkasten notes with neighbour-triggered evolution [42]. A survey of this engineering-agent memory line is given in [43].
 
 **Why they do not engage with memory dynamics.** Compared with the nine subsystems of this model, these systems differ structurally in three ways. First, **frozen representations**: all similarity comes from pretrained embeddings; none learns representations from the user's data stream — so the input spaces of gating, disambiguation, and consolidation are fixed to the pretraining distribution. Second, **four operators absent or uncalibrated**: writing has no novelty gate (write-everything or LLM discretion); consolidation equals LLM summarisation/reflection (representations unchanged); forgetting equals explicit deletion or edge invalidation (no calibrated usage decay); retrieval control has no concept of abstention (always return top-k). Third, **a different objective function**: these systems optimise product metrics (latency, scalability, LoCoMo scores), whereas the life-cycle dynamics of memory — write gating, replay-based consolidation, retrieval-induced forgetting, calibrated abstention — are second-order at product time scales. This explains why bio-inspired metaphors (such as the hippocampal index of HippoRAG) are used as retrieval structures rather than as dynamical models. HCM is complementary rather than a replacement: any of these systems could swap its storage kernel for HCM dynamics, and the HippoRAG family is also our preferred baseline for future controlled comparisons.
 
@@ -64,15 +66,15 @@ where X is the input/context space, Φ the encoder, E the episodic fast store, S
 
 | Operator | Computational entity | Biological counterpart | Key references |
 |---|---|---|---|
-| X | content vector + context vector c + time index τ | entorhinal grid/border-cell inputs | [43] [44] |
+| X | content vector + context vector c + time index τ | entorhinal grid/border-cell inputs | [44] [45] |
 | Φ | expectation-bank residual + expansion + k-WTA | entorhinal cortex II/III → dentate granule cells | [7] [9] |
 | E | sparse column store + modern Hopfield iteration | CA3 recurrent collaterals | [11] [12] |
 | S | low-rank feedforward + cascade plasticity | neocortical pyramidal cells and semantic hubs | [1] [5] |
-| W | C slots, k-WTA competition | prefrontal theta–gamma nesting | [32] [30] |
-| Ψ | interleaved replay + weighted relearning | hippocampal SWR and cortical slow waves | [16] [17] |
-| Π | three-way cost-sensitive decision | prefrontal–hippocampal retrieval control | [33] [34] |
-| Γ | importance pruning + retrieval-induced suppression | prefrontal active suppression | [45] |
-| G | novelty/reward/salience gating | VTA, amygdala, locus coeruleus | [32] [46] |
+| W | C slots, k-WTA competition | prefrontal theta–gamma nesting | [33] [31] |
+| Ψ | interleaved replay + weighted relearning | hippocampal SWR and cortical slow waves | [17] [18] |
+| Π | three-way cost-sensitive decision | prefrontal–hippocampal retrieval control | [34] [35] |
+| Γ | importance pruning + retrieval-induced suppression | prefrontal active suppression | [46] |
+| G | novelty/reward/salience gating | VTA, amygdala, locus coeruleus | [33] [47] |
 
 ### 3.2 Encoder Φ: expectation-bank residual + expansion and sparsification
 
@@ -164,7 +166,7 @@ C slots; on presentation, items compete for slots by k-WTA (a new item competes 
     if cos(h_t, slot*) > θ_same: slot* ← unit(slot* + η_w h_t)   (accumulation of the same content)
     else: compete with the weakest slot; the winner is written
 
-Defaults: C = 4 (Cowan's four-slot estimate [31]), θ_same = 0.90, η_w = 0.35.
+Defaults: C = 4 (Cowan's four-slot estimate [32]), θ_same = 0.90, η_w = 0.35.
 
 ### 3.6 Gating G
 
@@ -190,7 +192,7 @@ m₁ is the fused evidence score (a weighted mix of attractor peak a_max and den
 
 ### 3.9 Forgetting Γ
 
-Four mechanisms: (a) episodic importance pruning (ranked by g·exp(−Δt/τ_f)·(1+use), lowest deleted first); (b) retrieval-induced suppression (competitor items retrieved against are down-weighted ρ_rif ∈ [0.05, 0.3] for several subsequent steps, emulating prefrontal active suppression [45]); (c) semantic usage decay (long-idle coordinates regain plasticity); (d) release from suppression (weights restore after the window).
+Four mechanisms: (a) episodic importance pruning (ranked by g·exp(−Δt/τ_f)·(1+use), lowest deleted first); (b) retrieval-induced suppression (competitor items retrieved against are down-weighted ρ_rif ∈ [0.05, 0.3] for several subsequent steps, emulating prefrontal active suppression [46]); (c) semantic usage decay (long-idle coordinates regain plasticity); (d) release from suppression (weights restore after the window).
 
 ### 3.10 Full pseudocode
 
@@ -547,7 +549,7 @@ Conclusion: a sparse encoder can acquire measurable semantic-similarity structur
 
 ### 4.14 Temporal association chains: from a null baseline to a replay-link mechanism *(Claim 2)*
 
-The preceding sections asked where a cue points among stored episodes. This section asks a question the hippocampus answers billions of times a day: after recalling one message, can the system recall the message that followed it? — forward temporal association. CA3 autoassociation physiologically supports temporal chains ([17]); we first probe this ability on real corpora as-built, then supply a minimal mechanism completion.
+The preceding sections asked where a cue points among stored episodes. This section asks a question the hippocampus answers billions of times a day: after recalling one message, can the system recall the message that followed it? — forward temporal association. CA3 autoassociation physiologically supports temporal chains ([18]); we first probe this ability on real corpora as-built, then supply a minimal mechanism completion.
 
 **4.14.1 The null baseline (exp27): pure episodic completion yields no usable forward association.** Corpus: the peer-02 training split, 9,033 real messages stored in full (7,340 written past the gate); embeddings are the character-level PPMI-SVD codes learned from the full training split (123,281 messages) (§4.13.3). The character encoder is fitted on the training split and evaluated on retrieval within the same conversations; this is a transductive setting, and inductive generalisation to unseen speakers is not claimed. Probe pairs are temporally adjacent messages (i, j=i+1) with gap ≤30 s and different senders (200 sampled). We query message i and rank j against a shuffled-slot control. Result: self-recall 198–200/200 (replicating §4.13), but next@5 is only 3/200 (1.5%; control 0/200), with median rank of j at 2,172 versus 3,363–3,745 for control — a weak 1.5–1.7× forward association (residual code-space smoothness left by conversational continuity), two orders of magnitude short of top-k usability. β∈{100, 500} × degradation {0, 30%} agree: **forward temporal structure does not emerge for free from content similarity; it must be learned explicitly**.
 
@@ -566,7 +568,7 @@ The preceding sections asked where a cue points among stored episodes. This sect
 
 Three structural conclusions. (i) **The dual readout dissolves the self/next conflict** — link gain enters only a₂; the episodic readout a₁ is intact in every arm (198–200/200), and the joint metric (both current and successor correct) reaches 199–200/200. (ii) **The dose threshold is analytic** — next@1 flips when the link gain exceeds the difference between the self score and the successor's code cosine, w\* ≈ self score − cos(code_j, code_i): with exact cues self = 1.0 and codes near-orthogonal (cos ≈ 0.04), so w ≥ 1.0 is needed; at 30% degradation the self score degrades pairwise, and w = 0.5 already yields 129/200. next@1(w, deg) therefore equals the cumulative distribution P(w > self score − cos_j) — a zero-free-parameter prediction the measured dose curve matches. (iii) **The null baseline is a necessary control for the mechanism** — without exp27's null, exp28's perfect scores could not be attributed to link plasticity rather than content similarity.
 
-Methodological note: an early version of this experiment showed "link gain completely ineffective"; instrumented inspection of the a₁ mass distribution located a transposed link matrix (out-link instead of in-link aggregation), the same lesson family as §4.13.2: verify where intermediate quantities land before attributing mechanism. Biological mapping: link plasticity corresponds to behavioural-timescale synaptic plasticity and CA3 temporal sequences ([17]); the dual readout corresponds to the CA3 (autoassociative completion) versus CA1 (forward prediction) division of labour; "suppress the current item when reading out the successor" (retrieval-induced forgetting, M8 in §4.8) gains a functional explanation here — the forgetting operator clears the channel for forward recall.
+Methodological note: an early version of this experiment showed "link gain completely ineffective"; instrumented inspection of the a₁ mass distribution located a transposed link matrix (out-link instead of in-link aggregation), the same lesson family as §4.13.2: verify where intermediate quantities land before attributing mechanism. Biological mapping: link plasticity corresponds to behavioural-timescale synaptic plasticity and CA3 temporal sequences ([18]); the dual readout corresponds to the CA3 (autoassociative completion) versus CA1 (forward prediction) division of labour; "suppress the current item when reading out the successor" (retrieval-induced forgetting, M8 in §4.8) gains a functional explanation here — the forgetting operator clears the channel for forward recall.
 
 ### 4.15 Confidence calibration of M0: evidence quality and code-consistency features on real corpora *(Claim 3)*
 
@@ -590,7 +592,7 @@ Three conclusions. **(i)** Raw retrieval evidence is not calibrated on the real 
 
 ### 4.16 A causal test of retrieval-induced suppression: a pre-registered negative result *(Claim 3)*
 
-**Motivation and design.** §4.8 judges M8_FOR INERT (observationally: suppression is indeed applied, top-1 unchanged), but that verdict came from the old 5-round practice protocol without a causal control. exp34 runs a pre-registered causal test following the retrieval-practice paradigm of cognitive psychology ([47]; [48]): the store has N = 2000 (rows sampled from the peer-01 real corpus, or synthetic overlap 0.3/0.6/0.9); 100 practice probes each retrieve successfully 3 times — the on arm applies suppression sup ← (1−ρ)·sup to the top-5 competitors during practice retrieval (ρ = 0.15; measured mean sup of Rp− = 0.593, about 295 suppression events per seed), the off arm keeps suppression off throughout; Rp− = the competitors suppressed during practice (mechanism-exact definition: sup < 1 during practice), repeated under the design-faithful criterion (top quartile of code cosine); Nrp = control items never suppressed and matched by write time (50/50 per cell); during testing neither arm applies new suppression (do_rif = False). The pre-registered verdict gates (G-A: the on arm's Rp− retrieval deficit relative to Nrp ≥ 0.10 with a 95% CI excluding 0, and the off arm's placebo deficit < 0.05; G-B: recovery rate after disinhibition ≥ 0.80; G-C: honest-negative path) and the statistics (bootstrap 10,000, seed = 7, paired by seed) were frozen as bench/exp34_analyze.py before the data landed. 4 cells × 2 arms × 12 seeds = 96 runs, three shards in parallel, about 41 minutes per shard.
+**Motivation and design.** §4.8 judges M8_FOR INERT (observationally: suppression is indeed applied, top-1 unchanged), but that verdict came from the old 5-round practice protocol without a causal control. exp34 runs a pre-registered causal test following the retrieval-practice paradigm of cognitive psychology ([48]; [49]): the store has N = 2000 (rows sampled from the peer-01 real corpus, or synthetic overlap 0.3/0.6/0.9); 100 practice probes each retrieve successfully 3 times — the on arm applies suppression sup ← (1−ρ)·sup to the top-5 competitors during practice retrieval (ρ = 0.15; measured mean sup of Rp− = 0.593, about 295 suppression events per seed), the off arm keeps suppression off throughout; Rp− = the competitors suppressed during practice (mechanism-exact definition: sup < 1 during practice), repeated under the design-faithful criterion (top quartile of code cosine); Nrp = control items never suppressed and matched by write time (50/50 per cell); during testing neither arm applies new suppression (do_rif = False). The pre-registered verdict gates (G-A: the on arm's Rp− retrieval deficit relative to Nrp ≥ 0.10 with a 95% CI excluding 0, and the off arm's placebo deficit < 0.05; G-B: recovery rate after disinhibition ≥ 0.80; G-C: honest-negative path) and the statistics (bootstrap 10,000, seed = 7, paired by seed) were frozen as bench/exp34_analyze.py before the data landed. 4 cells × 2 arms × 12 seeds = 96 runs, three shards in parallel, about 41 minutes per shard.
 
 | cell | hit Rp−(on) | hit Nrp(on) | hit Nrp(off) | deficit(on) | placebo deficit(off) | paired causal Δ(on−off) | recovery |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -600,7 +602,7 @@ Three conclusions. **(i)** Raw retrieval evidence is not calibrated on the real 
 
 On peer-02 (the only cell with dynamic range), the on arm's Rp− deficit is **negative**: the suppressed items score higher than Nrp (1.000 vs 0.843) — because Rp− is by definition the item with the highest code cosine (strongest encoding), and the off arm's placebo yields a same-sign deficit (−0.150), showing this gap is an **encoding-strength baseline**, not an RIF effect; after pairing out the encoding-strength difference within the same seed, RIF's net causal effect is −0.007 with a 95% CI of [−0.050, +0.037] covering 0. **Verdict: G-A FAIL; per the pre-registration we take the G-C honest-negative path — under HCM's current implementation and parameterisation, retrieval-induced suppression does not produce below-baseline forgetting.** The synthetic cells' ceiling (o ≤ 0.6 all 1.0) and floor (o = 0.9, all items ~0.34, on = off) carry no information for this question and are declared as such. G-B (reversibility) PASSES on peer-02 (1.000).
 
-**Mechanism: why HCM does not reproduce human RIF.** In the implementation, sup is a per-item **retrieval-evidence multiplier** (suppress only does sup ← (1−ρ)·sup; disinhibit can restore it); it never touches the stored pattern itself nor changes other items' encoding strength. When probing an Rp− item directly, its own cue is nearest to its own pattern, and multiplying the evidence by 0.59 is not enough for any competitor to overtake (the modern Hopfield's exponential sharpening widens the gap further) — the "direct single-item recall" dependent variable is naturally robust to an evidence multiplier. In the human RIF literature, below-baseline forgetting appears in competitive retrieval and free-recall settings ([47]) or in memory suppression requiring executive control ([48]); HCM's forced-choice top-1 probe gives suppression no channel of expression. Secondary check: the practice target P's final hit rate is identical across arms (0.862 vs 0.862, paired Δ = 0.0000) — even the benefit "gating helps target retrieval" does not exist, because P is the practice winner and its competitors never genuinely threatened top-1.
+**Mechanism: why HCM does not reproduce human RIF.** In the implementation, sup is a per-item **retrieval-evidence multiplier** (suppress only does sup ← (1−ρ)·sup; disinhibit can restore it); it never touches the stored pattern itself nor changes other items' encoding strength. When probing an Rp− item directly, its own cue is nearest to its own pattern, and multiplying the evidence by 0.59 is not enough for any competitor to overtake (the modern Hopfield's exponential sharpening widens the gap further) — the "direct single-item recall" dependent variable is naturally robust to an evidence multiplier. In the human RIF literature, below-baseline forgetting appears in competitive retrieval and free-recall settings ([48]) or in memory suppression requiring executive control ([49]); HCM's forced-choice top-1 probe gives suppression no channel of expression. Secondary check: the practice target P's final hit rate is identical across arms (0.862 vs 0.862, paired Δ = 0.0000) — even the benefit "gating helps target retrieval" does not exist, because P is the practice winner and its competitors never genuinely threatened top-1.
 
 **Relocation of M8.** In HCM, M8's retrieval-induced suppression functions as a **transient retrieval gate** (serving interference management for the current retrieval and IOR-style sequential scheduling, §4.14); it is **not a forgetting mechanism**; the wording of §3.9 has been tightened accordingly.
 
@@ -626,7 +628,7 @@ Three readings. **First**, §4.16's corollary is confirmed: storage-level suppre
 
 **The trilemma (revised).** Together, exp34 and exp34b yield an empirical trilemma for "suppressing one memory" in a cosine-geometric attractor store: (a) **readout gain** (the sup multiplier): local, reversible, zero behavioural deficit (exp34); (b) **magnitude decay**: produces genuine below-baseline forgetting (G-A′), but the selective cost is bundled with a monotonically growing global cost (G-S1); (c) **direction change** = the code no longer matches itself = deletion. Combined with the analytic fact that the retrieval evidence ed/‖ed‖ is normalised at the whole-vector level, so per-column magnitude is the only storage handle that enters evidence ranking — any "decay then renormalise" implementation cancels effect (b) entirely. Therefore: **selective below-baseline forgetting under this geometry is either impossible, or comes at the price of a monotonically growing global damage.**
 
-**Biological mapping.** Homeostatic synaptic scaling ([49]) is precisely the normalisation mechanism by which a single synapse's magnitude change is absorbed by a dendrite-scale global rescaling: biology likewise cannot make one memory weaker while leaving the global state untouched through pure magnitude operations. The usable channels therefore reduce to two — gain/context control (corresponding to M8's readout-gate relocation, §4.16) and structural change (spine elimination ≙ direction change ≙ deletion). HCM's positioning of M8 as a retrieval-gain gate is not an implementation compromise but a geometric necessity isomorphic to biology.
+**Biological mapping.** Homeostatic synaptic scaling ([50]) is precisely the normalisation mechanism by which a single synapse's magnitude change is absorbed by a dendrite-scale global rescaling: biology likewise cannot make one memory weaker while leaving the global state untouched through pure magnitude operations. The usable channels therefore reduce to two — gain/context control (corresponding to M8's readout-gate relocation, §4.16) and structural change (spine elimination ≙ direction change ≙ deletion). HCM's positioning of M8 as a retrieval-gain gate is not an implementation compromise but a geometric necessity isomorphic to biology.
 
 **Methodological notes.** ① The smoke-scale hub "finding" was a scale artefact — diagnostic intermediate quantities (modal-slot share) must be pre-registered together with the main criteria, so that a scale change can falsify them rather than be narrated around; G-S2's FAIL is as important as the two PASSes. ② Together with §4.14 and §4.16, this section constitutes the methodological claim: both negative and positive results have verdict power only under the protection of pre-registered gates, placebo arms and paired design.
 
@@ -644,7 +646,7 @@ Section 4.14 established the replay-link mechanism (exp28). This section address
 
 ### 4.19 External baselines: a direct comparison with dense Hopfield / SDM on the same real corpus *(Claim 1)*
 
-**Motivation.** Before this section, every comparison was an internal ablation (full model vs disabling its own modules) with no external reference. We select two recognised baselines sharing HCM's theoretical lineage: **dense Hebbian Hopfield** (M += xxᵀ; retrieval a = Mq with cosine argmax — i.e. the §3.3 skeleton with sparsification, residual and gating removed [11]) and **Kanerva's Sparse Distributed Memory (SDM)** (N_loc = 10×N_lib random ±1 hard locations, addresses from the sign-binarised code, Hamming radius r = 146 (the 1% upper quantile of random-address distances), activated locations accumulate the real-valued codes for readout [50]). The three arms share the same data (peer-01 v2 train, 9,033 messages), the same S256 character-semantic encoding, the same degraded-probe construction (±200-window character overlap < 0.5, 200 probes) and the same criterion.
+**Motivation.** Before this section, every comparison was an internal ablation (full model vs disabling its own modules) with no external reference. We select two recognised baselines sharing HCM's theoretical lineage: **dense Hebbian Hopfield** (M += xxᵀ; retrieval a = Mq with cosine argmax — i.e. the §3.3 skeleton with sparsification, residual and gating removed [11]) and **Kanerva's Sparse Distributed Memory (SDM)** (N_loc = 10×N_lib random ±1 hard locations, addresses from the sign-binarised code, Hamming radius r = 146 (the 1% upper quantile of random-address distances), activated locations accumulate the real-valued codes for readout [51]). The three arms share the same data (peer-01 v2 train, 9,033 messages), the same S256 character-semantic encoding, the same degraded-probe construction (±200-window character overlap < 0.5, 200 probes) and the same criterion.
 
 **Results.**
 
@@ -660,7 +662,7 @@ All three pre-registered gates pass: G-B1 (HCM deg0.3 ≥ strongest baseline + 0
 
 ### 4.20 External validation on a public corpus: completion, temporal chains and abstention on DailyDialog *(Claim 2)*
 
-**Motivation.** All real-corpus experiments of §4.13 come from private WeChat sessions. To check that the conclusions do not depend on a single corpus source, we repeat three core experiments on the public dataset DailyDialog [51] (English multi-turn daily conversation; 68,994 train / 18,176 test messages, CC BY 4.0). Timestamps are synthetic (conversation i anchored at i×10,000 s, 2 s between turns), so adjacent turns fall within the gap ≤ 30 s protocol. Two encoder arms: NEW256 (the learned character-semantic encoder, fitted on the full train set) and R512 (random-projection baseline); all other configuration identical (β = 100, L = 3, a = 0.02, use_resid = False, obs_of criterion).
+**Motivation.** All real-corpus experiments of §4.13 come from private WeChat sessions. To check that the conclusions do not depend on a single corpus source, we repeat three core experiments on the public dataset DailyDialog [52] (English multi-turn daily conversation; 68,994 train / 18,176 test messages, CC BY 4.0). Timestamps are synthetic (conversation i anchored at i×10,000 s, 2 s between turns), so adjacent turns fall within the gap ≤ 30 s protocol. Two encoder arms: NEW256 (the learned character-semantic encoder, fitted on the full train set) and R512 (random-projection baseline); all other configuration identical (β = 100, L = 3, a = 0.02, use_resid = False, obs_of criterion).
 
 **T1 pattern completion.** N ∈ {2,000, 8,000, 20,000}, 100 degraded probes (deg 0.3) per cell:
 
@@ -741,13 +743,13 @@ The experimental prediction follows: if the residual is the key to separation, t
 
 ### 5.2 Why the dual readout is necessary
 
-That one projection is used twice — sparse code for writing, dense evidence for retrieval — looks like an engineering trick but has a clear biological counterpart: the sparse code determines **which** pattern is stored (the support = the units participating in storage), the dense evidence determines the **drive strength at retrieval** (the weighted sum over all presynaptic inputs). Mixing the two — as in the early "dual-pathway competition" draft — made the sparse pathway never win at high overlap while the dense pathway could not provide low-interference writes. The more general lesson: **"a sparse code" and "retrieving from the sparse code" are two independent design decisions**, frequently conflated in the literature. A nearest-neighbour contrast: Spens and Burgess state the tension between latent-structure abstraction and faithful episodic replay as an acknowledged dilemma [26]; this model takes a third path — abstraction is carried by the slow low-rank semantic store (§3.4), fidelity by the one-shot episodic store, and the dual readout bridges the two without the pathways competing for the same weights.
+That one projection is used twice — sparse code for writing, dense evidence for retrieval — looks like an engineering trick but has a clear biological counterpart: the sparse code determines **which** pattern is stored (the support = the units participating in storage), the dense evidence determines the **drive strength at retrieval** (the weighted sum over all presynaptic inputs). Mixing the two — as in the early "dual-pathway competition" draft — made the sparse pathway never win at high overlap while the dense pathway could not provide low-interference writes. The more general lesson: **"a sparse code" and "retrieving from the sparse code" are two independent design decisions**, frequently conflated in the literature. A nearest-neighbour contrast: Spens and Burgess state the tension between latent-structure abstraction and faithful episodic replay as an acknowledged dilemma [27]; this model takes a third path — abstraction is carried by the slow low-rank semantic store (§3.4), fidelity by the one-shot episodic store, and the dual readout bridges the two without the pathways competing for the same weights.
 
 ### 5.3 The value of replay lies in interleaving, not selection
 
-CLS and follow-up work often describe replay as "pick important items and repeat them" [16] [17] [22]. Our data show that **interleaving (mixing new and old samples in the same update batch) is the necessary and sufficient ingredient**, whereas "selection" (weighted by recency×surprise×reward) brings no extra benefit anywhere on the parameter plane and even harms under constrained buffers (Table 5). Why: the samples with the highest surprise are those the network currently fits worst — often outliers or label noise — and repeating them amplifies their influence. This does not contradict "replay protects old tasks": the protection comes from the old distribution being re-presented, not from hard samples being over-presented. Engineering moral: **uniform interleaving plus a sufficient buffer** beats elaborate importance sampling. Scope: the interleaving claim in this section concerns **distribution re-presentation during consolidation** and does not extrapolate to the blocked-versus-interleaved debate in human curricula (blocked practice can win on structure-discovery tasks — a different task domain) [52].
+CLS and follow-up work often describe replay as "pick important items and repeat them" [17] [18] [23]. Our data show that **interleaving (mixing new and old samples in the same update batch) is the necessary and sufficient ingredient**, whereas "selection" (weighted by recency×surprise×reward) brings no extra benefit anywhere on the parameter plane and even harms under constrained buffers (Table 5). Why: the samples with the highest surprise are those the network currently fits worst — often outliers or label noise — and repeating them amplifies their influence. This does not contradict "replay protects old tasks": the protection comes from the old distribution being re-presented, not from hard samples being over-presented. Engineering moral: **uniform interleaving plus a sufficient buffer** beats elaborate importance sampling. Scope: the interleaving claim in this section concerns **distribution re-presentation during consolidation** and does not extrapolate to the blocked-versus-interleaved debate in human curricula (blocked practice can win on structure-discovery tasks — a different task domain) [53].
 
-**The genealogy of replay prioritisation and its failure condition.** “In what order to replay” is an unfolding literature line; we align it on three layers (storage selection / replay scheduling / meta-control). Storage layer: Nagy, Orbán and Wu’s adaptive-compression framework explicitly separates “which episodes are retained” from “how often they are replayed”, with the former governed by surprise [52] — our write gate (§3.6) belongs to the former, the B3 verdict to the latter, and this paper keeps the two layers separate. Scheduling layer: Sun et al. find that generalisation-supporting replay schedules are close to uniform with globally regulated totals, leaving “how individual memories are chosen” as an open question [53]. Meta-control layer: Spens, Burgess and Behrens use reinforcement learning to **learn** the value of each episode and drive sleep-phase offline processing, making prioritisation effective [54]; Fountas et al. derive predictive forgetting from optimal generalisation under capacity constraints [55]. Assembling the three layers with our B3 result (with a fixed, once-at-write-time bounded tag, prioritised replay brings no gain and harms under constrained buffers; §4.4) yields a failure-condition characterisation: **the benefit of prioritisation depends on tags being learned online as a function of state; a fixed tag merely up-weights outliers**. Our negative result is therefore not an isolated counterexample but a controlled endpoint on the “fixed tags fail, learned tags work” boundary of that genealogy; the slot Nagy’s framework admits — lacking a mechanism that turns encoded detail into a more compressed trace — is precisely where our consolidation+forgetting suite (§3.7, §3.9) stands as a candidate answer, the third neighbouring open question. On the reinforcement-learning side, prioritised experience replay re-weights samples within a task’s training distribution by learning signal [56] — adjacent to, but distinct from, cross-session long-term-memory retrieval scheduling.
+**The genealogy of replay prioritisation and its failure condition.** “In what order to replay” is an unfolding literature line; we align it on three layers (storage selection / replay scheduling / meta-control). Storage layer: Nagy, Orbán and Wu’s adaptive-compression framework explicitly separates “which episodes are retained” from “how often they are replayed”, with the former governed by surprise [53] — our write gate (§3.6) belongs to the former, the B3 verdict to the latter, and this paper keeps the two layers separate. Scheduling layer: Sun et al. find that generalisation-supporting replay schedules are close to uniform with globally regulated totals, leaving “how individual memories are chosen” as an open question [54]. Meta-control layer: Spens, Burgess and Behrens use reinforcement learning to **learn** the value of each episode and drive sleep-phase offline processing, making prioritisation effective [55]; Fountas et al. derive predictive forgetting from optimal generalisation under capacity constraints [56]. Assembling the three layers with our B3 result (with a fixed, once-at-write-time bounded tag, prioritised replay brings no gain and harms under constrained buffers; §4.4) yields a failure-condition characterisation: **the benefit of prioritisation depends on tags being learned online as a function of state; a fixed tag merely up-weights outliers**. Our negative result is therefore not an isolated counterexample but a controlled endpoint on the “fixed tags fail, learned tags work” boundary of that genealogy; the slot Nagy’s framework admits — lacking a mechanism that turns encoded detail into a more compressed trace — is precisely where our consolidation+forgetting suite (§3.7, §3.9) stands as a candidate answer, the third neighbouring open question. On the reinforcement-learning side, prioritised experience replay re-weights samples within a task’s training distribution by learning signal [57] — adjacent to, but distinct from, cross-session long-term-memory retrieval scheduling.
 
 ### 5.4 The sufficient condition for catastrophic forgetting
 
@@ -884,7 +886,9 @@ Honest conclusions: (i) **equivalence is free** — sparsification changes no re
 
 The real encoder path (orthogonal $W_e$, top-k truncated Gaussian): at $d_h{=}1024$ the out-of-store maximum false alarm is 0.192 vs in-store self-match 0.998 (**margin 0.81**); at $d_h{=}4096$, 0.120 / 0.999 (**margin 0.88**). Under the retrieval softmax ($\beta{=}20$) these margins correspond to posterior ratios of several orders of magnitude.
 
-**Capacity implication**: the union bound $N \cdot P(S \ge s^*) \ll 1$ quantifies "retrieval confusion is not the bottleneck" — the library size at which a false alarm reaches half of self-match ($S \ge 10$) is $N^* \approx 1.3\times 10^{11}$ ($d_h{=}1024$) and $3.2\times 10^{16}$ ($d_h{=}4096$). The real capacity bottleneck is **denoising** (§4.3 RQ2): after cue degradation the self-match score falls toward the false-alarm band, rather than the band rising. Data: results/exp18_false_alarm.json.
+**Capacity implication**: the union bound $N \cdot P(S \ge s^*) \ll 1$ quantifies "retrieval confusion is not the bottleneck" — the library size at which a false alarm reaches half of self-match ($S \ge 10$) is $N^* \approx 1.3\times 10^{11}$ ($d_h{=}1024$) and $3.2\times 10^{16}$ ($d_h{=}4096$). The real capacity bottleneck is **denoising** (§4.3 RQ2): after cue degradation the self-match score falls toward the false-alarm band, rather than the band rising. Data: results/exp18_false_alarm.json
+
+**Alignment with the extreme-value interference bound (added in v1.4).** The union bound of this appendix prices the worst-case capacity on the false-alarm side; in the same family, Ghaffari et al. derive an $\Omega(\sqrt{\log N})$ lower bound on the evidence margin required for a fixed accuracy target (the degradation side of retrieval contrast) [16]. The measured $\beta^*(N)\approx\log N$ of this report (a 10x library growth maps to a ratio $\approx\ln 10$, e.g. 20\u219250\u2192100; Sec. 4.12 / Appendix G) is the **measured anchor on the compensation side**: $\log N$ grows faster than $\sqrt{\log N}$, so the two do not conflict — the bound characterises how fast contrast degrades, the measured curve characterises how much compensation is needed; two branches of the same extreme-value framework under different boundary conditions (worst-case margin vs measured knees on structured sparse corpora)..
 
 ## Appendix F: external replication — the collapse law does not depend on the HCM implementation
 
@@ -947,87 +951,89 @@ The pre-registered lower bound of G-R3b, β ≥ ln N/gap (152 at N=2×10³, 198.
 
 [15] Veličković et al. (2024). Softmax is not Enough (for Sharp Size Generalisation). *arXiv preprint*. 〔T3〕
 
-[16] Wilson (1994). Reactivation of Hippocampal Ensemble Memories During Sleep. *Science*. doi:10.1126/science.8036517 PMID:8036517 〔T1〕
+[16] Ghaffari et al. (2026). Context Poisoning as Extreme-Value Attention Interference in Long-Context Language Models. *arXiv preprint*. 〔T3〕
 
-[17] Buzsáki (2015). Hippocampal sharp wave‐ripple: A cognitive biomarker for episodic memory and planning. *Hippocampus*. doi:10.1002/hipo.22488 PMID:26135716 〔T2〕
+[17] Wilson (1994). Reactivation of Hippocampal Ensemble Memories During Sleep. *Science*. doi:10.1126/science.8036517 PMID:8036517 〔T1〕
 
-[18] Foster (2006). Reverse replay of behavioural sequences in hippocampal place cells during the awake state. *Nature*. doi:10.1038/nature04587 PMID:16474382 〔T1〕
+[18] Buzsáki (2015). Hippocampal sharp wave‐ripple: A cognitive biomarker for episodic memory and planning. *Hippocampus*. doi:10.1002/hipo.22488 PMID:26135716 〔T2〕
 
-[19] Diba (2007). Forward and reverse hippocampal place-cell sequences during ripples. *Nature Neuroscience*. doi:10.1038/nn1961 PMID:17828259 〔T1〕
+[19] Foster (2006). Reverse replay of behavioural sequences in hippocampal place cells during the awake state. *Nature*. doi:10.1038/nature04587 PMID:16474382 〔T1〕
 
-[20] Girardeau et al. (2009). Selective suppression of hippocampal ripples impairs spatial memory. *Nature Neuroscience*. doi:10.1038/nn.2384 PMID:19749750 〔T1〕
+[20] Diba (2007). Forward and reverse hippocampal place-cell sequences during ripples. *Nature Neuroscience*. doi:10.1038/nn1961 PMID:17828259 〔T1〕
 
-[21] Frankland (2005). The organization of recent and remote memories. *Nature Reviews Neuroscience*. doi:10.1038/nrn1607 PMID:15685217 〔T1〕
+[21] Girardeau et al. (2009). Selective suppression of hippocampal ripples impairs spatial memory. *Nature Neuroscience*. doi:10.1038/nn.2384 PMID:19749750 〔T1〕
 
-[22] Klinzing et al. (2019). Mechanisms of systems memory consolidation during sleep. *Nature Neuroscience*. doi:10.1038/s41593-019-0467-3 PMID:31451802 〔T1〕
+[22] Frankland (2005). The organization of recent and remote memories. *Nature Reviews Neuroscience*. doi:10.1038/nrn1607 PMID:15685217 〔T1〕
 
-[23] Winocur (2011). Memory Transformation and Systems Consolidation. *Journal of the International Neuropsychological Society*. doi:10.1017/s1355617711000683 PMID:21729403 〔T2〕
+[23] Klinzing et al. (2019). Mechanisms of systems memory consolidation during sleep. *Nature Neuroscience*. doi:10.1038/s41593-019-0467-3 PMID:31451802 〔T1〕
 
-[24] Sekeres et al. (2018). The hippocampus and related neocortical structures in memory transformation. *Neuroscience Letters*. doi:10.1016/j.neulet.2018.05.006 PMID:29733974 〔T1〕
+[24] Winocur (2011). Memory Transformation and Systems Consolidation. *Journal of the International Neuropsychological Society*. doi:10.1017/s1355617711000683 PMID:21729403 〔T2〕
 
-[25] Lu et al. (2022). A neural network model of when to retrieve and encode episodic memories. *eLife*. doi:10.7554/eLife.74445 〔None〕
+[25] Sekeres et al. (2018). The hippocampus and related neocortical structures in memory transformation. *Neuroscience Letters*. doi:10.1016/j.neulet.2018.05.006 PMID:29733974 〔T1〕
 
-[26] Spens (2024). A generative model of memory construction and consolidation. *Nature Human Behaviour*. doi:10.1038/s41562-023-01799-z 〔None〕
+[26] Lu et al. (2022). A neural network model of when to retrieve and encode episodic memories. *eLife*. doi:10.7554/eLife.74445 〔None〕
 
-[27] French (1999). Catastrophic forgetting in connectionist networks. *Trends in Cognitive Sciences*. doi:10.1016/s1364-6613(99)01294-2 PMID:10322466 〔T1〕
+[27] Spens (2024). A generative model of memory construction and consolidation. *Nature Human Behaviour*. doi:10.1038/s41562-023-01799-z 〔None〕
 
-[28] Kirkpatrick (2017). Overcoming catastrophic forgetting in neural networks. *Proceedings of the National Academy of Sciences*. doi:10.1073/pnas.1611835114 PMID:28292907 〔T1〕
+[28] French (1999). Catastrophic forgetting in connectionist networks. *Trends in Cognitive Sciences*. doi:10.1016/s1364-6613(99)01294-2 PMID:10322466 〔T1〕
 
-[29] Saxena et al. (2022). Learning in deep neural networks and brains with similarity-weighted interleaved learning. *Proceedings of the National Academy of Sciences*. doi:10.1073/pnas.2115229119 〔None〕
+[29] Kirkpatrick (2017). Overcoming catastrophic forgetting in neural networks. *Proceedings of the National Academy of Sciences*. doi:10.1073/pnas.1611835114 PMID:28292907 〔T1〕
 
-[30] Miller (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*. doi:10.1037/h0043158 〔T1〕
+[30] Saxena et al. (2022). Learning in deep neural networks and brains with similarity-weighted interleaved learning. *Proceedings of the National Academy of Sciences*. doi:10.1073/pnas.2115229119 〔None〕
 
-[31] Cowan (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. *Behavioral and Brain Sciences*. doi:10.1017/s0140525x01003922 PMID:11515286 〔T1〕
+[31] Miller (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*. doi:10.1037/h0043158 〔T1〕
 
-[32] Lisman (1995). Storage of 7 ± 2 Short-Term Memories in Oscillatory Subcycles. *Science*. doi:10.1126/science.7878473 PMID:7878473 〔T1〕
+[32] Cowan (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. *Behavioral and Brain Sciences*. doi:10.1017/s0140525x01003922 PMID:11515286 〔T1〕
 
-[33] Shenhav et al. (2013). The Expected Value of Control: An Integrative Theory of Anterior Cingulate Cortex Function. *Neuron*. doi:10.1016/j.neuron.2013.07.007 PMID:23889930 〔T1〕
+[33] Lisman (1995). Storage of 7 ± 2 Short-Term Memories in Oscillatory Subcycles. *Science*. doi:10.1126/science.7878473 PMID:7878473 〔T1〕
 
-[34] Fleming (2012). The neural basis of metacognitive ability. *Philosophical Transactions of the Royal Society B: Biological Sciences*. doi:10.1098/rstb.2011.0417 PMID:22492751 〔T1〕
+[34] Shenhav et al. (2013). The Expected Value of Control: An Integrative Theory of Anterior Cingulate Cortex Function. *Neuron*. doi:10.1016/j.neuron.2013.07.007 PMID:23889930 〔T1〕
 
-[35] Packer et al. (2023). MemGPT: Towards LLMs as Operating Systems. *arXiv preprint*. 〔T3〕
+[35] Fleming (2012). The neural basis of metacognitive ability. *Philosophical Transactions of the Royal Society B: Biological Sciences*. doi:10.1098/rstb.2011.0417 PMID:22492751 〔T1〕
 
-[36] Park et al. (2023). Generative Agents: Interactive Simulacra of Human Behavior. *arXiv preprint*. 〔T3〕
+[36] Packer et al. (2023). MemGPT: Towards LLMs as Operating Systems. *arXiv preprint*. 〔T3〕
 
-[37] Chhikara et al. (2025). Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. *arXiv preprint*. 〔T3〕
+[37] Park et al. (2023). Generative Agents: Interactive Simulacra of Human Behavior. *arXiv preprint*. 〔T3〕
 
-[38] Rasmussen et al. (2025). Zep: A Temporal Knowledge Graph Architecture for Agent Memory. *arXiv preprint*. 〔T3〕
+[38] Chhikara et al. (2025). Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. *arXiv preprint*. 〔T3〕
 
-[39] Gutiérrez et al. (2024). HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models. *Advances in Neural Information Processing Systems*. 〔T2〕
+[39] Rasmussen et al. (2025). Zep: A Temporal Knowledge Graph Architecture for Agent Memory. *arXiv preprint*. 〔T3〕
 
-[40] Gutiérrez et al. (2025). From RAG to Memory: Non-Parametric Continual Learning for Large Language Models. *arXiv preprint*. 〔T3〕
+[40] Gutiérrez et al. (2024). HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models. *Advances in Neural Information Processing Systems*. 〔T2〕
 
-[41] Xu et al. (2025). A-MEM: Agentic Memory for LLM Agents. *arXiv preprint*. 〔T3〕
+[41] Gutiérrez et al. (2025). From RAG to Memory: Non-Parametric Continual Learning for Large Language Models. *arXiv preprint*. 〔T3〕
 
-[42] Zhang et al. (2024). A Survey on the Memory Mechanism of Large Language Model based Agents. *arXiv preprint*. 〔T3〕
+[42] Xu et al. (2025). A-MEM: Agentic Memory for LLM Agents. *arXiv preprint*. 〔T3〕
 
-[43] O'Keefe (1971). The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat. *Brain Research*. doi:10.1016/0006-8993(71)90358-1 PMID:5124915 〔T2〕
+[43] Zhang et al. (2024). A Survey on the Memory Mechanism of Large Language Model based Agents. *arXiv preprint*. 〔T3〕
 
-[44] Hafting (2005). Microstructure of a spatial map in the entorhinal cortex. *Nature*. doi:10.1038/nature03721 PMID:15965463 〔T1〕
+[44] O'Keefe (1971). The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat. *Brain Research*. doi:10.1016/0006-8993(71)90358-1 PMID:5124915 〔T2〕
 
-[45] Medina (2018). Neural, Cellular and Molecular Mechanisms of Active Forgetting. *Frontiers in Systems Neuroscience*. doi:10.3389/fnsys.2018.00003 PMID:29467630 〔T1〕
+[45] Hafting (2005). Microstructure of a spatial map in the entorhinal cortex. *Nature*. doi:10.1038/nature03721 PMID:15965463 〔T1〕
 
-[46] McGaugh (2004). THE AMYGDALA MODULATES THE CONSOLIDATION OF MEMORIES OF EMOTIONALLY AROUSING EXPERIENCES. *Annual Review of Neuroscience*. doi:10.1146/annurev.neuro.27.070203.144157 PMID:15217324 〔T1〕
+[46] Medina (2018). Neural, Cellular and Molecular Mechanisms of Active Forgetting. *Frontiers in Systems Neuroscience*. doi:10.3389/fnsys.2018.00003 PMID:29467630 〔T1〕
 
-[47] Anderson et al. (1994). Remembering can cause forgetting: Retrieval dynamics in long-term memory. *Journal of Experimental Psychology: Learning, Memory, and Cognition*. doi:10.1037/0278-7393.20.5.1063 PMID:7931095 〔T2〕
+[47] McGaugh (2004). THE AMYGDALA MODULATES THE CONSOLIDATION OF MEMORIES OF EMOTIONALLY AROUSING EXPERIENCES. *Annual Review of Neuroscience*. doi:10.1146/annurev.neuro.27.070203.144157 PMID:15217324 〔T1〕
 
-[48] Anderson (2001). Suppressing unwanted memories by executive control. *Nature*. doi:10.1038/35066572 PMID:11268212 〔T1〕
+[48] Anderson et al. (1994). Remembering can cause forgetting: Retrieval dynamics in long-term memory. *Journal of Experimental Psychology: Learning, Memory, and Cognition*. doi:10.1037/0278-7393.20.5.1063 PMID:7931095 〔T2〕
 
-[49] Turrigiano et al. (1998). Activity-dependent scaling of quantal amplitude in neocortical neurons. *Nature*. doi:10.1038/36103 PMID:9495341 〔T1〕
+[49] Anderson (2001). Suppressing unwanted memories by executive control. *Nature*. doi:10.1038/35066572 PMID:11268212 〔T1〕
 
-[50] Pentti Kanerva (1988). Sparse Distributed Memory. *MIT Press*. 〔None〕
+[50] Turrigiano et al. (1998). Activity-dependent scaling of quantal amplitude in neocortical neurons. *Nature*. doi:10.1038/36103 PMID:9495341 〔T1〕
 
-[51] Yanran Li et al. (2017). DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. *arXiv preprint*. 〔T3〕
+[51] Pentti Kanerva (1988). Sparse Distributed Memory. *MIT Press*. 〔None〕
 
-[52] Nagy et al. (2025). Adaptive compression as a unifying framework for episodic and semantic memory. *Nature Reviews Psychology*. doi:10.1038/s44159-025-00458-6 〔None〕
+[52] Yanran Li et al. (2017). DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. *arXiv preprint*. 〔T3〕
 
-[53] Sun et al. (2023). Organizing memories for generalization in complementary learning systems. *Nature Neuroscience*. doi:10.1038/s41593-023-01382-9 〔None〕
+[53] Nagy et al. (2025). Adaptive compression as a unifying framework for episodic and semantic memory. *Nature Reviews Psychology*. doi:10.1038/s44159-025-00458-6 〔None〕
 
-[54] Spens et al. (2025). Modelling the control of offline processing with reinforcement learning. *Advances in Neural Information Processing Systems 38*. doi:10.52202/085713-4913 〔None〕
+[54] Sun et al. (2023). Organizing memories for generalization in complementary learning systems. *Nature Neuroscience*. doi:10.1038/s41593-023-01382-9 〔None〕
 
-[55] Fountas et al. (2026). Why the Brain Consolidates: Predictive Forgetting for Optimal Generalisation. *arXiv preprint*. 〔T3〕
+[55] Spens et al. (2025). Modelling the control of offline processing with reinforcement learning. *Advances in Neural Information Processing Systems 38*. doi:10.52202/085713-4913 〔None〕
 
-[56] Schaul et al. (2016). Prioritized Experience Replay. *arXiv preprint*. 〔T3〕
+[56] Fountas et al. (2026). Why the Brain Consolidates: Predictive Forgetting for Optimal Generalisation. *arXiv preprint*. 〔T3〕
+
+[57] Schaul et al. (2016). Prioritized Experience Replay. *arXiv preprint*. 〔T3〕
 
 
 ---
@@ -1138,7 +1144,7 @@ Per model module, the highest-authority sources in the citation bank (up to 8 ea
 
 - Yanran Li (2017). DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. *arXiv preprint*. 〔T3〕
 
-**related_work** (20 entries, 8 shown)
+**related_work** (21 entries, 8 shown)
 
 - Goto (2026). Neuromodulation-inspired gated associative memory networks: Extended memory retrieval and emergent multistabil. *Proceedings of the National Academy of Sciences*. 〔T1〕
 - Mahendrakar (2026). Consolidation Without Weights: What the Complementary Learning Systems Analogy Licenses in LLM Agent Memory, a. *Zenodo preprint (record 22699102)*. 〔T2〕

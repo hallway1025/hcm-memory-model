@@ -37,15 +37,17 @@
 
 **softmax 尖锐性与条目数增长。** Veličković 等从理论上证明：固定温度的 softmax 随测试条目数增长无法稳健逼近尖锐函数，学习到的电路因此必须发散 [15]；§4.12 与附录 F 给出联想记忆一侧的经验对应——剂量—响应 β*(N)≈log N、已验证运行点（β=100 满分通过 N=10⁵，§7）与载体定位（共享 gist 行）。
 
-**系统巩固与回放。** 睡眠期海马锐波涟漪（SWR）中的序列再激活是系统巩固的关键 [16] [17]，回放既有正向也有反向 [18] [19]；抑制涟漪会损害空间记忆 [20]；系统巩固的宏观时间过程见 [21] [22]；记忆「转化」而非「复制」的观点见 [23] [24]。我们在计算层面检验这些主张：回放的作用在于**交错**，而「按重要性挑选」在我们的基准里没有额外收益。
+**极值干扰与检索对比度退化（理论先行对表）。** Ghaffari 等将「干扰候选增多导致检索证据退化」形式化为注意力中的极值干扰：决定性证据分数有上界，而有效干扰项的最大分数随其数量增长；在 softmax 检索抽象下推导有限样本上界——维持固定精度目标需要证据边际按 $\Omega(\sqrt{\log N})$ 缩放（$N$ 为有效干扰项数）[16]。该工作（2026-08-12 公开，早于本稿实验三个月）与本稿 §4.12/附录 E 属**同一现象域、同一极值统计内核、标度律同族**；两者指数不同（$\Omega(\sqrt{\log N})$ 最坏情形下界 vs 结构化稀疏语料的实测 $\beta^*(N)\approx\log N$ 补偿）源于边界条件差异，并非矛盾。分工：先行工作回答退化侧（「会退化多快」），本稿回答补偿侧（「该调多少」）——$\beta^*(N)$ 的实测补偿曲线、score-gap 在线标定仪器与跨会话迁移（§4.22）。本稿实验时间线在该工作公开之后，本节为补引，特此声明以避免优先权误解。
 
-**写入与检索的时机决策（先行性对表）。** 本模型把「是否写入」当作显式决策，须与两条先行工作对表：Lu、Hasson 与 Norman 的循环神经网络显式学习「何时检索、何时编码」情节记忆的时机策略 [25]，是把写入/检索当作受控决策（而非被动登记）的最近邻先行；Spens 与 Burgess 的生成式记忆模型以误差门控（error-gated）写入情节，并自认写入灵活性与容量之间存在权衡 [26]。本模型的增量不在「有门控」，而在三点：门控是**事件级多通道**决策（新异性/奖赏/情绪/激活四通道合成，§3.6，而非单一误差信号）；通道贡献被**逐项消融并如实报告**（含门控与写入去重的功能冗余判定，§4.8）；整套写入决策在**真实语料与公认基线**上端到端检验（§4.13、§4.19）。
+**系统巩固与回放。** 睡眠期海马锐波涟漪（SWR）中的序列再激活是系统巩固的关键 [17] [18]，回放既有正向也有反向 [19] [20]；抑制涟漪会损害空间记忆 [21]；系统巩固的宏观时间过程见 [22] [23]；记忆「转化」而非「复制」的观点见 [24] [25]。我们在计算层面检验这些主张：回放的作用在于**交错**，而「按重要性挑选」在我们的基准里没有额外收益。
 
-**持续学习。** 灾难性遗忘由 McCloskey 与 Cohen 提出、French 系统综述 [27]；工程界的对策包括正则化（EWC [28]）、回放与架构隔离。我们的结果与「回放有效」一致，但强调其有效性依赖于**目标表征是否共享坐标**——这一点在机器学习文献中常被忽略。以相似度加权交错学习训练耦合架构、把新样本与相似的旧样本交错以抗遗忘的先行工作见 [29]；本模型 §4.4 的交错判决与该线一致，并将其延伸到记忆系统层面。
+**写入与检索的时机决策（先行性对表）。** 本模型把「是否写入」当作显式决策，须与两条先行工作对表：Lu、Hasson 与 Norman 的循环神经网络显式学习「何时检索、何时编码」情节记忆的时机策略 [26]，是把写入/检索当作受控决策（而非被动登记）的最近邻先行；Spens 与 Burgess 的生成式记忆模型以误差门控（error-gated）写入情节，并自认写入灵活性与容量之间存在权衡 [27]。本模型的增量不在「有门控」，而在三点：门控是**事件级多通道**决策（新异性/奖赏/情绪/激活四通道合成，§3.6，而非单一误差信号）；通道贡献被**逐项消融并如实报告**（含门控与写入去重的功能冗余判定，§4.8）；整套写入决策在**真实语料与公认基线**上端到端检验（§4.13、§4.19）。
 
-**工作记忆与元认知。** 容量 7±2 [30] 与 4±1 [31] 两种估计的争论，可由 θ–γ 嵌套的振荡子循环模型统一解释：每个 γ 周期携带一个条目，θ 周期决定槽位数 [32]。元认知方面，期望价值控制理论把「是否投入认知资源」写成代价最小化 [33]，元认知能力的神经基础见 [34]。我们的元控制器沿用代价最小化，并报告其置信信号的实测判别力（见 4.6 节）。
+**持续学习。** 灾难性遗忘由 McCloskey 与 Cohen 提出、French 系统综述 [28]；工程界的对策包括正则化（EWC [29]）、回放与架构隔离。我们的结果与「回放有效」一致，但强调其有效性依赖于**目标表征是否共享坐标**——这一点在机器学习文献中常被忽略。以相似度加权交错学习训练耦合架构、把新样本与相似的旧样本交错以抗遗忘的先行工作见 [30]；本模型 §4.4 的交错判决与该线一致，并将其延伸到记忆系统层面。
 
-**大模型记忆系统（系统识别）。** 2023 年以来，围绕 LLM 智能体出现了一批以「记忆」为名的工程系统，它们构成本模型的应用面竞争者，本文在相关工作层面加以识别（此类条目仅作相关工作层面的系统识别，不作为科学论断的证据）。可归纳为六条路线：① 上下文分页——MemGPT 把操作系统虚拟内存隐喻搬进对话，LLM 自调用工具在主上下文与外部存储间页入页出 [35]；② 经验流+反思——Generative Agents 全量存储自然语言经验，检索分为 recency×importance×relevance，并周期性由 LLM 反思合成高层记忆 [36]；③ 记忆 CRUD——Mem0 由 LLM 抽取候选事实、比对向量库、决定增删改 [37]；④ 时间知识图谱——Zep 维护事件时间与摄取时间双时间轴，以边失效充当「遗忘」[38]；⑤ 海马索引理论启发检索——HippoRAG 以 LLM 抽取的知识图谱为索引、Personalized PageRank 充当模式完成，是学术圈最近的生物启发对手 [39]，其后续把框架推广为非参数持续学习 [40]；⑥ 卡片盒——A-MEM 以 Zettelkasten 笔记组织记忆并触发邻居演化 [41]。该工程智能体记忆路线的综述见 [42]。
+**工作记忆与元认知。** 容量 7±2 [31] 与 4±1 [32] 两种估计的争论，可由 θ–γ 嵌套的振荡子循环模型统一解释：每个 γ 周期携带一个条目，θ 周期决定槽位数 [33]。元认知方面，期望价值控制理论把「是否投入认知资源」写成代价最小化 [34]，元认知能力的神经基础见 [35]。我们的元控制器沿用代价最小化，并报告其置信信号的实测判别力（见 4.6 节）。
+
+**大模型记忆系统（系统识别）。** 2023 年以来，围绕 LLM 智能体出现了一批以「记忆」为名的工程系统，它们构成本模型的应用面竞争者，本文在相关工作层面加以识别（此类条目仅作相关工作层面的系统识别，不作为科学论断的证据）。可归纳为六条路线：① 上下文分页——MemGPT 把操作系统虚拟内存隐喻搬进对话，LLM 自调用工具在主上下文与外部存储间页入页出 [36]；② 经验流+反思——Generative Agents 全量存储自然语言经验，检索分为 recency×importance×relevance，并周期性由 LLM 反思合成高层记忆 [37]；③ 记忆 CRUD——Mem0 由 LLM 抽取候选事实、比对向量库、决定增删改 [38]；④ 时间知识图谱——Zep 维护事件时间与摄取时间双时间轴，以边失效充当「遗忘」[39]；⑤ 海马索引理论启发检索——HippoRAG 以 LLM 抽取的知识图谱为索引、Personalized PageRank 充当模式完成，是学术圈最近的生物启发对手 [40]，其后续把框架推广为非参数持续学习 [41]；⑥ 卡片盒——A-MEM 以 Zettelkasten 笔记组织记忆并触发邻居演化 [42]。该工程智能体记忆路线的综述见 [43]。
 
 **它们为何没有深入记忆动力学。** 对照本模型的九子系统，这些系统有三点结构性差异。其一，**表征冻结**：相似度全部来自预训练 embedding，没有一家从用户数据流中学习表征——门控、消歧、巩固的输入空间因此固定在预训练分布上。其二，**四个算子缺席或非校准**：写入无新颖性门控（全量或 LLM 酌情）、巩固=LLM 摘要/反思（表征不变）、遗忘=显式删除或边失效（无使用度衰减的校准）、检索控制无弃权概念（硬给 top-k）。其三，**目标函数不同**：这些系统优化产品指标（延迟、可扩展性、LoCoMo 分数），而记忆的生命周期动力学（写入门控、回放巩固、检索诱发遗忘、校准弃权）在产品时间尺度上是次要项。这解释了为何生物启发的隐喻（如 HippoRAG 的海马索引）被用作检索结构而非动力学模型。HCM 与它们互补而非替代：任何一家的符号管理层都可以把存储内核替换为 HCM 动力学；HippoRAG 系也是我们后续对照实验的首选基线。
 
@@ -66,15 +68,15 @@ HCM 是一个九元组
 
 | 算子 | 计算实体 | 生物学对应 | 关键文献 |
 |---|---|---|---|
-| X | 内容向量 + 情境向量 c + 时间索引 τ | 内嗅皮层网格/边界细胞输入 | [43] [44] |
+| X | 内容向量 + 情境向量 c + 时间索引 τ | 内嗅皮层网格/边界细胞输入 | [44] [45] |
 | Φ | 期望库残差 + 扩张投射 + k-WTA | 内嗅皮层 II/III → 齿状回颗粒细胞 | [7] [9] |
 | E | 稀疏列存 + 现代 Hopfield 迭代 | CA3  recurrent 侧支 | [11] [12] |
 | S | 低秩前馈 + 级联可塑 | 新皮层锥体细胞与语义枢纽 | [1] [5] |
-| W | C 个槽位、k-WTA 竞争 | 前额叶 θ–γ 嵌套 | [32] [30] |
-| Ψ | 交错回放 + 加权再学习 | 海马 SWR 与皮层慢波 | [16] [17] |
-| Π | 三分支代价敏感决策 | 前额叶—海马检索控制 | [33] [34] |
-| Γ | 重要度剪枝 + 检索诱发抑制 | 前额叶主动抑制 | [45] |
-| G | 新颖性/奖赏/显著性的门控 | VTA、杏仁核、蓝斑 | [32] [46] |
+| W | C 个槽位、k-WTA 竞争 | 前额叶 θ–γ 嵌套 | [33] [31] |
+| Ψ | 交错回放 + 加权再学习 | 海马 SWR 与皮层慢波 | [17] [18] |
+| Π | 三分支代价敏感决策 | 前额叶—海马检索控制 | [34] [35] |
+| Γ | 重要度剪枝 + 检索诱发抑制 | 前额叶主动抑制 | [46] |
+| G | 新颖性/奖赏/显著性的门控 | VTA、杏仁核、蓝斑 | [33] [47] |
 
 ### 3.2 编码器 Φ：期望库残差 + 扩张稀疏
 
@@ -152,7 +154,7 @@ C 个槽位，逐条呈现时按 k-WTA 竞争写入（新条目与最不相似�
     if cos(h_t, slot*) > θ_same: slot* ← unit(slot* + η_w h_t)   （同一内容的累加）
     else: 与最弱槽位竞争，胜者写入
 
-C 默认 4（Cowan 的四槽位估计 [31]），θ_same = 0.90，η_w = 0.35。
+C 默认 4（Cowan 的四槽位估计 [32]），θ_same = 0.90，η_w = 0.35。
 
 ### 3.6 门控 G
 
@@ -178,7 +180,7 @@ m₁ 为证据融合分（吸引子峰值 a_max 与稠密证据余弦的加权�
 
 ### 3.9 遗忘 Γ
 
-四条机制：(a) 情节重要度剪枝（按 g·exp(−Δt/τ_f)·(1+use) 排序，低者先删）；(b) 检索诱发抑制（检索后对 top-k 竞争者施加持久证据折扣 sup ← (1−ρ_rif)·sup，ρ_rif ∈ [0.05, 0.3]；只作用于检索证据读出、不改变存储模式——预登记因果检验表明该算子在当前参数化下不产生 below-baseline 遗忘（§4.16）；作为对照，存储级幅值衰减产生 below-baseline 遗忘但与练习项全局塌缩捆绑（§4.17），对应前额叶对海马检索的主动调制 [45]）；(c) 语义使用度衰减（长期不用的坐标可塑性恢复）；(d) 抑制解除（disinhibit() 把 sup 抬回 1，由情境重访或成功再认触发）。
+四条机制：(a) 情节重要度剪枝（按 g·exp(−Δt/τ_f)·(1+use) 排序，低者先删）；(b) 检索诱发抑制（检索后对 top-k 竞争者施加持久证据折扣 sup ← (1−ρ_rif)·sup，ρ_rif ∈ [0.05, 0.3]；只作用于检索证据读出、不改变存储模式——预登记因果检验表明该算子在当前参数化下不产生 below-baseline 遗忘（§4.16）；作为对照，存储级幅值衰减产生 below-baseline 遗忘但与练习项全局塌缩捆绑（§4.17），对应前额叶对海马检索的主动调制 [46]）；(c) 语义使用度衰减（长期不用的坐标可塑性恢复）；(d) 抑制解除（disinhibit() 把 sup 抬回 1，由情境重访或成功再认触发）。
 
 ### 3.10 完整伪码
 
@@ -540,7 +542,7 @@ L1 规模先导实验（§7）暴露退化检索崩塌后，我们沿诊断链�
 #### 4.13.4 时间上下文消歧判决实验 语料中 peer-01 训练段出现频次最高的重复短语 OK 出现 155 次/3,000 消息。首先诊断：编码器只吃内容通道（2.7 节的冻结表征批判同样适用于本模型默认编码器），重复内容的写码两两余弦恒为 1.0——内容通道对重复 episode 的判别力严格为零；在默认管线下重复在写入端即被去重门坍缩为单迹。为检验检索端能否区分重复 episode，实验强制全写入（绕过去重）后对比四种查询条件：无情境线索、精确情境重注入、部分线索（前 3 条消息的截断指数平均）与错误线索（邻近 episode 的线索），另测时间细胞（tau）作为线索。结果（K=40 个已写入 episode，随机基线 2.5%）：无线索时 0/40，且元控制器在全部 40 次中将 12 路证据平局判为模式分离（拒绝在歧义中任意召回——弃权校准的正面证据）；精确情境重注入 40/40；时间细胞 38/40；部分线索 6/40（6 倍于随机，显示模式完成随线索保真度衰减）；错误线索 100% 命中被线索的邻居、0% 命中目标——情境对检索是因果性控制而非相关。结论：episode 分辨率完全由情境/时间通道承载（对应海马 context cell 与时间细胞的分工），这为路线图 B2（多时间尺度情境）提供了动机与机制验证：重复内容的消歧不是内容相似度问题，而是情境绑定问题。
 ### 4.14 时序联想链：从否定性基线到回放链接机制
 
-前三节的检索都回答「线索指向哪条已存的消息」。本节问一个海马体每天回答亿万次的问题：「想起这条消息之后，能不能想起紧随其后的那条？」——前向时序联想。CA3 的自联想网络在生理上支持时序链（[17]）；本节用真实语料检验该能力在本架构中的现状，然后给出一个最小机制补全。
+前三节的检索都回答「线索指向哪条已存的消息」。本节问一个海马体每天回答亿万次的问题：「想起这条消息之后，能不能想起紧随其后的那条？」——前向时序联想。CA3 的自联想网络在生理上支持时序链（[18]）；本节用真实语料检验该能力在本架构中的现状，然后给出一个最小机制补全。
 
 #### 4.14.1 否定性基线（exp27）：纯情节完成没有可用的前向联想。
 
@@ -563,7 +565,7 @@ L1 规模先导实验（§7）暴露退化检索崩塌后，我们沿诊断链�
 
 三个结构化结论：(i) **双读出消解了自/次冲突**——链增益只加在 a₂ 上，情节读出 a₁ 全臂无损（200/200），联合指标（同时正确报告当前与后继）在有链增益臂达 115–200/200（随剂量单调）；(ii) **剂量阈值可解析**——next@1 要求链增益超过「自身分数与后继码间余弦之差」，w\* ≈ self 分数 − cos(code_j, code_i)：精确线索时 self=1.0、码近正交（cos≈0.04）故 w≥1.0 才翻转；30% 退化时 self 分数按对退化，w=0.5 已达 115/200。next@1(w, deg) 因此等于 P(w > self 分数 − cos_j) 的累积分布——一个零自由参数的可检验预测，实测剂量曲线与该预测一致；(iii) **否定性基线是机制的必要对照**——没有 exp27 的 null，exp28 的满分无法归因于链接可塑性而非内容相似性。
 
-方法学注记：本节开发中曾出现「链增益完全无效」的假象，仪器化检查（a₁ 质量分布）定位为链接矩阵转置错误（出链聚合而非入链聚合），与 4.13.2、9.1 的教训同族：机制归因前先验证中间量的落点。生物学映射：链接可塑性对应行为时间尺度突触可塑性与 CA3 时序序列（[17]）；双读出对应 CA3（自联想完成）与 CA1（前向预测）的功能分工；「读出后继时抑制当前项」（检索诱发抑制，4.8 之 M8）在此获得一个功能性解释——遗忘算子为前向召回腾出通道。
+方法学注记：本节开发中曾出现「链增益完全无效」的假象，仪器化检查（a₁ 质量分布）定位为链接矩阵转置错误（出链聚合而非入链聚合），与 4.13.2、9.1 的教训同族：机制归因前先验证中间量的落点。生物学映射：链接可塑性对应行为时间尺度突触可塑性与 CA3 时序序列（[18]）；双读出对应 CA3（自联想完成）与 CA1（前向预测）的功能分工；「读出后继时抑制当前项」（检索诱发抑制，4.8 之 M8）在此获得一个功能性解释——遗忘算子为前向召回腾出通道。
 
 ### 4.15 M0 置信度校准：真实语料上的证据质量与码一致性特征
 
@@ -587,7 +589,7 @@ L1 规模先导实验（§7）暴露退化检索崩塌后，我们沿诊断链�
 
 ### 4.16 检索诱发抑制的因果检验：一个预登记的否定结果
 
-**动机与设计。** §4.8 将 M8_FOR 判为 INERT（观察性：抑制确实施加、top-1 不变），但那一判决来自旧的 5 轮练习协议，没有因果对照。exp34 按认知心理学的检索练习范式（[47]；[48]）做预登记因果检验：库 N=2000（peer-01 真实语料行采样，或合成重叠 0.3/0.6/0.9），100 个练习探针各成功检索 3 次——on 臂在练习检索时对 top-5 竞争者施加抑制 sup ← (1−ρ)·sup（ρ=0.15；实测 Rp− 平均 sup=0.593、每 seed 约 295 次抑制事件），off 臂全程关闭；Rp−＝练习中被抑制的竞争者（机制精确定义：练习中 sup<1），并按设计忠实口径（码余弦 top 四分位）重复；Nrp＝从未被抑制且写入时刻匹配的对照条目（每 cell 50/50）；测试期两臂均不再施加新抑制（do_rif=False）。预登记判决门（G-A：on 臂 Rp− 相对 Nrp 的检索亏损 ≥0.10 且 95%CI 排 0，且 off 臂安慰剂亏损 <0.05；G-B：解除抑制后可逆率 ≥0.80；G-C：诚实否定路径）与统计方案（bootstrap 10000、seed=7、按 seed 配对）在数据落盘前冻结为 bench/exp34_analyze.py。4 cells × 2 arms × 12 seeds = 96 runs，三分片并行约 41 分钟/片。
+**动机与设计。** §4.8 将 M8_FOR 判为 INERT（观察性：抑制确实施加、top-1 不变），但那一判决来自旧的 5 轮练习协议，没有因果对照。exp34 按认知心理学的检索练习范式（[48]；[49]）做预登记因果检验：库 N=2000（peer-01 真实语料行采样，或合成重叠 0.3/0.6/0.9），100 个练习探针各成功检索 3 次——on 臂在练习检索时对 top-5 竞争者施加抑制 sup ← (1−ρ)·sup（ρ=0.15；实测 Rp− 平均 sup=0.593、每 seed 约 295 次抑制事件），off 臂全程关闭；Rp−＝练习中被抑制的竞争者（机制精确定义：练习中 sup<1），并按设计忠实口径（码余弦 top 四分位）重复；Nrp＝从未被抑制且写入时刻匹配的对照条目（每 cell 50/50）；测试期两臂均不再施加新抑制（do_rif=False）。预登记判决门（G-A：on 臂 Rp− 相对 Nrp 的检索亏损 ≥0.10 且 95%CI 排 0，且 off 臂安慰剂亏损 <0.05；G-B：解除抑制后可逆率 ≥0.80；G-C：诚实否定路径）与统计方案（bootstrap 10000、seed=7、按 seed 配对）在数据落盘前冻结为 bench/exp34_analyze.py。4 cells × 2 arms × 12 seeds = 96 runs，三分片并行约 41 分钟/片。
 
 | cell | hit Rp−(on) | hit Nrp(on) | hit Nrp(off) | 亏损(on) | 安慰剂亏损(off) | 配对因果 Δ(on−off) | 可逆率 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -597,7 +599,7 @@ L1 规模先导实验（§7）暴露退化检索崩塌后，我们沿诊断链�
 
 peer-02（唯一有动态范围的 cell）上，on 臂的 Rp− 亏损是**负的**：被抑制条目反而高于 Nrp（1.000 vs 0.843）——因为 Rp− 按定义是码余弦最高的条目（编码最强），而 off 臂安慰剂给出同号亏损（−0.150），证明该差是**编码强度基线**而非 RIF 作用；把同一 seed 内的编码强度差配对相减后，RIF 的净因果效应为 −0.023，95%CI [−0.052, +0.005] 覆盖 0。**判决：G-A FAIL，按预登记走 G-C 诚实否定路径——在 HCM 当前实现与参数化下，检索诱发抑制不产生 below-baseline 的遗忘。**合成 cell 的天花板（o≤0.6 全 1.0）与地板（o=0.9 全部条目 ~0.34，on=off）对本问题无信息量，如实声明。G-B（可逆性）在 peer-02 上 PASS（1.000）。
 
-**机制解释：为什么 HCM 不复现人类 RIF。** 实现里 sup 是每个条目的**检索证据乘子**（suppress 只做 sup ← (1−ρ)·sup，disinhibit 可复原），它不触碰存储模式本身，也不改变其他条目的编码强度。直接探测某条 Rp− 条目时，其自身线索与自身模式最近，乘 0.59 的证据折扣不足以让任何竞争者反超（现代 Hopfield 的指数锐化进一步拉大间隙）——「单条目直接召回」这一因变量对证据乘子天然鲁棒。人类 RIF 文献中 below-baseline 遗忘出现在竞争性提取与自由回忆情境（[47]），或需要执行控制的记忆压制（[48]）；HCM 的强制选择 top-1 探针没有给抑制留出表现通道。次级检查：练习目标 P 的终测命中率在两臂完全相同（0.862 vs 0.862，配对 Δ=0.0000）——连「门控帮助目标检索」的收益都不存在，因为 P 是练习赢家，竞争者从未真正威胁 top-1。
+**机制解释：为什么 HCM 不复现人类 RIF。** 实现里 sup 是每个条目的**检索证据乘子**（suppress 只做 sup ← (1−ρ)·sup，disinhibit 可复原），它不触碰存储模式本身，也不改变其他条目的编码强度。直接探测某条 Rp− 条目时，其自身线索与自身模式最近，乘 0.59 的证据折扣不足以让任何竞争者反超（现代 Hopfield 的指数锐化进一步拉大间隙）——「单条目直接召回」这一因变量对证据乘子天然鲁棒。人类 RIF 文献中 below-baseline 遗忘出现在竞争性提取与自由回忆情境（[48]），或需要执行控制的记忆压制（[49]）；HCM 的强制选择 top-1 探针没有给抑制留出表现通道。次级检查：练习目标 P 的终测命中率在两臂完全相同（0.862 vs 0.862，配对 Δ=0.0000）——连「门控帮助目标检索」的收益都不存在，因为 P 是练习赢家，竞争者从未真正威胁 top-1。
 
 **对 M8 的定位修正。** M8 的检索诱发抑制在 HCM 中的功能是**瞬时检索闸门**（服务当次检索的干扰管理与 IOR 式顺序轮换，见 §4.14），**不是遗忘机制**；§3.9 的措辞已相应收紧。
 
@@ -623,7 +625,7 @@ peer-02（唯一有动态范围的 cell）上，on 臂的 Rp− 亏损是**负�
 
 **三难（修正版）。** exp34 与 exp34b 合起来给出余弦几何吸引子库中『抑制一条记忆』的实证三难：(a) **读出增益**（sup 乘子）：局部、可逆、零行为亏损（exp34）；(b) **幅值衰减**：产生真实的 below-baseline 遗忘（G-A′），但选择性代价与单调增长的全局代价捆绑（G-S1）；(c) **方向改变** = 该码不再匹配自身 = 删除。结合解析事实——检索证据 ed/‖ed‖ 在整向量层面归一化，逐列幅值是唯一进入证据排序的存储把手——任何『衰减后归一化』的实现会把 (b) 的效应完全抵消。因此：**选择性的 below-baseline 遗忘在此几何下要么无效、要么以单调增长的全局损伤为代价**。
 
-**生物学映射。** 突触稳态缩放（homeostatic synaptic scaling，[49]）恰是让单个突触幅值变化被树突尺度全局缩放吸收的归一化机制：生物学同样无法通过纯幅值操作实现『使一条记忆变弱而不动全局』。可用的通路因此只剩两条——增益/情境控制（对应 M8 的读出闸门重定位，§4.16）与结构变化（棘突消除 ≙ 方向改变 ≙ 删除）。HCM 把 M8 定位为检索增益闸门不是实现妥协，而是与生物学同构的几何必然。
+**生物学映射。** 突触稳态缩放（homeostatic synaptic scaling，[50]）恰是让单个突触幅值变化被树突尺度全局缩放吸收的归一化机制：生物学同样无法通过纯幅值操作实现『使一条记忆变弱而不动全局』。可用的通路因此只剩两条——增益/情境控制（对应 M8 的读出闸门重定位，§4.16）与结构变化（棘突消除 ≙ 方向改变 ≙ 删除）。HCM 把 M8 定位为检索增益闸门不是实现妥协，而是与生物学同构的几何必然。
 
 **方法学注记。** ① smoke 的枢纽『发现』是规模伪影——诊断性中间量（modal-slot share）必须与主判据一起预登记，规模变化时才能被证伪而非被叙述；G-S2 的 FAIL 与两个 PASS 同等重要。② 本节与 §4.14、§4.16 共同构成方法学主张：否定与肯定结果都只有在预登记门、安慰剂臂与配对设计的保护下才有判决力。
 ### 4.18 情境作为检索线索：剂量—响应标定与多时间尺度假设的否定
@@ -641,7 +643,7 @@ peer-02（唯一有动态范围的 cell）上，on 臂的 Rp− 亏损是**负�
 
 ### 4.19 外部基线：与稠密 Hopfield / SDM 在同一真实语料上的直接对比
 
-**动机。** 本节之前，全部对比均为内部消融（完整模型 vs 关闭自身模块），缺少外部参照。我们选择两个与 HCM 共享理论血统的公认基线：**稠密 Hebbian Hopfield**（M += xxᵀ，检索 a = Mq、按余弦 argmax——即 §3.5 去掉稀疏化、残差与门控后的骨架 [11]）与 **Kanerva 稀疏分布记忆（SDM）**（N_loc = 10×N_lib 个随机 ±1 硬位置、地址取码 sign 二值化、Hamming 半径 r = 146（随机地址距离的 1% 上分位）、激活位置累加实值码读出 [50]）。三臂共享同一数据（peer-01 v2 train 9,033 条）、同一 S256 字符语义编码、同一退化探针构造（±200 窗口字符重叠 <0.5，200 个）与同一判据。
+**动机。** 本节之前，全部对比均为内部消融（完整模型 vs 关闭自身模块），缺少外部参照。我们选择两个与 HCM 共享理论血统的公认基线：**稠密 Hebbian Hopfield**（M += xxᵀ，检索 a = Mq、按余弦 argmax——即 §3.5 去掉稀疏化、残差与门控后的骨架 [11]）与 **Kanerva 稀疏分布记忆（SDM）**（N_loc = 10×N_lib 个随机 ±1 硬位置、地址取码 sign 二值化、Hamming 半径 r = 146（随机地址距离的 1% 上分位）、激活位置累加实值码读出 [51]）。三臂共享同一数据（peer-01 v2 train 9,033 条）、同一 S256 字符语义编码、同一退化探针构造（±200 窗口字符重叠 <0.5，200 个）与同一判据。
 
 **结果。**
 
@@ -658,7 +660,7 @@ peer-02（唯一有动态范围的 cell）上，on 臂的 Rp− 亏损是**负�
 
 ### 4.20 公开语料外部检验：DailyDialog 上的补全、时序链与弃权
 
-**动机。** §4.13 的真实语料实验全部来自私人微信会话。为检验结论不依赖单一语料来源，我们在公开数据集 DailyDialog [51]（英文多轮日常对话；train 68,994 条 / test 18,176 条，CC BY 4.0）上重复三类核心实验。时间戳为合成值（对话 i 基准 + 话轮 2 秒间隔），相邻话轮落入 gap≤30s 协议。双臂编码器：NEW256（学习型字符语义编码器，fit 于 train 全量）与 R512（随机投影基线）；其余配置一致（β=100，L=3，a=0.02，use_resid=False，判据 obs_of）。
+**动机。** §4.13 的真实语料实验全部来自私人微信会话。为检验结论不依赖单一语料来源，我们在公开数据集 DailyDialog [52]（英文多轮日常对话；train 68,994 条 / test 18,176 条，CC BY 4.0）上重复三类核心实验。时间戳为合成值（对话 i 基准 + 话轮 2 秒间隔），相邻话轮落入 gap≤30s 协议。双臂编码器：NEW256（学习型字符语义编码器，fit 于 train 全量）与 R512（随机投影基线）；其余配置一致（β=100，L=3，a=0.02，use_resid=False，判据 obs_of）。
 
 **T1 模式补全。** N∈{2,000, 8,000, 20,000}，每格 100 个退化探针（deg 0.3）:
 
@@ -740,13 +742,13 @@ G-P1 PASS：学习型编码器在每个规模上都不低于随机投影（deg 0
 
 ### 5.2 双读出的必要性
 
-同一个投射被读写两次（写入用稀疏码、检索用稠密证据）看似工程技巧，其实有清楚的生物学对应：稀疏码决定**哪个**模式被存储（支撑集 = 参与存储的单元），稠密证据决定**检索时的驱动强度**（全部突触前输入的加权和）。把两者混用（早期"双通路竞争"版本）导致稀疏通路在高重叠区从未赢过，稠密通路又无法提供写入的低干扰。更一般的教训是：**"稀疏码"与"从稀疏码检索"是两个独立的设计决策**，文献中常被合并讨论。近邻对照：Spens 与 Burgess 把「latent 结构的抽象」与「情节保真的重放」表述为一对内在两难 [26]；本模型给的是第三条路——抽象由慢速低秩语义存储承接（§3.4），保真由一次写入的情节存储承接，双读出衔接二者，两条通路不争夺同一组权重。
+同一个投射被读写两次（写入用稀疏码、检索用稠密证据）看似工程技巧，其实有清楚的生物学对应：稀疏码决定**哪个**模式被存储（支撑集 = 参与存储的单元），稠密证据决定**检索时的驱动强度**（全部突触前输入的加权和）。把两者混用（早期"双通路竞争"版本）导致稀疏通路在高重叠区从未赢过，稠密通路又无法提供写入的低干扰。更一般的教训是：**"稀疏码"与"从稀疏码检索"是两个独立的设计决策**，文献中常被合并讨论。近邻对照：Spens 与 Burgess 把「latent 结构的抽象」与「情节保真的重放」表述为一对内在两难 [27]；本模型给的是第三条路——抽象由慢速低秩语义存储承接（§3.4），保真由一次写入的情节存储承接，双读出衔接二者，两条通路不争夺同一组权重。
 
 ### 5.3 回放的价值在交错，不在选择
 
-CLS 与后续工作常把回放描述为"按重要性挑选并重复" [16] [17] [22]。我们的数据显示：**交错（把新样本与旧样本混在同一批更新里）是必要且充分的成分**，而"挑选"（按 recency×surprise×reward 加权）在参数面上没有带来额外收益，在缓冲受限时甚至有害（表 5）。原因：按 surprise 挑出的样本是当前网络拟合最差的样本，它们往往是**离群样本或标签噪声**，重复它们会放大影响。这与"回放保护旧任务"不矛盾——保护来自"旧分布被重新呈现"，而不是"难样本被过度呈现"。工程含义：**均匀交错 + 足够缓冲** 比复杂的重要性采样更可靠。范围限定：本节的交错主张针对**巩固期的分布重呈现**，不外推到人类课程学习中分组与交错之争（结构发现类任务上分组练习可占优，任务域不同）[52]。
+CLS 与后续工作常把回放描述为"按重要性挑选并重复" [17] [18] [23]。我们的数据显示：**交错（把新样本与旧样本混在同一批更新里）是必要且充分的成分**，而"挑选"（按 recency×surprise×reward 加权）在参数面上没有带来额外收益，在缓冲受限时甚至有害（表 5）。原因：按 surprise 挑出的样本是当前网络拟合最差的样本，它们往往是**离群样本或标签噪声**，重复它们会放大影响。这与"回放保护旧任务"不矛盾——保护来自"旧分布被重新呈现"，而不是"难样本被过度呈现"。工程含义：**均匀交错 + 足够缓冲** 比复杂的重要性采样更可靠。范围限定：本节的交错主张针对**巩固期的分布重呈现**，不外推到人类课程学习中分组与交错之争（结构发现类任务上分组练习可占优，任务域不同）[53]。
 
-**回放优先级的谱系与失效条件。** 「按什么次序重放」是一条正在展开的文献线，按三层对表（写入选择/回放调度/元控制）。写入层：Nagy、Orbán 与 Wu 的自适应压缩框架把「哪些情节被保留」与「以什么频率重放」明确划为两层，前者服从 surprise 选择 [52]——本模型的写入门控（§3.6）属前者，B3 判决属后者，两层在本文分开表述。调度层：Sun 等发现支持泛化的回放调度接近均匀、总量受全局调节，并把「个体记忆如何被挑选」留作开放问题 [53]。元控制层：Spens、Burgess 与 Behrens 用强化学习**学习**每条情节的价值来驱动睡眠期离线处理调度，使优先化变得有效 [54]；Fountas 等从容量约束下的最优泛化推出预测性遗忘 [55]。把三层与本模型的 B3 结果（固定、写入时一次算定的有界 tag 下，优先回放无增益、缓冲受限时有害；§4.4）拼起来，恰成一个失效条件刻画：**优先化的收益依赖 tag 随状态在线学习；固定 tag 只会给离群样本加权**。本模型的否定结果因此不是孤立反例，而是该谱系中「固定 tag 失效、学习型 tag 有效」分界面上的受控端点；Nagy 框架自认「缺一个把已编码细节转成更压缩 trace 的机制」，恰是本模型巩固+遗忘四件套（§3.7、§3.9）可作候选答案的第三个近邻开放问题。强化学习一侧，优先经验回放（PER）以学习信号对同一任务训练分布内的样本重加权 [56]——与本模型跨会话长期记忆的检索调度相邻而不同层。
+**回放优先级的谱系与失效条件。** 「按什么次序重放」是一条正在展开的文献线，按三层对表（写入选择/回放调度/元控制）。写入层：Nagy、Orbán 与 Wu 的自适应压缩框架把「哪些情节被保留」与「以什么频率重放」明确划为两层，前者服从 surprise 选择 [53]——本模型的写入门控（§3.6）属前者，B3 判决属后者，两层在本文分开表述。调度层：Sun 等发现支持泛化的回放调度接近均匀、总量受全局调节，并把「个体记忆如何被挑选」留作开放问题 [54]。元控制层：Spens、Burgess 与 Behrens 用强化学习**学习**每条情节的价值来驱动睡眠期离线处理调度，使优先化变得有效 [55]；Fountas 等从容量约束下的最优泛化推出预测性遗忘 [56]。把三层与本模型的 B3 结果（固定、写入时一次算定的有界 tag 下，优先回放无增益、缓冲受限时有害；§4.4）拼起来，恰成一个失效条件刻画：**优先化的收益依赖 tag 随状态在线学习；固定 tag 只会给离群样本加权**。本模型的否定结果因此不是孤立反例，而是该谱系中「固定 tag 失效、学习型 tag 有效」分界面上的受控端点；Nagy 框架自认「缺一个把已编码细节转成更压缩 trace 的机制」，恰是本模型巩固+遗忘四件套（§3.7、§3.9）可作候选答案的第三个近邻开放问题。强化学习一侧，优先经验回放（PER）以学习信号对同一任务训练分布内的样本重加权 [57]——与本模型跨会话长期记忆的检索调度相邻而不同层。
 
 需要说明的是，为什么本文不直接采用 bm25。在改写型探针上廉价词法基线确实与模型持平（bm25-lite hit@1 41/100 对 HCM 双臂 41–43/100，§4.13.3），我们把它作为语义编码器路线的边界如实报告而非隐藏。本模型的主张不是探针补全，而是完整记忆生命周期——门控一次写入、巩固、遗忘、弃权——这些都不是词法索引所能执行的（§4.19、§4.20）；bm25 也无法产生 §5.2 依赖的稠密证据读出。
 
@@ -888,6 +890,8 @@ results/ 下每个实验对应一个 JSON（含全部条件与随机种子）：
 
 **容量含义**：并界 $N \cdot P(S \ge s^*) \ll 1$ 给出「检索混淆不是瓶颈」的定量版本——要求虚警分达到自匹配一半（$S \ge 10$）的临界库容 $N^* \approx 1.3\times 10^{11}$（$d_h{=}1024$）、$3.2\times 10^{16}$（$d_h{=}4096$）。实际容量瓶颈在**去噪**（§4.3 RQ2）：线索退化后自匹配分跌向虚警带，而非虚警带抬高。数据：results/exp18_false_alarm.json。
 
+**与极值干扰下界的对照（v1.4 补）。** 本附录的并界给出虚警侧的最坏情形容量界；同族地，Ghaffari 等给出固定精度目标下证据边际的 $\Omega(\sqrt{\log N})$ 下界（检索对比度退化侧）[16]。本研究实测的 $\beta^*(N)\approx\log N$（10 倍库容对应比值 $\approx\ln 10$，如 20\u219250\u2192100，§4.12/附录 G）是补偿侧的**实测锚点**：$\log N$ 增长快于 $\sqrt{\log N}$，两者不矛盾——下界刻画退化速度，实测曲线刻画补偿幅度，是同一极值框架在不同边界条件（最坏情形边际 vs 结构化稀疏语料实测拐点）下的两个分支。
+
 ---
 
 *本文由 HCM 项目自动化流程生成：实验脚本 → results/*.json → 图表 → 正文 → 引文编译。所有数字可由附录 B 的文件与第 8 节的命令重放。*
@@ -954,87 +958,89 @@ G-R3b 的预登记下界 β ≥ ln N/gap（N=2×10³ 为 152、N=2×10⁴ 为 19
 
 [15] Veličković 等 (2024). Softmax is not Enough (for Sharp Size Generalisation). *arXiv preprint*. 〔T3〕
 
-[16] Wilson (1994). Reactivation of Hippocampal Ensemble Memories During Sleep. *Science*. doi:10.1126/science.8036517 PMID:8036517 〔T1〕
+[16] Ghaffari 等 (2026). Context Poisoning as Extreme-Value Attention Interference in Long-Context Language Models. *arXiv preprint*. 〔T3〕
 
-[17] Buzsáki (2015). Hippocampal sharp wave‐ripple: A cognitive biomarker for episodic memory and planning. *Hippocampus*. doi:10.1002/hipo.22488 PMID:26135716 〔T2〕
+[17] Wilson (1994). Reactivation of Hippocampal Ensemble Memories During Sleep. *Science*. doi:10.1126/science.8036517 PMID:8036517 〔T1〕
 
-[18] Foster (2006). Reverse replay of behavioural sequences in hippocampal place cells during the awake state. *Nature*. doi:10.1038/nature04587 PMID:16474382 〔T1〕
+[18] Buzsáki (2015). Hippocampal sharp wave‐ripple: A cognitive biomarker for episodic memory and planning. *Hippocampus*. doi:10.1002/hipo.22488 PMID:26135716 〔T2〕
 
-[19] Diba (2007). Forward and reverse hippocampal place-cell sequences during ripples. *Nature Neuroscience*. doi:10.1038/nn1961 PMID:17828259 〔T1〕
+[19] Foster (2006). Reverse replay of behavioural sequences in hippocampal place cells during the awake state. *Nature*. doi:10.1038/nature04587 PMID:16474382 〔T1〕
 
-[20] Girardeau 等 (2009). Selective suppression of hippocampal ripples impairs spatial memory. *Nature Neuroscience*. doi:10.1038/nn.2384 PMID:19749750 〔T1〕
+[20] Diba (2007). Forward and reverse hippocampal place-cell sequences during ripples. *Nature Neuroscience*. doi:10.1038/nn1961 PMID:17828259 〔T1〕
 
-[21] Frankland (2005). The organization of recent and remote memories. *Nature Reviews Neuroscience*. doi:10.1038/nrn1607 PMID:15685217 〔T1〕
+[21] Girardeau 等 (2009). Selective suppression of hippocampal ripples impairs spatial memory. *Nature Neuroscience*. doi:10.1038/nn.2384 PMID:19749750 〔T1〕
 
-[22] Klinzing 等 (2019). Mechanisms of systems memory consolidation during sleep. *Nature Neuroscience*. doi:10.1038/s41593-019-0467-3 PMID:31451802 〔T1〕
+[22] Frankland (2005). The organization of recent and remote memories. *Nature Reviews Neuroscience*. doi:10.1038/nrn1607 PMID:15685217 〔T1〕
 
-[23] Winocur (2011). Memory Transformation and Systems Consolidation. *Journal of the International Neuropsychological Society*. doi:10.1017/s1355617711000683 PMID:21729403 〔T2〕
+[23] Klinzing 等 (2019). Mechanisms of systems memory consolidation during sleep. *Nature Neuroscience*. doi:10.1038/s41593-019-0467-3 PMID:31451802 〔T1〕
 
-[24] Sekeres 等 (2018). The hippocampus and related neocortical structures in memory transformation. *Neuroscience Letters*. doi:10.1016/j.neulet.2018.05.006 PMID:29733974 〔T1〕
+[24] Winocur (2011). Memory Transformation and Systems Consolidation. *Journal of the International Neuropsychological Society*. doi:10.1017/s1355617711000683 PMID:21729403 〔T2〕
 
-[25] Lu 等 (2022). A neural network model of when to retrieve and encode episodic memories. *eLife*. doi:10.7554/eLife.74445 〔None〕
+[25] Sekeres 等 (2018). The hippocampus and related neocortical structures in memory transformation. *Neuroscience Letters*. doi:10.1016/j.neulet.2018.05.006 PMID:29733974 〔T1〕
 
-[26] Spens (2024). A generative model of memory construction and consolidation. *Nature Human Behaviour*. doi:10.1038/s41562-023-01799-z 〔None〕
+[26] Lu 等 (2022). A neural network model of when to retrieve and encode episodic memories. *eLife*. doi:10.7554/eLife.74445 〔None〕
 
-[27] French (1999). Catastrophic forgetting in connectionist networks. *Trends in Cognitive Sciences*. doi:10.1016/s1364-6613(99)01294-2 PMID:10322466 〔T1〕
+[27] Spens (2024). A generative model of memory construction and consolidation. *Nature Human Behaviour*. doi:10.1038/s41562-023-01799-z 〔None〕
 
-[28] Kirkpatrick (2017). Overcoming catastrophic forgetting in neural networks. *Proceedings of the National Academy of Sciences*. doi:10.1073/pnas.1611835114 PMID:28292907 〔T1〕
+[28] French (1999). Catastrophic forgetting in connectionist networks. *Trends in Cognitive Sciences*. doi:10.1016/s1364-6613(99)01294-2 PMID:10322466 〔T1〕
 
-[29] Saxena 等 (2022). Learning in deep neural networks and brains with similarity-weighted interleaved learning. *Proceedings of the National Academy of Sciences*. doi:10.1073/pnas.2115229119 〔None〕
+[29] Kirkpatrick (2017). Overcoming catastrophic forgetting in neural networks. *Proceedings of the National Academy of Sciences*. doi:10.1073/pnas.1611835114 PMID:28292907 〔T1〕
 
-[30] Miller (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*. doi:10.1037/h0043158 〔T1〕
+[30] Saxena 等 (2022). Learning in deep neural networks and brains with similarity-weighted interleaved learning. *Proceedings of the National Academy of Sciences*. doi:10.1073/pnas.2115229119 〔None〕
 
-[31] Cowan (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. *Behavioral and Brain Sciences*. doi:10.1017/s0140525x01003922 PMID:11515286 〔T1〕
+[31] Miller (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*. doi:10.1037/h0043158 〔T1〕
 
-[32] Lisman (1995). Storage of 7 ± 2 Short-Term Memories in Oscillatory Subcycles. *Science*. doi:10.1126/science.7878473 PMID:7878473 〔T1〕
+[32] Cowan (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. *Behavioral and Brain Sciences*. doi:10.1017/s0140525x01003922 PMID:11515286 〔T1〕
 
-[33] Shenhav 等 (2013). The Expected Value of Control: An Integrative Theory of Anterior Cingulate Cortex Function. *Neuron*. doi:10.1016/j.neuron.2013.07.007 PMID:23889930 〔T1〕
+[33] Lisman (1995). Storage of 7 ± 2 Short-Term Memories in Oscillatory Subcycles. *Science*. doi:10.1126/science.7878473 PMID:7878473 〔T1〕
 
-[34] Fleming (2012). The neural basis of metacognitive ability. *Philosophical Transactions of the Royal Society B: Biological Sciences*. doi:10.1098/rstb.2011.0417 PMID:22492751 〔T1〕
+[34] Shenhav 等 (2013). The Expected Value of Control: An Integrative Theory of Anterior Cingulate Cortex Function. *Neuron*. doi:10.1016/j.neuron.2013.07.007 PMID:23889930 〔T1〕
 
-[35] Packer 等 (2023). MemGPT: Towards LLMs as Operating Systems. *arXiv preprint*. 〔T3〕
+[35] Fleming (2012). The neural basis of metacognitive ability. *Philosophical Transactions of the Royal Society B: Biological Sciences*. doi:10.1098/rstb.2011.0417 PMID:22492751 〔T1〕
 
-[36] Park 等 (2023). Generative Agents: Interactive Simulacra of Human Behavior. *arXiv preprint*. 〔T3〕
+[36] Packer 等 (2023). MemGPT: Towards LLMs as Operating Systems. *arXiv preprint*. 〔T3〕
 
-[37] Chhikara 等 (2025). Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. *arXiv preprint*. 〔T3〕
+[37] Park 等 (2023). Generative Agents: Interactive Simulacra of Human Behavior. *arXiv preprint*. 〔T3〕
 
-[38] Rasmussen 等 (2025). Zep: A Temporal Knowledge Graph Architecture for Agent Memory. *arXiv preprint*. 〔T3〕
+[38] Chhikara 等 (2025). Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. *arXiv preprint*. 〔T3〕
 
-[39] Gutiérrez 等 (2024). HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models. *Advances in Neural Information Processing Systems*. 〔T2〕
+[39] Rasmussen 等 (2025). Zep: A Temporal Knowledge Graph Architecture for Agent Memory. *arXiv preprint*. 〔T3〕
 
-[40] Gutiérrez 等 (2025). From RAG to Memory: Non-Parametric Continual Learning for Large Language Models. *arXiv preprint*. 〔T3〕
+[40] Gutiérrez 等 (2024). HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models. *Advances in Neural Information Processing Systems*. 〔T2〕
 
-[41] Xu 等 (2025). A-MEM: Agentic Memory for LLM Agents. *arXiv preprint*. 〔T3〕
+[41] Gutiérrez 等 (2025). From RAG to Memory: Non-Parametric Continual Learning for Large Language Models. *arXiv preprint*. 〔T3〕
 
-[42] Zhang 等 (2024). A Survey on the Memory Mechanism of Large Language Model based Agents. *arXiv preprint*. 〔T3〕
+[42] Xu 等 (2025). A-MEM: Agentic Memory for LLM Agents. *arXiv preprint*. 〔T3〕
 
-[43] O'Keefe (1971). The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat. *Brain Research*. doi:10.1016/0006-8993(71)90358-1 PMID:5124915 〔T2〕
+[43] Zhang 等 (2024). A Survey on the Memory Mechanism of Large Language Model based Agents. *arXiv preprint*. 〔T3〕
 
-[44] Hafting (2005). Microstructure of a spatial map in the entorhinal cortex. *Nature*. doi:10.1038/nature03721 PMID:15965463 〔T1〕
+[44] O'Keefe (1971). The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat. *Brain Research*. doi:10.1016/0006-8993(71)90358-1 PMID:5124915 〔T2〕
 
-[45] Medina (2018). Neural, Cellular and Molecular Mechanisms of Active Forgetting. *Frontiers in Systems Neuroscience*. doi:10.3389/fnsys.2018.00003 PMID:29467630 〔T1〕
+[45] Hafting (2005). Microstructure of a spatial map in the entorhinal cortex. *Nature*. doi:10.1038/nature03721 PMID:15965463 〔T1〕
 
-[46] McGaugh (2004). THE AMYGDALA MODULATES THE CONSOLIDATION OF MEMORIES OF EMOTIONALLY AROUSING EXPERIENCES. *Annual Review of Neuroscience*. doi:10.1146/annurev.neuro.27.070203.144157 PMID:15217324 〔T1〕
+[46] Medina (2018). Neural, Cellular and Molecular Mechanisms of Active Forgetting. *Frontiers in Systems Neuroscience*. doi:10.3389/fnsys.2018.00003 PMID:29467630 〔T1〕
 
-[47] Anderson 等 (1994). Remembering can cause forgetting: Retrieval dynamics in long-term memory. *Journal of Experimental Psychology: Learning, Memory, and Cognition*. doi:10.1037/0278-7393.20.5.1063 PMID:7931095 〔T2〕
+[47] McGaugh (2004). THE AMYGDALA MODULATES THE CONSOLIDATION OF MEMORIES OF EMOTIONALLY AROUSING EXPERIENCES. *Annual Review of Neuroscience*. doi:10.1146/annurev.neuro.27.070203.144157 PMID:15217324 〔T1〕
 
-[48] Anderson (2001). Suppressing unwanted memories by executive control. *Nature*. doi:10.1038/35066572 PMID:11268212 〔T1〕
+[48] Anderson 等 (1994). Remembering can cause forgetting: Retrieval dynamics in long-term memory. *Journal of Experimental Psychology: Learning, Memory, and Cognition*. doi:10.1037/0278-7393.20.5.1063 PMID:7931095 〔T2〕
 
-[49] Turrigiano 等 (1998). Activity-dependent scaling of quantal amplitude in neocortical neurons. *Nature*. doi:10.1038/36103 PMID:9495341 〔T1〕
+[49] Anderson (2001). Suppressing unwanted memories by executive control. *Nature*. doi:10.1038/35066572 PMID:11268212 〔T1〕
 
-[50] Pentti Kanerva (1988). Sparse Distributed Memory. *MIT Press*. 〔None〕
+[50] Turrigiano 等 (1998). Activity-dependent scaling of quantal amplitude in neocortical neurons. *Nature*. doi:10.1038/36103 PMID:9495341 〔T1〕
 
-[51] Yanran Li 等 (2017). DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. *arXiv preprint*. 〔T3〕
+[51] Pentti Kanerva (1988). Sparse Distributed Memory. *MIT Press*. 〔None〕
 
-[52] Nagy 等 (2025). Adaptive compression as a unifying framework for episodic and semantic memory. *Nature Reviews Psychology*. doi:10.1038/s44159-025-00458-6 〔None〕
+[52] Yanran Li 等 (2017). DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. *arXiv preprint*. 〔T3〕
 
-[53] Sun 等 (2023). Organizing memories for generalization in complementary learning systems. *Nature Neuroscience*. doi:10.1038/s41593-023-01382-9 〔None〕
+[53] Nagy 等 (2025). Adaptive compression as a unifying framework for episodic and semantic memory. *Nature Reviews Psychology*. doi:10.1038/s44159-025-00458-6 〔None〕
 
-[54] Spens 等 (2025). Modelling the control of offline processing with reinforcement learning. *Advances in Neural Information Processing Systems 38*. doi:10.52202/085713-4913 〔None〕
+[54] Sun 等 (2023). Organizing memories for generalization in complementary learning systems. *Nature Neuroscience*. doi:10.1038/s41593-023-01382-9 〔None〕
 
-[55] Fountas 等 (2026). Why the Brain Consolidates: Predictive Forgetting for Optimal Generalisation. *arXiv preprint*. 〔T3〕
+[55] Spens 等 (2025). Modelling the control of offline processing with reinforcement learning. *Advances in Neural Information Processing Systems 38*. doi:10.52202/085713-4913 〔None〕
 
-[56] Schaul 等 (2016). Prioritized Experience Replay. *arXiv preprint*. 〔T3〕
+[56] Fountas 等 (2026). Why the Brain Consolidates: Predictive Forgetting for Optimal Generalisation. *arXiv preprint*. 〔T3〕
+
+[57] Schaul 等 (2016). Prioritized Experience Replay. *arXiv preprint*. 〔T3〕
 
 
 ---
@@ -1147,7 +1153,7 @@ G-R3b 的预登记下界 β ≥ ln N/gap（N=2×10³ 为 152、N=2×10⁴ 为 19
 
 - Yanran Li (2017). DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. *arXiv preprint*. 〔T3〕
 
-**related_work**（20 条，此处列 8 条）
+**related_work**（21 条，此处列 8 条）
 
 - Goto (2026). Neuromodulation-inspired gated associative memory networks: Extended memory retrieval and emergent multistabil. *Proceedings of the National Academy of Sciences*. 〔T1〕
 - Mahendrakar (2026). Consolidation Without Weights: What the Complementary Learning Systems Analogy Licenses in LLM Agent Memory, a. *Zenodo preprint (record 22699102)*. 〔T2〕

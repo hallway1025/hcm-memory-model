@@ -1,9 +1,9 @@
 # 引文机检报告
 
-- 生成时间：2026-11-21T23:46:01Z
-- 条目数：447
-- 期刊分级分布：{'T3': 91, 'T1': 258, 'T2': 98}
-- T1+T2 占比：79.6%（门禁 ≥70%）
+- 生成时间：2026-11-22T09:01:04Z
+- 条目数：448
+- 期刊分级分布：{'T3': 92, 'T1': 258, 'T2': 98}
+- T1+T2 占比：79.5%（门禁 ≥70%）
 - 未核验：0；撤稿：0；curated-reject（库内拒引，未入论文）：0；cited-reject（入论文，门禁失败）：0；分级分歧（stored vs 重推）：0；未分级刊：0
 - **门禁：PASS**
 
@@ -459,3 +459,4 @@
 | R442 | verified | T3 | 0.00 | Anthropic technical blog (2026-11-06) | The components of agent memory |
 | R443 | verified | T3 | 1.00 | arXiv preprint | Phases in a class of associative memories via hidden neurons |
 | R444 | verified | T1 | 1.00 | Proceedings of the National Academy of Sciences | Neuromodulation-inspired gated associative memory networks: Extended m |
+| R445 | verified | T3 | 1.00 | arXiv preprint | Context Poisoning as Extreme-Value Attention Interference in Long-Cont |
