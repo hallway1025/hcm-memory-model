@@ -1,11 +1,11 @@
 ﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""HCM v1.3 一键复现验收器：跑三个守卫 + SHA256 清单对账，打印 verdict 表。
+"""HCM v1.4 一键复现验收器：跑三道内容守卫 + SHA256 清单对账，打印 verdict 表。
 
 验收口径（主人批准件 3 底线：外部实验室一键复现 v1.2 守卫全绿）：
-  G1  claims      tools/check_claims.py          -> 444/444 PASS
-  G2  citations   tools/verify_citations.py verify -> n=447 gate PASS
-  G3  closure     tools/update_cited_ids.py      -> entries=69 mapped=69 unmatched=[]
+  G1  claims      tools/check_claims.py          -> 457/457 PASS
+  G2  citations   tools/verify_citations.py verify -> n=448 gate PASS
+  G3  closure     tools/update_cited_ids.py      -> entries=57 mapped=57 unmatched=[]
   G4  sha256      audit/SHA256SUMS.txt           -> 全部条目哈希一致
 任一 FAIL 即非零退出。
 """
@@ -90,7 +90,7 @@ def check_sums():
 
 
 print("=" * 68)
-print("HCM v1.2 一键复现验收（基线 9553bba）")
+print("HCM v1.4 一键复现验收（G1-G4 四道守卫）")
 print("=" * 68)
 rows = []
 

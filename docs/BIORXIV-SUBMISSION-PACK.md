@@ -31,8 +31,8 @@
 
 ## 3. 提交前检查单
 - [ ] check_claims 398/398 PASS（每次 regen 后必跑）
-- [ ] verify_citations PASS（bank=447，T1+T2=79.6%=(258+98)/447，分母=全库含 curated-reject；cited-reject=0、tier_mismatch=0、failed=0、retracted=0；commit 4a838af 语义修订：stored tier 优先+curated/cited reject 分离）
-- [ ] paper-cited-ids 闭合 69/69（tools/update_cited_ids.py：论文编号引用→refs.jsonl ref_id，longest-title 匹配，unmatched=0）
+- [ ] verify_citations PASS（bank=448，T1+T2=79.5%=(258+98)/448，分母=全库含 curated-reject；cited-reject=0、tier_mismatch=0、failed=0、retracted=0；commit 4a838af 语义修订：stored tier 优先+curated/cited reject 分离）
+- [ ] paper-cited-ids 闭合 57/57（tools/update_cited_ids.py：论文编号引用→refs.jsonl ref_id，longest-title 匹配，unmatched=0）
 - [ ] PMID 交叉面 263/263 PASS（tools/verify_pmid_crossface.py）
 - [ ] SHA256SUMS 重建（make_manifest.py）
 - [ ] PDF 页数：68 页（bioRxiv 无硬限；arXiv 若后续提交需关注）

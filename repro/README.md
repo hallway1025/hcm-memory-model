@@ -27,8 +27,8 @@ docker run --rm hcm-v13
 
 | 守卫 | 命令 | 判据 |
 |---|---|---|
-| G1 claims | tools/check_claims.py | 444/444 PASS（三向比对全绿） |
-| G2 citations | tools/verify_citations.py verify | n=447 gate PASS（T1+T2=79.6%） |
+| G1 claims | tools/check_claims.py | 457/457 PASS（三向比对全绿） |
+| G2 citations | tools/verify_citations.py verify | n=448 gate PASS（T1+T2=79.5%） |
 | G3 closure | tools/update_cited_ids.py | entries=69 mapped=69 unmatched=[] |
 | G4 sha256 | audit/SHA256SUMS.txt 对账 | 全部条目哈希一致、无缺失 |
 

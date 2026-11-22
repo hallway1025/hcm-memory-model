@@ -14,7 +14,7 @@
 | 文件 | 保留原因 |
 |---|---|
 | **SUPPLEMENTAL-S2**（Scale Pilots） | 论文 §7 规模档**唯一的实测支撑**：L1 pilot 的 β=20 伪影更正（β=100 下四种子双臂 40/40）、L2 档 @N=10⁵ 实测（exp37：60/60 满分、G-S1 PASS、G-S3 写入线性诚实 FAIL 的 O(N²) 与 0.82–0.96 s/item、28.2 GB/worker）、五个待超算回答的问题。正文 §7 已加引用。 |
-| **SUPPLEMENTAL-S4**（Citation Verification Ledger） | "全部引文经四通道独立核验"这一主张的**唯一证据**：447 条逐条含 DOI/PMID、核验通道、检索时间戳（440 个 R 类 + 7 个 SYS 类）。正文 §7 已加引用。 |
+| **SUPPLEMENTAL-S4**（Citation Verification Ledger） | "全部引文经六通道独立核验"这一主张的**唯一证据**：448 条逐条含 DOI/PMID、核验通道、检索时间戳（441 个 R 类 + 7 个 SYS 类）。正文 §7 已加引用。 |
 
 ## 若日后要恢复
 

@@ -1,6 +1,6 @@
 # 吸引子记忆中的 log-N 坍缩律：可复现、双读出的海马—皮层互补记忆模型（HCM）
 
-**摘要**　我们提出 HCM（海马—皮层互补记忆模型），一个受哺乳动物记忆系统启发、带可执行且可种子复现的 NumPy 参考实现的计算记忆模型与系统化基准。HCM 把记忆分解为九个算子：输入/情境空间、编码器、情节快存、语义慢存、工作记忆、巩固、检索控制、遗忘与神经调质门控。三个核心主张：（i）**坍缩律**——检索逆温度 β 的危害随库规模按 log N 增长；此前的两个「负结果」是单一 β 误设的伪影，在 β=100 下完全消失（剂量—响应、解析理论、外部复现三重验证），β≈20 的转点在真实语料上跨编码器复现（§4.21）。同一条阶梯从 10³ 测到 10⁶，10⁶ 层通过预注册门（双臂双档各 60/60、零弃答，§7）；单会话标定的 β* 迁移到留出会话达人工精选性能的 99.6%（§4.22）；六架构对照通过三项预注册门——经典吸引子坍缩至地板、现代基线平于平庸平台、唯有 HCM 的 log-N β*(N) 补偿把检索维持在 0.8–0.9（§4.19）。（ii）**单投影双读出**——k-稀疏码负责写入，稠密证据作为现代 Hopfield 吸引子的初态负责检索：60% dropout 下稀疏读出退化（50/50→39/50）而稠密读出保持 50/50；吸引子重建匹配支持以 d′=7.12 弃权，且在公开语料上同一门表现为分布移位检测器。（iii）**巩固的价值在交错而非优先级**——无回放旧任务崩至 0.0/24（0.00±0.00，20 种子），均匀交错回放保留 13.85±2.66/24，优先级回放 14.80±3.96/24 与均匀无可检差异（20 种子配对 p=0.32；负结果如实报告）。范围限定：高重叠合成基准上期望残差把码余弦 0.872 降到 0.308、精确召回 1/30 提到 25/30；真实语料上增益不迁移（12/12 格 off≥on），如实报告边界。真实中文口语上，2,000 条库在修正判据下达合成天花板（200/200@30% 缺失），而未修判据给同一批运行打 0/200（评测法证，含第四个伪影的活体复暴露）；92,760 条库为 129/200@30% 缺失（未退化 156/200，规模诚实）。学习型字符编码器获得真实的表征层语义（+0.206，t=28.3）但不转化为对廉价词法基线的检索优势；稠密 Hopfield 与 SDM 基线在同数据同探针下 2/200 与 0/200，HCM 为 48/200。全部实验跑在固定种子的纯 NumPy 实现上，全部引文经四通道独立核验。
+**摘要**　我们提出 HCM（海马—皮层互补记忆模型），一个受哺乳动物记忆系统启发、带可执行且可种子复现的 NumPy 参考实现的计算记忆模型与系统化基准。HCM 把记忆分解为九个算子：输入/情境空间、编码器、情节快存、语义慢存、工作记忆、巩固、检索控制、遗忘与神经调质门控。三个核心主张：（i）**坍缩律**——检索逆温度 β 的危害随库规模按 log N 增长；此前的两个「负结果」是单一 β 误设的伪影，在 β=100 下完全消失（剂量—响应、解析理论、外部复现三重验证），β≈20 的转点在真实语料上跨编码器复现（§4.21）。同一条阶梯从 10³ 测到 10⁶，10⁶ 层通过预注册门（双臂双档各 60/60、零弃答，§7）；单会话标定的 β* 迁移到留出会话达人工精选性能的 99.6%（§4.22）；六架构对照通过三项预注册门——经典吸引子坍缩至地板、现代基线平于平庸平台、唯有 HCM 的 log-N β*(N) 补偿把检索维持在 0.8–0.9（§4.19）。（ii）**单投影双读出**——k-稀疏码负责写入，稠密证据作为现代 Hopfield 吸引子的初态负责检索：60% dropout 下稀疏读出退化（50/50→39/50）而稠密读出保持 50/50；吸引子重建匹配支持以 d′=7.12 弃权，且在公开语料上同一门表现为分布移位检测器。（iii）**巩固的价值在交错而非优先级**——无回放旧任务崩至 0.0/24（0.00±0.00，20 种子），均匀交错回放保留 13.85±2.66/24，优先级回放 14.80±3.96/24 与均匀无可检差异（20 种子配对 p=0.32；负结果如实报告）。范围限定：高重叠合成基准上期望残差把码余弦 0.872 降到 0.308、精确召回 1/30 提到 25/30；真实语料上增益不迁移（12/12 格 off≥on），如实报告边界。真实中文口语上，2,000 条库在修正判据下达合成天花板（200/200@30% 缺失），而未修判据给同一批运行打 0/200（评测法证，含第四个伪影的活体复暴露）；92,760 条库为 129/200@30% 缺失（未退化 156/200，规模诚实）。学习型字符编码器获得真实的表征层语义（+0.206，t=28.3）但不转化为对廉价词法基线的检索优势；稠密 Hopfield 与 SDM 基线在同数据同探针下 2/200 与 0/200，HCM 为 48/200。全部实验跑在固定种子的纯 NumPy 实现上，全部引文经六通道独立核验。
 
 **Abstract.** We present HCM (Hippocampal–Cortical Complementary Memory), a computational model of mammalian memory with an executable, seed-reproducible NumPy implementation. HCM factorises memory into nine operators: input/context space, encoder, episodic fast store, semantic slow store, working memory, consolidation, retrieval control, forgetting, and neuromodulatory gating. Three claims are central. (i) A collapse law: the harm of retrieval inverse temperature β grows with library size as log N; two earlier negative results were artifacts of one mis-set β, vanishing at β=100 (dose–response, analytic theory, external replication), and the β≈20 turning point replicates across two encoders on a real corpus. (ii) A single projection should be read out twice: a k-sparse code for writing and the dense evidence as a modern Hopfield attractor's initial state — at 60% dropout, sparse readout degrades (50/50 to 39/50) while dense readout stays 50/50; attractor-reconstruction match abstains in-store from novel cues with d′=7.12, and on a public corpus the same gate acts as a distribution-shift detector. (iii) Consolidation's value lies in interleaving, not prioritisation: without replay, old-task accuracy collapses to 0.0/24; interleaved replay retains 13.85±2.66 of 24; prioritised replay scores 14.80±3.96 of 24, no better than uniform (20-seed paired p=0.32) — a negative result we report. Scoped findings: on high-overlap synthetic benchmarks an expectation residual lowers code cosine 0.872 to 0.308 and lifts recall 1/30 to 25/30; on the real corpus it does not transfer (12/12 cells), a boundary we report. On real colloquial Chinese, 2,000-item stores reach the synthetic ceiling (200/200 at 30% degradation) only under a corrected judging criterion — the unpatched criterion scores the identical runs 0/200 (evaluation forensics) — while at 92,760 stored items retrieval is 129/200. A learned character encoder gains real representation-level semantics (+0.206, t=28.3) that do not convert into retrieval advantage over cheap lexical baselines; dense Hopfield and SDM baselines score 2/200 and 0/200 where HCM scores 48/200.
 
@@ -805,7 +805,7 @@ CLS 与后续工作常把回放描述为"按重要性挑选并重复" [17] [18] 
 6. **事件身份未与内容分离**：E 的 theta_dup 内容去重在元数据落盘前丢弃重复内容事件（src/hcm/episodic.py:38-39）——「昨天说的上号」与「今天说的上号」只剩第一条。实测：emoji 坍缩连环拒写 545/2000（4.13.1）；OK×155 塌缩为单一码（4.13.4）。修复方向：事件记录恒写（event_id/时间/来源/会话→内容码引用），内容码可共享去重（exp30）。
 7. **互补学习系统收益未在预算约束下检验**：巩固的系统价值=「以更少资源保留未来有用信息」——巩固后能安全删除多少情节、丢失哪些细节、未见组合是否受益、同预算下是否胜过直接留存原始记录，均未测（exp31）。在此之前，快/慢双存储的「互补」只是接口描述。
 
-**协议要求**：每档必须跑同一套基准（bench/ 下 7 个脚本），报告 (i) 三项指标、(ii) 与 L0 的同种子 100 步等价性检验（若更换后端，须证明 100 步内与 NumPy 参考实现的 L2 误差 < 1e-6）、（iii）完整随机种子，以及与 audit/SHA256SUMS.txt 中记录的文件校验和一致的代码版本。**不允许只报最好档**。\n\nL1 试验与 L2 档（N=10⁵）的完整实测叙事、以及五个只能由超算回答的规模问题，见补充材料 S2；全部 447 条引文的逐条核验台账（DOI/PMID、核验通道、检索时间戳）见补充材料 S4。
+**协议要求**：每档必须跑同一套基准（bench/ 下 7 个脚本），报告 (i) 三项指标、(ii) 与 L0 的同种子 100 步等价性检验（若更换后端，须证明 100 步内与 NumPy 参考实现的 L2 误差 < 1e-6）、（iii）完整随机种子，以及与 audit/SHA256SUMS.txt 中记录的文件校验和一致的代码版本。**不允许只报最好档**。\n\nL1 试验与 L2 档（N=10⁵）的完整实测叙事、以及五个只能由超算回答的规模问题，见补充材料 S2；全部 448 条引文的逐条核验台账（DOI/PMID、核验通道、检索时间戳）见补充材料 S4。
 
 ---
 
@@ -831,11 +831,11 @@ py -3 tools\make_figures.py
 py -3 tools\build_paper.py
 ~~~
 
-**引文核验流水线**：tools/collect.py 采集（Crossref 发现 + PubMed/Europe PMC 富化）→ tools/pin_refs.py 定向补登 → tools/verify_citations.py 四通道核验 → tools/backfill_verified.py 回填。全部 DOI 由 API 产出，**无手写引文**。
+**引文核验流水线**：tools/collect.py 采集（Crossref 发现 + PubMed/Europe PMC 富化）→ tools/pin_refs.py 定向补登 → tools/verify_citations.py 六通道核验 → tools/backfill_verified.py 回填。全部 DOI 由 API 产出，**无手写引文**。
 
 **图**：tools/make_figures.py 生成 5 张图，默认导出 150 dpi PNG（屏幕用），PLOS 再导出 600 dpi TIFF（期刊用）；字体为 DejaVu Sans，图内标注用 ASCII 以避免缺字形。
 
-**AI 辅助披露。** 本研究使用 AI 研究代理（基于大语言模型的系统）实现参考代码、执行实验并起草部分文稿，全程在人类的持续指导下进行。人类作者（通讯作者）做出全部研究决策——选题、理论框架、投稿策略、数据授权（主要私聊语料段的参与者给予明确书面许可）、以及对每一条主张的最终审查——并对内容承担全部责任。AI 系统不是作者、不享有署名权，也不参与需要担责的决策。全部定量主张均可对已入库结果文件机检（444/444 断言），每张图、每个表和每个数字都可溯源到固定种子的复现路径（附录 C）。对抗评审与洁净复现由同一技术栈内的自动化质量保证代理执行；它们是内部 QA，不是独立第三方复现，且均未重跑每个实验。
+**AI 辅助披露。** 本研究使用 AI 研究代理（基于大语言模型的系统）实现参考代码、执行实验并起草部分文稿，全程在人类的持续指导下进行。人类作者（通讯作者）做出全部研究决策——选题、理论框架、投稿策略、数据授权（主要私聊语料段的参与者给予明确书面许可）、以及对每一条主张的最终审查——并对内容承担全部责任。AI 系统不是作者、不享有署名权，也不参与需要担责的决策。全部定量主张均可对已入库结果文件机检（457/457 断言），每张图、每个表和每个数字都可溯源到固定种子的复现路径（附录 C）。对抗评审与洁净复现由同一技术栈内的自动化质量保证代理执行；它们是内部 QA，不是独立第三方复现，且均未重跑每个实验。
 
 ---
 
@@ -858,7 +858,7 @@ results/ 下每个实验对应一个 JSON（含全部条件与随机种子）：
 
 ## 附录 C：引文核验报告
 
-引文库共 447 条记录，经四通道（Crossref、PubMed E-utilities、Europe PMC、OpenAlex）逐条核验：全部 resolved，retracted=0，REJECT=0，unknown 期刊=0，T1+T2 占比见 audit/citations-report.md。核验脚本逐条比对标题相似度（非对称包含算法，D-013）、DOI、PMID、撤稿标记与期刊分级；任何一项不通过即 gate FAIL 并使构建失败。
+引文库共 448 条记录，经六通道（Crossref、PubMed E-utilities、Europe PMC、OpenAlex、arXiv API、图书/网页交叉核验）逐条核验：全部 resolved，retracted=0，REJECT=0，unknown 期刊=0，T1+T2 占比见 audit/citations-report.md。核验脚本逐条比对标题相似度（非对称包含算法，D-013）、DOI、PMID、撤稿标记与期刊分级；任何一项不通过即 gate FAIL 并使构建失败。
 
 ## 附录 D：工程可行性——稀疏存储与倒排索引
 
@@ -956,7 +956,7 @@ G-R3b 的预登记下界 β ≥ ln N/gap（N=2×10³ 为 152、N=2×10⁴ 为 19
 
 [13] Ramsauer 等 (2020). Hopfield Networks is All You Need. *arXiv preprint*. 〔T3〕
 
-[14] Bricken (2021). Attention Approximates Sparse Distributed Memory. *Advances in Neural Information Processing Systems 34*. 〔None〕
+[14] Bricken (2021). Attention Approximates Sparse Distributed Memory. *Advances in Neural Information Processing Systems 34*. 〔T2〕
 
 [15] Veličković 等 (2024). Softmax is not Enough (for Sharp Size Generalisation). *arXiv preprint*. 〔T3〕
 
@@ -980,15 +980,15 @@ G-R3b 的预登记下界 β ≥ ln N/gap（N=2×10³ 为 152、N=2×10⁴ 为 19
 
 [25] Sekeres 等 (2018). The hippocampus and related neocortical structures in memory transformation. *Neuroscience Letters*. doi:10.1016/j.neulet.2018.05.006 PMID:29733974 〔T1〕
 
-[26] Lu 等 (2022). A neural network model of when to retrieve and encode episodic memories. *eLife*. doi:10.7554/eLife.74445 〔None〕
+[26] Lu 等 (2022). A neural network model of when to retrieve and encode episodic memories. *eLife*. doi:10.7554/eLife.74445 PMID:35142289 〔T2〕
 
-[27] Spens (2024). A generative model of memory construction and consolidation. *Nature Human Behaviour*. doi:10.1038/s41562-023-01799-z 〔None〕
+[27] Spens (2024). A generative model of memory construction and consolidation. *Nature Human Behaviour*. doi:10.1038/s41562-023-01799-z PMID:38242925 〔T1〕
 
 [28] French (1999). Catastrophic forgetting in connectionist networks. *Trends in Cognitive Sciences*. doi:10.1016/s1364-6613(99)01294-2 PMID:10322466 〔T1〕
 
 [29] Kirkpatrick (2017). Overcoming catastrophic forgetting in neural networks. *Proceedings of the National Academy of Sciences*. doi:10.1073/pnas.1611835114 PMID:28292907 〔T1〕
 
-[30] Saxena 等 (2022). Learning in deep neural networks and brains with similarity-weighted interleaved learning. *Proceedings of the National Academy of Sciences*. doi:10.1073/pnas.2115229119 〔None〕
+[30] Saxena 等 (2022). Learning in deep neural networks and brains with similarity-weighted interleaved learning. *Proceedings of the National Academy of Sciences*. doi:10.1073/pnas.2115229119 PMID:35759669 〔T1〕
 
 [31] Miller (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*. doi:10.1037/h0043158 〔T1〕
 
@@ -1030,15 +1030,15 @@ G-R3b 的预登记下界 β ≥ ln N/gap（N=2×10³ 为 152、N=2×10⁴ 为 19
 
 [50] Turrigiano 等 (1998). Activity-dependent scaling of quantal amplitude in neocortical neurons. *Nature*. doi:10.1038/36103 PMID:9495341 〔T1〕
 
-[51] Pentti Kanerva (1988). Sparse Distributed Memory. *MIT Press*. 〔None〕
+[51] Pentti Kanerva (1988). Sparse Distributed Memory. *MIT Press*. 〔T3〕
 
 [52] Yanran Li 等 (2017). DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. *arXiv preprint*. 〔T3〕
 
-[53] Nagy 等 (2025). Adaptive compression as a unifying framework for episodic and semantic memory. *Nature Reviews Psychology*. doi:10.1038/s44159-025-00458-6 〔None〕
+[53] Nagy 等 (2025). Adaptive compression as a unifying framework for episodic and semantic memory. *Nature Reviews Psychology*. doi:10.1038/s44159-025-00458-6 〔T1〕
 
-[54] Sun 等 (2023). Organizing memories for generalization in complementary learning systems. *Nature Neuroscience*. doi:10.1038/s41593-023-01382-9 〔None〕
+[54] Sun 等 (2023). Organizing memories for generalization in complementary learning systems. *Nature Neuroscience*. doi:10.1038/s41593-023-01382-9 PMID:37474639 〔T1〕
 
-[55] Spens 等 (2025). Modelling the control of offline processing with reinforcement learning. *Advances in Neural Information Processing Systems 38*. doi:10.52202/085713-4913 〔None〕
+[55] Spens 等 (2025). Modelling the control of offline processing with reinforcement learning. *Advances in Neural Information Processing Systems 38*. doi:10.52202/085713-4913 〔T2〕
 
 [56] Fountas 等 (2026). Why the Brain Consolidates: Predictive Forgetting for Optimal Generalisation. *arXiv preprint*. 〔T3〕
 
@@ -1102,10 +1102,10 @@ G-R3b 的预登记下界 β ≥ ln N/gap（N=2×10³ 为 152、N=2×10⁴ 为 19
 -  (2026). Erratum for the Research Article “Awake Hippocampal Sharp-Wave Ripples Support Spatial Memory”. *Science*. 〔T1〕
 - Widloski (2025). Replay without sharp wave ripples in a spatial memory task. *Nature Communications*. 〔T1〕
 - Yu (2025). From Metronomes to Memories: Coordinated Slow Oscillations, Spindles, and Ripples in Sleep-Dependent Memory. *Theoretical and Natural Science*. 〔T1〕
+- Spens (2024). A generative model of memory construction and consolidation. *Nature Human Behaviour*. 〔T1〕
+- Sun (2023). Organizing memories for generalization in complementary learning systems. *Nature Neuroscience*. 〔T1〕
 - Singh (2022). A model of autonomous interactions between hippocampus and neocortex driving sleep-dependent memory consolidat. *Proceedings of the National Academy of Sciences*. 〔T1〕
 - Mou (2022). Observational learning promotes hippocampal remote awake replay toward future reward locations. *Neuron*. 〔T1〕
-- Wamsley (2022). Offline memory consolidation during waking rest. *Nature Reviews Psychology*. 〔T1〕
-- Zhang (2021). Cholinergic suppression of hippocampal sharp-wave ripples impairs working memory. *Proceedings of the National Academy of Sciences*. 〔T1〕
 
 **M5_SEM**（56 条，此处列 8 条）
 
@@ -1143,13 +1143,13 @@ G-R3b 的预登记下界 β ≥ ln N/gap（N=2×10³ 为 152、N=2×10⁴ 为 19
 **M8_FOR**（38 条，此处列 8 条）
 
 - Santangelo (2025). Altered brain activity during active forgetting in highly superior autobiographical memory: Evidence from an i. *iScience*. 〔T1〕
+- Nagy (2025). Adaptive compression as a unifying framework for episodic and semantic memory. *Nature Reviews Psychology*. 〔T1〕
 -  (2024). Supplemental Material for Dynamic Retrieval of Events and Associations From Memory: An Integrated Account of I. *Psychological Review*. 〔T1〕
 - Li (2024). Characteristics and neural mechanisms of active forgetting in patients with PTSD. *Theoretical and Natural Science*. 〔T1〕
 - Manning (2021). Episodic memory: Mental time travel or a quantum “memory wave” function?. *Psychological Review*. 〔T1〕
 - Orederu (2020). The Dynamic Memory Engram Life Cycle: Reactivation, Destabilization, and Reconsolidation. *The Cognitive Neurosciences*. 〔T1〕
 - Medina (2018). Neural, Cellular and Molecular Mechanisms of Active Forgetting. *Frontiers in Systems Neuroscience*. 〔T1〕
 - Osth (2015). Sources of interference in item and associative recognition memory.. *Psychological Review*. 〔T1〕
-- Bos (2014). Noradrenergic Blockade of Memory Reconsolidation: A Failure to Reduce Conditioned Fear Responding. *Frontiers in Behavioral Neuroscience*. 〔T1〕
 
 **SYSTEM**（1 条，此处列 1 条）
 

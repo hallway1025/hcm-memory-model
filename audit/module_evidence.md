@@ -1,4 +1,4 @@
-# Module evidence base (auto-generated from refs/refs.jsonl, 447 records)
+# Module evidence base (auto-generated from refs/refs.jsonl, 448 records)
 
 Per-model-module evidence coverage in the citation bank, sorted T1 first, then by reference id. Fields (DOI, PMID, verification status, evidence level) live in refs/refs.jsonl; verification pipeline in audit/citations-report.md. This table does NOT claim each reference directly supports a specific claim of the paper; it documents evidence coverage per module.
 
@@ -46,8 +46,8 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R274] Thaiss (1998). Retrieval of source memory in patients with unilateral frontal lobe lesions *NeuroImage*. [T3] ✓
 - [R314] Pfulb (2021). Overcoming Catastrophic Forgetting with Gaussian Mixture Replay *2021 International Joint Conference on Neural Networks (IJCNN)*. [T3] ✓
 - [R315] Coop (2013). Mitigation of catastrophic forgetting in recurrent neural networks using a Fixed Expansion Layer *The 2013 International Joint Conference on Neural Networks (IJCNN)*. [T3] ✓
-- [R404] Ruan (2023). Impairment of arbitration between model-based and model-free reinforcement learning in obsessive–compulsive disorder *Frontiers in Psychiatry*. [T3]
-- [R405] ? (2026). Reinforcement Learning: Model Free *Reinforcement Learning Foundations*. [T3]
+- [R404] Ruan (2023). Impairment of arbitration between model-based and model-free reinforcement learning in obsessive–compulsive disorder *Frontiers in Psychiatry*. [T3] ✓
+- [R405] ? (2026). Reinforcement Learning: Model Free *Reinforcement Learning Foundations*. [T3] ✓
 
 ## M1_SEP (49 records, 29 T1)
 
@@ -56,9 +56,9 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R008] Faghihi (2016). Impaired neurogenesis of the dentate gyrus is associated with pattern separation deficits: A computational study *Journal of Integrative Neuroscience*. [T1] ✓
 - [R009] Leutgeb (2007). Pattern Separation in the Dentate Gyrus and CA3 of the Hippocampus *Science*. [T1] ✓
 - [R010] Neunuebel (2014). CA3 Retrieves Coherent Representations from Degraded Input: Direct Evidence for CA3 Pattern Completion and Dentate Gyrus Pattern Separation *Neuron*. [T1] ✓
-- [R012] Stark (2015). Stability of age-related deficits in the mnemonic similarity task across task variations. *Behavioral Neuroscience*. [T1] ✓
+- [R012] Stark (2015). Stability of age-related deficits in the mnemonic similarity task across task variations *Behavioral Neuroscience*. [T1] ✓
 - [R013] ? (2015). Supplemental Material for Stability of Age-Related Deficits in the Mnemonic Similarity Task Across Task Variations *Behavioral Neuroscience*. [T1] ✓
-- [R014] Huffman (2017). Age-related impairment on a forced-choice version of the Mnemonic Similarity Task. *Behavioral Neuroscience*. [T1] ✓
+- [R014] Huffman (2017). Age-related impairment on a forced-choice version of the Mnemonic Similarity Task *Behavioral Neuroscience*. [T1] ✓
 - [R015] McAvoy (2015). Adult hippocampal neurogenesis and pattern separation in DG: a role for feedback inhibition in modulating sparseness to govern population-based coding *Frontiers in Systems Neuroscience*. [T1] ✓
 - [R016] Gandy (2017). Pattern Separation: A Potential Marker of Impaired Hippocampal Adult Neurogenesis in Major Depressive Disorder *Frontiers in Neuroscience*. [T1] ✓
 - [R017] Bussey (2011). Pattern separation in the hippocampus: A role for adult neurogenesis and BDNF *Neuroscience Research*. [T1] ✓
@@ -87,20 +87,19 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R031] Acsády (2007). Models, structure, function: the transformation of cortical signals in the dentate gyrus *Progress in Brain Research*. [T2] ✓
 - [R032] Mishra (2018). Disparate forms of heterogeneities and interactions among them drive channel decorrelation in the dentate gyrus: Degeneracy and dominance *Hippocampus*. [T2] ✓
 - [R367] O'Keefe (1971). The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat *Brain Research*. [T2] ✓
-- [R373] Singh (2023). Granule cells perform frequency‐dependent pattern separation in a computational model of the dentate gyrus *Hippocampus*. [T2]
-- [R374] Kent (2015). The orexigenic hormone acyl-ghrelin increases adult hippocampal neurogenesis and enhances pattern separation *Psychoneuroendocrinology*. [T2]
-- [R417] Myers (2008). A role for hilar cells in pattern separation in the dentate gyrus: A computational approach *Hippocampus*. [T2]
+- [R373] Singh (2023). Granule cells perform frequency‐dependent pattern separation in a computational model of the dentate gyrus *Hippocampus*. [T2] ✓
+- [R374] Kent (2015). The orexigenic hormone acyl-ghrelin increases adult hippocampal neurogenesis and enhances pattern separation *Psychoneuroendocrinology*. [T2] ✓
+- [R417] Myers (2008). A role for hilar cells in pattern separation in the dentate gyrus: A computational approach *Hippocampus*. [T2] ✓
+- [R430] Bricken (2021). Attention Approximates Sparse Distributed Memory *Advances in Neural Information Processing Systems 34*. [T2] ✓
 - [R034] Sacouto (2023). Competitive learning to generate sparse representations for associative memory *Neural Networks*. [T3] ✓
 - [R035] Palm (2013). Neural associative memories and sparse coding *Neural Networks*. [T3] ✓
-- [R375] Wang (2024). Effect of adult hippocampal neurogenesis on
-         pattern separation and its applications *Cognitive Neurodynamics*. [T3]
-- [R376] Kim (2024). Adult neurogenesis in the hippocampal dentate gyrus affects sparsely synchronized rhythms, associated with pattern separation and integration *Cognitive Neurodynamics*. [T3]
-- [R377] Poli (2017). Sparse and Specific Coding during Information Transmission between Co-cultured Dentate Gyrus and CA3 Hippocampal Networks *Frontiers in Neural Circuits*. [T3]
-- [R378] Zhang (2019). Sparse coding in identified dentate gyrus granule cells in head-fixed running mice *Intrinsic Activity*. [T3]
-- [R379] Burak (2014). Spatial coding and attractor dynamics of grid cells in the entorhinal cortex *Current Opinion in Neurobiology*. [T3]
-- [R427] Ramsauer (2020). Hopfield Networks is All You Need *arXiv preprint*. [T3]
-- [R428] Veličković (2024). Softmax is not Enough (for Sharp Size Generalisation) *arXiv preprint*. [T3]
-- [R430] Bricken (2021). Attention Approximates Sparse Distributed Memory *Advances in Neural Information Processing Systems 34*. [undefined]
+- [R375] Wang (2024). Effect of adult hippocampal neurogenesis on pattern separation and its applications *Cognitive Neurodynamics*. [T3] ✓
+- [R376] Kim (2024). Adult neurogenesis in the hippocampal dentate gyrus affects sparsely synchronized rhythms, associated with pattern separation and integration *Cognitive Neurodynamics*. [T3] ✓
+- [R377] Poli (2017). Sparse and Specific Coding during Information Transmission between Co-cultured Dentate Gyrus and CA3 Hippocampal Networks *Frontiers in Neural Circuits*. [T3] ✓
+- [R378] Zhang (2019). Sparse coding in identified dentate gyrus granule cells in head-fixed running mice *Intrinsic Activity*. [T3] ✓
+- [R379] Burak (2014). Spatial coding and attractor dynamics of grid cells in the entorhinal cortex *Current Opinion in Neurobiology*. [T3] ✓
+- [R427] Ramsauer (2020). Hopfield Networks is All You Need *arXiv preprint*. [T3] ✓
+- [R428] Veličković (2024). Softmax is not Enough (for Sharp Size Generalisation) *arXiv preprint*. [T3] ✓
 
 ## M2_EPI (50 records, 31 T1)
 
@@ -111,17 +110,17 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R043] Rosay (2013). Cross-talk and transitions between multiple environments in an attractor neural network model of the hippocampus *BMC Neuroscience*. [T1] ✓
 - [R045] Quartermain (1965). A Brief Temporal Gradient of Retrograde Amnesia Independent of Situational Change *Science*. [T1] ✓
 - [R046] Kopp (1966). Long Temporal Gradient of Retrograde Amnesia for a Well-Discriminated Stimulus *Science*. [T1] ✓
-- [R047] Kim (1993). Lack of a temporal gradient of retrograde amnesia in rats with amygdala lesions assessed with the fear-potentiated startle paradigm. *Behavioral Neuroscience*. [T1] ✓
-- [R048] ? (2014). Memory and attractor dynamics *Neuronal Dynamics*. [T1] ✓
+- [R047] Kim (1993). Lack of a temporal gradient of retrograde amnesia in rats with amygdala lesions assessed with the fear-potentiated startle paradigm *Behavioral Neuroscience*. [T1] ✓
+- [R048] Gerstner (2014). Memory and attractor dynamics *Neuronal Dynamics*. [T1] ✓
 - [R049] ? (2012). Autoassociative Memory *Encyclopedia of the Sciences of Learning*. [T1] ✓
 - [R050] Bennett (1994). Dynamics of the CA3 pyramidial neuron autoassociative memory network in the hippocampus *Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences*. [T1] ✓
-- [R051] Hopfield (1982). Neural networks and physical systems with emergent collective computational abilities. *Proceedings of the National Academy of Sciences*. [T1] ✓
+- [R051] Hopfield (1982). Neural networks and physical systems with emergent collective computational abilities *Proceedings of the National Academy of Sciences*. [T1] ✓
 - [R052] Zhang (1995). Emergent collective computational abilities in interacting particle systems *Lecture Notes in Computer Science*. [T1] ✓
 - [R053] Singh (2009). Agent-Based Computational Modeling of Emergent Collective Intelligence *Lecture Notes in Computer Science*. [T1] ✓
 - [R057] Samura (2004). Memory Modification Induced by Pattern Completion and STDP in Hippocampal CA3 Model *Lecture Notes in Computer Science*. [T1] ✓
-- [R058] Deuker (2014). Human neuroimaging studies on the hippocampal CA3 region â€“ integrating evidence for pattern separation and completion *Frontiers in Cellular Neuroscience*. [T1] ✓
+- [R058] Deuker (2014). Human neuroimaging studies on the hippocampal CA3 region – integrating evidence for pattern separation and completion *Frontiers in Cellular Neuroscience*. [T1] ✓
 - [R059] Gröbler (1997). Single Cell and Population Activity in a Statistical Model of the Hippocampal CA3 Region *Computational Neuroscience*. [T1] ✓
-- [R060] Walker (1984). Fimbria-Fornix lesions impair spatial working memory but not cognitive mapping. *Behavioral Neuroscience*. [T1] ✓
+- [R060] Walker (1984). Fimbria-Fornix lesions impair spatial working memory but not cognitive mapping *Behavioral Neuroscience*. [T1] ✓
 - [R061] Smith (2005). Orexin-saporin lesions of the medial septum impair spatial memory *Neuroscience*. [T1] ✓
 - [R063] Menschik (1998). Attractor Dynamics in Realistic Hippocampal Networks *Computational Neuroscience*. [T1] ✓
 - [R064] Li (2024). Mechanisms of memory-supporting neuronal dynamics in hippocampal area CA3 *Cell*. [T1] ✓
@@ -152,8 +151,8 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R359] Palm (1981). On the storage capacity of an associative memory with randomly distributed storage elements *Biological Cybernetics*. [T3] ✓
 - [R360] Miyoshi (2004). Storage Capacity Diverges With Synaptic Efficiency in an Associative Memory Model With Synaptic Delay and Pruning *IEEE Transactions on Neural Networks*. [T3] ✓
 - [R370] PENFIELD (1958). Memory Deficit Produced by Bilateral Lesions in the Hippocampal Zone *Archives of Neurology And Psychiatry*. [T3] ✓
-- [R380] Hopfield (1988). (1982) J. J. Hopfield, "Neural networks and physical systems with emergent collective computational abilities," Proceedings of the National Academy of Sciences 79: 2554-2558 *Neurocomputing, Volume 1*. [T3]
-- [R419] Pentti Kanerva (1988). Sparse Distributed Memory *MIT Press*. [undefined]
+- [R380] Hopfield (1988). (1982) J. J. Hopfield, "Neural networks and physical systems with emergent collective computational abilities," Proceedings of the National Academy of Sciences 79: 2554-2558 *Neurocomputing, Volume 1*. [T3] ✓
+- [R419] Pentti Kanerva (1988). Sparse Distributed Memory *MIT Press*. [T3] ✓
 
 ## M3_CTX (39 records, 23 T1)
 
@@ -168,7 +167,7 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R086] ? (2011). Supplemental Material for A Heterogeneous Population Code for Elapsed Time in Rat Medial Agranular Cortex *Behavioral Neuroscience*. [T1] ✓
 - [R089] Delprato (1971). Association by contiguity: Clustering in free recall *Psychonomic Science*. [T1] ✓
 - [R090] Wallace (1969). Clustering in free recall based upon input contiguity *Psychonomic Science*. [T1] ✓
-- [R091] Sederberg (2008). A context-based theory of recency and contiguity in free recall. *Psychological Review*. [T1] ✓
+- [R091] Sederberg (2008). A context-based theory of recency and contiguity in free recall *Psychological Review*. [T1] ✓
 - [R092] Guardamagna (2025). Direct entorhinal control of CA1 temporal coding *Nature Communications*. [T1] ✓
 - [R093] Yamamoto (2017). Direct Medial Entorhinal Cortex Input to Hippocampal CA1 Is Crucial for Extended Quiet Awake Replay *Neuron*. [T1] ✓
 - [R094] Kajiwara (2007). Visualization of the convergence of entorhinal and hippocampal CA3 input onto CA1 neurons *Neuroscience Research*. [T1] ✓
@@ -182,9 +181,7 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R347] Hassabis (2007). Deconstructing episodic memory with construction *Trends in Cognitive Sciences*. [T1] ✓
 - [R078] Healey (2014). Is memory search governed by universal principles or idiosyncratic strategies? *Journal of Experimental Psychology: General*. [T2] ✓
 - [R083] Olton (1986). Hippocampal Function and Memory for Temporal Context *The Hippocampus*. [T2] ✓
-- [R087] Zomorodi (2026). Intrinsic Persistent Firing in
-                    <scp>CA1</scp>
-                    Encodes Elapsed Time Across Behaviorally Relevant Scales *Hippocampus*. [T2] ✓
+- [R087] Zomorodi (2026). Intrinsic Persistent Firing in <scp>CA1</scp> Encodes Elapsed Time Across Behaviorally Relevant Scales *Hippocampus*. [T2] ✓
 - [R096] Smith (2006). Hippocampal place cells, context, and episodic memory *Hippocampus*. [T2] ✓
 - [R098] Elyasaf (2024). Novel off-context experience constrains hippocampal representational drift *Current Biology*. [T2] ✓
 - [R099] Liu (2021). Hippocampal Representations of Event Structure and Temporal Context during Episodic Temporal Order Memory *Cerebral Cortex*. [T2] ✓
@@ -197,9 +194,9 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R084] Wang (2016). Temporal context processing within hippocampal subfields *NeuroImage*. [T3] ✓
 - [R088] Takahashi (2009). A Code for Spatial Alternation During Fixation in Rat Hippocampal CA1 Neurons *Journal of Neurophysiology*. [T3] ✓
 - [R097] Xiao (2009). Synchronization of neural activities with item-context binding in episodic memory *NeuroImage*. [T3] ✓
-- [R381] Sigmund (2017). Context preference-based deep adaptive resonance theory: Integrating user preferences into episodic memory encoding and retrieval *2017 International Joint Conference on Neural Networks (IJCNN)*. [T3]
+- [R381] Sigmund (2017). Context preference-based deep adaptive resonance theory: Integrating user preferences into episodic memory encoding and retrieval *2017 International Joint Conference on Neural Networks (IJCNN)*. [T3] ✓
 
-## M4_CON (66 records, 40 T1)
+## M4_CON (66 records, 43 T1)
 
 - [R001] Wilson (1994). Reactivation of Hippocampal Ensemble Memories During Sleep *Science*. [T1] ✓
 - [R005] Maier (2017). Hippocampal Sharp Wave/Ripple Complexes—Physiology and Mechanisms *Studies in Neuroscience, Psychology and Behavioral Economics*. [T1] ✓
@@ -241,36 +238,36 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R329] MILLER (1994). AN INTERPRETATION, BASED ON CELL ASSEMBLY THEORY, OF THE PSYCHOLOGICAL IMPAIRMENTS FOLLOWING LESIONS OF THE HIPPOCAMPUS AND RELATED STRUCTURES *Advanced Series in Neuroscience*. [T1] ✓
 - [R330] Cherkin (1966). Memory consolidation: Probit analysis of retrograde-amnesia data *Psychonomic Science*. [T1] ✓
 - [R331] King (1967). Consolidation of the neural trace in memory: ECS-produced retrograde amnesia is not an artifact of conditioning *Psychonomic Science*. [T1] ✓
+- [R422] Sun (2023). Organizing memories for generalization in complementary learning systems *Nature Neuroscience*. [T1] ✓
+- [R423] Spens (2024). A generative model of memory construction and consolidation *Nature Human Behaviour*. [T1] ✓
+- [R429] Saxena (2022). Learning in deep neural networks and brains with similarity-weighted interleaved learning *Proceedings of the National Academy of Sciences*. [T1] ✓
 - [R003] Buzsáki (2015). Hippocampal sharp wave‐ripple: A cognitive biomarker for episodic memory and planning *Hippocampus*. [T2] ✓
 - [R107] Salgado-Puga (2026). Exposure to broadband noise during non-REM sleep impairs hippocampal sharp-wave ripples and memory consolidation *Current Biology*. [T2] ✓
 - [R114] SEIPONE (2005). EVOLVING NEURAL NETWORKS THAT SUFFER MINIMAL CATASTROPHIC FORGETTING *Modeling Language, Cognition and Action*. [T2] ✓
 - [R332] Mumby (1999). Retrograde amnesia and selective damage to the hippocampal formation: memory for places and object discriminations *Behavioural Brain Research*. [T2] ✓
-- [R382] Stickgold (2004). Dissecting sleep-dependent learning and memory consolidation. Comment on Schabus M et al. Sleep spindles and their significance for declarative memory consolidation. Sleep 2004;27(8):1479-85. *Sleep*. [T2]
-- [R383] Stickgold (2007). Sleep-dependent memory consolidation and reconsolidation *Sleep Medicine*. [T2]
-- [R384] ? (2009). Slow Wave Sleep and REM Sleep Awakenings Do Not Affect Sleep Dependent Memory Consolidation *Sleep*. [T2]
-- [R418] Cipolli (2013). Sleep-dependent memory consolidation in patients with sleep disorders *Sleep Medicine Reviews*. [T2]
+- [R382] Stickgold (2004). Dissecting sleep-dependent learning and memory consolidation. Comment on Schabus M et al. Sleep spindles and their significance for declarative memory consolidation. Sleep 2004;27(8):1479-85 *Sleep*. [T2] ✓
+- [R383] Stickgold (2007). Sleep-dependent memory consolidation and reconsolidation *Sleep Medicine*. [T2] ✓
+- [R384] ? (2009). Slow Wave Sleep and REM Sleep Awakenings Do Not Affect Sleep Dependent Memory Consolidation *Sleep*. [T2] ✓
+- [R418] Cipolli (2013). Sleep-dependent memory consolidation in patients with sleep disorders *Sleep Medicine Reviews*. [T2] ✓
+- [R421] Lu (2022). A neural network model of when to retrieve and encode episodic memories *eLife*. [T2] ✓
+- [R424] Spens (2025). Modelling the control of offline processing with reinforcement learning *Advances in Neural Information Processing Systems 38*. [T2] ✓
 - [R115] Robins (null). Catastrophic forgetting in neural networks: the role of rehearsal mechanisms *Proceedings 1993 The First New Zealand International Two-Stream Conference on Artificial Neural Networks and Expert Systems*. [T3] ✓
 - [R116] Munari (2022). Understanding Catastrophic Forgetting of Gated Linear Networks in Continual Learning *2022 International Joint Conference on Neural Networks (IJCNN)*. [T3] ✓
 - [R124] Mölle (2006). Hippocampal Sharp Wave-Ripples Linked to Slow Oscillations in Rat Slow-Wave Sleep *Journal of Neurophysiology*. [T3] ✓
 - [R125] Ramadan (2009). Hippocampal Sharp Wave/Ripples during Sleep for Consolidation of Associative Memory *PLoS ONE*. [T3] ✓
 - [R127] Shi (2026). DePER: Decoupled Multi-Scheme Prioritized Experience Replay for Sample-Efficient Deep Reinforcement Learning *2026 International Joint Conference on Neural Networks (IJCNN)*. [T3] ✓
-- [R385] Shen (2019). Memory Reduction through Experience Classification f or Deep Reinforcement Learning with Prioritized Experience Replay *2019 IEEE International Workshop on Signal Processing Systems (SiPS)*. [T3]
-- [R386] Yuyan (2019). A Novel Movie Recommendation System Based on Deep Reinforcement Learning with Prioritized Experience Replay *2019 IEEE 19th International Conference on Communication Technology (ICCT)*. [T3]
-- [R387] Cao (2019). High-Value Prioritized Experience Replay for Off-Policy Reinforcement Learning *2019 IEEE 31st International Conference on Tools with Artificial Intelligence (ICTAI)*. [T3]
-- [R388] Novitskaya (2016). Ripple-triggered stimulation of the locus coeruleus during post-learning sleep disrupts ripple/spindle coupling and impairs memory consolidation *Learning & Memory*. [T3]
-- [R389] TATSUNO (2007). Memory Replay and Memory Consolidation *Seibutsu Butsuri*. [T3]
-- [R408] Sarkar (2023). CPPER: A Controlled Partial Prioritized Experience Replay for Reinforcement Learning in its Multi- Agent extension *2023 IEEE International Conference on Contemporary Computing and Communications (InC4)*. [T3]
-- [R410] Zhao (2026). Continual predictive learning of attention reinforcement based on Q-learning with prioritized experience replay *Neurocomputing*. [T3]
-- [R421] Lu (2022). A neural network model of when to retrieve and encode episodic memories *eLife*. [undefined]
-- [R422] Sun (2023). Organizing memories for generalization in complementary learning systems *Nature Neuroscience*. [undefined]
-- [R423] Spens (2024). A generative model of memory construction and consolidation *Nature Human Behaviour*. [undefined]
-- [R424] Spens (2025). Modelling the control of offline processing with reinforcement learning *Advances in Neural Information Processing Systems 38*. [undefined]
-- [R429] Saxena (2022). Learning in deep neural networks and brains with similarity-weighted interleaved learning *Proceedings of the National Academy of Sciences*. [undefined]
-- [R431] Schaul (2016). Prioritized Experience Replay *arXiv preprint*. [T3]
+- [R385] Shen (2019). Memory Reduction through Experience Classification f or Deep Reinforcement Learning with Prioritized Experience Replay *2019 IEEE International Workshop on Signal Processing Systems (SiPS)*. [T3] ✓
+- [R386] Yuyan (2019). A Novel Movie Recommendation System Based on Deep Reinforcement Learning with Prioritized Experience Replay *2019 IEEE 19th International Conference on Communication Technology (ICCT)*. [T3] ✓
+- [R387] Cao (2019). High-Value Prioritized Experience Replay for Off-Policy Reinforcement Learning *2019 IEEE 31st International Conference on Tools with Artificial Intelligence (ICTAI)*. [T3] ✓
+- [R388] Novitskaya (2016). Ripple-triggered stimulation of the locus coeruleus during post-learning sleep disrupts ripple/spindle coupling and impairs memory consolidation *Learning & Memory*. [T3] ✓
+- [R389] TATSUNO (2007). Memory Replay and Memory Consolidation *Seibutsu Butsuri*. [T3] ✓
+- [R408] Sarkar (2023). CPPER: A Controlled Partial Prioritized Experience Replay for Reinforcement Learning in its Multi- Agent extension *2023 IEEE International Conference on Contemporary Computing and Communications (InC4)*. [T3] ✓
+- [R410] Zhao (2026). Continual predictive learning of attention reinforcement based on Q-learning with prioritized experience replay *Neurocomputing*. [T3] ✓
+- [R431] Schaul (2016). Prioritized Experience Replay *arXiv preprint*. [T3] ✓
 
 ## M5_SEM (56 records, 28 T1)
 
-- [R004] McClelland (1995). Why there are complementary learning systems in the hippocampus and neocortex: Insights from the successes and failures of connectionist models of learning and memory. *Psychological Review*. [T1] ✓
+- [R004] McClelland (1995). Why there are complementary learning systems in the hippocampus and neocortex: Insights from the successes and failures of connectionist models of learning and memory *Psychological Review*. [T1] ✓
 - [R135] Tse (2007). Schemas and Memory Consolidation *Science*. [T1] ✓
 - [R138] Fusi (2005). Cascade Models of Synaptically Stored Memories *Neuron*. [T1] ✓
 - [R139] ? (2012). Cross Talk Between Stored Memories *Encyclopedia of the Sciences of Learning*. [T1] ✓
@@ -289,7 +286,7 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R159] Aceituno (2023). Learning cortical hierarchies with temporal Hebbian updates *Frontiers in Computational Neuroscience*. [T1] ✓
 - [R161] Hodges (2002). Semantic Dementia: A Disorder of Semantic Memory *Neurological Foundations of Cognitive Neuroscience*. [T1] ✓
 - [R162] Garrard (1999). The Breakdown of Semantic Memory in Alzheimer's Disease and Semantic Dementia *Clinical Science*. [T1] ✓
-- [R284] Squire (1992). "Memory and the hippocampus: A synthesis from findings with rats, monkeys, and humans": Correction. *Psychological Review*. [T1] ✓
+- [R284] Squire (1992). "Memory and the hippocampus: A synthesis from findings with rats, monkeys, and humans": Correction *Psychological Review*. [T1] ✓
 - [R286] Kumaran (2016). What Learning Systems do Intelligent Agents Need? Complementary Learning Systems Theory Updated *Trends in Cognitive Sciences*. [T1] ✓
 - [R304] Benna (2016). Computational principles of synaptic memory consolidation *Nature Neuroscience*. [T1] ✓
 - [R305] Goto (2022). Synaptic plasticity during systems memory consolidation *Neuroscience Research*. [T1] ✓
@@ -297,7 +294,7 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R325] Erlich (2011). A Cortical Substrate for Memory-Guided Orienting in the Rat *Neuron*. [T1] ✓
 - [R342] Yamazaki (2019). Revisiting a theory of cerebellar cortex *Neuroscience Research*. [T1] ✓
 - [R364] Kirkpatrick (2017). Overcoming catastrophic forgetting in neural networks *Proceedings of the National Academy of Sciences*. [T1] ✓
-- [R371] Squire (1992). Memory and the hippocampus: A synthesis from findings with rats, monkeys, and humans. *Psychological Review*. [T1] ✓
+- [R371] Squire (1992). Memory and the hippocampus: A synthesis from findings with rats, monkeys, and humans *Psychological Review*. [T1] ✓
 - [R132] Hoffman (2011). Reverse Concreteness Effects Are Not a Typical Feature of Semantic Dementia: Evidence for the Hub-and-Spoke Model of Conceptual Representation *Cerebral Cortex*. [T2] ✓
 - [R133] Chen (2020). White matter basis for the hub-and-spoke semantic representation: evidence from semantic dementia *Brain*. [T2] ✓
 - [R134] Hoffman (2012). The degraded concept representation system in semantic dementia: damage to pan-modal hub, then visual spoke *Brain*. [T2] ✓
@@ -321,11 +318,11 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R356] Peng (2022). Overcoming Long-Term Catastrophic Forgetting Through Adversarial Neural Pruning and Synaptic Consolidation *IEEE Transactions on Neural Networks and Learning Systems*. [T3] ✓
 - [R357] Zhao (2026). Continual few-shot named entity recognition against catastrophic forgetting and overfitting *Neural Networks*. [T3] ✓
 - [R372] Kong (2024). Overcoming Catastrophic Forgetting in Continual Learning by Exploring Eigenvalues of Hessian Matrix *IEEE Transactions on Neural Networks and Learning Systems*. [T3] ✓
-- [R390] Barry (2016). The time course of systems consolidation of spatial memory from recent to remote retention: A comparison of the Immediate Early Genes Zif268, c-Fos and Arc *Neurobiology of Learning and Memory*. [T3]
-- [R391] Nestor (2002). Memory consolidation and the hippocampus: further evidence from studies of autobiographical memory in semantic dementia and frontal variant frontotemporal dementia *Neuropsychologia*. [T3]
-- [R392] Hodges (1998). A reversal of the temporal gradient for famous person knowledge in semantic dementia: implications for the neural organisation of long-term memory *Neuropsychologia*. [T3]
-- [R393] Hodges (1995). Charting the progression in semantic dementia: implications for the organisation of semantic memory *Neurocase*. [T3]
-- [R425] Fountas (2026). Why the Brain Consolidates: Predictive Forgetting for Optimal Generalisation *arXiv preprint*. [T3]
+- [R390] Barry (2016). The time course of systems consolidation of spatial memory from recent to remote retention: A comparison of the Immediate Early Genes Zif268, c-Fos and Arc *Neurobiology of Learning and Memory*. [T3] ✓
+- [R391] Nestor (2002). Memory consolidation and the hippocampus: further evidence from studies of autobiographical memory in semantic dementia and frontal variant frontotemporal dementia *Neuropsychologia*. [T3] ✓
+- [R392] Hodges (1998). A reversal of the temporal gradient for famous person knowledge in semantic dementia: implications for the neural organisation of long-term memory *Neuropsychologia*. [T3] ✓
+- [R393] Hodges (1995). Charting the progression in semantic dementia: implications for the organisation of semantic memory *Neurocase*. [T3] ✓
+- [R425] Fountas (2026). Why the Brain Consolidates: Predictive Forgetting for Optimal Generalisation *arXiv preprint*. [T3] ✓
 
 ## M6_WM (41 records, 28 T1)
 
@@ -334,7 +331,7 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R165] Michael (2010). Mid-Dorsolateral Prefrontal Cortex and Posterior Parietal Cortex: Anatomical Relations and Function in Working Memory *Frontiers in Human Neuroscience*. [T1] ✓
 - [R167] Mikhail (2009). Dynamical Origin of the &ldquo;Magical Number&rdquo; in Working Memory *Frontiers in Computational Neuroscience*. [T1] ✓
 - [R168] Honig (1988). The magical number four, plus or minus one: Working memory for numbers of items in animals *Behavioral and Brain Sciences*. [T1] ✓
-- [R169] Pascual-Leone (2001). If the magical number is 4, how does one account for operations within  working memory? *Behavioral and Brain Sciences*. [T1] ✓
+- [R169] Pascual-Leone (2001). If the magical number is 4, how does one account for operations within working memory? *Behavioral and Brain Sciences*. [T1] ✓
 - [R170] Tamura (2017). Hippocampal-prefrontal theta-gamma coupling during performance of a spatial working memory task *Nature Communications*. [T1] ✓
 - [R171] Diedrich (2024). Boosting working memory in the elderly: driving prefrontal theta–gamma coupling via repeated neuromodulation *GeroScience*. [T1] ✓
 - [R172] ZHANG (2026). Theta-gamma phase-amplitude coupling in the prefrontal-hippocampal- medial septal circuit: Mechanisms of cross-regional coordination and working memory regulation *Advances in Psychological Science*. [T1] ✓
@@ -345,31 +342,31 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R179] Scharinger (2017). Comparison of the Working Memory Load in N-Back and Working Memory Span Tasks by Means of EEG Frequency Band Power and P300 Amplitude *Frontiers in Human Neuroscience*. [T1] ✓
 - [R180] Newman (2024). Working memory load impairs tacit coordination but not inter-brain EEG synchronization *Social Cognitive and Affective Neuroscience*. [T1] ✓
 - [R181] C. (2008). Brain oscillatory responses during an auditory–verbal working memory task in Asperger syndrome *Frontiers in Human Neuroscience*. [T1] ✓
-- [R184] Donkin (2013). Discrete-slots models of visual working-memory response times. *Psychological Review*. [T1] ✓
+- [R184] Donkin (2013). Discrete-slots models of visual working-memory response times *Psychological Review*. [T1] ✓
 - [R185] Edward (2011). A common discrete resource for visual attention and working memory *Frontiers in Human Neuroscience*. [T1] ✓
 - [R186] HE (2013). Capacity and Resource Allocation of Visual Working Memory *Advances in Psychological Science*. [T1] ✓
 - [R187] Funahashi (2022). Prefrontal Cortex and Working Memory *Brain Science*. [T1] ✓
 - [R188] Funahashi (2022). Working Memory and Prefrontal Functions *Brain Science*. [T1] ✓
 - [R189] Fukai (2000). The network model of the prefrontal cortex for working memory showing sustained activities with low firing rates *Neuroscience Research*. [T1] ✓
 - [R190] Daniel (2011). Multi-item working memory from competitive reverberating neural activity *Frontiers in Computational Neuroscience*. [T1] ✓
-- [R307] Miller (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*. [T1] ✓
-- [R308] Shiffrin (1994). Seven plus or minus two: A commentary on capacity limitations. *Psychological Review*. [T1] ✓
+- [R307] Miller (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information *Psychological Review*. [T1] ✓
+- [R308] Shiffrin (1994). Seven plus or minus two: A commentary on capacity limitations *Psychological Review*. [T1] ✓
 - [R309] Murata (2001). Magical Number Seven Plus or Minus Two: Syntactic Structure Recognition in Japanese and English Sentences *Lecture Notes in Computer Science*. [T1] ✓
 - [R310] Cowan (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity *Behavioral and Brain Sciences*. [T1] ✓
 - [R311] Tehan (2007). Working memory and short-term memory storage *The Cognitive Neuroscience of Working Memory*. [T1] ✓
 - [R166] Mitchell (2007). Flexible, Capacity-Limited Activity of Posterior Parietal Cortex in Perceptual as well as Visual Short-Term Memory Tasks *Cerebral Cortex*. [T2] ✓
 - [R177] Soni (2025). Adaptive chunking improves effective working memory capacity in a prefrontal cortex and basal ganglia circuit *eLife*. [T2] ✓
-- [R182] Oberauer (2024). An interference model for visual and verbal working memory. *Journal of Experimental Psychology: Learning, Memory, and Cognition*. [T2] ✓
+- [R182] Oberauer (2024). An interference model for visual and verbal working memory *Journal of Experimental Psychology: Learning, Memory, and Cognition*. [T2] ✓
 - [R191] Seeholzer (2019). Stability of working memory in continuous attractor networks under the control of short-term plasticity *PLOS Computational Biology*. [T2] ✓
 - [R193] Doyle (2024). Proactive interference of visual working memory chunks implicates long-term memory *Memory & Cognition*. [T2] ✓
 - [R312] Davis (2005). The capacity of visual short-term memory is not a fixed number of objects *Memory & Cognition*. [T2] ✓
-- [R394] Li (2012). Increases of theta–low gamma coupling in rat medial prefrontal cortex during working memory task *Brain Research Bulletin*. [T2]
+- [R394] Li (2012). Increases of theta–low gamma coupling in rat medial prefrontal cortex during working memory task *Brain Research Bulletin*. [T2] ✓
 - [R176] Schmidt (2008). Distinctiveness and Memory: A Theoretical and Empirical Review *Learning and Memory: A Comprehensive Reference*. [T3] ✓
 - [R183] Proskovec (2019). Load modulates the alpha and beta oscillatory dynamics serving verbal working memory *NeuroImage*. [T3] ✓
 - [R192] ? (2025). Erratum: Constraints on multi-item working memory access: performance costs and retrieval dynamics *Frontiers in Psychology*. [T3] ✓
 - [R194] Hartshorne (2008). Visual Working Memory Capacity and Proactive Interference *PLoS ONE*. [T3] ✓
 - [R195] Moriya (2012). High Visual Working Memory Capacity in Trait Social Anxiety *PLoS ONE*. [T3] ✓
-- [R395] Guo (2023). Effects of high-frequency transcranial magnetic stimulation on theta-gamma oscillations and coupling in the prefrontal cortex of rats during working memory task *Medical & Biological Engineering & Computing*. [T3]
+- [R395] Guo (2023). Effects of high-frequency transcranial magnetic stimulation on theta-gamma oscillations and coupling in the prefrontal cortex of rats during working memory task *Medical & Biological Engineering & Computing*. [T3] ✓
 
 ## M7_NEU (43 records, 24 T1)
 
@@ -394,9 +391,9 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R354] de Voogd (2016). Disentangling the roles of arousal and amygdala activation in emotional declarative memory *Social Cognitive and Affective Neuroscience*. [T1] ✓
 - [R355] Chikazoe (2011). Role of amygdala in retrograde memory enhancement induced by emotional arousal *Neuroscience Research*. [T1] ✓
 - [R369] McGaugh (2004). THE AMYGDALA MODULATES THE CONSOLIDATION OF MEMORIES OF EMOTIONALLY AROUSING EXPERIENCES *Annual Review of Neuroscience*. [T1] ✓
-- [R396] Tanaka (2019). The cost of obtaining rewards enhances the reward prediction error signal of midbrain dopamine neurons *Nature Communications*. [T1]
-- [R397] Farrell (2022). Midbrain dopamine neurons signal phasic and ramping reward prediction error during goal-directed navigation *Cell Reports*. [T1]
-- [R398] Amo (2024). Glutamate inputs send prediction error of reward, but not negative value of aversive stimuli, to dopamine neurons *Neuron*. [T1]
+- [R396] Tanaka (2019). The cost of obtaining rewards enhances the reward prediction error signal of midbrain dopamine neurons *Nature Communications*. [T1] ✓
+- [R397] Farrell (2022). Midbrain dopamine neurons signal phasic and ramping reward prediction error during goal-directed navigation *Cell Reports*. [T1] ✓
+- [R398] Amo (2024). Glutamate inputs send prediction error of reward, but not negative value of aversive stimuli, to dopamine neurons *Neuron*. [T1] ✓
 - [R196] Titulaer (2019). P.720 Novelty induces dopamine release in the hippocampus *European Neuropsychopharmacology*. [T2] ✓
 - [R197] Wang (2024). Dopamine encoding of novelty facilitates efficient uncertainty-driven exploration *PLOS Computational Biology*. [T2] ✓
 - [R198] Kumaran (2007). Which computational mechanisms operate in the hippocampus during novelty detection? *Hippocampus*. [T2] ✓
@@ -409,7 +406,7 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R227] Ripollés (2016). Intrinsic monitoring of learning success facilitates memory encoding via the activation of the SN/VTA-Hippocampal loop *eLife*. [T2] ✓
 - [R350] Dalmaz (1993). Noradrenergic and cholinergic interactions in the amygdala and the modulation of memory storage *Behavioural Brain Research*. [T2] ✓
 - [R351] Johnston (1989). Cholinergic and Noradrenergic Modulation of Long-term Potentiation in Hippocampal CA3 Neurons *Brain Signal Transduction and Memory*. [T2] ✓
-- [R411] Lee (2019). Reward prediction error does not explain movement selectivity in DMS-projecting dopamine neurons *eLife*. [T2]
+- [R411] Lee (2019). Reward prediction error does not explain movement selectivity in DMS-projecting dopamine neurons *eLife*. [T2] ✓
 - [R201] McGaugh (2002). Amygdala Modulation of Memory Consolidation: Interaction with Other Brain Systems *Neurobiology of Learning and Memory*. [T3] ✓
 - [R208] Strange (2005). Dissociating intentional learning from relative novelty responses in the medial temporal lobe *NeuroImage*. [T3] ✓
 - [R211] Morena (2021). Ketamine anesthesia enhances fear memory consolidation via noradrenergic activation in the basolateral amygdala *Neurobiology of Learning and Memory*. [T3] ✓
@@ -417,7 +414,7 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R221] Zukerman (2019). Reduced electrophysiological habituation to novelty after trauma reflects heightened salience network detection *Neuropsychologia*. [T3] ✓
 - [R352] Rajkumar (2017). Priming locus coeruleus noradrenergic modulation of medial perforant path-dentate gyrus synaptic plasticity *Neurobiology of Learning and Memory*. [T3] ✓
 
-## M8_FOR (38 records, 16 T1)
+## M8_FOR (38 records, 17 T1)
 
 - [R230] Santangelo (2025). Altered brain activity during active forgetting in highly superior autobiographical memory: Evidence from an item-method directed forgetting *iScience*. [T1] ✓
 - [R233] Orederu (2020). The Dynamic Memory Engram Life Cycle: Reactivation, Destabilization, and Reconsolidation *The Cognitive Neurosciences*. [T1] ✓
@@ -425,7 +422,7 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R236] Agren (2012). Disruption of Reconsolidation Erases a Fear Memory Trace in the Human Amygdala *Science*. [T1] ✓
 - [R237] Dębiec (2004). Disruption of reconsolidation but not consolidation of auditory fear conditioning by noradrenergic blockade in the amygdala *Neuroscience*. [T1] ✓
 - [R238] Spring (1968). Decay and interference theories of short-term forgetting *Psychonomic Science*. [T1] ✓
-- [R242] Osth (2015). Sources of interference in item and associative recognition memory. *Psychological Review*. [T1] ✓
+- [R242] Osth (2015). Sources of interference in item and associative recognition memory *Psychological Review*. [T1] ✓
 - [R243] Sparks (2011). Between-systems memory interference during retrieval *European Journal of Neuroscience*. [T1] ✓
 - [R244] ? (2024). Supplemental Material for Dynamic Retrieval of Events and Associations From Memory: An Integrated Account of Item and Associative Recognition *Psychological Review*. [T1] ✓
 - [R245] Ferreira (2014). Medial Prefrontal Theta Oscillations Track the Time Course of Interference during Selective Memory Retrieval *Journal of Cognitive Neuroscience*. [T1] ✓
@@ -433,55 +430,55 @@ Per-model-module evidence coverage in the citation bank, sorted T1 first, then b
 - [R251] Medina (2018). Neural, Cellular and Molecular Mechanisms of Active Forgetting *Frontiers in Systems Neuroscience*. [T1] ✓
 - [R252] Li (2024). Characteristics and neural mechanisms of active forgetting in patients with PTSD *Theoretical and Natural Science*. [T1] ✓
 - [R253] Crochet (2011). Synaptic Mechanisms Underlying Sparse Coding of Active Touch *Neuron*. [T1] ✓
-- [R406] Anderson (2001). Suppressing unwanted memories by executive control *Nature*. [T1]
-- [R414] Turrigiano (1998). Activity-dependent scaling of quantal amplitude in neocortical neurons *Nature*. [T1]
+- [R406] Anderson (2001). Suppressing unwanted memories by executive control *Nature*. [T1] ✓
+- [R414] Turrigiano (1998). Activity-dependent scaling of quantal amplitude in neocortical neurons *Nature*. [T1] ✓
+- [R426] Nagy (2025). Adaptive compression as a unifying framework for episodic and semantic memory *Nature Reviews Psychology*. [T1] ✓
 - [R228] Tempel (2017). Retrieval-induced forgetting is retrieval-modality specific: Evidence from motor memory *Cognition*. [T2] ✓
 - [R231] Berry (2014). Active Forgetting of Olfactory Memories in Drosophila *Progress in Brain Research*. [T2] ✓
-- [R232] Whitlock (2025). Delayed testing in directed forgetting dissociates active and passive forms of forgetting. *Journal of Experimental Psychology: Learning, Memory, and Cognition*. [T2] ✓
+- [R232] Whitlock (2025). Delayed testing in directed forgetting dissociates active and passive forms of forgetting *Journal of Experimental Psychology: Learning, Memory, and Cognition*. [T2] ✓
 - [R239] Bancroft (2019). Diffusion modeling of interference and decay in auditory short-term memory *Experimental Brain Research*. [T2] ✓
 - [R240] McKone (1998). The decay of short-term implicit memory: Unpacking lag *Memory & Cognition*. [T2] ✓
 - [R246] Keresztes (2012). Interference resolution in retrieval-induced forgetting: Behavioral evidence for a nonmonotonic relationship between interference and forgetting *Memory & Cognition*. [T2] ✓
 - [R249] Kausler (1991). Rehearsal-Independent Episodic Memory: Long-Term Forgetting *Experimental Psychology, Cognition, and Human Aging*. [T2] ✓
 - [R250] starns (2004). Episodic generation can cause semantic forgetting: Retrieval-induced forgetting of false memories *Memory & Cognition*. [T2] ✓
-- [R319] Anderson (1994). Remembering can cause forgetting: Retrieval dynamics in long-term memory. *Journal of Experimental Psychology: Learning, Memory, and Cognition*. [T2] ✓
-- [R229] RacsmÃ¡ny (2015). Initial retrieval shields against retrieval-induced forgetting *Frontiers in Psychology*. [T3] ✓
+- [R319] Anderson (1994). Remembering can cause forgetting: Retrieval dynamics in long-term memory *Journal of Experimental Psychology: Learning, Memory, and Cognition*. [T2] ✓
+- [R229] Racsmány (2015). Initial retrieval shields against retrieval-induced forgetting *Frontiers in Psychology*. [T3] ✓
 - [R234] Fernández (2016). The dynamic nature of the reconsolidation process and its boundary conditions: Evidence based on human tests *Neurobiology of Learning and Memory*. [T3] ✓
 - [R241] Levy (2018). Behavioral reconsolidation interference with episodic memory within-subjects is elusive *Neurobiology of Learning and Memory*. [T3] ✓
 - [R247] Stocco (2009). Associative and temporal interference affect distinct prefrontal regions during memory retrieval *NeuroImage*. [T3] ✓
 - [R320] Bäuml (2017). Retrieval-Induced Remembering and Forgetting *Learning and Memory: A Comprehensive Reference*. [T3] ✓
-- [R399] Anderson (2000). Retrieval-induced forgetting: Evidence for a recall-specific mechanism *Psychonomic Bulletin & Review*. [T3]
-- [R400] Nader (2015). Reconsolidation and the Dynamic Nature of Memory *Novel Mechanisms of Memory*. [T3]
-- [R401] Mackworth (1964). Interference and decay in very short-term memory *Journal of Verbal Learning and Verbal Behavior*. [T3]
-- [R402] Cermak (1970). Decay of interference as a function of the intertrial interval in short-term memory. *Journal of Experimental Psychology*. [T3]
-- [R403] Levy (1971). Short-term memory: Storage interference or storage decay? *Journal of Experimental Psychology*. [T3]
-- [R412] Marteniuk (1975). Decay and interference effects in motor short-term memory *Acta Psychologica*. [T3]
-- [R413] Hole (1996). Decay and Interference Effects in Visuospatial Short-Term Memory *Perception*. [T3]
-- [R426] Nagy (2025). Adaptive compression as a unifying framework for episodic and semantic memory *Nature Reviews Psychology*. [undefined]
+- [R399] Anderson (2000). Retrieval-induced forgetting: Evidence for a recall-specific mechanism *Psychonomic Bulletin & Review*. [T3] ✓
+- [R400] Nader (2015). Reconsolidation and the Dynamic Nature of Memory *Novel Mechanisms of Memory*. [T3] ✓
+- [R401] Mackworth (1964). Interference and decay in very short-term memory *Journal of Verbal Learning and Verbal Behavior*. [T3] ✓
+- [R402] Cermak (1970). Decay of interference as a function of the intertrial interval in short-term memory *Journal of Experimental Psychology*. [T3] ✓
+- [R403] Levy (1971). Short-term memory: Storage interference or storage decay? *Journal of Experimental Psychology*. [T3] ✓
+- [R412] Marteniuk (1975). Decay and interference effects in motor short-term memory *Acta Psychologica*. [T3] ✓
+- [R413] Hole (1996). Decay and Interference Effects in Visuospatial Short-Term Memory *Perception*. [T3] ✓
 
 ## SYSTEM (1 records, 0 T1)
 
-- [R420] Yanran Li (2017). DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset *arXiv preprint*. [T3]
+- [R420] Yanran Li (2017). DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset *arXiv preprint*. [T3] ✓
 
-## related_work (20 records, 1 T1)
+## related_work (21 records, 1 T1)
 
 - [R444] Goto (2026). Neuromodulation-inspired gated associative memory networks: Extended memory retrieval and emergent multistability *Proceedings of the National Academy of Sciences*. [T1] ✓
 - [R433] Mahendrakar (2026). Consolidation Without Weights: What the Complementary Learning Systems Analogy Licenses in LLM Agent Memory, and Why the Systems That Borrow Its Name Do Not Inherit Its Guarantee *Zenodo preprint (record 22699102)*. [T2] ✓
-- [R440] Saleh (2026). AfterDeleteBench: Auditing Post-Deletion Information Persistence in LLM Agents *arXiv preprint*. [T3]
 - [R441] Gariépy (2026). Distributed Engrammics: Gradient-Free Transfer of a Persistent Fast-Weight Associative State Between Agents *Zenodo preprint (record 20931468)*. [T2] ✓
-- [SYS005] Gutiérrez (2024). HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models *Advances in Neural Information Processing Systems*. [T2]
-- [R432] Zhang (2024). A Survey on the Memory Mechanism of Large Language Model based Agents *arXiv preprint*. [T3]
-- [R434] Song (2026). Hippo: Training-Free Agent Self-Evolution via Hippocampal Replay *arXiv preprint*. [T3]
-- [R435] Hong (2026). Intuition with Evidence: Adaptive Dual Memory for Multimodal Agents *arXiv preprint*. [T3]
-- [R436] Fu (2026). Can LLM Agents Organize Their Own Memory? *arXiv preprint*. [T3]
-- [R437] Yang (2026). ENGRAM: From Agent Experience to Weights through Verified Consolidation *arXiv preprint*. [T3]
-- [R438] Zhang (2026). Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents *arXiv preprint*. [T3]
-- [R439] Anand (2026). MEMOIR: A Training-Free Memory Lifecycle for Long-Horizon LLM Agents *arXiv preprint*. [T3]
+- [SYS005] Gutiérrez (2024). HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models *Advances in Neural Information Processing Systems*. [T2] ✓
+- [R432] Zhang (2024). A Survey on the Memory Mechanism of Large Language Model based Agents *arXiv preprint*. [T3] ✓
+- [R434] Song (2026). Hippo: Training-Free Agent Self-Evolution via Hippocampal Replay *arXiv preprint*. [T3] ✓
+- [R435] Hong (2026). Intuition with Evidence: Adaptive Dual Memory for Multimodal Agents *arXiv preprint*. [T3] ✓
+- [R436] Fu (2026). Can LLM Agents Organize Their Own Memory? *arXiv preprint*. [T3] ✓
+- [R437] Yang (2026). ENGRAM: From Agent Experience to Weights through Verified Consolidation *arXiv preprint*. [T3] ✓
+- [R438] Zhang (2026). Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents *arXiv preprint*. [T3] ✓
+- [R439] Anand (2026). MEMOIR: A Training-Free Memory Lifecycle for Long-Horizon LLM Agents *arXiv preprint*. [T3] ✓
+- [R440] Saleh (2026). AfterDeleteBench: Auditing Post-Deletion Information Persistence in LLM Agents *arXiv preprint*. [T3] ✓
 - [R442] Anthropic (2026). The components of agent memory *Anthropic technical blog (2026-11-06)*. [T3] ✓
-- [R443] Ota (2026). Phases in a class of associative memories via hidden neurons *arXiv preprint*. [T3]
-- [SYS001] Packer (2023). MemGPT: Towards LLMs as Operating Systems *arXiv preprint*. [T3]
-- [SYS002] Park (2023). Generative Agents: Interactive Simulacra of Human Behavior *arXiv preprint*. [T3]
-- [SYS003] Chhikara (2025). Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory *arXiv preprint*. [T3]
-- [SYS004] Rasmussen (2025). Zep: A Temporal Knowledge Graph Architecture for Agent Memory *arXiv preprint*. [T3]
-- [SYS006] Gutiérrez (2025). From RAG to Memory: Non-Parametric Continual Learning for Large Language Models *arXiv preprint*. [T3]
-- [SYS007] Xu (2025). A-MEM: Agentic Memory for LLM Agents *arXiv preprint*. [T3]
-
+- [R443] Ota (2026). Phases in a class of associative memories via hidden neurons *arXiv preprint*. [T3] ✓
+- [R445] Ghaffari (2026). Context Poisoning as Extreme-Value Attention Interference in Long-Context Language Models *arXiv preprint*. [T3] ✓
+- [SYS001] Packer (2023). MemGPT: Towards LLMs as Operating Systems *arXiv preprint*. [T3] ✓
+- [SYS002] Park (2023). Generative Agents: Interactive Simulacra of Human Behavior *arXiv preprint*. [T3] ✓
+- [SYS003] Chhikara (2025). Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory *arXiv preprint*. [T3] ✓
+- [SYS004] Rasmussen (2025). Zep: A Temporal Knowledge Graph Architecture for Agent Memory *arXiv preprint*. [T3] ✓
+- [SYS006] Gutiérrez (2025). From RAG to Memory: Non-Parametric Continual Learning for Large Language Models *arXiv preprint*. [T3] ✓
+- [SYS007] Xu (2025). A-MEM: Agentic Memory for LLM Agents *arXiv preprint*. [T3] ✓

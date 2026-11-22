@@ -42,10 +42,25 @@ def main() -> int:
     src = _sys.argv[1] if len(_sys.argv) > 1 else SRC
     outp = _sys.argv[2] if len(_sys.argv) > 2 else OUT
     lang = "en" if "EN" in os.path.basename(src) else "zh-CN"
-    title = "HCM paper" if lang == "en" else "HCM 记忆模型论文"
     content = open(src, encoding="utf-8").read()
     content = content.lstrip("\ufeff")  # wave7: strip UTF-8 BOM so the first-line H1 regex matches
     lines = content.split("\n")
+
+    # PDF /Title metadata: take from the source first heading line, fall back only if absent.
+    # This used to be hardcoded "HCM paper" / "HCM 记忆模型论文", which clobbered the real
+    # title on every re-export (same fix family as export_html.py in v1.3).
+    title = None
+    for _ln in lines:
+        _clean = _ln.strip()
+        if not _clean:
+            continue
+        if _clean.startswith("# "):
+            title = _clean[2:].strip()
+        elif not _clean.startswith(("#", ">", "|", "**", "---", "```", "~~~")):
+            title = _clean
+        break
+    if not title:
+        title = "HCM paper" if lang == "en" else "HCM 记忆模型论文"
     out, i, in_code, in_ul, in_ol = [], 0, False, False, False
 
     def close_lists():

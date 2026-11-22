@@ -76,7 +76,7 @@ src/hcm/     模型参考实现（12 个模块，纯 NumPy，无深度学习框�
 bench/       实验脚本（exp1–exp55）与 reproduce_all.py 一键入口
 results/     每个实验的 JSON 结果（含全部条件与随机种子）
 repro/       一键环境（setup + run_repro + 四道验收守卫）
-refs/        447 条引文库与机器核验元数据
+refs/        448 条引文库与机器核验元数据
 docs/        MODEL.md（模型规格）· SCALE-PROTOCOL.md（超算协议）· REVISIONS.md（构建期台账）
 audit/       主张台账、引文核验报告、SHA256 清单
 paper/       论文源文件与图表
@@ -89,10 +89,10 @@ tests/       诊断脚本（每个对应一个已解决的失效模式）
 
 | 守卫 | 判据 |
 |---|---|
-| G1 数字溯源 | 444/444 断言与结果文件逐位一致 |
-| G2 引文核验 | 447 条逐条机检（DOI 可解析、标题相似度、年份、作者、撤稿、期刊分级） |
-| G3 引文闭合 | 69 条正文引用与引文库双向闭合 |
-| G4 校验和 | 883 个交付文件的 SHA256 一致 |
+| G1 数字溯源 | 457/457 断言与结果文件逐位一致 |
+| G2 引文核验 | 448 条逐条机检（DOI 可解析、标题相似度、年份、作者、撤稿、期刊分级） |
+| G3 引文闭合 | 57 条正文引用与引文库双向闭合 |
+| G4 校验和 | 681 个交付文件的 SHA256 一致 |
 
 **环境**：Python 3.10+（开发用 3.14）· numpy · matplotlib · python-docx。不需要 torch / scipy。全程纯 CPU，单线程。
 
@@ -108,7 +108,7 @@ tests/       诊断脚本（每个对应一个已解决的失效模式）
 
 ## 引文
 
-全部引文由 API 产出，无手写 DOI：检索（Crossref/OpenAlex）→ 四通道核验（Crossref、PubMed、Europe PMC、OpenAlex）→ 回填 → 编译期未匹配 token 硬失败。核验报告在 `audit/citations-report.json`。
+全部引文由 API 产出，无手写 DOI：检索（Crossref/OpenAlex）→ 六通道核验（Crossref、PubMed、Europe PMC、OpenAlex、arXiv API、图书/网页交叉核验）→ 回填 → 编译期未匹配 token 硬失败。核验报告在 `audit/citations-report.json`。
 
 ## 许可与引用
 
