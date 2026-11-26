@@ -1,0 +1,1502 @@
+[
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.1,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 0,
+      "extra": {}
+    },
+    "key": "M100000_lam0.10_r1.00_c1.00_L2_f1.000_prototype_structured_default_s0",
+    "metrics": {
+      "AA": 0.16666666666666666,
+      "bytes_used": 96896,
+      "n_rec_budget": 1,
+      "n_rank_budget": 19,
+      "n_episodes": 1,
+      "n_pruned": 95,
+      "train_time": 0.2880600999924354
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.1,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 1,
+      "extra": {}
+    },
+    "key": "M100000_lam0.10_r1.00_c1.00_L2_f1.000_prototype_structured_default_s1",
+    "metrics": {
+      "AA": 0.14583333333333334,
+      "bytes_used": 96896,
+      "n_rec_budget": 1,
+      "n_rank_budget": 19,
+      "n_episodes": 1,
+      "n_pruned": 95,
+      "train_time": 0.22686830000020564
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.1,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 2,
+      "extra": {}
+    },
+    "key": "M100000_lam0.10_r1.00_c1.00_L2_f1.000_prototype_structured_default_s2",
+    "metrics": {
+      "AA": 0.125,
+      "bytes_used": 96896,
+      "n_rec_budget": 1,
+      "n_rank_budget": 19,
+      "n_episodes": 1,
+      "n_pruned": 95,
+      "train_time": 0.23749310005223379
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.3,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 0,
+      "extra": {}
+    },
+    "key": "M100000_lam0.30_r1.00_c1.00_L2_f1.000_prototype_structured_default_s0",
+    "metrics": {
+      "AA": 0.25,
+      "bytes_used": 97152,
+      "n_rec_budget": 3,
+      "n_rank_budget": 15,
+      "n_episodes": 3,
+      "n_pruned": 93,
+      "train_time": 0.2395329999853857
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.3,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 1,
+      "extra": {}
+    },
+    "key": "M100000_lam0.30_r1.00_c1.00_L2_f1.000_prototype_structured_default_s1",
+    "metrics": {
+      "AA": 0.14583333333333334,
+      "bytes_used": 97152,
+      "n_rec_budget": 3,
+      "n_rank_budget": 15,
+      "n_episodes": 3,
+      "n_pruned": 93,
+      "train_time": 0.24440109997522086
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.3,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 2,
+      "extra": {}
+    },
+    "key": "M100000_lam0.30_r1.00_c1.00_L2_f1.000_prototype_structured_default_s2",
+    "metrics": {
+      "AA": 0.041666666666666664,
+      "bytes_used": 97152,
+      "n_rec_budget": 3,
+      "n_rank_budget": 15,
+      "n_episodes": 3,
+      "n_pruned": 93,
+      "train_time": 0.2527927000191994
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.5,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 0,
+      "extra": {}
+    },
+    "key": "M100000_lam0.50_r1.00_c1.00_L2_f1.000_prototype_structured_default_s0",
+    "metrics": {
+      "AA": 0.22916666666666666,
+      "bytes_used": 92800,
+      "n_rec_budget": 5,
+      "n_rank_budget": 10,
+      "n_episodes": 5,
+      "n_pruned": 91,
+      "train_time": 0.27128330001141876
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.5,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 1,
+      "extra": {}
+    },
+    "key": "M100000_lam0.50_r1.00_c1.00_L2_f1.000_prototype_structured_default_s1",
+    "metrics": {
+      "AA": 0.16666666666666666,
+      "bytes_used": 92800,
+      "n_rec_budget": 5,
+      "n_rank_budget": 10,
+      "n_episodes": 5,
+      "n_pruned": 91,
+      "train_time": 0.3089577000355348
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.5,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 2,
+      "extra": {}
+    },
+    "key": "M100000_lam0.50_r1.00_c1.00_L2_f1.000_prototype_structured_default_s2",
+    "metrics": {
+      "AA": 0.08333333333333333,
+      "bytes_used": 92800,
+      "n_rec_budget": 5,
+      "n_rank_budget": 10,
+      "n_episodes": 5,
+      "n_pruned": 91,
+      "train_time": 0.3009219000232406
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.7,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 0,
+      "extra": {}
+    },
+    "key": "M100000_lam0.70_r1.00_c1.00_L2_f1.000_prototype_structured_default_s0",
+    "metrics": {
+      "AA": 0.041666666666666664,
+      "bytes_used": 93056,
+      "n_rec_budget": 7,
+      "n_rank_budget": 6,
+      "n_episodes": 7,
+      "n_pruned": 89,
+      "train_time": 0.23320550000062212
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.7,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 1,
+      "extra": {}
+    },
+    "key": "M100000_lam0.70_r1.00_c1.00_L2_f1.000_prototype_structured_default_s1",
+    "metrics": {
+      "AA": 0.125,
+      "bytes_used": 93056,
+      "n_rec_budget": 7,
+      "n_rank_budget": 6,
+      "n_episodes": 7,
+      "n_pruned": 89,
+      "train_time": 0.2181711999583058
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.7,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 2,
+      "extra": {}
+    },
+    "key": "M100000_lam0.70_r1.00_c1.00_L2_f1.000_prototype_structured_default_s2",
+    "metrics": {
+      "AA": 0.14583333333333334,
+      "bytes_used": 93056,
+      "n_rec_budget": 7,
+      "n_rank_budget": 6,
+      "n_episodes": 7,
+      "n_pruned": 89,
+      "train_time": 0.22336940001696348
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.9,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 0,
+      "extra": {}
+    },
+    "key": "M100000_lam0.90_r1.00_c1.00_L2_f1.000_prototype_structured_default_s0",
+    "metrics": {
+      "AA": 0.16666666666666666,
+      "bytes_used": 93312,
+      "n_rec_budget": 9,
+      "n_rank_budget": 2,
+      "n_episodes": 9,
+      "n_pruned": 87,
+      "train_time": 0.19307199999457225
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.9,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 1,
+      "extra": {}
+    },
+    "key": "M100000_lam0.90_r1.00_c1.00_L2_f1.000_prototype_structured_default_s1",
+    "metrics": {
+      "AA": 0.0625,
+      "bytes_used": 93312,
+      "n_rec_budget": 9,
+      "n_rank_budget": 2,
+      "n_episodes": 9,
+      "n_pruned": 87,
+      "train_time": 0.20852079999167472
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.9,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 2,
+      "extra": {}
+    },
+    "key": "M100000_lam0.90_r1.00_c1.00_L2_f1.000_prototype_structured_default_s2",
+    "metrics": {
+      "AA": 0.08333333333333333,
+      "bytes_used": 93312,
+      "n_rec_budget": 9,
+      "n_rank_budget": 2,
+      "n_episodes": 9,
+      "n_pruned": 87,
+      "train_time": 0.19283490005182102
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 1.0,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 1,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 0,
+      "extra": {}
+    },
+    "key": "M100000_lam1.00_r1.00_c1.00_L1_f1.000_prototype_structured_default_s0",
+    "metrics": {
+      "AA": 0.4375,
+      "bytes_used": 93440,
+      "n_rec_budget": 10,
+      "n_rank_budget": 64,
+      "n_episodes": 10,
+      "n_pruned": 86,
+      "train_time": 2.6240834000054747
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 1.0,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 1,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 1,
+      "extra": {}
+    },
+    "key": "M100000_lam1.00_r1.00_c1.00_L1_f1.000_prototype_structured_default_s1",
+    "metrics": {
+      "AA": 0.4166666666666667,
+      "bytes_used": 93440,
+      "n_rec_budget": 10,
+      "n_rank_budget": 64,
+      "n_episodes": 10,
+      "n_pruned": 86,
+      "train_time": 1.3802115000435151
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 1.0,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 1,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 2,
+      "extra": {}
+    },
+    "key": "M100000_lam1.00_r1.00_c1.00_L1_f1.000_prototype_structured_default_s2",
+    "metrics": {
+      "AA": 0.2916666666666667,
+      "bytes_used": 93440,
+      "n_rec_budget": 10,
+      "n_rank_budget": 64,
+      "n_episodes": 10,
+      "n_pruned": 86,
+      "train_time": 0.9728462999919429
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.1,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 3,
+      "extra": {}
+    },
+    "key": "M100000_lam0.10_r1.00_c1.00_L2_f1.000_prototype_structured_default_s3",
+    "metrics": {
+      "AA": 0.0625,
+      "bytes_used": 96896,
+      "n_rec_budget": 1,
+      "n_rank_budget": 19,
+      "n_episodes": 1,
+      "n_pruned": 95,
+      "train_time": 0.3328901000204496
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.1,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 4,
+      "extra": {}
+    },
+    "key": "M100000_lam0.10_r1.00_c1.00_L2_f1.000_prototype_structured_default_s4",
+    "metrics": {
+      "AA": 0.0625,
+      "bytes_used": 96896,
+      "n_rec_budget": 1,
+      "n_rank_budget": 19,
+      "n_episodes": 1,
+      "n_pruned": 95,
+      "train_time": 0.27177540003322065
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.1,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 5,
+      "extra": {}
+    },
+    "key": "M100000_lam0.10_r1.00_c1.00_L2_f1.000_prototype_structured_default_s5",
+    "metrics": {
+      "AA": 0.125,
+      "bytes_used": 96896,
+      "n_rec_budget": 1,
+      "n_rank_budget": 19,
+      "n_episodes": 1,
+      "n_pruned": 95,
+      "train_time": 0.332694899989292
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.1,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 6,
+      "extra": {}
+    },
+    "key": "M100000_lam0.10_r1.00_c1.00_L2_f1.000_prototype_structured_default_s6",
+    "metrics": {
+      "AA": 0.20833333333333334,
+      "bytes_used": 96896,
+      "n_rec_budget": 1,
+      "n_rank_budget": 19,
+      "n_episodes": 1,
+      "n_pruned": 95,
+      "train_time": 0.3064373999950476
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.1,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 7,
+      "extra": {}
+    },
+    "key": "M100000_lam0.10_r1.00_c1.00_L2_f1.000_prototype_structured_default_s7",
+    "metrics": {
+      "AA": 0.22916666666666666,
+      "bytes_used": 96896,
+      "n_rec_budget": 1,
+      "n_rank_budget": 19,
+      "n_episodes": 1,
+      "n_pruned": 95,
+      "train_time": 0.29363890003878623
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.1,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 8,
+      "extra": {}
+    },
+    "key": "M100000_lam0.10_r1.00_c1.00_L2_f1.000_prototype_structured_default_s8",
+    "metrics": {
+      "AA": 0.16666666666666666,
+      "bytes_used": 96896,
+      "n_rec_budget": 1,
+      "n_rank_budget": 19,
+      "n_episodes": 1,
+      "n_pruned": 95,
+      "train_time": 0.2901191000128165
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.1,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 9,
+      "extra": {}
+    },
+    "key": "M100000_lam0.10_r1.00_c1.00_L2_f1.000_prototype_structured_default_s9",
+    "metrics": {
+      "AA": 0.020833333333333332,
+      "bytes_used": 96896,
+      "n_rec_budget": 1,
+      "n_rank_budget": 19,
+      "n_episodes": 1,
+      "n_pruned": 95,
+      "train_time": 0.30315589997917414
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.3,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 3,
+      "extra": {}
+    },
+    "key": "M100000_lam0.30_r1.00_c1.00_L2_f1.000_prototype_structured_default_s3",
+    "metrics": {
+      "AA": 0.08333333333333333,
+      "bytes_used": 97152,
+      "n_rec_budget": 3,
+      "n_rank_budget": 15,
+      "n_episodes": 3,
+      "n_pruned": 93,
+      "train_time": 0.24850270000752062
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.3,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 4,
+      "extra": {}
+    },
+    "key": "M100000_lam0.30_r1.00_c1.00_L2_f1.000_prototype_structured_default_s4",
+    "metrics": {
+      "AA": 0.3958333333333333,
+      "bytes_used": 97152,
+      "n_rec_budget": 3,
+      "n_rank_budget": 15,
+      "n_episodes": 3,
+      "n_pruned": 93,
+      "train_time": 0.2429256000323221
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.3,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 5,
+      "extra": {}
+    },
+    "key": "M100000_lam0.30_r1.00_c1.00_L2_f1.000_prototype_structured_default_s5",
+    "metrics": {
+      "AA": 0.020833333333333332,
+      "bytes_used": 97152,
+      "n_rec_budget": 3,
+      "n_rank_budget": 15,
+      "n_episodes": 3,
+      "n_pruned": 93,
+      "train_time": 0.27643450000323355
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.3,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 6,
+      "extra": {}
+    },
+    "key": "M100000_lam0.30_r1.00_c1.00_L2_f1.000_prototype_structured_default_s6",
+    "metrics": {
+      "AA": 0.0625,
+      "bytes_used": 97152,
+      "n_rec_budget": 3,
+      "n_rank_budget": 15,
+      "n_episodes": 3,
+      "n_pruned": 93,
+      "train_time": 0.26013130001956597
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.3,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 7,
+      "extra": {}
+    },
+    "key": "M100000_lam0.30_r1.00_c1.00_L2_f1.000_prototype_structured_default_s7",
+    "metrics": {
+      "AA": 0.041666666666666664,
+      "bytes_used": 97152,
+      "n_rec_budget": 3,
+      "n_rank_budget": 15,
+      "n_episodes": 3,
+      "n_pruned": 93,
+      "train_time": 0.28272089996607974
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.3,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 8,
+      "extra": {}
+    },
+    "key": "M100000_lam0.30_r1.00_c1.00_L2_f1.000_prototype_structured_default_s8",
+    "metrics": {
+      "AA": 0.22916666666666666,
+      "bytes_used": 97152,
+      "n_rec_budget": 3,
+      "n_rank_budget": 15,
+      "n_episodes": 3,
+      "n_pruned": 93,
+      "train_time": 0.31583750003483146
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.3,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 9,
+      "extra": {}
+    },
+    "key": "M100000_lam0.30_r1.00_c1.00_L2_f1.000_prototype_structured_default_s9",
+    "metrics": {
+      "AA": 0.3333333333333333,
+      "bytes_used": 97152,
+      "n_rec_budget": 3,
+      "n_rank_budget": 15,
+      "n_episodes": 3,
+      "n_pruned": 93,
+      "train_time": 0.3258287000353448
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.5,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 3,
+      "extra": {}
+    },
+    "key": "M100000_lam0.50_r1.00_c1.00_L2_f1.000_prototype_structured_default_s3",
+    "metrics": {
+      "AA": 0.2708333333333333,
+      "bytes_used": 92800,
+      "n_rec_budget": 5,
+      "n_rank_budget": 10,
+      "n_episodes": 5,
+      "n_pruned": 91,
+      "train_time": 0.25964809994911775
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.5,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 4,
+      "extra": {}
+    },
+    "key": "M100000_lam0.50_r1.00_c1.00_L2_f1.000_prototype_structured_default_s4",
+    "metrics": {
+      "AA": 0.10416666666666667,
+      "bytes_used": 92800,
+      "n_rec_budget": 5,
+      "n_rank_budget": 10,
+      "n_episodes": 5,
+      "n_pruned": 91,
+      "train_time": 0.32989310001721606
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.5,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 5,
+      "extra": {}
+    },
+    "key": "M100000_lam0.50_r1.00_c1.00_L2_f1.000_prototype_structured_default_s5",
+    "metrics": {
+      "AA": 0.10416666666666667,
+      "bytes_used": 92800,
+      "n_rec_budget": 5,
+      "n_rank_budget": 10,
+      "n_episodes": 5,
+      "n_pruned": 91,
+      "train_time": 0.24987910001073033
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.5,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 6,
+      "extra": {}
+    },
+    "key": "M100000_lam0.50_r1.00_c1.00_L2_f1.000_prototype_structured_default_s6",
+    "metrics": {
+      "AA": 0.22916666666666666,
+      "bytes_used": 92800,
+      "n_rec_budget": 5,
+      "n_rank_budget": 10,
+      "n_episodes": 5,
+      "n_pruned": 91,
+      "train_time": 0.25196839997079223
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.5,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 7,
+      "extra": {}
+    },
+    "key": "M100000_lam0.50_r1.00_c1.00_L2_f1.000_prototype_structured_default_s7",
+    "metrics": {
+      "AA": 0.14583333333333334,
+      "bytes_used": 92800,
+      "n_rec_budget": 5,
+      "n_rank_budget": 10,
+      "n_episodes": 5,
+      "n_pruned": 91,
+      "train_time": 0.2379374000011012
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.5,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 8,
+      "extra": {}
+    },
+    "key": "M100000_lam0.50_r1.00_c1.00_L2_f1.000_prototype_structured_default_s8",
+    "metrics": {
+      "AA": 0.25,
+      "bytes_used": 92800,
+      "n_rec_budget": 5,
+      "n_rank_budget": 10,
+      "n_episodes": 5,
+      "n_pruned": 91,
+      "train_time": 0.22749080002540722
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.5,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 9,
+      "extra": {}
+    },
+    "key": "M100000_lam0.50_r1.00_c1.00_L2_f1.000_prototype_structured_default_s9",
+    "metrics": {
+      "AA": 0.08333333333333333,
+      "bytes_used": 92800,
+      "n_rec_budget": 5,
+      "n_rank_budget": 10,
+      "n_episodes": 5,
+      "n_pruned": 91,
+      "train_time": 0.23269790003541857
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.7,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 3,
+      "extra": {}
+    },
+    "key": "M100000_lam0.70_r1.00_c1.00_L2_f1.000_prototype_structured_default_s3",
+    "metrics": {
+      "AA": 0.0,
+      "bytes_used": 93056,
+      "n_rec_budget": 7,
+      "n_rank_budget": 6,
+      "n_episodes": 7,
+      "n_pruned": 89,
+      "train_time": 0.2065073999692686
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.7,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 4,
+      "extra": {}
+    },
+    "key": "M100000_lam0.70_r1.00_c1.00_L2_f1.000_prototype_structured_default_s4",
+    "metrics": {
+      "AA": 0.14583333333333334,
+      "bytes_used": 93056,
+      "n_rec_budget": 7,
+      "n_rank_budget": 6,
+      "n_episodes": 7,
+      "n_pruned": 89,
+      "train_time": 0.20788699999684468
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.7,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 5,
+      "extra": {}
+    },
+    "key": "M100000_lam0.70_r1.00_c1.00_L2_f1.000_prototype_structured_default_s5",
+    "metrics": {
+      "AA": 0.16666666666666666,
+      "bytes_used": 93056,
+      "n_rec_budget": 7,
+      "n_rank_budget": 6,
+      "n_episodes": 7,
+      "n_pruned": 89,
+      "train_time": 0.203055799996946
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.7,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 6,
+      "extra": {}
+    },
+    "key": "M100000_lam0.70_r1.00_c1.00_L2_f1.000_prototype_structured_default_s6",
+    "metrics": {
+      "AA": 0.16666666666666666,
+      "bytes_used": 93056,
+      "n_rec_budget": 7,
+      "n_rank_budget": 6,
+      "n_episodes": 7,
+      "n_pruned": 89,
+      "train_time": 0.24378159997286275
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.7,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 7,
+      "extra": {}
+    },
+    "key": "M100000_lam0.70_r1.00_c1.00_L2_f1.000_prototype_structured_default_s7",
+    "metrics": {
+      "AA": 0.375,
+      "bytes_used": 93056,
+      "n_rec_budget": 7,
+      "n_rank_budget": 6,
+      "n_episodes": 7,
+      "n_pruned": 89,
+      "train_time": 0.25309199996991083
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.7,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 8,
+      "extra": {}
+    },
+    "key": "M100000_lam0.70_r1.00_c1.00_L2_f1.000_prototype_structured_default_s8",
+    "metrics": {
+      "AA": 0.125,
+      "bytes_used": 93056,
+      "n_rec_budget": 7,
+      "n_rank_budget": 6,
+      "n_episodes": 7,
+      "n_pruned": 89,
+      "train_time": 0.251326700032223
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.7,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 9,
+      "extra": {}
+    },
+    "key": "M100000_lam0.70_r1.00_c1.00_L2_f1.000_prototype_structured_default_s9",
+    "metrics": {
+      "AA": 0.125,
+      "bytes_used": 93056,
+      "n_rec_budget": 7,
+      "n_rank_budget": 6,
+      "n_episodes": 7,
+      "n_pruned": 89,
+      "train_time": 0.2508716000011191
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.9,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 3,
+      "extra": {}
+    },
+    "key": "M100000_lam0.90_r1.00_c1.00_L2_f1.000_prototype_structured_default_s3",
+    "metrics": {
+      "AA": 0.2916666666666667,
+      "bytes_used": 93312,
+      "n_rec_budget": 9,
+      "n_rank_budget": 2,
+      "n_episodes": 9,
+      "n_pruned": 87,
+      "train_time": 0.25615560001460835
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.9,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 4,
+      "extra": {}
+    },
+    "key": "M100000_lam0.90_r1.00_c1.00_L2_f1.000_prototype_structured_default_s4",
+    "metrics": {
+      "AA": 0.14583333333333334,
+      "bytes_used": 93312,
+      "n_rec_budget": 9,
+      "n_rank_budget": 2,
+      "n_episodes": 9,
+      "n_pruned": 87,
+      "train_time": 0.21755649999249727
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.9,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 5,
+      "extra": {}
+    },
+    "key": "M100000_lam0.90_r1.00_c1.00_L2_f1.000_prototype_structured_default_s5",
+    "metrics": {
+      "AA": 0.14583333333333334,
+      "bytes_used": 93312,
+      "n_rec_budget": 9,
+      "n_rank_budget": 2,
+      "n_episodes": 9,
+      "n_pruned": 87,
+      "train_time": 0.1675923999864608
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.9,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 6,
+      "extra": {}
+    },
+    "key": "M100000_lam0.90_r1.00_c1.00_L2_f1.000_prototype_structured_default_s6",
+    "metrics": {
+      "AA": 0.14583333333333334,
+      "bytes_used": 93312,
+      "n_rec_budget": 9,
+      "n_rank_budget": 2,
+      "n_episodes": 9,
+      "n_pruned": 87,
+      "train_time": 0.15888410003390163
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.9,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 7,
+      "extra": {}
+    },
+    "key": "M100000_lam0.90_r1.00_c1.00_L2_f1.000_prototype_structured_default_s7",
+    "metrics": {
+      "AA": 0.10416666666666667,
+      "bytes_used": 93312,
+      "n_rec_budget": 9,
+      "n_rank_budget": 2,
+      "n_episodes": 9,
+      "n_pruned": 87,
+      "train_time": 0.14782900002319366
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.9,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 8,
+      "extra": {}
+    },
+    "key": "M100000_lam0.90_r1.00_c1.00_L2_f1.000_prototype_structured_default_s8",
+    "metrics": {
+      "AA": 0.08333333333333333,
+      "bytes_used": 93312,
+      "n_rec_budget": 9,
+      "n_rank_budget": 2,
+      "n_episodes": 9,
+      "n_pruned": 87,
+      "train_time": 0.16221739997854456
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 0.9,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 2,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 9,
+      "extra": {}
+    },
+    "key": "M100000_lam0.90_r1.00_c1.00_L2_f1.000_prototype_structured_default_s9",
+    "metrics": {
+      "AA": 0.0,
+      "bytes_used": 93312,
+      "n_rec_budget": 9,
+      "n_rank_budget": 2,
+      "n_episodes": 9,
+      "n_pruned": 87,
+      "train_time": 0.1512677000137046
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 1.0,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 1,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 3,
+      "extra": {}
+    },
+    "key": "M100000_lam1.00_r1.00_c1.00_L1_f1.000_prototype_structured_default_s3",
+    "metrics": {
+      "AA": 0.5,
+      "bytes_used": 93440,
+      "n_rec_budget": 10,
+      "n_rank_budget": 64,
+      "n_episodes": 10,
+      "n_pruned": 86,
+      "train_time": 1.2023959000362083
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 1.0,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 1,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 4,
+      "extra": {}
+    },
+    "key": "M100000_lam1.00_r1.00_c1.00_L1_f1.000_prototype_structured_default_s4",
+    "metrics": {
+      "AA": 0.4583333333333333,
+      "bytes_used": 93440,
+      "n_rec_budget": 10,
+      "n_rank_budget": 64,
+      "n_episodes": 10,
+      "n_pruned": 86,
+      "train_time": 1.160830300010275
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 1.0,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 1,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 5,
+      "extra": {}
+    },
+    "key": "M100000_lam1.00_r1.00_c1.00_L1_f1.000_prototype_structured_default_s5",
+    "metrics": {
+      "AA": 0.3541666666666667,
+      "bytes_used": 93440,
+      "n_rec_budget": 10,
+      "n_rank_budget": 64,
+      "n_episodes": 10,
+      "n_pruned": 86,
+      "train_time": 1.1899970000376925
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 1.0,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 1,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 6,
+      "extra": {}
+    },
+    "key": "M100000_lam1.00_r1.00_c1.00_L1_f1.000_prototype_structured_default_s6",
+    "metrics": {
+      "AA": 0.4583333333333333,
+      "bytes_used": 93440,
+      "n_rec_budget": 10,
+      "n_rank_budget": 64,
+      "n_episodes": 10,
+      "n_pruned": 86,
+      "train_time": 1.0723616000032052
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 1.0,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 1,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 7,
+      "extra": {}
+    },
+    "key": "M100000_lam1.00_r1.00_c1.00_L1_f1.000_prototype_structured_default_s7",
+    "metrics": {
+      "AA": 0.625,
+      "bytes_used": 93440,
+      "n_rec_budget": 10,
+      "n_rank_budget": 64,
+      "n_episodes": 10,
+      "n_pruned": 86,
+      "train_time": 1.1858602999709547
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 1.0,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 1,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 8,
+      "extra": {}
+    },
+    "key": "M100000_lam1.00_r1.00_c1.00_L1_f1.000_prototype_structured_default_s8",
+    "metrics": {
+      "AA": 0.3333333333333333,
+      "bytes_used": 93440,
+      "n_rec_budget": 10,
+      "n_rank_budget": 64,
+      "n_episodes": 10,
+      "n_pruned": 86,
+      "train_time": 1.0355072999955155
+    }
+  },
+  {
+    "config": {
+      "total_bytes": 100000,
+      "lam": 1.0,
+      "replay_budget": 1.0,
+      "consol_budget": 1.0,
+      "layers": 1,
+      "comp_fidelity": 1.0,
+      "comp_strategy": "prototype",
+      "event_structure": "structured",
+      "task_order": "default",
+      "seed": 9,
+      "extra": {}
+    },
+    "key": "M100000_lam1.00_r1.00_c1.00_L1_f1.000_prototype_structured_default_s9",
+    "metrics": {
+      "AA": 0.4166666666666667,
+      "bytes_used": 93440,
+      "n_rec_budget": 10,
+      "n_rank_budget": 64,
+      "n_episodes": 10,
+      "n_pruned": 86,
+      "train_time": 1.1540837999782525
+    }
+  }
+]
